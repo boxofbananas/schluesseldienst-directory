@@ -1,0 +1,67 @@
+# Ergänzungen des Verzeichnis-Baukastens zur harten Verbotsliste der Skill-Datei
+# (skills/seo-content-engine/references/forbidden_words.txt).
+# Gleiches Format: [WORDS] ganzes Wort, [PHRASES] Teilzeichenfolge, Groß- und Kleinschreibung
+# spielt keine Rolle. Ein Eintrag je Zeile, kein Fließtext.
+# Verglichen wird umlauttolerant (lint_copy.fold): „zuverlässig" findet auch „zuverlaessig".
+#
+# Diese Liste ersetzt die englische. Sie enthält zwei Gruppen:
+#   1. deutsche Werbefloskeln, an denen Verzeichnistexte als Textbaustein erkennbar werden
+#   2. Behauptungen über eine Zulassung. Schlüsseldienst ist in Deutschland KEIN
+#      zulassungspflichtiges Handwerk (Anlage A der Handwerksordnung). Es gibt keine Lizenz,
+#      keine Zulassung und keine Meisterpflicht. Kein Text darf „lizenziert", „zugelassen",
+#      „zertifiziert" oder „geprüfter Meisterbetrieb" behaupten, auch nicht abgeschwächt.
+#      Siehe wiki/konventionen.md und scripts/enrichment-instructions.md.
+
+[WORDS]
+lizenziert
+lizensiert
+zugelassen
+zertifiziert
+zertifizierter
+amtlich
+behördlich
+unschlagbar
+rundumservice
+spitzenqualität
+testsieger
+marktführer
+preisbrecher
+bestpreis
+blitzschnell
+kinderleicht
+weltklasse
+hochmodern
+seriös
+spottbillig
+günstigster
+billigster
+bestbewertet
+
+[PHRASES]
+rund um die Uhr für Sie da
+immer für Sie da
+kompetent und zuverlässig
+schnell und zuverlässig
+zuverlässig und günstig
+Ihr Partner für
+Ihr zuverlässiger Partner
+Ihr Spezialist für
+Ihr Experte für
+seriös und fair
+fair und transparent
+100 % zufrieden
+100 Prozent zufrieden
+geprüfter Meisterbetrieb
+zertifizierter Meisterbetrieb
+staatlich geprüft
+alles aus einer Hand
+in guten Händen
+bestens aufgehoben
+darauf können Sie sich verlassen
+kein Problem für uns
+wir sind für Sie da
+der beste Schlüsseldienst
+die Nummer 1
+erste Adresse für
+Qualität zu fairen Preisen
+keine Wünsche offen

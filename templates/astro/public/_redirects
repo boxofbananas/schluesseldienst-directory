@@ -1,0 +1,16 @@
+/firma /verzeichnis/ 301
+/firma/ /verzeichnis/ 301
+/firma/:bundesland/ /verzeichnis/:bundesland/ 301
+/firma/:bundesland/:stadt/ /verzeichnis/:bundesland/:stadt/ 301
+/directory/* /verzeichnis/:splat 301
+/company/* /firma/:splat 301
+/services/* /leistungen/:splat 301
+/badge/* /auszeichnung/:splat 301
+/claim/ /eintrag-beanspruchen/ 301
+/featured/ /premium/ 301
+/about/ /ueber-uns/ 301
+/contact/ /kontakt/ 301
+/privacy/ /datenschutz/ 301
+/terms/ /agb/ 301
+/search/ /suche/ 301
+/resources/* /ratgeber/:splat 301

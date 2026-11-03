@@ -1,0 +1,16 @@
+---
+// Verzeichnis der Ratgeberseiten. Wird auch leer gebaut, damit der Link im Fußbereich nie ins Leere
+// führt, sobald eine Seite existiert.
+import Base from '../../layouts/Base.astro';
+import { loadDirectory, fmtDate } from '../../lib/load.mjs';
+const { site } = loadDirectory();
+const mods = import.meta.glob('./*.md', { eager: true });
+// Dateien, die mit einem Unterstrich beginnen, sind Beispiele und werden nicht gebaut.
+const pages = Object.entries(mods).filter(([f]) => !f.split('/').pop().startsWith('_')).map(([, m]) => m).map((m) => ({ url: m.url + '/', ...m.frontmatter })).sort((a, b) => String(b.published || '').localeCompare(String(a.published || '')));
+---
+<Base title={`Ratgeber | ${site.brand}`} description={`Ratgeber und Nachschlageseiten zu ${site.niche.plural} in ${site.country.name}.`} path="/ratgeber/" noindex={pages.length === 0}>
+  <Fragment slot="head">
+    <h1>Ratgeber</h1>
+  </Fragment>
+  {pages.length === 0 ? <p>Hier steht noch nichts.</p> : <ul>{pages.map((pg) => <li><a href={pg.url}>{pg.title}</a> <span class="meta">{fmtDate(pg.published)}</span></li>)}</ul>}
+</Base>

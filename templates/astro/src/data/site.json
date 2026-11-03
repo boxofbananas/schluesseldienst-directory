@@ -1,0 +1,143 @@
+{
+  "brand": "Die besten Schlüsseldienste",
+  "domain": "die-besten-schluesseldienste.de",
+  "tagline": "Alle Schlüsseldienste in Deutschland, mit Preisangabe, Bewertungen und Prüfsiegel.",
+  "niche": {
+    "singular": "Schlüsseldienst",
+    "plural": "Schlüsseldienste",
+    "title": "Schlüsseldienste",
+    "mapsCategory": "locksmith",
+    "schemaType": "Locksmith"
+  },
+  "country": {
+    "name": "Deutschland",
+    "code": "DE"
+  },
+  "launchDate": "2026-11-03",
+  "publisher": {
+    "name": "DOM Holding GmbH",
+    "url": "https://domholdinggmbh.de",
+    "email": "info@domholdinggmbh.de",
+    "phone": "",
+    "image": "",
+    "bio": "Die DOM Holding GmbH mit Sitz in Schwaig bei Nürnberg gibt dieses Verzeichnis heraus. Wir tragen Firmendaten aus öffentlichen Quellen zusammen, ordnen sie nach Bundesland und Stadt und prüfen auf Antrag die Angaben einzelner Betriebe an Unterlagen und Website. Grundlage der Prüfung sind Selbstauskunft und Unterlagen, kein Test vor Ort.",
+    "legalName": "DOM Holding GmbH",
+    "street": "Anton-Bruckner-Straße 8",
+    "postalCode": "90571",
+    "city": "Schwaig bei Nürnberg",
+    "managingDirector": "Daniel Merz",
+    "register": "HRB 43586",
+    "registerCourt": "Amtsgericht Nürnberg",
+    "vatId": "OFFEN_USTIDNR",
+    "sameAs": [],
+    "videoEmbed": ""
+  },
+  "contact": {
+    "email": "info@domholdinggmbh.de",
+    "formEndpoint": "https://formspree.io/f/FORMULAR_ID"
+  },
+  "tiers": {
+    "premium": {
+      "price": "97 € im Jahr",
+      "link": "STRIPE_LINK_PREMIUM"
+    },
+    "bestOf": {
+      "price": "250 € einmalig",
+      "link": "STRIPE_LINK_BESTOF"
+    },
+    "city": {
+      "price": "29 € im Monat",
+      "link": "STRIPE_LINK_CITY"
+    },
+    "county": {
+      "price": "",
+      "link": ""
+    },
+    "state": {
+      "price": "",
+      "link": ""
+    }
+  },
+  "design": {
+    "inspiredBy": "Die Gestaltungsmarken sind unverändert die der Vorlage (wiki/framework/master-template.md, festgelegt am 30.09.2026): Navy, Bernstein als Handlungsfarbe, Roboto Slab und Roboto.",
+    "bg": "#FFFFFF",
+    "surface": "#F5F6F8",
+    "text": "#325C68",
+    "heading": "#0B2545",
+    "headingWeight": 800,
+    "muted": "#4F6B74",
+    "accent": "#024B6D",
+    "accentText": "#FFFFFF",
+    "link": "#126665",
+    "action": "#F5A623",
+    "actionText": "#0B2545",
+    "band": "#0B2545",
+    "bandText": "#FFFFFF",
+    "headingFont": "\"Roboto Slab\", Georgia, serif",
+    "bodyFont": "\"Roboto\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+    "radius": "8px",
+    "buttonRadius": "8px",
+    "shadow": "0 2px 5px rgba(0,0,0,0.05), 0 1px 2px rgba(0,0,0,0.08)",
+    "logoText": "Die besten Schlüsseldienste",
+    "headerBg": "#0B2545",
+    "headerText": "#FFFFFF",
+    "bandSoft": "#C9D6E3",
+    "tint": "#E6F2F4",
+    "accent2": "#8FD8DC",
+    "bandOverlay": "rgba(11,37,69,0.78)",
+    "gold": "#F5B940"
+  },
+  "cityFloor": 3,
+  "maxCardsPerCity": 60,
+  "faq": [
+    {
+      "q": "Wie kommen die Betriebe in dieses Verzeichnis?",
+      "a": "Aus öffentlich zugänglichen Quellen. Wir führen Betriebe des Schlüsseldienst-Gewerbes, die geöffnet sind und öffentliche Bewertungen haben. Ein Eintrag ist kostenlos und entsteht ohne Zutun des Betriebs. Wer nicht geführt werden möchte, teilt uns das mit und wird entfernt."
+    },
+    {
+      "q": "Was bedeutet das Siegel „Geprüfter Schlüsseldienst“?",
+      "a": "Dass wir sechs nachlesbare Punkte geprüft haben: vollständiges Impressum, erreichbare Telefonnummer, Preisangabe auf der Website, mindestens zehn Bewertungen bei einem Schnitt von 4,0, kein anonymes Callcenter und ein unterschriebenes Serviceversprechen. Grundlage sind Selbstauskunft und Unterlagen, kein Test vor Ort. Die Prüfung ist kostenlos, das Siegel nicht käuflich."
+    },
+    {
+      "q": "Kostet ein Eintrag Geld?",
+      "a": "Nein. Der Eintrag ist kostenlos und bleibt kostenlos. Geld kostet nur Sichtbarkeit: ein hervorgehobener Eintrag, ein Platz oben auf einer Stadtseite, Bilder. Diese Plätze sind gekennzeichnet."
+    },
+    {
+      "q": "Was darf eine Türöffnung kosten?",
+      "a": "Das hängt von Schloss, Tageszeit und Anfahrt ab, deshalb nennen wir hier keine Zahl. Entscheidend ist, dass Ihnen der Preis genannt wird, bevor gearbeitet wird, und dass er dann gilt. Genau darauf verpflichten sich die Betriebe mit unserem Siegel. Lassen Sie sich den Preis am Telefon nennen und fragen Sie ausdrücklich nach Zuschlägen für Anfahrt, Nacht und Wochenende."
+    },
+    {
+      "q": "Vermittelt dieses Verzeichnis Aufträge?",
+      "a": "Nein. Sie rufen den Betrieb direkt an. Wir nehmen keine Vermittlungsgebühr und verkaufen keine Anfragen weiter."
+    }
+  ],
+  "sortAttribute": "",
+  "foldMaxKm": 40,
+  "cityFilter": false,
+  "vetting": [
+    "Die Einträge stammen aus öffentlich zugänglichen Quellen, vor allem aus Google Maps und den Websites der Betriebe selbst.",
+    "Wir entfernen Einträge ohne Bewertungen, dauerhaft geschlossene Betriebe und Mehrfacheinträge derselben Adresse.",
+    "Was ein Betrieb anbietet, lesen wir auf seiner eigenen Website nach. Wo sich etwas nicht belegen lässt, steht es nicht im Eintrag.",
+    "Das Siegel „Geprüfter Schlüsseldienst“ vergeben wir nur nach Antrag und Prüfung von sechs nachlesbaren Punkten. Es ist kostenlos und nicht käuflich.",
+    "Bezahlte Plätze sind als bezahlt gekennzeichnet und verändern die Angaben zu einem Betrieb nicht.",
+    "Angaben können veraltet sein. Jeder Betrieb kann seinen Eintrag korrigieren oder entfernen lassen; eine E-Mail genügt."
+  ],
+  "countryIntro": [],
+  "regionIntro": [],
+  "guide": [],
+  "aboutWhy": [
+    "Die besten Schlüsseldienste ist ein Branchenverzeichnis für ein Gewerbe, das ein Vertrauensproblem hat. Wer nachts vor einer zugefallenen Tür steht, sucht unter Druck und nimmt den ersten Treffer. Genau das nutzen einzelne Anbieter aus — mit Lockpreisen am Telefon und einer Rechnung vor Ort, die ein Vielfaches beträgt. Darunter leiden die Betriebe, die ordentlich arbeiten, am meisten, weil man sie vorher nicht von den anderen unterscheiden kann.",
+    "Dieses Verzeichnis führt deshalb erstens möglichst alle Betriebe, damit man überhaupt vergleichen kann, und zweitens ein Prüfsiegel, das einen Teil des Unterschieds sichtbar macht: Steht ein vollständiges Impressum auf der Website? Wird ein Preis genannt? Geht der Anruf an den Betrieb oder an eine anonyme Vermittlung? Legt der Betrieb sich auf einen Festpreis vor Arbeitsbeginn fest? Das sind Fragen, die man überprüfen kann, und nur solche prüfen wir.",
+    "Zur Offenlegung, weil es dazugehört: Zum Unternehmen des Herausgebers gehören auch eigene Betriebe des Schlüsseldienst-Gewerbes. Diese sind in diesem Verzeichnis wie jeder andere Betrieb geführt — mit denselben Angaben, nach denselben Regeln sortiert, und bezahlte Plätze kosten für sie dasselbe wie für alle anderen."
+  ],
+  "heroPoints": [
+    "Betriebe aus ganz Deutschland, nach Stadt sortiert",
+    "Geprüfte Betriebe erkennbar am Siegel mit Jahreszahl",
+    "Kostenloser Eintrag, bezahlte Plätze sind gekennzeichnet"
+  ],
+  "footerAbout": "Die besten Schlüsseldienste ist ein privates Branchenverzeichnis der DOM Holding GmbH. Wir sind keine Behörde, keine Kammer und kein Verband.",
+  "disclaimer": "Die Angaben auf dieser Seite stammen aus öffentlichen Quellen und sind kein Urteil über die Arbeit eines Betriebs. Bewertungen und Bewertungszahlen geben den Stand zum Zeitpunkt der letzten Aktualisierung wieder. Ein Eintrag ohne Siegel bedeutet nicht, dass der Betrieb eine Prüfung nicht bestehen würde — die meisten haben noch keine beantragt.",
+  "featuredPreview": false,
+  "confirmedLabel": "geprüft",
+  "mailWorker": false
+}

@@ -1,0 +1,374 @@
+#!/usr/bin/env python3
+"""
+lint_copy.py, das Textgate für Gate 5 des Verzeichnis-Baukastens, deutsche Fassung.
+
+Führt die Prüfungen des Linters aus skills/seo-content-engine auf den **kurzen** Texten aus, die
+die Skill selbst nicht schreibt: die Stadtblöcke und FAQs in city-copy.json, die Blöcke „Über uns"
+und Ratgeber in den .astro-Seiten und jede Markdown-Datei. Keine Abfrage bei DataForSEO, nur
+Standardbibliothek.
+
+Aufruf:
+    python3 scripts/lint_copy.py output/<slug>/site/src/data/city-copy.json --niche "Schlüsseldienste"
+    python3 scripts/lint_copy.py output/<slug>/site/src/pages/ueber-uns.astro --min-words 300 --max-words 500
+    python3 scripts/lint_copy.py output/<slug>/site/src/pages/index.astro --min-words 800 --max-words 1200 --niche "Schlüsseldienste"
+    python3 scripts/lint_copy.py output/<slug>/site/src/pages/ratgeber/<slug>.md --min-words 1200 --niche "..."
+    --json für maschinenlesbare Ausgabe
+
+    python3 scripts/lint_copy.py output/<slug>/site/dist/index.html --min-words 800 --max-words 1200 --niche "Schlüsseldienste"
+
+Eine gebaute .html-Seite wird auf dem Text innerhalb von <main> geprüft: auf dem, was der Besucher
+liest, einschließlich der Texte aus site.json und den Daten. Dieser Weg ist dem .astro-Quelltext
+vorzuziehen, sobald eine Seite Texte aus Daten zieht.
+
+Eine .astro-Seite wird als Ganzes geprüft (ihre festen Absätze plus der Block aus Gate 5), die
+Wortspanne ist also die Seitenspanne aus wiki/framework/page-types.md, nicht die Blockspanne.
+
+Mit --city-sizes (eine JSON-Datei, die city_slug auf die Zahl der Einträge abbildet) bekommt jede
+Stadtseite die Spanne ihrer Größenklasse aus wiki/framework/page-types.md: 500 bis 800 Wörter und
+4 bis 6 FAQs ab 10 Einträgen, 380 bis 800 bei 5 bis 9, 250 bis 800 bei 3 oder 4, und auf einer
+Kleinstadtseite (1 oder 2 Einträge, über foldMaxKm gehalten) 120 bis 800 Wörter und 2 bis 6 FAQs.
+Der Bericht markiert jede Seite unter 10 Einträgen als kleine Stadt. Ohne --city-sizes braucht jede
+Stadt 500 Wörter und 4 FAQs. check_city_copy.py liest dieselben Klassen aus den Spannenzeilen der
+Pakete und verwendet faq_band() aus dieser Datei, damit beide Prüfungen übereinstimmen.
+
+Deutsche Besonderheiten dieser Fassung:
+- **Wortzählung:** Umlaute, ß und zusammengesetzte Wörter mit Bindestrich zählen richtig.
+  „Schlüsseldienst" ist ein Wort, „Schlüssel-Notdienst" ebenfalls. Die englische Zählung über
+  [A-Za-z0-9]+ hätte aus jedem Wort mit Umlaut zwei gemacht.
+- **Lesbarkeit:** Flesch-Lesbarkeitsindex in der deutschen Anpassung nach Amstad
+  (180 - Satzlänge - 58,5 × Silben je Wort; höher ist leichter, etwa 60 bis 70 bei
+  Gebrauchsprosa). Dazu der Anteil der Wörter mit drei Silben und mehr. Beides wird nur
+  **berichtet**, nicht erzwungen (Regel der Skill).
+- **Verbotene Wörter** werden umlauttolerant verglichen (ä/ae, ö/oe, ü/ue, ß/ss), damit
+  „zuverlässig" auch „zuverlaessig" findet.
+
+Prüfungen je Stadtblock: Wortspanne und FAQ-Zahl der Größenklasse, jede FAQ-Antwort 20 bis 120
+Wörter, die Branchenbezeichnung im ersten Absatz, keine verbotenen Wörter oder Wendungen (die
+Liste der Skill plus scripts/copy-bans.txt), keine Gedankenstriche. Beendet mit 1, sobald eine
+Prüfung durchfällt: prüfen, beheben, erneut prüfen.
+"""
+
+import argparse
+import json
+import os
+import re
+import sys
+import unicodedata
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(HERE)
+SKILL_SCRIPTS = os.path.join(ROOT, "skills", "seo-content-engine", "scripts")
+SKILL_FORBIDDEN = os.path.join(ROOT, "skills", "seo-content-engine", "references", "forbidden_words.txt")
+LOCAL_BANS = os.path.join(HERE, "copy-bans.txt")
+
+sys.path.insert(0, SKILL_SCRIPTS)
+try:
+    import lint_article as la  # noqa: E402
+except ImportError:
+    print(f"FEHLER: die Skill seo-content-engine fehlt unter {SKILL_SCRIPTS}. Entpacken Sie den Baukasten erneut.")
+    sys.exit(2)
+
+CITY_WORDS = (500, 800)
+TOWN_WORDS = (120, 800)     # Kleinstadtseite mit 1 oder 2 Einträgen, über foldMaxKm gehalten (page-types)
+FAQ_COUNT = (4, 6)
+TOWN_FAQ_COUNT = (2, 6)     # dieselbe Seite: zwei ehrliche Fragen sind besser als vier aufgefüllte
+FAQ_ANSWER_WORDS = (20, 120)
+
+UMLAUTE = (("ä", "ae"), ("ö", "oe"), ("ü", "ue"), ("ß", "ss"),
+           ("Ä", "Ae"), ("Ö", "Oe"), ("Ü", "Ue"))
+
+# Ein deutsches Wort: Buchstaben mit Umlauten und ß, Ziffern, und durchgekoppelte
+# Zusammensetzungen bleiben ein Wort (Schlüssel-Notdienst, 24-Stunden-Notdienst).
+WORD = re.compile(r"[0-9A-Za-zÄÖÜäöüßÀ-ÿ]+(?:[-'’][0-9A-Za-zÄÖÜäöüßÀ-ÿ]+)*")
+VOWELS = "aeiouyäöü"
+# Deutsche Doppellaute, die eine Silbe bilden.
+DIPHTHONGS = ("eau", "äu", "au", "ei", "ai", "eu", "ie", "oi", "ui")
+
+
+def fold_text(s):
+    """Vergleichsform eines Textes: Kleinbuchstaben, Umlaute umgeschrieben (ä/ae, ö/oe, ü/ue,
+    ß/ss), übrige Akzente entfernt. Satzzeichen und Leerzeichen bleiben, damit Wortgrenzen (\\b)
+    weiter gelten."""
+    s = s or ""
+    for a, b in UMLAUTE:
+        s = s.replace(a, b)
+    s = s.lower()
+    s = unicodedata.normalize("NFKD", s)
+    return "".join(ch for ch in s if not unicodedata.combining(ch))
+
+
+def fold_pattern(p):
+    """Dasselbe für eine Mustervorlage, aber **ohne** Kleinschreibung: ein `\\D` darf nicht zu
+    `\\d` werden. Groß- und Kleinschreibung erledigt re.I."""
+    for a, b in UMLAUTE:
+        p = p.replace(a, b)
+    return p
+
+
+def load_bans():
+    words, phrases = la.load_forbidden(SKILL_FORBIDDEN)
+    w2, p2 = la.load_forbidden(LOCAL_BANS)
+    return words + w2, phrases + p2
+
+
+def count_words(text):
+    """Wörter zählen, deutsch: Umlaute und ß gehören zum Wort, eine Zusammensetzung mit Bindestrich
+    ist ein Wort."""
+    return len(WORD.findall(text or ""))
+
+
+def count_syllables(word):
+    """Näherung für die Silbenzahl eines deutschen Wortes: Vokalgruppen zählen, Doppellaute als
+    eine Silbe. Für einen Lesbarkeitsindex genügt eine über den ganzen Text stabile Schätzung."""
+    w = fold_text(word)
+    w = re.sub(r"[^a-z]", "", w)
+    if not w:
+        return 0
+    # Doppellaute vorweg durch einen einzelnen Vokal ersetzen, damit sie eine Silbe ergeben.
+    w = w.replace("ae", "ä").replace("oe", "ö").replace("ue", "ü")
+    for d in DIPHTHONGS:
+        w = w.replace(d, "a")
+    return max(len(re.findall(r"[aeiouyäöü]+", w)), 1)
+
+
+def readability_de(text):
+    """Flesch-Lesbarkeitsindex in der deutschen Anpassung nach Amstad:
+    180 - Wörter je Satz - 58,5 × Silben je Wort. Höher ist leichter zu lesen; Gebrauchsprosa
+    liegt etwa bei 60 bis 70. Nur ein Bericht, kein Gate."""
+    sentences = [s for s in re.split(r"[.!?]+", text or "") if s.strip()]
+    words = WORD.findall(text or "")
+    if not sentences or not words:
+        return 0.0, 0.0
+    syll = [count_syllables(w) for w in words]
+    index = 180 - (len(words) / len(sentences)) - 58.5 * (sum(syll) / len(words))
+    hard = sum(1 for n in syll if n >= 3) / len(words)
+    return round(index, 1), round(hard * 100, 1)
+
+
+def find_words(prose, words):
+    """Verbotene ganze Wörter, umlauttolerant verglichen. Rückgabe wie bei der Skill:
+    {Wort: Anzahl}, der Schlüssel in der Schreibweise der Verbotsliste."""
+    hits = {}
+    low = fold_text(prose)
+    for w in words:
+        n = len(re.findall(r"\b" + re.escape(fold_text(w)) + r"\b", low))
+        if n:
+            hits[w] = n
+    return hits
+
+
+def find_phrases(prose, phrases):
+    """Verbotene Wendungen, umlauttolerant und mit bis zu sechs Füllwörtern zwischen den Teilen,
+    damit „Ihr zuverlässiger Partner für" als „Ihr Partner für" erkannt wird."""
+    hits = {}
+    low = fold_text(prose)
+    for p in phrases:
+        parts = [re.escape(tok) for tok in fold_text(p).split()]
+        if not parts:
+            continue
+        if len(parts) == 1:
+            pattern = r"\b" + parts[0] + r"\b"
+        else:
+            pattern = r"\b" + r"\W+(?:\w+\W+){0,6}?".join(parts) + r"\b"
+        n = len(re.findall(pattern, low))
+        if n:
+            hits[p] = n
+    return hits
+
+
+def astro_to_text(raw):
+    """Nur den lesbaren Text einer .astro-Seite behalten: Frontmatter, Tags, Kommentare und
+    Vorlagenausdrücke fallen weg."""
+    raw = re.sub(r"^---.*?---", "", raw, count=1, flags=re.S)
+    raw = re.sub(r"<!--.*?-->", "", raw, flags=re.S)
+    raw = re.sub(r"\{[^{}]*\}", " ", raw)
+    raw = re.sub(r"</?(p|h[1-6]|li|section|div|br)[^>]*>", "\n\n", raw)
+    raw = re.sub(r"<[^>]+>", "", raw)
+    return raw
+
+
+def html_to_text(raw):
+    """Eine gebaute Seite aus dist/: den Text innerhalb von <main> behalten, also das, was der
+    Besucher liest. Kopf, Fuß, Skripte, Stile und JSON-LD bleiben außen vor."""
+    # Der Seitenkopf (H1, Vorspann) steht in einem eigenen Band über <main> und gehört zum Text.
+    m = re.search(r'(<div class="page-head.*?)?<main[^>]*>(.*?)</main>', raw, flags=re.S)
+    raw = ((m.group(1) or "") + m.group(2)) if m else raw
+    raw = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", raw, flags=re.S)
+    # Eine Seite kann einen Block, der kein Text ist (das Städteverzeichnis), mit copy:skip ausnehmen.
+    raw = re.sub(r"<!-- copy:skip -->.*?<!-- /copy:skip -->", " ", raw, flags=re.S)
+    raw = re.sub(r"<!--.*?-->", "", raw, flags=re.S)
+    # Navigation ist kein Text: Brotkrumen und Listen von Stadtlinks zählen nicht mit.
+    raw = re.sub(r"<nav[^>]*>.*?</nav>", " ", raw, flags=re.S)
+    raw = re.sub(r'<ul class="city-grid"[^>]*>.*?</ul>', " ", raw, flags=re.S)
+    raw = re.sub(r"</?(p|h[1-6]|li|section|div|br|dt|dd|article|aside|ul|ol|dl)[^>]*>", "\n\n", raw)
+    raw = re.sub(r"<[^>]+>", "", raw)
+    for ent, ch in (("&amp;", "&"), ("&quot;", '"'), ("&#39;", "'"), ("&lt;", "<"), ("&gt;", ">"),
+                    ("&nbsp;", " "), ("&auml;", "ä"), ("&ouml;", "ö"), ("&uuml;", "ü"), ("&szlig;", "ß"),
+                    ("&Auml;", "Ä"), ("&Ouml;", "Ö"), ("&Uuml;", "Ü"), ("&euro;", "€")):
+        raw = raw.replace(ent, ch)
+    return raw
+
+
+def md_to_text(raw):
+    raw = re.sub(r"^---.*?---", "", raw, count=1, flags=re.S)
+    return la.strip_markdown(raw)
+
+
+def check_prose(prose, words, phrases, niche=None, band=None, label=""):
+    """Gemeinsame Prüfungen für einen Textblock. Rückgabe (gates, report)."""
+    wc = count_words(prose)
+    word_hits = find_words(prose, words)
+    phrase_hits = find_phrases(prose, phrases)
+    em_dashes = prose.count("—") + prose.count("–") + prose.count(" -- ")
+    first_para = next((p for p in re.split(r"\n\s*\n", prose) if p.strip()), "")
+    index, hard = readability_de(prose)
+    gates = {
+        "keine_verbotenen_woerter": not word_hits,
+        "keine_verbotenen_wendungen": not phrase_hits,
+        "keine_gedankenstriche": em_dashes == 0,
+    }
+    if band:
+        gates["in_der_wortspanne"] = band[0] <= wc <= band[1]
+    if niche:
+        gates["branche_im_ersten_absatz"] = fold_text(niche) in fold_text(first_para)
+    report = {
+        "label": label,
+        "words": wc,
+        "lesbarkeit": index,
+        "schwere_woerter_prozent": hard,
+        "forbidden_words": word_hits,
+        "forbidden_phrases": phrase_hits,
+        "em_dashes": em_dashes,
+        "gates": gates,
+    }
+    return gates, report
+
+
+def city_band(n):
+    """Wortspanne nach der Zahl der Einträge auf der Stadtseite (die Größenklassen aus
+    page-types.md). Eine Seite mit drei Einträgen trägt keine 500 ehrlichen Wörter, kleine Städte
+    bekommen deshalb eine niedrigere Untergrenze statt Füllmaterial."""
+    if n is None or n >= 10:
+        return CITY_WORDS
+    return TOWN_WORDS if n < 3 else (250, CITY_WORDS[1]) if n < 5 else (380, CITY_WORDS[1])
+
+
+def faq_band(band):
+    """Die FAQ-Zahl zur Wortspanne: eine Kleinstadtseite (Untergrenze 120) trägt 2 bis 6, jede
+    andere Stadtseite 4 bis 6. check_city_copy.py ruft das mit der Spanne aus dem Paket auf."""
+    return TOWN_FAQ_COUNT if band[0] < 250 else FAQ_COUNT
+
+
+def lint_city_copy(path, niche, words, phrases, sizes=None):
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+    reports = []
+    for slug, block in data.items():
+        if slug.startswith("_"):
+            continue
+        intro = "\n\n".join(block.get("intro", []))
+        faqs = block.get("faqs", [])
+        band = city_band((sizes or {}).get(slug))
+        fband = faq_band(band)
+        gates, rep = check_prose(intro, words, phrases, niche=niche, band=band, label=slug)
+        rep["band"] = band
+        rep["faq_band"] = fband
+        gates["faq_anzahl"] = fband[0] <= len(faqs) <= fband[1]
+        bad_answers = []
+        for i, fq in enumerate(faqs):
+            a = fq.get("a", "")
+            n = count_words(a)
+            if not (FAQ_ANSWER_WORDS[0] <= n <= FAQ_ANSWER_WORDS[1]):
+                bad_answers.append(f"FAQ {i + 1}: {n} Wörter, Spanne {FAQ_ANSWER_WORDS[0]} bis {FAQ_ANSWER_WORDS[1]}")
+            fw = find_words(a, words)
+            fp = find_phrases(a, phrases)
+            if fw or fp:
+                bad_answers.append(f"FAQ {i + 1}: verboten {list(fw) + list(fp)}")
+            if re.search(r"[—–]| -- ", a + " " + fq.get("q", "")):
+                bad_answers.append(f"FAQ {i + 1}: Gedankenstrich")
+        gates["faq_antworten_ok"] = not bad_answers
+        rep["faqs"] = len(faqs)
+        rep["faq_problems"] = bad_answers
+        rep["gates"] = gates
+        reports.append(rep)
+    return reports
+
+
+def lint_file(path, niche, band, words, phrases):
+    with open(path, encoding="utf-8") as f:
+        raw = f.read()
+    if path.endswith(".astro"):
+        prose = astro_to_text(raw)
+    elif path.endswith(".html"):
+        prose = html_to_text(raw)
+    elif path.endswith(".json"):
+        raise SystemExit("Für city-copy.json geben Sie --niche an und keine Wortspanne; die Stadtspanne steht fest.")
+    else:
+        prose = md_to_text(raw)
+    _, rep = check_prose(prose, words, phrases, niche=niche, band=band, label=os.path.basename(path))
+    return [rep]
+
+
+def print_report(reports):
+    for r in reports:
+        failed = [g for g, ok in r["gates"].items() if not ok]
+        status = "BESTANDEN" if not failed else "DURCHGEFALLEN"
+        line = (f"{status}  {r['label']}: {r['words']} Wörter, Lesbarkeit {r['lesbarkeit']} "
+                f"(höher ist leichter), {r['schwere_woerter_prozent']} % Wörter mit drei Silben oder mehr")
+        if "faqs" in r:
+            line += f", {r['faqs']} FAQs"
+        if r.get("band") and r["band"] != CITY_WORDS:
+            line += (f" (kleine Stadt, Untergrenze {r['band'][0]}"
+                     + (f", {r['faq_band'][0]} bis {r['faq_band'][1]} FAQs)" if r.get("faq_band") == TOWN_FAQ_COUNT else ")"))
+        print(line)
+        if r["forbidden_words"]:
+            print(f"       verbotene Wörter: {r['forbidden_words']}")
+        if r["forbidden_phrases"]:
+            print(f"       verbotene Wendungen: {r['forbidden_phrases']}")
+        if r["em_dashes"]:
+            print(f"       Gedankenstriche: {r['em_dashes']}")
+        for p in r.get("faq_problems", []):
+            print(f"       {p}")
+        if failed:
+            print(f"       durchgefallene Prüfungen: {', '.join(failed)}")
+
+
+def main():
+    ap = argparse.ArgumentParser(description="Textgate für Gate 5 des Verzeichnis-Baukastens (deutsch).")
+    ap.add_argument("file", help="city-copy.json, eine .astro-Seite oder eine Markdown-Datei")
+    ap.add_argument("--niche", help='die Branchenbezeichnung, die früh im Text stehen muss, z. B. "Schlüsseldienste"')
+    ap.add_argument("--min-words", type=int)
+    ap.add_argument("--max-words", type=int)
+    ap.add_argument("--city-sizes", help="JSON-Datei, die city_slug auf die Zahl der Einträge abbildet; Städte unter 10 "
+                                        "Einträgen bekommen eine niedrigere Untergrenze (380 bei 5 bis 9, 250 bei 3 oder 4, "
+                                        "120 und 2 bis 6 FAQs auf einer Kleinstadtseite mit 1 oder 2)")
+    ap.add_argument("--json", action="store_true", help="maschinenlesbare Ausgabe")
+    args = ap.parse_args()
+
+    if not os.path.exists(args.file):
+        print(f"FEHLER: Datei nicht gefunden: {args.file}")
+        sys.exit(1)
+
+    words, phrases = load_bans()
+    if args.file.endswith(".json"):
+        if not args.niche:
+            print("FEHLER: --niche wird für city-copy.json gebraucht")
+            sys.exit(1)
+        sizes = json.load(open(args.city_sizes, encoding="utf-8")) if args.city_sizes else None
+        reports = lint_city_copy(args.file, args.niche, words, phrases, sizes)
+    else:
+        band = None
+        if args.min_words is not None or args.max_words is not None:
+            band = (args.min_words or 0, args.max_words or 10**9)
+        reports = lint_file(args.file, args.niche, band, words, phrases)
+
+    if args.json:
+        print(json.dumps(reports, indent=2, ensure_ascii=False))
+    else:
+        print_report(reports)
+    ok = all(all(r["gates"].values()) for r in reports)
+    sys.exit(0 if ok else 1)
+
+
+if __name__ == "__main__":
+    main()

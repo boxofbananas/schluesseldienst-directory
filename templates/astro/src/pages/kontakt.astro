@@ -1,0 +1,19 @@
+---
+import Base from '../layouts/Base.astro';
+import { loadDirectory } from '../lib/load.mjs';
+const { site } = loadDirectory();
+---
+<Base title={`Kontakt | ${site.brand}`} description={`${site.brand} erreichen: Korrekturen, Löschungen, Eintrag beanspruchen und Premium-Plätze.`} path="/kontakt/" noindex={true}>
+  <Fragment slot="head">
+    <h1>Kontakt</h1>
+  </Fragment>
+  <div class="prose">
+    <p>Schreiben Sie an <a href={`mailto:${site.contact.email}`}>{site.contact.email}</a>{site.publisher.phone ? ` oder rufen Sie ${site.publisher.phone} an` : ''}. {site.brand} wird von <a href="/ueber-uns/">{site.publisher.name}</a> herausgegeben; die vollständigen Angaben stehen im <a href="/impressum/">Impressum</a>.</p>
+    <h2>Korrekturen und Löschungen</h2>
+    <p>Die Einträge sind aus öffentlichen Quellen zusammengestellt. Wenn Ihrer falsch ist, schreiben Sie uns, was zu ändern ist. Wenn Sie ihn gelöscht haben möchten, sagen Sie es; er verschwindet mit dem nächsten Neubau, in der Regel innerhalb einer Woche. Nennen Sie dabei Firmenname und Stadt.</p>
+    <h2>Eintrag beanspruchen und Premium-Plätze</h2>
+    <p>Mit dem Formular <a href="/eintrag-beanspruchen/">Eintrag beanspruchen</a> übernehmen Sie Ihren Eintrag. Die bezahlten Platzierungen stehen unter <a href="/premium/">Premium-Platz</a>.</p>
+    <h2>Siegel</h2>
+    <p>Die Bedingungen für das Siegel „Geprüfter {site.niche.singular}“ stehen auf der <a href="/siegel/">Seite zum Siegel</a>, der Fragebogen unter <a href="/siegel/antrag/">Siegel beantragen</a>.</p>
+  </div>
+</Base>

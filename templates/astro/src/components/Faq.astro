@@ -1,0 +1,17 @@
+---
+// Sichtbare FAQ (kein Aufklappen) plus FAQPage-Schema. items: [{ q, a, html? }]; html ist die Antwort
+// mit verlinkten Firmennamen, a bleibt für das Schema reiner Text.
+import JsonLd from './JsonLd.astro';
+const { items, title = 'Häufige Fragen' } = Astro.props;
+const schema = items.length ? {
+  '@context': 'https://schema.org', '@type': 'FAQPage', inLanguage: 'de-DE',
+  mainEntity: items.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+} : null;
+---
+{items.length > 0 && (
+  <section class="faq">
+    <h2>{title}</h2>
+    <div class="faq-grid">{items.map((f) => (<div class="qa"><h3>{f.q}</h3>{f.html ? <p set:html={f.html}></p> : <p>{f.a}</p>}</div>))}</div>
+  </section>
+)}
+<JsonLd data={schema} />

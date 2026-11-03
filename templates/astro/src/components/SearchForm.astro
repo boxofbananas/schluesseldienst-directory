@@ -1,0 +1,33 @@
+---
+// Die Suche im Verzeichnis: ein Feld für Firmenname oder Leistung, ein Feld für die Stadt, eine
+// Schaltfläche. Unter dem ersten Feld stehen zuerst die passenden Leistungen (eine Wahl wird zu einem
+// Schildchen im Feld), danach die Betriebe (eine Wahl führt direkt zum Eintrag). Gesucht wird erst
+// beim Klick auf Suchen; die Treffer stehen auf /suche/ (public/search.js).
+const { site, attributes } = Astro.props;
+// Das Beispiel im Platzhalter ist die Bezeichnung des ersten Merkmals aus attributes.json, also ein
+// Wort dieser Branche, nie eines aus einem anderen Handwerk.
+const example = (attributes && attributes[0] && attributes[0].label) ? attributes[0].label : 'Türöffnung';
+---
+<form class="dir-search" id="dir-search" action="/suche/" method="get" data-index="/search-index.json" role="search" autocomplete="off">
+  <div class="field what">
+    <ul class="picked" id="filter-picked" aria-live="polite"></ul>
+    <label class="sr-only" for="search-what">Firmenname oder Leistung</label>
+    <input id="search-what" name="s" type="search" placeholder={`Firmenname oder Leistung, zum Beispiel „${example}“`} />
+    <ul class="suggest" id="sugg-what" hidden></ul>
+  </div>
+  <div class="field">
+    <label class="sr-only" for="search-near">Stadt</label>
+    <input id="search-near" name="near" type="search" placeholder="Stadt" />
+    <ul class="suggest" id="sugg-near" hidden></ul>
+  </div>
+  <button class="btn action" type="submit">Suchen</button>
+  <!-- copy:skip -->
+  <!-- Unsichtbar, aber für Vorleseprogramme und das Formular ohne JavaScript erhalten. `fieldset.sr-only`
+       in global.css verhindert, dass es die Seite breiter macht (min-inline-size eines fieldset ist min-content). -->
+  <fieldset class="sr-only">
+    <legend>Leistungen</legend>
+    {attributes.map((a) => <label><input type="checkbox" name="f" value={a.label} /> {a.label}</label>)}
+  </fieldset>
+  <!-- /copy:skip -->
+</form>
+<script src="/search.js" defer></script>

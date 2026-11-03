@@ -1,0 +1,7 @@
+{
+  "_readme": "Ein Eintrag je Stadtseite. Der Schlüssel ist 'bundesland-slug/stadt-slug' (zum Beispiel 'baden-wuerttemberg/mannheim'); ein bloßer Stadt-Slug wird weiter akzeptiert, solange er eindeutig ist. intro: Liste von Absätzen (500 bis 800 Wörter echter örtlicher Text, aus den Daten, keine Vorlage mit getauschtem Stadtnamen). faqs: 4 bis 6 {q, a}, aus den Merkmalsdaten geschrieben. Städte ohne Eintrag fallen auf einen kurzen datengetriebenen Text und die Merkmals-FAQs zurück, und der Bau nennt jede davon in einer Warnung, damit Gate 5 weiß, was noch fehlt.",
+  "_beispiel-stadt": {
+    "intro": ["Erster Absatz.", "Zweiter Absatz."],
+    "faqs": [{ "q": "Frage?", "a": "Antwort aus den Daten." }]
+  }
+}

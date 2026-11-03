@@ -1,0 +1,149 @@
+---
+// Kopf (Titel, Meta, Canonical, OG, robots), Gestaltungsmarken, Kopfzeile, Fußbereich, JSON-LD-Slot.
+import '../styles/fonts.css';
+import '../styles/global.css';
+import JsonLd from '../components/JsonLd.astro';
+import { loadDirectory } from '../lib/load.mjs';
+const dir = loadDirectory();
+const { site, indexCities: cities, regions, services, countryPath, buildDate, buildDateDe } = dir;
+const { title, description, path, noindex = false, schema = [], ogType = 'website', headTone = 'tint', headImage = '' } = Astro.props;
+// Ein Kopfbild liegt unter einer flachen Fläche in der Bandfarbe, damit der Text seinen Kontrast behält.
+const headStyle = headImage ? `background-image:linear-gradient(var(--band-overlay),var(--band-overlay)),url(${headImage});` : undefined;
+const hasHead = Astro.slots.has('head');
+const base = `https://${site.domain}`;
+const canonical = base + path;
+const d = site.design;
+// Optionale Marken fallen auf die Grundmarken zurück, damit eine site.json ohne sie wie bisher baut.
+const tokens = `--bg:${d.bg};--surface:${d.surface};--text:${d.text};--muted:${d.muted};--accent:${d.accent};--accent-text:${d.accentText};--heading-font:${d.headingFont};--body-font:${d.bodyFont};--radius:${d.radius};--shadow:${d.shadow};`
+  + `--heading:${d.heading || d.text};--heading-weight:${d.headingWeight || 700};--link:${d.link || d.accent};--button-radius:${d.buttonRadius || d.radius};`
+  + `--band:${d.band || d.surface};--band-text:${d.bandText || d.text};--action:${d.action || d.accent};--action-text:${d.actionText || d.accentText};`
+  + `--header-bg:${d.headerBg || d.surface};--header-text:${d.headerText || d.heading || d.text};--tint:${d.tint || d.surface};--accent2:${d.accent2 || d.accent};--band-soft:${d.bandSoft || d.bandText || d.text};--band-overlay:${d.bandOverlay || 'rgba(0,0,0,0.6)'};--gold:${d.gold || '#F5B940'};--gold-light:${d.goldLight || '#FFD86B'};--gold-deep:${d.goldDeep || '#D9950F'};`;
+const topCities = cities.slice(0, 8);
+// Profillinks kommen aus der sameAs-Liste des Herausgebers. Nur Netzwerke mit Zeichen hier werden gezeigt.
+const SOCIAL = {
+  'facebook.com': ['Facebook', 'M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7A10 10 0 0 0 22 12z'],
+  'instagram.com': ['Instagram', 'M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 4 2.4 7.2 2.3c1.2-.1 1.6-.1 4.8-.1zm0 4.7a5.1 5.1 0 1 0 0 10.2 5.1 5.1 0 0 0 0-10.2zm0 8.4a3.3 3.3 0 1 1 0-6.6 3.3 3.3 0 0 1 0 6.6zm5.3-8.6a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4z'],
+  'linkedin.com': ['LinkedIn', 'M20.4 2H3.6A1.6 1.6 0 0 0 2 3.6v16.8A1.6 1.6 0 0 0 3.6 22h16.8a1.6 1.6 0 0 0 1.6-1.6V3.6A1.6 1.6 0 0 0 20.4 2zM8 19H5V9.5h3V19zM6.5 8.2a1.7 1.7 0 1 1 0-3.5 1.7 1.7 0 0 1 0 3.5zM19 19h-3v-4.6c0-1.1 0-2.5-1.5-2.5S12.7 13 12.7 14.3V19h-3V9.5h2.9v1.3c.4-.8 1.4-1.5 2.8-1.5 3 0 3.6 2 3.6 4.6V19z'],
+  'youtube.com': ['YouTube', 'M23 7.2a2.9 2.9 0 0 0-2-2C19.2 4.7 12 4.7 12 4.7s-7.2 0-9 .5a2.9 2.9 0 0 0-2 2C.5 9 .5 12 .5 12s0 3 .5 4.8a2.9 2.9 0 0 0 2 2c1.8.5 9 .5 9 .5s7.2 0 9-.5a2.9 2.9 0 0 0 2-2c.5-1.8.5-4.8.5-4.8s0-3-.5-4.8zM9.7 15.1V8.9l6 3.1-6 3.1z'],
+  'x.com': ['X', 'M18.2 2h3.4l-7.4 8.5L23 22h-6.8l-5.3-7-6.1 7H1.4l7.9-9.1L1 2h7l4.8 6.4L18.2 2zm-1.2 18h1.9L7.1 3.9H5.1L17 20z'],
+  'twitter.com': ['X', 'M18.2 2h3.4l-7.4 8.5L23 22h-6.8l-5.3-7-6.1 7H1.4l7.9-9.1L1 2h7l4.8 6.4L18.2 2zm-1.2 18h1.9L7.1 3.9H5.1L17 20z'],
+  'pinterest.com': ['Pinterest', 'M12 2a10 10 0 0 0-3.6 19.3c-.1-.8-.2-2 0-2.9l1.2-5s-.3-.6-.3-1.5c0-1.4.8-2.4 1.8-2.4.8 0 1.3.6 1.3 1.4 0 .9-.6 2.2-.9 3.4-.2 1 .5 1.8 1.5 1.8 1.8 0 3.2-1.9 3.2-4.7 0-2.5-1.8-4.2-4.3-4.2-2.9 0-4.6 2.2-4.6 4.4 0 .9.3 1.8.8 2.3.1.1.1.2.1.3l-.3 1.1c0 .2-.2.2-.3.1-1.3-.6-2-2.4-2-3.9 0-3.2 2.3-6.1 6.6-6.1 3.5 0 6.2 2.5 6.2 5.8 0 3.4-2.2 6.2-5.2 6.2-1 0-2-.5-2.3-1.2l-.6 2.4c-.2.9-.8 2-1.2 2.6A10 10 0 1 0 12 2z'],
+  'tiktok.com': ['TikTok', 'M16.6 5.8A4.3 4.3 0 0 1 15.5 3h-3.1v12.4a2.6 2.6 0 1 1-1.8-2.5V9.7a5.7 5.7 0 1 0 5 5.7V9.1a7.3 7.3 0 0 0 4.3 1.4V7.4a4.3 4.3 0 0 1-3.3-1.6z'],
+};
+const socials = (site.publisher.sameAs || []).map((u) => {
+  try { const h = new URL(u).hostname.replace(/^www\./, ''); const k = Object.keys(SOCIAL).find((dm) => h === dm || h.endsWith('.' + dm)); return k ? { url: u, name: SOCIAL[k][0], path: SOCIAL[k][1] } : null; } catch { return null; }
+}).filter(Boolean);
+const orgId = `${base}/#publisher`;
+const pubId = `${base}/#herausgeber`;
+const hasResources = Object.keys(import.meta.glob('../pages/ratgeber/*.md')).filter((f) => !f.split('/').pop().startsWith('_')).length > 0;
+const p = site.publisher;
+// Der Herausgeber ist eine Gesellschaft, deshalb Organization statt Person.
+const publisherAddress = p.street && p.city ? { '@type': 'PostalAddress', streetAddress: p.street, postalCode: p.postalCode || undefined, addressLocality: p.city, addressCountry: 'DE' } : undefined;
+const siteSchema = path === '/' ? [
+  { '@context': 'https://schema.org', '@type': 'WebSite', '@id': `${base}/#website`, url: base + '/', name: site.brand, inLanguage: 'de-DE', publisher: { '@id': orgId } },
+  { '@context': 'https://schema.org', '@type': 'Organization', '@id': orgId, name: site.brand, url: base + '/', email: site.contact.email,
+    founder: { '@id': pubId }, publisher: { '@id': pubId }, sameAs: [p.url, ...(p.sameAs || [])].filter(Boolean) },
+  { '@context': 'https://schema.org', '@type': 'Organization', '@id': pubId, name: p.name, legalName: p.legalName || p.name, url: p.url || undefined,
+    email: p.email || undefined, address: publisherAddress, image: p.image ? base + p.image : undefined, sameAs: (p.sameAs || []).filter(Boolean) },
+] : [];
+---
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow'} />
+    <meta name="theme-color" content={d.accent} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:locale" content="de_DE" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content={site.brand} />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    {d.favicon ? <link rel="icon" href={d.favicon} /> : <link rel="icon" href="/favicon.svg" type="image/svg+xml" />}
+    <style set:html={`:root{${tokens}}`}></style>
+    <JsonLd data={[...siteSchema, ...schema]} />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="logo" href="/">{d.logoText || site.brand}</a>
+        <nav class="nav" aria-label="Hauptnavigation">
+          <a href={countryPath}>{site.niche.title}</a>
+          {hasResources && <a href="/ratgeber/">Ratgeber</a>}
+          <a href="/siegel/">Siegel</a>
+          <a href="/ueber-uns/">Über uns</a>
+          <a href="/kontakt/">Kontakt</a>
+          <a class="nav-cta" href="/eintrag-beanspruchen/">Eintrag beanspruchen</a>
+        </nav>
+      </div>
+    </header>
+    {hasHead && (
+      <div class={`page-head ${headTone}${headImage ? ' has-image' : ''}`} style={headStyle}>
+        <div class="wrap"><slot name="head" /></div>
+      </div>
+    )}
+    <main class="wrap">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="cols">
+          <div class="about">
+            <h2>Über {site.brand}</h2>
+            <p>{site.footerAbout || `${site.brand} führt ${site.niche.plural} in ${site.country.name} auf, nach Bundesland und Stadt geordnet, mit Bewertungen, Leistungen und Telefonnummern aus öffentlichen Quellen und von den Websites der Betriebe. Grundeinträge sind kostenlos, bezahlte Platzierungen sind gekennzeichnet.`}</p>
+            <p>Herausgegeben von <a href="/ueber-uns/">{site.publisher.name}</a>.</p>
+          </div>
+          <div>
+            <h2>Schnellzugriff</h2>
+            <ul>
+              <li><a href={countryPath}>Alle Bundesländer und Städte</a></li>
+              {services.length > 0 && <li><a href="/leistungen/">{site.niche.title} nach Leistung</a></li>}
+              <li><a href="/siegel/">Siegel „Geprüfter Schlüsseldienst“</a></li>
+              <li><a href="/siegel/antrag/">Siegel beantragen</a></li>
+              <li><a href="/eintrag-beanspruchen/">Eintrag beanspruchen</a></li>
+              <li><a href="/premium/">Premium-Platz</a></li>
+              <li><a href="/ueber-uns/">Über uns</a></li>
+              <li><a href="/kontakt/">Kontakt</a></li>
+              {hasResources && <li><a href="/ratgeber/">Ratgeber</a></li>}
+            </ul>
+          </div>
+          <div>
+            <h2>Bundesländer</h2>
+            <ul>
+              {regions.map((r) => <li><a href={r.path}>{site.niche.title} in {r.name}</a></li>)}
+              {topCities.length > 0 && <li><a href={countryPath}>Alle {cities.length} Städte</a></li>}
+            </ul>
+          </div>
+          <div>
+            <h2>Kontakt</h2>
+            <p><strong>{site.brand}</strong></p>
+            <p><a href={`mailto:${site.contact.email}`}>{site.contact.email}</a>{site.publisher.phone && <><br /><a href={`tel:${site.publisher.phone.replace(/[^\d+]/g, '')}`}>{site.publisher.phone}</a></>}</p>
+            <p>Korrekturen und Löschungen: <a href="/kontakt/">schreiben Sie uns</a>.</p>
+            {socials.length > 0 && (
+              <>
+                <h2>Folgen</h2>
+                <ul class="social">{socials.map((s) => <li><a href={s.url} rel="me noopener" target="_blank" aria-label={s.name}><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d={s.path} fill="currentColor" /></svg></a></li>)}</ul>
+              </>
+            )}
+          </div>
+        </div>
+      </div>
+      <div class="legal">
+        <div class="wrap">
+          <p>
+            <a href="/impressum/">Impressum</a> · <a href="/datenschutz/">Datenschutz</a> · <a href="/agb/">AGB</a> · <a href="/siegel/">Siegel</a>
+          </p>
+          <p>&copy; {buildDate.slice(0, 4)} {site.brand}. Firmendaten und Bewertungen stammen aus öffentlichen Quellen und aus Google Maps; ein Eintrag ist keine Empfehlung. Zuletzt aktualisiert am {buildDateDe}.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,159 @@
+---
+// Siegel-Kriterien: die Seite, auf die jede Siegel-Zeile im Eintrag verweist. Indexiert, weil sie
+// das Siegel tragen muss (wiki/konventionen.md, wiki/framework/siegel-programm.md).
+// Die sechs Prüfpunkte und das Serviceversprechen müssen hier nachlesbar stehen; ohne sie ist das
+// Siegel angreifbar. Nichts hier abschwächen, ohne die Prüfung selbst zu ändern.
+import Base from '../../layouts/Base.astro';
+import { loadDirectory } from '../../lib/load.mjs';
+const { site } = loadDirectory();
+const title = `Siegel „Geprüfter ${site.niche.singular}“ | ${site.brand}`;
+---
+<Base title={title} description={`Wie das Siegel „Geprüfter ${site.niche.singular}“ auf ${site.brand} geprüft und vergeben wird: sechs nachlesbare Prüfpunkte, kostenlos, nicht käuflich.`} path="/siegel/">
+  <Fragment slot="head">
+    <h1>Geprüfte {site.niche.plural}: was unser Siegel bedeutet</h1>
+  </Fragment>
+  <div class="prose">
+    <p>
+      Kurzfassung: Wir prüfen Betriebe anhand von sechs Punkten, die jeder nachlesen kann. Wer sie
+      erfüllt und ein Serviceversprechen abgibt, erhält das Siegel „Geprüfter {site.niche.singular}“
+      mit Jahreszahl. <strong>Die Prüfung ist kostenlos.</strong> Bezahlen kann man bei uns nur für
+      Sichtbarkeit, nicht für das Siegel.
+    </p>
+
+    <h2>Warum es dieses Siegel gibt</h2>
+    <p>
+      Das Schlüsseldienst-Gewerbe hat ein Vertrauensproblem, und es trifft die falschen. Wer nachts
+      eine zugefallene Tür öffnet, einen Festpreis nennt und eine ordentliche Rechnung schreibt, steht
+      in derselben Suchergebnisliste wie Anbieter, die mit Lockpreisen arbeiten und vor Ort das
+      Vielfache verlangen. Verbraucher können das vorher nicht unterscheiden.
+    </p>
+    <p>
+      Unser Siegel macht einen Teil dieses Unterschieds sichtbar. Es ist keine Auszeichnung für gute
+      Arbeit, denn Arbeit können wir nicht prüfen. Es ist ein Nachweis, dass ein Betrieb überprüfbare
+      Angaben macht und sich auf nachprüfbare Zusagen festlegt.
+    </p>
+
+    <h2>Die sechs Prüfpunkte</h2>
+    <p>Ein Betrieb erhält das Siegel, wenn alle sechs Punkte zutreffen:</p>
+    <ol>
+      <li>
+        <strong>Vollständiges Impressum</strong> auf der eigenen Website, mit Firma, Anschrift,
+        Vertretungsberechtigtem und Kontaktmöglichkeit.
+      </li>
+      <li>
+        <strong>Erreichbare Telefonnummer</strong>, die zum Betrieb gehört und unter der die Ansprache
+        des Betriebs erfolgt.
+      </li>
+      <li>
+        <strong>Preisangabe auf der Website</strong>: entweder ein Preis oder Preisrahmen für die
+        Türöffnung oder eine ausgewiesene Anfahrtspauschale.
+      </li>
+      <li>
+        <strong>Mindestens zehn öffentliche Bewertungen bei einem Durchschnitt von mindestens 4,0.</strong>
+      </li>
+      <li>
+        <strong>Kein Callcenter ohne Ortsbezug</strong>: Anrufe gehen an den Betrieb selbst oder an eine
+        Zentrale, die den Betrieb namentlich nennt, nicht an eine anonyme Vermittlung, die den Auftrag
+        weiterverkauft.
+      </li>
+      <li><strong>Unterschriebenes Serviceversprechen</strong> (siehe unten).</li>
+    </ol>
+
+    <h2>Das Serviceversprechen</h2>
+    <p>Wer das Siegel führt, sagt seinen Kunden vier Dinge zu:</p>
+    <ul>
+      <li><strong>Festpreis vor Arbeitsbeginn.</strong> Der Preis wird genannt, bevor gearbeitet wird, und er gilt.</li>
+      <li>
+        <strong>Keine versteckten Zuschläge.</strong> Anfahrt, Nachtarbeit, Wochenende und Material sind
+        im genannten Preis enthalten oder werden vorher ausdrücklich beziffert.
+      </li>
+      <li>
+        <strong>Rechnung mit vollständiger Firmenanschrift.</strong> Keine Barzahlung ohne Belegt, kein
+        Beleg ohne Anschrift.
+      </li>
+      <li>
+        <strong>Zerstörungsfreie Öffnung als Standard.</strong> Ein Schloss wird nur aufgebohrt, wenn es
+        anders nicht geht, und das wird vorher erklärt.
+      </li>
+    </ul>
+
+    <h2>Wie wir prüfen, und was wir nicht prüfen</h2>
+    <p>Das ist der wichtigste Abschnitt dieser Seite, deshalb steht er deutlich da:</p>
+    <p>
+      Grundlage der Prüfung sind die <strong>Selbstauskunft des Betriebs</strong> im Antragsformular und
+      unsere <strong>Prüfung seiner Website und öffentlich zugänglicher Angaben</strong>. Wir sehen uns
+      das Impressum an, wir rufen die angegebene Nummer an, wir lesen die Preisangabe, und wir sehen uns
+      die öffentlichen Bewertungen an.
+    </p>
+    <p>
+      Wir führen <strong>keinen Test vor Ort</strong> durch. Wir bestellen keinen Schlüsseldienst zu
+      einer verschlossenen Tür, wir prüfen nicht die handwerkliche Ausführung, und wir kontrollieren
+      keine Rechnungen aus abgeschlossenen Aufträgen. Wer etwas anderes behauptet, behauptet zu viel.
+    </p>
+    <p>
+      Ein Siegel ist deshalb kein Gütesiegel im Sinne eines Warentests, sondern ein Nachweis über
+      Transparenz und abgegebene Zusagen.
+    </p>
+
+    <h2>Keine Lizenz, kein Meisterzwang</h2>
+    <p>
+      Zur Einordnung, weil es oft falsch dargestellt wird: Der {site.niche.singular} ist in Deutschland
+      kein zulassungspflichtiges Handwerk. Es gibt keine staatliche Lizenz, keine Meisterpflicht und
+      keine behördliche Zulassung, mit der ein Betrieb werben könnte. Wenn ein Anbieter mit
+      „lizenziert“, „staatlich zugelassen“ oder „amtlich zertifiziert“ wirbt, sagt das nichts aus.
+      Belegbar sind Gewerbeanmeldung, Handelsregistereintrag und freiwillige Mitgliedschaften — und
+      genau deshalb prüfen wir die Punkte, die man prüfen kann.
+    </p>
+    <p>
+      Wir sind keine Behörde, keine Kammer und kein Verband. Dieses Verzeichnis wird von einem privaten
+      Unternehmen geführt; wer es betreibt, steht im <a href="/impressum/">Impressum</a>.
+    </p>
+
+    <h2>Gültigkeit, Erneuerung, Entzug</h2>
+    <ul>
+      <li>Das Siegel trägt die <strong>Jahreszahl</strong> der Prüfung und gilt <strong>ein Jahr</strong>.</li>
+      <li>
+        Zur Erneuerung bestätigt der Betrieb, dass die Angaben weiter zutreffen; wir prüfen die sechs
+        Punkte erneut.
+      </li>
+      <li>
+        Wir <strong>entziehen</strong> das Siegel, wenn ein Prüfpunkt wegfällt oder uns belegte
+        Beschwerden erreichen, die dem Serviceversprechen widersprechen — insbesondere Preise, die über
+        dem genannten Festpreis liegen. Belegt heißt: mit Rechnung oder nachvollziehbarer Schilderung.
+      </li>
+      <li>
+        Der Entzug wird nicht verhandelt. Wir fragen den Betrieb einmal, und wenn die Sache offenbleibt,
+        nehmen wir das Siegel aus dem Eintrag.
+      </li>
+    </ul>
+
+    <h2>Was das Siegel kostet</h2>
+    <p>
+      Nichts. Prüfung, Siegel und der Nachweis zum Einbinden auf der eigenen Website sind kostenlos und
+      bleiben kostenlos.
+    </p>
+    <p>
+      Kostenpflichtig ist bei uns ausschließlich <strong>Sichtbarkeit</strong>: ein hervorgehobener
+      Eintrag, ein Platz oben auf einer Stadtseite, Bilder im Eintrag. Diese Plätze sind als bezahlt
+      gekennzeichnet. Wer dafür zahlt, bekommt kein Siegel, und wer ein Siegel hat, bekommt dadurch
+      keinen besseren Platz. Wir halten das getrennt, weil ein käufliches Siegel wertlos wäre — auch für
+      die, die es gekauft haben. Was Sichtbarkeit kostet, steht auf der Seite
+      {' '}<a href="/premium/">Premium</a>.
+    </p>
+
+    <h2>Siegel beantragen</h2>
+    <p>
+      Betriebe füllen das Formular auf der Seite <a href="/siegel/antrag/">Siegel beantragen</a> aus. Wir
+      melden uns innerhalb weniger Tage. Wenn ein Punkt nicht erfüllt ist, sagen wir, welcher — oft ist
+      es die fehlende Preisangabe, und die lässt sich in einer halben Stunde ergänzen.
+    </p>
+
+    <h2>Ein Problem mit einem geprüften Betrieb melden</h2>
+    <p>
+      Wenn ein Betrieb mit Siegel sich nicht an das Serviceversprechen gehalten hat, schreiben Sie uns an
+      {' '}<a href={`mailto:${site.contact.email}`}>{site.contact.email}</a>. Nennen Sie den Betrieb, das
+      Datum und, wenn möglich, die Rechnung. Wir gehen jedem Hinweis nach. Das Siegel ist nur etwas wert,
+      wenn es auch wieder weggenommen wird.
+    </p>
+  </div>
+</Base>

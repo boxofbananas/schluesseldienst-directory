@@ -1,0 +1,66 @@
+---
+// Bundesland-Seite: die mittlere der drei Ebenen. Eine Seite je Bundesland, das mindestens eine
+// Stadtseite hat; sie verlinkt jede Stadt des Landes, kleinere Orte in einem eigenen Abschnitt
+// „Kleinere Orte" (wiki/framework/site-architecture.md, foldMaxKm).
+import Base from '../../../layouts/Base.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import FeaturedBand from '../../../components/FeaturedBand.astro';
+import Faq from '../../../components/Faq.astro';
+import ClaimCta from '../../../components/ClaimCta.astro';
+import { loadDirectory, paragraphs, fmtInt, fmtRating } from '../../../lib/load.mjs';
+export function getStaticPaths() {
+  const { regions } = loadDirectory();
+  return regions.filter((r) => r.cities.length > 0).map((r) => ({ params: { bundesland: r.slug }, props: { slug: r.slug } }));
+}
+const { slug } = Astro.props;
+const dir = loadDirectory();
+const { site, countryPath, buildDate, buildDateDe } = dir;
+const region = dir.regionByPathSlug[slug];
+const regionIntro = site.regionIntro && site.regionIntro.length ? site.regionIntro : null;
+const alpha = [...region.cities].sort((a, b) => a.name.localeCompare(b.name, 'de'));
+const small = [...region.smallTowns].sort((a, b) => a.name.localeCompare(b.name, 'de'));
+const base = `https://${site.domain}`;
+const title = `${site.niche.title} in ${region.name}: alle Städte | ${site.brand}`;
+const description = `${fmtInt(region.count)} ${site.niche.plural} in ${region.name}, verteilt auf ${fmtInt(region.cities.length)} ${region.cities.length === 1 ? 'Stadt' : 'Städte'}. Wählen Sie Ihre Stadt und vergleichen Sie Bewertungen, Leistungen und Telefonnummern.`;
+const avgRating = (() => { const v = region.listings.filter((l) => l.reviews > 0).map((l) => l.rating); return v.length ? v.reduce((a, b) => a + b, 0) / v.length : 0; })();
+const schema = [
+  { '@context': 'https://schema.org', '@type': 'CollectionPage', '@id': base + region.path, url: base + region.path, name: title, inLanguage: 'de-DE', datePublished: site.launchDate, dateModified: buildDate },
+  { '@context': 'https://schema.org', '@type': 'ItemList', name: `${site.niche.title} in ${region.name} nach Stadt`,
+    itemListElement: alpha.map((c, i) => ({ '@type': 'ListItem', position: i + 1, url: base + c.path, name: c.title })) },
+];
+const faqs = [
+  { q: `Wie viele ${site.niche.plural} sind in ${region.name} eingetragen?`, a: `${fmtInt(region.count)} zum Stand vom ${buildDateDe}, verteilt auf ${fmtInt(region.cities.length)} ${region.cities.length === 1 ? 'Stadt' : 'Städte'}. Orte mit weniger als ${site.cityFloor} eingetragenen Betrieben stehen auf der Seite der nächstgelegenen Stadt.` },
+  { q: `In welcher Stadt in ${region.name} sind die meisten ${site.niche.plural} eingetragen?`, a: `${region.cities[0]?.name ?? 'Keine Angabe'}, mit ${region.cities[0]?.count ?? 0} Einträgen.${region.cities[1] ? ` Danach folgt ${region.cities[1].name} mit ${region.cities[1].count}.` : ''}` },
+  { q: 'Kann ich meinen Betrieb hier eintragen lassen?', a: `Wenn Sie einen ${site.niche.singular} in ${region.name} führen und noch nicht aufgeführt sind, nutzen Sie das Formular „Eintrag beanspruchen“. Wir prüfen die Angaben und nehmen Sie auf. Der Grundeintrag ist kostenlos.` },
+  { q: 'Was bedeutet „Geprüft“ an einem Eintrag?', a: `Der Betrieb hat den Fragebogen ausgefüllt und das Serviceversprechen abgegeben; der Herausgeber hat die Angaben an Unterlagen und Website geprüft. Grundlage sind Selbstauskunft und Unterlagen, kein Test vor Ort. In ${region.name} tragen derzeit ${fmtInt(region.geprueftCount)} von ${fmtInt(region.count)} Einträgen dieses Siegel.` },
+];
+---
+<Base title={title} description={description} path={region.path} schema={schema}>
+  <Fragment slot="head">
+    <Breadcrumbs site={site} items={[{ name: 'Startseite', href: '/' }, { name: site.niche.title, href: countryPath }, { name: region.name, href: region.path }]} />
+    <h1>{site.niche.title} in {region.name}, nach Stadt</h1>
+    <p class="lede">{fmtInt(region.count)} {site.niche.plural} in {fmtInt(region.cities.length)} {region.cities.length === 1 ? 'Stadt' : 'Städten'}. Jede Stadtseite ordnet die Betriebe nach Bewertung und Anzahl der Bewertungen; bezahlte Platzierungen sind gekennzeichnet.</p>
+    <ul class="keyfacts">
+      <li><b>{fmtInt(region.count)}</b>eingetragen</li>
+      <li><b>{fmtInt(region.cities.length)}</b>{region.cities.length === 1 ? 'Stadtseite' : 'Stadtseiten'}</li>
+      {region.geprueftCount > 0 && <li><b>{fmtInt(region.geprueftCount)}</b>geprüft</li>}
+      {avgRating > 0 && <li><b>{fmtRating(avgRating)}</b>Durchschnitt aus {fmtInt(region.totalReviews)} Bewertungen</li>}
+      <li>Stand {buildDateDe}</li>
+    </ul>
+  </Fragment>
+  {regionIntro && <div class="prose" set:html={paragraphs(regionIntro)}></div>}
+  <FeaturedBand site={site} items={region.featured} place={region.name} price={site.tiers?.city?.price} />
+  <section>
+    <h2>Alle Städte in {region.name}</h2>
+    <ul class="city-grid">{alpha.map((c) => <li><a href={c.path}>{c.name}</a> <span class="n">{c.count}</span></li>)}</ul>
+  </section>
+  {small.length > 0 && (
+    <section>
+      <h2>Kleinere Orte</h2>
+      <p>Diese Orte haben weniger als {site.cityFloor} eingetragene {site.niche.plural} und liegen zu weit von einer größeren Stadt entfernt, um deren Seite zu teilen. Sie haben deshalb eine eigene Seite.</p>
+      <ul class="city-grid">{small.map((c) => <li><a href={c.path}>{c.name}</a> <span class="n">{c.count}</span></li>)}</ul>
+    </section>
+  )}
+  <Faq items={faqs} />
+  <ClaimCta site={site} />
+</Base>

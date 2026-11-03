@@ -1,0 +1,166 @@
+# Harte Verbotsliste der SEO-Content-Engine, deutsche Fassung. Nur die Wörter und
+# Wendungen, die in keinem sichtbaren Text dieses Verzeichnisses stehen dürfen.
+# lint_article.py liest diese Datei und lässt das Gate in Stufe 6 scheitern, sobald
+# eines davon vorkommt; scripts/lint_copy.py liest sie zusätzlich für jeden kurzen
+# Textblock (Stadttexte, Fragen, Über uns, Ratgeber).
+#
+# Eine Zeile je Eintrag, keine Erläuterungen in der Zeile: das Skript vergleicht
+# wörtlich, also würde Prosa hier zu Falschtreffern führen.
+#
+# [WORDS]   einzelne Wörter, ganzes Wort, Groß- und Kleinschreibung gleich.
+# [PHRASES] mehrteilige Wendungen, als Teilstring, Groß- und Kleinschreibung gleich.
+#
+# Die drei Gründe, aus denen etwas auf dieser Liste steht:
+#  1. RECHT: Schlüsseldienst ist in Deutschland kein zulassungspflichtiges Handwerk.
+#     Es gibt keine Lizenz und keine Meisterpflicht (wiki/konventionen.md).
+#  2. VERWECHSLUNG: das Wort erwecken würde den Eindruck, hinter dem Verzeichnis
+#     stehe eine amtliche Stelle oder eine Standesorganisation.
+#  3. FLOSKEL: Werbesprache, die nichts belegt, oder ein KI-Verräter.
+#
+# "geprüft" steht NICHT auf dieser Liste: es ist dem Siegel vorbehalten und wird
+# dort mit Jahreszahl benutzt (wiki/framework/siegel-programm.md). Dass es sonst
+# nicht als allgemeines Lob auftaucht, prüft der Mensch.
+#
+# Absicht und Nebenwirkung: Die Liste verbietet die Rechtswörter auch dann, wenn ein
+# Satz sie bestreiten will ("es gibt keine Lizenz"). Das ist gewollt. Soll ein
+# Ratgebertext erklären, dass dieses Gewerbe nicht zulassungspflichtig ist, dann mit
+# den erlaubten Wörtern: "nicht zulassungspflichtig", "Anlage A der
+# Handwerksordnung", "Gewerbeanmeldung", "Eintragung im Handelsregister".
+
+[WORDS]
+lizenziert
+Lizenz
+zugelassen
+zertifiziert
+Zertifizierung
+Zertifikat
+Konzession
+konzessioniert
+Meisterbetrieb
+Meisterpflicht
+Innung
+Innungsbetrieb
+Verbandsbetrieb
+Kammer
+amtlich
+Verbraucherschutz
+getestet
+Testsieger
+TÜV
+Prüfsiegel
+Gütesiegel
+Qualitätssiegel
+staatlich
+behördlich
+vereidigt
+unschlagbar
+unschlagbare
+unschlagbaren
+Spitzenreiter
+Marktführer
+marktführend
+weltklasse
+einzigartig
+einzigartige
+einzigartigen
+erstklassig
+erstklassige
+erstklassigen
+hochmodern
+hochmoderne
+maßgeschneidert
+maßgeschneiderte
+revolutionär
+revolutionäre
+bahnbrechend
+bahnbrechende
+innovativ
+innovative
+kinderleicht
+blitzschnell
+Blitzschnelle
+Spitzenqualität
+Premiumqualität
+Topqualität
+Bestpreis
+Tiefpreis
+Traumpreis
+sagenhaft
+atemberaubend
+pulsierend
+pulsierende
+malerisch
+malerische
+idyllisch
+eingebettet
+Herzstück
+Flickenteppich
+Kaleidoskop
+
+[PHRASES]
+rundum sorglos
+rundum-sorglos
+dreh- und angelpunkt
+im Herzen von
+mitten im Herzen
+eingebettet in
+im Fazit
+zusammenfassend lässt sich sagen
+abschließend lässt sich sagen
+es sei darauf hingewiesen
+es ist wichtig zu beachten
+es ist wichtig anzumerken
+in der heutigen schnelllebigen Welt
+in der heutigen digitalen Welt
+in der heutigen Zeit
+in der sich ständig wandelnden Welt
+in der sich ständig verändernden Branche
+das Potenzial entfesseln
+die Kraft entfesseln
+die Art und Weise revolutionieren
+die Branche revolutionieren
+Licht ins Dunkel bringen
+nicht nur sondern auch
+Ihr zuverlässiger Partner
+Ihr kompetenter Partner
+Ihr Partner für
+seit Jahren Ihr
+schnell und günstig
+schnell und zuverlässig
+günstig und zuverlässig
+seriös und zuverlässig
+rund um die Uhr für Sie da
+immer für Sie da
+jederzeit für Sie erreichbar
+wir sind in wenigen Minuten bei Ihnen
+in nur 15 Minuten vor Ort
+der beste Schlüsseldienst
+der günstigste Schlüsseldienst
+Nummer 1 in
+die Nummer eins
+führender Anbieter
+führende Anbieter
+amtlich geprüft
+amtlich zugelassen
+offiziell geprüft
+offiziell zugelassen
+behördlich geprüft
+von der Innung
+Mitglied der Innung
+von der Kammer geprüft
+staatlich geprüft
+staatlich anerkannt
+vom TÜV geprüft
+von Stiftung Warentest getestet
+mit Brief und Siegel
+100 Prozent sicher
+100% sicher
+garantiert zum Festpreis
+ohne versteckte Kosten garantiert
+Festpreisgarantie
+Zufriedenheitsgarantie
+kostenlose Anfahrt garantiert
+ab 49 Euro
+ab 59 Euro
+ab 69 Euro
+ab 89 Euro

@@ -1,0 +1,16 @@
+[
+  { "key": "schluesseldienst_kern", "label": "Schlüsseldienst", "core": true, "faq": "Welche Betriebe in {city} arbeiten wirklich als Schlüsseldienst?" },
+  { "key": "notdienst_24h", "label": "24-Stunden-Notdienst", "faq": "Welche {plural} in {city} haben einen Notdienst rund um die Uhr?", "service": { "slug": "notdienst", "title": "Schlüsselnotdienst rund um die Uhr", "intro": [] } },
+  { "key": "tueroeffnung", "label": "Türöffnung", "faq": "Wer öffnet in {city} eine zugefallene oder verschlossene Tür?", "service": { "slug": "tueroeffnung", "title": "Türöffnung", "intro": [] } },
+  { "key": "schlossaustausch", "label": "Schloss austauschen", "faq": "Welche {plural} in {city} tauschen Schlösser und Zylinder aus?" },
+  { "key": "schliessanlagen", "label": "Schließanlagen", "faq": "Wer plant und montiert in {city} Schließanlagen?", "service": { "slug": "schliessanlagen", "title": "Schließanlagen", "intro": [] } },
+  { "key": "einbruchschutz", "label": "Einbruchschutz", "faq": "Welche {plural} in {city} beraten zum Einbruchschutz?", "service": { "slug": "einbruchschutz", "title": "Einbruchschutz und Sicherheitstechnik", "intro": [] } },
+  { "key": "autoschluessel", "label": "Autoschlüssel", "faq": "Wer macht in {city} Autoschlüssel nach oder öffnet Fahrzeuge?", "service": { "slug": "autoschluessel", "title": "Autoschlüssel und Fahrzeugöffnung", "intro": [] } },
+  { "key": "tresoroeffnung", "label": "Tresoröffnung", "faq": "Welche {plural} in {city} öffnen Tresore?", "service": { "slug": "tresoroeffnung", "title": "Tresoröffnung", "intro": [] } },
+  { "key": "schluessel_nachmachen", "label": "Schlüssel nachmachen", "faq": "Wo kann man in {city} einen Schlüssel nachmachen lassen?" },
+  { "key": "elektronische_schliesssysteme", "label": "Elektronische Schließsysteme", "faq": "Welche {plural} in {city} arbeiten mit elektronischen Schließsystemen?" },
+  { "key": "ladengeschaeft", "label": "Ladengeschäft", "faq": "Welche {plural} in {city} haben ein Ladengeschäft?" },
+  { "key": "festpreis_genannt", "label": "Festpreis genannt", "faq": "Welche {plural} in {city} nennen einen Festpreis vor Arbeitsbeginn?" },
+  { "key": "anfahrtspauschale_genannt", "label": "Anfahrtspauschale genannt", "faq": "Welche {plural} in {city} nennen ihre Anfahrtspauschale?" },
+  { "key": "gewerblich_objektbetreuung", "label": "Gewerbe und Objektbetreuung", "faq": "Welche {plural} in {city} betreuen Gewerbe und Wohnanlagen?" }
+]

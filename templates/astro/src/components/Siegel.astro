@@ -1,0 +1,11 @@
+---
+// Siegel-Zeile für Eintragsseite und Karten (wiki/konventionen.md).
+// Geprüfter Betrieb: "Geprüft <Jahr>" mit Link auf /siegel/.
+// Nicht geprüfter Betrieb: "Noch nicht geprüft" mit Link auf /siegel/antrag/.
+// Die zweite Zeile ist der Verkaufsanlass und darf nicht abgeschaltet werden.
+const { listing } = Astro.props;
+const jahr = (listing.geprueftJahr || '').trim();
+---
+{listing.geprueft
+  ? <p class="siegel ja"><a href="/siegel/">Geprüft{jahr ? ` ${jahr}` : ''}</a></p>
+  : <p class="siegel nein"><a href="/siegel/antrag/">Noch nicht geprüft</a></p>}

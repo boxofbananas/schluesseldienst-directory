@@ -1,0 +1,160 @@
+<!--
+  Zwei Formulare ohne eigenen Server. Beide senden per POST an einen Formulardienst oder an
+  /claim des Mail-Workers. {{FORM_ENDPOINT}} und {{NOTIFY_EMAIL}} ersetzen.
+
+  1. Eintrag beanspruchen  -> /eintrag-beanspruchen/
+  2. Siegel beantragen     -> /siegel/antrag/
+
+  Das zweite Formular ist das Ziel jedes Hinweises „Noch nicht geprüft" auf einer
+  Eintragsseite (wiki/framework/siegel-programm.md). Es ist kostenlos, und das steht daneben.
+-->
+
+<!-- ============================================================
+     1. Eintrag beanspruchen
+     ============================================================ -->
+<form action="{{FORM_ENDPOINT}}" method="POST" class="claim-form" lang="de">
+  <input type="hidden" name="_subject" value="Eintrag beanspruchen: {{FIRMENNAME}}">
+  <input type="hidden" name="art" value="beanspruchen">
+  <input type="hidden" name="eintrag_slug" value="{{EINTRAG_SLUG}}">
+  <input type="hidden" name="_gotcha" style="display:none">
+
+  <label>Firmenname
+    <input name="firma" value="{{FIRMENNAME}}" required>
+  </label>
+
+  <label>Ihr Name
+    <input name="name" required>
+  </label>
+
+  <label>E-Mail-Adresse (eine Adresse auf der Domain Ihrer Website beschleunigt die Prüfung)
+    <input type="email" name="email" required>
+  </label>
+
+  <label>Telefonnummer
+    <input type="tel" name="telefon" placeholder="+49 621 1234567">
+  </label>
+
+  <label>Was sollen wir ändern oder ergänzen?
+    <textarea name="aenderungen" rows="4"></textarea>
+  </label>
+
+  <label>
+    <input type="checkbox" name="siegel_interesse" value="ja">
+    Schicken Sie mir den Fragebogen für das Siegel. Die Prüfung ist kostenlos.
+  </label>
+
+  <label>
+    <input type="checkbox" name="premium_interesse" value="ja">
+    Informieren Sie mich über die Premium-Plätze in meiner Stadt.
+  </label>
+
+  <label>
+    <input type="checkbox" name="datenschutz" value="ja" required>
+    Ich habe die <a href="/datenschutz/">Datenschutzerklärung</a> gelesen und bin damit
+    einverstanden, dass meine Angaben zur Bearbeitung dieser Anfrage verarbeitet werden.
+  </label>
+
+  <button type="submit">Eintrag beanspruchen</button>
+
+  <p class="form-hinweis">
+    Das Beanspruchen ist kostenlos. Jede Anfrage wird von einem Menschen geprüft, bevor sich
+    am Eintrag etwas ändert. Sie hören in der Regel innerhalb eines Tages von uns.
+  </p>
+</form>
+
+
+<!-- ============================================================
+     2. Siegel beantragen
+     Die sechs Felder sind die sechs veröffentlichten Prüfkriterien von /siegel/.
+     Sie werden hier abgefragt und anschließend an Unterlagen und Website geprüft.
+     ============================================================ -->
+<form action="{{FORM_ENDPOINT}}" method="POST" class="siegel-form" lang="de">
+  <input type="hidden" name="_subject" value="Siegel-Antrag: {{FIRMENNAME}}">
+  <input type="hidden" name="art" value="siegel-antrag">
+  <input type="hidden" name="eintrag_slug" value="{{EINTRAG_SLUG}}">
+  <input type="hidden" name="_gotcha" style="display:none">
+
+  <label>Firmenname
+    <input name="firma" value="{{FIRMENNAME}}" required>
+  </label>
+
+  <label>Ihr Name und Ihre Funktion im Betrieb
+    <input name="name" required>
+  </label>
+
+  <label>E-Mail-Adresse (bitte eine Adresse auf der Domain Ihrer Website)
+    <input type="email" name="email" required>
+  </label>
+
+  <!-- Kriterium 1 -->
+  <label>Adresse Ihres Impressums
+    <input type="url" name="impressum_url" placeholder="https://..." required>
+  </label>
+
+  <!-- Kriterium 2 -->
+  <label>Festnetz- oder Mobilnummer, unter der Sie erreichbar sind
+    <input type="tel" name="telefon" placeholder="+49 621 1234567" required>
+  </label>
+
+  <!-- Kriterium 3 -->
+  <label>Wo auf Ihrer Website steht Ihre Preisangabe oder Ihre Anfahrtspauschale?
+    <input type="url" name="preisangabe_url" placeholder="https://..." required>
+  </label>
+
+  <!-- Kriterium 4 -->
+  <label>Adresse Ihres Google-Unternehmensprofils
+    <input type="url" name="google_profil" placeholder="https://..." required>
+    <small>Wir prüfen dort mindestens 10 Bewertungen bei einem Schnitt von mindestens 4,0.</small>
+  </label>
+
+  <!-- Kriterium 5 -->
+  <label>
+    <input type="checkbox" name="kein_callcenter" value="ja" required>
+    Anrufe an die oben genannte Nummer werden nicht an ein Callcenter ohne Ortsbezug
+    weitergeleitet.
+  </label>
+
+  <!-- Kriterium 6, das Serviceversprechen -->
+  <fieldset>
+    <legend>Serviceversprechen</legend>
+    <label>
+      <input type="checkbox" name="versprechen_festpreis" value="ja" required>
+      Ich nenne einen Festpreis, bevor die Arbeit beginnt.
+    </label>
+    <label>
+      <input type="checkbox" name="versprechen_keine_zuschlaege" value="ja" required>
+      Ich berechne keine versteckten Zuschläge.
+    </label>
+    <label>
+      <input type="checkbox" name="versprechen_rechnung" value="ja" required>
+      Ich stelle eine Rechnung mit vollständiger Firmenanschrift aus.
+    </label>
+    <label>
+      <input type="checkbox" name="versprechen_zerstoerungsfrei" value="ja" required>
+      Die zerstörungsfreie Öffnung ist bei mir der Standard.
+    </label>
+    <label>Unterschrift: Ihr vollständiger Name
+      <input name="unterschrift" required>
+    </label>
+  </fieldset>
+
+  <label>Anmerkungen
+    <textarea name="anmerkungen" rows="3"></textarea>
+  </label>
+
+  <label>
+    <input type="checkbox" name="datenschutz" value="ja" required>
+    Ich habe die <a href="/datenschutz/">Datenschutzerklärung</a> gelesen und bin damit
+    einverstanden, dass meine Angaben zur Prüfung dieses Antrags verarbeitet werden.
+  </label>
+
+  <button type="submit">Siegel beantragen</button>
+
+  <p class="form-hinweis">
+    Die Prüfung ist <strong>kostenlos</strong>. Das Siegel ist nicht kaufbar; bezahlt wird nur
+    Sichtbarkeit. Grundlage sind Ihre Angaben sowie die Prüfung von Unterlagen und Website
+    durch den Herausgeber. Es findet <strong>kein Test vor Ort</strong> statt. Das Siegel
+    trägt die Jahreszahl, gilt ein Jahr und wird bei belegten Beschwerden entzogen. Die
+    vollständigen Kriterien stehen auf <a href="/siegel/">/siegel/</a>.
+  </p>
+</form>

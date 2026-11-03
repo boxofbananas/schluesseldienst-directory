@@ -1,0 +1,109 @@
+---
+// Impressum nach § 5 DDG. Aus jeder Seite im Fußbereich verlinkt (wiki/konventionen.md).
+// Firmenangaben kommen aus site.json -> publisher, damit sie nur an einer Stelle stehen.
+// Solange publisher.vatId oder publisher.phone mit OFFEN_ beginnen, ist der Start blockiert
+// (wiki/seo/launch-lean.md): check_live.py prüft das.
+import Base from '../../layouts/Base.astro';
+import { loadDirectory } from '../../lib/load.mjs';
+const { site } = loadDirectory();
+const p = site.publisher;
+const offen = (v) => !v || String(v).startsWith('OFFEN_');
+---
+<Base title={`Impressum | ${site.brand}`} description={`Angaben nach § 5 DDG zu ${site.brand}.`} path="/impressum/" noindex={true}>
+  <Fragment slot="head">
+    <h1>Impressum</h1>
+  </Fragment>
+  <div class="prose">
+    <h2>Anbieter</h2>
+    <p>
+      {p.legalName || p.name}<br />
+      {p.street}<br />
+      {p.postalCode} {p.city}<br />
+      Deutschland
+    </p>
+
+    <h2>Vertreten durch</h2>
+    <p>Geschäftsführer: {p.managingDirector}</p>
+
+    <h2>Kontakt</h2>
+    <p>
+      E-Mail: <a href={`mailto:${site.contact.email}`}>{site.contact.email}</a>
+      {!offen(p.phone) && <><br />Telefon: {p.phone}</>}
+    </p>
+
+    <h2>Registereintrag</h2>
+    <p>
+      Registergericht: {p.registerCourt}<br />
+      Handelsregisternummer: {p.register}
+    </p>
+
+    {!offen(p.vatId) && (
+      <>
+        <h2>Umsatzsteuer-Identifikationsnummer</h2>
+        <p>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: {p.vatId}</p>
+      </>
+    )}
+
+    <h2>Verantwortlich für den Inhalt</h2>
+    <p>
+      Verantwortlich für journalistisch-redaktionelle Inhalte nach § 18 Abs. 2 Medienstaatsvertrag:
+      {' '}{p.managingDirector}, {p.street}, {p.postalCode} {p.city}
+    </p>
+
+    <h2>Verbraucherstreitbeilegung</h2>
+    <p>
+      Wir sind nicht verpflichtet und nicht bereit, an einem Streitbeilegungsverfahren vor einer
+      Verbraucherschlichtungsstelle teilzunehmen.
+    </p>
+
+    <h2>Woher die Einträge stammen</h2>
+    <p>
+      Dieses Verzeichnis führt Betriebe des Schlüsseldienst-Gewerbes in Deutschland. Die Angaben zu
+      Name, Anschrift, Telefonnummer, Website, Öffnungszeiten, Bewertung und Anzahl der Bewertungen
+      stammen aus öffentlich zugänglichen Quellen, insbesondere aus Google Maps und den Websites der
+      Betriebe selbst. Ein Eintrag ist kostenlos und entsteht ohne Zutun des Betriebs.
+    </p>
+    <p>
+      Ein Eintrag bedeutet keine Empfehlung und keine Aussage über die Qualität der Arbeit, soweit
+      nicht ausdrücklich ein Prüfsiegel ausgewiesen ist. Was ein solches Siegel bedeutet und wie es
+      vergeben wird, steht auf der Seite <a href="/siegel/">Geprüfte Schlüsseldienste</a>.
+    </p>
+
+    <h2>Korrektur und Löschung eines Eintrags</h2>
+    <p>
+      Angaben können veraltet oder falsch sein. Wir korrigieren und löschen Einträge auf Hinweis.
+      Schreiben Sie an <a href={`mailto:${site.contact.email}`}>{site.contact.email}</a> mit dem Namen
+      des Betriebs und dem Ort. Zur Korrektur genügt die Angabe, was falsch ist; für eine Löschung
+      reicht die Mitteilung des Betriebs, dass er nicht geführt werden möchte. Wir brauchen dafür keine
+      Begründung und löschen in der Regel innerhalb einer Woche.
+    </p>
+    <p>
+      Betriebe können ihren Eintrag auch selbst beanspruchen und Angaben ergänzen:
+      {' '}<a href="/eintrag-beanspruchen/">Eintrag beanspruchen</a>.
+    </p>
+
+    <h2>Haftung für Inhalte</h2>
+    <p>
+      Als Dienstanbieter sind wir für eigene Inhalte auf diesen Seiten verantwortlich. Für die
+      Richtigkeit der aus öffentlichen Quellen übernommenen Angaben zu einzelnen Betrieben können wir
+      keine Gewähr übernehmen. Sobald wir von einer fehlerhaften Angabe Kenntnis erlangen, prüfen und
+      berichtigen wir sie.
+    </p>
+
+    <h2>Haftung für Links</h2>
+    <p>
+      Dieses Verzeichnis verweist auf Websites Dritter, auf deren Inhalte wir keinen Einfluss haben.
+      Für diese Inhalte ist der jeweilige Anbieter verantwortlich. Zum Zeitpunkt der Verlinkung waren
+      keine rechtswidrigen Inhalte erkennbar. Eine dauerhafte inhaltliche Kontrolle der verlinkten
+      Seiten ist ohne konkreten Anhaltspunkt nicht zumutbar. Bei Kenntnis von Rechtsverstößen
+      entfernen wir den Link.
+    </p>
+
+    <h2>Urheberrecht</h2>
+    <p>
+      Die von uns erstellten Inhalte dieser Seiten, insbesondere Texte, Aufbau und Gestaltung,
+      unterliegen dem deutschen Urheberrecht. Namen, Marken und Logos der geführten Betriebe gehören
+      den jeweiligen Inhabern.
+    </p>
+  </div>
+</Base>

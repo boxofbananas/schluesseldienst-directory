@@ -1,0 +1,46 @@
+---
+// Eintrag beanspruchen: Seite zur Umwandlung, noindex. Sendet an den Formulardienst aus site.json
+// oder an /claim des Mail-Workers (templates/worker), der auf /eintrag-beanspruchen/?gesendet=1 zurückleitet.
+import Base from '../layouts/Base.astro';
+import { loadDirectory } from '../lib/load.mjs';
+const { site } = loadDirectory();
+const title = `Eintrag beanspruchen | ${site.brand}`;
+const description = `Beanspruchen Sie Ihren kostenlosen Eintrag als ${site.niche.singular} auf ${site.brand}, um Angaben zu berichtigen und Bilder zu ergänzen.`;
+---
+<Base title={title} description={description} path="/eintrag-beanspruchen/" noindex={true}>
+  <Fragment slot="head">
+    <h1>Eintrag beanspruchen</h1>
+  </Fragment>
+  <div class="prose">
+    <p>Das Beanspruchen ist kostenlos. Sobald wir bestätigt haben, dass Sie Inhaber oder Geschäftsführer sind, berichtigen wir Ihre Angaben, ergänzen Bilder und Links und kennzeichnen den Eintrag als bestätigt. Die meisten Anfragen sind innerhalb einer Woche bearbeitet.</p>
+    <p>Zur Bestätigung genügt eine E-Mail-Adresse auf der Domain Ihrer Website; andernfalls rufen wir die Nummer aus Ihrem Google-Eintrag an.</p>
+    <p>Das Siegel „Geprüfter {site.niche.singular}“ ist davon getrennt und wird über den <a href="/siegel/antrag/">Siegel-Antrag</a> beantragt.</p>
+  </div>
+  <div class="claim-sent" id="claim-sent" hidden>
+    <h2>Danke, Ihre Anfrage ist eingegangen.</h2>
+    <p>Wir prüfen jede Anfrage von Hand und antworten per E-Mail, meist innerhalb eines Tages. Eine E-Mail-Adresse auf der Domain Ihrer Website ist der schnellste Nachweis.</p>
+    <p><a class="btn" href="/">Zurück zum Verzeichnis</a></p>
+  </div>
+  <form action={site.contact.formEndpoint} method="POST" class="claim-form" id="claim-form">
+    <input type="hidden" name="_subject" value={`Eintrag beanspruchen auf ${site.brand}`} />
+    <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true" />
+    <input type="hidden" name="listing_slug" id="listing_slug" value="" />
+    <input type="hidden" name="tier" id="tier" value="" />
+    <p class="meta" id="tier-note" hidden>Sie haben nach dem Platz <b id="tier-name"></b> gefragt. Nennen Sie unten Ihre Stadt, dann sagen wir Ihnen, ob er frei ist.</p>
+    <label>Firmenname <input name="business" id="business" required /></label>
+    <label>Ihr Name <input name="name" required /></label>
+    <label>E-Mail-Adresse (eine Adresse auf Ihrer eigenen Domain geht schneller) <input type="email" name="email" required /></label>
+    <label>Telefon <input type="tel" name="phone" /></label>
+    <label>Was sollen wir berichtigen oder ergänzen? <textarea name="changes" rows="4"></textarea></label>
+    <label class="check"><input type="checkbox" name="featured_interest" value="ja" /> Bitte informieren Sie mich über Premium-Plätze in meiner Stadt</label>
+    <label class="check"><input type="checkbox" name="siegel_interest" value="ja" /> Bitte senden Sie mir den Fragebogen für das Siegel</label>
+    <button class="btn" type="submit">Eintrag beanspruchen</button>
+  </form>
+  <script is:inline>
+    var q = new URLSearchParams(location.search);
+    if (q.get('gesendet') || q.get('sent')) { document.getElementById('claim-form').hidden = true; document.getElementById('claim-sent').hidden = false; }
+    if (q.get('eintrag')) document.getElementById('listing_slug').value = q.get('eintrag');
+    if (q.get('betrieb')) document.getElementById('business').value = q.get('betrieb');
+    if (q.get('stufe')) { document.getElementById('tier').value = q.get('stufe'); document.getElementById('tier-name').textContent = q.get('platz') || q.get('stufe'); document.getElementById('tier-note').hidden = false; }
+  </script>
+</Base>

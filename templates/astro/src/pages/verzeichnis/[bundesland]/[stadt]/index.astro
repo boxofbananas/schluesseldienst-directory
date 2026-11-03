@@ -1,0 +1,88 @@
+---
+// Stadtseite: die wichtigste Seite und gleichzeitig die Liste „die besten Schlüsseldienste in <Stadt>".
+// wiki/framework/page-types.md.
+import Base from '../../../../layouts/Base.astro';
+import Breadcrumbs from '../../../../components/Breadcrumbs.astro';
+import Card from '../../../../components/Card.astro';
+import Faq from '../../../../components/Faq.astro';
+import ClaimCta from '../../../../components/ClaimCta.astro';
+import FeaturedBand from '../../../../components/FeaturedBand.astro';
+import { loadDirectory, attributeFaqs, linkedParagraphs, linkNames, e164, businessType, fmtInt, fmtRating } from '../../../../lib/load.mjs';
+export function getStaticPaths() {
+  const { cities } = loadDirectory();
+  return cities.map((c) => ({ params: { bundesland: c.regionSlug, stadt: c.slug }, props: { key: c.key } }));
+}
+const { key } = Astro.props;
+const dir = loadDirectory();
+const { site, attributes, countryPath, buildDate, buildDateDe } = dir;
+const city = dir.cityBySlug[key];
+const regionPath = `/verzeichnis/${city.regionSlug}/`;
+const base = `https://${site.domain}`;
+const title = `${site.niche.title} in ${city.name} (${city.count} eingetragen) | ${site.brand}`;
+const top = city.listings.find((l) => l.reviews > 0);
+const description = `${city.count} ${site.niche.plural} in ${city.name}, ${city.regionName}, geordnet nach Bewertung und Anzahl der Bewertungen.${top ? ` Am besten bewertet: ${top.name} (${fmtRating(top.rating)} aus ${fmtInt(top.reviews)} Bewertungen).` : ''} Telefonnummern und Leistungen zu jedem Eintrag.`;
+const cards = city.listings.slice(0, site.maxCardsPerCity || 60);
+const rest = city.listings.slice(cards.length);
+const intro = city.copy?.intro || [
+  `In ${city.name} (${city.regionName}) sind ${city.count} ${site.niche.plural} eingetragen, zusammen mit ${fmtInt(city.totalReviews)} Google-Bewertungen${city.avgRating ? ` und einem Durchschnitt von ${fmtRating(city.avgRating)}` : ''}. Die Liste darunter führt zuerst die Premium-Plätze, dann die bezahlten Top-Platzierungen und danach alle übrigen nach Bewertung und Anzahl der Bewertungen.`,
+];
+const faqs = city.copy?.faqs || attributeFaqs(city, site, attributes);
+const schema = [
+  { '@context': 'https://schema.org', '@type': 'CollectionPage', '@id': base + city.path, url: base + city.path, name: title, inLanguage: 'de-DE', datePublished: site.launchDate, dateModified: buildDate },
+  { '@context': 'https://schema.org', '@type': 'ItemList', name: `${site.niche.title} in ${city.name}`, numberOfItems: city.count,
+    itemListElement: cards.map((l, i) => ({ '@type': 'ListItem', position: i + 1, item: {
+      '@type': businessType(site), '@id': `${base}${l.path}#business`, name: l.name, url: base + l.path, telephone: e164(l.phone),
+      address: { '@type': 'PostalAddress', streetAddress: l.areaService ? undefined : (l.street || undefined), addressLocality: l.city, addressRegion: l.regionName, postalCode: l.postalCode || undefined, addressCountry: 'DE' },
+    } })) },
+];
+---
+<Base title={title} description={description} path={city.path} schema={schema}>
+  <Fragment slot="head">
+    <Breadcrumbs site={site} items={[{ name: 'Startseite', href: '/' }, { name: site.niche.title, href: countryPath }, { name: city.regionName, href: regionPath }, { name: city.name, href: city.path }]} />
+    <h1>{site.niche.title} in {city.name}</h1>
+    <ul class="keyfacts">
+      <li><b>{city.count}</b>eingetragen</li>
+      {city.geprueftCount > 0 && <li><b>{city.geprueftCount}</b>geprüft</li>}
+      {city.totalReviews > 0 && <li><b>{fmtRating(city.avgRating)}</b>Durchschnitt aus {fmtInt(city.totalReviews)} Bewertungen</li>}
+      <li>Stand {buildDateDe}</li>
+    </ul>
+  </Fragment>
+  <div class="prose" set:html={linkedParagraphs(intro.slice(0, Math.ceil(intro.length / 2)), city.listings)}></div>
+
+  <FeaturedBand site={site} items={city.featured} place={city.name} price={site.tiers?.city?.price} />
+
+  <section>
+    <h2>Die besten {site.niche.plural} in {city.name}</h2>
+    <div class="grid">{cards.filter((l) => !city.featured.includes(l)).map((l) => <Card l={l} citySlug={city.slug} />)}</div>
+    {rest.length > 0 && (
+      <>
+        <h3 class="more-head">{rest.length} weitere {site.niche.plural} in {city.name}</h3>
+        <p class="meta">Einträge mit den wenigsten Bewertungen.</p>
+        <ul class="more-list">{rest.map((l) => <li><a href={l.path}>{l.name}</a>{l.reviews > 0 && <span class="rt"><i aria-hidden="true">★</i> {fmtRating(l.rating)} <small>({fmtInt(l.reviews)})</small></span>}</li>)}</ul>
+      </>
+    )}
+  </section>
+
+  <div class="prose city-more" set:html={linkedParagraphs(intro.slice(Math.ceil(intro.length / 2)), city.listings)}></div>
+
+  <Faq items={faqs.map((f) => ({ ...f, html: linkNames(f.a, city.listings) }))} title={`Häufige Fragen zu ${site.niche.plural}n in ${city.name}`} />
+
+  {city.nearby.length > 0 && (
+    <section>
+      <h2>Orte in der Nähe von {city.name}</h2>
+      <ul class="city-cards nearby">
+        {city.nearby.map((c) => (
+          <li><a href={c.path}>
+            <h3 class="name">{c.name}</h3>
+            <span class="big"><b>{c.count}</b>{site.niche.plural}</span>
+            <span class="small">{c.regionName}</span>
+          </a></li>
+        ))}
+      </ul>
+    </section>
+  )}
+  <section>
+    <p class="meta">Firmendaten und Bewertungen stammen aus öffentlichen Quellen und aus Google Maps, Stand {buildDateDe}. <a href="/kontakt/">Korrektur oder Löschung melden.</a> <a href={regionPath}>Alle Städte in {city.regionName}</a>.</p>
+  </section>
+  <ClaimCta site={site} />
+</Base>

@@ -1,0 +1,22 @@
+.DS_Store
+node_modules/
+dist/
+.astro/
+output/*/site/node_modules/
+output/*/site/dist/
+output/*/03-cache/sites/
+output/*/03-cache/fetch-progress.log
+.claude/
+__pycache__/
+output/*/preview/
+output/*/*.log
+
+# Deutsche Fassung
+# Zugangsdaten gehoeren nie ins Repo; sie liegen in den Einstellungen von Claude Code.
+.env
+.env.*
+*.secret
+input/listings-raw.csv
+input/listings-raw-report.md
+output/*/02-listings-clean.csv
+output/*/03-listings-enriched.csv

@@ -1,0 +1,20 @@
+---
+// Trefferliste: das Formular noch einmal, dann die Treffer aus /search-index.json im Browser.
+// noindex, nie in der Sitemap.
+import Base from '../layouts/Base.astro';
+import SearchForm from '../components/SearchForm.astro';
+import { loadDirectory } from '../lib/load.mjs';
+const { site, attributes, countryPath } = loadDirectory();
+const title = `${site.niche.plural} suchen | ${site.brand}`;
+---
+<Base title={title} description={`Jeden auf ${site.brand} eingetragenen ${site.niche.singular} nach Name, Leistung und Stadt durchsuchen.`} path="/suche/" noindex={true} headTone="band">
+  <Fragment slot="head">
+    <div class="hero">
+      <h1>{site.niche.plural} in {site.country.name} suchen</h1>
+      <SearchForm site={site} attributes={attributes} />
+    </div>
+  </Fragment>
+  <section id="search-results" class="results" aria-live="polite" data-page="search">
+    <p class="meta">Geben Sie einen Firmennamen oder eine Leistung ein, ergänzen Sie bei Bedarf eine Stadt, oder wählen Sie eine Leistung als Filter. Ohne JavaScript <a href={countryPath}>blättern Sie nach Bundesland und Stadt</a>.</p>
+  </section>
+</Base>
