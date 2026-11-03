@@ -6,7 +6,7 @@ Aufruf:
   python3 scripts/clean_listings.py input/listings-raw.csv \
       --category "Schlüsseldienst" \
       --out output/schluesseldienste-deutschland/02-listings-clean.csv \
-      [--country Germany] [--bundesland BY] [--owned-phones 062112345,017612345] \
+      [--country Germany] [--bundesland BY] [--owned-phones 062112345,017612345] [--owned-domains meine-seite.de,andere.de] \
       [--niche "schlüsseldienst,aufsperrdienst"] [--min-reviews 1] [--thin-reviews 5]
 
 Der Ausgabeordner ist `output/schluesseldienste-deutschland/`. Das Verzeichnis umfasst ganz Deutschland,
@@ -120,6 +120,18 @@ def norm_phone(p):
     return d[-10:] if len(d) >= 10 else d
 
 
+def norm_domain(u):
+    """Vergleichsform einer Website: nur der Hostname, klein, ohne Protokoll, ohne www und ohne
+    Pfad. https://www.Schluesseldienst-Mannheim.de/kontakt -> schluesseldienst-mannheim.de, damit
+    der Betreiber seine eigenen Seiten als Adresse nennen kann statt als Telefonnummer."""
+    u = (u or "").strip().lower()
+    if not u or u == "none":
+        return ""
+    u = re.sub(r"^[a-z]+://", "", u)
+    u = u.split("/")[0].split("?")[0].split("#")[0].split("@")[-1].split(":")[0]
+    return u[4:] if u.startswith("www.") else u
+
+
 def norm_addr(r):
     return slug((r.get("street") or r.get("address") or "") + " " + (r.get("postal_code") or ""))
 
@@ -196,6 +208,9 @@ def main():
     ap.add_argument("--out", required=True)
     ap.add_argument("--category", default="", help="Bezeichnung der Google-Maps-Kategorie (in type/subtypes/category gesucht)")
     ap.add_argument("--owned-phones", default="", help="eigene Nummern, mit Komma getrennt; die Zeilen werden nur markiert")
+    ap.add_argument("--owned-domains", default="",
+                    help="eigene Websites, mit Komma getrennt (mit oder ohne https:// und www.); "
+                         "wirkt wie --owned-phones, die Zeilen werden nur markiert")
     ap.add_argument("--min-reviews", type=int, default=1)
     ap.add_argument("--thin-reviews", type=int, default=5)
     ap.add_argument("--city-floor", type=int, default=3, help="Mindestzahl an Einträgen, ab der eine Stadt eine eigene Seite bekommt")
@@ -209,7 +224,8 @@ def main():
     if not folded_terms and not a.category.strip():
         ap.error("geben Sie --niche, --category oder beides an")
     cat = fold(a.category)
-    owned = {norm_phone(p) for p in a.owned_phones.split(",") if p.strip()}
+    owned = {norm_phone(p) for p in a.owned_phones.split(",") if p.strip()} - {""}
+    owned_domains = {norm_domain(d) for d in a.owned_domains.split(",") if d.strip()} - {""}
     accepted_country = {fold(a.country)}
     for group in COUNTRY_GROUPS:
         folded = {fold(x) for x in group}
@@ -288,7 +304,12 @@ def main():
         base = f"{slug(r.get('name'))}-{r['city_slug']}"
         slugs[base] += 1
         r["slug"] = base if slugs[base] == 1 else f"{base}-{slug(r.get('postal_code'))}"
-        r["owned"] = "true" if norm_phone(r.get("phone")) in owned else "false"
+        # Eigener Betrieb, wenn die Telefonnummer oder die Website passt. Die Spalte dient nur
+        # dem Bericht und darf die Darstellung nie veraendern (wiki/framework/footprint-rules.md).
+        eigene_nummer = bool(owned) and norm_phone(r.get("phone")) in owned
+        host = norm_domain(r.get("domain") or r.get("website"))
+        eigene_domain = bool(owned_domains) and host in owned_domains
+        r["owned"] = "true" if (eigene_nummer or eigene_domain) else "false"
         r["thin"] = "true" if (to_int(r.get("reviews")) < a.thin_reviews or not has_text(r)) else "false"
         r["website"] = clean_url(r.get("website"))
         r["featured"] = ""; r["featured_cities"] = ""; r["claimed"] = ""

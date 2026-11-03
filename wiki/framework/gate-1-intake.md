@@ -40,15 +40,16 @@ nachfragen, nicht raten. Jede Antwort geht in `01-umfang.md`, sobald sie eintrif
 
 ### 1. Eigene Websites und Betriebe
 
-> Welche Schlüsseldienst-Betriebe und -Websites gehören Ihnen? Nennen Sie bitte nur die
-> Telefonnummern, je Zeile eine, zum Beispiel `0621 1234567`. Wenn keine, schreiben Sie
-> „keine".
+> Welche Schlüsseldienst-Betriebe und -Websites gehören Ihnen? Nennen Sie je Zeile eine
+> **Website-Adresse** oder eine **Telefonnummer**, zum Beispiel `schluesseldienstmannheim.de`
+> oder `0621 1234567`. Beides lässt sich mischen. Wenn keine, schreiben Sie „keine".
 
 Wozu: Diese Zeilen bekommen in Gate 2 die Spalte `owned` und werden **wie jeder andere
-Betrieb gelistet** ([[footprint-rules]]). Die Telefonnummer ist die einzige Kennung, die der
-Ablauf braucht; sie wird auf dieselbe Weise normalisiert wie jede andere
-([[konventionen]], Telefonnummern), damit `0621 1234567` und `+49 621 1234567` dieselbe
-Zeile treffen.
+Betrieb gelistet** ([[footprint-rules]]). Website und Telefonnummer sind gleichwertige
+Kennungen: Die Adressen gehen als `--owned-domains` an `clean_listings.py`, die Nummern als
+`--owned-phones`. Beide werden normalisiert, damit `schluesseldienstmannheim.de` auch
+`https://www.schluesseldienstmannheim.de/kontakt` trifft und `0621 1234567` auch
+`+49 621 1234567`.
 
 Der Betreiber betreibt sehr viele solche Websites. Die Liste darf lang sein; frage sie
 einmal vollständig ab und frage nicht nach, ob das alle sind. Merz Sicherheit in Mannheim
@@ -115,7 +116,7 @@ Outscraper-Export der Weg.
 Nichts, was nicht gefragt oder in [[konventionen]] festgelegt ist:
 
 - die festen Angaben aus der Tabelle oben, als Kopfabschnitt übernommen, nicht abgefragt
-- die eigenen Telefonnummern, mit dem Vermerk zu Merz Sicherheit in Mannheim
+- die eigenen Website-Adressen oder Telefonnummern, mit dem Vermerk zu Merz Sicherheit in Mannheim
 - die Optik („Optik des Templates", oder die Optikvorlagen mit Vermerk, wenn eine Seite
   Skripte blockt)
 - die Datenquelle und, bei DataForSEO, die Schätzzeile oder, wenn der Abruf gelaufen ist, die

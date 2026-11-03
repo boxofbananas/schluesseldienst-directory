@@ -99,7 +99,7 @@ die drei Punkte ab, die wirklich offen sind, **eine Frage je Antwortrunde**, und
 Antworten in `01-umfang.md`, sobald sie eintreffen ([[gate-1-intake]]):
 
 1. **Eigene Websites.** Welche Schlüsseldienst-Websites und -Betriebe gehören dem Betreiber?
-   Nur die Telefonnummern, nichts weiter. Sie füllen die Spalte `owned` in Gate 2
+   Die Adressen der Websites oder die Telefonnummern, beides geht. Sie füllen die Spalte `owned` in Gate 2
    ([[footprint-rules]]).
 2. **Optik.** Die mitgelieferte Optik des Referenzbaus, oder eine bis zwei Websites als
    Optikvorlage ([[design-seed]]).

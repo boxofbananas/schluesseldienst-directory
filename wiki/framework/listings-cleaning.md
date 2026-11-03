@@ -34,8 +34,10 @@ Größenordnungen, keine Zielwerte für Deutschland.
    nur als Nebenkategorie tragen.
 6. **Entdoppeln.** Zuerst über die normalisierte `phone`, dann über normalisierte `address`
    plus `postal_code`. Die Zeile mit mehr Bewertungen bleibt.
-7. **Eigene kennzeichnen.** Zeilen, deren Telefonnummer in `--owned-phones` steht, bekommen
-   `owned=true`. Sie werden **behalten und wie jeder andere Eintrag behandelt**; die
+7. **Eigene kennzeichnen.** Zeilen, deren Telefonnummer in `--owned-phones` oder deren Website
+   in `--owned-domains` steht, bekommen `owned=true`. Beide Schalter sind gleichwertig und
+   lassen sich mischen; bei `--owned-domains` genügt der Hostname, mit oder ohne `https://` und
+   `www.`. Die Zeilen werden **behalten und wie jeder andere Eintrag behandelt**; die
    Kennzeichnung existiert nur, damit der Bericht sie zeigt und niemand sie versehentlich
    bevorzugt ([[footprint-rules]]).
 8. **Dünn kennzeichnen.** `reviews < 5` oder kein Beschreibungstext ergibt `thin=true`
