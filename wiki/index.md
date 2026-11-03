@@ -34,6 +34,7 @@ Zeile ergänzen und `log.md` fortschreiben.
   zum Neubau, der Entzug nach Rechnung, die jährliche Erneuerung als Anrufgrund, „Noch keine
   Festpreis-Garantie" als Verkaufsanlass und die reservierte Stufe Preisschutz.
 - [listings-cleaning](framework/listings-cleaning.md): die Regeln von Gate 2, die Zuordnung
+- `framework/eigene-betriebe.md` — eigene Betriebe nachtragen, die im Abruf fehlen: was ein solcher Eintrag bekommt (owned, thin) und was nie (Bewertung, Garantie).
   zum Bundesland statt eines Bundesstaatfilters, die deutschen Branchenwörter mit
   umlautunabhängigem Vergleich, und die vier Listen, mit denen der Bericht die fremden
   Gewerbe, die Kettenbetriebe und die Callcenter sichtbar macht, ohne eine Zeile zu löschen.

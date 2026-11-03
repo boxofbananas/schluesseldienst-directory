@@ -145,6 +145,11 @@ Einträge ohne Ortsbezug. **Der Mensch entscheidet in Gate 4.**
 Ergebnis: `02-listings-clean.csv`, `02-domains.txt`, `02-clean-report.md` (Zeilen hinein,
 Zeilen heraus, Grund).
 
+**Nachtrag eigener Betriebe, zwischen Gate 2 und Gate 3.** Liegt `input/eigene-betriebe.csv`
+vor, `scripts/add_own_listings.py` darüber laufen lassen und das Ergebnis in den Bericht
+aufnehmen ([[eigene-betriebe]]). Nachgetragene Zeilen tragen `owned=true` und `thin=true`,
+**keine Bewertung** und **keine Festpreis-Garantie**. Eine Bewertung wird nie erfunden.
+
 ### Gate 3, Anreichern
 
 Zuerst die **Merkmalsdatei** `output/<slug>/03-attributes.json` für Schlüsseldienste
