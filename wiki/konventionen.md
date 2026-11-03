@@ -182,6 +182,23 @@ Text „Festpreis-Garantie 2026“ mit dem Tagespreis, verlinkt auf die Eintrags
 den Herausgeber, Rückgriff auf den Betrieb. Spalte `preisschutz` ist vorgesehen, aber kein
 Skript und keine Seite wertet sie aus, bis der Betreiber die Stufe freigibt.
 
+## Vorgaben des Betreibers für Gate 3 und 4 (2026-11-03)
+
+Diese Entscheidungen hat der Betreiber vorab getroffen. Gate 3 und Gate 4 legen sie als
+**Vorschlag** vor und holen die Bestätigung ein; sie löschen nichts von selbst (die Regel aus
+[[listings-cleaning]] bleibt).
+
+| Frage | Vorgabe |
+|---|---|
+| Umfang der Anreicherung in Gate 3 | Vollständig nur Baden-Württemberg, Rheinland-Pfalz, Hessen sowie die 30 größten Städte bundesweit (nach Einträgen). Alle anderen Einträge bleiben dünn und werden nach der 30-Tage-Prüfung in Tranchen nachgezogen. Gate 3 nennt die Kosten für genau diesen Umfang. |
+| Fremde Gewerbe (Schuhmacher, Gravur, Metallbau, Baumärkte) | Vorschlag: ausschließen, außer das Merkmal `schluesseldienst_kern` ist `true`. |
+| Kettenbetriebe (gleicher Name an vielen Adressen) | Vorschlag: je Stadt eine Adresse behalten, die mit den meisten Bewertungen. |
+| Callcenter ohne Ortsbezug | Vorschlag: ausschließen. Sie verfehlen Voraussetzung 5 der Festpreis-Garantie. |
+| `foldMaxKm` | 30 km. Deutschland ist dichter besiedelt als die US-Vorgabe von 40 km. |
+| Leistungsseiten | Die sechs mit `service`-Block in `attributes.json`: Notdienst, Türöffnung, Schließanlagen, Einbruchschutz, Autoschlüssel, Tresoröffnung. |
+| Reihenfolge der Bundesländer auf der Startseite | nach Anzahl Einträge, absteigend. |
+| Mannheim | Stadtseite im Vollausbau (oberes Wortband, 6 Fragen). Merz Sicherheit erhält Premium und Top-Platzierung zum öffentlichen Preis, als normaler Vorgang nach [[footprint-rules]], **erst nach dem Start** und erst nachdem der Betrieb die Festpreis-Garantie beantragt und bestanden hat wie jeder andere. |
+
 ## Recht
 
 - **Impressum** nach § 5 DDG auf `/impressum/`, aus jeder Seite im Fußbereich verlinkt.
