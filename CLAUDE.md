@@ -57,7 +57,12 @@ verzeichnis-blueprint/
 │                      run_batches.py (Stapelläufer für 3 und 5), check_live.py (6),
 │                      make_local_preview.py (wahlweise). Nach dem Start: mail_worker.py,
 │                      mail_inbox.py, make_worker_listings.py. Die Anweisungsdateien sind
-│                      allgemein; die Regeln dieser Branche stehen in output/<slug>/03-attributes.json
+│                      allgemein; die Regeln dieser Branche stehen in output/<slug>/03-attributes.json.
+│                      clean_descriptions.py (3) und clean_city_copy.py (5) räumen interne
+│                      Formulierungen aus den Antwortdateien; ihre Ersetzungsregeln sind noch die
+│                      englischen des Pilotprojekts und treffen deutschen Text nicht, also von Hand
+│                      umschreiben, was die Prüflisten melden. Jedes Skript nennt seinen Aufruf mit
+│                      --help; die Hilfe ist maßgeblich, nicht diese Karte
 ├── skills/            seo-content-engine: ihr Linter prüft jeden Textblock in Gate 5, ihr
 │                      vollständiger Ablauf schreibt Ratgeberseiten
 ├── wiki/
@@ -264,11 +269,23 @@ Satz, dass dabei Daten an Google übertragen werden. Schriften werden selbst geh
 Domain ([[footprint-rules]]).
 
 Stadttexte entstehen aus Paketen (`node dump-cities.mjs`, dann
-`scripts/make_city_packets.py`) unter `scripts/city-copy-instructions.md`, und nur
-`scripts/check_city_copy.py --write` erzeugt `city-copy.json`. Wortuntergrenzen je Stadtgröße
-in [[page-types]]. Danach das **Textgate** ([[copy-gate]]): `scripts/lint_copy.py` auf
-`city-copy.json`, auf die gebauten Seiten Startseite, Bundesland und „Über uns" in `dist/`
-und auf jede Ratgeberseite; nachbessern und erneut prüfen, bis jeder Block besteht.
+`scripts/make_city_packets.py`) unter `scripts/city-copy-instructions.md`, und `city-copy.json`
+erzeugt allein `scripts/check_city_copy.py`. `--write` erwartet den **Pfad** der Zieldatei, es
+ist kein Schalter ohne Wert:
+
+```
+python3 scripts/check_city_copy.py --copy output/<slug>/05-cache/city-copy \
+    --batches output/<slug>/05-cache/city-batches --facts output/<slug>/05-fact-sheet.md \
+    --niche "Schlüsseldienste" --write output/<slug>/site/src/data/city-copy.json
+```
+
+Wortuntergrenzen je Stadtgröße in [[page-types]]. Danach das **Textgate** ([[copy-gate]]):
+`scripts/lint_copy.py` auf `city-copy.json`, auf die gebauten Seiten Startseite, Bundesland und
+„Über uns" in `dist/` und auf jede Ratgeberseite; nachbessern und erneut prüfen, bis jeder Block
+besteht. `/siegel/`, `/agb/` und Ratgeberseiten über die Rechtslage werden mit
+`--erlaube-rechtswoerter` geprüft, sonst scheitern sie an den Wörtern, die sie bestreiten
+müssen; für Stadttexte, Eintragsbeschreibungen und die Startseite gilt der Schalter **nie**
+([[copy-gate]]).
 Ratgeberseiten und der Ratgeberblock der Startseite entstehen mit der
 **seo-content-engine**-Skill, wenn sie verfügbar ist. Stadtblöcke und Stadt-Fragen werden nie
 mit der Skill erzeugt, nur von ihr geprüft.
@@ -392,8 +409,13 @@ Gate 2.
 - Die Skill nie auf Stadtblöcke anwenden. Sie schreibt je Lauf einen langen Artikel; sechzig
   Stadtseiten wären sechzig Läufe in der falschen Form. Der Stadtblock sind 500 bis 800 Wörter
   aus den Daten, von dir geschrieben, vom Gate geprüft.
-- Die Wortliste der verbotenen Werbefloskeln liegt in
-  `skills/seo-content-engine/references/forbidden_words.txt` und ist deutsch.
+- Die Wortlisten liegen in `skills/seo-content-engine/references/forbidden_words.txt` und
+  `scripts/copy-bans.txt` und sind deutsch. Beide haben vier Blöcke: `[WORDS]` und `[PHRASES]`
+  für die Werbefloskeln, `[RECHTSWOERTER]` und `[RECHTSWENDUNGEN]` für die Rechts- und
+  Amtswörter, die `lint_copy.py --erlaube-rechtswoerter` für `/siegel/`, `/agb/` und
+  Ratgeberseiten zur Rechtslage zulässt ([[copy-gate]]). Ein Eintrag, der auf `*` endet, ist ein
+  **Wortstamm** und trifft jede gebeugte Form: `lizenzier*` fängt „lizenziert", „lizenzierte"
+  und „Lizenzierung". Neue Einträge deshalb als Stamm schreiben, nicht als Grundform.
 
 ---
 

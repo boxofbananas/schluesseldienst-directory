@@ -93,9 +93,14 @@ wird über Sichtbarkeit gesprochen.
 | Seite | Adresse | Robots |
 |---|---|---|
 | Kriterien und was das Siegel nicht ist | `/siegel/` | indexiert |
-| Antragsformular | `/siegel/antrag/` | indexiert |
+| Antragsformular | `/siegel/antrag/` | `noindex` |
 | Nachweisseite je ausgezeichneter Betrieb | `/auszeichnung/[slug]/` | `noindex` |
 | Siegelbild zum Einbinden | `/auszeichnung/[slug].svg` | – |
+
+`/siegel/` ist die indexierte Seite des Programms: dort stehen die Kriterien, und dorthin
+verlinkt jedes Siegel. Das Antragsformular ist eine Formularseite und startet wie alle
+Formular- und Pflichtseiten mit `noindex`, aus der Sitemap heraus ([[launch-lean]]); erreichbar
+ist es über jeden Eintrag mit „Noch nicht geprüft" und über `/siegel/`.
 
 Das Siegel wird als HTML-Schnipsel weitergegeben, nie als Bilddatei, damit der Link auf die
 Eintragsseite entsteht ([[authority-and-links]], `templates/featured-tiers.md`).

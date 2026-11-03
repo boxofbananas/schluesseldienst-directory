@@ -1,17 +1,25 @@
 #!/usr/bin/env python3
-"""Gate 3 helper: cut the evidence packets into batches an enrichment run can read in one go.
+"""Helfer für Gate 3: die Belegpakete in Stapel schneiden, die ein Anreicherungslauf in einem Zug
+lesen kann.
 
-Groups listings by city, keeps a city together where it fits, and skips every listing that
-already has an answer in the enriched cache, so a rerun only batches what is new or missing.
-Each batch is a plain text file (short lines, readable top to bottom) plus the list of slugs.
+Gruppiert die Einträge nach Stadt, hält eine Stadt zusammen, wo sie hineinpasst, und überspringt
+jeden Eintrag, der im Zwischenspeicher schon eine Antwort hat; ein zweiter Lauf stapelt also nur
+das Neue oder Fehlende. Jeder Stapel ist eine einfache Textdatei (kurze Zeilen, von oben nach
+unten zu lesen) plus die Liste der Slugs.
 
-Usage:
+Aufruf:
   python3 scripts/make_batches.py --evidence output/<slug>/03-cache/evidence \
       --enriched output/<slug>/03-cache/enriched --out output/<slug>/03-cache/batches \
       --attributes output/<slug>/03-attributes.json [--max-tokens 26000] [--max-listings 40] [--start 11]
 
-Every batch file opens with the attribute table from the per-vertical file (key, what a true needs),
-so scripts/enrichment-instructions.md stays general and the vertical's own rules travel with the batch.
+Jede Stapeldatei beginnt mit der Merkmalstabelle aus der Merkmalsdatei dieser Branche (Schlüssel
+und was ein „wahr" verlangt), damit scripts/enrichment-instructions.md allgemein bleibt und die
+Regeln der Branche mit dem Stapel reisen.
+
+**Die Schlüssel der Paketzeilen bleiben englisch** (`### <slug>`, `name:`, `city:`,
+`site_status:`, `quotes:`, `description band: … words`): `scripts/enrichment-instructions.md`
+verweist die Verfasser auf `description band:`, und `scripts/build_evidence.py` liefert die Werte
+unter diesen Namen. Übersetzt sind Hilfe, Tabellenkopf und Meldungen.
 """
 import argparse, glob, json, os, shutil, textwrap
 
@@ -41,29 +49,33 @@ def render(pk):
 
 
 def attribute_table(attrs):
-    L = ["## Attributes for this directory (answer every key, in this order)", ""]
-    L.append("| Key | True when the business's own words say it |")
+    L = ["## Merkmale dieses Verzeichnisses (jeden Schlüssel beantworten, in dieser Reihenfolge)", ""]
+    L.append("| Schlüssel | „wahr\" nur, wenn die eigenen Worte des Betriebs das sagen |")
     L.append("|---|---|")
     for x in attrs:
         if x["key"].startswith("_"): continue
         tw = x.get("true_when") or x.get("label", "")
-        if x.get("core"): tw += " (core work: when this is false, the description says plainly what the business does instead)"
+        if x.get("core"): tw += " (Kernarbeit: ist das falsch, sagt die Beschreibung klar, was der Betrieb stattdessen tut)"
         L.append(f"| `{x['key']}` | {tw} |")
     return "\n".join(L)
 
 
 def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--evidence", required=True); ap.add_argument("--enriched", required=True); ap.add_argument("--out", required=True)
-    ap.add_argument("--attributes", required=True, help="the per-vertical attribute file (03-attributes.json); its table is printed at the top of every batch")
-    ap.add_argument("--max-tokens", type=int, default=26000); ap.add_argument("--max-listings", type=int, default=40)
-    ap.add_argument("--start", type=int, default=1, help="number of the first batch, so new batches do not reuse a number already answered")
+    ap = argparse.ArgumentParser(description="Gate 3: aus den Belegpaketen die Stapel für den Anreicherungslauf schneiden.",
+                                 epilog=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--evidence", required=True, help="Ordner der Belegpakete, output/<slug>/03-cache/evidence")
+    ap.add_argument("--enriched", required=True, help="Ordner der Antwortdateien, output/<slug>/03-cache/enriched; beantwortete Einträge werden übersprungen")
+    ap.add_argument("--out", required=True, help="Ordner für die Stapel, output/<slug>/03-cache/batches")
+    ap.add_argument("--attributes", required=True, help="die Merkmalsdatei dieser Branche (output/<slug>/03-attributes.json); ihre Tabelle steht oben in jedem Stapel")
+    ap.add_argument("--max-tokens", type=int, default=26000, help="Obergrenze geschätzter Token je Stapel (Vorgabe 26000)")
+    ap.add_argument("--max-listings", type=int, default=40, help="Obergrenze Einträge je Stapel (Vorgabe 40)")
+    ap.add_argument("--start", type=int, default=1, help="Nummer des ersten Stapels, damit neue Stapel keine schon beantwortete Nummer wiederverwenden")
     a = ap.parse_args()
     attrs = json.load(open(a.attributes, encoding="utf-8"))
     if not isinstance(attrs, list) or not attrs or "key" not in attrs[0]:
-        raise SystemExit(f"ERROR: {a.attributes} is not a list of attributes (see scripts/examples/attributes-pool-builders.json)")
+        raise SystemExit(f"FEHLER: {a.attributes} ist keine Liste von Merkmalen (die Form steht in scripts/examples/README.md)")
     if not all(x.get("true_when") for x in attrs if not x["key"].startswith("_")):
-        print(f"note: some attributes in {a.attributes} have no true_when line; the label is printed instead. Add one per attribute so writers know what a true needs.")
+        print(f"Hinweis: einigen Merkmalen in {a.attributes} fehlt die Zeile true_when; gedruckt wird dann die Bezeichnung. Ergänzen Sie je Merkmal eine, damit die Verfasser wissen, was ein „wahr\" verlangt.")
     table = attribute_table(attrs)
     done = set()
     for p in glob.glob(os.path.join(a.enriched, "*.json")):
@@ -88,12 +100,12 @@ def main():
     for i, b in enumerate(batches, a.start):
         name = f"batch-{i:03d}"
         with open(os.path.join(a.out, name + ".md"), "w", encoding="utf-8") as f:
-            f.write(f"# {name}: {len(b)} listings\n\n{table}\n\n## Listings\n\n" + "\n\n".join("\n".join(l) for _, l in b) + "\n")
+            f.write(f"# {name}: {len(b)} Einträge\n\n{table}\n\n## Einträge\n\n" + "\n\n".join("\n".join(l) for _, l in b) + "\n")
         with open(os.path.join(a.out, name + ".slugs.json"), "w", encoding="utf-8") as f:
             json.dump([s for s, _ in b], f)
     n = sum(len(b) for b in batches)
-    print(f"already answered: {len(done)}, to do: {n} listings in {len(batches)} batches")
-    print("listings per batch:", [len(b) for b in batches])
+    print(f"schon beantwortet: {len(done)}, offen: {n} Einträge in {len(batches)} Stapeln")
+    print("Einträge je Stapel:", [len(b) for b in batches])
 
 
 if __name__ == "__main__":

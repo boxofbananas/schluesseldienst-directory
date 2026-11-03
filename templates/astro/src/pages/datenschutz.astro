@@ -5,10 +5,19 @@
 // Abschnitt 6 (Mail-Worker) gilt erst, wenn der Worker aus templates/worker laeuft; solange er nicht
 // laeuft, ist site.mailWorker false und der Abschnitt entfaellt.
 import Base from '../layouts/Base.astro';
-import { loadDirectory } from '../lib/load.mjs';
+import { loadDirectory, istOffen } from '../lib/load.mjs';
 const { site, buildDateDe } = loadDirectory();
 const p = site.publisher;
 const anschrift = [p.street, [p.postalCode, p.city].filter(Boolean).join(' ')].filter(Boolean).join(', ');
+// Auftragsverarbeiter aus site.json. Wird einer nicht genutzt, wird sein Absatz nicht gedruckt:
+// eine Datenschutzerklaerung, die Technik beschreibt, die es nicht gibt, ist genauso falsch wie
+// eine, die Technik verschweigt. mailWorker=true heisst: die Formulare gehen an den eigenen
+// Worker (Ziffer 6), nicht an einen Formulardienst.
+// Ist die Anschrift eines Dienstes noch offen, wird nur sein Name genannt statt einer erfundenen
+// Anschrift. Eine falsche Anschrift in einer Datenschutzerklaerung ist schlimmer als eine fehlende.
+const firma = (x) => (x && !istOffen(x.company) ? x.company : null);
+const formProc = site.mailWorker ? null : (site.processors && site.processors.form);
+const payProc = site.processors && site.processors.payment;
 ---
 <Base title={`Datenschutzerklärung | ${site.brand}`} description={`Wie ${site.brand} mit Daten umgeht.`} path="/datenschutz/" noindex={true}>
   <Fragment slot="head">
@@ -52,12 +61,16 @@ const anschrift = [p.street, [p.postalCode, p.city].filter(Boolean).join(' ')].f
       in die USA stützen wir uns auf die Standardvertragsklauseln der Europäischen Kommission nach Art. 46
       Abs. 2 Buchstabe c DSGVO.
     </p>
-    <p>
-      Zur Messung der Besucherzahlen nutzen wir „Cloudflare Web Analytics“. Dieser Dienst arbeitet ohne
-      Cookies und ohne Erkennungsmerkmale einzelner Besucher; es werden keine Profile gebildet.
-      Rechtsgrundlage ist Art. 6 Abs. 1 Buchstabe f DSGVO; unser berechtigtes Interesse liegt in der
-      Auswertung der Reichweite dieser Website.
-    </p>
+    {site.analytics
+      ? (
+        <p>
+          Zur Messung der Besucherzahlen nutzen wir „Cloudflare Web Analytics“. Dieser Dienst arbeitet ohne
+          Cookies und ohne Erkennungsmerkmale einzelner Besucher; es werden keine Profile gebildet.
+          Rechtsgrundlage ist Art. 6 Abs. 1 Buchstabe f DSGVO; unser berechtigtes Interesse liegt in der
+          Auswertung der Reichweite dieser Website.
+        </p>
+      )
+      : <p>Eine Reichweitenmessung findet nicht statt. Es werden keine Besuchsprofile gebildet.</p>}
 
     <h2>4. Kartendarstellung (Google Maps)</h2>
     <p>
@@ -80,9 +93,10 @@ const anschrift = [p.street, [p.postalCode, p.city].filter(Boolean).join(' ')].f
 
     <h2>5. Formulare</h2>
     <p>
-      Über die Formulare „Eintrag beanspruchen“, „Siegel beantragen“ und „Kontakt“ können Sie uns Angaben
+      Über die Formulare „Eintrag beanspruchen“ und „Siegel beantragen“ können Sie uns Angaben
       übermitteln. Verarbeitet werden die Angaben, die Sie dort eintragen, insbesondere Name des Betriebs,
-      Anschrift, Telefonnummer, Website, Name der Ansprechperson und E-Mail-Adresse.
+      Anschrift, Telefonnummer, Website, Name der Ansprechperson und E-Mail-Adresse. Auf der Kontaktseite
+      gibt es kein Formular; dort steht nur unsere E-Mail-Adresse.
     </p>
     <p>
       Rechtsgrundlage ist Art. 6 Abs. 1 Buchstabe b DSGVO, wenn Ihre Anfrage auf einen Vertrag gerichtet
@@ -91,6 +105,24 @@ const anschrift = [p.street, [p.postalCode, p.city].filter(Boolean).join(' ')].f
       zu ändern und mit Ihnen darüber zu sprechen. Wir speichern sie, solange die Anfrage bearbeitet wird,
       und darüber hinaus so lange, wie wir gesetzlich zur Aufbewahrung verpflichtet sind.
     </p>
+    {formProc && (
+      <p>
+        Die Zustellung der Formulare übernimmt {formProc.name}{firma(formProc) ? ` (${firma(formProc)})` : ''} als
+        Auftragsverarbeiter nach Art. 28 DSGVO. Die Angaben, die Sie in ein Formular eintragen, werden
+        dorthin übermittelt und von dort an uns weitergeleitet.
+        {formProc.thirdCountry ? ' Für die damit verbundene Übermittlung in ein Drittland stützen wir uns auf die Standardvertragsklauseln der Europäischen Kommission nach Art. 46 Abs. 2 Buchstabe c DSGVO.' : ''}
+      </p>
+    )}
+    {payProc && (
+      <p>
+        Buchen Sie einen kostenpflichtigen Platz, werden Sie zur Zahlung an {payProc.name}
+        {firma(payProc) ? `(${firma(payProc)}) ` : ''}weitergeleitet. Dort geben Sie Ihre Zahlungsdaten unmittelbar bei diesem
+        Anbieter ein; wir erhalten keine vollständigen Zahlungsdaten, sondern nur die Angaben, die zur
+        Zuordnung und Abrechnung Ihrer Buchung nötig sind. Rechtsgrundlage ist Art. 6 Abs. 1 Buchstabe b
+        DSGVO.
+        {payProc.thirdCountry ? ' Soweit dabei Daten in ein Drittland übermittelt werden, stützt sich der Anbieter auf die Standardvertragsklauseln der Europäischen Kommission.' : ''}
+      </p>
+    )}
 
     {site.mailWorker && (
       <>

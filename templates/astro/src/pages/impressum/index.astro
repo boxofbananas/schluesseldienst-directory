@@ -4,16 +4,26 @@
 // Solange publisher.vatId oder publisher.phone mit OFFEN_ beginnen, ist der Start blockiert
 // (wiki/seo/launch-lean.md): check_live.py prüft das.
 import Base from '../../layouts/Base.astro';
-import { loadDirectory } from '../../lib/load.mjs';
+import { loadDirectory, istOffen, offenePflichtangaben } from '../../lib/load.mjs';
 const { site } = loadDirectory();
 const p = site.publisher;
-const offen = (v) => !v || String(v).startsWith('OFFEN_');
+const offen = istOffen;
+// Fehlende Pflichtangaben werden hier sichtbar gemacht, nicht stillschweigend weggelassen: ein
+// Impressum mit Luecke ist ein Abmahngrund, und ein unsichtbarer Platzhalter faellt niemandem auf.
+const fehlend = offenePflichtangaben(site).filter((o) => o.pfad.startsWith('publisher.'));
 ---
 <Base title={`Impressum | ${site.brand}`} description={`Angaben nach § 5 DDG zu ${site.brand}.`} path="/impressum/" noindex={true}>
   <Fragment slot="head">
     <h1>Impressum</h1>
   </Fragment>
   <div class="prose">
+    {fehlend.length > 0 && (
+      <p class="note" style="border:2px solid #b00020;background:#fff3f3;padding:.8rem 1rem;border-radius:8px">
+        <b>Diese Seite ist noch nicht vollständig.</b> Es fehlen Pflichtangaben nach § 5 DDG:
+        {' '}{fehlend.map((o) => o.was).join(', ')}. Die Website darf in diesem Zustand nicht
+        veröffentlicht werden. Die Angaben werden in <code>src/data/site.json</code> eingetragen.
+      </p>
+    )}
     <h2>Anbieter</h2>
     <p>
       {p.legalName || p.name}<br />
@@ -33,8 +43,8 @@ const offen = (v) => !v || String(v).startsWith('OFFEN_');
 
     <h2>Registereintrag</h2>
     <p>
-      Registergericht: {p.registerCourt}<br />
-      Handelsregisternummer: {p.register}
+      {!offen(p.registerCourt) && <>Registergericht: {p.registerCourt}<br /></>}
+      {!offen(p.register) && <>Handelsregisternummer: {p.register}</>}
     </p>
 
     {!offen(p.vatId) && (

@@ -22,6 +22,10 @@ das Verzeichnis nichts, und kein Text tut so.
 
 ## Woraus Sie schreiben
 
+Die Kopfzeilen jeder Stadt im Paket: `city:` nennt die Stadt, `bundesland:` ihr Bundesland
+(beides dürfen Sie im Text verwenden), `intro band:` die Wortspanne, und `page type: small town`
+sagt, dass es eine kleine Ortsseite ist.
+
 1. **Das Paket der Stadt.** Es listet jeden Betrieb der Stadtseite in der Reihenfolge der Seite,
    mit Bewertung, Anzahl der Bewertungen und dem, was der Betrieb auf seiner eigenen Website über
    seine Arbeit angibt (die Zeile mit den Zählern nennt die Attribute), dazu eine Notiz zu den

@@ -3,13 +3,26 @@
 Die Preise dieses Verzeichnisses. Nach einer Zahlung die Spalte setzen, neu bauen, ausliefern
 (`wiki/framework/monetization-slots.md`).
 
+**Die Spaltenwerte sind englisch, weil der Code sie englisch liest.** `featured` kennt genau
+drei Werte: `city`, `county`, `state` (`templates/astro/src/lib/load.mjs`, `isFeaturedIn`). Ein
+deutscher Wert wie `stadt` steht in keiner Abfrage: der bezahlte Platz erscheint dann nirgends,
+und das fällt erst dem Kunden auf. Dasselbe gilt für die Namen der Zahlungslinks: maßgeblich ist
+`templates/astro/src/data/site.json` → `tiers` mit `STRIPE_LINK_PREMIUM`, `STRIPE_LINK_CITY` und
+`STRIPE_LINK_BESTOF`.
+
+**Schreibweise der Stufennamen** (eine, überall): **Premium-Eintrag**, **Stadt-Premium**,
+**Top-Platzierung**, dazu **Landkreis-Premium** und **Bundesland-Premium** als später zu
+aktivierende Stufen. „Premium-Platz" ist kein Stufenname, sondern die allgemeine Bezeichnung für
+einen bezahlten Platz aus der Wortliste in `wiki/konventionen.md` (englisch *featured listing*);
+so steht sie auch auf den Schaltflächen der Site.
+
 ## Stufen, die verkauft werden
 
 | Stufe | Preis | Platzierung | Spalte | Zahlungslink |
 |---|---|---|---|---|
 | **Premium-Eintrag** | **97 € im Jahr** | der ausgebaute Eintragszustand: Fotos vom Inhaber, alle Links gefolgt, Karte nach Klick, Öffnungszeiten, dazu das Siegelbild zum Einbinden, wenn der Betrieb geprüft ist | `premium` = `true` | {{STRIPE_LINK_PREMIUM}} |
-| **Stadt-Premium** | **29 € im Monat** | oberste Karte auf einer Stadtseite, gefolgter Link, Foto | `featured` = `stadt` | {{STRIPE_LINK_STADT}} |
-| **Top-Platzierung** | **250 € einmalig** | fester Platz in der Liste „Die besten Schlüsseldienste in [Stadt]", dazu eine Pressemitteilung über den Betrieb, deren drei Links auf seine Website, seine Eintragsseite und die Stadtseite gehen | `best_of_rank` = `1` bis `3` | {{STRIPE_LINK_TOP}} |
+| **Stadt-Premium** | **29 € im Monat** | oberste Karte auf einer Stadtseite, gefolgter Link, Foto | `featured` = `city` | {{STRIPE_LINK_CITY}} |
+| **Top-Platzierung** | **250 € einmalig** | fester Platz in der Liste „Die besten Schlüsseldienste in [Stadt]", dazu eine Pressemitteilung über den Betrieb, deren drei Links auf seine Website, seine Eintragsseite und die Stadtseite gehen | `best_of_rank` = `1` bis `3` | {{STRIPE_LINK_BESTOF}} |
 
 ## Stufen, die später zu aktivieren sind
 
@@ -20,8 +33,8 @@ die es noch nicht gibt.
 
 | Stufe | Platzierung | Spalte |
 |---|---|---|
-| Landkreis-Premium | oberste Karte auf allen Stadtseiten eines Landkreises | `featured` = `landkreis`, dazu `featured_cities` |
-| Bundesland-Premium | Block auf der Bundesland-Seite plus alle Stadtseiten des Landes | `featured` = `bundesland` |
+| Landkreis-Premium | oberste Karte auf allen Stadtseiten eines Landkreises | `featured` = `county`, dazu `featured_cities` |
+| Bundesland-Premium | Block auf der Bundesland-Seite plus alle Stadtseiten des Landes | `featured` = `state` |
 
 Preis für beide: offen. Wird festgelegt, wenn die erste Nachfrage kommt, aus den dann
 bekannten Zahlen (Besucher der Bundesland-Seite, Zahl der Städte im Landkreis), nicht vorher

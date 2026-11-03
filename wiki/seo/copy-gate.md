@@ -16,19 +16,36 @@ Ratgeberseiten **vor** `npm run build`, und auf die gebauten Seiten Startseite, 
 ## 1. Jeden kurzen Block prüfen (kein Zugang nötig)
 
 `scripts/lint_copy.py` liest die Verbotsliste der Skill
-(`skills/seo-content-engine/references/forbidden_words.txt`, **deutsche Werbefloskeln**) plus
-die eigenen Zusätze des Blueprints (`scripts/copy-bans.txt`) und wendet sie mit den Funktionen
-der Skill an. Nur Standardbibliothek, Rückgabewert 1 bei jedem Fehler, also läuft es als
-Schleife: laufen lassen, nachbessern, erneut laufen lassen.
+(`skills/seo-content-engine/references/forbidden_words.txt`) plus die eigenen Zusätze des
+Blueprints (`scripts/copy-bans.txt`). Beide Listen haben vier Blöcke: `[WORDS]` und `[PHRASES]`
+für die **Werbefloskeln**, `[RECHTSWOERTER]` und `[RECHTSWENDUNGEN]` für die **Rechts- und
+Amtswörter** (Abschnitt 1a). Ein Eintrag, der auf `*` endet, ist ein **Wortstamm** und trifft
+jede gebeugte Form: `lizenzier*` fängt „lizenziert“, „lizenzierte“ und „Lizenzierung“.
+Verglichen wird umlauttolerant („zuverlaessig“ gilt wie „zuverlässig“). Nur
+Standardbibliothek, Rückgabewert 1 bei jedem Fehler, also läuft es als Schleife: laufen lassen,
+nachbessern, erneut laufen lassen.
 
 | Text | Befehl | Was geprüft wird |
 |---|---|---|
 | Stadtblöcke und Fragen | `python3 scripts/lint_copy.py output/<slug>/site/src/data/city-copy.json --niche "schlüsseldienste" --city-sizes output/<slug>/05-city-sizes.json` | Wort- und Fragenband der Größenklasse ([[page-types]]), jede Antwort 20 bis 120 Wörter, Branchenwort im ersten Absatz, keine verbotenen Wörter, keine Gedankenstriche |
-| Bundesland-Seite (gebaut) | `python3 scripts/lint_copy.py output/<slug>/site/dist/verzeichnis/<bundesland>/index.html --min-words 300 --max-words 500` | Seitenband, Verbote, Gedankenstriche |
+| Bundesland-Seite (gebaut) | `python3 scripts/lint_copy.py output/<slug>/site/dist/verzeichnis/<bundesland>/index.html --min-words 300 --max-words 500` | Seitenband, Verbote, Gedankenstriche. **Das Band greift erst, wenn Gate 5 den Einleitungstext geschrieben hat** (siehe unten) |
 | „Über uns" (gebaut) | `python3 scripts/lint_copy.py output/<slug>/site/dist/ueber-uns/index.html --min-words 300 --max-words 500` | Seitenband, Verbote, Gedankenstriche |
 | Startseite (gebaut) | `python3 scripts/lint_copy.py output/<slug>/site/dist/index.html --min-words 800 --max-words 1500 --niche "schlüsseldienste"` | Seitenband, Branchenwort früh, Verbote, Gedankenstriche. Der Ratgeberblock darin bleibt bei 400 bis 600 Wörtern und die Fragen bei 5 bis 8 |
-| Siegel-Seite (gebaut) | `python3 scripts/lint_copy.py output/<slug>/site/dist/siegel/index.html --min-words 400 --max-words 700` | Seitenband, Verbote. **Zusätzlich von Hand prüfen:** alle sechs Kriterien stehen da, der Satz „kein Test vor Ort" steht da, der Satz zur Nichtkäuflichkeit steht da ([[siegel-programm]]) |
-| Ratgeberseite | `python3 scripts/lint_copy.py output/<slug>/site/src/pages/ratgeber/<slug>.md --min-words 1200 --niche "<thema>"` | 1.200 Wörter oder mehr, Thema früh, Verbote, Gedankenstriche |
+| Siegel-Seite (gebaut) | `python3 scripts/lint_copy.py output/<slug>/site/dist/siegel/index.html --min-words 700 --max-words 1200 --erlaube-rechtswoerter` | Seitenband, Floskelverbote. Die Rechtswörter sind hier zugelassen (siehe unten). **Zusätzlich von Hand prüfen:** alle sechs Kriterien stehen da, der Satz „kein Test vor Ort" steht da, der Satz zur Nichtkäuflichkeit steht da ([[siegel-programm]]) |
+| AGB (gebaut) | `python3 scripts/lint_copy.py output/<slug>/site/dist/agb/index.html --erlaube-rechtswoerter` | Floskelverbote, Gedankenstriche; kein Wortband (eine Rechtsseite wird nicht auf Länge geschrieben) |
+| Ratgeberseite | `python3 scripts/lint_copy.py output/<slug>/site/src/pages/ratgeber/<slug>.md --min-words 1200 --niche "<thema>"` | 1.200 Wörter oder mehr, Thema früh, Verbote, Gedankenstriche. Klärt die Seite über die Rechtslage auf, dann mit `--erlaube-rechtswoerter` |
+
+**Die Datei `05-city-sizes.json`** erzeugt kein Gate von sich aus; sie ist die Größentabelle für
+den Lauf auf `city-copy.json` und wird in Gate 5 **unmittelbar nach `node dump-cities.mjs`** aus
+`05-cities.json` geschrieben, in einer Zeile:
+
+```
+python3 -c "import json;print(json.dumps({c['slug']:c['count'] for c in json.load(open('output/<slug>/05-cities.json'))}))" > output/<slug>/05-city-sizes.json
+```
+
+Ohne diese Datei gilt für jede Stadt 500 Wörter und 4 Fragen, also fällt jede kleine Stadt zu
+Unrecht durch. Maßgeblich für die Größenklassen bleibt ohnehin `scripts/check_city_copy.py`: es
+liest die Spanne jeder Stadt aus der Zeile `intro band:` ihres Pakets.
 
 Die Lesbarkeitsstufe wird berichtet, nicht erzwungen. Für deutsche Texte über ein
 Handwerksthema taugt eine Stufe, die ein Laie im Notfall am Telefon versteht; sehr lange
@@ -48,6 +65,56 @@ deutsche Beschriftungen länger sind. Mit dem Ratgeber bei 400 bis 600 und den F
 8 muss die Obergrenze 1.500 sein, damit beide Bänder zugleich halten. Der geschriebene Text
 sind etwa 800 bis 1.200 Wörter.
 
+**Warum das Band der Siegel-Seite 700 bis 1.200 ist.** `/siegel/` muss alle sechs
+Prüfkriterien, das vollständige Serviceversprechen **und** die Aufklärung über die Rechtslage
+tragen ([[siegel-programm]], [[konventionen]]); das sind drei Pflichtteile, die zusammen unter
+700 Wörtern nicht ohne Auslassung hineinpassen (der Probebau vom 03.11.2026 kam auf 784 Wörter
+und war vollständig, fiel aber am alten Band 400 bis 700 durch).
+
+**Warum das Band der Bundesland-Seite erst später greift.** Die Vorlage
+(`templates/astro/src/pages/verzeichnis/[bundesland]/index.astro`) setzt den Einleitungstext aus
+`site.regionIntro`; im ausgelieferten Template ist dieses Feld leer (`[]`), und ohne es trägt die
+Seite nur Seitenkopf, Städteliste und Fragen, im Probebau 227 Wörter. **Das Band ist richtig, die
+Seite war noch nicht geschrieben:** 300 bis 500 Wörter gelten erst, wenn Gate 5 den
+Einleitungstext je Bundesland geschrieben hat. Bis dahin wird die Bundesland-Seite ohne
+`--min-words` geprüft (Verbote und Gedankenstriche genügen), und `05-build-report.md` führt den
+fehlenden Einleitungstext als offenen Punkt.
+
+**Offener Punkt am Template:** `site.regionIntro` ist **ein** Textfeld für alle 16
+Bundesland-Seiten. Derselbe Text auf jeder von ihnen wäre doppelter Inhalt auf der ganzen
+Zwischenebene. Ein Einleitungstext je Bundesland braucht deshalb ein nach Bundesland
+geschlüsseltes Feld in der Vorlage; solange es das nicht gibt, bleibt `regionIntro` leer und die
+Bundesland-Seiten laufen ohne Einleitung, mit ausgesetztem Band.
+
+## 1a. Der Schalter für die Rechtswörter
+
+`forbidden_words.txt` verbietet die Rechts- und Amtswörter („lizenziert", „zugelassen",
+„zertifiziert", „Meisterpflicht", „Kammer", „amtlich", „Gütesiegel", „staatlich", „getestet")
+ausdrücklich **auch in Verneinungen**. Für die Seiten, die nach [[konventionen]] genau darüber
+aufklären müssen („Der Schlüsseldienst ist kein zulassungspflichtiges Handwerk … wer mit
+‚lizenziert‘ wirbt, sagt nichts aus"), ist das ein Widerspruch, der sich nicht durch Umschreiben
+auflösen lässt: die Aufklärung braucht das Wort, das sie bestreitet.
+
+Deshalb stehen diese Einträge in beiden Verbotslisten in einem eigenen, benannten Block
+(`[RECHTSWOERTER]` und `[RECHTSWENDUNGEN]`), und `scripts/lint_copy.py --erlaube-rechtswoerter`
+(englische Zweitform `--allow-legal-words`) lässt genau diesen Block für **eine einzelne Seite**
+zu. Die Werbefloskeln aus `[WORDS]` und `[PHRASES]` bleiben dabei verboten, und der Bericht
+schreibt eine Hinweiszeile, dass der Schalter an war.
+
+**Der Schalter gilt ausschließlich für:**
+
+- `/siegel/` – die sechs Kriterien und die Aufklärung, was das Siegel nicht ist
+- `/agb/` – die Rechtsseite zu den bezahlten Stufen und zum Siegel
+- Ratgeberseiten, die über die Rechtslage aufklären (kein zulassungspflichtiges Handwerk, keine
+  Lizenz, keine Meisterpflicht)
+
+**Nie für Stadttexte, Eintragsbeschreibungen oder die Startseite.** Dort gibt es keinen Grund,
+diese Wörter zu schreiben, und dort wäre jede Verwendung genau der Rechtsverstoß, den die Liste
+verhindert. Auch mit Schalter gilt: kein Satz behauptet eine Lizenz, eine Zulassung oder eine
+amtliche Rolle; die Wörter stehen nur in der Verneinung oder als Zitat der Werbung anderer.
+`scripts/check_city_copy.py` kennt den Schalter nicht und wird ihn nie bekommen: Stadttexte
+werden immer gegen die vollständige Liste geprüft.
+
 ## 2. Was der Prüfer zusätzlich fängt
 
 `scripts/check_city_copy.py` läuft das Textgate und prüft vier Dinge mehr: jede Zahl muss in
@@ -55,8 +122,18 @@ den Daten der Stadt oder auf der Faktensammlung stehen, **keine Prozentangabe un
 Eurobetrag**, keine interne Wortwahl, und kein Satz und kein Anfang, den drei oder mehr Städte
 teilen.
 
+Der vollständige Aufruf (er schreibt `city-copy.json` erst, wenn jede Stadt beantwortet ist und
+nichts durchfällt; `--write` erwartet den Pfad der Datei, es ist kein Schalter ohne Wert):
+
+```
+python3 scripts/check_city_copy.py --copy output/<slug>/05-cache/city-copy \
+    --batches output/<slug>/05-cache/city-batches --facts output/<slug>/05-fact-sheet.md \
+    --niche "Schlüsseldienste" --write output/<slug>/site/src/data/city-copy.json
+```
+
 Für diese Fassung kommt dazu, was in keinem sichtbaren Text vorkommen darf und von Hand oder
-über `scripts/copy-bans.txt` geprüft wird:
+über `scripts/copy-bans.txt` geprüft wird (zu den beiden Rechtsblöcken siehe Abschnitt 1a: nur
+`/siegel/`, `/agb/` und Ratgeberseiten zur Rechtslage dürfen sie bestreiten):
 
 - **„lizenziert", „zugelassen", „zertifiziert", „Meisterbetrieb" als Gütezeichen,
   „Konzession".** Schlüsseldienst ist kein zulassungspflichtiges Handwerk; es gibt keine

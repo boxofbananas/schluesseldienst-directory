@@ -40,6 +40,15 @@ FORBIDDEN_FILE = os.path.join(
 INTRO_CHAR_WINDOW = 200
 
 
+# The list has four sections, in two groups: [WORDS]/[PHRASES] are the ad clichés, and
+# [RECHTSWOERTER]/[RECHTSWENDUNGEN] are the German legal-authority claims (licence, guild,
+# chamber, state-approved). This linter enforces both groups; only scripts/lint_copy.py can
+# waive the legal group, for the single pages that have to deny those words (see
+# wiki/seo/copy-gate.md). The section names are kept here so this script never trips over them.
+SECTION_NAMES = {"[WORDS]": "words", "[RECHTSWOERTER]": "words",
+                 "[PHRASES]": "phrases", "[RECHTSWENDUNGEN]": "phrases"}
+
+
 def load_forbidden(path):
     """Load words and phrases from the canonical txt file.
 
@@ -56,17 +65,27 @@ def load_forbidden(path):
             line = line.strip()
             if not line or line.startswith("#"):
                 continue
-            if line.upper() == "[WORDS]":
-                section = "words"
-                continue
-            if line.upper() == "[PHRASES]":
-                section = "phrases"
+            head = SECTION_NAMES.get(line.upper())
+            if head:
+                section = head
                 continue
             if section == "words":
                 words.append(line.lower())
             elif section == "phrases":
                 phrases.append(line.lower())
     return words, phrases
+
+
+def stem_pattern(token):
+    """Match pattern for one list entry or phrase part. An entry ending in `*` is a STEM and
+    matches any continuation: `lizenzier*` becomes `\\blizenzier\\w*` and so catches
+    "lizenziert", "lizenzierte" and "Lizenzierung". Without the star the whole word is matched
+    between word boundaries. German inflects, so a list of base forms let every inflected form
+    through."""
+    t = token.strip()
+    if t.endswith("*"):
+        return r"\b" + re.escape(t[:-1]) + r"\w*"
+    return r"\b" + re.escape(t) + r"\b"
 
 
 def strip_markdown(text):
@@ -112,10 +131,12 @@ def flesch_kincaid_grade(text):
 
 
 def find_forbidden_words(prose, words):
+    """Whole words and stems (see stem_pattern). The key reported is the list's own line, star
+    included, so the writer can see which entry fired."""
     hits = {}
     lower = prose.lower()
     for w in words:
-        n = len(re.findall(r"\b" + re.escape(w) + r"\b", lower))
+        n = len(re.findall(stem_pattern(w), lower))
         if n:
             hits[w] = n
     return hits
@@ -123,18 +144,20 @@ def find_forbidden_words(prose, words):
 
 def find_forbidden_phrases(prose, phrases):
     """Match phrases loosely so 'not only ... but also' is caught with filler
-    words in the gap, and punctuation between words doesn't hide a match."""
+    words in the gap, and punctuation between words doesn't hide a match. Any part may be a
+    stem: `staatlich anerkannt*` catches "staatlich anerkannter Betrieb"."""
     hits = {}
     lower = prose.lower()
     for p in phrases:
-        parts = [re.escape(tok) for tok in p.split()]
-        pattern = r"\b" + r"\W+(?:\w+\W+){0,6}?".join(parts) + r"\b" \
-            if len(parts) > 1 else r"\b" + parts[0] + r"\b"
-        # Simpler exact-ish match first, then the loose one for multi-word.
-        if len(parts) == 1:
-            n = len(re.findall(r"\b" + parts[0] + r"\b", lower))
+        toks = p.split()
+        if not toks:
+            continue
+        if len(toks) == 1:
+            pattern = stem_pattern(toks[0])
         else:
-            n = len(re.findall(pattern, lower))
+            parts = [re.escape(t[:-1]) + r"\w*" if t.endswith("*") else re.escape(t) for t in toks]
+            pattern = r"\b" + r"\W+(?:\w+\W+){0,6}?".join(parts) + ("" if toks[-1].endswith("*") else r"\b")
+        n = len(re.findall(pattern, lower))
         if n:
             hits[p] = n
     return hits

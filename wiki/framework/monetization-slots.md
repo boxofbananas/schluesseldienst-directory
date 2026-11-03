@@ -72,11 +72,16 @@ Preise, Zahlungslinks und das Siegelschnipsel stehen in `templates/featured-tier
 Kurzfassung:
 
 - **Premium-Eintrag, 97 € im Jahr:** der ausgebaute Zustand plus das Siegelbild zum Einbinden.
-- **Stadt-Premium, 29 € im Monat:** oberste Karte auf einer Stadtseite, gefolgter Link, Foto.
+- **Stadt-Premium, 29 € im Monat:** oberste Karte auf einer Stadtseite, gefolgter Link, Foto
+  (`featured` = `city`).
 - **Top-Platzierung, 250 € einmalig:** fester Platz in der Liste „Die besten Schlüsseldienste
   in [Stadt]" (`best_of_rank` 1 bis 3), dazu eine Pressemitteilung über den Betrieb.
 - Landkreis- und Bundesland-Stufe: **später zu aktivieren**, nicht verkaufen, bevor ein
   Stadt-Platz verkauft ist.
+
+**Die Spalte `featured` kennt genau drei Werte, und sie sind englisch:** `city`, `county`,
+`state`. Nur diese drei liest der Build (`templates/astro/src/lib/load.mjs`); ein deutscher
+Wert wie `stadt` erzeugt einen bezahlten Platz, der auf keiner Seite erscheint.
 
 **Je Stadt und Stufe ein Betrieb.** Verkauft wird von Hand: Zahlungslink senden, Spalte
 setzen, neu bauen. Kündigung heißt Spalte leeren und neu bauen. **Und je Stadt höchstens ein

@@ -7,78 +7,49 @@
 # Eine Zeile je Eintrag, keine Erläuterungen in der Zeile: das Skript vergleicht
 # wörtlich, also würde Prosa hier zu Falschtreffern führen.
 #
-# [WORDS]   einzelne Wörter, ganzes Wort, Groß- und Kleinschreibung gleich.
-# [PHRASES] mehrteilige Wendungen, als Teilstring, Groß- und Kleinschreibung gleich.
+# WORTSTÄMME: ein Eintrag, der auf * endet, trifft jede Fortsetzung. „lizenzier*" fängt
+# „lizenziert", „lizenzierte" und „Lizenzierung"; „einzigartig*" fängt „einzigartige" und
+# „einzigartigen". Deutsch beugt, deshalb stehen hier Stämme statt Grundformen: eine Liste aus
+# Grundformen hat jede gebeugte Form durchgelassen. Ohne Stern gilt das ganze Wort.
 #
-# Die drei Gründe, aus denen etwas auf dieser Liste steht:
-#  1. RECHT: Schlüsseldienst ist in Deutschland kein zulassungspflichtiges Handwerk.
-#     Es gibt keine Lizenz und keine Meisterpflicht (wiki/konventionen.md).
-#  2. VERWECHSLUNG: das Wort erwecken würde den Eindruck, hinter dem Verzeichnis
-#     stehe eine amtliche Stelle oder eine Standesorganisation.
-#  3. FLOSKEL: Werbesprache, die nichts belegt, oder ein KI-Verräter.
+# VIER BLÖCKE, zwei Gruppen:
+#  [WORDS] / [PHRASES]  Floskeln und KI-Verräter: Werbesprache, die nichts belegt.
+#                       Immer verboten, auf jeder Seite, ohne Ausnahme.
+#  [RECHTSWOERTER] / [RECHTSWENDUNGEN]  die Rechts- und Amtswörter. Zwei Gründe:
+#    1. RECHT: Schlüsseldienst ist in Deutschland kein zulassungspflichtiges Handwerk.
+#       Es gibt keine Lizenz und keine Meisterpflicht (wiki/konventionen.md).
+#    2. VERWECHSLUNG: das Wort würde den Eindruck erwecken, hinter dem Verzeichnis
+#       stehe eine amtliche Stelle oder eine Standesorganisation.
+#
+# Nur dieser zweite Block lässt sich mit `scripts/lint_copy.py --erlaube-rechtswoerter`
+# für eine einzelne Seite zulassen, und nur für /siegel/, /agb/ und Ratgeberseiten, die über
+# die Rechtslage aufklären: dort verlangt wiki/konventionen.md ausdrücklich die Aufklärung
+# („Der Schlüsseldienst ist kein zulassungspflichtiges Handwerk … wer mit ‚lizenziert‘ wirbt,
+# sagt nichts aus"), und die ist ohne diese Wörter nicht zu schreiben. Für Stadttexte,
+# Eintragsbeschreibungen und die Startseite gilt der Schalter nie (wiki/seo/copy-gate.md).
+# Wo er nicht gilt, bleibt die Aufklärung bei den erlaubten Wörtern: „nicht
+# zulassungspflichtig", „Anlage A der Handwerksordnung", „Gewerbeanmeldung", „Eintragung im
+# Handelsregister".
 #
 # "geprüft" steht NICHT auf dieser Liste: es ist dem Siegel vorbehalten und wird
 # dort mit Jahreszahl benutzt (wiki/framework/siegel-programm.md). Dass es sonst
 # nicht als allgemeines Lob auftaucht, prüft der Mensch.
-#
-# Absicht und Nebenwirkung: Die Liste verbietet die Rechtswörter auch dann, wenn ein
-# Satz sie bestreiten will ("es gibt keine Lizenz"). Das ist gewollt. Soll ein
-# Ratgebertext erklären, dass dieses Gewerbe nicht zulassungspflichtig ist, dann mit
-# den erlaubten Wörtern: "nicht zulassungspflichtig", "Anlage A der
-# Handwerksordnung", "Gewerbeanmeldung", "Eintragung im Handelsregister".
 
 [WORDS]
-lizenziert
-Lizenz
-zugelassen
-zertifiziert
-Zertifizierung
-Zertifikat
-Konzession
-konzessioniert
-Meisterbetrieb
-Meisterpflicht
-Innung
-Innungsbetrieb
-Verbandsbetrieb
-Kammer
-amtlich
-Verbraucherschutz
-getestet
-Testsieger
-TÜV
-Prüfsiegel
-Gütesiegel
-Qualitätssiegel
-staatlich
-behördlich
-vereidigt
-unschlagbar
-unschlagbare
-unschlagbaren
+unschlagbar*
 Spitzenreiter
 Marktführer
 marktführend
 weltklasse
-einzigartig
-einzigartige
-einzigartigen
-erstklassig
-erstklassige
-erstklassigen
-hochmodern
-hochmoderne
-maßgeschneidert
-maßgeschneiderte
-revolutionär
-revolutionäre
-bahnbrechend
-bahnbrechende
-innovativ
-innovative
+einzigartig*
+erstklassig*
+hochmodern*
+maßgeschneidert*
+revolutionär*
+bahnbrechend*
+innovativ*
 kinderleicht
-blitzschnell
-Blitzschnelle
+blitzschnell*
 Spitzenqualität
 Premiumqualität
 Topqualität
@@ -87,10 +58,8 @@ Tiefpreis
 Traumpreis
 sagenhaft
 atemberaubend
-pulsierend
-pulsierende
-malerisch
-malerische
+pulsierend*
+malerisch*
 idyllisch
 eingebettet
 Herzstück
@@ -140,19 +109,6 @@ Nummer 1 in
 die Nummer eins
 führender Anbieter
 führende Anbieter
-amtlich geprüft
-amtlich zugelassen
-offiziell geprüft
-offiziell zugelassen
-behördlich geprüft
-von der Innung
-Mitglied der Innung
-von der Kammer geprüft
-staatlich geprüft
-staatlich anerkannt
-vom TÜV geprüft
-von Stiftung Warentest getestet
-mit Brief und Siegel
 100 Prozent sicher
 100% sicher
 garantiert zum Festpreis
@@ -164,3 +120,52 @@ ab 49 Euro
 ab 59 Euro
 ab 69 Euro
 ab 89 Euro
+
+[RECHTSWOERTER]
+lizenzier*
+lizensier*
+Lizenz
+Lizenzen
+zugelassen*
+zertifizier*
+Zertifikat*
+Konzession*
+konzessionier*
+Meisterbetrieb*
+Meisterpflicht*
+Innung*
+Zunft*
+Zünft*
+Verband
+Verbände
+Verbands*
+Kammer
+Kammern
+amtlich*
+behördlich*
+Verbraucherschutz
+getestet*
+Testsieger
+TÜV
+Prüfsiegel
+Gütesiegel
+Qualitätssiegel
+staatlich
+vereidigt
+
+[RECHTSWENDUNGEN]
+amtlich geprüft
+amtlich zugelassen*
+offiziell geprüft
+offiziell zugelassen*
+behördlich geprüft
+von der Innung
+Mitglied der Innung
+von der Kammer geprüft
+staatlich geprüft
+staatlich anerkannt*
+geprüfter Meisterbetrieb
+zertifizierter Meisterbetrieb
+vom TÜV geprüft
+von Stiftung Warentest getestet
+mit Brief und Siegel

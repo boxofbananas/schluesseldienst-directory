@@ -66,7 +66,7 @@ const crumbs = [{ name: 'Startseite', href: '/' }, { name: 'Leistungen', href: '
       </section>
       <section>
         <h2>{s.title} nach Stadt</h2>
-        <p class="meta">So viele der eingetragenen {site.niche.plural} nennen „{s.label}“ auf der jeweiligen Stadtseite.</p>
+        <p class="meta">Die Zahl nennt, wie viele Betriebe der Stadt diese Leistung auf ihrer eigenen Website angeben.</p>
         <!-- copy:skip -->
         <ul class="city-grid">{s.cities.map((x) => <li><a href={x.city.path}><span class="name">{x.city.name}</span> <span class="n">{x.count}</span></a></li>)}</ul>
         <!-- /copy:skip -->

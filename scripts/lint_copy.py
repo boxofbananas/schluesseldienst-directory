@@ -41,11 +41,21 @@ Deutsche Besonderheiten dieser Fassung:
   **berichtet**, nicht erzwungen (Regel der Skill).
 - **Verbotene Wörter** werden umlauttolerant verglichen (ä/ae, ö/oe, ü/ue, ß/ss), damit
   „zuverlässig" auch „zuverlaessig" findet.
+- **Wortstämme:** ein Listeneintrag, der auf `*` endet, ist ein Stamm und trifft jede
+  Fortsetzung. `lizenzier*` fängt „lizenziert", „lizenzierte" und „Lizenzierung". Ohne das
+  entging dem Gate jede gebeugte Form, weil nur Grundformen in den Listen stehen.
 
 Prüfungen je Stadtblock: Wortspanne und FAQ-Zahl der Größenklasse, jede FAQ-Antwort 20 bis 120
 Wörter, die Branchenbezeichnung im ersten Absatz, keine verbotenen Wörter oder Wendungen (die
 Liste der Skill plus scripts/copy-bans.txt), keine Gedankenstriche. Beendet mit 1, sobald eine
 Prüfung durchfällt: prüfen, beheben, erneut prüfen.
+
+Die **Rechtswörter** („lizenziert", „zugelassen", „Kammer", „amtlich", „Gütesiegel" …) stehen in
+beiden Listen in einem eigenen Block ([RECHTSWOERTER] und [RECHTSWENDUNGEN]) und lassen sich für
+eine einzelne Seite mit `--erlaube-rechtswoerter` zulassen. Das ist nötig, weil `/siegel/`,
+`/agb/` und Ratgeberseiten über die Rechtslage genau diese Wörter brauchen, um sie zu bestreiten
+(„es gibt keine Lizenz und keine Meisterpflicht"). Wofür der Schalter gilt und wofür nie, steht
+in wiki/seo/copy-gate.md; die Werbefloskeln bleiben in jedem Fall verboten.
 """
 
 import argparse
@@ -105,10 +115,54 @@ def fold_pattern(p):
     return p
 
 
-def load_bans():
-    words, phrases = la.load_forbidden(SKILL_FORBIDDEN)
-    w2, p2 = la.load_forbidden(LOCAL_BANS)
-    return words + w2, phrases + p2
+SECTIONS = {
+    "[WORDS]": ("words", "floskeln"),
+    "[PHRASES]": ("phrases", "floskeln"),
+    "[RECHTSWOERTER]": ("words", "recht"),
+    "[RECHTSWENDUNGEN]": ("phrases", "recht"),
+}
+
+
+def parse_bans(path):
+    """Eine Verbotsliste in ihre vier Fächer lesen: Wörter und Wendungen, je in der Gruppe
+    „floskeln" (Werbesprache, immer verboten) und „recht" (Behauptungen über Zulassung,
+    Lizenz oder eine amtliche Stelle). Rückgabe {("words"|"phrases", Gruppe): [Einträge]}.
+    Eine fehlende Datei ist keine Ausnahme, sondern eine Warnung: dann prüft das Gate weniger,
+    statt gar nicht zu laufen (Regel der Skill)."""
+    out = {k: [] for k in SECTIONS.values()}
+    if not os.path.exists(path):
+        print(f"WARNUNG: Verbotsliste nicht gefunden: {path} – diese Prüfung entfällt.")
+        return out
+    fach = None
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+            head = SECTIONS.get(line.upper())
+            if head:
+                fach = head
+                continue
+            if fach:
+                out[fach].append(line.lower())
+    return out
+
+
+def load_bans(erlaube_rechtswoerter=False):
+    """Die beiden Listen (Skill und Baukasten) zu einem Paar (Wörter, Wendungen) zusammenziehen.
+    Mit erlaube_rechtswoerter=True bleibt der Block der Rechtswörter außen vor – nur für die
+    Seiten, die in wiki/seo/copy-gate.md genannt sind."""
+    words, phrases = [], []
+    for path in (SKILL_FORBIDDEN, LOCAL_BANS):
+        fach = parse_bans(path)
+        words += fach[("words", "floskeln")]
+        phrases += fach[("phrases", "floskeln")]
+        if not erlaube_rechtswoerter:
+            words += fach[("words", "recht")]
+            phrases += fach[("phrases", "recht")]
+    # Beide Listen führen einen Teil der Einträge doppelt (die Rechtswörter stehen absichtlich in
+    # beiden). Entdoppeln, damit der Bericht jeden Treffer einmal nennt.
+    return list(dict.fromkeys(words)), list(dict.fromkeys(phrases))
 
 
 def count_words(text):
@@ -145,13 +199,25 @@ def readability_de(text):
     return round(index, 1), round(hard * 100, 1)
 
 
+def stem_pattern(token):
+    """Das Vergleichsmuster eines einzelnen Listeneintrags oder Wendungsteils, umlauttolerant
+    gefaltet. Endet der Eintrag auf `*`, gilt er als **Wortstamm** und trifft jede Fortsetzung:
+    aus `lizenzier*` wird `\\blizenzier\\w*`, und das findet „lizenziert", „lizenzierte" und
+    „Lizenzierung". Ohne Stern bleibt es beim ganzen Wort zwischen zwei Wortgrenzen."""
+    t = fold_text(token).strip()
+    if t.endswith("*"):
+        return r"\b" + re.escape(t[:-1]) + r"\w*"
+    return r"\b" + re.escape(t) + r"\b"
+
+
 def find_words(prose, words):
-    """Verbotene ganze Wörter, umlauttolerant verglichen. Rückgabe wie bei der Skill:
-    {Wort: Anzahl}, der Schlüssel in der Schreibweise der Verbotsliste."""
+    """Verbotene ganze Wörter und Wortstämme, umlauttolerant verglichen. Rückgabe wie bei der
+    Skill: {Eintrag: Anzahl}, der Schlüssel in der Schreibweise der Verbotsliste (mit Stern,
+    damit im Bericht steht, welche Zeile der Liste angeschlagen hat)."""
     hits = {}
     low = fold_text(prose)
     for w in words:
-        n = len(re.findall(r"\b" + re.escape(fold_text(w)) + r"\b", low))
+        n = len(re.findall(stem_pattern(w), low))
         if n:
             hits[w] = n
     return hits
@@ -163,13 +229,16 @@ def find_phrases(prose, phrases):
     hits = {}
     low = fold_text(prose)
     for p in phrases:
-        parts = [re.escape(tok) for tok in fold_text(p).split()]
-        if not parts:
+        toks = fold_text(p).split()
+        if not toks:
             continue
-        if len(parts) == 1:
-            pattern = r"\b" + parts[0] + r"\b"
+        if len(toks) == 1:
+            pattern = stem_pattern(toks[0])
         else:
-            pattern = r"\b" + r"\W+(?:\w+\W+){0,6}?".join(parts) + r"\b"
+            # Jeder Teil darf ein Stamm sein (`staatlich anerkannt*` findet „staatlich
+            # anerkannter Betrieb"); zwischen den Teilen bleiben bis zu sechs Füllwörter.
+            inner = [re.escape(t[:-1]) + r"\w*" if t.endswith("*") else re.escape(t) for t in toks]
+            pattern = r"\b" + r"\W+(?:\w+\W+){0,6}?".join(inner) + (r"" if toks[-1].endswith("*") else r"\b")
         n = len(re.findall(pattern, low))
         if n:
             hits[p] = n
@@ -342,6 +411,13 @@ def main():
     ap.add_argument("--city-sizes", help="JSON-Datei, die city_slug auf die Zahl der Einträge abbildet; Städte unter 10 "
                                         "Einträgen bekommen eine niedrigere Untergrenze (380 bei 5 bis 9, 250 bei 3 oder 4, "
                                         "120 und 2 bis 6 FAQs auf einer Kleinstadtseite mit 1 oder 2)")
+    ap.add_argument("--erlaube-rechtswoerter", "--allow-legal-words", action="store_true",
+                    dest="erlaube_rechtswoerter",
+                    help="den Block der Rechtswörter ([RECHTSWOERTER], [RECHTSWENDUNGEN]) für diese eine Seite "
+                         "zulassen: „lizenziert“, „zugelassen“, „Kammer“, „amtlich“, „Gütesiegel“ und die übrigen. "
+                         "Nur für /siegel/, /agb/ und Ratgeberseiten, die über die Rechtslage aufklären und diese "
+                         "Wörter bestreiten müssen (wiki/seo/copy-gate.md). NIE für Stadttexte, "
+                         "Eintragsbeschreibungen oder die Startseite. Die Werbefloskeln bleiben verboten")
     ap.add_argument("--json", action="store_true", help="maschinenlesbare Ausgabe")
     args = ap.parse_args()
 
@@ -349,7 +425,7 @@ def main():
         print(f"FEHLER: Datei nicht gefunden: {args.file}")
         sys.exit(1)
 
-    words, phrases = load_bans()
+    words, phrases = load_bans(args.erlaube_rechtswoerter)
     if args.file.endswith(".json"):
         if not args.niche:
             print("FEHLER: --niche wird für city-copy.json gebraucht")
@@ -362,9 +438,14 @@ def main():
             band = (args.min_words or 0, args.max_words or 10**9)
         reports = lint_file(args.file, args.niche, band, words, phrases)
 
+    for r in reports:
+        r["rechtswoerter_zugelassen"] = bool(args.erlaube_rechtswoerter)
     if args.json:
         print(json.dumps(reports, indent=2, ensure_ascii=False))
     else:
+        if args.erlaube_rechtswoerter:
+            print("HINWEIS: Rechtswörter für diese Seite zugelassen (--erlaube-rechtswoerter). Zulässig nur für "
+                  "/siegel/, /agb/ und Ratgeberseiten zur Rechtslage (wiki/seo/copy-gate.md).")
         print_report(reports)
     ok = all(all(r["gates"].values()) for r in reports)
     sys.exit(0 if ok else 1)

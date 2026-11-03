@@ -1,22 +1,33 @@
 #!/usr/bin/env python3
-"""Gate 3 helper: read each kept listing's own website into the enrichment cache.
+"""Helfer für Gate 3: die eigene Website jedes behaltenen Eintrags in den Anreicherungs-Zwischen-
+speicher lesen.
 
-Use when the Outscraper export carries no text to enrich from (empty reviews_tags, posts and
-description). Reads the home page plus up to three internal pages whose link looks like
-services, about, construction, financing or warranty. No API, no key, no cost.
+Gebraucht, wenn der Export keinen Text zum Anreichern mitbringt (leere reviews_tags, posts und
+description). Gelesen werden die Startseite und bis zu drei Unterseiten, deren Link nach
+Leistungen, Über uns, Notdienst, Preisen oder Einbruchschutz aussieht. Keine Schnittstelle, kein
+Zugang, keine Kosten.
 
-Usage:
+Aufruf:
   python3 scripts/fetch_sites.py output/<slug>/02-listings-clean.csv --cache output/<slug>/03-cache/sites \
       [--workers 24] [--timeout 12] [--limit 0] [--retry-failed]
 
-Writes one JSON per listing slug: {slug, website, status, pages: [{url, title, meta, headings, nav, text}],
-socials: {facebook, instagram, x, linkedin, youtube, tiktok, pinterest: url}}. The socials are the profile links
-found on the pages read (share and login links skipped). A listing that already has a cache file is skipped, so a
-rerun only reads what is new. --socials reads just the home page of every cached site that has no socials yet and
-adds them, without touching the rest of the cache; scripts/add_socials.py then writes them into the listings CSV.
-At the end the script prints the tally by raw status and one summary line by group (readable, no website,
-blocked, dead, script-rendered, other), read from the cache for every listing, for the Gate 3 report.
-Method is specified in wiki/framework/enrichment.md.
+Schreibt je Eintrags-Slug eine JSON-Datei: {slug, website, status, pages: [{url, title, meta,
+headings, nav, text}], socials: {facebook, instagram, x, linkedin, youtube, tiktok, pinterest:
+url}}. Die socials sind die Profillinks von den gelesenen Seiten (Teilen- und Anmeldelinks
+übergangen). Ein Eintrag, der schon eine Datei im Zwischenspeicher hat, wird übersprungen; ein
+zweiter Lauf liest also nur das Neue. `--socials` liest allein die Startseite jeder
+zwischengespeicherten Website, die noch keine Profillinks hat, und ergänzt sie, ohne den übrigen
+Zwischenspeicher anzufassen; `scripts/add_socials.py` schreibt sie danach in die Eintrags-CSV.
+Am Ende steht die Aufstellung nach rohem Status und eine Zusammenfassungszeile nach Gruppe
+(lesbar, keine Website, gesperrt, tot, per Skript aufgebaut, anderes), über jeden Eintrag der CSV
+aus dem Zwischenspeicher gelesen, für den Gate-3-Bericht.
+
+Die **Statuswerte** in den Dateien bleiben englisch (`ok`, `no website`, `http 403`, …): sie sind
+Daten, nicht Meldungen, wandern über build_evidence.py als Zeile `site_status:` in die
+Anreicherungspakete und stehen in schon geschriebenen Zwischenspeichern. Übersetzt sind Hilfe,
+Beispiele und die Meldungen des Laufs.
+
+Das Verfahren steht in wiki/framework/enrichment.md.
 """
 import argparse, csv, json, os, re, sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -48,11 +59,20 @@ def socials_from(links, page_url):
 
 
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+# Adressen, die keine eigene Website sind: Profile, Branchenbücher, Baukästen. Die deutschen
+# Branchenbücher stehen mit dabei, weil im Export oft ein Eintrag dort statt der Website steht.
 SOCIAL = ("facebook.com", "instagram.com", "linkedin.com", "yelp.com", "google.com", "youtube.com",
           "x.com", "twitter.com", "nextdoor.com", "houzz.com", "thumbtack.com", "angi.com", "homeadvisor.com",
-          "business.site", "linktr.ee", "tiktok.com")
-# Inner pages worth reading, any vertical. Add the vertical's own words with --want "term|term".
-WANT_BASE = r"service|about|construct|build|install|repair|custom|design|remodel|renovat|financ|warrant|commercial|residential|faq|pricing|process"
+          "business.site", "linktr.ee", "tiktok.com",
+          "gelbeseiten.de", "dasoertliche.de", "11880.com", "meinestadt.de", "golocal.de",
+          "werkenntdenbesten.de", "cylex.de", "yellowmap.de", "jameda.de", "wlw.de")
+# Unterseiten, die sich zu lesen lohnen: deutsche Benennungen des Schlüsseldienst-Gewerbes zuerst,
+# die englischen bleiben für Betriebe mit englischen Pfaden stehen. Eigene Wörter kommen mit
+# --want "wort|wort" dazu.
+WANT_BASE = (r"leistung|service|dienstleistung|ueber-uns|über-uns|ueber_uns|unternehmen|firma|profil|"
+             r"notdienst|notfall|24-?stunden|tueroeffnung|türöffnung|aufsperr|schliessanlage|schließanlage|"
+             r"einbruchschutz|sicherheitstechnik|tresor|autoschluessel|autoschlüssel|werkstatt|montage|"
+             r"preis|kosten|festpreis|anfahrt|faq|fragen|about|pricing|repair|install")
 WANT = re.compile(WANT_BASE, re.I)
 SKIP = re.compile(r"\.(pdf|jpe?g|png|gif|webp|svg|zip|mp4|docx?)($|\?)|/(blog|news|tag|category|cart|wp-login|privacy|terms)\b|^(mailto|tel|javascript):", re.I)
 MAX_BYTES = 1_500_000
@@ -105,11 +125,12 @@ _CTX_ANY = ssl._create_unverified_context()
 
 
 def get(url, timeout):
-    """Standard library only, so it runs on a stock Mac Python. Tries a verified TLS connection first and
-    an unverified one when the certificate is bad (small business sites often have one)."""
+    """Nur Standardbibliothek, damit es mit dem mitgelieferten Python eines Macs läuft. Erst eine
+    geprüfte TLS-Verbindung, dann eine ungeprüfte, wenn das Zertifikat nicht taugt (bei kleinen
+    Handwerksbetrieben häufig)."""
     for ctx in (_CTX_OK, _CTX_ANY):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "en-US,en", "Accept-Encoding": "identity"})
+            req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "de-DE,de;q=0.9", "Accept-Encoding": "identity"})
             with urllib.request.urlopen(req, timeout=timeout, context=ctx) as r:
                 ctype = r.headers.get("content-type", "")
                 if "html" not in ctype and ctype: return None, f"not html ({ctype[:30]})", r.url
@@ -177,42 +198,45 @@ def fetch(row, cache, timeout, retry=False):
     return out["status"]
 
 
-GROUPS = ("readable", "no website", "blocked", "dead", "script-rendered", "other")
+# Die Gruppen der Zusammenfassungszeile. Nur für die Ausgabe, sie stehen in keiner Datei.
+GROUPS = ("lesbar", "keine Website", "gesperrt", "tot", "per Skript aufgebaut", "anderes")
 DEAD = ("gaierror", "ConnectionRefusedError", "ConnectionResetError", "TimeoutError", "timeout", "RemoteDisconnected",
         "IncompleteRead", "ssl", "URLError", "OSError", "BadStatusLine")
 
 
 def group(status):
-    """A raw status folded into one of GROUPS for the summary line."""
+    """Einen rohen Status (englisch, wie er in der Datei steht) auf eine der GROUPS abbilden,
+    nur für die Zusammenfassungszeile."""
     st = (status or "").strip()
-    if st == "ok": return "readable"
-    if st == "no website": return "no website"
-    if st.startswith("ok but empty"): return "script-rendered"
+    if st == "ok": return "lesbar"
+    if st == "no website": return "keine Website"
+    if st.startswith("ok but empty"): return "per Skript aufgebaut"
     m = re.match(r"http (\d{3})$", st)
     if m:
         code = int(m.group(1))
-        if code in (401, 403, 405, 406, 429, 999): return "blocked"
-        if code in (404, 410) or code >= 500: return "dead"
-        return "other"
-    if st in DEAD or st.endswith("Error"): return "dead"
-    return "other"
+        if code in (401, 403, 405, 406, 429, 999): return "gesperrt"
+        if code in (404, 410) or code >= 500: return "tot"
+        return "anderes"
+    if st in DEAD or st.endswith("Error"): return "tot"
+    return "anderes"
 
 
 def summary(rows, cache):
-    """One line by group over the cache files of every listing in the CSV."""
+    """Eine Zeile nach Gruppe über die Dateien im Zwischenspeicher zu jedem Eintrag der CSV."""
     counts = {g: 0 for g in GROUPS}; missing = 0
     for r in rows:
         path = os.path.join(cache, r["slug"] + ".json")
         if not os.path.exists(path): missing += 1; continue
         try:
             with open(path, encoding="utf-8") as f: counts[group(json.load(f).get("status", ""))] += 1
-        except Exception: counts["other"] += 1
+        except Exception: counts["anderes"] += 1
     line = ", ".join(f"{counts[g]} {g}" for g in GROUPS)
-    return f"summary: {line} (of {len(rows)} listings" + (f", {missing} not fetched yet" if missing else "") + ")"
+    return f"Zusammenfassung: {line} (von {len(rows)} Einträgen" + (f", {missing} noch nicht gelesen" if missing else "") + ")"
 
 
 def add_socials(row, cache, timeout):
-    """--socials: read the home page again for a cached site and store its profile links."""
+    """--socials: die Startseite einer zwischengespeicherten Website erneut lesen und ihre
+    Profillinks ablegen."""
     path = os.path.join(cache, row["slug"] + ".json")
     if not os.path.exists(path): return "no cache"
     with open(path, encoding="utf-8") as f: old = json.load(f)
@@ -227,13 +251,16 @@ def add_socials(row, cache, timeout):
 
 
 def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("csv"); ap.add_argument("--cache", required=True)
-    ap.add_argument("--workers", type=int, default=24); ap.add_argument("--timeout", type=int, default=12)
-    ap.add_argument("--limit", type=int, default=0)
-    ap.add_argument("--retry-failed", action="store_true", help="read again every listing whose last read failed or whose URL changed")
-    ap.add_argument("--want", default="", help='extra inner-page words for this vertical, regex alternatives, e.g. "new-?pool|enclosure|spa"')
-    ap.add_argument("--socials", action="store_true", help="only add social profile links to cached sites that have none yet (home page read again)")
+    ap = argparse.ArgumentParser(description="Gate 3: die eigenen Websites der Einträge in den Zwischenspeicher lesen.",
+                                 epilog=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("csv", help="die bereinigte CSV aus Gate 2, output/<slug>/02-listings-clean.csv")
+    ap.add_argument("--cache", required=True, help="Ordner für die gelesenen Seiten, output/<slug>/03-cache/sites")
+    ap.add_argument("--workers", type=int, default=24, help="wie viele Websites gleichzeitig gelesen werden (Vorgabe 24)")
+    ap.add_argument("--timeout", type=int, default=12, help="Sekunden, die eine Website zum Antworten hat (Vorgabe 12)")
+    ap.add_argument("--limit", type=int, default=0, help="nur die ersten N Zeilen lesen (Probelauf); 0 heißt alle")
+    ap.add_argument("--retry-failed", action="store_true", help="jeden Eintrag erneut lesen, dessen letzter Versuch scheiterte oder dessen Adresse sich geändert hat")
+    ap.add_argument("--want", default="", help='weitere Wörter für Unterseiten, als Regex-Alternativen, z. B. "schluesselnotdienst|fenstersicherung"')
+    ap.add_argument("--socials", action="store_true", help="nur Profillinks ergänzen, bei zwischengespeicherten Websites, die noch keine haben (die Startseite wird dafür erneut gelesen)")
     a = ap.parse_args()
     global WANT
     if a.want.strip(): WANT = re.compile(WANT_BASE + "|" + a.want.strip(), re.I)
@@ -245,10 +272,10 @@ def main():
         futs = [ex.submit(add_socials, r, a.cache, a.timeout) if a.socials else ex.submit(fetch, r, a.cache, a.timeout, a.retry_failed) for r in rows]
         for fu in as_completed(futs):
             try: st = fu.result()
-            except Exception as e: st = "error " + type(e).__name__
+            except Exception as e: st = "error " + type(e).__name__   # Statuswerte bleiben englisch: sie stehen so in den Dateien
             tally[st] = tally.get(st, 0) + 1; done += 1
             if done % 200 == 0: print(f"{done}/{len(rows)}", file=sys.stderr, flush=True)
-    print(f"listings: {len(rows)}")
+    print(f"Einträge: {len(rows)}")
     for k, v in sorted(tally.items(), key=lambda x: -x[1]): print(f"  {k}: {v}")
     print(summary(rows, a.cache))
 

@@ -24,11 +24,53 @@ export const REGION_CODES = {
   'sachsen-anhalt': 'ST', 'schleswig-holstein': 'SH', thueringen: 'TH',
 };
 
+// Angaben, ohne die die Seite nicht online gehen darf: Pflichtangaben nach § 5 DDG, der
+// Formularempfaenger und die Zahlungslinks. Jeder Eintrag: Pfad in site.json -> Klartext.
+// Ein Wert gilt als offen, wenn er leer ist oder mit OFFEN_, STRIPE_LINK_ oder FORMULAR_ID beginnt
+// bzw. diese Zeichenfolge enthaelt.
+const PFLICHT = [
+  ['publisher.legalName', 'Firma im Impressum'],
+  ['publisher.street', 'Strasse im Impressum'],
+  ['publisher.postalCode', 'Postleitzahl im Impressum'],
+  ['publisher.city', 'Ort im Impressum'],
+  ['publisher.managingDirector', 'Geschaeftsfuehrer im Impressum'],
+  ['publisher.registerCourt', 'Registergericht im Impressum'],
+  ['publisher.register', 'Handelsregisternummer im Impressum'],
+  // Nicht auf dieser Liste, und das mit Absicht:
+  // publisher.vatId  - § 27a UStG verlangt die Angabe nur, soweit eine erteilt wurde. Leer lassen,
+  //                    wenn keine vorliegt; die Seite druckt den Abschnitt dann nicht.
+  // publisher.phone  - § 5 DDG verlangt eine Moeglichkeit zur unmittelbaren Kommunikation, nicht
+  //                    zwingend ein Telefon. E-Mail-Adresse plus die Formulare erfuellen das.
+  //                    Eine Nummer ist trotzdem ein Vertrauensgewinn, sobald es eine gibt.
+  ['contact.email', 'E-Mail-Adresse'],
+  ['contact.formEndpoint', 'Empfaenger der Formulare'],
+];
+
+const pick = (o, path) => path.split('.').reduce((x, k) => (x == null ? x : x[k]), o);
+export const istOffen = (v) => {
+  const s = String(v ?? '').trim();
+  return !s || /OFFEN_|STRIPE_LINK_|FORMULAR_ID|REPLACE/.test(s);
+};
+
+/** Welche Pflichtangaben noch fehlen. Leeres Feld = startbereit. */
+export function offenePflichtangaben(site) {
+  return PFLICHT.filter(([p]) => istOffen(pick(site, p))).map(([p, label]) => ({ pfad: p, was: label }));
+}
+
 export function loadSite() {
   const site = JSON.parse(read('site.json'));
   // Deutschland als Ganzes statt eines Bundesstaats. `country.slug` nur, falls jemand ihn braucht.
   site.country = site.country || { name: 'Deutschland', code: 'DE' };
   site.country.slug = site.country.slug || slugify(site.country.name);
+  // Beim Bauen laut sagen, was noch fehlt. Der Build bricht nicht ab, damit eine Vorschau moeglich
+  // bleibt; die Impressumsseite zeigt denselben Hinweis sichtbar an, und check_live.py laesst die
+  // Seite mit offenen Pflichtangaben nicht als startbereit durchgehen (wiki/seo/launch-lean.md).
+  const offen = offenePflichtangaben(site);
+  if (offen.length) {
+    console.warn(`\n[Pflichtangaben] ${offen.length} Angabe(n) fehlen noch, die Seite ist nicht startbereit:`);
+    for (const o of offen) console.warn(`  - ${o.was} (site.json: ${o.pfad})`);
+    console.warn('');
+  }
   return site;
 }
 

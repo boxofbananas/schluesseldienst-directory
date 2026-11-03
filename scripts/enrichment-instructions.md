@@ -44,8 +44,8 @@ dieser Betrieb Schließanlagen baut.
 Beantworten Sie jeden Schlüssel der Tabelle mit genau einem von `true`, `false`,
 `not enough info` (die Werte bleiben englisch, die Prüfliste erwartet sie so).
 
-- **true** braucht Wörter im Paket, die es sagen, so wie es die Spalte „true when" der Tabelle
-  beschreibt. Raten Sie nie aus dem Firmennamen, der Maps-Kategorie oder daraus, was solche
+- **true** braucht Wörter im Paket, die es sagen, so wie es die zweite Spalte der
+  Merkmalstabelle beschreibt („wahr" nur, wenn die eigenen Worte des Betriebs das sagen). Raten Sie nie aus dem Firmennamen, der Maps-Kategorie oder daraus, was solche
   Betriebe üblicherweise tun.
 - **false** ist selten. Nur wenn die Website es sagt, oder wenn sie eine vollständige Leistungsliste
   zeigt und die Sache dort offensichtlich fehlt, wo sie hingehörte. Eine Website, die mehrere

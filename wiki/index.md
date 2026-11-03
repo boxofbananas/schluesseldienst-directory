@@ -88,9 +88,11 @@ Zeile ergänzen und `log.md` fortschreiben.
   Erweitern über die Ebenen, und die zusätzlichen Prüfungen dieser Fassung zu Impressum,
   Datenschutz und externen Ladungen.
 - [copy-gate](seo/copy-gate.md): das Textgate von Gate 5 – welcher Befehl welchen Block
-  prüft, warum das Band der gebauten Startseite 800 bis 1.500 ist, die verbotenen Wörter
-  dieser Fassung mit Begründung, und wofür die seo-content-engine-Skill da ist und wofür
-  nicht.
+  prüft, warum das Band der gebauten Startseite 800 bis 1.500 und das der Siegel-Seite 700
+  bis 1.200 ist, warum das Band der Bundesland-Seite erst nach dem Einleitungstext greift,
+  **der Schalter `--erlaube-rechtswoerter` und die drei Seiten, für die er gilt**, die
+  verbotenen Wörter dieser Fassung mit Begründung, und wofür die seo-content-engine-Skill da
+  ist und wofür nicht.
 
 ## Abschnittsfolgen
 - [page-sections](components/page-sections.md): die Abschnittsfolge jedes Seitentyps, wie das
@@ -108,7 +110,8 @@ Zeile ergänzen und `log.md` fortschreiben.
   Eintrag beanspruchen und Siegel beantragen.
 - [featured-tiers.md](../templates/featured-tiers.md): die Stufen mit Europreisen, die später
   zu aktivierenden Stufen, wohin die Stripe-Zahlungslinks gehören, und das Siegelschnipsel als
-  HTML.
+  HTML. Die Spaltenwerte sind englisch (`featured` = `city`, `county`, `state`), weil der Code
+  sie so liest, und die Stufennamen sind dort festgelegt.
 - [astro/](../templates/astro/README.md): das vollständige Astro-Projekt, das Gate 5 nach
   `output/<slug>/site/` kopiert und füllt.
 - [astro-skeleton.md](../templates/astro-skeleton.md): die Dateikarte dieses Projekts auf
@@ -124,6 +127,12 @@ Die Skripte liegen in `scripts/` und gehören nicht zum Wiki. Welches Skript in 
 läuft, steht in `CLAUDE.md`, Abschnitt 3, und in der Ordnerkarte in Abschnitt 2.
 `scripts/check_vertical.py` wird in diesem Projekt **nicht** benutzt: die Branche steht fest
 ([[gate-1-intake]]).
+
+Jedes Skript nennt seinen Aufruf mit `--help`. Die Verbotslisten
+(`scripts/copy-bans.txt`, `skills/seo-content-engine/references/forbidden_words.txt`) haben
+vier Blöcke: `[WORDS]` und `[PHRASES]` für die Floskeln, `[RECHTSWOERTER]` und
+`[RECHTSWENDUNGEN]` für die Rechts- und Amtswörter, und ein Eintrag, der auf `*` endet, ist
+ein Wortstamm und trifft jede gebeugte Form ([copy-gate](seo/copy-gate.md)).
 
 ## Skills
 - [seo-content-engine](../skills/seo-content-engine/SKILL.md): die Skill, deren Linter

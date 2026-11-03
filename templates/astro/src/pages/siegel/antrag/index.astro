@@ -46,8 +46,21 @@ const title = `Siegel beantragen | ${site.brand}`;
     <label>Postleitzahl <input name="plz" required /></label>
     <label>Ort <input name="ort" required /></label>
     <label>Website <input type="url" name="website" placeholder="https://" required /></label>
-    <label>Telefonnummer, unter der Kunden Sie erreichen <input type="tel" name="telefon" required /></label>
-    <label>Link zum Google-Unternehmensprofil <input type="url" name="google_profil" /></label>
+    <label>
+      Adresse Ihrer Impressumsseite
+      <input type="url" name="impressum_url" placeholder="https://" required />
+      <small class="meta">Prüfkriterium 1: vollständiges Impressum mit Firma, Anschrift, Vertretungsberechtigtem und Kontaktmöglichkeit.</small>
+    </label>
+    <label>
+      Telefonnummer, unter der Ihr Betrieb selbst erreichbar ist
+      <input type="tel" name="telefon" required />
+      <small class="meta">Prüfkriterium 2: Festnetz- oder Mobilnummer, die zum Betrieb gehört. Wir rufen dort an.</small>
+    </label>
+    <label>
+      Link zu Ihrem Google-Unternehmensprofil
+      <input type="url" name="google_profil" placeholder="https://" required />
+      <small class="meta">Prüfkriterium 4: mindestens zehn öffentliche Bewertungen bei einem Durchschnitt von mindestens 4,0.</small>
+    </label>
 
     <h2>Ansprechperson</h2>
     <label>Vor- und Nachname <input name="ansprechperson" required /></label>
@@ -70,11 +83,16 @@ const title = `Siegel beantragen | ${site.brand}`;
     <label>Zuschläge für Nacht, Wochenende oder Feiertag <input name="zuschlaege" placeholder="Betrag, Prozentsatz oder „keine“" required /></label>
 
     <h2>Serviceversprechen</h2>
-    <p class="meta">Alle vier Zusagen sind Voraussetzung für das Siegel.</p>
+    <p class="meta">Prüfkriterium 6. Alle vier Zusagen sind Voraussetzung für das Siegel.</p>
     <label class="check"><input type="checkbox" name="versprechen_festpreis" value="ja" required /> Wir nennen den Preis vor Arbeitsbeginn, und dieser Preis gilt.</label>
     <label class="check"><input type="checkbox" name="versprechen_zuschlaege" value="ja" required /> Wir erheben keine Zuschläge, die nicht vorher ausdrücklich beziffert wurden.</label>
     <label class="check"><input type="checkbox" name="versprechen_rechnung" value="ja" required /> Jeder Auftrag wird mit einer Rechnung abgerechnet, die die vollständige Firmenanschrift trägt.</label>
     <label class="check"><input type="checkbox" name="versprechen_zerstoerungsfrei" value="ja" required /> Wir öffnen zerstörungsfrei, soweit es technisch möglich ist, und erklären vorher, wenn ein Schloss ersetzt werden muss.</label>
+    <label>
+      Unterschrift: Ihr vollständiger Name
+      <input name="unterschrift" required />
+      <small class="meta">Mit der Eingabe Ihres Namens geben Sie das Serviceversprechen für Ihren Betrieb verbindlich ab.</small>
+    </label>
 
     <h2>Weitere Angaben</h2>
     <label>
@@ -94,13 +112,14 @@ const title = `Siegel beantragen | ${site.brand}`;
         <option>an eine Zentrale, die den Betrieb namentlich nennt</option>
         <option>an einen Vermittlungsdienst</option>
       </select>
+      <small class="meta">Prüfkriterium 5: ein Vermittlungsdienst ohne Ortsbezug schließt das Siegel aus.</small>
     </label>
     <label>Anmerkungen <textarea name="anmerkungen" rows="4"></textarea></label>
 
     <label class="check">
       <input type="checkbox" name="datenschutz" value="ja" required />
-      Ich habe die <a href="/datenschutz/">Datenschutzerklärung</a> gelesen und bin damit einverstanden,
-      dass die oben gemachten Angaben zur Bearbeitung dieses Antrags gespeichert und verwendet werden.
+      Ich habe die <a href="/datenschutz/">Datenschutzerklärung</a> gelesen und weiß, wie die hier
+      gemachten Angaben zur Bearbeitung dieses Antrags verarbeitet werden.
     </label>
 
     <button class="btn" type="submit">Antrag absenden</button>

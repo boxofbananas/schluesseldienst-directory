@@ -56,3 +56,60 @@ Zahlen, was auf Freigabe wartet.
   Messwerte: keine deutschen. Alle Zahlen aus echten Läufen sind als Erfahrung aus dem
   englischen Pilotprojekt (Poolbauer Florida, Zaunbauer Colorado) gekennzeichnet.
   **Wartet auf:** Freigabe der deutschen Fassung, dann Gate 1.
+- **2026-11-03** Durchsicht der deutschen Fassung abgearbeitet, sechs Mängel behoben. Kein Gate
+  gelaufen, keine Daten abgerufen.
+  **1. Verbotslisten fingen keine gebeugten Formen.** `lint_copy.py` und
+  `skills/seo-content-engine/scripts/lint_article.py` verstehen jetzt **Wortstämme**: ein
+  Listeneintrag, der auf `*` endet, trifft jede Fortsetzung (`lizenzier*` → „lizenziert",
+  „lizenzierte", „Lizenzierung"), in Wörtern und in jedem Teil einer Wendung, weiter
+  umlauttolerant. Beide Listen auf Stämme umgestellt, die von `konventionen` verlangten Wörter
+  `Verband`, `Kammer`, `Verbraucherschutz` und `offiziell geprüft` ergänzt. Belegt am Prüfsatz
+  der Durchsicht: vorher **ein** Treffer (`staatlich`), jetzt acht
+  (`lizenzier*` 2, `zugelassen*`, `zertifizier*`, `verband`, `amtlich*`, `getestet*`,
+  `staatlich`, Wendung `staatlich anerkannt*`); „geprüft" und „nicht zulassungspflichtig"
+  schlagen weiter nicht an.
+  **2. Widerspruch zwischen Verbotsliste und Siegel-Seite gelöst.** Die Rechts- und Amtswörter
+  stehen in beiden Listen in eigenen Blöcken `[RECHTSWOERTER]` und `[RECHTSWENDUNGEN]`, und
+  `lint_copy.py --erlaube-rechtswoerter` lässt genau diesen Block für eine einzelne Seite zu;
+  die Floskeln bleiben verboten. Gilt nur für `/siegel/`, `/agb/` und Ratgeberseiten zur
+  Rechtslage, **nie** für Stadttexte, Eintragsbeschreibungen oder die Startseite; festgehalten
+  in `copy-gate` Abschnitt 1a. `check_city_copy.py` kennt den Schalter nicht. Wortband
+  `/siegel/` von 400–700 auf **700–1.200** (sechs Kriterien plus Serviceversprechen plus
+  Aufklärung; Probebau 784 Wörter), auch in `page-types`. Band der Bundesland-Seite (300–500)
+  ist richtig: `site.regionIntro` ist im Template leer, deshalb 227 Wörter im Probebau – das
+  Band greift erst, wenn Gate 5 den Einleitungstext geschrieben hat.
+  **3. Spaltenwerte richtiggestellt.** `featured-tiers.md`: `featured` = `city`, `county`,
+  `state` statt `stadt`, `landkreis`, `bundesland` (der Code liest nur die englischen),
+  Zahlungslinks `STRIPE_LINK_CITY` und `STRIPE_LINK_BESTOF` nach `site.json`, eine Schreibweise
+  der Stufennamen festgelegt (Stadt-Premium, Premium-Eintrag, Top-Platzierung; „Premium-Platz"
+  bleibt der allgemeine Begriff aus `konventionen`). Dieselbe Verwechslung im Wiki behoben:
+  `monetization-slots` nennt die drei Werte, `outscraper-columns` und `listings-cleaning` nennen
+  nicht länger Spalten `bundesland`/`bundesland_slug` (es gibt sie nicht; das Bundesland steht in
+  `state`/`state_code`) und halten fest, dass Gate 2 `premium` und `best_of_rank` nicht anlegt.
+  **4. Sitemap-Angaben an den Code angepasst.** `launch-lean`: zum Start in die Sitemap kommen
+  von den Einzelseiten nur `/siegel/` und `/ueber-uns/`; `/siegel/antrag/`,
+  `/eintrag-beanspruchen/`, `/premium/`, `/kontakt/`, `/impressum/`, `/datenschutz/`, `/agb/`
+  sind `noindex` und bleiben draußen (`noindexPaths` in `load.mjs`, geprüft von
+  `check_live.py`). `siegel-programm`: `/siegel/antrag/` ist `noindex`, nicht indexiert.
+  **5. Falsche Aufrufe berichtigt.** `check_city_copy.py --write` erwartet einen **Pfad** –
+  vollständiger Befehl in `CLAUDE.md` und `copy-gate`. Für `--city-sizes` ist festgelegt: die
+  Datei `05-city-sizes.json` schreibt Gate 5 unmittelbar nach `node dump-cities.mjs` aus
+  `05-cities.json` (Einzeiler steht in `copy-gate`); maßgeblich für die Größenklassen bleibt
+  `check_city_copy.py` über die Zeile `intro band:` der Pakete. `make_worker_listings.py` hat
+  eine Argumentbehandlung und bricht nicht mehr mit `IndexError` ab.
+  **6. Betreiber-Hilfen auf Deutsch und auf dieses Projekt.** `make_city_packets.py`
+  (`--bundesland` statt `--state`, Vorgabe Deutschland statt eines einzelnen Landes, Zeile
+  `bundesland:` je Stadt, deutsche Kreisnamen), `make_local_preview.py` (Argumentbehandlung,
+  deutsche Beispielpfade), `fetch_sites.py` (deutsche Unterseitenwörter des Gewerbes,
+  `Accept-Language: de`, deutsche Branchenbücher als „keine eigene Website"),
+  `make_batches.py`, `run_batches.py` (deutsche Aufgabentexte) und `mail_worker.py` auf Deutsch
+  umgestellt. Die **Paketschlüssel bleiben englisch** (`city:`, `intro band:`,
+  `description band:`, `directory:`), weil `check_city_copy.py` und die Anweisungsdateien sie
+  lesen; Begründung steht als Kommentar in beiden Skripten.
+  **Zwei Fehler, die dabei auffielen und mitbehoben wurden:** `run_batches.py` suchte in der
+  Prüfausgabe fest nach `failing: 0`, das nur `merge_enriched.py` schreibt – damit galt **jeder**
+  Stadttextstapel als durchgefallen; die Markierung steht jetzt je Modus (`durchgefallen: 0` für
+  `city-copy`). Und `mail_worker.py` las `site.json → state.name`, das es in der dreistufigen
+  Fassung nicht gibt (`KeyError` beim Einrichten des Workers); es nimmt jetzt `country.name`
+  („Deutschland") für die Worker-Variable `STATE_NAME`, deren Name englisch bleibt.
+  **Wartet auf:** Freigabe der deutschen Fassung, dann Gate 1.

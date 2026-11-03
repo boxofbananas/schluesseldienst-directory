@@ -1,15 +1,21 @@
 #!/usr/bin/env python3
-"""Make a copy of the built site that opens by double-clicking index.html.
+"""Eine Kopie der gebauten Site, die sich mit einem Doppelklick auf index.html öffnet.
 
-The built site in dist/ uses paths that start at the domain root (/_astro/x.css, /directory/florida/miami/).
-That is right for the live site and for a local server, and wrong for a file opened straight
-from disk: the stylesheet is not found and every link leads nowhere. This script writes a
-second copy with relative paths and the stylesheet inside each page. The copy is for looking at, never for deploying.
+Die gebaute Site in dist/ benutzt Pfade, die an der Wurzel der Domain beginnen
+(/_astro/x.css, /verzeichnis/baden-wuerttemberg/mannheim/). Für die veröffentlichte Site und für
+einen lokalen Server ist das richtig, für eine Datei, die direkt von der Festplatte geöffnet
+wird, falsch: das Stylesheet wird nicht gefunden, und jeder Link führt ins Leere. Dieses Skript
+schreibt eine zweite Kopie mit relativen Pfaden und dem Stylesheet in der Seite selbst. Die Kopie
+ist zum Ansehen, nie zum Ausliefern.
 
-Usage:
-  python3 scripts/make_local_preview.py output/<slug>/site/dist output/<slug>/preview
+Aufruf:
+  python3 scripts/make_local_preview.py output/<slug>/site/dist output/<slug>/vorschau
+
+Der bequemere Weg ist preview-site.command (Mac) oder preview-site.bat (Windows) in site/: die
+starten einen kleinen Server, und dann stimmen die Pfade ohnehin. Dieses Skript ist für den Fall,
+dass eine Datei weitergegeben werden soll, die ohne Server etwas zeigt.
 """
-import os, re, shutil, sys
+import argparse, os, re, shutil, sys
 
 ATTR = re.compile(r'\b(href|src|action)="(/[^"/][^"]*|/)"')
 CSS_URL = re.compile(r"url\((['\"]?)/(?!/)")
@@ -17,11 +23,14 @@ SHEET = re.compile(r'<link rel="stylesheet" href="(/[^"]+\.css)"\s*/?>')
 
 
 def main():
-    if len(sys.argv) != 3:
-        print(__doc__); sys.exit(2)
-    src, out = sys.argv[1].rstrip("/"), sys.argv[2].rstrip("/")
+    ap = argparse.ArgumentParser(description="Eine Kopie der gebauten Site zum Ansehen ohne Server schreiben.",
+                                 epilog=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("dist", help="der gebaute Ordner, output/<slug>/site/dist")
+    ap.add_argument("vorschau", help="der Zielordner, z. B. output/<slug>/vorschau (wird neu angelegt)")
+    a = ap.parse_args()
+    src, out = a.dist.rstrip("/"), a.vorschau.rstrip("/")
     if not os.path.isfile(os.path.join(src, "index.html")):
-        print(f"ERROR: {src}/index.html not found. Run npm run build first."); sys.exit(1)
+        print(f"FEHLER: {src}/index.html gibt es nicht. Lassen Sie zuerst npm run build laufen."); sys.exit(1)
     if os.path.isdir(out): shutil.rmtree(out)
     shutil.copytree(src, out)
     pages = links = missing = 0
@@ -37,9 +46,10 @@ def main():
             if not f.endswith(".html"): continue
             t = open(p, encoding="utf-8").read()
 
-            # The stylesheet goes into the page itself, so the page is styled even in a viewer
-            # that shows one file and loads nothing else. Fonts stay as files and fall back
-            # to the system fonts named in the tokens when they cannot be loaded.
+            # Das Stylesheet wandert in die Seite selbst, damit die Seite auch in einer Anzeige
+            # gestaltet ist, die eine Datei zeigt und nichts nachlädt. Schriften bleiben Dateien
+            # und fallen auf die Systemschriften der Gestaltungsmarken zurück, wenn sie sich
+            # nicht laden lassen.
             def inline(m):
                 css = open(os.path.join(src, m.group(1).lstrip("/")), encoding="utf-8").read()
                 return "<style>" + CSS_URL.sub(lambda u: f"url({u.group(1)}{up}", css) + "</style>"
@@ -59,11 +69,12 @@ def main():
 
             open(p, "w", encoding="utf-8").write(ATTR.sub(fix, t))
             pages += 1
-    note = os.path.join(out, "READ-THIS-FIRST.txt")
-    open(note, "w").write("This folder is a copy of the site for looking at on your own computer.\n"
-                          "Open index.html. Do not upload this folder. The folder to deploy is site/dist.\n")
-    print(f"pages rewritten: {pages}, links rewritten: {links}, links whose target is missing: {missing}")
-    print(f"open {os.path.join(out, 'index.html')}")
+    note = os.path.join(out, "BITTE-ZUERST-LESEN.txt")
+    open(note, "w", encoding="utf-8").write(
+        "Dieser Ordner ist eine Kopie der Site zum Ansehen auf dem eigenen Rechner.\n"
+        "Öffnen Sie index.html. Laden Sie diesen Ordner nicht hoch. Ausgeliefert wird site/dist.\n")
+    print(f"Seiten umgeschrieben: {pages}, Links umgeschrieben: {links}, Links ohne Ziel in der Kopie: {missing}")
+    print(f"Zum Ansehen öffnen: {os.path.join(out, 'index.html')}")
 
 
 if __name__ == "__main__":

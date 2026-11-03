@@ -1,7 +1,7 @@
 {
   "brand": "Die besten Schlüsseldienste",
   "domain": "die-besten-schluesseldienste.de",
-  "tagline": "Alle Schlüsseldienste in Deutschland, mit Preisangabe, Bewertungen und Prüfsiegel.",
+  "tagline": "Schlüsseldienste in Deutschland, die ihren Preis nennen, bevor sie kommen.",
   "niche": {
     "singular": "Schlüsseldienst",
     "plural": "Schlüsseldienste",
@@ -28,7 +28,7 @@
     "managingDirector": "Daniel Merz",
     "register": "HRB 43586",
     "registerCourt": "Amtsgericht Nürnberg",
-    "vatId": "OFFEN_USTIDNR",
+    "vatId": "",
     "sameAs": [],
     "videoEmbed": ""
   },
@@ -36,6 +36,21 @@
     "email": "info@domholdinggmbh.de",
     "formEndpoint": "https://formspree.io/f/FORMULAR_ID"
   },
+  "processors": {
+    "form": {
+      "name": "Formspree",
+      "company": "OFFEN_ANSCHRIFT_FORMULARDIENST",
+      "thirdCountry": true,
+      "_hinweis": "Firma und Anschrift wörtlich aus dem Impressum oder den AGB des Anbieters übernehmen, nicht aus dem Gedächtnis. Solange hier OFFEN_ steht, nennt die Datenschutzerklärung nur den Namen des Dienstes."
+    },
+    "payment": {
+      "name": "Stripe",
+      "company": "OFFEN_ANSCHRIFT_ZAHLUNGSDIENST",
+      "thirdCountry": true,
+      "_hinweis": "Ebenso: Firma und Anschrift aus den Unterlagen des Anbieters übernehmen. Erst ausfüllen, wenn die Zahlungslinks eingerichtet sind."
+    }
+  },
+  "analytics": false,
   "tiers": {
     "premium": {
       "price": "97 € im Jahr",
@@ -123,7 +138,9 @@
     "Angaben können veraltet sein. Jeder Betrieb kann seinen Eintrag korrigieren oder entfernen lassen; eine E-Mail genügt."
   ],
   "countryIntro": [],
-  "regionIntro": [],
+  "regionIntro": {
+    "_hinweis": "Je Bundesland ein eigener Text: \"bayern\": [\"Absatz\", \"Absatz\"]. Gate 5 schreibt sie; ein gemeinsamer Text fuer alle Laender waere doppelter Inhalt."
+  },
   "guide": [],
   "aboutWhy": [
     "Die besten Schlüsseldienste ist ein Branchenverzeichnis für ein Gewerbe, das ein Vertrauensproblem hat. Wer nachts vor einer zugefallenen Tür steht, sucht unter Druck und nimmt den ersten Treffer. Genau das nutzen einzelne Anbieter aus — mit Lockpreisen am Telefon und einer Rechnung vor Ort, die ein Vielfaches beträgt. Darunter leiden die Betriebe, die ordentlich arbeiten, am meisten, weil man sie vorher nicht von den anderen unterscheiden kann.",
@@ -131,11 +148,11 @@
     "Zur Offenlegung, weil es dazugehört: Zum Unternehmen des Herausgebers gehören auch eigene Betriebe des Schlüsseldienst-Gewerbes. Diese sind in diesem Verzeichnis wie jeder andere Betrieb geführt — mit denselben Angaben, nach denselben Regeln sortiert, und bezahlte Plätze kosten für sie dasselbe wie für alle anderen."
   ],
   "heroPoints": [
+    "Festpreis vor Arbeitsbeginn: zugesagt und von uns geprüft",
     "Betriebe aus ganz Deutschland, nach Stadt sortiert",
-    "Geprüfte Betriebe erkennbar am Siegel mit Jahreszahl",
     "Kostenloser Eintrag, bezahlte Plätze sind gekennzeichnet"
   ],
-  "footerAbout": "Die besten Schlüsseldienste ist ein privates Branchenverzeichnis der DOM Holding GmbH. Wir sind keine Behörde, keine Kammer und kein Verband.",
+  "footerAbout": "Die besten Schlüsseldienste ist ein privates Branchenverzeichnis der DOM Holding GmbH. Wir führen jeden Schlüsseldienst in Deutschland und machen sichtbar, wer sich vorab auf einen Festpreis festlegt. Wir sind keine Behörde, keine Kammer und kein Verband.",
   "disclaimer": "Die Angaben auf dieser Seite stammen aus öffentlichen Quellen und sind kein Urteil über die Arbeit eines Betriebs. Bewertungen und Bewertungszahlen geben den Stand zum Zeitpunkt der letzten Aktualisierung wieder. Ein Eintrag ohne Siegel bedeutet nicht, dass der Betrieb eine Prüfung nicht bestehen würde — die meisten haben noch keine beantragt.",
   "featuredPreview": false,
   "confirmedLabel": "geprüft",

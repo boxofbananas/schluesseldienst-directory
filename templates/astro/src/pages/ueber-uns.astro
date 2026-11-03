@@ -13,8 +13,17 @@ const address = p.street && p.city ? { '@type': 'PostalAddress', streetAddress: 
 const schema = [
   { '@context': 'https://schema.org', '@type': 'AboutPage', '@id': base + '/ueber-uns/', url: base + '/ueber-uns/', name: title, inLanguage: 'de-DE', datePublished: site.launchDate, dateModified: buildDate, mainEntity: { '@id': `${base}/#herausgeber` } },
   { '@context': 'https://schema.org', '@type': 'Organization', '@id': `${base}/#herausgeber`, name: p.name, legalName: p.legalName || p.name, url: p.url || undefined, email: p.email || undefined,
-    address, image: p.image ? base + p.image : undefined, description: p.bio, sameAs: (p.sameAs || []).filter(Boolean), owns: { '@type': 'Organization', '@id': `${base}/#publisher`, name: site.brand, url: base + '/' } },
+    address, image: p.image ? base + p.image : undefined, description: p.bio, sameAs: (p.sameAs || []).filter(Boolean),
+    // Der Herausgeber ist eine Gesellschaft, also Organization. Der Geschaeftsfuehrer kommt als
+    // Person dazu, weil ein Verzeichnis einen Menschen braucht, den man ansprechen kann
+    // (wiki/framework/publisher-entity.md).
+    founder: p.managingDirector ? { '@id': `${base}/#geschaeftsfuehrer` } : undefined,
+    owns: { '@type': 'Organization', '@id': `${base}/#publisher`, name: site.brand, url: base + '/' } },
 ];
+if (p.managingDirector) {
+  schema.push({ '@context': 'https://schema.org', '@type': 'Person', '@id': `${base}/#geschaeftsfuehrer`, name: p.managingDirector,
+    jobTitle: 'Geschäftsführer', worksFor: { '@id': `${base}/#herausgeber` }, url: p.url || undefined, sameAs: (p.sameAs || []).filter(Boolean) });
+}
 // Der Abschnitt "Warum es dieses Verzeichnis gibt". In site.json unter "aboutWhy" pflegen.
 const why = site.aboutWhy && site.aboutWhy.length ? site.aboutWhy : [
   `Wer einen ${site.niche.singular} braucht, sucht ihn unter Druck und greift zur ersten Nummer, die oben steht. Genau daran verdienen überregionale Vermittler, die den Auftrag an irgendeinen Monteur weitergeben und am Ende eine Summe verlangen, über die vorher niemand gesprochen hat.`,
@@ -32,6 +41,11 @@ const why = site.aboutWhy && site.aboutWhy.length ? site.aboutWhy : [
       <h2 style="margin-top:0">Herausgegeben von {p.name}</h2>
       <p>{p.bio}</p>
       {p.url && <p><a href={p.url} rel="me noopener">{p.url.replace(/^https?:\/\//, '')}</a></p>}
+      {p.managingDirector && (
+        <p>Verantwortlich ist {p.managingDirector}, Geschäftsführer der {p.legalName || p.name}
+          {p.city ? ` in ${p.city}` : ''}. Fragen zu einem Eintrag, zu einer Korrektur oder zum Siegel
+          beantworten wir unter <a href={`mailto:${site.contact.email}`}>{site.contact.email}</a>.</p>
+      )}
       <p class="meta">Vollständige Angaben zum Herausgeber: <a href="/impressum/">Impressum</a>.</p>
     </div>
   </div>

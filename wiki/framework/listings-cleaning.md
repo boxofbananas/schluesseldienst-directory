@@ -94,8 +94,13 @@ Bundesland werden mit Grund aufgeführt.
 ## Ausgabespalten
 
 Die Spalten aus [[outscraper-columns]] unter „Von der Verarbeitung benutzt", dazu `slug`,
-`city_slug`, `bundesland`, `bundesland_slug`, `owned`, `thin`, `featured` (leer), `premium`
-(leer), `best_of_rank` (leer), `claimed` (leer), `geprueft` (leer), `geprueft_jahr` (leer).
+`city_slug`, `owned`, `thin`, `featured` (leer), `featured_cities` (leer), `claimed` (leer),
+`geprueft` (leer), `geprueft_jahr` (leer).
+
+Das Bundesland bleibt in `state` und `state_code` stehen; Spalten `bundesland` oder
+`bundesland_slug` gibt es nicht, und der Build würde sie auch nicht lesen (er leitet Name,
+Slug und Kürzel aus `state` und `state_code` ab). `premium` und `best_of_rank` legt Gate 2
+nicht an: sie kommen beim ersten Verkauf dazu ([[monetization-slots]]).
 
 ## Die Domainliste (`02-domains.txt`)
 

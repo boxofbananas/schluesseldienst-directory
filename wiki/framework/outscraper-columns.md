@@ -62,11 +62,12 @@ Datenbank kein Merkmal für Geschäftsaufgabe trägt.
 | Spalte | Von | Bedeutung |
 |---|---|---|
 | `slug`, `city_slug` | Gate 2 | Adressteile, Umlaute umgeschrieben ([[konventionen]]) |
-| `bundesland`, `bundesland_slug` | Gate 2 | die Zwischenebene, einer der 16 Slugs aus [[konventionen]] |
+| `state`, `state_code` | aus dem Abruf, von Gate 2 gefüllt | **die Zwischenebene Bundesland.** Spalten mit deutschem Namen gibt es nicht: `templates/astro/src/lib/load.mjs` leitet Name, Slug und Kürzel des Bundeslandes aus `state` und `state_code` ab (Slugs und Kürzel: [[konventionen]]) |
 | `owned` | Gate 2 | eigener Betrieb des Betreibers. **Verändert die Darstellung nie** ([[footprint-rules]]) |
 | `thin` | Gate 2, von Gate 3 aufgehoben | dünner Eintrag, startet mit `noindex` ([[launch-lean]]) |
 | `claimed` | von Hand | Eintrag beansprucht und geprüft ([[refresh-and-upkeep]]) |
-| `premium`, `featured`, `best_of_rank` | von Hand nach Zahlung | bezahlte Sichtbarkeit ([[monetization-slots]]) |
+| `featured`, `featured_cities` | von Gate 2 leer angelegt, von Hand nach Zahlung | bezahlte Sichtbarkeit. `featured` kennt genau die drei **englischen** Werte `city`, `county`, `state`, die der Code liest; ein deutscher Wert erscheint nirgends (`templates/featured-tiers.md`, [[monetization-slots]]) |
+| `premium`, `best_of_rank` | von Hand nach Zahlung | bezahlte Sichtbarkeit. Gate 2 legt diese beiden Spalten **nicht** an; beim ersten Verkauf werden sie der CSV hinzugefügt (`premium` = `true`, `best_of_rank` = `1` bis `3`). Fehlen sie, liest der Build sie als leer |
 | `geprueft` | von Hand nach der Siegelprüfung | `true` heißt „Geprüft [Jahr]". Leer heißt „Noch nicht geprüft" ([[siegel-programm]]) |
 | `geprueft_jahr` | von Hand | Jahr der Prüfung, steht auf dem Siegel und löst die jährliche Erneuerung aus |
 | `socials` | Gate 5, `add_socials.py` | Profillinks von der eigenen Website ([[enrichment]]) |

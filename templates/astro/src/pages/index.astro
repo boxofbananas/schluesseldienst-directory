@@ -20,7 +20,7 @@ const heroPoints = site.heroPoints || [];
 const base = `https://${site.domain}`;
 const total = listings.length;
 const title = `${site.niche.title} in ${site.country.name} | ${site.brand}`;
-const description = `${fmtInt(total)} ${site.niche.plural} in ${fmtInt(cities.length)} Städten und ${regions.length} Bundesländern, mit Bewertungen, Leistungen und Telefonnummer. Vergleichen, dann anrufen.`;
+const description = `${fmtInt(total)} ${site.niche.plural} in ${fmtInt(cities.length)} Städten: Bewertungen, Leistungen und Telefonnummer. Geprüfte Betriebe sagen den Festpreis vor Arbeitsbeginn zu. Vergleichen, dann anrufen.`;
 // Der Ratgebertext auf der Startseite. In site.json unter "guide" als Absatzliste pflegen.
 const guide = site.guide && site.guide.length ? site.guide : [
   `Ein Schlüsseldienst wird fast immer unter Zeitdruck gesucht: die Tür ist zu, der Schlüssel liegt innen. Genau deshalb lohnt der Blick auf die Stadtseite, bevor etwas passiert. Jede Stadtseite hier führt die eingetragenen ${site.niche.plural} mit Bewertung, Anzahl der Bewertungen, Anschrift und Telefonnummer auf.`,
@@ -38,8 +38,8 @@ const schema = [
 <Base title={title} description={description} path="/" schema={schema} headTone={site.design.band ? 'band' : 'tint'} headImage={site.design.heroImage || ''}>
   <Fragment slot="head">
     <div class="hero">
-      <h1>{site.niche.title} in <span class="hl">{site.country.name}</span></h1>
-      <p class="lede">Bewertungen, Leistungen und eine Telefonnummer zu jedem eingetragenen {site.niche.singular} in {site.country.name}.</p>
+      <h1>{site.niche.title} in {site.country.name}, <span class="hl">die ihren Preis vorher nennen</span></h1>
+      <p class="lede">Wer vor einer verschlossenen Tür steht, ruft die erste Nummer an und erfährt den Preis, wenn die Arbeit längst läuft. Hier sehen Sie vorher, welcher Betrieb sich auf einen Festpreis festlegt — und welcher nicht.</p>
       <SearchForm site={site} attributes={attributes} />
       {heroPoints.length > 0 && <ul class="hero-points">{heroPoints.map((pt) => <li>{pt}</li>)}</ul>}
       <p class="hero-link"><a href="#ratgeber">Woran Sie einen guten {site.niche.singular} erkennen</a></p>

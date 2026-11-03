@@ -34,6 +34,11 @@ const description = `Beanspruchen Sie Ihren kostenlosen Eintrag als ${site.niche
     <label>Was sollen wir berichtigen oder ergänzen? <textarea name="changes" rows="4"></textarea></label>
     <label class="check"><input type="checkbox" name="featured_interest" value="ja" /> Bitte informieren Sie mich über Premium-Plätze in meiner Stadt</label>
     <label class="check"><input type="checkbox" name="siegel_interest" value="ja" /> Bitte senden Sie mir den Fragebogen für das Siegel</label>
+    <label class="check">
+      <input type="checkbox" name="datenschutz" value="ja" required />
+      Ich habe die <a href="/datenschutz/">Datenschutzerklärung</a> gelesen und weiß, wie die hier
+      gemachten Angaben zur Bearbeitung dieser Anfrage verarbeitet werden.
+    </label>
     <button class="btn" type="submit">Eintrag beanspruchen</button>
   </form>
   <script is:inline>

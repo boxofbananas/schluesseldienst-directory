@@ -87,7 +87,7 @@ const cityGroups = [...cities].sort((a, b) => a.name.localeCompare(b.name, 'de')
         </label>
       )}
     </div>
-    <p class="meta">Orte mit weniger als {site.cityFloor} gelisteten {site.niche.plural} stehen auf der Seite der nächstgelegenen Stadt.</p>
+    <p class="meta">Orte mit weniger als {site.cityFloor} eingetragenen Betrieben stehen auf der Seite der nächstgelegenen Stadt.</p>
     <!-- copy:skip -->
     <div class="city-groups" id="city-list">
       {cityGroups.map((g) => (

@@ -16,7 +16,15 @@ const { slug } = Astro.props;
 const dir = loadDirectory();
 const { site, countryPath, buildDate, buildDateDe } = dir;
 const region = dir.regionByPathSlug[slug];
-const regionIntro = site.regionIntro && site.regionIntro.length ? site.regionIntro : null;
+// Einleitungstext je Bundesland, geschluesselt nach Slug: site.regionIntro ist ein Objekt
+// { "bayern": ["Absatz", "Absatz"], ... }. Ein einziger Text fuer alle 16 Laender waere doppelter
+// Inhalt auf der gesamten Zwischenebene; Gate 5 schreibt je Bundesland einen eigenen.
+// Eine Liste statt eines Objekts wird noch akzeptiert, aber nur fuer das erste Bundesland benutzt,
+// damit eine alte site.json nicht stillschweigend ueberall denselben Text druckt.
+const regionIntroAll = site.regionIntro;
+const regionIntro = Array.isArray(regionIntroAll)
+  ? (regionIntroAll.length && region.slug === (dir.regions[0] && dir.regions[0].slug) ? regionIntroAll : null)
+  : (regionIntroAll && Array.isArray(regionIntroAll[region.slug]) && regionIntroAll[region.slug].length ? regionIntroAll[region.slug] : null);
 const alpha = [...region.cities].sort((a, b) => a.name.localeCompare(b.name, 'de'));
 const small = [...region.smallTowns].sort((a, b) => a.name.localeCompare(b.name, 'de'));
 const base = `https://${site.domain}`;
