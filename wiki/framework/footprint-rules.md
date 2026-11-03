@@ -16,7 +16,7 @@ Hand gehören. Diese Seite sagt, wie beides zusammengeht.
 **Eigene Betriebe werden wie jeder andere Betrieb gelistet.** Dieselbe Karte, dieselbe
 Eintragsvorlage, dieselbe `nofollow`-Regel auf dem Link zur Website, solange der Betrieb keine
 bezahlte Stufe zum **öffentlichen Preis** gebucht hat. Keine seitenweiten Links, kein
-Zeichen „empfohlen", keine Sonderplatzierung, kein Siegel ohne erfüllte Kriterien.
+Zeichen „empfohlen", keine Sonderplatzierung, keine Festpreis-Garantie ohne erfüllte Voraussetzungen.
 
 Die Bevorzugung ist echt, aber nicht sichtbar: das Verzeichnis enthält alle Schlüsseldienste
 in Deutschland, und ein paar davon zu besitzen, fällt darin nicht auf. Die Stärkung kommt
@@ -62,9 +62,10 @@ und in der `owned`-Spalte, weil der Mensch das wissen muss, und sonst nirgends. 
 Stadt nur ein eigener Betrieb einen bezahlten Platz bekommt, ist mit Merz Sicherheit der Platz
 in Mannheim belegt.
 
-Das Siegel bekommt Merz Sicherheit nur, wenn der Betrieb die sechs Kriterien erfüllt und den
-Antrag stellt wie jeder andere ([[siegel-programm]]). Es ist nicht kaufbar, und es wird auch
-dem eigenen Betrieb nicht geschenkt.
+Die Festpreis-Garantie bekommt Merz Sicherheit nur, wenn der Betrieb die sechs Voraussetzungen
+erfüllt, seine drei Preise nennt und den Garantie-Antrag stellt wie jeder andere
+([[siegel-programm]]). Sie ist nicht kaufbar, sie wird auch dem eigenen Betrieb nicht
+geschenkt, und seine Preise stehen so öffentlich wie die jedes anderen.
 
 ## Siehe auch
 [[konventionen]] · [[site-architecture]] · [[monetization-slots]] · [[siegel-programm]]

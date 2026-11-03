@@ -22,8 +22,8 @@
 #       stehe eine amtliche Stelle oder eine Standesorganisation.
 #
 # Nur dieser zweite Block lässt sich mit `scripts/lint_copy.py --erlaube-rechtswoerter`
-# für eine einzelne Seite zulassen, und nur für /siegel/, /agb/ und Ratgeberseiten, die über
-# die Rechtslage aufklären: dort verlangt wiki/konventionen.md ausdrücklich die Aufklärung
+# für eine einzelne Seite zulassen, und nur für /festpreis-garantie/, /premium/, /agb/ und
+# Ratgeberseiten, die über die Rechtslage aufklären: dort verlangt wiki/konventionen.md ausdrücklich die Aufklärung
 # („Der Schlüsseldienst ist kein zulassungspflichtiges Handwerk … wer mit ‚lizenziert‘ wirbt,
 # sagt nichts aus"), und die ist ohne diese Wörter nicht zu schreiben. Für Stadttexte,
 # Eintragsbeschreibungen und die Startseite gilt der Schalter nie (wiki/seo/copy-gate.md).
@@ -31,9 +31,17 @@
 # zulassungspflichtig", „Anlage A der Handwerksordnung", „Gewerbeanmeldung", „Eintragung im
 # Handelsregister".
 #
-# "geprüft" steht NICHT auf dieser Liste: es ist dem Siegel vorbehalten und wird
-# dort mit Jahreszahl benutzt (wiki/framework/siegel-programm.md). Dass es sonst
-# nicht als allgemeines Lob auftaucht, prüft der Mensch.
+# "geprüft" steht NICHT auf dieser Liste: es ist intern dem Garantie-Programm vorbehalten
+# (Spalte geprueft, wiki/framework/siegel-programm.md). Dass es sonst nicht als
+# allgemeines Lob auftaucht, prüft der Mensch.
+#
+# "Garantie" / "garantiert" (Stamm garantie*) steht im Rechtsblock, seit das Programm
+# Festpreis-Garantie heißt (2026-11-03): erlaubt mit Schalter auf /festpreis-garantie/,
+# /premium/ und im Garantie-Block eines Eintrags mit Garantie, den die Seite aus den Spalten
+# baut. Ein Betrieb ohne Garantie darf in seiner Beschreibung nicht "garantiert" sagen, und
+# auch ein Betrieb mit Garantie nicht: die Garantie zeigt die Seite, nicht sein Text.
+# Der Programmname "Festpreis-Garantie" mit Bindestrich ist in lint_copy.py ausgenommen;
+# die Beschreibungen (merge_enriched.py) kennen diese Ausnahme nicht.
 
 [WORDS]
 unschlagbar*
@@ -111,11 +119,6 @@ führender Anbieter
 führende Anbieter
 100 Prozent sicher
 100% sicher
-garantiert zum Festpreis
-ohne versteckte Kosten garantiert
-Festpreisgarantie
-Zufriedenheitsgarantie
-kostenlose Anfahrt garantiert
 ab 49 Euro
 ab 59 Euro
 ab 69 Euro
@@ -152,6 +155,9 @@ Gütesiegel
 Qualitätssiegel
 staatlich
 vereidigt
+garantie*
+Festpreisgarantie
+Zufriedenheitsgarantie
 
 [RECHTSWENDUNGEN]
 amtlich geprüft
@@ -169,3 +175,6 @@ zertifizierter Meisterbetrieb
 vom TÜV geprüft
 von Stiftung Warentest getestet
 mit Brief und Siegel
+garantiert zum Festpreis
+ohne versteckte Kosten garantiert
+kostenlose Anfahrt garantiert

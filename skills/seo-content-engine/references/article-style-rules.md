@@ -21,9 +21,12 @@ Datei und lässt das Gate in Stufe 6 scheitern, sobald eines der Wörter vorkomm
    „Konzession". Schlüsseldienst ist in Deutschland kein zulassungspflichtiges
    Handwerk; es gibt keine Lizenz und keine Meisterpflicht (`wiki/konventionen.md`).
 2. **Wörter, die eine amtliche Stelle vortäuschen.** „Innung", „Verband", „Kammer",
-   „amtlich", „Verbraucherschutz", „getestet", „TÜV", „Testsieger", „Gütesiegel".
-   Grund: Verwechslungsgefahr. Das Verzeichnis ist ein privates Angebot und erteilt
-   ein eigenes Siegel (`wiki/framework/siegel-programm.md`).
+   „amtlich", „Verbraucherschutz", „getestet", „TÜV", „Testsieger".
+   Grund: Verwechslungsgefahr. Das Verzeichnis ist ein privates Angebot; seine
+   Festpreis-Garantie ist ein Versprechen des Betriebs, das es veröffentlicht
+   (`wiki/framework/siegel-programm.md`). Dazu „Garantie" und „garantiert" außer im
+   Programmnamen „Festpreis-Garantie"; auf Ratgeberseiten zur Rechtslage mit Schalter
+   zugelassen (`wiki/seo/copy-gate.md`, Abschnitt 1b).
 3. **Werbefloskeln und KI-Verräter.** „unschlagbar", „erstklassig", „maßgeschneidert",
    „im Herzen von", „Ihr zuverlässiger Partner", „rund um die Uhr für Sie da",
    „schnell und günstig", „Nummer 1 in".

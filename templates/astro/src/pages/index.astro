@@ -27,7 +27,7 @@ const guide = site.guide && site.guide.length ? site.guide : [
   'Vor der Beauftragung gehören drei Dinge geklärt, am Telefon und vor der Anfahrt: der Festpreis für eine zugefallene Tür, die Anfahrtspauschale und der Zuschlag für Abend, Nacht, Wochenende und Feiertag. Ein Betrieb, der dazu keine Zahl nennt, ist kein guter Ausgangspunkt.',
   'Ebenso wichtig ist der Ortsbezug. Eine Anschrift in Ihrer Stadt, eine Festnetznummer mit der örtlichen Vorwahl und ein vollständiges Impressum auf der eigenen Website sprechen für einen ansässigen Betrieb. Eine überregionale Nummer, die in ein Callcenter führt, ist das Gegenteil davon.',
   'Eine zugefallene Tür ohne verriegeltes Schloss lässt sich in der Regel zerstörungsfrei öffnen. Wer sofort das Schloss aufbohrt, obwohl die Tür nur zugefallen ist, verkauft eine Reparatur mit. Fragen Sie nach, was versucht wird, bevor etwas ersetzt wird.',
-  `Lassen Sie sich am Ende eine Rechnung mit vollständiger Firmenanschrift geben. Das Schlüsseldienst-Handwerk ist in Deutschland kein zulassungspflichtiges Handwerk: es gibt weder eine Lizenz noch eine Meisterpflicht. Belegbar sind Gewerbeanmeldung, Handelsregistereintrag und die Angaben, die ein Betrieb selbst macht. Was dieses Verzeichnis geprüft hat, steht auf der Seite <a href="/siegel/">Siegel</a>.`,
+  `Lassen Sie sich am Ende eine Rechnung mit vollständiger Firmenanschrift geben. Das Schlüsseldienst-Handwerk ist in Deutschland kein zulassungspflichtiges Handwerk: es gibt weder eine Lizenz noch eine Meisterpflicht. Belegbar sind Gewerbeanmeldung, Handelsregistereintrag und die Angaben, die ein Betrieb selbst macht. Welche Betriebe ihren Preis bei uns garantieren und was wir dafür prüfen, steht auf der Seite <a href="/festpreis-garantie/">Festpreis-Garantie</a>.`,
 ];
 const schema = [
   homeFeatured.some((l) => l.featured) ? { '@context': 'https://schema.org', '@type': 'ItemList', name: `Premium-Plätze: ${site.niche.plural} in ${site.country.name}`,
@@ -57,7 +57,7 @@ const schema = [
     {vetting
       ? <div set:html={paragraphs(vetting)}></div>
       : <p>Jeder Eintrag beginnt bei öffentlichen Firmendaten und bei Google Maps. Aufgenommen wird, wer geöffnet hat, mindestens eine Bewertung vorweist und dieses Handwerk als Hauptgeschäft betreibt. Doppelte Einträge werden zusammengeführt.</p>}
-    <p>Inhaber können ihren <a href="/eintrag-beanspruchen/">Eintrag beanspruchen</a>, um Angaben zu berichtigen oder Bilder zu ergänzen. Jede Beanspruchung wird von einem Menschen geprüft. Wer zusätzlich das Siegel möchte, findet die Bedingungen unter <a href="/siegel/">Siegel</a>. Herausgegeben von <a href="/ueber-uns/">{site.publisher.name}</a>.</p>
+    <p>Inhaber können ihren <a href="/eintrag-beanspruchen/">Eintrag beanspruchen</a>, um Angaben zu berichtigen oder Bilder zu ergänzen. Jede Beanspruchung wird von einem Menschen geprüft. Wer zusätzlich die Festpreis-Garantie möchte, findet die Voraussetzungen unter <a href="/festpreis-garantie/">Festpreis-Garantie</a>. Herausgegeben von <a href="/ueber-uns/">{site.publisher.name}</a>.</p>
     </div>
   </section>
 

@@ -21,8 +21,9 @@ Handwerksordnung). Es gibt **keine Lizenz, keine Zulassung, keine Meisterpflicht
   Handelsregister, Mitgliedschaften, Qualifikationen, Ausbildung, Jahre im Geschäft.
 - Nichts davon wird vom Verzeichnis geprüft, und kein Text tut so, als wäre es geprüft. Kein
   „nachgewiesen", „bestätigt", „verifiziert", „offiziell".
-- Das Siegel des Verzeichnisses („Geprüft 2026") trägt allein die Seite, nicht Ihr Text. Schreiben
-  Sie nie, ein Betrieb sei geprüft.
+- Die Festpreis-Garantie des Verzeichnisses („Festpreis-Garantie 2026" mit drei Preisen) trägt
+  allein die Seite aus ihren eigenen Spalten, nicht Ihr Text. Schreiben Sie nie, ein Betrieb sei
+  geprüft, und nie „Garantie" oder „garantiert", auch nicht als Programmname.
 
 ## Das Material
 

@@ -124,8 +124,9 @@ denselben Anfang haben.
 
 **Nie in einer Beschreibung:** „lizenziert", „zugelassen", „zertifiziert", „Meisterbetrieb"
 als Gütezeichen, „Innung", „Verband", „Kammer", „amtlich", „Verbraucherschutz", „getestet",
-„geprüft" (letzteres ist dem Siegel vorbehalten, [[siegel-programm]]). Ebenso kein Preis und
-keine Preisspanne in Euro, weil der Export keine trägt.
+„geprüft", „Garantie", „garantiert" (die Festpreis-Garantie zeigt die Seite aus den
+Garantiespalten, nie der Text, [[siegel-programm]]). Ebenso kein Preis und keine Preisspanne
+in Euro, weil der Export keine trägt; die garantierten Preise stehen in eigenen Spalten.
 
 ## Profillinks
 

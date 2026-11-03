@@ -29,7 +29,7 @@ Preis**, auch keine Spanne ([[page-types]]).
 
 ## Überschriften
 
-Ein H1 je Seite. H2 für Abschnitte, H3 für Karten; Eintragskarten sind H3. Das Siegelzeichen
+Ein H1 je Seite. H2 für Abschnitte, H3 für Karten; Eintragskarten sind H3. Das Garantie-Zeichen
 ist keine Überschrift, sondern ein Element mit Link.
 
 ## Verfasserzeile
@@ -58,7 +58,8 @@ Bundesland-Seiten tragen die Zeile mit `dateModified`, keine Verfasserzeile.
 - Links auf die Website eines Betriebs tragen `rel="nofollow"`, außer bei bezahlter Stufe
   ([[monetization-slots]]).
 - Im Fußbereich jeder Seite: **Impressum, Datenschutz, AGB** ([[konventionen]]).
-- Jeder Eintrag verlinkt `/siegel/` oder `/siegel/antrag/` über sein Siegelzeichen
+- Jeder Eintrag verlinkt `/festpreis-garantie/` oder `/festpreis-garantie/antrag/` über sein
+  Garantie-Zeichen
   ([[siegel-programm]]).
 
 ## Bilder, Schriften, externe Einbindungen

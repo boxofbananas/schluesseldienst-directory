@@ -34,8 +34,8 @@ Warum der Betreiber sie baut, in dieser Reihenfolge:
 2. Sie vermietet ihre oberen Plätze (Premium-Eintrag, Stadt-Premium, Top-Platzierung) und
    kann später Anfragen verkaufen.
 3. Sie ist der Grund, jeden Schlüsseldienst in Deutschland anzurufen: „Sie haben einen
-   Eintrag in meinem Verzeichnis." Der sichtbare Hinweis „Noch nicht geprüft" ist dabei der
-   Gesprächsanlass ([[siegel-programm]]).
+   Eintrag in meinem Verzeichnis." Der sichtbare Hinweis „Noch keine Festpreis-Garantie" ist
+   dabei der Gesprächsanlass ([[siegel-programm]]).
 
 Werbebanner sind in dieser Größe draußen. **Eigene Websites werden wie jeder andere Betrieb
 gelistet**, keine seitenweiten Links, keine Sonderbehandlung ([[footprint-rules]]).
@@ -69,11 +69,11 @@ verzeichnis-blueprint/
 │   ├── konventionen.md  DER VERTRAG. Zuerst lesen, nie ändern.
 │   ├── index.md         Verzeichnis jeder Wiki-Seite. Danach lesen.
 │   ├── log.md           fortgeschriebenes Protokoll
-│   ├── framework/       das Regelwerk: Aufbau, Seitentypen, Siegel, Geld, Footprint, Pflege
+│   ├── framework/       das Regelwerk: Aufbau, Seitentypen, Festpreis-Garantie, Geld, Footprint, Pflege
 │   ├── seo/             Seitentechnik, Schema, Sitemap, schlanker Start
 │   ├── components/      Abschnittsfolgen der Seitentypen
 │   └── references/      die öffentlichen Beispielverzeichnisse (nur Optikvergleich)
-├── templates/         Beanspruchungsformular, Preisstufen, astro/ (das vollständige
+├── templates/         Beanspruchungs- und Garantie-Antrag, Preisstufen, astro/ (das vollständige
 │                      Astro-Projekt, das Gate 5 kopiert und füllt), master-reference/site/
 │                      (der englische Referenzbau als HTML, Maßstab für Aufbau und Optik)
 │                      und worker/ (der Mail-Worker, nach dem Start)
@@ -128,7 +128,9 @@ Aktualisierung seit zwölf Monaten löschen, Zeilen ohne Bewertung löschen, Nam
 Branchenwort oder Zeilen mit der Kategorie behalten, auf Telefonnummer plus Adresse
 entdoppeln, eigene Betriebe und dünne Einträge kennzeichnen. Das Skript schreibt außerdem
 `02-domains.txt`, die Domains der behaltenen Zeilen, und entfernt Googles Tracking-Parameter
-aus `website`. `slugify` schreibt Umlaute um, bevor es Sonderzeichen entfernt
+aus `website`. Es legt die leeren Spalten der Festpreis-Garantie an (`geprueft`,
+`geprueft_jahr`, `garantie_tag`, `garantie_nacht`, `garantie_anfahrt`) und die reservierte
+Spalte `preisschutz`; kein Skript füllt sie ([[outscraper-columns]]). `slugify` schreibt Umlaute um, bevor es Sonderzeichen entfernt
 ([[konventionen]]).
 
 **Die Branchenbesonderheit, die Gate 2 nur sichtbar macht, nie selbst löst:** Die Kategorie
@@ -208,8 +210,8 @@ Listen aus dem Gate-2-Bericht vor und fragt je Gruppe nach einer Entscheidung:
 2. **Kettenbetriebe** – derselbe Name an vielen Adressen. Vorschlag: je Stadt eine Zeile
    behalten, die übrigen Adressen derselben Stadt zusammenführen.
 3. **Callcenter ohne Ortsbezug** – Einträge, deren Nummer ortsfremd ist und die keine
-   erreichbare Adresse haben. Sie verfehlen Kriterium 5 des Siegels ([[siegel-programm]]);
-   ob sie im Verzeichnis bleiben, entscheidet der Betreiber.
+   erreichbare Adresse haben. Sie verfehlen Voraussetzung 5 der Festpreis-Garantie
+   ([[siegel-programm]]); ob sie im Verzeichnis bleiben, entscheidet der Betreiber.
 
 Der Blueprint hat für keine dieser Gruppen einen Vorgabewert, der eine Zeile löscht. Jede
 Entscheidung, die einen Eintrag entfernt oder verändert, geht nach `04-exclusions.csv`
@@ -282,10 +284,12 @@ python3 scripts/check_city_copy.py --copy output/<slug>/05-cache/city-copy \
 Wortuntergrenzen je Stadtgröße in [[page-types]]. Danach das **Textgate** ([[copy-gate]]):
 `scripts/lint_copy.py` auf `city-copy.json`, auf die gebauten Seiten Startseite, Bundesland und
 „Über uns" in `dist/` und auf jede Ratgeberseite; nachbessern und erneut prüfen, bis jeder Block
-besteht. `/siegel/`, `/agb/` und Ratgeberseiten über die Rechtslage werden mit
-`--erlaube-rechtswoerter` geprüft, sonst scheitern sie an den Wörtern, die sie bestreiten
-müssen; für Stadttexte, Eintragsbeschreibungen und die Startseite gilt der Schalter **nie**
-([[copy-gate]]).
+besteht. `/festpreis-garantie/`, `/premium/`, `/agb/` und Ratgeberseiten über die Rechtslage
+werden mit `--erlaube-rechtswoerter` geprüft, sonst scheitern sie an den Wörtern, die sie
+bestreiten müssen; für Stadttexte, Eintragsbeschreibungen und die Startseite gilt der Schalter
+**nie** ([[copy-gate]]). „Garantie" und „garantiert" gehören zu diesen Wörtern; frei ist allein
+der Programmname „Festpreis-Garantie", und eine Eintragsbeschreibung sagt nie „garantiert",
+mit oder ohne Garantie ([[copy-gate]], Abschnitt 1b).
 Ratgeberseiten und der Ratgeberblock der Startseite entstehen mit der
 **seo-content-engine**-Skill, wenn sie verfügbar ist. Stadtblöcke und Stadt-Fragen werden nie
 mit der Skill erzeugt, nur von ihr geprüft.
@@ -300,8 +304,10 @@ Dann die gebauten Seiten prüfen: je Seite ein H1 und ein Titel, `lang="de"`, JS
 sich einlesen lässt und kein `aggregateRating` trägt, kein gebrochener interner Link, keine
 `noindex`-Seite in der Sitemap, kein Platzhaltertext, Impressum und Datenschutz vollständig
 und im Fußbereich verlinkt, Telefonnummern im deutschen Format ([[konventionen]]),
-„Geprüft 2026" beziehungsweise „Noch nicht geprüft" auf jedem Eintrag
-([[siegel-programm]]). `featuredPreview` muss im ausgelieferten Build `false` sein.
+„Festpreis-Garantie 2026" mit den drei Preisen (Türöffnung tagsüber, nachts, Anfahrt)
+beziehungsweise „Noch keine Festpreis-Garantie" auf jedem Eintrag, die Zeile
+„Festpreis-Garantie · Türöffnung ab <garantie_tag> €" auf jeder Stadtkarte eines Betriebs mit
+Garantie ([[siegel-programm]]). `featuredPreview` muss im ausgelieferten Build `false` sein.
 
 Ansehen: `preview-site.command` (Mac) oder `preview-site.bat` (Windows) in `site/`
 doppelklicken. Nie auf `dist/index.html` verweisen, das zeigt ohne Server keine Gestaltung.
@@ -327,21 +333,26 @@ Erweiterungsstufen und dem Termin der 30-Tage-Prüfung.
 
 ### Neu bauen bei Änderung
 
-Verkaufter Platz, bestätigter Eintrag, neu erteiltes Siegel, neue Stadt: CSV ändern, Gate 5
-erneut laufen lassen, erneut ausliefern. **Nie eine erzeugte Seite von Hand bearbeiten.**
+Verkaufter Platz, bestätigter Eintrag, neu erteilte oder entzogene Festpreis-Garantie
+(`geprueft`, `geprueft_jahr` und die drei Preisspalten setzen oder leeren), geänderte
+Garantiepreise, neue Stadt: CSV ändern, Gate 5 erneut laufen lassen, erneut ausliefern. **Nie eine erzeugte Seite von Hand bearbeiten.**
 
 ### Nach dem Start: der Mail-Worker
 
 [[mail-worker]], wahlweise, auf Wunsch des Betreibers, nie Teil eines Gates. Ein Cloudflare
 Email Worker gibt dem Verzeichnis eine echte Adresse: feste Empfangsbestätigung innerhalb
 einer Minute, Einordnung durch Claude, eine Prüfseite mit „Senden" und „Übergehen". Er ändert
-nie einen Eintrag und sendet nie von sich aus. Anfragen zum Siegel verweist er auf
-`/siegel/antrag/`. Die Texte stehen in `output/<slug>/worker/src/templates.ts`.
+nie einen Eintrag und sendet nie von sich aus. Anfragen zur Festpreis-Garantie (Kategorie
+`garantie_request`) verweist er auf `/festpreis-garantie/antrag/`, nennt nie Preise eines
+Betriebs, die nicht in der CSV stehen, und verspricht nie eine Garantie. Die Texte stehen in
+`output/<slug>/worker/src/templates.ts`.
 
 ### Pflege
 
-[[refresh-and-upkeep]]: keine Zugänge für Betriebe, jede Beanspruchung und jede Siegelprüfung
-von Hand, bevor sich die CSV ändert. Einmal im Jahr die Siegel erneuern
+[[refresh-and-upkeep]]: keine Zugänge für Betriebe, jede Beanspruchung und jeder
+Garantie-Antrag von Hand geprüft, bevor sich die CSV ändert. Eine Rechnung über dem
+garantierten Preis führt zu Konfrontation und Entzug: Garantiespalten leeren, neu bauen. Einmal
+im Jahr jede Festpreis-Garantie erneuern, mit Anruf, ob die drei Preise noch gelten
 ([[siegel-programm]]).
 
 ---
@@ -367,8 +378,11 @@ von Hand, bevor sich die CSV ändert. Einmal im Jahr die Siegel erneuern
   ([[design-seed]]).
 - Der Herausgeber steht auf „Über uns" mit `Organization`-Schema; der Geschäftsführer mit
   `Person`-Schema ([[publisher-entity]], [[authority-and-links]]).
-- Das Siegel wird als HTML-Schnipsel weitergegeben, der auf die Eintragsseite verlinkt, nie
-  als Bilddatei ([[siegel-programm]]).
+- Der Garantie-Nachweis („Festpreis-Garantie 2026 · Türöffnung ab <garantie_tag> €") wird als
+  HTML-Schnipsel weitergegeben, der auf die Eintragsseite verlinkt, nie als Bilddatei; er ist
+  kostenlos und gehört zu keiner Stufe ([[siegel-programm]]).
+- Die Spalte `preisschutz` ist reserviert und wird von nichts ausgewertet, bis der Betreiber
+  die Stufe „Preisschutz" freigibt ([[konventionen]]).
 
 ---
 
@@ -412,8 +426,10 @@ Gate 2.
 - Die Wortlisten liegen in `skills/seo-content-engine/references/forbidden_words.txt` und
   `scripts/copy-bans.txt` und sind deutsch. Beide haben vier Blöcke: `[WORDS]` und `[PHRASES]`
   für die Werbefloskeln, `[RECHTSWOERTER]` und `[RECHTSWENDUNGEN]` für die Rechts- und
-  Amtswörter, die `lint_copy.py --erlaube-rechtswoerter` für `/siegel/`, `/agb/` und
-  Ratgeberseiten zur Rechtslage zulässt ([[copy-gate]]). Ein Eintrag, der auf `*` endet, ist ein
+  Amtswörter (dazu seit dem 2026-11-03 der Stamm `garantie*`), die `lint_copy.py
+  --erlaube-rechtswoerter` für `/festpreis-garantie/`, `/premium/`, `/agb/` und Ratgeberseiten
+  zur Rechtslage zulässt; der Programmname „Festpreis-Garantie" ist überall frei
+  ([[copy-gate]]). Ein Eintrag, der auf `*` endet, ist ein
   **Wortstamm** und trifft jede gebeugte Form: `lizenzier*` fängt „lizenziert", „lizenzierte"
   und „Lizenzierung". Neue Einträge deshalb als Stamm schreiben, nicht als Grundform.
 

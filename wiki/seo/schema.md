@@ -19,8 +19,8 @@ Jede Seite gibt JSON-LD im `<head>` aus, erzeugt aus der CSV. `inLanguage` ist i
 | Eintragsseite | Der Betriebstyp mit `address`, `geo`, `telephone`, `url` (Website des Betriebs), `openingHoursSpecification` aus `working_hours`, `makesOffer` für bestätigte Leistungen, `image` nur bei beanspruchten oder bezahlten Einträgen mit Fotos vom Inhaber ([[page-types]]); `BreadcrumbList` |
 | Über uns | `AboutPage`, `Organization` (der Herausgeber mit `address`, `legalName`, Handelsregisternummer in `identifier`), `Person` (der Geschäftsführer, `worksFor` die `Organization`) |
 | Impressum, Datenschutz, AGB | `WebPage` |
-| Siegel-Kriterien | `WebPage`. **Kein `Rating`, kein `Award`, kein `Certification`**: das Siegel ist die eigene Auszeichnung des Verzeichnisses und keine Prüfung durch Dritte ([[siegel-programm]]) |
-| Siegel-Nachweis | `WebPage`, `noindex` |
+| Festpreis-Garantie | `WebPage`. **Kein `Rating`, kein `Award`, kein `Certification`**: die Festpreis-Garantie ist ein Versprechen des Betriebs, das das Verzeichnis veröffentlicht, und keine Prüfung durch Dritte ([[siegel-programm]]). Die garantierten Preise stehen als sichtbarer Text im Eintrag, nicht als `priceRange` oder `Offer` im Schema |
+| Garantie-Nachweis | `WebPage`, `noindex` |
 | Ratgeberseite | `Article` mit `author` = die `Person`, `publisher` = die `Organization`, `datePublished`, `dateModified`, `BreadcrumbList` |
 | Beanspruchen, Premium, Suche | nur `WebPage` |
 

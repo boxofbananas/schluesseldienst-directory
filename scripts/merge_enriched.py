@@ -74,7 +74,10 @@ INTERNAL = re.compile(
     r"|\bbeim (?:abruf|pruefen|aufruf)\b|\bkonnte nicht (?:gelesen|abgerufen|geladen|geprueft) werden\b"
     r"|\bleer geladen\b|\bverweigert\b|\bautomatisierte[rn]? (?:zugriff|abruf|anfrage)\b"
     r"|\blieferte einen? fehler\b|\bnicht auslesbar\b", re.I)
-EXTRA = ["premium", "best_of_rank", "photos", "geprueft", "geprueft_jahr"]
+# geprueft bis preisschutz: die Spalten der Festpreis-Garantie (wiki/konventionen.md), von Hand
+# gesetzt, hier nur unveraendert durchgereicht.
+EXTRA = ["premium", "best_of_rank", "photos", "geprueft", "geprueft_jahr",
+         "garantie_tag", "garantie_nacht", "garantie_anfahrt", "preisschutz"]
 
 
 def load_patterns(path):

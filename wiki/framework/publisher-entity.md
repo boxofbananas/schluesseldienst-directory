@@ -73,16 +73,17 @@ den Kontakt, Lebenslauf von 60 bis 120 Wörtern und ein Bild des Geschäftsführ
   Vertrauenszeichen für einen kalt angerufenen Betrieb. Wahlweise, aber es wirkt.
 - **Der Herausgeber tritt nie als amtliche Stelle auf.** Nie „Innung", „Verband", „Kammer",
   „amtlich", „Verbraucherschutz", „getestet" ([[konventionen]]). Die DOM Holding GmbH gibt ein
-  Verzeichnis heraus und erteilt ein eigenes Siegel; sie ist keine Prüfstelle und sagt das auf
-  `/siegel/` selbst ([[siegel-programm]]).
+  Verzeichnis heraus und veröffentlicht die Festpreis-Garantie, die der Betrieb gibt; sie ist
+  keine Prüfstelle und sagt das auf `/festpreis-garantie/` selbst ([[siegel-programm]]).
 
 ## Der Name des Verzeichnisses
 
 Die Marke steht fest: **Die besten Schlüsseldienste**, passend zur Domain
 `die-besten-schluesseldienste.de`. Sie liest sich als Publikation, und genau das soll sie.
-Daraus folgt eine Pflicht: Wenn das Verzeichnis „die besten" heißt, muss auf `/siegel/`
+Daraus folgt eine Pflicht: Wenn das Verzeichnis „die besten" heißt, muss auf `/festpreis-garantie/`
 nachlesbar stehen, woran das gemessen wird, und auf `/premium/`, dass Sichtbarkeit kauflich
-ist und das Siegel nicht. Eine Behauptung ohne veröffentlichte Kriterien ist angreifbar.
+ist und die Garantie nicht. Eine Behauptung ohne veröffentlichte Voraussetzungen ist
+angreifbar.
 Kein Vorschlag für einen anderen Namen; die Entscheidung ist gefallen.
 
 ## Siehe auch

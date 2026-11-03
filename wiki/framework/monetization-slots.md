@@ -13,21 +13,23 @@ Zahlungslinks stehen in `templates/featured-tiers.md`.
 | Stufe | In Fassung 1? | Was die Site braucht |
 |---|---|---|
 | Werbebanner | Nein (Vermarkter wollen etwa 250.000 Besucher im Monat) | nichts |
-| **Premium-Eintrag, 97 € im Jahr** (der leichteste Verkauf) | **Ja** | der ausgebaute Eintragszustand (Fotos, alle Links gefolgt, Karte nach Klick), das Siegelbild zum Einbinden, eine Spalte `premium` |
+| **Premium-Eintrag, 97 € im Jahr** (der leichteste Verkauf) | **Ja** | der ausgebaute Eintragszustand (Fotos, alle Links gefolgt, Karte nach Klick), eine Spalte `premium`; der Garantie-Nachweis gehört zu keiner Stufe |
 | **Stadt-Premium, 29 € im Monat** | **Ja** | Premium-Plätze auf jeder Stadtseite und der Startseite, die Seite `/premium/` mit Stufen und Zahlungslinks, eine Spalte `featured`, die Gate 5 liest |
 | **Top-Platzierung, 250 € einmalig** | **Ja** | die Stadtseite **ist** die Liste „Die besten Schlüsseldienste in [Stadt]"; eine Spalte `best_of_rank` heftet den bezahlten Platz fest |
 | Landkreis-Stufe, Bundesland-Stufe | Später zu aktivieren | die Felder stehen im Template, werden aber erst verkauft, wenn ein Stadt-Platz verkauft ist |
 | Eigene Dienstleistungen (SEO, Profilpflege, Website) | **Ja, für den Betreiber der wichtigste Punkt** | nichts auf der Site; der Eintrag ist der Anlass für den Anruf |
 | Anfragen verkaufen | Ja, später | ein Formular oder eine getrackte Nummer je Stadt, sobald die Seiten ranken |
 
-**Das Siegel ist keine Stufe.** Es ist kostenlos und nicht kaufbar; bezahlt wird nur
-Sichtbarkeit ([[siegel-programm]]). Dieser Satz steht auf `/siegel/` und auf `/premium/`. Ein
-zahlender Betrieb ohne erfüllte Kriterien bekommt kein Siegel.
+**Die Festpreis-Garantie ist keine Stufe.** Sie ist kostenlos und nicht kaufbar; bezahlt wird
+nur Sichtbarkeit ([[siegel-programm]]). Dieser Satz steht auf `/festpreis-garantie/` und auf
+`/premium/`. Ein zahlender Betrieb ohne erfüllte Voraussetzungen bekommt keine Garantie, und
+auch der Garantie-Nachweis zum Einbinden gehört zu keiner Stufe. Die Garantie verändert die
+Reihenfolge nicht: bezahlte Plätze zuerst, dann Bewertung.
 
-## Der Siegel-Antrag ist der Verkaufsanlass
+## Der Garantie-Antrag ist der Verkaufsanlass
 
-Jeder nicht geprüfte Eintrag trägt sichtbar **„Noch nicht geprüft"** mit Link auf
-`/siegel/antrag/`. Das ist der Grund, aus dem ein Betrieb anruft oder schreibt, und der
+Jeder Eintrag ohne Garantie trägt sichtbar **„Noch keine Festpreis-Garantie"** mit Link auf
+`/festpreis-garantie/antrag/`. Das ist der Grund, aus dem ein Betrieb anruft oder schreibt, und der
 Einstieg in jedes Gespräch: er kann das Zeichen kostenlos loswerden, und beim selben Anruf
 geht es um Sichtbarkeit. **Das Zeichen wird nie abgeschaltet** – kein Gate, keine Einstellung
 und kein Wunsch eines Betriebs entfernt es ([[siegel-programm]]).
@@ -37,7 +39,7 @@ Der Ablauf hat damit zwei Türen, und das ist Absicht:
 | Tür | Adresse | Was sie auslöst |
 |---|---|---|
 | **Eintrag beanspruchen** | `/eintrag-beanspruchen/` | Daten ändern, Fotos nachliefern, kostenlos; danach das Gespräch über Sichtbarkeit |
-| **Siegel beantragen** | `/siegel/antrag/` | die Prüfung gegen die sechs Kriterien, kostenlos; danach dasselbe Gespräch |
+| **Festpreis-Garantie beantragen** | `/festpreis-garantie/antrag/` | der Garantie-Antrag mit den drei Preisen, geprüft gegen die sechs Voraussetzungen, kostenlos; danach dasselbe Gespräch |
 
 Beide Formulare fragen am Ende, ob über Premium gesprochen werden soll. Beide Anfragen sind
 warme Kontakte und werden am selben Tag beantwortet.
@@ -60,18 +62,18 @@ E-Mail-Domain passt zur Website; die Telefonnummer passt zur Google-Zeile. Dann 
 
 - **Einfach (nicht beansprucht):** Name, Anschrift, Telefonnummer, Bewertung, Zahl der
   Bewertungen, Merkmale, Beschreibung, Kartenplatzhalter, Website-Link mit `nofollow`. Keine
-  Fotos, keine Profillinks. Dazu „Noch nicht geprüft", solange kein Siegel vorliegt.
+  Fotos, keine Profillinks. Dazu „Noch keine Festpreis-Garantie", solange keine Garantie vorliegt.
 - **Ausgebaut (beansprucht mit Premium oder bezahlter Stufe):** Fotos vom Inhaber, alle Links
-  gefolgt (Website und Profile), die Karte nach Klick, Öffnungszeiten, das Siegelbild wenn
-  geprüft. Diese Lücke ist das Verkaufsargument: „Sie haben einen Eintrag, und er ist nicht
+  gefolgt (Website und Profile), die Karte nach Klick, Öffnungszeiten. Die Garantie mit
+  ihren drei Preisen zeigt jeder Eintrag, der sie hat, in beiden Zuständen. Diese Lücke ist das Verkaufsargument: „Sie haben einen Eintrag, und er ist nicht
   ausgebaut."
 
 ## Die Stufen
 
-Preise, Zahlungslinks und das Siegelschnipsel stehen in `templates/featured-tiers.md`.
+Preise, Zahlungslinks und der Garantie-Nachweis stehen in `templates/featured-tiers.md`.
 Kurzfassung:
 
-- **Premium-Eintrag, 97 € im Jahr:** der ausgebaute Zustand plus das Siegelbild zum Einbinden.
+- **Premium-Eintrag, 97 € im Jahr:** der ausgebaute Zustand.
 - **Stadt-Premium, 29 € im Monat:** oberste Karte auf einer Stadtseite, gefolgter Link, Foto
   (`featured` = `city`).
 - **Top-Platzierung, 250 € einmalig:** fester Platz in der Liste „Die besten Schlüsseldienste
@@ -87,13 +89,15 @@ Wert wie `stadt` erzeugt einen bezahlten Platz, der auf keiner Seite erscheint.
 setzen, neu bauen. Kündigung heißt Spalte leeren und neu bauen. **Und je Stadt höchstens ein
 eigener Betrieb auf einem bezahlten Platz** ([[footprint-rules]]).
 
-## Das Siegelbild ist ein Link, deshalb HTML
+## Der Garantie-Nachweis ist ein Link, deshalb HTML
 
 Das Schnipsel in `templates/featured-tiers.md` ist HTML, nie eine Bilddatei. Der Satz, der
 funktioniert: „Schicken Sie das Ihrem Webmaster, oder wir bauen es für Sie ein." Biete den
 Einbau an, denn der Zweck ist der Link von der Website des Inhabers auf seine Eintragsseite
-([[authority-and-links]]). Der Text auf dem Siegel trägt die Jahreszahl und nennt nie eine
-Lizenz, eine Zulassung oder eine Zertifizierung ([[siegel-programm]]).
+([[authority-and-links]]). Der Text auf dem Nachweis ist „Festpreis-Garantie [Jahr] · Türöffnung
+ab [garantie_tag] €"; er nennt nie eine Lizenz, eine Zulassung oder eine Zertifizierung. Der
+Nachweis ist kostenlos und steht jedem Betrieb mit Garantie zu, ob er zahlt oder nicht
+([[siegel-programm]]).
 
 ## Die Top-Platzierung
 
@@ -118,8 +122,8 @@ stärkt drei Teile des Verzeichnisses ([[authority-and-links]]).
 - Selbstanmeldungen auf einem gewachsenen Verzeichnis sind die wärmsten Kontakte überhaupt.
 
 Nichts in diesen Gesprächen und in keinem Text verspricht einen Link, eine Aufnahme, eine
-Änderung oder eine Platzierung, bevor sie entschieden ist, und nichts stellt das Siegel als
-käuflich dar.
+Änderung oder eine Platzierung, bevor sie entschieden ist, und nichts stellt die Festpreis-Garantie
+als käuflich dar.
 
 ## Siehe auch
 [[konventionen]] · [[siegel-programm]] · [[page-types]] · [[footprint-rules]] · [[refresh-and-upkeep]] · [[authority-and-links]]

@@ -237,7 +237,7 @@ def fill_from_site(slug, cfg, review_to, forward_to, name):
     tier_text = (f"Stadt-Premium, oberste Karte auf der Stadtseite: {tiers.get('city', {}).get('price', '29 € im Monat')}. "
                  f"Premium-Eintrag (Fotos, gefolgte Links, vollständiges Profil): {tiers.get('premium', {}).get('price', '97 € im Jahr')}. "
                  f"Top-Platzierung: {tiers.get('bestOf', {}).get('price', 'einmalig, Preis auf Anfrage')}. "
-                 "Der Eintrag selbst ist kostenlos, und das Siegel ist nicht kaufbar: bezahlt wird nur Sichtbarkeit.")
+                 "Der Eintrag selbst ist kostenlos, und die Festpreis-Garantie ist nicht kaufbar: bezahlt wird nur Sichtbarkeit.")
     niche = site["niche"]
     # Drei Ebenen: es gibt keinen einzelnen Bundesstaat. Das Gebiet des Verzeichnisses ist das Land
     # aus site.json → country; die Worker-Variable heißt weiter STATE_NAME, weil

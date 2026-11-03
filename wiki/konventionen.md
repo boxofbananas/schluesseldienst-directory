@@ -34,9 +34,9 @@ Deutschland als Ganzes, **16 Bundesländer** als Zwischenebene und Städte darun
 | Leistung | `/leistungen/[slug]/`, Index `/leistungen/` | je Leistung |
 | Eintrag beanspruchen | `/eintrag-beanspruchen/` | 1 |
 | Premium / Werbung | `/premium/` | 1 |
-| Siegel-Kriterien | `/siegel/` | 1 |
-| Siegel-Antrag | `/siegel/antrag/` | 1 |
-| Siegel-Nachweis (noindex) | `/auszeichnung/[slug]/`, Bild `/auszeichnung/[slug].svg` | je ausgezeichneter Betrieb |
+| Festpreis-Garantie: Erklärung und Prüfpunkte (indexiert) | `/festpreis-garantie/` | 1 |
+| Garantie-Antrag (noindex) | `/festpreis-garantie/antrag/` | 1 |
+| Garantie-Nachweis (noindex) | `/auszeichnung/[slug]/`, Bild `/auszeichnung/[slug].svg` | je Betrieb mit Garantie |
 | Über uns | `/ueber-uns/` | 1 |
 | Kontakt | `/kontakt/` | 1 |
 | Impressum | `/impressum/` | 1 |
@@ -98,7 +98,7 @@ Für schema.org `openingHoursSpecification` werden die deutschen Tage auf `Mo`�
 | best-of placement | Top-Platzierung |
 | claim your listing | Eintrag beanspruchen |
 | claimed | bestätigt |
-| verified / vetted | geprüft |
+| verified / vetted | geprüft (intern); sichtbar: Festpreis-Garantie |
 | reviews | Bewertungen |
 | rating | Bewertung |
 | directory | Verzeichnis |
@@ -113,35 +113,74 @@ Für schema.org `openingHoursSpecification` werden die deutschen Tage auf `Mo`�
 | nearby towns | Orte in der Nähe |
 | thin | dünn (intern, nie sichtbar) |
 
-## Siegel-Programm (neu gegenüber der englischen Fassung)
+## Festpreis-Garantie (neu gegenüber der englischen Fassung)
+
+Das Programm hieß zunächst „Siegel“. Es wurde am 2026-11-03 zur **Festpreis-Garantie**
+umgebaut, weil ein Siegel eine Eigenschaft des Betriebs beschreibt, eine Garantie aber ein
+Versprechen an den Kunden ist – und nur das Zweite bringt dem Betrieb Kunden. Das Wort
+„Siegel“ kommt in sichtbaren Texten nicht mehr vor; der interne Name des Programms ist
+„Garantie-Programm“, die Wiki-Seite heißt weiter `siegel-programm.md`, damit die Wikilinks
+halten.
+
+Die Garantie hat drei Teile. Ohne einen davon ist sie nur ein Etikett:
+
+1. **Der Preis steht im Eintrag, bevor der Kunde anruft.** Jeder Betrieb mit Garantie
+   veröffentlicht seine drei Standardpreise: Türöffnung tagsüber, Türöffnung nachts (nachts,
+   Wochenende, Feiertag) und Anfahrt. Sie stehen im Eintrag, auf der Stadtkarte und im
+   Nachweis auf der Website des Betriebs. Spalten: `garantie_tag`, `garantie_nacht`,
+   `garantie_anfahrt` – Euro-Beträge als ganze Zahl ohne Einheit; `garantie_anfahrt` = `0`
+   heißt „im Preis enthalten“. Spalte `geprueft` = `true` heißt „Garantie aktiv“,
+   `geprueft_jahr` = Jahr der Prüfung. Die Spaltennamen bleiben aus Rücksicht auf den Code.
+2. **Der Betrieb garantiert: Der genannte Preis ist der Rechnungspreis.** Das ist das
+   unterschriebene Serviceversprechen. Die Garantie gibt der Betrieb, nicht der Herausgeber;
+   der Herausgeber prüft die Voraussetzungen und überwacht die Einhaltung. Das steht so auf
+   `/festpreis-garantie/`.
+3. **Verstoß hat Folgen.** Rechnung über dem garantierten Preis → Kunde meldet es mit
+   Rechnung → Herausgeber konfrontiert den Betrieb → Garantie entzogen, Preise aus dem
+   Eintrag entfernt. Der Weg zur Meldung steht auf `/festpreis-garantie/` und im Eintrag.
 
 Zwei Stufen, beide sichtbar im Eintrag:
 
-1. **Geprüft** – kostenlos. Der Betrieb füllt den Fragebogen auf `/siegel/antrag/` aus und gibt
-   das Serviceversprechen ab; der Herausgeber prüft die Angaben an Unterlagen und Website.
-   Spalte `geprueft` = `true`, Spalte `geprueft_jahr` = Jahr der Prüfung.
+1. **Festpreis-Garantie** – kostenlos. Der Betrieb füllt den Antrag auf
+   `/festpreis-garantie/antrag/` aus, nennt seine drei Preise verbindlich und gibt das
+   Serviceversprechen ab; der Herausgeber prüft die sechs Voraussetzungen an Unterlagen und
+   Website.
 2. **Premium / Top-Platzierung** – kostenpflichtig, siehe `templates/featured-tiers.md`.
 
-Prüfkriterien, die auf `/siegel/` veröffentlicht stehen müssen (sonst ist das Siegel
-angreifbar):
+Die sechs Voraussetzungen, die auf `/festpreis-garantie/` veröffentlicht stehen müssen (sonst
+ist die Garantie angreifbar):
 - vollständiges Impressum auf der eigenen Website
-- erreichbare Festnetz- oder Mobilnummer
-- Preisangabe oder Anfahrtspauschale auf der Website genannt
+- erreichbare Festnetz- oder Mobilnummer, die zum Betrieb gehört
+- die drei Standardpreise verbindlich genannt (Türöffnung tagsüber, nachts, Anfahrt)
 - mindestens 10 Google-Bewertungen bei einem Schnitt von mindestens 4,0
 - keine Weiterleitung an ein Callcenter ohne Ortsbezug
-- unterschriebenes Serviceversprechen: Festpreis vor Arbeitsbeginn, keine versteckten
-  Zuschläge, Rechnung mit vollständiger Firmenanschrift, zerstörungsfreie Öffnung als Standard
+- unterschriebenes Serviceversprechen: der genannte Preis ist der Rechnungspreis, keine
+  Zuschläge, die nicht vorher beziffert wurden, Rechnung mit vollständiger Firmenanschrift,
+  zerstörungsfreie Öffnung als Standard
 
-Auf `/siegel/` steht außerdem ausdrücklich: Grundlage sind Selbstauskunft und Prüfung von
-Unterlagen und Website, **kein** Test vor Ort. Das Siegel trägt die Jahreszahl, gilt ein Jahr
-und wird bei belegten Beschwerden entzogen.
+Auf `/festpreis-garantie/` steht außerdem ausdrücklich: Grundlage sind Selbstauskunft und
+Prüfung von Unterlagen und Website, **kein** Test vor Ort; die Garantie gibt der Betrieb. Sie
+trägt die Jahreszahl, gilt ein Jahr und wird bei belegten Verstößen entzogen.
 
-Das Siegel ist nicht kaufbar. Bezahlt wird nur Sichtbarkeit. Dieser Satz steht auf `/siegel/`
-und auf `/premium/`.
+Die Garantie ist nicht kaufbar. Bezahlt wird nur Sichtbarkeit. Dieser Satz steht wörtlich auf
+`/festpreis-garantie/` und auf `/premium/`.
 
-Darstellung im Eintrag: geprüfte Betriebe tragen „Geprüft 2026" mit Link auf `/siegel/`.
-Nicht geprüfte Betriebe tragen „Noch nicht geprüft" mit Link auf `/siegel/antrag/` – das ist
-der Verkaufsanlass und darf nicht abgeschaltet werden.
+Darstellung im Eintrag: Betriebe mit Garantie tragen „Festpreis-Garantie 2026“ mit den drei
+Preisen und Link auf `/festpreis-garantie/`. Betriebe ohne Garantie tragen „Noch keine
+Festpreis-Garantie“ mit Link auf `/festpreis-garantie/antrag/` – das ist der Verkaufsanlass
+und darf nicht abgeschaltet werden. Keine Formulierung, die dem Betrieb ohne Garantie etwas
+unterstellt.
+
+Stadtkarte: Betriebe mit Garantie zeigen eine Zeile „Festpreis-Garantie · Türöffnung ab
+<garantie_tag> €“. Sortierung bleibt bezahlte Plätze, dann Bewertung; die Garantie verändert
+die Reihenfolge nicht.
+
+Nachweis auf der Website des Betriebs: HTML-Schnipsel mit Bild `/auszeichnung/<slug>.svg`,
+Text „Festpreis-Garantie 2026“ mit dem Tagespreis, verlinkt auf die Eintragsseite.
+
+**Reserviert, nicht gebaut: Stufe „Preisschutz“.** Erstattung der Differenz bis 100 € durch
+den Herausgeber, Rückgriff auf den Betrieb. Spalte `preisschutz` ist vorgesehen, aber kein
+Skript und keine Seite wertet sie aus, bis der Betreiber die Stufe freigibt.
 
 ## Recht
 

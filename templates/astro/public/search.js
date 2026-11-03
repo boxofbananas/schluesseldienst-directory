@@ -126,7 +126,7 @@
         return '<article class="card"><h3><a href="' + l.p + '">' + esc(l.n) + '</a></h3>' +
           (l.v ? '<p class="rating"><span class="stars" aria-hidden="true">' + stars(l.r) + '</span> ' + rf(l.r) + ' <span class="meta">(' + nf(l.v) + (l.v === 1 ? ' Bewertung' : ' Bewertungen') + ' bei Google)</span></p>' : '<p class="meta">Noch keine Bewertungen</p>') +
           '<p class="meta">' + esc(l.c) + (l.t ? ' (Sitz in ' + esc(l.t) + ')' : '') + '</p>' +
-          (l.g ? '<p class="siegel ja">Gepr\u00fcft</p>' : '<p class="siegel nein">Noch nicht gepr\u00fcft</p>') +
+          (l.g ? '<p class="garantie ja">Festpreis-Garantie' + (l.gt ? ' \u00b7 T\u00fcr\u00f6ffnung ab ' + l.gt + ' \u20ac' : '') + '</p>' : '<p class="garantie nein">Noch keine Festpreis-Garantie</p>') +
           (l.a.length ? '<ul class="chips">' + chipsFor(l, q, fs).map(function (a) { return '<li>' + esc(a) + '</li>'; }).join('') + '</ul>' : '') + '</article>';
       }).join('') + '</div>';
       if (hits.length > 24) html += '<p class="meta">Die ersten 24 werden gezeigt. Erg\u00e4nzen Sie eine Stadt oder eine Leistung, um die Liste zu k\u00fcrzen.</p>';

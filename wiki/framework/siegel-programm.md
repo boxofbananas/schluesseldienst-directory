@@ -1,109 +1,183 @@
 ---
-title: Siegel-Programm
+title: Festpreis-Garantie
 type: framework
 status: stable
 updated: 2026-11-03
 ---
 
-# Siegel-Programm
+# Festpreis-Garantie
 
-Das Siegel ist die eigene Auszeichnung des Verzeichnisses. Es ersetzt die englische
-„Verified"-Marke und ist der Grund, aus dem ein Betrieb anruft. Grundlage ist der Abschnitt
-„Siegel-Programm" in [[konventionen]]; diese Seite ist die Ausführung.
+Diese Datei heißt weiter `siegel-programm.md`, weil das Programm bis zum 2026-11-03 so hieß und
+jeder Wikilink `[[siegel-programm]]` halten soll; der Inhalt beschreibt die Festpreis-Garantie.
+
+Die Festpreis-Garantie ist die eigene Auszeichnung des Verzeichnisses. Sie ersetzt die
+englische „Verified"-Marke und ist der Grund, aus dem ein Betrieb anruft. Grundlage ist der
+Abschnitt „Festpreis-Garantie" in [[konventionen]]; diese Seite ist die Ausführung. Der interne
+Name des Programms ist „Garantie-Programm", der Antrag heißt „Garantie-Antrag", der Schnipsel
+für die Website des Betriebs „Garantie-Nachweis".
+
+## Warum eine Garantie und kein Zeichen
+
+Ein Prüfzeichen beschreibt eine Eigenschaft des Betriebs. Eine Garantie ist ein Versprechen an
+den Kunden, und nur das Zweite bringt dem Betrieb Kunden. Der Unterschied liegt in drei
+Dingen, die ein einzelner Betrieb nicht nachbauen kann: Der Preis steht **öffentlich**, **vor
+dem Anruf**, **bei einem Dritten**, und dieser Dritte nimmt ihn bei einem Verstoß wieder weg.
+Ein Betrieb kann auf seiner eigenen Website jeden Preis nennen und morgen ändern; im
+Verzeichnis steht der Preis bei jemandem, der nicht der Betrieb ist, und er verschwindet, sobald
+eine Rechnung darüber liegt. Deshalb ist die Festpreis-Garantie das Verkaufsargument des
+Betriebs und nicht nur ein Etikett des Verzeichnisses.
+
+## Die drei Teile
+
+Ohne einen davon ist die Garantie nur ein Etikett:
+
+1. **Der Preis steht im Eintrag, bevor der Kunde anruft.** Jeder Betrieb mit Garantie
+   veröffentlicht seine drei Standardpreise: Türöffnung tagsüber, Türöffnung nachts (nachts,
+   Wochenende, Feiertag) und Anfahrt. Sie stehen im Eintrag, auf der Stadtkarte und im
+   Garantie-Nachweis auf der Website des Betriebs. Spalten: `garantie_tag`, `garantie_nacht`,
+   `garantie_anfahrt` als Euro-Beträge, ganze Zahl ohne Einheit; `garantie_anfahrt` = `0` heißt
+   „im Preis enthalten". Spalte `geprueft` = `true` heißt „Garantie aktiv", `geprueft_jahr` =
+   Jahr der Prüfung. Die beiden Spaltennamen bleiben aus Rücksicht auf den Code.
+2. **Der Betrieb garantiert: Der genannte Preis ist der Rechnungspreis.** Das ist das
+   unterschriebene Serviceversprechen. Die Garantie gibt der Betrieb, nicht der Herausgeber; der
+   Herausgeber prüft die Voraussetzungen und überwacht die Einhaltung. Das steht so auf
+   `/festpreis-garantie/`.
+3. **Verstoß hat Folgen.** Rechnung über dem garantierten Preis → Kunde meldet es mit Rechnung
+   → Herausgeber konfrontiert den Betrieb → Garantie entzogen, Preise aus dem Eintrag entfernt.
+   Der Weg zur Meldung steht auf `/festpreis-garantie/` und im Eintrag.
 
 ## Zwei Stufen, streng getrennt
 
-| Stufe | Preis | Was sie bedeutet | Spalte in der CSV |
+| Stufe | Preis | Was sie bedeutet | Spalten in der CSV |
 |---|---|---|---|
-| **Geprüft** | kostenlos | Der Betrieb hat die sechs Kriterien erfüllt und das Serviceversprechen unterschrieben | `geprueft` = `true`, `geprueft_jahr` = Jahr |
-| **Sichtbarkeit** (Premium-Eintrag, Stadt-Premium, Top-Platzierung) | kostenpflichtig, siehe `templates/featured-tiers.md` | bessere Platzierung, Fotos, gefolgte Links | `premium`, `featured`, `best_of_rank` |
+| **Festpreis-Garantie** | kostenlos | Der Betrieb hat die sechs Voraussetzungen erfüllt, seine drei Preise verbindlich genannt und das Serviceversprechen unterschrieben | `geprueft` = `true`, `geprueft_jahr` = Jahr, `garantie_tag`, `garantie_nacht`, `garantie_anfahrt` |
+| **Premium / Top-Platzierung** (Premium-Eintrag, Stadt-Premium, Top-Platzierung) | kostenpflichtig, siehe `templates/featured-tiers.md` | bessere Platzierung, Fotos, gefolgte Links | `premium`, `featured`, `best_of_rank` |
 
-**Das Siegel ist nicht kaufbar. Bezahlt wird nur Sichtbarkeit.** Dieser Satz steht wörtlich auf
-`/siegel/` und auf `/premium/`. Ein zahlender Betrieb ohne erfüllte Kriterien bekommt kein
-Siegel, ein geprüfter Betrieb ohne Zahlung behält es.
+**Die Garantie ist nicht kaufbar. Bezahlt wird nur Sichtbarkeit.** Dieser Satz steht wörtlich
+auf `/festpreis-garantie/` und auf `/premium/`. Ein zahlender Betrieb ohne erfüllte
+Voraussetzungen bekommt keine Garantie, ein Betrieb mit Garantie ohne Zahlung behält sie.
 
-## Die sechs Prüfkriterien
+## Die sechs Voraussetzungen
 
-Sie stehen vollständig und wörtlich auf `/siegel/`. Ein Siegel, dessen Kriterien nicht
-veröffentlicht sind, ist angreifbar; deshalb ist die Veröffentlichung Pflicht und nicht
-Kür.
+Sie stehen vollständig und wörtlich auf `/festpreis-garantie/`. Eine Garantie, deren
+Voraussetzungen nicht veröffentlicht sind, ist angreifbar; deshalb ist die Veröffentlichung
+Pflicht und nicht Kür. Wortlaut wie in [[konventionen]]:
 
-1. vollständiges Impressum auf der eigenen Website des Betriebs
-2. erreichbare Festnetz- oder Mobilnummer
-3. Preisangabe oder Anfahrtspauschale auf der Website genannt
-4. mindestens 10 Google-Bewertungen bei einem Schnitt von mindestens 4,0
-5. keine Weiterleitung an ein Callcenter ohne Ortsbezug
-6. unterschriebenes Serviceversprechen: Festpreis vor Arbeitsbeginn, keine versteckten
-   Zuschläge, Rechnung mit vollständiger Firmenanschrift, zerstörungsfreie Öffnung als
-   Standard
+- vollständiges Impressum auf der eigenen Website
+- erreichbare Festnetz- oder Mobilnummer, die zum Betrieb gehört
+- die drei Standardpreise verbindlich genannt (Türöffnung tagsüber, nachts, Anfahrt)
+- mindestens 10 Google-Bewertungen bei einem Schnitt von mindestens 4,0
+- keine Weiterleitung an ein Callcenter ohne Ortsbezug
+- unterschriebenes Serviceversprechen: der genannte Preis ist der Rechnungspreis, keine
+  Zuschläge, die nicht vorher beziffert wurden, Rechnung mit vollständiger Firmenanschrift,
+  zerstörungsfreie Öffnung als Standard
 
-## Was das Siegel ausdrücklich nicht ist
+## Was die Garantie ausdrücklich nicht ist
 
-Auf `/siegel/` steht in eigenen Sätzen:
+Auf `/festpreis-garantie/` steht in eigenen Sätzen:
 
 - Grundlage sind **Selbstauskunft des Betriebs** sowie die Prüfung von **Unterlagen und
   Website** durch den Herausgeber.
 - Es gibt **keinen Test vor Ort**, keine Probeöffnung, keinen Testkauf.
-- Das Siegel trägt die **Jahreszahl**, gilt **ein Jahr** und muss jährlich erneuert werden.
-- Es wird **entzogen**, wenn belegte Beschwerden über den Betrieb eingehen.
-- Es ist keine Aussage einer amtlichen Stelle. Die Wörter „Innung", „Verband", „Kammer",
+- **Die Garantie gibt der Betrieb**, nicht der Herausgeber. Der Herausgeber prüft die
+  Voraussetzungen, veröffentlicht die Preise und entzieht die Garantie bei belegten Verstößen.
+- Die Garantie trägt die **Jahreszahl**, gilt **ein Jahr** und muss jährlich erneuert werden.
+- Sie wird **entzogen**, wenn ein belegter Verstoß eingeht (siehe unten).
+- Sie ist keine Aussage einer amtlichen Stelle. Die Wörter „Innung", „Verband", „Kammer",
   „amtlich", „Verbraucherschutz" und „getestet" kommen in keinem sichtbaren Text vor
-  ([[konventionen]], Sprache und Ton): sie würden den Eindruck erwecken, hinter dem Siegel
+  ([[konventionen]], Sprache und Ton): sie würden den Eindruck erwecken, hinter der Garantie
   stehe eine Behörde oder eine Standesorganisation.
-- Schlüsseldienst ist in Deutschland kein zulassungspflichtiges Handwerk. Das Siegel sagt
+- Schlüsseldienst ist in Deutschland kein zulassungspflichtiges Handwerk. Die Garantie sagt
   nichts über eine Lizenz, eine Zulassung oder eine Zertifizierung aus, weil es solche in
   diesem Gewerbe nicht gibt. Die Wörter „lizenziert", „zugelassen" und „zertifiziert" sind
   verboten.
 
 ## Arbeitsablauf
 
-1. **Antrag.** Der Betrieb füllt den Fragebogen auf `/siegel/antrag/` aus: Firmendaten,
-   Website, Telefonnummer, Preisangabe, Serviceversprechen zum Unterschreiben.
-2. **Prüfung.** Der Herausgeber prüft **von Hand** gegen die sechs Kriterien: Impressum der
-   Website, Telefonnummer anrufen, Preisangabe suchen, Bewertungen zählen, Callcenter-Weiter-
-   leitung ausschließen, Serviceversprechen entgegennehmen. Keine Automatik, kein Skript
-   entscheidet das.
-3. **Eintragen.** Bei Erfolg: in `site/src/data/listings.csv` die Spalte `geprueft` auf
-   `true` und `geprueft_jahr` auf das Jahr der Prüfung setzen. Bei Misserfolg: nichts setzen
-   und dem Betrieb schreiben, welches Kriterium fehlt.
+1. **Antrag.** Der Betrieb füllt den Garantie-Antrag auf `/festpreis-garantie/antrag/` aus
+   (`templates/claim-form.html`): Firmendaten, Website, Impressum, Telefonnummer,
+   Google-Profil, **die drei Preise** (Türöffnung tagsüber, Türöffnung nachts, Anfahrt mit
+   `0` = enthalten), sonstige Zuschläge, das Serviceversprechen zum Unterschreiben.
+2. **Prüfung.** Der Herausgeber prüft **von Hand** gegen die sechs Voraussetzungen: Impressum
+   der Website, Telefonnummer anrufen, Bewertungen zählen, Callcenter-Weiterleitung
+   ausschließen, Preise auf Vollständigkeit und Plausibilität lesen, Serviceversprechen
+   entgegennehmen. Keine Automatik, kein Skript entscheidet das.
+3. **Eintragen.** Bei Erfolg: in `site/src/data/listings.csv` die Spalten `geprueft` = `true`,
+   `geprueft_jahr` = Jahr der Prüfung, `garantie_tag`, `garantie_nacht` und `garantie_anfahrt`
+   = die drei genannten Beträge setzen. Bei Misserfolg: nichts setzen und dem Betrieb
+   schreiben, welche Voraussetzung fehlt.
 4. **Neu bauen.** Gate 5 erneut laufen lassen ([[master-template]]: nie eine erzeugte Seite
    von Hand bearbeiten).
 5. **Ausliefern.** Gate 6 beziehungsweise der Redeploy.
 
-Jährliche Erneuerung: einmal im Jahr werden alle Zeilen mit `geprueft_jahr` aus dem Vorjahr
-durchgesehen. Wer nicht erneuert, verliert das Siegel; die Spalten werden geleert und das
-Verzeichnis neu gebaut ([[refresh-and-upkeep]]).
+## Entzug
+
+1. **Meldung.** Ein Kunde meldet eine Rechnung über dem garantierten Preis und legt die
+   Rechnung bei. Ohne Rechnung gibt es keinen Entzug; eine Behauptung allein reicht nicht.
+2. **Konfrontation.** Der Herausgeber legt dem Betrieb die Rechnung vor und hört ihn an.
+3. **Entzug.** Bleibt der Verstoß belegt, wird die Garantie entzogen: `geprueft`,
+   `geprueft_jahr`, `garantie_tag`, `garantie_nacht` und `garantie_anfahrt` werden geleert.
+4. **Preise raus.** Gate 5 erneut laufen lassen und ausliefern. Der Eintrag trägt wieder „Noch
+   keine Festpreis-Garantie".
+
+Der Weg zur Meldung steht auf `/festpreis-garantie/` und in jedem Eintrag mit Garantie.
+
+## Jährliche Erneuerung
+
+Die Garantie trägt die Jahreszahl und gilt ein Jahr. Einmal im Jahr werden alle Zeilen mit
+`geprueft_jahr` aus dem Vorjahr durchgesehen, und jeder Betrieb wird angerufen: Gelten die drei
+Preise noch, gilt das Serviceversprechen noch? Das ist ein Anrufgrund mit einem echten Anlass,
+und im selben Gespräch geht es um Sichtbarkeit. Wer erneuert, bekommt das neue Jahr und
+gegebenenfalls neue Preise eingetragen; wer nicht erneuert, verliert die Garantie, die fünf
+Spalten werden geleert und das Verzeichnis neu gebaut ([[refresh-and-upkeep]]).
 
 ## Der Verkaufsanlass
 
-Jeder Eintrag zeigt eines von zwei Zeichen, immer, auf jeder Eintragsseite und auf jeder
-Karte in der Stadtliste:
+Jeder Eintrag zeigt eines von zwei Zeichen, immer, auf jeder Eintragsseite und auf jeder Karte
+in der Stadtliste:
 
-- geprüft: **„Geprüft 2026"**, verlinkt auf `/siegel/`
-- nicht geprüft: **„Noch nicht geprüft"**, verlinkt auf `/siegel/antrag/`
+- mit Garantie: **„Festpreis-Garantie 2026"** mit den drei Preisen, verlinkt auf
+  `/festpreis-garantie/`; auf der Stadtkarte als Zeile „Festpreis-Garantie · Türöffnung ab
+  <garantie_tag> €"
+- ohne Garantie: **„Noch keine Festpreis-Garantie"**, verlinkt auf
+  `/festpreis-garantie/antrag/`
 
-„Noch nicht geprüft" ist der Grund für den Anruf und **darf nicht abgeschaltet werden**. Kein
-Gate, keine Einstellung und kein Wunsch eines Betriebs entfernt dieses Zeichen. Es ist sachlich
-richtig (der Betrieb hat keinen Antrag gestellt) und es ist der Einstieg in jedes Gespräch:
-der Betrieb kann es kostenlos loswerden, indem er den Antrag stellt, und beim selben Anruf
-wird über Sichtbarkeit gesprochen.
+„Noch keine Festpreis-Garantie" ist der Grund für den Anruf und **darf nicht abgeschaltet
+werden**. Kein Gate, keine Einstellung und kein Wunsch eines Betriebs entfernt dieses Zeichen.
+Es ist sachlich richtig (der Betrieb hat keinen Antrag gestellt), es unterstellt dem Betrieb
+nichts, und es ist der Einstieg in jedes Gespräch: der Betrieb kann es kostenlos loswerden,
+indem er den Antrag stellt, und beim selben Anruf wird über Sichtbarkeit gesprochen.
+
+Die Garantie verändert die Reihenfolge nicht: Sortierung bleibt bezahlte Plätze, dann
+Bewertung ([[monetization-slots]]).
 
 ## Seiten und Adressen
 
 | Seite | Adresse | Robots |
 |---|---|---|
-| Kriterien und was das Siegel nicht ist | `/siegel/` | indexiert |
-| Antragsformular | `/siegel/antrag/` | `noindex` |
-| Nachweisseite je ausgezeichneter Betrieb | `/auszeichnung/[slug]/` | `noindex` |
-| Siegelbild zum Einbinden | `/auszeichnung/[slug].svg` | – |
+| Erklärung, Voraussetzungen und was die Garantie nicht ist | `/festpreis-garantie/` | indexiert |
+| Garantie-Antrag | `/festpreis-garantie/antrag/` | `noindex` |
+| Nachweisseite je Betrieb mit Garantie | `/auszeichnung/[slug]/` | `noindex` |
+| Bild des Garantie-Nachweises zum Einbinden | `/auszeichnung/[slug].svg` | – |
 
-`/siegel/` ist die indexierte Seite des Programms: dort stehen die Kriterien, und dorthin
-verlinkt jedes Siegel. Das Antragsformular ist eine Formularseite und startet wie alle
-Formular- und Pflichtseiten mit `noindex`, aus der Sitemap heraus ([[launch-lean]]); erreichbar
-ist es über jeden Eintrag mit „Noch nicht geprüft" und über `/siegel/`.
+`/festpreis-garantie/` ist die indexierte Seite des Programms: dort stehen die
+Voraussetzungen, und dorthin verlinkt jedes Garantie-Zeichen. Das Antragsformular ist eine
+Formularseite und startet wie alle Formular- und Pflichtseiten mit `noindex`, aus der Sitemap
+heraus ([[launch-lean]]); erreichbar ist es über jeden Eintrag mit „Noch keine
+Festpreis-Garantie" und über `/festpreis-garantie/`.
 
-Das Siegel wird als HTML-Schnipsel weitergegeben, nie als Bilddatei, damit der Link auf die
-Eintragsseite entsteht ([[authority-and-links]], `templates/featured-tiers.md`).
+Der Garantie-Nachweis wird als HTML-Schnipsel weitergegeben, nie als Bilddatei, damit der Link
+auf die Eintragsseite entsteht: Bild `/auszeichnung/[slug].svg`, Text „Festpreis-Garantie
+2026 · Türöffnung ab <garantie_tag> €" ([[authority-and-links]], `templates/featured-tiers.md`).
+Er ist kostenlos und gehört zu keiner Stufe.
+
+## Reserviert, nicht gebaut: Stufe „Preisschutz"
+
+Erstattung der Differenz bis 100 € durch den Herausgeber, Rückgriff auf den Betrieb. Die
+Spalte `preisschutz` wird von `scripts/clean_listings.py` leer angelegt und von
+`scripts/merge_enriched.py` durchgereicht, aber **kein Skript und keine Seite wertet sie aus**,
+bis der Betreiber die Stufe freigibt. Bis dahin steht sie weder auf `/festpreis-garantie/`
+noch auf `/premium/` noch in einem Entwurf des Mail-Workers.
 
 ## Siehe auch
 [[konventionen]] · [[monetization-slots]] · [[page-types]] · [[refresh-and-upkeep]] · [[authority-and-links]]

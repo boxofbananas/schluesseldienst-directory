@@ -98,6 +98,20 @@ export function parseCsv(text) {
 
 // Umlaute und ß werden umgeschrieben, BEVOR die Sonderzeichen fallen: sonst wird aus "Nürnberg"
 // `n-rnberg` (wiki/konventionen.md). Gilt für Städte, Bundesländer, Firmennamen und Leistungen.
+// Euro-Betrag aus der CSV: "89", "89 €", "89,00" -> 89; leer oder unlesbar -> null.
+export function euro(v) {
+  const t = String(v ?? '').trim().replace(/€/g, '').replace(/\s+/g, '').replace(',', '.');
+  if (!t) return null;
+  const n = Number(t);
+  return Number.isFinite(n) && n >= 0 ? Math.round(n) : null;
+}
+// Anzeige eines Garantiepreises. 0 bei der Anfahrt = "im Preis enthalten".
+export function fmtEuro(n, { anfahrt = false } = {}) {
+  if (n == null) return '';
+  if (anfahrt && n === 0) return 'im Preis enthalten';
+  return `${new Intl.NumberFormat('de-DE').format(n)} €`;
+}
+
 export const slugify = (s) => String(s || '')
   .replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue')
   .replace(/Ä/g, 'Ae').replace(/Ö/g, 'Oe').replace(/Ü/g, 'Ue')
@@ -337,9 +351,16 @@ export function loadDirectory() {
     const optimized = Boolean(featured) || (claimed && premium);
     const photos = optimized && r.photos ? r.photos.split(/[|,]/).map((s) => s.trim()).filter(Boolean) : [];
     const hours = parseHours(r.working_hours);
-    // Siegel: `geprueft` (wahr/falsch) und `geprueft_jahr` aus der CSV (wiki/konventionen.md).
-    const geprueft = truthy(r.geprueft);
+    // Festpreis-Garantie (wiki/konventionen.md): `geprueft` = Garantie aktiv, `geprueft_jahr` =
+    // Jahr der Pruefung, dazu die drei verbindlichen Preise als ganze Euro-Betraege.
+    // garantie_anfahrt = 0 heisst "im Preis enthalten". Ohne Tagespreis gilt die Garantie als
+    // nicht aktiv, auch wenn geprueft=true steht: eine Garantie ohne Zahl ist keine.
+    const garantieTag = euro(r.garantie_tag);
+    const garantieNacht = euro(r.garantie_nacht);
+    const garantieAnfahrt = euro(r.garantie_anfahrt);
+    const geprueft = truthy(r.geprueft) && garantieTag != null;
     const geprueftJahr = (r.geprueft_jahr || '').trim();
+    const garantie = geprueft ? { jahr: geprueftJahr, tag: garantieTag, nacht: garantieNacht, anfahrt: garantieAnfahrt } : null;
     return {
       name: r.name, slug, city, citySlug, regionName: region.name, regionSlug: region.slug,
       regionCode: region.code, stateCode: region.code, postalCode: r.postal_code,
@@ -349,7 +370,7 @@ export function loadDirectory() {
       type: r.type, subtypes: r.subtypes, description, hours, verifiedOnGoogle: truthy(r.verified),
       mapLink: r.location_link || '', areaService: truthy(r.area_service), placeId: r.place_id,
       featured, featuredCities: (r.featured_cities || '').split(/[|,]/).map((s) => s.trim()).filter(Boolean),
-      premium, claimed, bestOfRank, thin, optimized, photos, attrs, geprueft, geprueftJahr,
+      premium, claimed, bestOfRank, thin, optimized, photos, attrs, geprueft, geprueftJahr, garantie,
       path: `/firma/${region.slug}/${citySlug}/${slug}/`,
       cityPath: `/verzeichnis/${region.slug}/${citySlug}/`,
       score: rating * Math.log10(reviews + 1),
@@ -472,7 +493,7 @@ export function loadDirectory() {
   for (const l of listings) if (l.thin && !l.claimed && !l.optimized) noindexPaths.add(l.path);
   for (const l of listings) if (l.geprueft) noindexPaths.add(`/auszeichnung/${l.slug}/`);
   for (const p of ['/eintrag-beanspruchen/', '/premium/', '/datenschutz/', '/agb/', '/impressum/',
-    '/kontakt/', '/suche/', '/verzeichnis/', '/siegel/antrag/', '/404/']) noindexPaths.add(p);
+    '/kontakt/', '/suche/', '/verzeichnis/', '/festpreis-garantie/antrag/', '/404/']) noindexPaths.add(p);
 
   const stats = {
     listings: listings.length, cities: indexCities.length, regions: regions.length,

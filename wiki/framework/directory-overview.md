@@ -25,7 +25,7 @@ bewertet ([[gate-1-intake]]).
 2. **Die oberen Plätze vermieten.** Premium-Eintrag, Stadt-Premium, Top-Platzierung
    ([[monetization-slots]]).
 3. **Kunden daraus gewinnen.** Jeder Eintrag ist ein Betrieb, den man jetzt anrufen kann, und
-   der sichtbare Hinweis „Noch nicht geprüft" ist der Anlass ([[siegel-programm]]). Für
+   der sichtbare Hinweis „Noch keine Festpreis-Garantie" ist der Anlass ([[siegel-programm]]). Für
    Betreiber solcher Verzeichnisse sind sie die wichtigste Quelle für SEO-Kunden. Das
    Verzeichnis ist zugleich das Schaufenster: es kann sich tragen, auch wenn die Hälfte seiner
    Einträge nicht indexiert ist, weil es da ist, um Kunden zu gewinnen und ihnen zu zeigen,
@@ -46,13 +46,13 @@ Werbebanner sind in dieser Größe draußen.
 - Angereichert: Merkmale und eine Beschreibung je Eintrag, damit die Liste ein Werkzeug ist
   und kein Telefonbuch ([[enrichment]]).
 - JSON-LD auf jeder Seite, echte Sitemap, schlanker Start ([[schema]], [[launch-lean]]).
-- Eine Seite zum Beanspruchen, bezahlte Plätze und **das Siegel-Programm** vom ersten Tag an.
+- Eine Seite zum Beanspruchen, bezahlte Plätze und **die Festpreis-Garantie** vom ersten Tag an.
   Keine Zugänge für Betriebe; zwei Türen, jede von Hand geprüft ([[refresh-and-upkeep]]).
 - Eine fertige, eigene Optik, damit es nicht aussieht wie von einer KI zusammengesetzt
   ([[design-seed]]).
 - Ein benannter Herausgeber mit Impressum, Datenschutzerklärung und einer Seite „Über uns"
   ([[publisher-entity]]). Nach dem Start verdient es Links so, wie arbeitende Verzeichnisse es
-  tun: Siegel, Pressemitteilungen, Ratgeberseiten, örtliche Inhalte
+  tun: Garantie-Nachweis, Pressemitteilungen, Ratgeberseiten, örtliche Inhalte
   ([[authority-and-links]]).
 
 ## Was am deutschen Markt anders ist
@@ -66,8 +66,9 @@ Vier Punkte, die jede Seite dieses Wikis berühren:
    ([[konventionen]]).
 2. **Überhöhte Rechnungen sind das Thema der Branche.** Verbraucherzentralen und die
    polizeiliche Kriminalprävention warnen seit Jahren vor Abzockern mit ortsfremden Nummern.
-   Das ist der Grund, warum das Siegel-Programm existiert und warum keine Seite einen Preis
-   nennt, der nicht belegt ist ([[siegel-programm]], [[page-types]]).
+   Das ist der Grund, warum die Festpreis-Garantie existiert und warum keine Seite einen
+   Preis nennt, der nicht belegt ist: im Eintrag stehen nur die drei Preise, die ein Betrieb
+   verbindlich garantiert hat ([[siegel-programm]], [[page-types]]).
 3. **Die Kategorie fängt fremde Gewerbe ein.** `locksmith` trifft in Deutschland auch
    Schuhmacher, Gravurbetriebe, Metallbauer und Baumärkte, dazu Kettenbetriebe und Callcenter
    ohne Ortsbezug. Gate 2 macht das sichtbar, der Mensch entscheidet in Gate 4

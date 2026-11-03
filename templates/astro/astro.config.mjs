@@ -33,6 +33,9 @@ const redirects = [
   '/terms/ /agb/ 301',
   '/search/ /suche/ 301',
   '/resources/* /ratgeber/:splat 301',
+  // Das Programm hiess vor dem Umbau am 2026-11-03 "Siegel"; die Adressen bleiben erreichbar.
+  '/siegel/antrag/ /festpreis-garantie/antrag/ 301',
+  '/siegel/ /festpreis-garantie/ 301',
 ];
 fs.writeFileSync('./public/_redirects', redirects.join('\n') + '\n');
 

@@ -43,9 +43,13 @@ KEEP = ["name","phone","website","address","street","city","state","state_code",
         "reviews_tags","about","description","posts","working_hours","business_status","verified",
         "photo","logo","place_id","google_id","cid","location_link","area_service",
         "domain","email_1","email_2","email_3","phone_1","phone_2","phone_3","last_updated_time","source"]
-# geprueft und geprueft_jahr gehören zum Siegel-Programm (wiki/konventionen.md) und werden hier
-# leer angelegt; gefüllt werden sie erst, wenn der Herausgeber einen Betrieb geprüft hat.
-ADDED = ["slug","city_slug","owned","thin","featured","featured_cities","claimed","geprueft","geprueft_jahr"]
+# geprueft, geprueft_jahr, garantie_tag, garantie_nacht und garantie_anfahrt gehören zur
+# Festpreis-Garantie (wiki/konventionen.md, Abschnitt „Festpreis-Garantie") und werden hier leer
+# angelegt; gefüllt werden sie erst, wenn der Herausgeber den Garantie-Antrag eines Betriebs
+# geprüft hat. preisschutz ist die reservierte Stufe „Preisschutz": angelegt, von keinem Skript
+# und keiner Seite ausgewertet, bis der Betreiber sie freigibt.
+GARANTIE = ["geprueft","geprueft_jahr","garantie_tag","garantie_nacht","garantie_anfahrt","preisschutz"]
+ADDED = ["slug","city_slug","owned","thin","featured","featured_cities","claimed"] + GARANTIE
 
 NICHE_DEFAULT = ("schlüsseldienst,schluesseldienst,schlüsselnotdienst,aufsperrdienst,"
                  "schlüsselservice,schließanlagen,sicherheitstechnik")
@@ -288,7 +292,7 @@ def main():
         r["thin"] = "true" if (to_int(r.get("reviews")) < a.thin_reviews or not has_text(r)) else "false"
         r["website"] = clean_url(r.get("website"))
         r["featured"] = ""; r["featured_cities"] = ""; r["claimed"] = ""
-        r["geprueft"] = ""; r["geprueft_jahr"] = ""
+        for c in GARANTIE: r[c] = ""
 
     os.makedirs(os.path.dirname(a.out) or ".", exist_ok=True)
     with open(a.out, "w", newline="", encoding="utf-8") as f:
@@ -371,7 +375,8 @@ def main():
               "Bewertungen oder ohne Beschreibungstext; Attribut-JSON in `about` gilt nicht als Text)",
               f"**Als Dublette verworfen:** {fmt(dropped_dupes)} (gleiche Telefonnummer oder gleiche Adresse; behalten wurde die "
               "Zeile mit mehr Bewertungen)",
-              f"**Neue, leere Spalten:** `geprueft`, `geprueft_jahr` (Siegel-Programm, wiki/konventionen.md)",
+              f"**Neue, leere Spalten:** `geprueft`, `geprueft_jahr`, `garantie_tag`, `garantie_nacht`, `garantie_anfahrt` "
+              "(Festpreis-Garantie, wiki/konventionen.md) und `preisschutz` (reservierte Stufe, nicht ausgewertet)",
               f"**Website-Domains in 02-domains.txt:** {fmt(len(domains))}"]
     if notes:
         lines += ["", "## Hinweise zum Lauf", ""] + [f"- {x}" for x in notes]

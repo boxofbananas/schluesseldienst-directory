@@ -50,12 +50,20 @@ Wörter, die Branchenbezeichnung im ersten Absatz, keine verbotenen Wörter oder
 Liste der Skill plus scripts/copy-bans.txt), keine Gedankenstriche. Beendet mit 1, sobald eine
 Prüfung durchfällt: prüfen, beheben, erneut prüfen.
 
-Die **Rechtswörter** („lizenziert", „zugelassen", „Kammer", „amtlich", „Gütesiegel" …) stehen in
+Die **Rechtswörter** („lizenziert", „zugelassen", „Kammer", „amtlich", „Testsieger" …) stehen in
 beiden Listen in einem eigenen Block ([RECHTSWOERTER] und [RECHTSWENDUNGEN]) und lassen sich für
-eine einzelne Seite mit `--erlaube-rechtswoerter` zulassen. Das ist nötig, weil `/siegel/`,
-`/agb/` und Ratgeberseiten über die Rechtslage genau diese Wörter brauchen, um sie zu bestreiten
-(„es gibt keine Lizenz und keine Meisterpflicht"). Wofür der Schalter gilt und wofür nie, steht
-in wiki/seo/copy-gate.md; die Werbefloskeln bleiben in jedem Fall verboten.
+eine einzelne Seite mit `--erlaube-rechtswoerter` zulassen. Das ist nötig, weil
+`/festpreis-garantie/`, `/premium/`, `/agb/` und Ratgeberseiten über die Rechtslage genau diese
+Wörter brauchen, um sie zu bestreiten („es gibt keine Lizenz und keine Meisterpflicht"). Wofür
+der Schalter gilt und wofür nie, steht in wiki/seo/copy-gate.md; die Werbefloskeln bleiben in
+jedem Fall verboten.
+
+**„Garantie" und „garantiert"** stehen seit dem 2026-11-03 als Stamm `garantie*` im selben Block:
+ohne Schalter gemeldet, mit Schalter zugelassen. Einzige Ausnahme ist der Name des Programms,
+**„Festpreis-Garantie"** in genau dieser Schreibweise mit Bindestrich: ihn verlangt
+wiki/konventionen.md auf jedem Eintrag, auf jeder Stadtkarte und auf der Startseite, also wird er
+vor dem Vergleich aus dem Text genommen (PROGRAMMNAME). Jede andere Form („garantiert",
+„Garantie", „Festpreisgarantie" ohne Bindestrich) bleibt ohne Schalter ein Treffer.
 """
 
 import argparse
@@ -91,6 +99,11 @@ UMLAUTE = (("ä", "ae"), ("ö", "oe"), ("ü", "ue"), ("ß", "ss"),
 # Zusammensetzungen bleiben ein Wort (Schlüssel-Notdienst, 24-Stunden-Notdienst).
 WORD = re.compile(r"[0-9A-Za-zÄÖÜäöüßÀ-ÿ]+(?:[-'’][0-9A-Za-zÄÖÜäöüßÀ-ÿ]+)*")
 VOWELS = "aeiouyäöü"
+# Der Name des Garantie-Programms (wiki/konventionen.md, Abschnitt „Festpreis-Garantie"). Er steht
+# auf jedem Eintrag und auf der Startseite und ist deshalb kein Treffer für `garantie*`; jede
+# andere Schreibweise bleibt einer. Verglichen wird auf dem gefalteten Text (fold_text).
+PROGRAMMNAME = re.compile(r"\bfestpreis-garantie\b")
+
 # Deutsche Doppellaute, die eine Silbe bilden.
 DIPHTHONGS = ("eau", "äu", "au", "ei", "ai", "eu", "ie", "oi", "ui")
 
@@ -215,7 +228,7 @@ def find_words(prose, words):
     Skill: {Eintrag: Anzahl}, der Schlüssel in der Schreibweise der Verbotsliste (mit Stern,
     damit im Bericht steht, welche Zeile der Liste angeschlagen hat)."""
     hits = {}
-    low = fold_text(prose)
+    low = PROGRAMMNAME.sub(" ", fold_text(prose))
     for w in words:
         n = len(re.findall(stem_pattern(w), low))
         if n:
@@ -227,7 +240,7 @@ def find_phrases(prose, phrases):
     """Verbotene Wendungen, umlauttolerant und mit bis zu sechs Füllwörtern zwischen den Teilen,
     damit „Ihr zuverlässiger Partner für" als „Ihr Partner für" erkannt wird."""
     hits = {}
-    low = fold_text(prose)
+    low = PROGRAMMNAME.sub(" ", fold_text(prose))
     for p in phrases:
         toks = fold_text(p).split()
         if not toks:
@@ -414,10 +427,11 @@ def main():
     ap.add_argument("--erlaube-rechtswoerter", "--allow-legal-words", action="store_true",
                     dest="erlaube_rechtswoerter",
                     help="den Block der Rechtswörter ([RECHTSWOERTER], [RECHTSWENDUNGEN]) für diese eine Seite "
-                         "zulassen: „lizenziert“, „zugelassen“, „Kammer“, „amtlich“, „Gütesiegel“ und die übrigen. "
-                         "Nur für /siegel/, /agb/ und Ratgeberseiten, die über die Rechtslage aufklären und diese "
-                         "Wörter bestreiten müssen (wiki/seo/copy-gate.md). NIE für Stadttexte, "
-                         "Eintragsbeschreibungen oder die Startseite. Die Werbefloskeln bleiben verboten")
+                         "zulassen: „lizenziert“, „zugelassen“, „Kammer“, „amtlich“, „Testsieger“, „garantiert“ und die "
+                         "übrigen. Nur für /festpreis-garantie/, /premium/, /agb/ und Ratgeberseiten, die über die "
+                         "Rechtslage aufklären und diese Wörter bestreiten müssen (wiki/seo/copy-gate.md). NIE für "
+                         "Stadttexte, Eintragsbeschreibungen oder die Startseite. Der Programmname „Festpreis-Garantie“ "
+                         "ist überall erlaubt. Die Werbefloskeln bleiben verboten")
     ap.add_argument("--json", action="store_true", help="maschinenlesbare Ausgabe")
     args = ap.parse_args()
 
@@ -445,7 +459,7 @@ def main():
     else:
         if args.erlaube_rechtswoerter:
             print("HINWEIS: Rechtswörter für diese Seite zugelassen (--erlaube-rechtswoerter). Zulässig nur für "
-                  "/siegel/, /agb/ und Ratgeberseiten zur Rechtslage (wiki/seo/copy-gate.md).")
+                  "/festpreis-garantie/, /premium/, /agb/ und Ratgeberseiten zur Rechtslage (wiki/seo/copy-gate.md).")
         print_report(reports)
     ok = all(all(r["gates"].values()) for r in reports)
     sys.exit(0 if ok else 1)

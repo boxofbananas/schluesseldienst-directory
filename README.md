@@ -89,18 +89,27 @@ Was die Gates tun, je eine Zeile:
    Stadtseiten), dünne Einträge auf noindex, Auslieferung nach Cloudflare Pages, gestaffelte
    Einreichung.
 
-## Das Siegel: der Grund, warum Betriebe anrufen
+## Die Festpreis-Garantie: der Grund, warum Betriebe anrufen
 
-Jeder Eintrag trägt sichtbar eines von zwei Zeichen: **„Geprüft [Jahr]"** oder **„Noch nicht
-geprüft"**. Das zweite verlinkt auf `/siegel/antrag/`, und genau das ist der Gesprächsanlass:
-die Prüfung ist **kostenlos**, und beim selben Anruf geht es um Sichtbarkeit.
+Jeder Eintrag trägt sichtbar eines von zwei Zeichen: **„Festpreis-Garantie [Jahr]"** mit drei
+Preisen (Türöffnung tagsüber, Türöffnung nachts, Anfahrt) oder **„Noch keine
+Festpreis-Garantie"**. Das zweite verlinkt auf `/festpreis-garantie/antrag/`, und genau das
+ist der Gesprächsanlass: die Prüfung ist **kostenlos**, und beim selben Anruf geht es um
+Sichtbarkeit.
 
-Das Siegel ist **nicht kaufbar**. Bezahlt wird nur Sichtbarkeit. Erteilt wird es nach sechs
-Kriterien, die auf `/siegel/` veröffentlicht stehen, auf Grundlage von Selbstauskunft und
-der Prüfung von Unterlagen und Website durch den Herausgeber. **Es gibt keinen Test vor Ort**,
-und das steht auf `/siegel/` ausdrücklich. Das Siegel trägt die Jahreszahl, gilt ein Jahr,
-wird jährlich erneuert und bei belegten Beschwerden entzogen. Alles dazu in
-`wiki/framework/siegel-programm.md`.
+Die Garantie hat drei Teile: Der Preis steht im Eintrag, bevor der Kunde anruft. Der Betrieb
+garantiert, dass der genannte Preis der Rechnungspreis ist. Und ein Verstoß hat Folgen: Legt
+ein Kunde eine Rechnung über dem garantierten Preis vor, konfrontiert der Herausgeber den
+Betrieb, entzieht die Garantie und nimmt die Preise aus dem Eintrag. Das kann ein einzelner
+Betrieb auf seiner eigenen Website nicht nachbauen, deshalb ist es sein Verkaufsargument.
+
+Die Garantie ist **nicht kaufbar**. Bezahlt wird nur Sichtbarkeit. Die Garantie gibt der
+Betrieb; der Herausgeber prüft sechs Voraussetzungen, die auf `/festpreis-garantie/`
+veröffentlicht stehen, auf Grundlage von Selbstauskunft und der Prüfung von Unterlagen und
+Website. **Es gibt keinen Test vor Ort**, und das steht auf `/festpreis-garantie/`
+ausdrücklich. Die Garantie trägt die Jahreszahl, gilt ein Jahr, wird jährlich erneuert und bei
+belegten Verstößen entzogen. Alles dazu in `wiki/framework/siegel-programm.md` (die Datei
+heißt noch nach dem alten Namen des Programms).
 
 ## Was auf dieser Site rechtlich Pflicht ist
 
@@ -155,13 +164,16 @@ Nutzungsvolumen. Claude nennt die Schätzung und wartet vor jedem Schritt auf Ih
 
 ## Nach dem Start
 
-- Verkaufter Platz, beanspruchter Eintrag, korrigierte Telefonnummer, neu erteiltes Siegel:
-  CSV ändern, `Gate 5 starten`, erneut ausliefern. **Nie eine erzeugte Seite von Hand
-  bearbeiten.**
+- Verkaufter Platz, beanspruchter Eintrag, korrigierte Telefonnummer, neu erteilte oder
+  entzogene Festpreis-Garantie, geänderte Garantiepreise: CSV ändern, `Gate 5 starten`, erneut
+  ausliefern. **Nie eine erzeugte Seite von Hand bearbeiten.**
 - Von Hand verkaufen: Zahlungslink senden, Spalte setzen (`premium`, `featured`,
-  `best_of_rank`, `claimed`, `geprueft`, `geprueft_jahr`), neu bauen. Stufen und Siegelschnipsel
-  stehen in `templates/featured-tiers.md`.
-- Einmal im Jahr die Siegel erneuern (`wiki/framework/refresh-and-upkeep.md`).
+  `best_of_rank`, `claimed`), neu bauen. Die Garantie wird nicht verkauft: nach geprüftem
+  Garantie-Antrag `geprueft`, `geprueft_jahr`, `garantie_tag`, `garantie_nacht` und
+  `garantie_anfahrt` setzen, neu bauen. Stufen und der Garantie-Nachweis zum Einbinden stehen
+  in `templates/featured-tiers.md`.
+- Einmal im Jahr jede Festpreis-Garantie erneuern, mit Anruf, ob die drei Preise noch gelten
+  (`wiki/framework/refresh-and-upkeep.md`).
 - Wie das Verzeichnis nach dem Start Links und Kunden bekommt:
   `wiki/framework/authority-and-links.md`.
 

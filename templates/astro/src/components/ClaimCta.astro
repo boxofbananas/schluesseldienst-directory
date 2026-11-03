@@ -5,7 +5,7 @@ const href = listing ? `/eintrag-beanspruchen/?eintrag=${encodeURIComponent(list
 <aside class="cta-band">
   <div>
     <h2>{listing ? 'Ist das Ihr Betrieb?' : `Führen Sie einen ${site.niche.singular} in ${site.country.name}?`}</h2>
-    <p>{listing ? 'Beanspruchen Sie den Eintrag, um Angaben zu berichtigen, Bilder zu ergänzen und das Siegel zu beantragen.' : 'Beanspruchen Sie Ihren kostenlosen Eintrag, oder buchen Sie einen Premium-Platz oben auf Ihrer Stadtseite.'}</p>
+    <p>{listing ? 'Beanspruchen Sie den Eintrag, um Angaben zu berichtigen, Bilder zu ergänzen und die Festpreis-Garantie zu beantragen.' : 'Beanspruchen Sie Ihren kostenlosen Eintrag, oder buchen Sie einen Premium-Platz oben auf Ihrer Stadtseite.'}</p>
   </div>
   <div><a class="btn" href={href}>{listing ? 'Diesen Eintrag beanspruchen' : 'Eintrag beanspruchen'}</a> &nbsp; <a href="/premium/" style="color:inherit">Premium-Platz</a></div>
 </aside>

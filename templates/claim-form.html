@@ -3,10 +3,12 @@
   /claim des Mail-Workers. {{FORM_ENDPOINT}} und {{NOTIFY_EMAIL}} ersetzen.
 
   1. Eintrag beanspruchen  -> /eintrag-beanspruchen/
-  2. Siegel beantragen     -> /siegel/antrag/
+  2. Garantie-Antrag       -> /festpreis-garantie/antrag/
 
-  Das zweite Formular ist das Ziel jedes Hinweises „Noch nicht geprüft" auf einer
+  Das zweite Formular ist das Ziel jedes Hinweises „Noch keine Festpreis-Garantie" auf einer
   Eintragsseite (wiki/framework/siegel-programm.md). Es ist kostenlos, und das steht daneben.
+  Seine Feldnamen sind fest: der Astro-Code (templates/astro) sendet sie genau so, und der
+  Herausgeber liest sie beim Prüfen von Hand.
 -->
 
 <!-- ============================================================
@@ -39,8 +41,8 @@
   </label>
 
   <label>
-    <input type="checkbox" name="siegel_interesse" value="ja">
-    Schicken Sie mir den Fragebogen für das Siegel. Die Prüfung ist kostenlos.
+    <input type="checkbox" name="garantie_interesse" value="ja">
+    Schicken Sie mir den Garantie-Antrag für die Festpreis-Garantie. Die Prüfung ist kostenlos.
   </label>
 
   <label>
@@ -64,66 +66,108 @@
 
 
 <!-- ============================================================
-     2. Siegel beantragen
-     Die sechs Felder sind die sechs veröffentlichten Prüfkriterien von /siegel/.
-     Sie werden hier abgefragt und anschließend an Unterlagen und Website geprüft.
+     2. Garantie-Antrag (Festpreis-Garantie)
+     Die Felder sind die sechs veröffentlichten Voraussetzungen von /festpreis-garantie/
+     (wiki/konventionen.md). Sie werden hier abgefragt und anschließend an Unterlagen und
+     Website geprüft; die drei Preise sind Pflicht und werden nach der Prüfung in die Spalten
+     garantie_tag, garantie_nacht und garantie_anfahrt übernommen.
      ============================================================ -->
-<form action="{{FORM_ENDPOINT}}" method="POST" class="siegel-form" lang="de">
-  <input type="hidden" name="_subject" value="Siegel-Antrag: {{FIRMENNAME}}">
-  <input type="hidden" name="art" value="siegel-antrag">
-  <input type="hidden" name="eintrag_slug" value="{{EINTRAG_SLUG}}">
+<form action="{{FORM_ENDPOINT}}" method="POST" class="garantie-form" lang="de">
+  <input type="hidden" name="_subject" value="Garantie-Antrag: {{FIRMENNAME}}">
+  <input type="hidden" name="formular" value="garantie-antrag">
+  <input type="hidden" name="eintrag" value="{{EINTRAG_SLUG}}">
   <input type="hidden" name="_gotcha" style="display:none">
 
-  <label>Firmenname
-    <input name="firma" value="{{FIRMENNAME}}" required>
-  </label>
+  <fieldset>
+    <legend>Betrieb</legend>
+    <label>Firmenname
+      <input name="firma" value="{{FIRMENNAME}}" required>
+    </label>
+    <label>Straße und Hausnummer
+      <input name="strasse" required>
+    </label>
+    <label>Postleitzahl
+      <input name="plz" inputmode="numeric" pattern="[0-9]{5}" required>
+    </label>
+    <label>Ort
+      <input name="ort" required>
+    </label>
+    <label>Website
+      <input type="url" name="website" placeholder="https://..." required>
+    </label>
+    <!-- Voraussetzung 1: vollständiges Impressum auf der eigenen Website -->
+    <label>Adresse Ihres Impressums
+      <input type="url" name="impressum_url" placeholder="https://..." required>
+    </label>
+    <!-- Voraussetzung 2: erreichbare Festnetz- oder Mobilnummer, die zum Betrieb gehört -->
+    <label>Festnetz- oder Mobilnummer, die zum Betrieb gehört und unter der Sie erreichbar sind
+      <input type="tel" name="telefon" placeholder="+49 621 1234567" required>
+    </label>
+    <!-- Voraussetzung 4: mindestens 10 Google-Bewertungen bei einem Schnitt von mindestens 4,0 -->
+    <label>Adresse Ihres Google-Unternehmensprofils
+      <input type="url" name="google_profil" placeholder="https://..." required>
+      <small>Wir prüfen dort mindestens 10 Bewertungen bei einem Schnitt von mindestens 4,0.</small>
+    </label>
+  </fieldset>
 
-  <label>Ihr Name und Ihre Funktion im Betrieb
-    <input name="name" required>
-  </label>
+  <fieldset>
+    <legend>Ansprechperson</legend>
+    <label>Ihr Name
+      <input name="ansprechperson" required>
+    </label>
+    <label>Ihre Funktion im Betrieb
+      <input name="rolle" placeholder="Inhaber, Geschäftsführerin, Büroleitung …" required>
+    </label>
+    <label>E-Mail-Adresse (bitte eine Adresse auf der Domain Ihrer Website)
+      <input type="email" name="email" required>
+    </label>
+  </fieldset>
 
-  <label>E-Mail-Adresse (bitte eine Adresse auf der Domain Ihrer Website)
-    <input type="email" name="email" required>
-  </label>
+  <!-- Voraussetzung 3: die drei Standardpreise verbindlich genannt -->
+  <fieldset>
+    <legend>Ihre drei Standardpreise</legend>
+    <p>
+      Diese drei Preise stehen nach der Prüfung in Ihrem Eintrag, bevor ein Kunde anruft. Sie
+      sind der Preis auf der Rechnung. Ganze Euro-Beträge, ohne Komma, ohne Einheit.
+    </p>
+    <label>Türöffnung tagsüber (Euro)
+      <input type="number" name="garantie_tag" min="1" step="1" inputmode="numeric" required>
+    </label>
+    <label>Türöffnung nachts, am Wochenende und an Feiertagen (Euro)
+      <input type="number" name="garantie_nacht" min="1" step="1" inputmode="numeric" required>
+    </label>
+    <label>Anfahrt (Euro; 0 bedeutet: im Preis enthalten)
+      <input type="number" name="garantie_anfahrt" min="0" step="1" inputmode="numeric" required>
+    </label>
+    <label>Weitere Zuschläge, die vorab beziffert sind (zum Beispiel für Sondertüren), sonst leer
+      <textarea name="zuschlaege_sonstige" rows="2"></textarea>
+    </label>
+  </fieldset>
 
-  <!-- Kriterium 1 -->
-  <label>Adresse Ihres Impressums
-    <input type="url" name="impressum_url" placeholder="https://..." required>
-  </label>
+  <!-- Voraussetzung 5: keine Weiterleitung an ein Callcenter ohne Ortsbezug -->
+  <fieldset>
+    <legend>Anrufannahme</legend>
+    <label>Anrufe an die oben genannte Nummer gehen
+      <select name="anrufannahme" required>
+        <option value="">Bitte wählen</option>
+        <option>direkt an den Betrieb</option>
+        <option>an eine Zentrale, die den Betrieb namentlich nennt</option>
+        <option>an einen Vermittlungsdienst</option>
+      </select>
+      <small>Eine Weiterleitung an ein Callcenter ohne Ortsbezug schließt die Garantie aus.</small>
+    </label>
+  </fieldset>
 
-  <!-- Kriterium 2 -->
-  <label>Festnetz- oder Mobilnummer, unter der Sie erreichbar sind
-    <input type="tel" name="telefon" placeholder="+49 621 1234567" required>
-  </label>
-
-  <!-- Kriterium 3 -->
-  <label>Wo auf Ihrer Website steht Ihre Preisangabe oder Ihre Anfahrtspauschale?
-    <input type="url" name="preisangabe_url" placeholder="https://..." required>
-  </label>
-
-  <!-- Kriterium 4 -->
-  <label>Adresse Ihres Google-Unternehmensprofils
-    <input type="url" name="google_profil" placeholder="https://..." required>
-    <small>Wir prüfen dort mindestens 10 Bewertungen bei einem Schnitt von mindestens 4,0.</small>
-  </label>
-
-  <!-- Kriterium 5 -->
-  <label>
-    <input type="checkbox" name="kein_callcenter" value="ja" required>
-    Anrufe an die oben genannte Nummer werden nicht an ein Callcenter ohne Ortsbezug
-    weitergeleitet.
-  </label>
-
-  <!-- Kriterium 6, das Serviceversprechen -->
+  <!-- Voraussetzung 6: das unterschriebene Serviceversprechen -->
   <fieldset>
     <legend>Serviceversprechen</legend>
     <label>
-      <input type="checkbox" name="versprechen_festpreis" value="ja" required>
-      Ich nenne einen Festpreis, bevor die Arbeit beginnt.
+      <input type="checkbox" name="versprechen_rechnungspreis" value="ja" required>
+      Der oben genannte Preis ist der Rechnungspreis.
     </label>
     <label>
-      <input type="checkbox" name="versprechen_keine_zuschlaege" value="ja" required>
-      Ich berechne keine versteckten Zuschläge.
+      <input type="checkbox" name="versprechen_zuschlaege" value="ja" required>
+      Ich berechne keine Zuschläge, die nicht vorher beziffert wurden.
     </label>
     <label>
       <input type="checkbox" name="versprechen_rechnung" value="ja" required>
@@ -138,9 +182,22 @@
     </label>
   </fieldset>
 
-  <label>Anmerkungen
-    <textarea name="anmerkungen" rows="3"></textarea>
-  </label>
+  <fieldset>
+    <legend>Gewerbe</legend>
+    <label>Gewerbeanmeldung liegt vor
+      <select name="gewerbeanmeldung" required>
+        <option value="">Bitte wählen</option>
+        <option>ja</option>
+        <option>nein</option>
+      </select>
+    </label>
+    <label>Eintrag im Handelsregister (Registergericht und Nummer), falls vorhanden
+      <input name="handelsregister" placeholder="Amtsgericht Mannheim, HRB 12345">
+    </label>
+    <label>Anmerkungen
+      <textarea name="anmerkungen" rows="3"></textarea>
+    </label>
+  </fieldset>
 
   <label>
     <input type="checkbox" name="datenschutz" value="ja" required>
@@ -148,13 +205,15 @@
     einverstanden, dass meine Angaben zur Prüfung dieses Antrags verarbeitet werden.
   </label>
 
-  <button type="submit">Siegel beantragen</button>
+  <button type="submit">Festpreis-Garantie beantragen</button>
 
   <p class="form-hinweis">
-    Die Prüfung ist <strong>kostenlos</strong>. Das Siegel ist nicht kaufbar; bezahlt wird nur
-    Sichtbarkeit. Grundlage sind Ihre Angaben sowie die Prüfung von Unterlagen und Website
-    durch den Herausgeber. Es findet <strong>kein Test vor Ort</strong> statt. Das Siegel
-    trägt die Jahreszahl, gilt ein Jahr und wird bei belegten Beschwerden entzogen. Die
-    vollständigen Kriterien stehen auf <a href="/siegel/">/siegel/</a>.
+    Die Prüfung ist <strong>kostenlos</strong>. Die Garantie ist nicht kaufbar; bezahlt wird nur
+    Sichtbarkeit. Die Garantie geben Sie als Betrieb; der Herausgeber prüft Ihre Angaben an
+    Unterlagen und Website und veröffentlicht Ihre drei Preise. Es findet <strong>kein Test vor
+    Ort</strong> statt. Die Garantie trägt die Jahreszahl, gilt ein Jahr und wird entzogen,
+    wenn ein Kunde eine Rechnung über dem garantierten Preis vorlegt; dann werden Ihre Preise aus
+    dem Eintrag entfernt. Die vollständigen Voraussetzungen stehen auf
+    <a href="/festpreis-garantie/">/festpreis-garantie/</a>.
   </p>
 </form>

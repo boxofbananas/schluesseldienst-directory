@@ -78,7 +78,7 @@ const siteSchema = path === '/' ? [
         <nav class="nav" aria-label="Hauptnavigation">
           <a href={countryPath}>{site.niche.title}</a>
           {hasResources && <a href="/ratgeber/">Ratgeber</a>}
-          <a href="/siegel/">Siegel</a>
+          <a href="/festpreis-garantie/">Festpreis-Garantie</a>
           <a href="/ueber-uns/">Über uns</a>
           <a href="/kontakt/">Kontakt</a>
           <a class="nav-cta" href="/eintrag-beanspruchen/">Eintrag beanspruchen</a>
@@ -106,8 +106,8 @@ const siteSchema = path === '/' ? [
             <ul>
               <li><a href={countryPath}>Alle Bundesländer und Städte</a></li>
               {services.length > 0 && <li><a href="/leistungen/">{site.niche.title} nach Leistung</a></li>}
-              <li><a href="/siegel/">Siegel „Geprüfter Schlüsseldienst“</a></li>
-              <li><a href="/siegel/antrag/">Siegel beantragen</a></li>
+              <li><a href="/festpreis-garantie/">Festpreis-Garantie</a></li>
+              <li><a href="/festpreis-garantie/antrag/">Garantie beantragen</a></li>
               <li><a href="/eintrag-beanspruchen/">Eintrag beanspruchen</a></li>
               <li><a href="/premium/">Premium-Platz</a></li>
               <li><a href="/ueber-uns/">Über uns</a></li>
@@ -139,7 +139,7 @@ const siteSchema = path === '/' ? [
       <div class="legal">
         <div class="wrap">
           <p>
-            <a href="/impressum/">Impressum</a> · <a href="/datenschutz/">Datenschutz</a> · <a href="/agb/">AGB</a> · <a href="/siegel/">Siegel</a>
+            <a href="/impressum/">Impressum</a> · <a href="/datenschutz/">Datenschutz</a> · <a href="/agb/">AGB</a> · <a href="/festpreis-garantie/">Festpreis-Garantie</a>
           </p>
           <p>&copy; {buildDate.slice(0, 4)} {site.brand}. Firmendaten und Bewertungen stammen aus öffentlichen Quellen und aus Google Maps; ein Eintrag ist keine Empfehlung. Zuletzt aktualisiert am {buildDateDe}.</p>
         </div>

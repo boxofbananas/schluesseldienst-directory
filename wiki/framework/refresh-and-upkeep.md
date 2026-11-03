@@ -9,8 +9,8 @@ updated: 2026-11-03
 
 Ein Verzeichnis macht nach dem Start mehr Arbeit als eine einzelne Website: Inhaber wollen
 ihren Eintrag ändern, und Spam will hinein. Der statische Neubau löst beides ohne Zugänge und
-ohne Redaktionssystem. Eintragsdaten ändern sich, wenn eine Beanspruchung, ein Verkauf, eine
-Siegelprüfung oder eine Korrektur sie ändert, nicht nach Kalender.
+ohne Redaktionssystem. Eintragsdaten ändern sich, wenn eine Beanspruchung, ein Verkauf, ein
+geprüfter Garantie-Antrag oder eine Korrektur sie ändert, nicht nach Kalender.
 
 ## Keine Zugänge. Zwei Türen.
 
@@ -18,7 +18,8 @@ Siegelprüfung oder eine Korrektur sie ändert, nicht nach Kalender.
   Spam-Anmeldungen die echten, und die Betreiber haben alle Zugänge wieder abgeschaltet.
 - Hinein führen genau zwei Formulare:
   - `/eintrag-beanspruchen/` – Daten ändern, Fotos nachliefern
-  - `/siegel/antrag/` – die Prüfung gegen die sechs Kriterien ([[siegel-programm]])
+  - `/festpreis-garantie/antrag/` – der Garantie-Antrag mit den drei Preisen, geprüft gegen die
+    sechs Voraussetzungen ([[siegel-programm]])
 - **Jede Einsendung wird von Hand geprüft**, bevor sich etwas ändert: ein echter örtlicher
   Betrieb (kein Anfragenvermittler, kein Verzeichnis, kein Callcenter), die E-Mail-Domain
   passt zur Website, die Telefonnummer passt zur Google-Zeile. Dann die CSV ändern und neu
@@ -29,27 +30,31 @@ Siegelprüfung oder eine Korrektur sie ändert, nicht nach Kalender.
 ## Neu bauen bei Änderung
 
 - Beanspruchter Eintrag, verkaufter Platz, korrigierte Telefonnummer, neue Stadt, neu
-  erteiltes oder entzogenes Siegel: CSV ändern, Gate 5 erneut laufen lassen, erneut
+  erteilte oder entzogene Festpreis-Garantie, geänderte Garantiepreise: CSV ändern, Gate 5 erneut laufen lassen, erneut
   ausliefern. **Nie eine erzeugte Seite von Hand bearbeiten.**
 - Die CSV bleibt im Projekt. Die Versionsgeschichte ist der Nachweis, wer wann aufgenommen,
   ausgezeichnet, bezahlt platziert oder entfernt wurde.
 
-## Das Siegel einmal im Jahr erneuern
+## Die Festpreis-Garantie einmal im Jahr erneuern
 
-Das Siegel trägt die Jahreszahl und gilt ein Jahr ([[siegel-programm]]). Daraus folgt der
-einzige Termin im Kalender dieses Verzeichnisses:
+Die Festpreis-Garantie trägt die Jahreszahl und gilt ein Jahr ([[siegel-programm]]). Daraus
+folgt der einzige Termin im Kalender dieses Verzeichnisses, und er ist ein Anrufgrund:
 
 1. Einmal im Jahr alle Zeilen mit `geprueft_jahr` aus dem Vorjahr durchsehen.
-2. Jeden dieser Betriebe anschreiben: die sechs Kriterien erneut bestätigen, das
-   Serviceversprechen erneut unterschreiben.
-3. Wer bestätigt, bekommt `geprueft_jahr` auf das neue Jahr. Wer nicht antwortet, verliert das
-   Siegel: `geprueft` und `geprueft_jahr` werden geleert, und der Eintrag trägt wieder
-   „Noch nicht geprüft".
+2. Jeden dieser Betriebe anrufen: Gelten die drei Preise (`garantie_tag`, `garantie_nacht`,
+   `garantie_anfahrt`) noch, oder haben sie sich geändert? Die sechs Voraussetzungen erneut
+   bestätigen, das Serviceversprechen erneut unterschreiben. Beim selben Anruf geht es um
+   Sichtbarkeit.
+3. Wer bestätigt, bekommt `geprueft_jahr` auf das neue Jahr und gegebenenfalls die neuen
+   Preise. Wer nicht antwortet, verliert die Garantie: `geprueft`, `geprueft_jahr` und die drei
+   Preisspalten werden geleert, und der Eintrag trägt wieder „Noch keine Festpreis-Garantie".
 4. Neu bauen und ausliefern.
 
-**Entzug zwischendurch:** Gehen belegte Beschwerden über einen Betrieb ein, werden `geprueft`
-und `geprueft_jahr` sofort geleert, neu gebaut und die Nachweisseite `/auszeichnung/[slug]/`
-entfernt. Belegt heißt: ein nachvollziehbarer Vorgang, nicht eine anonyme Zuschrift. Was
+**Entzug zwischendurch:** Meldet ein Kunde eine Rechnung über dem garantierten Preis und legt
+die Rechnung vor, konfrontiert der Herausgeber den Betrieb damit. Bleibt der Verstoß belegt,
+werden `geprueft`, `geprueft_jahr`, `garantie_tag`, `garantie_nacht` und `garantie_anfahrt`
+sofort geleert, neu gebaut und die Nachweisseite `/auszeichnung/[slug]/` entfernt: die Preise
+sind aus dem Eintrag heraus. Belegt heißt: eine Rechnung, nicht eine anonyme Zuschrift. Was
 geprüft wurde und wie entschieden wurde, wird notiert, damit der Entzug begründbar bleibt.
 
 ## Geldseiten folgen dem allgemeinen Auffrischungsrat

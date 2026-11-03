@@ -20,7 +20,7 @@ Text, und niemals ihre Rechtsstellung: keine dieser Seiten erfüllt § 5 DDG ode
 DSGVO, und zwei von ihnen benutzen Wörter („vetted", „verified", „50-Point Inspection"), die
 in deutschen Texten dieses Verzeichnisses nicht übersetzt auftauchen dürfen
 ([[konventionen]], Sprache und Ton). Was das Verzeichnis statt dessen hat, ist das
-Siegel-Programm mit veröffentlichten Kriterien ([[siegel-programm]]).
+Festpreis-Garantie mit veröffentlichten Voraussetzungen ([[siegel-programm]]).
 
 Weiter gilt:
 - Optik und Seitenaufbau übernehmen, nie Inhalt, Bilder, Logo oder Text.
@@ -54,8 +54,8 @@ Suchausschnitte und Seitentitel geprüft.
 - **Optikanregung:** Gebiets- und Kategoriebilder als Navigation, ein Streifen mit
   hervorgehobenen Einträgen, eine Prüfgeschichte auf der Startseite.
 - **Was es lehrt:** ein Verzeichnis, das seine Prüfung als Grund zum Eintragen verkauft; ein
-  Streifen, der sich ändert, wenn Plätze verkauft werden. Hier ist das der Siegel-Antrag, mit
-  dem Unterschied, dass die Kriterien veröffentlicht sind.
+  Streifen, der sich ändert, wenn Plätze verkauft werden. Hier ist das der Garantie-Antrag, mit
+  dem Unterschied, dass die Voraussetzungen veröffentlicht sind.
 
 ### 3. Discover Plasma, https://www.discoverplasma.com/
 - **Was es ist:** Plasmazentren, USA, 1.256 Zentren, über 750 Städte.
@@ -64,7 +64,7 @@ Suchausschnitte und Seitentitel geprüft.
 - **Optikanregung:** klar und modern, Fotografie der Zentren, Entfernungsangaben.
 - **Was es lehrt:** eine Angabe, die die Platzhirsche nicht zeigen, ist ein Grund zu ranken und
   ein Grund wiederzukommen. Hier ist das der angereicherte Merkmalssatz ([[enrichment]]) und
-  das Siegel.
+  der garantierte Preis, der vor dem Anruf im Eintrag steht.
 
 ### 4. Expertise.com, https://www.expertise.com/
 - **Was es ist:** „Best of"-Listen je Stadt und Kategorie über mehr als 200 Branchen.
@@ -72,7 +72,7 @@ Suchausschnitte und Seitentitel geprüft.
   Profil, eine Auswahlgeschichte in fünf Stufen.
 - **Optikanregung:** redaktionelle, zeitschriftenartige Listenseiten; ein Kasten „warum dieser
   Betrieb" je Eintrag; eine Methodenseite.
-- **Was es lehrt:** den Siegel-gegen-Link-Gedanken im Großen und die Top-Platzierung
+- **Was es lehrt:** den Gedanken „Nachweis gegen Link" im Großen und die Top-Platzierung
   ([[monetization-slots]]). **Nicht übernehmen:** die Wörter ihrer Prüfung. „Mystery
   shopping" und „vetted" lassen sich nicht in deutsche Texte übersetzen, die zugleich sagen
   müssen, dass es keinen Test vor Ort gibt ([[siegel-programm]]).
@@ -80,13 +80,14 @@ Suchausschnitte und Seitentitel geprüft.
 ### 5. ThreeBestRated, https://threebestrated.com/
 - **Was es ist:** die besten drei je Stadt und Kategorie, mehrere Länder.
 - **Aufbau:** Stadt- und Kategorieseiten mit genau drei Betrieben, eine Seite
-  „50-Point Inspection", eine Seite zum Eintragen, ein Siegel für die Ausgewählten.
+  „50-Point Inspection", eine Seite zum Eintragen, ein Abzeichen für die Ausgewählten.
 - **Optikanregung:** Knappheit als Gestaltung (drei, nicht fünfzig), die Prüfzahl als
   Vertrauensmittel.
 - **Was es lehrt:** eine kurze Liste verkauft sich selbst, und eine benannte Methode macht sie
   verteidigbar. **Nicht übernehmen:** das Versprechen, Plätze seien nicht käuflich, solange
-  Plätze verkauft werden. Dieses Verzeichnis löst dasselbe anders und sauber: das Siegel ist
-  nicht kaufbar, Sichtbarkeit ist es, und beides steht auf `/siegel/` und `/premium/`.
+  Plätze verkauft werden. Dieses Verzeichnis löst dasselbe anders und sauber: die Festpreis-Garantie
+  ist nicht kaufbar, Sichtbarkeit ist es, und beides steht auf `/festpreis-garantie/` und
+  `/premium/`.
 
 ### 6. Checkatrade (Großbritannien), https://www.checkatrade.com/
 - **Was es ist:** geprüfte Handwerker nach Gewerk und Ort.

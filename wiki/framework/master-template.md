@@ -61,10 +61,10 @@ dem das Template erweitert wird, und er steht in [[site-architecture]] und in
 | Blättern | `/verzeichnis/` | Suche, alle Bundesländer, alle Städte von A bis Z, alle Einträge nach Stadt. `noindex, follow` |
 | **Bundesland** | `/verzeichnis/[bundesland]/` | **Neu.** Die Seite nach Städten: Einleitung, Premium-Block, jede Stadt mit ihren Zahlen, „Kleinere Orte", Fragen, Hinweis aufs Beanspruchen, Nachbarländer |
 | Stadtseite | `/verzeichnis/[bundesland]/[stadt]/` | Die Geldseite: Kernzahlen, Ortstext um die Karten herum geteilt, Premium-Block, Karten, Überlaufliste, Fragen, Nachbarstädte, Hinweis aufs Beanspruchen |
-| Eintrag | `/firma/[bundesland]/[stadt]/[slug]/` | Ein Betrieb: Kopf mit Bewertung und Siegelzeichen, zwei Spalten |
+| Eintrag | `/firma/[bundesland]/[stadt]/[slug]/` | Ein Betrieb: Kopf mit Bewertung und Garantie-Zeichen, zwei Spalten |
 | Suche | `/suche/` | Ergebnisse im Browser aus `search-index.json`. `noindex` |
-| Premium | `/premium/` | Stufenkarten, drei Schritte, Kontakthinweis, der Satz zur Nichtkäuflichkeit des Siegels |
-| **Siegel** | `/siegel/`, `/siegel/antrag/`, `/auszeichnung/[slug]/` | **Neu.** Kriterien, Antrag, Nachweis ([[siegel-programm]]) |
+| Premium | `/premium/` | Stufenkarten, drei Schritte, Kontakthinweis, der Satz zur Nichtkäuflichkeit der Festpreis-Garantie |
+| **Festpreis-Garantie** | `/festpreis-garantie/`, `/festpreis-garantie/antrag/`, `/auszeichnung/[slug]/` | **Neu.** Die drei Teile und die Voraussetzungen, Garantie-Antrag, Garantie-Nachweis ([[siegel-programm]]) |
 | Beanspruchen, Über uns, Kontakt, **Impressum**, **Datenschutz**, AGB | Wurzel | wie das Template sie liefert; Impressum und Datenschutz neu und Pflicht |
 
 **Brotkrumen über fünf Ebenen** auf jeder Orts- und Firmenseite: Startseite › Schlüsseldienste
@@ -74,7 +74,7 @@ dem das Template erweitert wird, und er steht in [[site-architecture]] und in
 ## Navigation
 
 Wortmarke links (der Link zur Startseite, es gibt keinen Punkt „Startseite"), dann
-„Schlüsseldienste" (auf `/verzeichnis/`), **„Siegel"** (auf `/siegel/`), „Über uns",
+„Schlüsseldienste" (auf `/verzeichnis/`), **„Festpreis-Garantie"** (auf `/festpreis-garantie/`), „Über uns",
 „Kontakt" und eine bernsteinfarbene Schaltfläche „Eintrag beanspruchen". Marineblaue Leiste,
 weiße Schrift. Die 16 Bundesländer und die größten Städte stehen im Fußbereich, nicht in der
 Navigation.
@@ -108,7 +108,7 @@ Datenschutz und AGB auf jeder Seite** ([[konventionen]]).
 5. **Bestbewertete Schlüsseldienste.** Sechs Karten, Bewertung mit der Zahl der Bewertungen
    gewichtet, Untergrenze 4,5 und 25 Bewertungen.
 6. **Hinweis aufs Beanspruchen.** Das bernsteinfarbene Band: „Betreiben Sie einen
-   Schlüsseldienst?" mit „Eintrag beanspruchen" und „Siegel beantragen". **Zwei Türen, nicht
+   Schlüsseldienst?" mit „Eintrag beanspruchen" und „Festpreis-Garantie beantragen". **Zwei Türen, nicht
    eine** ([[monetization-slots]]).
 7. **„Schlüsseldienste nach Leistung."** Nur wenn der Build Leistungsseiten hat
    ([[page-types]]): jeder Leistungstitel mit seiner Zahl, verlinkt auf seine Seite.
@@ -116,7 +116,7 @@ Datenschutz und AGB auf jeder Seite** ([[konventionen]]).
    Name links, Zahl rechts, Buchstabenüberschriften als schlichter Text, **nach Bundesland
    gruppiert**.
 9. **„So prüfen wir."** Getöntes Band, zentrierte Überschrift, vier nummerierte Schritte
-   (`vettingSteps`), der Prüftext in schmalem Satz. Hier wird auf `/siegel/` verlinkt, und
+   (`vettingSteps`), der Prüftext in schmalem Satz. Hier wird auf `/festpreis-garantie/` verlinkt, und
    hier wird der Herausgeber genannt („Ein Angebot der DOM Holding GmbH", verlinkt auf
    „Über uns").
 10. **„So erkennen Sie einen seriösen Schlüsseldienst."** Der Ratgeber als Artikel:
@@ -147,8 +147,9 @@ Ortsregel aus [[page-types]].
 ## Eintragsseite
 
 Kopf: Brotkrumen, Zeichen, H1, Bewertungszeile (Sterne, Wert mit Komma, Zahl), **das
-Siegelzeichen** („Geprüft 2026" mit Link auf `/siegel/`, oder „Noch nicht geprüft" mit Link
-auf `/siegel/antrag/`; [[siegel-programm]], nicht abschaltbar), „Schlüsseldienst in [Stadt]".
+Garantie-Zeichen** („Festpreis-Garantie 2026" mit den drei Preisen und Link auf
+`/festpreis-garantie/`, oder „Noch keine Festpreis-Garantie" mit Link auf
+`/festpreis-garantie/antrag/`; [[siegel-programm]], nicht abschaltbar), „Schlüsseldienst in [Stadt]".
 Quellreihenfolge darunter: Über den Betrieb, Leistungen und Angaben (bestätigte Leistungen als
 Felder mit Häkchen und je einem H3, ein ausdrückliches Nein als Feld mit Kreuz, die
 Unbekannten zu einer gedämpften Zeile gefaltet, dann die Leistungsseiten als Chips), Kontakt
@@ -170,7 +171,8 @@ aufs Beanspruchen. Nur für die Merkmale gebaut, die der Plan nennt ([[page-type
 
 ## Karten
 
-Eintragskarte: H3 Name, Bewertungszeile, Anschrift, bis zu drei Chips, **das Siegelzeichen**,
+Eintragskarte: H3 Name, Bewertungszeile, Anschrift, bis zu drei Chips, **das Garantie-Zeichen** (bei Garantie die
+Zeile „Festpreis-Garantie · Türöffnung ab [garantie_tag] €"),
 Telefonnummer mit Hörerzeichen am Fuß der Karte. Bundeslandkarte: Name, Zahl der Einträge,
 Zahl der Städte. Stadtkarte: Name, Zahl der Einträge, Zahl der geprüften Betriebe.
 Premiumkarte: goldenes Band mit marineblauem Reiter, Stadt, Bewertung, Name, Auszug, Chips,
@@ -197,7 +199,7 @@ bleibt.
 Den Seitensatz und die Adressen, die Navigation, die Abschnittsfolge auf irgendeiner Seite,
 die Suche, den Premium-Block und seinen Vorschaumodus, das Merkmalsraster, die Seitenspalte
 der Eintragsseite, die Brotkrumen, die vier Fußspalten, die Rechtszeile mit Impressum und
-Datenschutz, **das Siegelzeichen auf jedem Eintrag**, **den Kartenplatzhalter**, oder eine
+Datenschutz, **das Garantie-Zeichen auf jedem Eintrag**, **den Kartenplatzhalter**, oder eine
 Regel aus [[konventionen]], [[page-types]], [[on-page-rules]], [[schema]] und
 [[launch-lean]].
 

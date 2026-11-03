@@ -25,9 +25,9 @@ Die URL-Tabelle in [[konventionen]] ist maßgeblich. Unten steht, was jede Ebene
 | Leistung | `/leistungen/[slug]/`, Index `/leistungen/` | je Leistung aus dem Plan | „[Leistung] Schlüsseldienst": alle bestätigten Einträge, die besten als Karten, dann jedes Bundesland mit seiner Zahl |
 | Eintrag beanspruchen | `/eintrag-beanspruchen/` | 1 | Umwandlung, nicht Ranking |
 | Premium / Werbung | `/premium/` | 1 | Umwandlung, nicht Ranking |
-| Siegel-Kriterien | `/siegel/` | 1 | Vertrauen, Pflichtveröffentlichung ([[siegel-programm]]) |
-| Siegel-Antrag | `/siegel/antrag/` | 1 | Umwandlung; Ziel jedes „Noch nicht geprüft" |
-| Siegel-Nachweis | `/auszeichnung/[slug]/`, Bild `/auszeichnung/[slug].svg` | je ausgezeichnetem Betrieb | nichts, `noindex` |
+| Festpreis-Garantie | `/festpreis-garantie/` | 1 | Vertrauen, Pflichtveröffentlichung ([[siegel-programm]]) |
+| Garantie-Antrag | `/festpreis-garantie/antrag/` | 1 | Umwandlung; Ziel jedes „Noch keine Festpreis-Garantie" |
+| Garantie-Nachweis | `/auszeichnung/[slug]/`, Bild `/auszeichnung/[slug].svg` | je Betrieb mit Garantie | nichts, `noindex` |
 | Über uns | `/ueber-uns/` | 1 | der Herausgeber, Vertrauen für den Anruf ([[publisher-entity]]) |
 | Kontakt | `/kontakt/` | 1 | Korrektur- und Löschweg ([[refresh-and-upkeep]]) |
 | Impressum | `/impressum/` | 1 | Pflicht nach § 5 DDG |
@@ -48,8 +48,8 @@ Die Zahl der Seiten ergibt sich aus den Daten und steht in `04-plan.md`. Die Rec
 + Zahl der Ortsseiten, die foldMaxKm freistellt
 + Zahl der behaltenen Einträge
 + Zahl der Leistungsseiten + 1 Index
-+ 1 Nachweisseite je ausgezeichnetem Betrieb                  (noindex)
-+ 12 feste Seiten (Beanspruchen, Premium, Siegel, Siegel-Antrag, Über uns,
++ 1 Nachweisseite je Betrieb mit Garantie                     (noindex)
++ 12 feste Seiten (Beanspruchen, Premium, Festpreis-Garantie, Garantie-Antrag, Über uns,
   Kontakt, Impressum, Datenschutz, AGB, Suche, Ratgeber-Index, 404)
 ```
 
@@ -97,8 +97,8 @@ hergibt, weil Deutschland eine Ebene mehr und ein anderes Städtebild hat.
   Städte nach Koordinaten – **auch über die Landesgrenze hinweg**, weil ein Leser in
   Mannheim nach Ludwigshafen schaut und nicht auf das Bundesland achtet – und hinauf zur
   Bundesland-Seite.
-- **Eintragsseite** verlinkt ihre Stadtseite, die Seite zum Beanspruchen und, je nach Siegel,
-  `/siegel/` oder `/siegel/antrag/` ([[siegel-programm]]). Links auf die Website des Betriebs
+- **Eintragsseite** verlinkt ihre Stadtseite, die Seite zum Beanspruchen und, je nach Garantie,
+  `/festpreis-garantie/` oder `/festpreis-garantie/antrag/` ([[siegel-programm]]). Links auf die Website des Betriebs
   tragen **`rel="nofollow"`**; bezahlte Stufen bekommen einen gefolgten Link (das ist Teil
   dessen, was die Stufe kauft, [[monetization-slots]]).
 - **Brotkrumen auf jeder Seite**, fünf Ebenen auf einer Eintragsseite, auch als
@@ -133,12 +133,13 @@ hergibt, weil Deutschland eine Ebene mehr und ein anderes Städtebild hat.
 ## Navigation
 
 Kopfzeile: Wortmarke links (der Link zur Startseite, kein eigener Punkt „Startseite"), dann
-„Schlüsseldienste" (auf `/verzeichnis/`), „Siegel" (auf `/siegel/`), „Über uns", „Kontakt"
+„Schlüsseldienste" (auf `/verzeichnis/`), „Festpreis-Garantie" (auf `/festpreis-garantie/`),
+„Über uns", „Kontakt"
 und eine Schaltfläche „Eintrag beanspruchen". Die größten Städte und alle Bundesländer stehen
 im Fußbereich, nicht in der Navigation.
 
 Fußbereich, vier Spalten: Über uns mit der Herausgeberzeile, Schnelllinks (Beanspruchen,
-Premium, Siegel, Leistungen wenn vorhanden), die 16 Bundesländer, Kontakt. Darunter die
+Premium, Festpreis-Garantie, Leistungen wenn vorhanden), die 16 Bundesländer, Kontakt. Darunter die
 Rechtszeile mit **Impressum**, **Datenschutz** und **AGB** – auf jeder Seite, ohne Ausnahme
 ([[konventionen]], Recht).
 

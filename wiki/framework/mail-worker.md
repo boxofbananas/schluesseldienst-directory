@@ -33,19 +33,23 @@ Post an die Adresse (Cloudflare Email Routing) und jede Einsendung der Formulare
    gesendete Antwort geht in Blindkopie an den Betreiber.
 
 Was er nie tut: einen Eintrag hinzufügen, ändern oder entfernen; einen Entwurf von sich aus
-senden; einen Link, eine Aufnahme, ein Siegel oder eine Platzierung versprechen. Der Entwurf
+senden; einen Link, eine Aufnahme, eine Festpreis-Garantie oder eine Platzierung versprechen. Der Entwurf
 darf die Preise der Stufen aus `site.json` nennen und sonst nichts über Geld.
 Eintragsänderungen bleiben CSV, Gate 5, neu ausliefern, und der Worker wird danach erneut
 ausgeliefert, damit seine Zuordnungsliste aktuell ist.
 
 ## Die Arten von Anfragen
 
-Zusätzlich zu den Arten der englischen Fassung kommt eine hinzu: **Anfrage zum Siegel**. Sie
-wird nicht wie eine Premium-Anfrage behandelt, weil das Siegel kostenlos ist. Der Entwurf
-verweist in diesem Fall auf `/siegel/antrag/`, nennt keine Preise und verspricht keine
-Prüfung, sondern sagt, dass die Angaben geprüft werden ([[siegel-programm]]). Dasselbe gilt,
-wenn ein Betrieb fragt, warum bei ihm „Noch nicht geprüft" steht: das ist eine Siegelanfrage
-und keine Beschwerde.
+Zusätzlich zu den Arten der englischen Fassung kommt eine hinzu: **Anfrage zur
+Festpreis-Garantie** (Kategorie `garantie_request`). Sie wird nicht wie eine Premium-Anfrage
+behandelt, weil die Garantie kostenlos ist. Der Entwurf verweist in diesem Fall auf
+`/festpreis-garantie/antrag/`, sagt, dass der Betrieb dort seine drei Standardpreise nennt,
+nennt selbst keine Preise und verspricht keine Garantie, sondern sagt, dass die Angaben geprüft
+werden ([[siegel-programm]]). Dasselbe gilt, wenn ein Betrieb fragt, warum bei ihm „Noch keine
+Festpreis-Garantie" steht: das ist eine Garantie-Anfrage und keine Beschwerde. Meldet dagegen
+ein Kunde eine Rechnung über dem garantierten Preis, ist das eine Verbraucheranfrage, und die
+Zusammenfassung für den Herausgeber sagt ausdrücklich, dass es um einen möglichen Verstoß gegen
+die Garantie geht; der Entzug läuft von Hand ([[refresh-and-upkeep]]).
 
 ## Die Prüfregel in den Entwürfen
 
@@ -57,8 +61,10 @@ Vollmacht, nie einen Nachweis der Rolle, nie Unterlagen, und sagt einem Absender
 Agentur nie, seine Berechtigung sei unbestätigt; das steht in der Zusammenfassung für den
 Betreiber. Die Anweisung ist eine Funktion in `src/templates.ts`.
 
-Für Siegel-Anfragen gilt dasselbe und zusätzlich: der Entwurf zählt nie die sechs Kriterien
-auf, die der Betrieb nicht erfüllt. Er verweist auf `/siegel/antrag/`, wo sie alle stehen.
+Für Garantie-Anfragen gilt dasselbe und zusätzlich: der Entwurf zählt nie die sechs
+Voraussetzungen auf, die der Betrieb nicht erfüllt, und nennt nie Preise eines Betriebs, die
+nicht in der Eintragsdatei stehen. Er verweist auf `/festpreis-garantie/antrag/`, wo alles
+steht.
 
 ## Sprache und Ton
 

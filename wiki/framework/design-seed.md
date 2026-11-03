@@ -69,7 +69,7 @@ gewollt, solange sie nicht wie von einer KI gemacht aussehen.
   dreispaltige Reihe beliebiger Linienzeichen mit einem Titel und einem Satz, der nichts sagt,
   Zeichen als Schmuck neben Überschriften. Von einem Menschen: eine Augenbraue dort, wo die
   Vorlage eine hat, die etwas über dieses Verzeichnis sagt; eine Aktionsreihe, in der jede
-  Karte ein echtes Ziel auf der Site ist (nach Bundesland suchen, nach Stadt suchen, Siegel
+  Karte ein echtes Ziel auf der Site ist (nach Bundesland suchen, nach Stadt suchen, Festpreis-Garantie
   beantragen, Eintrag beanspruchen) mit einem Zeichen, das die Handlung benennt, in einem
   einheitlichen Stil.
 - **Jede Augenbraue und jede Karte muss konkret sein.** Prüfung: Könnte die Zeile unverändert
@@ -106,7 +106,7 @@ geändert hat. Der Aufbau ändert sich in keinem Fall ([[master-template]]).
 - Die Aufgabe der Startseite bleiben Bundesländer, Städte, Premium-Plätze und der Ratgeber;
   eine Aktionsreihe sitzt unter dem Kopfbereich und zeigt dorthin, sie ersetzt nichts.
 - **Karten zeigen Daten** (Bewertung, Zahl der Bewertungen, Merkmale, Telefonnummer,
-  Siegelzeichen). Eine Karte mit nichts als einem Namen und einer Schaltfläche liest sich wie
+  Garantie-Zeichen). Eine Karte mit nichts als einem Namen und einer Schaltfläche liest sich wie
   erzeugt.
 - **Zwei Optiken bringen KI-Werkzeuge von selbst hervor**, und eine Vorlage kann eine davon
   tragen: creme-farbenes Papier mit Serifenüberschriften und Terrakotta-Akzent, und Inter mit
@@ -136,9 +136,10 @@ geändert hat. Der Aufbau ändert sich in keinem Fall ([[master-template]]).
   sind für Datenfelder, nicht für sichtbare Überschriften.
 - **Komma als Dezimaltrennzeichen** in jeder Bewertung („4,8"), Preise mit Euro-Zeichen
   dahinter („97 €") ([[konventionen]]).
-- **Das Siegelzeichen braucht Platz** auf jeder Eintragskarte und in jedem Eintragskopf,
-  in beiden Zuständen („Geprüft 2026" und „Noch nicht geprüft"). Es wird nicht gekürzt, nicht
-  zu einem Zeichen zusammengezogen und nicht ausgeblendet, wenn es eng wird
+- **Das Garantie-Zeichen braucht Platz** auf jeder Eintragskarte und in jedem Eintragskopf,
+  in beiden Zuständen („Festpreis-Garantie 2026" mit der Zeile „Türöffnung ab [garantie_tag] €"
+  und „Noch keine Festpreis-Garantie"). Es wird nicht gekürzt, nicht zu einem Zeichen
+  zusammengezogen und nicht ausgeblendet, wenn es eng wird
   ([[siegel-programm]]).
 
 ## Was jedes Verzeichnis ohnehin teilt

@@ -232,13 +232,23 @@ main.wrap:has(> .after-hero) { padding-top: 0; }
 .attr-grid .cross { display: block; }
 .attr-grid .cross path { stroke: var(--bg); }
 .attr-unknown { color: var(--muted); font-size: .92rem; margin: 1rem 0 0; }
-/* Siegel-Zeile: geprüfte Betriebe tragen "Geprüft <Jahr>", nicht geprüfte "Noch nicht geprüft".
+/* Garantie-Zeile; die Klassen stehen weiter unten unter .garantie.
    Die zweite Zeile ist Absicht und darf nicht wegfallen (wiki/konventionen.md). */
-.siegel { margin: .2rem 0; font-size: .9rem; font-weight: 500; }
-.siegel a { color: inherit; }
-.siegel.ja { color: var(--link); }
-.siegel.nein { color: var(--muted); font-weight: 400; }
-.siegel::before { content: ""; display: inline-block; width: .7em; height: .7em; margin-right: .5em; border-radius: 999px; background: currentColor; opacity: .8; }
+/* Festpreis-Garantie: kurze Zeile auf Karten, Preisblock auf der Eintragsseite */
+.garantie { margin: .2rem 0; font-size: .9rem; font-weight: 500; }
+.garantie a { color: inherit; }
+.garantie.ja { color: var(--link); }
+.garantie.nein { color: var(--muted); font-weight: 400; }
+p.garantie::before { content: ""; display: inline-block; width: .7em; height: .7em; margin-right: .5em; border-radius: 999px; background: currentColor; opacity: .8; }
+.garantie-ab { color: var(--text); font-weight: 400; }
+.garantie.voll { background: var(--tint); border-left: 4px solid var(--link); border-radius: var(--radius); padding: .9rem 1.1rem; margin: 1rem 0; }
+.garantie.voll .garantie-kopf { margin: 0 0 .5rem; font-size: 1.05rem; font-weight: 700; font-family: inherit; }
+.garantie.voll .garantie-kopf a { color: var(--link); text-decoration: none; }
+.garantie-preise { display: grid; gap: .3rem 1.2rem; grid-template-columns: 1fr auto; margin: 0 0 .6rem; }
+.garantie-preise div { display: contents; }
+.garantie-preise dt { color: var(--text); }
+.garantie-preise dd { margin: 0; font-weight: 700; color: var(--heading); text-align: right; white-space: nowrap; }
+.garantie.voll .meta { margin: 0; font-size: .85rem; color: var(--muted); }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); clip-path: inset(50%); white-space: nowrap; border: 0; }
 /* A fieldset's default min-inline-size is min-content, so the hidden services fieldset in the search form
    grew to the width of its labels and pushed the document's scrollWidth to 2,429px at a 1,440 viewport

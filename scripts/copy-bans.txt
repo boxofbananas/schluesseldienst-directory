@@ -20,9 +20,11 @@
 #                                      scripts/enrichment-instructions.md.
 #
 # Nur dieser zweite Block lässt sich mit `scripts/lint_copy.py --erlaube-rechtswoerter`
-# zulassen, und nur für /siegel/, /agb/ und Ratgeberseiten, die über die Rechtslage aufklären
-# und diese Wörter bestreiten müssen („es gibt keine Lizenz und keine Meisterpflicht").
-# Nie für Stadttexte, Eintragsbeschreibungen oder die Startseite (wiki/seo/copy-gate.md).
+# zulassen, und nur für /festpreis-garantie/, /premium/, /agb/ und Ratgeberseiten, die über die
+# Rechtslage aufklären und diese Wörter bestreiten müssen („es gibt keine Lizenz und keine
+# Meisterpflicht"). Nie für Stadttexte, Eintragsbeschreibungen oder die Startseite
+# (wiki/seo/copy-gate.md). „Garantie" und „garantiert" (Stamm garantie*) führt die Skill-Liste
+# im selben Block; der Programmname „Festpreis-Garantie" ist in lint_copy.py ausgenommen.
 
 # Was die Liste der Skill schon führt (unschlagbar*, blitzschnell*, Marktführer,
 # „Ihr Partner für" …), steht hier nicht noch einmal: doppelte Einträge melden denselben Satz

@@ -14,7 +14,8 @@ templates/astro/
 │   │                         Stadt-Mindestzahl und Zusammenlegen (foldMaxKm hält entfernte Orte als
 │   │                         indexierte Seiten), Nachbarstädte über Landesgrenzen, Reihenfolge,
 │   │                         noindex-Menge, Öffnungszeiten mit deutschen Tagesnamen,
-│   │                         Telefonnummern nach E.164, Siegelzustand aus geprueft/geprueft_jahr
+│   │                         Telefonnummern nach E.164, Garantiezustand aus geprueft/geprueft_jahr
+│   │                         und den drei Preisen garantie_tag/garantie_nacht/garantie_anfahrt
 │   ├── styles/global.css     nur Aufbau; die Marken kommen aus site.json
 │   ├── styles/fonts.css      selbst gehostete Schriften, nie von Google geladen
 │   ├── layouts/Base.astro    head, lang="de", robots, canonical, OG, Marken, Site-Schema,
@@ -22,8 +23,8 @@ templates/astro/
 │   ├── layouts/Resource.astro  Ratgeberseiten aus Markdown (Article-Schema, Verfasserzeile)
 │   ├── components/           JsonLd · Breadcrumbs (fünf Ebenen) · Card · Rating · Faq ·
 │   │                         AttributeGrid · ClaimCta · FeaturedBand · DirectoryHub ·
-│   │                         SearchForm · SocialLinks · Byline · SiegelBadge (Geprüft / Noch
-│   │                         nicht geprüft) · MapPlaceholder (Karte erst nach Klick)
+│   │                         SearchForm · SocialLinks · Byline · Garantie (Festpreis-Garantie mit
+│   │                         drei Preisen / Noch keine Festpreis-Garantie) · MapPlaceholder (Karte erst nach Klick)
 │   └── pages/
 │       ├── index.astro                       Startseite: Kopfbereich, Bundeslandkarten,
 │       │                                     Städtekarten, Premium-Block, Ratgeber, Fragen
@@ -35,8 +36,8 @@ templates/astro/
 │       ├── search.astro · search-index.json.ts   Suche im Browser -> /suche/ (noindex)
 │       ├── claim.astro                       -> /eintrag-beanspruchen/
 │       ├── featured.astro                    -> /premium/
-│       ├── siegel.astro                      -> /siegel/ (die sechs Kriterien)
-│       ├── siegel/antrag.astro               -> /siegel/antrag/ (der Fragebogen)
+│       ├── festpreis-garantie/index.astro    -> /festpreis-garantie/ (drei Teile, sechs Voraussetzungen)
+│       ├── festpreis-garantie/antrag/        -> /festpreis-garantie/antrag/ (der Garantie-Antrag)
 │       ├── about.astro · contact.astro       -> /ueber-uns/ · /kontakt/
 │       ├── impressum.astro                   -> /impressum/   PFLICHT, § 5 DDG, aus site.json
 │       ├── datenschutz.astro                 -> /datenschutz/ PFLICHT, Art. 13 DSGVO, aus site.json

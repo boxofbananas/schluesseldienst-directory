@@ -8,7 +8,7 @@ Zeile ergänzen und `log.md` fortschreiben.
 ## Der Vertrag und das Protokoll
 - [konventionen](konventionen.md): der verbindliche Vertrag der deutschen Fassung – Projekt,
   Domain, Herausgeber, die dreistufige URL-Tabelle, die 16 Bundesland-Slugs, Umlautregel,
-  Telefon- und Öffnungszeitenformat, Sprache und Ton, die Wortliste, das Siegel-Programm, die
+  Telefon- und Öffnungszeitenformat, Sprache und Ton, die Wortliste, die Festpreis-Garantie, die
   Rechtspflichten und die Reihenfolge der zulässigen Quellen. **Nur lesen, nie ändern.**
 - [log](log.md): fortgeschriebenes Protokoll jedes Gates und jeder Änderung, neueste Zeile
   unten.
@@ -23,13 +23,16 @@ Zeile ergänzen und `log.md` fortschreiben.
   Mindestzahl und `foldMaxKm`, Navigation und Fußbereich mit der Rechtszeile.
 - [page-types](framework/page-types.md): jeder Seitentyp mit Pflichtinhalten und
   Wortuntergrenzen, die Bundesland-Seite als neuer Typ, Impressum und Datenschutz als
-  Pflichtseiten, die Siegelseiten, die Größenklassen der Stadtseite, die Ortsregel für
+  Pflichtseiten, die Garantieseiten, die Größenklassen der Stadtseite, die Ortsregel für
   Stadttexte und die verbotenen Wörter, die Bildregel.
-- [siegel-programm](framework/siegel-programm.md): **neu.** Die zwei Stufen (geprüft
-  kostenlos, Sichtbarkeit kostenpflichtig), die sechs veröffentlichten Prüfkriterien, was das
-  Siegel nicht ist, Jahreszahl und jährliche Erneuerung, Entzug bei belegten Beschwerden, der
-  Arbeitsablauf von `/siegel/antrag/` bis zum Neubau, und „Noch nicht geprüft" als
-  Verkaufsanlass.
+- [siegel-programm](framework/siegel-programm.md): **die Festpreis-Garantie** (die Datei heißt
+  noch nach dem alten Namen des Programms, damit die Wikilinks halten). Warum eine Garantie und
+  kein Prüfzeichen, die drei Teile (Preis vor dem Anruf, der Preis ist der Rechnungspreis,
+  Verstoß hat Folgen), die zwei Stufen (Garantie kostenlos, Sichtbarkeit kostenpflichtig), die
+  sechs Voraussetzungen, die Spalten `geprueft`, `geprueft_jahr`, `garantie_tag`,
+  `garantie_nacht`, `garantie_anfahrt`, der Arbeitsablauf von `/festpreis-garantie/antrag/` bis
+  zum Neubau, der Entzug nach Rechnung, die jährliche Erneuerung als Anrufgrund, „Noch keine
+  Festpreis-Garantie" als Verkaufsanlass und die reservierte Stufe Preisschutz.
 - [listings-cleaning](framework/listings-cleaning.md): die Regeln von Gate 2, die Zuordnung
   zum Bundesland statt eines Bundesstaatfilters, die deutschen Branchenwörter mit
   umlautunabhängigem Vergleich, und die vier Listen, mit denen der Bericht die fremden
@@ -43,7 +46,8 @@ Zeile ergänzen und `log.md` fortschreiben.
   Vorgang zum öffentlichen Preis.
 - [monetization-slots](framework/monetization-slots.md): die Stufen mit Europreisen, die
   Landkreis- und Bundesland-Stufe als später zu aktivieren, die zwei Türen (beanspruchen und
-  Siegel beantragen), die beiden Eintragszustände, das Siegelschnipsel als HTML und die
+  Festpreis-Garantie beantragen), die beiden Eintragszustände, der Garantie-Nachweis als HTML
+  und die
   Ansprache, die das Verzeichnis ermöglicht.
 - [outscraper-columns](framework/outscraper-columns.md): das Spaltenlayout der Eintrags-CSV,
   wie der DataForSEO-Abruf darauf abbildet, welche Spalten die Verarbeitung benutzt, die neuen
@@ -52,20 +56,20 @@ Zeile ergänzen und `log.md` fortschreiben.
 - [master-template](framework/master-template.md): `templates/astro/` ist der Aufbau und wiegt
   am schwersten; der Referenzbau als englisches Pilotprojekt ist Maßstab für Aufbau und Optik
   und nie für Inhalt; Abschnitt für Abschnitt mit der neuen Bundesland-Ebene, dem
-  Siegelzeichen und dem Kartenplatzhalter; was eine Optikvorlage ändern darf und was nicht.
+  Garantie-Zeichen und dem Kartenplatzhalter; was eine Optikvorlage ändern darf und was nicht.
 - [design-seed](framework/design-seed.md): die Optikfrage in Gate 1, das Ableiten der
   Gestaltungsmarken in Gate 4, Vorgabe und Rückfall, Augenbrauen und Zeichen nur von der
   Vorlage, die wegzugestaltenden Merkmale, selbst gehostete Schriften, und was längere
   deutsche Wörter an der Optik ändern.
 - [refresh-and-upkeep](framework/refresh-and-upkeep.md): keine Zugänge und zwei von Hand
-  geprüfte Türen, Neubau bei Änderung, die jährliche Erneuerung und der Entzug des Siegels,
+  geprüfte Türen, Neubau bei Änderung, die jährliche Erneuerung und der Entzug der Festpreis-Garantie,
   Geldseiten als allgemeiner Auffrischungsrat, und der Pflichtweg für Korrektur und Löschung.
 - [authority-and-links](framework/authority-and-links.md): wie das Verzeichnis nach dem Start
-  stark wird – das Siegel als wichtigste Linkquelle, Pressemitteilungen, Ratgeberseiten mit
+  stark wird – der Garantie-Nachweis als wichtigste Linkquelle, Pressemitteilungen, Ratgeberseiten mit
   belegten Quellen, örtliche Ansprache, der saisonale Anlass, und keine Linkgeschäfte mit den
   eigenen Websites.
 - [mail-worker](framework/mail-worker.md): nach dem Start, wahlweise – die echte Adresse mit
-  Empfangsbestätigung, Einordnung durch Claude und Prüfseite, die neue Anfrageart „Siegel",
+  Empfangsbestätigung, Einordnung durch Claude und Prüfseite, die neue Anfrageart „Festpreis-Garantie" (`garantie_request`),
   die Prüfregel in den Entwürfen, deutsche Texte mit Sie-Anrede, das Einrichten und die
   Fehlersuche.
 - [gate-1-intake](framework/gate-1-intake.md): was feststeht und nicht gefragt wird, und die
@@ -88,7 +92,7 @@ Zeile ergänzen und `log.md` fortschreiben.
   Erweitern über die Ebenen, und die zusätzlichen Prüfungen dieser Fassung zu Impressum,
   Datenschutz und externen Ladungen.
 - [copy-gate](seo/copy-gate.md): das Textgate von Gate 5 – welcher Befehl welchen Block
-  prüft, warum das Band der gebauten Startseite 800 bis 1.500 und das der Siegel-Seite 700
+  prüft, warum das Band der gebauten Startseite 800 bis 1.500 und das der Garantie-Seite 700
   bis 1.200 ist, warum das Band der Bundesland-Seite erst nach dem Einleitungstext greift,
   **der Schalter `--erlaube-rechtswoerter` und die drei Seiten, für die er gilt**, die
   verbotenen Wörter dieser Fassung mit Begründung, und wofür die seo-content-engine-Skill da
@@ -96,7 +100,7 @@ Zeile ergänzen und `log.md` fortschreiben.
 
 ## Abschnittsfolgen
 - [page-sections](components/page-sections.md): die Abschnittsfolge jedes Seitentyps, wie das
-  Template sie liefert, mit den Bundeslandkarten, den Siegelseiten, dem Siegelzeichen auf
+  Template sie liefert, mit den Bundeslandkarten, den Garantieseiten, dem Garantie-Zeichen auf
   jeder Karte und der Rechtszeile im Fußbereich.
 
 ## Referenzen
@@ -107,10 +111,10 @@ Zeile ergänzen und `log.md` fortschreiben.
 
 ## Vorlagen (außerhalb des Wikis)
 - [claim-form.html](../templates/claim-form.html): die beiden Formulare ohne eigenen Server –
-  Eintrag beanspruchen und Siegel beantragen.
+  Eintrag beanspruchen und der Garantie-Antrag mit den drei Preisen als Pflichtfeldern.
 - [featured-tiers.md](../templates/featured-tiers.md): die Stufen mit Europreisen, die später
-  zu aktivierenden Stufen, wohin die Stripe-Zahlungslinks gehören, und das Siegelschnipsel als
-  HTML. Die Spaltenwerte sind englisch (`featured` = `city`, `county`, `state`), weil der Code
+  zu aktivierenden Stufen, wohin die Stripe-Zahlungslinks gehören, und der Garantie-Nachweis als
+  HTML, der kostenlos ist und zu keiner Stufe gehört. Die Spaltenwerte sind englisch (`featured` = `city`, `county`, `state`), weil der Code
   sie so liest, und die Stufennamen sind dort festgelegt.
 - [astro/](../templates/astro/README.md): das vollständige Astro-Projekt, das Gate 5 nach
   `output/<slug>/site/` kopiert und füllt.

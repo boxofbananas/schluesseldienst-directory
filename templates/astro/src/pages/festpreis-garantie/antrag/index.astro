@@ -1,0 +1,163 @@
+---
+// Garantie-Antrag: das Formular, auf das jeder Eintrag ohne Garantie verweist. noindex.
+// Die Felder spiegeln die sechs Voraussetzungen aus /festpreis-garantie/ und fragen die drei
+// Preise verbindlich ab. Feldnamen sind mit templates/claim-form.html und dem Mail-Worker
+// abgestimmt; wer eines umbenennt, muss beide mitziehen (wiki/framework/siegel-programm.md).
+import Base from '../../../layouts/Base.astro';
+import { loadDirectory } from '../../../lib/load.mjs';
+const { site } = loadDirectory();
+const title = `Festpreis-Garantie beantragen | ${site.brand}`;
+const description = `Die Festpreis-Garantie auf ${site.brand} beantragen: drei Preise nennen, Serviceversprechen abgeben, kostenlose Prüfung in wenigen Tagen.`;
+---
+<Base title={title} description={description} path="/festpreis-garantie/antrag/" noindex={true}>
+  <Fragment slot="head">
+    <h1>Festpreis-Garantie beantragen</h1>
+  </Fragment>
+  <div class="prose">
+    <p>
+      Die Prüfung ist kostenlos und dauert wenige Tage. Was die Garantie bedeutet, wer sie gibt und was
+      bei einem Verstoß passiert, steht auf der Seite <a href="/festpreis-garantie/">Festpreis-Garantie</a>.
+      Wir melden uns per E-Mail – auch dann, wenn eine Voraussetzung noch nicht erfüllt ist, und sagen
+      Ihnen welche.
+    </p>
+    <p>
+      Die drei Preise, die Sie hier nennen, stehen nach der Prüfung öffentlich in Ihrem Eintrag und auf
+      Ihrer Stadtseite. Nennen Sie deshalb die Preise, die Sie Ihren Kunden tatsächlich in Rechnung
+      stellen. Ändern können Sie sie jederzeit per E-Mail; die Änderung gilt, sobald sie im Eintrag steht.
+    </p>
+    <p>
+      Bitte verwenden Sie eine E-Mail-Adresse der eigenen Firmen-Domain. Anträge von freien Postfächern
+      können wir nur bearbeiten, wenn wir die Zugehörigkeit zum Betrieb auf andere Weise feststellen
+      können.
+    </p>
+  </div>
+
+  <div class="claim-sent" id="garantie-sent" hidden>
+    <h2>Danke, Ihr Antrag ist angekommen.</h2>
+    <p>
+      Wir sehen uns Impressum, Preise und Erreichbarkeit an und melden uns innerhalb weniger Tage per
+      E-Mail bei Ihnen. Wenn eine Voraussetzung noch nicht erfüllt ist, sagen wir Ihnen welche – meist
+      lässt sich das schnell beheben.
+    </p>
+    <p><a class="btn" href="/">Zurück zum Verzeichnis</a></p>
+  </div>
+
+  <form action={site.contact.formEndpoint} method="POST" class="claim-form" id="garantie-form">
+    <input type="hidden" name="_subject" value={`Garantie-Antrag auf ${site.brand}`} />
+    <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true" />
+    <input type="hidden" name="formular" value="garantie-antrag" />
+    <input type="hidden" name="eintrag" id="eintrag" value="" />
+
+    <h2>Angaben zum Betrieb</h2>
+    <label>Firma, genau wie im Impressum <input name="firma" id="firma" required /></label>
+    <label>Straße und Hausnummer <input name="strasse" required /></label>
+    <label>Postleitzahl <input name="plz" required /></label>
+    <label>Ort <input name="ort" required /></label>
+    <label>Website <input type="url" name="website" placeholder="https://" required /></label>
+    <label>
+      Adresse Ihrer Impressumsseite
+      <input type="url" name="impressum_url" placeholder="https://" required />
+      <small class="meta">Voraussetzung 1: vollständiges Impressum mit Firma, Anschrift, Vertretungsberechtigtem und Kontaktmöglichkeit.</small>
+    </label>
+    <label>
+      Telefonnummer, unter der Ihr Betrieb selbst erreichbar ist
+      <input type="tel" name="telefon" required />
+      <small class="meta">Voraussetzung 2: Festnetz- oder Mobilnummer, die zum Betrieb gehört. Wir rufen dort an.</small>
+    </label>
+    <label>
+      Link zu Ihrem Google-Unternehmensprofil
+      <input type="url" name="google_profil" placeholder="https://" required />
+      <small class="meta">Voraussetzung 4: mindestens zehn öffentliche Bewertungen bei einem Durchschnitt von mindestens 4,0.</small>
+    </label>
+
+    <h2>Ansprechperson</h2>
+    <label>Vor- und Nachname <input name="ansprechperson" required /></label>
+    <label>
+      Rolle im Betrieb
+      <select name="rolle" required>
+        <option value="">Bitte wählen</option>
+        <option>Inhaberin oder Inhaber</option>
+        <option>Geschäftsführung</option>
+        <option>angestellt und bevollmächtigt</option>
+        <option>Agentur im Auftrag des Betriebs</option>
+      </select>
+    </label>
+    <label>E-Mail-Adresse <input type="email" name="email" required /></label>
+
+    <h2>Ihre garantierten Preise</h2>
+    <p class="meta">
+      Voraussetzung 3. Ganze Euro-Beträge, Endpreise einschließlich Umsatzsteuer, so wie sie auf der
+      Rechnung stehen. Diese drei Zahlen werden veröffentlicht.
+    </p>
+    <label>
+      Türöffnung tagsüber (zugefallene oder abgeschlossene Tür ohne Schaden, werktags)
+      <input type="number" name="garantie_tag" min="1" max="2000" step="1" inputmode="numeric" placeholder="z. B. 89" required />
+    </label>
+    <label>
+      Türöffnung nachts, am Wochenende und an Feiertagen
+      <input type="number" name="garantie_nacht" min="1" max="2000" step="1" inputmode="numeric" placeholder="z. B. 129" required />
+    </label>
+    <label>
+      Anfahrt (0 eintragen, wenn im Preis enthalten)
+      <input type="number" name="garantie_anfahrt" min="0" max="500" step="1" inputmode="numeric" placeholder="z. B. 0" required />
+    </label>
+    <label>
+      Weitere Zuschläge, die Sie vorab nennen (optional)
+      <input name="zuschlaege_sonstige" placeholder="z. B. Schlossersatz ab 60 €, sonst keine" />
+    </label>
+
+    <h2>Serviceversprechen</h2>
+    <p class="meta">Voraussetzung 6. Alle vier Zusagen sind Bedingung für die Garantie.</p>
+    <label class="check"><input type="checkbox" name="versprechen_rechnungspreis" value="ja" required /> Der genannte Preis ist der Preis auf der Rechnung. Wir bestätigen ihn vor Arbeitsbeginn, und er gilt.</label>
+    <label class="check"><input type="checkbox" name="versprechen_zuschlaege" value="ja" required /> Wir erheben keine Zuschläge, die nicht vorher ausdrücklich beziffert wurden.</label>
+    <label class="check"><input type="checkbox" name="versprechen_rechnung" value="ja" required /> Jeder Auftrag wird mit einer Rechnung abgerechnet, die die vollständige Firmenanschrift trägt.</label>
+    <label class="check"><input type="checkbox" name="versprechen_zerstoerungsfrei" value="ja" required /> Wir öffnen zerstörungsfrei, soweit es technisch möglich ist, und erklären vorher, wenn ein Schloss ersetzt werden muss.</label>
+    <label>
+      Unterschrift: Ihr vollständiger Name
+      <input name="unterschrift" required />
+      <small class="meta">Mit der Eingabe Ihres Namens geben Sie die Garantie und das Serviceversprechen für Ihren Betrieb verbindlich ab.</small>
+    </label>
+
+    <h2>Weitere Angaben</h2>
+    <label>
+      Gewerbeanmeldung liegt vor
+      <select name="gewerbeanmeldung" required>
+        <option value="">Bitte wählen</option>
+        <option>ja</option>
+        <option>nein</option>
+      </select>
+    </label>
+    <label>Eintrag im Handelsregister <input name="handelsregister" placeholder="Registergericht und Nummer, falls vorhanden" /></label>
+    <label>
+      Anrufe gehen an
+      <select name="anrufannahme" required>
+        <option value="">Bitte wählen</option>
+        <option>direkt an den Betrieb</option>
+        <option>an eine Zentrale, die den Betrieb namentlich nennt</option>
+        <option>an einen Vermittlungsdienst</option>
+      </select>
+      <small class="meta">Voraussetzung 5: ein Vermittlungsdienst ohne Ortsbezug schließt die Garantie aus.</small>
+    </label>
+    <label>Anmerkungen <textarea name="anmerkungen" rows="4"></textarea></label>
+
+    <label class="check">
+      <input type="checkbox" name="datenschutz" value="ja" required />
+      Ich habe die <a href="/datenschutz/">Datenschutzerklärung</a> gelesen und weiß, wie die hier
+      gemachten Angaben zur Bearbeitung dieses Antrags verarbeitet werden und dass die drei Preise
+      veröffentlicht werden.
+    </label>
+
+    <button class="btn" type="submit">Antrag absenden</button>
+    <p class="meta">
+      Die Prüfung ist kostenlos. Die Garantie kann nicht gekauft werden. Bezahlte Plätze in diesem
+      Verzeichnis sind davon unabhängig und als bezahlt gekennzeichnet.
+    </p>
+  </form>
+
+  <script is:inline>
+    var q = new URLSearchParams(location.search);
+    if (q.get('gesendet') || q.get('sent')) { document.getElementById('garantie-form').hidden = true; document.getElementById('garantie-sent').hidden = false; }
+    if (q.get('eintrag')) document.getElementById('eintrag').value = q.get('eintrag');
+    if (q.get('betrieb')) document.getElementById('firma').value = q.get('betrieb');
+  </script>
+</Base>

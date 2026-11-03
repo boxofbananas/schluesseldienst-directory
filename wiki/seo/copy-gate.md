@@ -31,7 +31,8 @@ nachbessern, erneut laufen lassen.
 | Bundesland-Seite (gebaut) | `python3 scripts/lint_copy.py output/<slug>/site/dist/verzeichnis/<bundesland>/index.html --min-words 300 --max-words 500` | Seitenband, Verbote, Gedankenstriche. **Das Band greift erst, wenn Gate 5 den Einleitungstext geschrieben hat** (siehe unten) |
 | „Über uns" (gebaut) | `python3 scripts/lint_copy.py output/<slug>/site/dist/ueber-uns/index.html --min-words 300 --max-words 500` | Seitenband, Verbote, Gedankenstriche |
 | Startseite (gebaut) | `python3 scripts/lint_copy.py output/<slug>/site/dist/index.html --min-words 800 --max-words 1500 --niche "schlüsseldienste"` | Seitenband, Branchenwort früh, Verbote, Gedankenstriche. Der Ratgeberblock darin bleibt bei 400 bis 600 Wörtern und die Fragen bei 5 bis 8 |
-| Siegel-Seite (gebaut) | `python3 scripts/lint_copy.py output/<slug>/site/dist/siegel/index.html --min-words 700 --max-words 1200 --erlaube-rechtswoerter` | Seitenband, Floskelverbote. Die Rechtswörter sind hier zugelassen (siehe unten). **Zusätzlich von Hand prüfen:** alle sechs Kriterien stehen da, der Satz „kein Test vor Ort" steht da, der Satz zur Nichtkäuflichkeit steht da ([[siegel-programm]]) |
+| Garantie-Seite (gebaut) | `python3 scripts/lint_copy.py output/<slug>/site/dist/festpreis-garantie/index.html --min-words 700 --max-words 1200 --erlaube-rechtswoerter` | Seitenband, Floskelverbote. Die Rechtswörter und „Garantie"/„garantiert" sind hier zugelassen (siehe unten). **Zusätzlich von Hand prüfen:** alle sechs Voraussetzungen stehen da, die drei Teile der Garantie stehen da, der Satz „kein Test vor Ort" steht da, der Satz „die Garantie gibt der Betrieb" steht da, der Satz zur Nichtkäuflichkeit steht da, der Weg zur Meldung einer Rechnung steht da ([[siegel-programm]]) |
+| Premium-Seite (gebaut) | `python3 scripts/lint_copy.py output/<slug>/site/dist/premium/index.html --max-words 400 --erlaube-rechtswoerter` | Floskelverbote, Gedankenstriche. Der Schalter nur wegen des Satzes „Die Garantie ist nicht kaufbar. Bezahlt wird nur Sichtbarkeit." ([[page-types]]) |
 | AGB (gebaut) | `python3 scripts/lint_copy.py output/<slug>/site/dist/agb/index.html --erlaube-rechtswoerter` | Floskelverbote, Gedankenstriche; kein Wortband (eine Rechtsseite wird nicht auf Länge geschrieben) |
 | Ratgeberseite | `python3 scripts/lint_copy.py output/<slug>/site/src/pages/ratgeber/<slug>.md --min-words 1200 --niche "<thema>"` | 1.200 Wörter oder mehr, Thema früh, Verbote, Gedankenstriche. Klärt die Seite über die Rechtslage auf, dann mit `--erlaube-rechtswoerter` |
 
@@ -65,11 +66,12 @@ deutsche Beschriftungen länger sind. Mit dem Ratgeber bei 400 bis 600 und den F
 8 muss die Obergrenze 1.500 sein, damit beide Bänder zugleich halten. Der geschriebene Text
 sind etwa 800 bis 1.200 Wörter.
 
-**Warum das Band der Siegel-Seite 700 bis 1.200 ist.** `/siegel/` muss alle sechs
-Prüfkriterien, das vollständige Serviceversprechen **und** die Aufklärung über die Rechtslage
-tragen ([[siegel-programm]], [[konventionen]]); das sind drei Pflichtteile, die zusammen unter
-700 Wörtern nicht ohne Auslassung hineinpassen (der Probebau vom 03.11.2026 kam auf 784 Wörter
-und war vollständig, fiel aber am alten Band 400 bis 700 durch).
+**Warum das Band der Garantie-Seite 700 bis 1.200 ist.** `/festpreis-garantie/` muss die drei
+Teile der Garantie, alle sechs Voraussetzungen, das vollständige Serviceversprechen **und** die
+Aufklärung über die Rechtslage tragen ([[siegel-programm]], [[konventionen]]); das sind
+Pflichtteile, die zusammen unter 700 Wörtern nicht ohne Auslassung hineinpassen (der Probebau
+der Vorgängerseite vom 03.11.2026 kam auf 784 Wörter und war vollständig, fiel aber am alten
+Band 400 bis 700 durch).
 
 **Warum das Band der Bundesland-Seite erst später greift.** Die Vorlage
 (`templates/astro/src/pages/verzeichnis/[bundesland]/index.astro`) setzt den Einleitungstext aus
@@ -89,7 +91,7 @@ Bundesland-Seiten laufen ohne Einleitung, mit ausgesetztem Band.
 ## 1a. Der Schalter für die Rechtswörter
 
 `forbidden_words.txt` verbietet die Rechts- und Amtswörter („lizenziert", „zugelassen",
-„zertifiziert", „Meisterpflicht", „Kammer", „amtlich", „Gütesiegel", „staatlich", „getestet")
+„zertifiziert", „Meisterpflicht", „Kammer", „amtlich", „Testsieger", „staatlich", „getestet")
 ausdrücklich **auch in Verneinungen**. Für die Seiten, die nach [[konventionen]] genau darüber
 aufklären müssen („Der Schlüsseldienst ist kein zulassungspflichtiges Handwerk … wer mit
 ‚lizenziert‘ wirbt, sagt nichts aus"), ist das ein Widerspruch, der sich nicht durch Umschreiben
@@ -103,8 +105,10 @@ schreibt eine Hinweiszeile, dass der Schalter an war.
 
 **Der Schalter gilt ausschließlich für:**
 
-- `/siegel/` – die sechs Kriterien und die Aufklärung, was das Siegel nicht ist
-- `/agb/` – die Rechtsseite zu den bezahlten Stufen und zum Siegel
+- `/festpreis-garantie/` – die drei Teile, die sechs Voraussetzungen und die Aufklärung, was die
+  Garantie nicht ist
+- `/premium/` – wegen des Satzes zur Nichtkäuflichkeit der Garantie
+- `/agb/` – die Rechtsseite zu den bezahlten Stufen und zur Garantie
 - Ratgeberseiten, die über die Rechtslage aufklären (kein zulassungspflichtiges Handwerk, keine
   Lizenz, keine Meisterpflicht)
 
@@ -114,6 +118,33 @@ verhindert. Auch mit Schalter gilt: kein Satz behauptet eine Lizenz, eine Zulass
 amtliche Rolle; die Wörter stehen nur in der Verneinung oder als Zitat der Werbung anderer.
 `scripts/check_city_copy.py` kennt den Schalter nicht und wird ihn nie bekommen: Stadttexte
 werden immer gegen die vollständige Liste geprüft.
+
+### 1b. „Garantie" und „garantiert"
+
+Seit das Programm Festpreis-Garantie heißt (2026-11-03), ist das Wort in zwei Rollen unterwegs:
+als Name des Programms und als Werbeversprechen eines Betriebs. Die Regel:
+
+- **Der Programmname „Festpreis-Garantie"**, genau so, mit Bindestrich, ist **überall**
+  erlaubt: auf jedem Eintrag („Festpreis-Garantie 2026" oder „Noch keine Festpreis-Garantie"),
+  auf jeder Stadtkarte, auf der Startseite, auf „Über uns". `scripts/lint_copy.py` nimmt ihn vor
+  dem Vergleich aus dem Text (`PROGRAMMNAME`), damit die Startseite ohne Schalter besteht.
+- **Jede andere Form** – „Garantie", „garantiert", „garantieren", „Festpreisgarantie" ohne
+  Bindestrich, „Zufriedenheitsgarantie", „kostenlose Anfahrt garantiert" – steht als Stamm
+  `garantie*` und als Wendungen im Rechtsblock von `forbidden_words.txt`: ohne Schalter ein
+  Treffer, mit `--erlaube-rechtswoerter` zugelassen. Zugelassen ist das Wort damit auf
+  `/festpreis-garantie/` (die Seite erklärt, was der Betrieb garantiert), auf `/premium/` (der
+  Satz zur Nichtkäuflichkeit) und in den AGB.
+- **Im Eintrag** steht das Wort nur in dem Block, den die Seite aus den Spalten `geprueft`,
+  `geprueft_jahr`, `garantie_tag`, `garantie_nacht` und `garantie_anfahrt` baut: „Festpreis-
+  Garantie 2026", die drei Preise, der Satz, dass der Betrieb den genannten Preis als
+  Rechnungspreis garantiert. Dieser Block kommt aus dem Template und wird nicht gelintet.
+- **Ein Betrieb ohne Garantie darf in seiner Beschreibung nicht „garantiert" sagen**, und ein
+  Betrieb mit Garantie auch nicht: die Garantie zeigt die Seite, nicht sein Text. Die
+  Beschreibungen prüft `scripts/merge_enriched.py` in Gate 3 gegen die vollständige Liste, ohne
+  Schalter und ohne die Ausnahme für den Programmnamen; dort ist auch „Festpreis-Garantie" ein
+  Treffer, weil eine Beschreibung das Programm nie erwähnt (`scripts/enrichment-instructions.md`).
+- Stadttexte: wie Beschreibungen, vollständige Liste, nie der Schalter. Wer in einem Stadttext
+  auf das Programm hinweisen will, schreibt den Programmnamen und sonst nichts mit diesem Stamm.
 
 ## 2. Was der Prüfer zusätzlich fängt
 
@@ -133,17 +164,20 @@ python3 scripts/check_city_copy.py --copy output/<slug>/05-cache/city-copy \
 
 Für diese Fassung kommt dazu, was in keinem sichtbaren Text vorkommen darf und von Hand oder
 über `scripts/copy-bans.txt` geprüft wird (zu den beiden Rechtsblöcken siehe Abschnitt 1a: nur
-`/siegel/`, `/agb/` und Ratgeberseiten zur Rechtslage dürfen sie bestreiten):
+`/festpreis-garantie/`, `/premium/`, `/agb/` und Ratgeberseiten zur Rechtslage dürfen sie
+bestreiten):
 
 - **„lizenziert", „zugelassen", „zertifiziert", „Meisterbetrieb" als Gütezeichen,
   „Konzession".** Schlüsseldienst ist kein zulassungspflichtiges Handwerk; es gibt keine
   Lizenz und keine Meisterpflicht ([[konventionen]]).
 - **„Innung", „Verband", „Kammer", „amtlich", „offiziell geprüft", „Verbraucherschutz",
   „getestet".** Grund: Verwechslungsgefahr mit einer amtlichen Stelle. Das Verzeichnis ist
-  ein privates Angebot der DOM Holding GmbH, und sein Siegel ist seine eigene Auszeichnung
-  ([[siegel-programm]]).
-- **„geprüft"** nur im Zusammenhang mit dem Siegel und seinem Jahr, nie als allgemeines Lob
-  für einen Betrieb.
+  ein privates Angebot der DOM Holding GmbH, und seine Festpreis-Garantie ist ein Versprechen
+  des Betriebs, das der Herausgeber veröffentlicht und überwacht ([[siegel-programm]]).
+- **„geprüft"** nie als allgemeines Lob für einen Betrieb; sichtbar heißt der Zustand
+  „Festpreis-Garantie [Jahr]", nicht „geprüft".
+- **„Garantie", „garantiert"** nach Abschnitt 1b: nur der Programmname „Festpreis-Garantie" ist
+  frei, alles andere nur mit Schalter auf den dort genannten Seiten.
 - **Jeder Preis und jede Preisspanne in Euro** in Stadt-, Bundesland- und Eintragstexten.
   Erlaubt sind Preise nur auf `/premium/` und in den AGB (die eigenen Stufen) und in einer
   Ratgeberseite, wenn eine amtliche Quelle sie belegt und als deren Angabe genannt wird

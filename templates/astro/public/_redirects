@@ -14,3 +14,5 @@
 /terms/ /agb/ 301
 /search/ /suche/ 301
 /resources/* /ratgeber/:splat 301
+/siegel/antrag/ /festpreis-garantie/antrag/ 301
+/siegel/ /festpreis-garantie/ 301

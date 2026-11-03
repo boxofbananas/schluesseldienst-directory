@@ -1,8 +1,8 @@
 ---
-// Der Nachweis, den der Betrieb kopiert. noindex. Nur für geprüfte Betriebe, damit das Bild unter
+// Der Garantie-Nachweis, den der Betrieb kopiert. noindex. Nur fuer Betriebe mit Garantie, damit das Bild unter
 // /auszeichnung/<slug>.svg immer vorhanden ist.
 import Base from '../../../layouts/Base.astro';
-import { loadDirectory } from '../../../lib/load.mjs';
+import { loadDirectory, fmtEuro } from '../../../lib/load.mjs';
 export function getStaticPaths() {
   const { listings } = loadDirectory();
   return listings.filter((l) => l.geprueft).map((l) => ({ params: { slug: l.slug }, props: { slug: l.slug } }));
@@ -12,16 +12,16 @@ const { site, listings, buildDate } = loadDirectory();
 const l = listings.find((x) => x.slug === slug);
 const base = `https://${site.domain}`;
 const jahr = (l.geprueftJahr || '').trim() || buildDate.slice(0, 4);
-const alt = `${l.name} ist geprüfter ${site.niche.singular} ${jahr} auf ${site.brand}`;
+const alt = `${l.name}: Festpreis-Garantie ${jahr} auf ${site.brand}, Türöffnung ab ${fmtEuro(l.garantie.tag)}`;
 const snippet = `<a href="${base}${l.path}" rel="noopener">\n  <img src="${base}/auszeichnung/${l.slug}.svg" alt="${alt.replace(/"/g, '&quot;')}" width="260" height="64">\n</a>`;
 ---
-<Base title={`Ihr Siegel | ${site.brand}`} description={`Siegel-Baustein für ${l.name}.`} path={`/auszeichnung/${l.slug}/`} noindex={true}>
-  <h1>Ihr Siegel von {site.brand}</h1>
+<Base title={`Ihr Garantie-Nachweis | ${site.brand}`} description={`Garantie-Nachweis für ${l.name}.`} path={`/auszeichnung/${l.slug}/`} noindex={true}>
+  <h1>Ihr Garantie-Nachweis von {site.brand}</h1>
   <div class="prose">
-    <p>Setzen Sie das auf Ihre Website, in den Fußbereich, auf die Seite „Über uns“ oder neben Ihre Bewertungen. Es zeigt das Siegel und verweist auf Ihren Eintrag.</p>
+    <p>Setzen Sie das auf Ihre Website, in den Fußbereich, auf die Startseite oder neben Ihre Bewertungen. Es zeigt Ihre Festpreis-Garantie mit Ihrem Tagespreis und verweist auf Ihren Eintrag, wo Ihre Kunden alle drei Preise nachlesen können. Der Nachweis ist kostenlos und gehört zu keiner bezahlten Stufe.</p>
     <p><img src={`/auszeichnung/${l.slug}.svg`} alt={alt} width="260" height="64" /></p>
     <pre class="snippet"><code>{snippet}</code></pre>
     <p>Geben Sie das an die Person, die Ihre Website pflegt, oder <a href="/kontakt/">sagen Sie uns, wohin es soll, dann setzen wir es ein</a>.</p>
-    <p class="meta">Das Siegel trägt die Jahreszahl {jahr}, gilt ein Jahr und wird bei belegten Beschwerden entzogen. Die Prüfkriterien stehen auf der <a href="/siegel/">Seite zum Siegel</a>.</p>
+    <p class="meta">Die Garantie trägt die Jahreszahl {jahr}, gilt ein Jahr und wird bei belegten Verstößen entzogen. Ändern sich Ihre Preise, sagen Sie uns Bescheid; das Bild wird beim nächsten Bau aktualisiert. Die Voraussetzungen stehen auf der Seite <a href="/festpreis-garantie/">Festpreis-Garantie</a>.</p>
   </div>
 </Base>

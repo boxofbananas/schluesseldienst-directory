@@ -43,10 +43,11 @@ Größenordnungen, keine Zielwerte für Deutschland.
    sich als JSON einlesen lässt, ist Googles Merkmalsdaten und kein Text
    ([[outscraper-columns]]). Die Kennzeichnung ist vorläufig: Gate 3 nimmt sie einem Eintrag
    mit fünf oder mehr Bewertungen ab, sobald dessen eigene Website echten Text geliefert hat.
-9. **Siegelspalten anlegen.** `geprueft` (leer) und `geprueft_jahr` (leer). Gate 2 setzt sie
-   nie; nur der Herausgeber setzt sie von Hand nach bestandener Prüfung
-   ([[siegel-programm]]). Leer bedeutet „Noch nicht geprüft", und so wird es auf der Seite
-   angezeigt.
+9. **Garantiespalten anlegen.** `geprueft`, `geprueft_jahr`, `garantie_tag`, `garantie_nacht`
+   und `garantie_anfahrt`, alle leer, dazu `preisschutz` (leer, reservierte Stufe, von nichts
+   ausgewertet). Gate 2 setzt sie nie; nur der Herausgeber setzt sie von Hand nach der Prüfung
+   eines Garantie-Antrags ([[siegel-programm]], [[outscraper-columns]]). Leer bedeutet „Noch
+   keine Festpreis-Garantie", und so wird es auf der Seite angezeigt.
 
 `slugify` schreibt Umlaute um, **bevor** es Sonderzeichen entfernt (`ä→ae`, `ö→oe`, `ü→ue`,
 `ß→ss`), sonst wird aus „Nürnberg" `n-rnberg`. Das gilt für `slug`, `city_slug` und den
@@ -64,8 +65,8 @@ kein Schlüsseldienst im gemeinten Sinn sind:
 2. **Kettenbetriebe.** Derselbe Firmenname an vielen Adressen in vielen Städten. Oft ist nur
    eine Adresse ein Betrieb und der Rest eine Eintragung.
 3. **Callcenter ohne Ortsbezug.** Einträge mit einer ortsfremden Nummer, ohne erreichbare
-   Anschrift, oft an mehreren Orten gleichzeitig. Sie verfehlen Kriterium 5 des Siegels
-   ([[siegel-programm]]).
+   Anschrift, oft an mehreren Orten gleichzeitig. Sie verfehlen Voraussetzung 5 der
+   Festpreis-Garantie ([[siegel-programm]]).
 
 Was das Skript dafür tut: **berichten, nicht löschen.** Der Bericht führt zusätzlich
 

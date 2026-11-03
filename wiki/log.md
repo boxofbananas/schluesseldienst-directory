@@ -113,3 +113,24 @@ Zahlen, was auf Freigabe wartet.
   Fassung nicht gibt (`KeyError` beim Einrichten des Workers); es nimmt jetzt `country.name`
   („Deutschland") für die Worker-Variable `STATE_NAME`, deren Name englisch bleibt.
   **Wartet auf:** Freigabe der deutschen Fassung, dann Gate 1.
+- **2026-11-03** **Prüfzeichen → Festpreis-Garantie.** Umgebaut, weil ein Prüfzeichen eine
+  Eigenschaft des Betriebs beschreibt, eine Garantie aber ein Versprechen an den Kunden ist, und
+  nur das Zweite dem Betrieb Kunden bringt: Der Preis steht öffentlich, vor dem Anruf, bei
+  einem Dritten, der ihn bei Verstoß wegnimmt – das kann ein einzelner Betrieb nicht nachbauen.
+  Vertrag: Abschnitt „Festpreis-Garantie" in `konventionen`. Umgesetzt: `siegel-programm` neu
+  geschrieben (Dateiname und Wikilink bleiben, Titel „Festpreis-Garantie"); Adressen
+  `/festpreis-garantie/` und `/festpreis-garantie/antrag/` überall; Spalten `garantie_tag`,
+  `garantie_nacht`, `garantie_anfahrt` und die reservierte Spalte `preisschutz` in
+  `clean_listings.py` (leer angelegt), `merge_enriched.py` (`EXTRA`, durchgereicht),
+  `outscraper-columns` und `listings-cleaning`; Garantie-Antrag in `claim-form.html` mit den
+  drei Preisen als Pflichtfeldern und den festen Feldnamen des Astro-Codes; Garantie-Nachweis in
+  `featured-tiers.md` („Festpreis-Garantie {{JAHR}} · Türöffnung ab {{GARANTIE_TAG}} €",
+  kostenlos, keiner Stufe zugeordnet); Mail-Worker-Kategorie `garantie_request`; Wortlisten:
+  Stamm `garantie*` und die Garantie-Wendungen in den Rechtsblock, Ausnahme für den
+  Programmnamen „Festpreis-Garantie" in `lint_copy.py` (`PROGRAMMNAME`), Regel in `copy-gate`
+  Abschnitt 1b, `/premium/` neu in der Prüftabelle mit Schalter; `CLAUDE.md`, `README.md` und
+  alle Wiki-Seiten auf die neue Wortwahl („Festpreis-Garantie 2026" mit drei Preisen /
+  „Noch keine Festpreis-Garantie"). `make_worker_listings.py` nimmt `geprueft` nicht mit, also
+  auch keine Preise; der Worker behandelt Einträge mit Garantie nicht gesondert. Offen:
+  `templates/astro-skeleton.md` ist über die Garantie-Zeilen hinaus veraltet (englische
+  Dateinamen, die im Template nicht mehr existieren). **Wartet auf:** Freigabe, dann Gate 1.

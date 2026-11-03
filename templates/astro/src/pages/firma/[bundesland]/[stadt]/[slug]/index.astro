@@ -4,7 +4,7 @@
 import Base from '../../../../../layouts/Base.astro';
 import Breadcrumbs from '../../../../../components/Breadcrumbs.astro';
 import Rating from '../../../../../components/Rating.astro';
-import Siegel from '../../../../../components/Siegel.astro';
+import Garantie from '../../../../../components/Garantie.astro';
 import AttributeGrid from '../../../../../components/AttributeGrid.astro';
 import SocialLinks from '../../../../../components/SocialLinks.astro';
 import ClaimCta from '../../../../../components/ClaimCta.astro';
@@ -61,7 +61,7 @@ const mapSrc = showMap ? `https://www.google.com/maps?q=${l.lat},${l.lng}&output
     {!mark && l.claimed && <p class="mark">Vom Inhaber bestätigt</p>}
     <h1>{l.name}</h1>
     <Rating rating={l.rating} reviews={l.reviews} />
-    <Siegel listing={l} />
+    <Garantie listing={l} mode="card" />
     <p class="meta">Eintrag in <a href={city.path}>{l.city}</a>, <a href={regionPath}>{l.regionName}</a></p>
   </Fragment>
 
@@ -137,12 +137,18 @@ const mapSrc = showMap ? `https://www.google.com/maps?q=${l.lat},${l.lng}&output
         {l.mapLink && <li><a href={l.mapLink} rel="nofollow noopener" target="_blank">Bei Google Maps ansehen</a></li>}
       </ul>
     </div>
-    <div class="side-card siegel-card">
-      <h2>Siegel</h2>
-      {l.geprueft
-        ? <p>Dieser Betrieb trägt das Siegel „Geprüfter {site.niche.singular}{l.geprueftJahr ? ` ${l.geprueftJahr}` : ''}“. Welche Angaben dafür geprüft werden, steht auf der <a href="/siegel/">Seite zum Siegel</a>.</p>
-        : <p>Dieser Betrieb ist noch nicht geprüft. Inhaber können das Siegel kostenlos beantragen; die Bedingungen stehen auf der <a href="/siegel/">Seite zum Siegel</a>.</p>}
-      <a class="btn side-btn" href={l.geprueft ? '/siegel/' : '/siegel/antrag/'}>{l.geprueft ? 'Prüfkriterien ansehen' : 'Siegel beantragen'}</a>
+    <div class="side-card garantie-card">
+      {!l.garantie && <h2>Festpreis-Garantie</h2>}
+      {l.garantie
+        ? <>
+            <Garantie listing={l} mode="full" />
+            <a class="btn side-btn" href="/festpreis-garantie/">So funktioniert die Garantie</a>
+          </>
+        : <>
+            <p>Dieser Betrieb hat noch keine Festpreis-Garantie hinterlegt. Betriebe mit Garantie nennen hier ihre Preise für Türöffnung und Anfahrt, bevor Sie anrufen, und garantieren, dass die Rechnung nicht höher ausfällt.</p>
+            <p class="meta">Inhaber: Die Garantie ist kostenlos und in wenigen Tagen geprüft.</p>
+            <a class="btn side-btn" href={`/festpreis-garantie/antrag/?eintrag=${encodeURIComponent(l.slug)}&betrieb=${encodeURIComponent(l.name)}`}>Festpreis-Garantie beantragen</a>
+          </>}
     </div>
     <div class="side-card claim">
       <h2>Ist das Ihr Betrieb?</h2>

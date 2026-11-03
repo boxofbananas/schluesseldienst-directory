@@ -23,12 +23,13 @@ Messwerte vor.)
 - **Jede Ortsseite**, die `foldMaxKm` freistellt. Auch sie sind indexiert.
 - **Eintragsseiten mit `thin=false`** (5 oder mehr Bewertungen und eine Beschreibung).
 - **Die Leistungsseiten und ihr Index**, sobald der Build sie hat ([[page-types]]).
-- **`/siegel/` und `/ueber-uns/`.** Das sind die beiden Vertrauensseiten, die ranken sollen:
-  `/siegel/` veröffentlicht die Prüfkriterien, `/ueber-uns/` den Herausgeber.
+- **`/festpreis-garantie/` und `/ueber-uns/`.** Das sind die beiden Vertrauensseiten, die
+  ranken sollen: `/festpreis-garantie/` veröffentlicht die drei Teile der Garantie und die
+  sechs Voraussetzungen, `/ueber-uns/` den Herausgeber.
 
 Nicht in die Sitemap, obwohl sie gebaut werden: **die Formular- und die Pflichtseiten.**
-`/siegel/antrag/`, `/eintrag-beanspruchen/`, `/premium/`, `/kontakt/`, `/impressum/`,
-`/datenschutz/` und `/agb/` setzt der Build auf `noindex` und hält sie aus der Sitemap
+`/festpreis-garantie/antrag/`, `/eintrag-beanspruchen/`, `/premium/`, `/kontakt/`,
+`/impressum/`, `/datenschutz/` und `/agb/` setzt der Build auf `noindex` und hält sie aus der Sitemap
 heraus (die Liste steht in `templates/astro/src/lib/load.mjs` als `noindexPaths`, der
 Sitemap-Filter in `astro.config.mjs`). Sie sind aus dem Fußbereich jeder Seite verlinkt und
 damit erreichbar; in den Index gehören sie nicht, weil sie nichts beantworten, wonach jemand
@@ -37,21 +38,22 @@ sucht. `scripts/check_live.py` prüft von außen, dass `/premium/` und
 bekommen:** der Code hat hier recht.
 
 Reihenfolge, in der sie eingereicht werden: Startseite, die Bundesland-Seiten, `/ueber-uns/`
-und `/siegel/`, dann die Stadtseiten von der größten zur kleinsten (Mannheim zuerst), dann
+und `/festpreis-garantie/`, dann die Stadtseiten von der größten zur kleinsten (Mannheim zuerst), dann
 die Eintragsseiten nach Bewertung und Zahl der Bewertungen.
 
 ## Was mit `noindex` startet
 
 - **Eintragsseiten mit `thin=true`.** Sie werden weiter gebaut, verlinken weiter, tragen
-  weiter Schema und zeigen weiter „Eintrag beanspruchen" und „Noch nicht geprüft" – eine
+  weiter Schema und zeigen weiter „Eintrag beanspruchen" und „Noch keine Festpreis-Garantie" – eine
   Beanspruchung ist der billigste Weg, eine dünne Seite dick zu machen
   ([[siegel-programm]]).
 - **`/verzeichnis/`**, die Blätterseite: `noindex, follow`.
 - **`/suche/`**: `noindex`.
-- **Die Formular- und Pflichtseiten** `/siegel/antrag/`, `/eintrag-beanspruchen/`, `/premium/`,
-  `/kontakt/`, `/impressum/`, `/datenschutz/`, `/agb/` und `/404/`: `noindex`, aus der Sitemap
-  heraus, aus dem Fußbereich verlinkt (siehe oben). `/siegel/` selbst **ist** indexiert.
-- **`/auszeichnung/[slug]/`**, die Siegel-Nachweisseiten: `noindex`. Sie sind Nachweis für den
+- **Die Formular- und Pflichtseiten** `/festpreis-garantie/antrag/`, `/eintrag-beanspruchen/`,
+  `/premium/`, `/kontakt/`, `/impressum/`, `/datenschutz/`, `/agb/` und `/404/`: `noindex`, aus
+  der Sitemap heraus, aus dem Fußbereich verlinkt (siehe oben). `/festpreis-garantie/` selbst
+  **ist** indexiert.
+- **`/auszeichnung/[slug]/`**, die Garantie-Nachweisseiten: `noindex`. Sie sind Nachweis für den
   Betrieb, keine Inhaltsseite.
 - **Zugeschlagene Städte** unter der Mindestzahl (sie bekommen keine Seite; ihre Einträge
   stehen auf der nächsten Stadtseite). Ein Ort jenseits von `foldMaxKm` wird nicht
@@ -109,7 +111,7 @@ bis 10 Tage.
 
 ## Die 30-Tage-Prüfung (Termin in `06-launch.md` schreiben)
 
-Indexierte Seiten, Klicks, erste Beanspruchungen, erste Siegel-Anträge, erste Anfrage nach
+Indexierte Seiten, Klicks, erste Beanspruchungen, erste Garantie-Anträge, erste Anfrage nach
 einem bezahlten Platz.
 
 ## Siehe auch
