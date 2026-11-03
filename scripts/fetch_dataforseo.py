@@ -4,8 +4,8 @@ Business Listings API und schreibt sie als input/listings-raw.csv in der Outscra
 damit scripts/clean_listings.py (Gate 2) unverändert darauf läuft.
 
 Deutschland ist für die Kategorie `locksmith` insgesamt nur etwa 8.000 bis 15.000 Einträge und
-passt damit in einen Lauf. Der Filter ist deshalb das **Land** (`address_info.country`), nicht ein
-einzelnes Bundesland. `--region` grenzt einen Lauf freiwillig auf ein Bundesland ein, zum Beispiel
+passt damit in einen Lauf. Der Filter ist deshalb das **Land** (`address_info.country_code`, ISO
+z. B. `DE`), nicht ein einzelnes Bundesland. `--region` grenzt einen Lauf freiwillig auf ein Bundesland ein, zum Beispiel
 wenn der Dienst bei tiefer Blätterung keine weiteren Seiten mehr liefert.
 
 Aufruf:
@@ -70,6 +70,18 @@ COLUMNS = ["name","phone","website","domain","address","street","city","state","
            "reviews_tags","about","description","posts","working_hours","business_status","verified",
            "photos_count","photo","logo","place_id","google_id","cid","location_link","area_service",
            "email_1","email_2","email_3","phone_1","phone_2","phone_3","last_updated_time","source"]
+
+# DataForSEO filtert das Land über address_info.country_code (ISO 3166-1 alpha-2, z. B. "DE"),
+# nicht über den von Google geschriebenen Ländernamen. Steht in --country ein Name (Vorgabe
+# "Germany"), nimmt base_task() den Code aus dieser Tabelle; ein schon zweistelliger Wert wird
+# groß geschrieben unverändert durchgereicht. Ohne die Umsetzung lehnt der Dienst das ganze
+# Feld "filters" ab (40501 Invalid Field: 'filters').
+COUNTRY_CODES = {"germany": "DE", "deutschland": "DE", "de": "DE",
+                 "österreich": "AT", "austria": "AT", "schweiz": "CH", "switzerland": "CH"}
+
+def country_code(name):
+    n = (name or "").strip()
+    return n.upper() if len(n) == 2 else COUNTRY_CODES.get(n.lower(), n)
 
 # Bundesland -> Kürzel laut wiki/konventionen.md. Beide Schreibweisen, die deutsche und die
 # englische, zeigen auf dasselbe Kürzel. Die Schlüssel werden mit fold() verglichen, deshalb sind
@@ -242,7 +254,7 @@ def base_task(a):
     country, region = _area(a)
     filters = []
     if country:
-        filters.append(["address_info.country", "=", country])
+        filters.append(["address_info.country_code", "=", country_code(country)])
     if region:
         filters += (["and"] if filters else []) + [["address_info.region", "=", region]]
     if getattr(a, "min_reviews", 0) > 0:

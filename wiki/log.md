@@ -134,3 +134,22 @@ Zahlen, was auf Freigabe wartet.
   auch keine Preise; der Worker behandelt Einträge mit Garantie nicht gesondert. Offen:
   `templates/astro-skeleton.md` ist über die Garantie-Zeilen hinaus veraltet (englische
   Dateinamen, die im Template nicht mehr existieren). **Wartet auf:** Freigabe, dann Gate 1.
+- **2026-11-03** **Gate 1 begonnen.** Build-Ordner `output/schluesseldienste-deutschland/`
+  angelegt, `01-umfang.md` erstellt. Frage 1 (eigene Betriebe) beantwortet: 21 Websites, davon
+  10 mit Telefonnummer; Erkennung in Gate 2 über `--owned-domains` und `--owned-phones` (beide
+  per `--help` als vorhanden bestätigt); Merz Sicherheit in Mannheim ist die Hauptfirma,
+  bezahlter Platz zum öffentlichen Preis erst nach dem Start. Frage 2 (Optik): Vorgabe, Marken
+  des Templates unverändert.
+  **Fehler in `fetch_dataforseo.py` behoben:** Der Länderfilter benutzte das von DataForSEO
+  ungültige Feld `address_info.country` und ließ jeden `--estimate`/Lauf mit
+  `40501 Invalid Field: 'filters'` scheitern. Gültig ist `address_info.country_code` mit
+  ISO-Code; gegen die offizielle Filterliste geprüft (alle übrigen Filter – `domain`,
+  `address_info.region`, `category`, `rating.votes_count` – sind gültig). Behoben über die
+  Tabelle `COUNTRY_CODES` und die Funktion `country_code(name)`, Docstring nachgezogen. Danach
+  Schätzung bestätigt: **3.102 `locksmith`-Einträge bundesweit, Abruf etwa 1,16 $**, ≥ 456
+  Städte, keine Branchen-Warnung. Auffällig: `address_info.region` kommt im deutschen Bestand
+  leer (Bundesland-Zuordnung erst in Gate 2).
+  Frage 3 (Datenabruf): „1, abrufen" freigegeben. Abruf gelaufen: **3.102 Zeilen** nach
+  `input/listings-raw.csv`, gemeldete Kosten **1,1771 $**, 1.266 Städte, 861 mit E-Mail,
+  `last_updated_time` 2023-05-24 bis 2026-10-07. `01-umfang.md` steht auf
+  `wartet-auf-freigabe`. **Wartet auf:** Freigabe von `01-umfang.md`, dann Gate 2.
