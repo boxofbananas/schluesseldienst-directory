@@ -190,11 +190,12 @@ Diese Entscheidungen hat der Betreiber vorab getroffen. Gate 3 und Gate 4 legen 
 
 | Frage | Vorgabe |
 |---|---|
-| Umfang der Anreicherung in Gate 3 | Vollständig nur Baden-Württemberg, Rheinland-Pfalz, Hessen sowie die 30 größten Städte bundesweit (nach Einträgen). Alle anderen Einträge bleiben dünn und werden nach der 30-Tage-Prüfung in Tranchen nachgezogen. Gate 3 nennt die Kosten für genau diesen Umfang. |
+| Umfang der Anreicherung in Gate 3 | **Alle** behaltenen Einträge, bundesweit. Geändert am 2026-11-03, nachdem der Abruf 3.102 Einträge ergab statt der geschätzten 8.000 bis 15.000: bei dieser Menge ist die vollständige Anreicherung bezahlbar, und jede Stadtseite bekommt echten Inhalt statt dünner Einträge. Die frühere Einschränkung auf Baden-Württemberg, Rheinland-Pfalz, Hessen und die 30 größten Städte gilt nicht mehr. Gate 3 nennt die Kosten trotzdem vor dem Lauf und wartet auf die Freigabe; liegen sie über 150 $, zuerst den Rhein-Neckar-Raum und die größten Städte, den Rest in einer zweiten Tranche. |
 | Fremde Gewerbe (Schuhmacher, Gravur, Metallbau, Baumärkte) | Vorschlag: ausschließen, außer das Merkmal `schluesseldienst_kern` ist `true`. |
 | Kettenbetriebe (gleicher Name an vielen Adressen) | Vorschlag: je Stadt eine Adresse behalten, die mit den meisten Bewertungen. |
 | Callcenter ohne Ortsbezug | Vorschlag: ausschließen. Sie verfehlen Voraussetzung 5 der Festpreis-Garantie. |
 | `foldMaxKm` | 30 km. Deutschland ist dichter besiedelt als die US-Vorgabe von 40 km. |
+| Mindestzahl Einträge je Stadtseite (`cityFloor`) | Offen, wird in Gate 4 aus dem Gate-2-Bericht entschieden. Bei 3.102 Einträgen auf 1.266 Orte liegt der Schnitt bei 2,4 je Ort; die Vorgabe 3 würde viele Orte zu Nachbarstädten falten. Gate 4 legt dem Betreiber vor, wie viele Stadtseiten bei 3 und bei 2 entstehen, und er entscheidet. |
 | Leistungsseiten | Die sechs mit `service`-Block in `attributes.json`: Notdienst, Türöffnung, Schließanlagen, Einbruchschutz, Autoschlüssel, Tresoröffnung. |
 | Reihenfolge der Bundesländer auf der Startseite | nach Anzahl Einträge, absteigend. |
 | Mannheim | Stadtseite im Vollausbau (oberes Wortband, 6 Fragen). Merz Sicherheit erhält Premium und Top-Platzierung zum öffentlichen Preis, als normaler Vorgang nach [[footprint-rules]], **erst nach dem Start** und erst nachdem der Betrieb die Festpreis-Garantie beantragt und bestanden hat wie jeder andere. |
