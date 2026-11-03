@@ -1,7 +1,7 @@
 ---
 title: Gate 1 – Umfang
 type: output
-status: wartet-auf-freigabe
+status: freigegeben
 updated: 2026-11-03
 ---
 

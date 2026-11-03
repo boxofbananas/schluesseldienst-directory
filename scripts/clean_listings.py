@@ -197,6 +197,112 @@ def bundesland_of(r):
     return NAME_BY_CODE.get((r.get("state_code") or "").upper().strip(), "") or "(ohne Angabe)"
 
 
+# --- PLZ -> Bundesland und Ort --------------------------------------------------
+# DataForSEO liefert für Deutschland kein `region`-Feld; das Bundesland wird deshalb aus der
+# PLZ abgeleitet (wiki/framework/listings-cleaning.md, Regel 1: „aus `state` beziehungsweise aus
+# der Postleitzahl"). Dieselbe Quelle bringt den deutschen Ortsnamen und räumt damit die
+# englischen Exonyme der city-Spalte (Munich, Cologne) und die leeren Städtenamen weg. Quelle:
+# scripts/data/geonames-de-plz.tsv (GeoNames, CC BY 4.0; siehe scripts/data/README.md).
+PLZ_DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "geonames-de-plz.tsv")
+CITY_FROM_ADDR = re.compile(r",\s*\d{5}\s+(.+?)\s*$")
+PLZ_IN_ADDR = re.compile(r"\b(\d{5})\b")
+# Stadtstaaten mit nur einer Gemeinde: ihre Ortsteile (GeoNames führt „Berlin Kreuzberg" als
+# eigenen Ort) werden auf die Stadt zusammengezogen. Bremen (HB) steht NICHT hier – das Land hat
+# zwei Städte, Bremen und Bremerhaven.
+STADTSTAAT = {"BE": "Berlin", "HH": "Hamburg"}
+
+
+def load_plz_index(path=PLZ_DATA):
+    """PLZ -> Liste von (Ort, Bundesland-Kürzel) in Dateireihenfolge. None, wenn die Datei fehlt."""
+    idx = {}
+    try:
+        with open(path, encoding="utf-8") as f:
+            for line in f:
+                p = line.rstrip("\n").split("\t")
+                if len(p) >= 3 and p[0]:
+                    idx.setdefault(p[0], []).append((p[1], p[2]))
+    except FileNotFoundError:
+        return None
+    return idx
+
+
+def _addr_city(r):
+    """Der deutsche Ortsname aus dem address-Feld (Teil nach ', PLZ '). DataForSEO schreibt die
+    city-Spalte englisch (Munich), das address-Feld aber deutsch (München, …)."""
+    m = CITY_FROM_ADDR.search((r.get("address") or "").strip())
+    return m.group(1).split(",")[0].strip() if m else ""
+
+
+def _pick_city(town, orte):
+    """Der kanonische deutsche Ortsname aus den GeoNames-Orten einer PLZ, gesteuert vom Ort, den
+    die Zeile mitbringt (`town`): genaue Übereinstimmung, sonst der Oberbegriff eines Ortsteils
+    („Hamburg-Nord" -> „Hamburg"), sonst der häufigste bzw. kürzeste Ort der PLZ."""
+    if not orte:
+        return ""
+    ft = fold(town)
+    if ft:
+        for o in orte:
+            if fold(o) == ft:
+                return o
+        cands = [o for o in orte if fold(o) and ft.startswith(fold(o))]
+        if cands:
+            return max(cands, key=lambda o: len(fold(o)))
+        cands = [o for o in orte if fold(o).startswith(ft)]
+        if cands:
+            return min(cands, key=lambda o: len(fold(o)))
+    cnt = Counter(orte)
+    return max(cnt, key=lambda o: (cnt[o], -len(o)))
+
+
+def assign_from_plz(rows, idx):
+    """Setzt state_code, state (deutscher Name aus dem Kürzel) und normalisiert city aus der PLZ.
+    Eine PLZ ohne eindeutiges Bundesland (sie liegt auf einer Landesgrenze) wird über den Ort
+    aufgelöst; gelingt auch das nicht, bleibt das Bundesland leer und steht im Bericht. Gibt die
+    Zählung für den Bericht zurück."""
+    s = {"land_set": 0, "land_resolved": 0, "land_unassigned": 0,
+         "city_fixed": 0, "city_filled": 0, "plz_from_addr": 0}
+    for r in rows:
+        plz = (r.get("postal_code") or "").strip()
+        entries = idx.get(plz, []) if idx else []
+        # Fehlt die PLZ-Spalte oder kennt die Tabelle sie nicht, die erste PLZ aus dem address-Feld
+        # nehmen, die die Tabelle kennt (Outscraper lässt postal_code mitunter leer).
+        if not entries and idx:
+            for cand in PLZ_IN_ADDR.findall(r.get("address") or ""):
+                if cand in idx:
+                    plz, entries = cand, idx[cand]
+                    if not (r.get("postal_code") or "").strip():
+                        r["postal_code"] = cand
+                    s["plz_from_addr"] += 1
+                    break
+        orte = [o for o, _ in entries]
+        town = _addr_city(r) or (r.get("city") or "").strip()
+        chosen = _pick_city(town, orte)
+        codes = {c for _, c in entries}
+        code = ""
+        if len(codes) == 1:
+            code = next(iter(codes)); s["land_set"] += 1
+        elif len(codes) > 1:
+            for o, c in entries:
+                if chosen and fold(o) == fold(chosen):
+                    code = c; break
+            s["land_resolved" if code else "land_unassigned"] += 1
+        else:
+            s["land_unassigned"] += 1
+        if code:
+            r["state_code"] = code
+            r["state"] = NAME_BY_CODE.get(code, "")
+            if code in STADTSTAAT:     # Ortsteile auf die eine Stadt des Stadtstaats ziehen
+                chosen = STADTSTAAT[code]
+        if chosen:
+            old = (r.get("city") or "").strip()
+            r["city"] = chosen
+            if not old:
+                s["city_filled"] += 1
+            elif fold(old) != fold(chosen):
+                s["city_fixed"] += 1
+    return s
+
+
 def main():
     ap = argparse.ArgumentParser(description="Gate 2: Google-Maps-Export zur Eintragsmenge aufräumen.")
     ap.add_argument("csv")
@@ -251,6 +357,17 @@ def main():
         notes.append(f"Der Export hat keine Spalte `country` und keine Spalte `country_code`, deshalb wurde **nicht** auf das Land "
                      f"gefiltert; alle {fmt(steps[0][1])} Zeilen gingen in die nächste Regel. Prüfen Sie beim Abholen, dass das Land "
                      "mitgeschrieben wird (scripts/fetch_dataforseo.py schreibt es).")
+
+    # Bundesland aus der PLZ ableiten und die Städtenamen auf Deutsch bringen (siehe oben).
+    plz_idx = load_plz_index()
+    if plz_idx is None:
+        notes.append(f"Die PLZ-Tabelle `{os.path.relpath(PLZ_DATA)}` fehlt, deshalb wurde das Bundesland "
+                     "**nicht** aus der PLZ abgeleitet und die Städtenamen blieben unverändert (siehe "
+                     "scripts/data/README.md, wie die Datei neu bezogen wird).")
+        plz_stats = None
+    else:
+        plz_stats = assign_from_plz(rows, plz_idx)
+
     if want_code:
         rows = [r for r in rows if (r.get("state_code") or "").upper() == want_code
                 or bundesland_code(r.get("state")) == want_code]
@@ -325,6 +442,18 @@ def main():
     dom_path = os.path.join(os.path.dirname(a.out) or ".", "02-domains.txt")
     with open(dom_path, "w", encoding="utf-8") as f:
         f.write("\n".join(domains) + ("\n" if domains else ""))
+
+    if plz_stats is not None:
+        zugeordnet = sum(1 for r in rows if (r.get("state_code") or "").strip())
+        notes.append(
+            f"Bundesland aus der PLZ abgeleitet (`{os.path.relpath(PLZ_DATA)}`, GeoNames): "
+            f"{fmt(zugeordnet)} der {fmt(len(rows))} behaltenen Zeilen haben ein Bundesland, "
+            f"{fmt(len(rows) - zugeordnet)} bleiben „(ohne Angabe)“ und stehen in der Bundesland-Tabelle. "
+            f"Städtenamen auf Deutsch normalisiert: {fmt(plz_stats['city_fixed'])} Exonyme ersetzt "
+            f"(Munich -> München), {fmt(plz_stats['city_filled'])} leere city gefüllt; "
+            f"{fmt(plz_stats['land_resolved'])} PLZ auf einer Landesgrenze über den Ort aufgelöst, "
+            f"{fmt(plz_stats['plz_from_addr'])} PLZ aus dem address-Feld nachgezogen (postal_code war leer) "
+            f"(Zählung über alle Zeilen mit PLZ vor dem Entdoppeln).")
 
     # --- Bericht ---------------------------------------------------------------
     cities = Counter(r.get("city") for r in rows)

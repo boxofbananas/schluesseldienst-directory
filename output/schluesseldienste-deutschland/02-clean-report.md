@@ -1,0 +1,1497 @@
+# Bericht Gate 2 (Aufräumen)
+
+Quelle: `input/listings-raw.csv`  
+Land: Germany  ·  ganz Deutschland  ·  Kategorie: locksmith  ·  Namensbegriffe: schlüsseldienst, schluesseldienst, schlüsselnotdienst, aufsperrdienst, schlüsselservice, schließanlagen, sicherheitstechnik
+
+| Schritt | Zeilen |
+|---|---|
+| Zeilen gelesen | 3.102 |
+| Land Germany | 3.102 |
+| dauerhaft oder vorübergehend geschlossen verworfen | 3.102 |
+| seit 365 Tagen nicht aktualisiert verworfen | 3.000 |
+| weniger als 1 Bewertung(en) verworfen | 3.000 |
+| Treffer über Name oder Kategorie | 3.000 |
+| Dubletten über Telefon und Adresse verworfen | 2.912 |
+
+**Behalten:** 93,9 %  (eine DataForSEO-Abholung ist schon vor dem Eintreffen nach Kategorie gefiltert, deshalb besteht der größte Teil der Zeilen; Zeilen, die die Kategorie nur als zusätzliche tragen, kommen mit und stehen unten für die Entscheidung bei Gate 4)
+**Städte:** 1.257, davon über der Mindestzahl von 3 Einträgen: 216; diese halten 1.614 der 2.912 behaltenen Zeilen
+**Eigene Zeilen gefunden:** 2 (werden wie jeder andere Eintrag geführt, siehe footprint-rules)
+**Dünne Zeilen (zum Start noindex):** 1.008 (unter 5 Bewertungen oder ohne Beschreibungstext; Attribut-JSON in `about` gilt nicht als Text)
+**Als Dublette verworfen:** 88 (gleiche Telefonnummer oder gleiche Adresse; behalten wurde die Zeile mit mehr Bewertungen)
+**Neue, leere Spalten:** `geprueft`, `geprueft_jahr`, `garantie_tag`, `garantie_nacht`, `garantie_anfahrt` (Festpreis-Garantie, wiki/konventionen.md) und `preisschutz` (reservierte Stufe, nicht ausgewertet)
+**Website-Domains in 02-domains.txt:** 2.029
+
+## Hinweise zum Lauf
+
+- Bundesland aus der PLZ abgeleitet (`scripts/data/geonames-de-plz.tsv`, GeoNames): 2.911 der 2.912 behaltenen Zeilen haben ein Bundesland, 1 bleiben „(ohne Angabe)“ und stehen in der Bundesland-Tabelle. Städtenamen auf Deutsch normalisiert: 349 Exonyme ersetzt (Munich -> München), 300 leere city gefüllt; 0 PLZ auf einer Landesgrenze über den Ort aufgelöst, 2 PLZ aus dem address-Feld nachgezogen (postal_code war leer) (Zählung über alle Zeilen mit PLZ vor dem Entdoppeln).
+
+## Einträge je Bundesland
+
+`state` bleibt in jeder Zeile erhalten, `state_code` ist das Kürzel laut wiki/konventionen.md.
+
+| Bundesland | Kürzel | Einträge | Städte | Städte ab 3 Einträgen | Einträge in diesen Städten | Schreibweisen im Export |
+|---|---|---|---|---|---|---|
+| Nordrhein-Westfalen | NW | 666 | 196 | 60 | 483 | Nordrhein-Westfalen |
+| Bayern | BY | 410 | 221 | 24 | 175 | Bayern |
+| Baden-Württemberg | BW | 376 | 201 | 29 | 171 | Baden-Württemberg |
+| Niedersachsen | NI | 237 | 116 | 24 | 116 | Niedersachsen |
+| Hessen | HE | 213 | 88 | 19 | 123 | Hessen |
+| Berlin | BE | 163 | 1 | 1 | 163 | Berlin |
+| Sachsen | SN | 154 | 90 | 10 | 59 | Sachsen |
+| Rheinland-Pfalz | RP | 119 | 70 | 11 | 47 | Rheinland-Pfalz |
+| Brandenburg | BB | 97 | 64 | 7 | 27 | Brandenburg |
+| Schleswig-Holstein | SH | 96 | 61 | 6 | 29 | Schleswig-Holstein |
+| Mecklenburg-Vorpommern | MV | 78 | 40 | 9 | 41 | Mecklenburg-Vorpommern |
+| Hamburg | HH | 77 | 1 | 1 | 77 | Hamburg |
+| Sachsen-Anhalt | ST | 77 | 41 | 5 | 28 | Sachsen-Anhalt |
+| Thüringen | TH | 72 | 48 | 4 | 17 | Thüringen |
+| Saarland | SL | 46 | 22 | 3 | 21 | Saarland |
+| Bremen | HB | 30 | 2 | 2 | 30 | Bremen |
+| (ohne Angabe) | (unbekannt) | 1 | 1 | 0 | 0 | (ohne Angabe) |
+
+**Ohne Kürzel:** (ohne Angabe). Diese Schreibweisen kennt die Zuordnungstabelle in `scripts/fetch_dataforseo.py` (BUNDESLAENDER) nicht. Tragen Sie sie dort nach, statt ein Kürzel zu raten.
+
+## Behaltene Zeilen nach primärem Typ
+
+Die Spalte `type` ist die primäre Google-Kategorie. Jeder andere Typ kam über die Namensbegriffe oder über die Kategorie als zusätzliche Kategorie herein.
+
+- Locksmith: 1.722
+- Home improvement store: 190
+- Metal construction company: 123
+- Key duplication service: 119
+- Safety equipment supplier: 118
+- Shoe repair shop: 102
+- Emergency locksmith service: 88
+- Janitorial service: 52
+- Security system supplier: 25
+- Tool store: 18
+- Clothing alteration service: 14
+- Car repair and maintenance service: 13
+- Metal workshop: 13
+- Bicycle store: 11
+- Cabinet maker: 11
+- Handicraft: 9
+- Steel construction company: 9
+- Metal working shop: 9
+- Hardware store: 8
+- Dry cleaner: 8
+- Home goods store: 8
+- Iron ware dealer: 8
+- Metal fabricator: 8
+- Building materials store: 6
+- Window installation service: 6
+- Millwork shop: 6
+- Building materials supplier: 5
+- Manufacturer: 5
+- Contractor: 5
+- Carpenter: 5
+- Window supplier: 5
+- Towing service: 4
+- Handyman/Handywoman/Handyperson: 4
+- Appliance store: 4
+- Garden center: 4
+- Blacksmith: 4
+- Joiner: 4
+- Welder: 4
+- Construction company: 4
+- Metalware dealer: 4
+- Sheet metal contractor: 4
+- Industrial equipment supplier: 4
+- Burglar alarm store: 4
+- Mechanical engineer: 4
+- Travel agency: 3
+- Safe & vault shop: 3
+- Wholesaler: 3
+- Garage door supplier: 3
+- Cleaners: 3
+- Metal processing company: 3
+- Auto parts store: 2
+- Auto repair shop: 2
+- Tailor: 2
+- Screw supplier: 2
+- Auto tune up service: 2
+- Glazier: 2
+- Security service: 2
+- Auto tag agency: 2
+- Watch repair service: 2
+- Laundry service: 2
+- Copy shop: 2
+- Electrician: 2
+- Engraver: 2
+- Lawn mower store: 2
+- Store: 2
+- Farm equipment supplier: 2
+- Cell phone store: 2
+- Stair contractor: 2
+- Property management company: 2
+- Plumber: 2
+- Repair service: 2
+- Furniture manufacturer: 2
+- Welding supply store: 2
+- Car rental agency: 1
+- Tool wholesaler: 1
+- Steel distributor: 1
+- Auto wrecker: 1
+- Grocery store: 1
+- Bicycle repair shop: 1
+- Gas station: 1
+- Tool rental service: 1
+- Awning supplier: 1
+- Camping store: 1
+- Moving and storage service: 1
+- Department store: 1
+- Security guard service: 1
+- Kiosk: 1
+- Waste management service: 1
+- Mobile phone repair shop: 1
+- Agricultural product wholesaler: 1
+- Lottery shop: 1
+- Do-it-yourself shop: 1
+- Lock Store: 1
+- Shoe store: 1
+- Art supply store: 1
+- Clothes and fabric manufacturer: 1
+- Metal supplier: 1
+- Trailer rental service: 1
+- Landscaper: 1
+- Computer consultant: 1
+- Football club: 1
+- Nursing agency: 1
+- Electrical supply store: 1
+- House clearance service: 1
+- Funeral home: 1
+- Electrical engineer: 1
+- Trophy shop: 1
+- Jeweler: 1
+- Florist: 1
+- Electronic engineering service: 1
+- Sunblind supplier: 1
+- 3D printing service: 1
+- Clock repair service: 1
+- Furniture maker: 1
+- Gun shop: 1
+- Gift shop: 1
+- Precision engineer: 1
+- Telecommunications equipment supplier: 1
+- Stationery store: 1
+- Drainage service: 1
+- Window cleaning service: 1
+- Scale supplier: 1
+- Leather goods store: 1
+- House cleaning service: 1
+- Sign shop: 1
+- Boot repair shop: 1
+- Fire protection system supplier: 1
+- Computer support and services: 1
+- Bathroom remodeler: 1
+- Car wash: 1
+- Metal finisher: 1
+- Artist: 1
+- Computer service: 1
+- Security system installation service: 1
+- Building firm: 1
+- Metalware producer: 1
+- Concrete contractor: 1
+- Home inspector: 1
+- Machine construction: 1
+- Electronics store: 1
+
+## Nur über die Kategorie behalten
+
+841 Zeilen tragen "locksmith" nur als zusätzliche Kategorie: weder die Namensbegriffe noch der primäre Typ haben gepasst. Sie bleiben drin und stehen hier, sie werden nicht verworfen; ob sie bleiben, entscheidet der Mensch bei Gate 4 (04-exclusions.csv).
+
+Häufigste primäre Typen darunter:
+
+- Home improvement store: 189
+- Metal construction company: 120
+- Safety equipment supplier: 50
+- Janitorial service: 47
+- Shoe repair shop: 44
+- Key duplication service: 35
+- Tool store: 18
+- Security system supplier: 13
+- Metal workshop: 12
+- Car repair and maintenance service: 11
+
+## Typische Fehlfänge der Kategorie `locksmith`
+
+Die Google-Kategorie führt in Deutschland regelmäßig Betriebe mit, die kein Schlüsseldienst sind. **Nichts davon ist entfernt worden** – die Regel des Baukastens lautet, dass keine Zeile wegen ihres Gewerbes von selbst entfernt wird. Entscheiden Sie bei Gate 4, welche Zeilen in 04-exclusions.csv wandern.
+
+- **Schuhmacher und Schuhreparatur:** 87 Zeilen. Beispiele: AC-Tech Services, Schuhmacherei und Schlüsseldienst (Melsungen); Burscheider Schlüsseldienst Schuhreparatur.Türöffnung Türnotöffnung (Burscheid); DRESS WERK EXPRESS Reinigung Änderungsschneiderei Schlüsseldienst Personalisierung Lasergravur Autoschlüssel Schuhreparatur (Berlin); Der Schlüssel Doc - Schlüsseldienst & Schuhreparaturen Chris Küstermann ehem. Hagemann (Brandis); Die kleine Schuhmacherei Im Stiftallmey (Kempten); Euroschuster - Schuhreparatur & Schlüsseldienst Inh. Hüseyin Duru (Warendorf); Express Service Ersan Schuhreparatur- und Schlüsseldienst in Diez (Diez); HOTO Schuhreparatur/Schlüsseldienst Inh. Mario Sinske (Erfurt) ...
+- **Gravur und Stickerei:** 19 Zeilen. Beispiele: DRESS WERK EXPRESS Reinigung Änderungsschneiderei Schlüsseldienst Personalisierung Lasergravur Autoschlüssel Schuhreparatur (Berlin); Ewald Schlüsseldienst by Woldrich GmbH Stempelservice Trodat (München); Fransaert Textildruck Schlüsseldienst (Bad Arolsen); Gravuren Stempel Schilder Schlüssel - GSS Thommessen (Wonsheim); MBS Schuhmacher & Schlüsseldienst, Schließanlagen, Stempel, Pokale, Gravuren und vieles mehr... (Gladenbach); Meister Schuh & Schlüsseldienst (Autoschlüssel nachmachen, Schlosser, Schuhrepatur, Lederware, Gravur und Stempel) (Völklingen); Rapid Schlüsseldienst - Autoschlüssel Nachmachen - Autoschlüssel Kopieren oder Reparieren - Sofort Stempel Service - Gravuren (Sankt Wendel); Schlüssel und Gravur Express Hannover (Hannover) ...
+- **Metallbau und Schlosserei:** 240 Zeilen. Beispiele: Anü-Tec Metallbau GmbH (Wilhelmshaven); BEWA-Schlüsseldienst & Bauschlosserei (Rödgen); Baumgartner Stahl- und Metallbau GmbH (Seligenstadt); Bauschlosserei & Schmiede Dähne (Kloster Lehnin); Bauschlosserei Frank Müller (Burgstädt); Bauschlosserei Helmut Schneider & Sohn GbR (Ettenheim); Bauschlosserei Jockschies GmbH (Polleben); Bauschlosserei Lotz GmbH (Egelsbach) ...
+- **Baumarkt und Eisenwaren:** 32 Zeilen. Beispiele: Anton Grewe Eisenwaren (Balve); August Gössler Eisenwaren (Illertissen); BZN Hagebau Varel GmbH & Co. KG (Varel); BZN Hagebaumarkt Esens GmbH & Co. KG (Esens); C. Adolph Eisenwaren (Berlin); Carl Schmidt OHG Inh. Wilfried Grebe Haushaltswaren, Eisenwaren, Schlüsseldienst (Bad Wildungen); DDH BAU-HAUSMEISTERSERVICE (Berlin); DENO Schlüsseldienst Sicherheitstechnik Eisenwarenhändler (Kassel) ...
+- **Autowerkstatt und Kfz:** 10 Zeilen. Beispiele: Abschleppdienst Alt (Gebhardshain); Abschleppdienst PKW u. LKW Autowerkstatt "Am weißen Berg" Mario Wehner (Ziethen); Automobile Dürr GmbH - Abschleppdienst und Bergungsdienst (Lahr/Schwarzwald); Autoservice Jürgen Lührmann (Münster); Bosch Car Service - Zeibig-Kfz-Service und Teile GmbH (Bergen); KFZ-Selbsthilfewerkstatt – Hobbywerkstatt, Reifendienst, Reifenmontage, Öl-Service & KFZ-Schlüsseldienst (Hönow); M.A.R.S-Reifenservice (Munderkingen); MUNICH Express Abschleppdienst & KFZ Sachverständiger Kokaj (München) ...
+
+Ein Treffer ist ein Verdacht, kein Urteil: ein Schlüsseldienst mit Schlosserei im Namen steht hier zu Recht im Verzeichnis. Sehen Sie sich die Namen an.
+
+## Namen an mehr als 3 Adressen
+
+In dieser Branche gibt es viele Kettenbetriebe mit identischem Namen an vielen Adressen und viele Callcenter-Einträge. Die Dublettenregel (Telefon und Adresse) hat hier nichts verworfen, weil sich Adresse und Nummer unterscheiden. **Auch das ist nur ein Bericht, es wurde nichts gelöscht.**
+
+| Name | Adressen | Städte | Zeilen |
+|---|---|---|---|
+| OBI | 22 | 22 | 22 |
+| PM Service GmbH - Schlüsseldienst | 9 | 8 | 9 |
+| Schuh und Schlüsseldienst | 7 | 7 | 7 |
+| Service Punkt Schuh- und Schlüsseldienst | 5 | 4 | 5 |
+
+## Städte nach Anzahl
+
+- Berlin: 163
+- Hamburg: 79
+- München: 51
+- Köln: 47
+- Frankfurt am Main: 36
+- Düsseldorf: 36
+- Essen: 33
+- Stuttgart: 32
+- Duisburg: 23
+- Nürnberg: 23
+- Hannover: 23
+- Bremen: 21
+- Wuppertal: 21
+- Mannheim: 20
+- Dortmund: 20
+- Bonn: 19
+- Leipzig: 18
+- Mönchengladbach: 16
+- Karlsruhe: 15
+- Aachen: 14
+- Mülheim an der Ruhr: 12
+- Saarbrücken: 12
+- Lübeck: 11
+- Gelsenkirchen: 11
+- Dresden: 11
+- Hamm: 10
+- Halle: 10
+- Kassel: 10
+- Augsburg: 10
+- Bochum: 10
+- Krefeld: 10
+- Wiesbaden: 10
+- Rostock: 10
+- Freiburg im Breisgau: 9
+- Bremerhaven: 9
+- Würzburg: 9
+- Münster: 9
+- Fürth: 9
+- Hagen: 9
+- Offenbach: 8
+- Erfurt: 8
+- Braunschweig: 8
+- Darmstadt: 8
+- Oberhausen: 8
+- Bielefeld: 8
+- Magdeburg: 8
+- Potsdam: 8
+- Hildesheim: 7
+- Heidelberg: 7
+- Remscheid: 7
+- Düren: 7
+- Paderborn: 7
+- Oldenburg: 6
+- Osnabrück: 6
+- Neubrandenburg: 6
+- Ratingen: 6
+- Recklinghausen: 6
+- Heilbronn: 6
+- Koblenz: 6
+- Kiel: 6
+- Ludwigshafen am Rhein: 6
+- Chemnitz: 6
+- Regensburg: 6
+- Mainz: 6
+- Kempten: 6
+- Göttingen: 6
+- Viersen: 5
+- Leverkusen: 5
+- Kaiserslautern: 5
+- Ulm: 5
+- Konstanz: 5
+- Minden: 5
+- Schwandorf: 5
+- Dachau: 5
+- Ludwigsburg: 5
+- Waiblingen: 5
+- Neunkirchen/Saar: 5
+- Hanau: 5
+- Solingen: 5
+- Wilhelmshaven: 5
+- Bottrop: 5
+- Neuwied: 5
+- Rodgau: 5
+- Schwerin: 5
+- Gladbeck: 5
+- Menden: 5
+- Maintal: 5
+- Wetzlar: 4
+- Gummersbach: 4
+- Emmendingen: 4
+- Gießen: 4
+- Landsberg am Lech: 4
+- Bergisch Gladbach: 4
+- Meißen: 4
+- Pirna: 4
+- Erlangen: 4
+- Herne: 4
+- Lüneburg: 4
+- Rathenow: 4
+- Moers: 4
+- Siegen: 4
+- Neuss: 4
+- Esslingen am Neckar: 4
+- Bergheim: 4
+- Stralsund: 4
+- Villingen-Schwenningen: 4
+- Freital: 4
+- Bad Kreuznach: 4
+- Ingolstadt: 4
+- Wolfsburg: 4
+- Reutlingen: 4
+- Neu-Ulm: 4
+- Marl: 4
+- Straubing: 4
+- Herrenberg: 4
+- Hattingen: 4
+- Bad Homburg vor der Höhe: 4
+- Polleben: 4
+- Rosenheim: 4
+- Stendal: 4
+- Langenhagen: 4
+- Gütersloh: 4
+- Wismar: 4
+- Hameln: 4
+- Sankt Ingbert: 4
+- Dreieich: 3
+- Hilden: 3
+- Papenburg: 3
+- Eberswalde: 3
+- Lahr/Schwarzwald: 3
+- Friedrichshafen: 3
+- Weinheim: 3
+- Weiden: 3
+- Lage: 3
+- Cottbus: 3
+- Emden: 3
+- Burghausen: 3
+- Strausberg: 3
+- Greifswald: 3
+- Garbsen: 3
+- Hof: 3
+- Bückeburg: 3
+- Karben: 3
+- Waren (Müritz): 3
+- Barsinghausen: 3
+- Trier: 3
+- Lübben (Spreewald): 3
+- Wunstorf: 3
+- Sondershausen: 3
+- Laufenburg: 3
+- Güstrow: 3
+- Torgelow: 3
+- Annaberg-Buchholz: 3
+- Sulzbach-Rosenberg: 3
+- Zittau: 3
+- Baden-Baden: 3
+- Viernheim: 3
+- Bruchsal: 3
+- Heidenheim an der Brenz: 3
+- Singen: 3
+- Neustadt an der Weinstraße: 3
+- Pirmasens: 3
+- Geesthacht: 3
+- Eisenhüttenstadt: 3
+- Langen: 3
+- Dorsten: 3
+- Übach-Palenberg: 3
+- Hürth: 3
+- Dinslaken: 3
+- Bergen: 3
+- Bamberg: 3
+- Günzburg: 3
+- Wedel: 3
+- Wolfenbüttel: 3
+- Ahlen: 3
+- Nienburg (Weser): 3
+- Fellbach: 3
+- Uelzen: 3
+- Ostfildern: 3
+- Bodman-Ludwigshafen: 3
+- Heppenheim (Bergstraße): 3
+- Herten: 3
+- Würselen: 3
+- Rendsburg: 3
+- Peine: 3
+- Salzgitter: 3
+- Schorndorf: 3
+- Eschweiler: 3
+- Rheda-Wiedenbrück: 3
+- Andernach: 3
+- Plauen: 3
+- Schwäbisch Hall: 3
+- Groß-Zimmern: 3
+- Seelze: 3
+- Pfaffenhofen an der Ilm: 3
+- Moosburg: 3
+- Elmshorn: 3
+- Aschaffenburg: 3
+- Neu-Isenburg: 3
+- Witten: 3
+- Lüdenscheid: 3
+- Detmold: 3
+- Rüsselsheim: 3
+- Kaarst: 3
+- Riesa: 3
+- Gotha: 3
+- Jülich: 3
+- Wolfratshausen: 3
+- Salzwedel: 3
+- Brühl: 3
+- Schloß Holte-Stukenbrock: 3
+- Idar-Oberstein: 3
+- Schwerte: 3
+- Willich: 3
+- Waltershausen: 3
+- Weil am Rhein: 3
+- Delmenhorst: 2
+- Bad Hersfeld: 2
+- Wermelskirchen: 2
+- Herzogenrath: 2
+- Rangsdorf: 2
+- Emmerich: 2
+- Bad Segeberg: 2
+- Ostrhauderfehn: 2
+- Varel: 2
+- Winnenden: 2
+- Hockenheim: 2
+- Ravensburg: 2
+- Leingarten: 2
+- Bad Zwischenahn: 2
+- Abensberg: 2
+- Bautzen: 2
+- Giengen an der Brenz: 2
+- Lindau (Bodensee): 2
+- Wissen: 2
+- Meinerzhagen: 2
+- Rödermark: 2
+- Delbrück: 2
+- Leonberg: 2
+- Neustadt am Rübenberge: 2
+- Mühldorf am Inn: 2
+- Helmstedt: 2
+- Flensburg: 2
+- Schwedt/Oder: 2
+- Sangerhausen: 2
+- Cloppenburg: 2
+- Meschede: 2
+- Neuburg an der Donau: 2
+- Neustrelitz: 2
+- Gladenbach: 2
+- Torgau: 2
+- Tauberbischofsheim: 2
+- Schleusingen: 2
+- Tuttlingen: 2
+- Parchim: 2
+- Nettetal: 2
+- Lohr am Main: 2
+- Naila: 2
+- Ellwangen (Jagst): 2
+- Zehdenick: 2
+- Eichstätt: 2
+- Forst (Lausitz): 2
+- Aalen: 2
+- Stolberg (Rheinland): 2
+- Isny im Allgäu: 2
+- Niesky: 2
+- Burscheid: 2
+- Zwiesel: 2
+- Arnsberg: 2
+- Kamenz: 2
+- Niebüll: 2
+- Ramstein-Miesenbach: 2
+- Köthen: 2
+- Waldbröl: 2
+- Bad Salzuflen: 2
+- Geldern: 2
+- Marburg: 2
+- Ebersbach/Sachsen: 2
+- Siegburg: 2
+- Lilienthal: 2
+- Bad Wildungen: 2
+- Grevenbroich: 2
+- Ottobrunn: 2
+- Höchst im Odenwald: 2
+- Balingen: 2
+- Schwäbisch Gmünd: 2
+- Bernau: 2
+- Olching: 2
+- Seevetal: 2
+- Leer (Ostfriesland): 2
+- Tübingen: 2
+- Sankt Wendel: 2
+- Neustadt in Holstein: 2
+- Wenden: 2
+- Eisenach: 2
+- Öhringen: 2
+- Usingen: 2
+- Freising: 2
+- Polch: 2
+- Kerpen: 2
+- Wahlstedt: 2
+- Pulheim: 2
+- Unna: 2
+- Dinkelsbühl: 2
+- Troisdorf: 2
+- Hemmingen: 2
+- Gera: 2
+- Saarlouis: 2
+- Illertissen: 2
+- Oranienburg: 2
+- Seligenstadt: 2
+- Querfurt: 2
+- Bernburg: 2
+- Limburg an der Lahn: 2
+- Backnang: 2
+- Lappersdorf: 2
+- Mirow: 2
+- Rosdorf: 2
+- Cuxhaven: 2
+- Königsbrunn: 2
+- Böblingen: 2
+- Bornheim: 2
+- Quickborn: 2
+- Itzehoe: 2
+- Bad Nauheim: 2
+- Mühlheim: 2
+- Völklingen: 2
+- Engelskirchen: 2
+- Homburg: 2
+- Butzbach: 2
+- Soest: 2
+- Neumarkt in der Oberpfalz: 2
+- Aschersleben: 2
+- Gronau (Westfalen): 2
+- Dormagen: 2
+- Euskirchen: 2
+- Nohra: 2
+- Ahrensburg: 2
+- Passau: 2
+- Osthofen: 2
+- Schwabach: 2
+- Buxtehude: 2
+- Kitzingen: 2
+- Kelkheim (Taunus): 2
+- Wandlitz: 2
+- Walluf: 2
+- Verl: 2
+- Bad Essen: 2
+- Werder (Havel): 2
+- Rheinbach: 2
+- Alsdorf: 2
+- Meiningen: 2
+- Falkensee: 2
+- Quedlinburg: 2
+- Görlitz: 2
+- Frankfurt (Oder): 2
+- Lauf an der Pegnitz: 2
+- Schmalkalden: 2
+- Oschatz: 2
+- Wildau: 2
+- Bünde: 2
+- Winsen (Luhe): 2
+- Herzberg am Harz: 2
+- Goch: 2
+- Zetel: 2
+- Wernigerode: 2
+- Heusenstamm: 2
+- Springe: 2
+- Eckernförde: 2
+- Delitzsch: 2
+- Heide: 2
+- Landau in der Pfalz: 2
+- Ibbenbüren: 2
+- Frechen: 2
+- Otterndorf: 2
+- Celle: 2
+- Rheinberg: 2
+- Mettmann: 2
+- Sonneberg: 2
+- Dessau: 2
+- Munderkingen: 2
+- Leinfelden-Echterdingen: 2
+- Bad Arolsen: 2
+- Herford: 2
+- Wetter (Ruhr): 2
+- Ilsede: 2
+- Eilenburg: 2
+- Burgdorf: 2
+- Burg: 2
+- Hemer: 2
+- Ebersberg: 2
+- Burglengenfeld: 2
+- Schriesheim: 2
+- Alzey: 2
+- Schongau: 2
+- Schweinfurt: 2
+- Calw: 2
+- Mömbris: 2
+- Oberursel: 2
+- Merseburg: 2
+- Kleve: 2
+- Titisee-Neustadt: 2
+- Lahnstein: 2
+- Bad Kissingen: 2
+- Flörsheim: 2
+- Weiterstadt: 2
+- Bad Wurzach: 2
+- Malchow: 2
+- Halberstadt: 2
+- Mülheim-Kärlich: 2
+- Bayreuth: 2
+- Göppingen: 2
+- Meerbusch: 2
+- Rothenburg ob der Tauber: 2
+- Lichtenfels: 2
+- Sankt Augustin: 2
+- Wertingen: 2
+- Stadthagen: 2
+- Wipperfürth: 2
+- Betzdorf: 2
+- Gevelsberg: 2
+- Attendorn: 2
+- Nordhausen: 2
+- Lauterbach: 2
+- Nürtingen: 2
+- Stein bei Nürnberg: 2
+- Heilbad Heiligenstadt: 2
+- Mittweida: 2
+- Crailsheim: 2
+- Rödgen: 2
+- Zwickau: 2
+- Bendorf: 2
+- Pößneck: 2
+- Herzogenaurach: 2
+- Michendorf: 2
+- Weißenfels: 2
+- Barchfeld: 2
+- Traunstein: 2
+- Neumünster: 2
+- Bad Lippspringe: 2
+- Lüdinghausen: 2
+- Zweibrücken: 2
+- Kraichtal: 2
+- Bergkamen: 2
+- Sigmaringen: 2
+- Miltenberg: 2
+- Bietigheim-Bissingen: 2
+- Lohne (Oldenburg): 2
+- Haselünne: 2
+- Hohenstein-Ernstthal: 2
+- Eppelborn: 2
+- Wallenhorst: 2
+- Frankenthal (Pfalz): 2
+- Offenburg: 2
+- Obersulm: 2
+- Gersthofen: 2
+- Vechta: 2
+- Bingen am Rhein: 2
+- Roth: 2
+- Röbel/Müritz: 2
+- Klingenthal/Sachsen: 2
+- Kyritz: 2
+- Eppertshausen: 2
+- Heusweiler: 2
+- Ruhpolding: 2
+- Friesoythe: 2
+- Lübz: 2
+- Gelnhausen: 2
+- Reichenbach an der Fils: 2
+- Illingen: 2
+- Pforzheim: 2
+- Farchant: 2
+- Halsbrücke: 2
+- Waldshut-Tiengen: 1
+- Stadtbergen: 1
+- Rietberg: 1
+- Erkelenz: 1
+- Haiger: 1
+- Alfter: 1
+- Lehrte: 1
+- Fulda: 1
+- Biedenkopf: 1
+- Esens: 1
+- Schmelz: 1
+- Kempen: 1
+- Rotenburg (Wümme): 1
+- Breisach am Rhein: 1
+- Oelsnitz: 1
+- Schwabhausen: 1
+- Amberg: 1
+- Jever: 1
+- Bannewitz: 1
+- Brake: 1
+- Olpe: 1
+- Radebeul: 1
+- Bitterfeld: 1
+- Korbach: 1
+- Stephanskirchen: 1
+- Altenhof: 1
+- Hagenow: 1
+- Simmern: 1
+- Nordenham: 1
+- Oelde: 1
+- Uhingen: 1
+- Sinzig: 1
+- Sankt Egidien: 1
+- Massen: 1
+- Jettingen-Scheppach: 1
+- Pressath: 1
+- Schwarzenbruck: 1
+- Heilingen: 1
+- Ottendorf-Okrilla: 1
+- Lindlar: 1
+- Isernhagen: 1
+- Löbau: 1
+- Zschopau: 1
+- Schwalmtal: 1
+- Waldorf: 1
+- Eisenberg: 1
+- Stuttgart Bad Cannstatt: 1
+- Neuendorf-Sachsenbande: 1
+- Bad Freienwalde: 1
+- Schulzendorf: 1
+- Müschenbach: 1
+- Sonthofen: 1
+- Tettnang: 1
+- Planegg: 1
+- Wiehl: 1
+- Oschersleben: 1
+- Holdorf: 1
+- Landshut: 1
+- Wangen im Allgäu: 1
+- Marktoberdorf: 1
+- Bad Oeynhausen: 1
+- Wesel: 1
+- Havixbeck: 1
+- Neckargemünd: 1
+- Niederkassel: 1
+- Elz: 1
+- Tarp: 1
+- Pfarrkirchen: 1
+- Neu Wulmstorf: 1
+- Damme: 1
+- Bad Vilbel: 1
+- Rieste: 1
+- Monschau: 1
+- Castrop-Rauxel: 1
+- Brandenburg an der Havel: 1
+- Woltersdorf: 1
+- Nordhorn: 1
+- Glattbach: 1
+- Rastede: 1
+- Barßel: 1
+- Sindelfingen: 1
+- Hückelhoven: 1
+- Schwarmstedt: 1
+- Zell unter Aichelberg: 1
+- Leichlingen: 1
+- Rahden: 1
+- Pfungstadt: 1
+- Reken: 1
+- Ziethen: 1
+- Stuhr: 1
+- Bitburg: 1
+- Waghäusel: 1
+- Flein: 1
+- Harrislee: 1
+- Jena: 1
+- Klütz: 1
+- Neu-Anspach: 1
+- Geretsried: 1
+- Altenburg: 1
+- Heddesheim: 1
+- Dresden Blasewitz: 1
+- Kandel: 1
+- Neubiberg: 1
+- Eberbach: 1
+- Velbert: 1
+- Jettingen: 1
+- Ammersbek: 1
+- Ottersberg: 1
+- Rottweil: 1
+- Wilburgstetten: 1
+- Mainz-Kastel: 1
+- Ludwigsfelde: 1
+- Malterdingen: 1
+- Knetzgau: 1
+- Griesheim: 1
+- Stuttgart Vaihingen: 1
+- Heimsheim: 1
+- Biberach an der Riß: 1
+- Kirchlengern: 1
+- Ismaning: 1
+- Nidda: 1
+- Malsburg-Marzell: 1
+- Upgant-Schott: 1
+- Ruppichteroth: 1
+- Landsberg: 1
+- Schleswig: 1
+- Nistertal: 1
+- Hafenlohr: 1
+- Pegau: 1
+- Regen: 1
+- Kirchheim bei München: 1
+- Oer-Erkenschwick: 1
+- Jüchen: 1
+- Bogen: 1
+- Spenge: 1
+- Wellheim: 1
+- Lauenburg/Elbe: 1
+- Laatzen: 1
+- Speyer: 1
+- Northeim: 1
+- Berg: 1
+- Arnstadt: 1
+- Korb: 1
+- Kettig: 1
+- Obertshausen: 1
+- Burgkunstadt: 1
+- Elsdorf: 1
+- Bad Wünnenberg: 1
+- Freilassing: 1
+- Mörfelden-Walldorf: 1
+- Meldorf: 1
+- Lemförde: 1
+- Schwieberdingen: 1
+- Hildburghausen: 1
+- Heinsdorfergrund: 1
+- Lorsch: 1
+- Westerstede: 1
+- Freudenstadt: 1
+- Bad Säckingen: 1
+- Saterland: 1
+- Merzig: 1
+- Belm: 1
+- Eichenau: 1
+- Herzfelde: 1
+- Schwanewede: 1
+- Ansbach: 1
+- Donauwörth: 1
+- Limburgerhof: 1
+- Kleinblittersdorf: 1
+- Penzberg: 1
+- Lalling: 1
+- Werdau: 1
+- Sande: 1
+- Senden: 1
+- Hönow: 1
+- Demmin: 1
+- Marienberg: 1
+- Iserlohn: 1
+- Weimar: 1
+- Dornum: 1
+- Dietzenbach: 1
+- Windesheim: 1
+- Deggendorf: 1
+- Coburg: 1
+- Sassnitz: 1
+- Diez: 1
+- Lingen: 1
+- Haldensleben: 1
+- Radevormwald: 1
+- Kreuztal: 1
+- Saarwellingen: 1
+- Eutin: 1
+- Nordkirchen: 1
+- Sylt-Ost: 1
+- Garmisch-Partenkirchen: 1
+- Gars am Inn: 1
+- Filderstadt: 1
+- Pinneberg: 1
+- Barleben: 1
+- Plankstadt: 1
+- Haar: 1
+- Amtzell: 1
+- Losheim am See: 1
+- Forchheim: 1
+- Nagold: 1
+- Bad Soden am Taunus: 1
+- Bad Windsheim: 1
+- Ergoldsbach: 1
+- Königswinter: 1
+- Ennepetal: 1
+- Hirschfeld: 1
+- Sandhausen: 1
+- Memmingen: 1
+- Warendorf: 1
+- Schipkau Hörlitz: 1
+- Sarstedt: 1
+- Prien am Chiemsee: 1
+- Neuenbürg: 1
+- Schrobenhausen: 1
+- Rheinzabern: 1
+- Wickede: 1
+- Holzkirchen: 1
+- Bedburg: 1
+- Aichach: 1
+- Bad Münder am Deister: 1
+- Norderstedt: 1
+- Harsewinkel: 1
+- Bad Klosterlausnitz: 1
+- Burbach: 1
+- Freiberg: 1
+- Dillenburg: 1
+- Oberzent: 1
+- Mölln: 1
+- Lörrach: 1
+- Leimen: 1
+- Alsfeld: 1
+- Lößnitz: 1
+- Seeheim-Jugenheim: 1
+- Cham: 1
+- Bad Nenndorf: 1
+- Denzlingen: 1
+- Herzberg (Elster): 1
+- Kröppen: 1
+- Münnerstadt: 1
+- Lutherstadt Wittenberg: 1
+- Kelheim: 1
+- Mettlach: 1
+- Ibach: 1
+- Wonsheim: 1
+- Golm: 1
+- Lauffen am Neckar: 1
+- Singhofen: 1
+- Schlaitdorf: 1
+- Kamen: 1
+- Selm: 1
+- Raesfeld: 1
+- Mittenwald: 1
+- Bad Sobernheim: 1
+- Burkardroth: 1
+- Mühlhausen: 1
+- Nierstein: 1
+- Rednitzhembach: 1
+- Neu Gülze: 1
+- Weilheim in Oberbayern: 1
+- Bergneustadt: 1
+- Mühlacker: 1
+- Au in der Hallertau: 1
+- Nastätten: 1
+- Mahlow: 1
+- Gauting: 1
+- Gmund am Tegernsee: 1
+- Brackenheim: 1
+- Höchstädt an der Donau: 1
+- Untermeitingen: 1
+- Gehrden: 1
+- Geiselbach: 1
+- Eschwege: 1
+- Krumbach: 1
+- Rheine: 1
+- Wentorf bei Hamburg: 1
+- Anklam: 1
+- Bramsche: 1
+- Pocking: 1
+- Rösrath: 1
+- Konz: 1
+- Neufahrn bei Freising: 1
+- Möckmühl: 1
+- Großdubrau: 1
+- Weingarten: 1
+- Frickenhausen: 1
+- Neuhaus am Rennweg: 1
+- Waldkirch: 1
+- Bobingen: 1
+- Schwabmünchen: 1
+- Lambsheim: 1
+- Weilburg: 1
+- Wittstock/Dosse: 1
+- Weilerbach: 1
+- Römerberg: 1
+- Glatten: 1
+- Fredersdorf-Vogelsdorf: 1
+- Harpstedt: 1
+- Kaufbeuren: 1
+- Wennigsen: 1
+- Emsdetten: 1
+- Heinsberg: 1
+- Wörth am Rhein: 1
+- Haan: 1
+- Wernau: 1
+- Brandis: 1
+- Melsungen: 1
+- Diepholz: 1
+- Löhne: 1
+- Friedrichsdorf: 1
+- Jünkerath: 1
+- Wolfschlugen: 1
+- Donaueschingen: 1
+- Markt Rettenbach: 1
+- Kirchheim unter Teck: 1
+- Schramberg: 1
+- Weida: 1
+- Aerzen: 1
+- Töging am Inn: 1
+- Zeuthen: 1
+- Marktredwitz: 1
+- Bruckberg: 1
+- Lünen: 1
+- Hungen: 1
+- Elzach: 1
+- Rüdesheim am Rhein: 1
+- Kitzscher: 1
+- Adorf: 1
+- Lemgo: 1
+- Ribnitz-Damgarten: 1
+- Tyrlaching: 1
+- Wassenberg: 1
+- Neckarsulm: 1
+- Rastatt: 1
+- Dormitz: 1
+- Nindorf: 1
+- Fürstenwalde/Spree: 1
+- Kappeln: 1
+- Uslar: 1
+- Adelmannsfelden: 1
+- Remseck am Neckar: 1
+- Neustadt in Sachsen: 1
+- Dorfen: 1
+- Eibau: 1
+- Ditzingen: 1
+- Kirn: 1
+- Schenefeld: 1
+- Straelen: 1
+- Seedorf: 1
+- Wunsiedel: 1
+- Winterbach: 1
+- Dettingen an der Erms: 1
+- Finsterwalde: 1
+- Stockelsdorf: 1
+- Wittenberge: 1
+- Bad Dürkheim: 1
+- Schermbeck: 1
+- Baesweiler: 1
+- Plau am See: 1
+- Frankenblick: 1
+- Barth: 1
+- Schüttorf: 1
+- Asbach-Bäumenheim: 1
+- Remagen: 1
+- Bruckmühl: 1
+- Hilzingen: 1
+- Kreuzau: 1
+- Königstein im Taunus: 1
+- Wurzen: 1
+- Baabe: 1
+- Meerane: 1
+- Zeltingen-Rachtig: 1
+- Syke: 1
+- Trierweiler: 1
+- Vörstetten: 1
+- Durlangen: 1
+- Großenbrode: 1
+- Mitterteich: 1
+- Zeitz: 1
+- Lübbenau/Spreewald: 1
+- Moorrege: 1
+- Rees: 1
+- Dollern: 1
+- Raunheim: 1
+- Königstein im Taunus Falkenstein: 1
+- Hennef: 1
+- Wiesloch: 1
+- Eslohe: 1
+- Iffezheim: 1
+- Greußen: 1
+- Bad Waldsee: 1
+- Frohburg: 1
+- Lindenberg im Allgäu: 1
+- Garz: 1
+- Friesack: 1
+- Rhede: 1
+- Timmendorfer Strand: 1
+- Zinnowitz: 1
+- Wolnzach: 1
+- Grimma: 1
+- Gelenau/Erzgebirge: 1
+- Jettenbach: 1
+- Schiltach: 1
+- Nauen: 1
+- Rathmannsdorf: 1
+- Salzkotten: 1
+- Erlensee: 1
+- Roding: 1
+- Bubesheim: 1
+- Tamm: 1
+- Jacobsdorf: 1
+- Kleinostheim: 1
+- Engstingen Großengstingen: 1
+- Braunsbedra: 1
+- Weihenzell: 1
+- Ascheberg: 1
+- Schönefeld: 1
+- Grömitz: 1
+- Hoyerswerda: 1
+- Rhinow: 1
+- Brachbach: 1
+- Markranstädt: 1
+- Maisach: 1
+- Oerlenbach: 1
+- Eppendorf: 1
+- Grenzach-Wyhlen: 1
+- Burgstädt: 1
+- Gaggenau: 1
+- Pfullingen: 1
+- Sandersdorf: 1
+- Reichertsheim: 1
+- Rotenburg an der Fulda: 1
+- Nufringen: 1
+- Velden: 1
+- Rinteln Engern: 1
+- Helgoland: 1
+- Erkrath: 1
+- Bad Honnef: 1
+- Bernsbach: 1
+- Harsum: 1
+- Bad Königshofen im Grabfeld: 1
+- Dörphof: 1
+- Bruchköbel: 1
+- Balve: 1
+- Fehmarn: 1
+- Kirchhain: 1
+- Prenzlau: 1
+- Bad Saulgau: 1
+- Ronnenberg: 1
+- Weil der Stadt: 1
+- Asperg: 1
+- Katzenelnbogen: 1
+- Oberviechtach: 1
+- Dannstadt-Schauernheim: 1
+- Bad Dürrheim: 1
+- Dargen: 1
+- Möckern: 1
+- Haltern am See: 1
+- Schalkau: 1
+- Markkleeberg: 1
+- Garching bei München: 1
+- Ennigerloh: 1
+- Saalfeld/Saale: 1
+- Icking: 1
+- Wewelsfleth: 1
+- Rinteln: 1
+- Pommelsbrunn: 1
+- Bad Liebenstein: 1
+- Spaichingen: 1
+- Hofheim am Taunus: 1
+- Bad Aibling: 1
+- Wusterwitz: 1
+- Nördlingen: 1
+- Tangermünde: 1
+- Bothel: 1
+- Jengen: 1
+- Starnberg: 1
+- Bark: 1
+- Bischberg: 1
+- Buch: 1
+- Suhl: 1
+- Gimbsheim: 1
+- Boostedt: 1
+- Staßfurt: 1
+- Bad Birnbach: 1
+- Alfdorf: 1
+- Zepernick: 1
+- Breitbrunn am Chiemsee: 1
+- Stemwede: 1
+- Marbach am Neckar: 1
+- Guben: 1
+- Glashütte: 1
+- Neustadt (Dosse): 1
+- Sömmerda: 1
+- Höchstadt an der Aisch: 1
+- Romrod: 1
+- Metzingen: 1
+- Königswartha: 1
+- Moormerland: 1
+- Ruhla: 1
+- Hannoversch Münden: 1
+- Steinhagen: 1
+- Mylau: 1
+- Poppenricht: 1
+- Roßdorf: 1
+- Wildenfels Härtensdorf: 1
+- Gardelegen: 1
+- Leinefelde: 1
+- Vaihingen an der Enz: 1
+- Treuchtlingen: 1
+- Neuenkirchen: 1
+- Kleinkahl: 1
+- Husum: 1
+- Bad Doberan: 1
+- Zornheim: 1
+- Bergen auf Rügen: 1
+- Neukirchen/Erzgebirge: 1
+- Pulsnitz: 1
+- Kleinwallstadt: 1
+- Drebach: 1
+- Rielasingen-Worblingen: 1
+- Bühl: 1
+- Friedberg: 1
+- Schwanfeld: 1
+- Glauchau: 1
+- Großbreitenbach: 1
+- Klötze: 1
+- Elleben: 1
+- Kranzberg: 1
+- Königsee: 1
+- Höxter: 1
+- Strullendorf: 1
+- Staufen im Breisgau: 1
+- Gebhardshain: 1
+- Spremberg: 1
+- Limbach: 1
+- Walheim: 1
+- Maulburg: 1
+- Gilching: 1
+- Bösel: 1
+- Schönaich: 1
+- Haßloch: 1
+- Lugau/Erzgebirge: 1
+- Unterweißbach: 1
+- Pritzwalk: 1
+- Eberhardzell: 1
+- Dillingen: 1
+- Frankenberg/Sachsen: 1
+- Hage: 1
+- Mering: 1
+- Herbrechtingen: 1
+- Ohrdruf: 1
+- Oberndorf am Neckar: 1
+- Johanniskirchen: 1
+- Überherrn: 1
+- Grabow: 1
+- Dahme/Mark: 1
+- Doberlug-Kirchhain: 1
+- Ströbeck: 1
+- Lawalde: 1
+- Schwelm: 1
+- Wangelnstedt: 1
+- Kißlegg: 1
+- Ueckermünde: 1
+- Tambach-Dietharz: 1
+- Wehr: 1
+- Oberkirch: 1
+- Drensteinfurt: 1
+- Stutensee: 1
+- Auggen: 1
+- Weitenhagen: 1
+- Lotte: 1
+- Hechingen: 1
+- Staufenberg: 1
+- Altbach: 1
+- Lienen: 1
+- Hintertiefenbach: 1
+- Kandern: 1
+- Püttlingen: 1
+- Rodewisch: 1
+- Büttel: 1
+- Langgöns: 1
+- Crimmitschau: 1
+- Lübbecke: 1
+- Gottmadingen: 1
+- Reinfeld (Holstein): 1
+- Westendorf: 1
+- Niedernhausen: 1
+- Hainichen: 1
+- Wallstawe: 1
+- Spreenhagen: 1
+- Burkau: 1
+- Mudau: 1
+- Nußdorf am Inn: 1
+- Luckenwalde: 1
+- Schwaig: 1
+- Steffenberg: 1
+- Eschbach: 1
+- Göggingen: 1
+- Eibenstock: 1
+- Espenau: 1
+- Rehlingen-Siersburg: 1
+- Wustrow: 1
+- Karlsbad: 1
+- Midlum: 1
+- Bobritzsch: 1
+- Stuttgart Wangen: 1
+- Grasberg: 1
+- Nehren: 1
+- Eimeldingen: 1
+- Kehl: 1
+- Dietramszell: 1
+- Sankt Johann: 1
+- Bad Tölz: 1
+- Allersberg: 1
+- Ingersheim: 1
+- Olbernhau: 1
+- Storkow (Mark): 1
+- Eislingen/Fils: 1
+- Tornesch: 1
+- Nostorf: 1
+- Idesheim: 1
+- Hermsdorf: 1
+- Aindling: 1
+- Heidenau: 1
+- Georgsmarienhütte: 1
+- Neuenstein: 1
+- Nuthe-Urstromtal: 1
+- Falkenstein: 1
+- Nottuln: 1
+- Achern: 1
+- Havelberg: 1
+- Kaub: 1
+- Dasing: 1
+- Elztal: 1
+- Geislingen an der Steige: 1
+- Gangelt: 1
+- Hettstadt: 1
+- Niestetal: 1
+- Igersheim: 1
+- Neukirch/Lausitz: 1
+- Kleinmachnow: 1
+- Vettelschoß: 1
+- Dresden Langebrück: 1
+- Velen: 1
+- Hambrücken: 1
+- Hösbach: 1
+- Höhenkirchen-Siegertsbrunn: 1
+- Nidderau: 1
+- Döllstädt: 1
+- Dinklage: 1
+- Großkarolinenfeld: 1
+- Bad Schmiedeberg: 1
+- Egelsbach: 1
+- Pockau: 1
+- Kobrow: 1
+- Hirrlingen: 1
+- Dogern: 1
+- Preetz: 1
+- Wadersloh: 1
+- Oberleichtersbach: 1
+- Hünfeld: 1
+- Bischofswiesen: 1
+- Großheide: 1
+- Berg bei Neumarkt in der Oberpfalz: 1
+- Grefrath: 1
+- Bötzingen: 1
+- Alperstedt: 1
+- Nahe: 1
+- Freiberg am Neckar: 1
+- Dürrröhrsdorf-Dittersbach: 1
+- Brilon: 1
+- Friedenweiler: 1
+- Redwitz an der Rodach: 1
+- Unterhaching: 1
+- Tapfheim: 1
+- Dießen am Ammersee: 1
+- Ettenheim: 1
+- Wanzleben: 1
+- Werl: 1
+- Meisdorf: 1
+- Tating: 1
+- Laußnitz: 1
+- Zell im Wiesental: 1
+- Kloster Lehnin: 1
+- Wurmberg: 1
+- Bernstadt auf dem Eigen: 1
+- Lauta: 1
+- Elsnig: 1
+- Monheim am Rhein: 1
+- Bous: 1
+- Heßdorf: 1
+- Teublitz: 1
+- Plochingen: 1
+- Wendisch Rietz: 1
+- Elchingen: 1
+- Wallerfangen: 1
+- Hasbergen: 1
+- Postau: 1
+- Zepelin: 1
+- Prerow: 1
+- Kümmersbruck: 1
+- Dassow: 1
+- Lorch: 1
+- Rothenburg/Oberlausitz: 1
+- Homberg (Efze): 1
+- Bad Brückenau: 1
+- Dornstadt: 1
+- Aspach: 1
+- Handewitt: 1
+- Lichtenstein: 1
+- Babenhausen: 1
+- Estenfeld: 1
+- Salzhemmendorf: 1
+- Strasburg: 1
+- Zens: 1
+- Peiting: 1
+- Rötz: 1
+- Marne: 1
+- Neuruppin: 1
+- Wellendingen: 1
+- Döhren: 1
+- Donzdorf: 1
+- Belzig: 1
+- Ahaus: 1
+- Burgpreppach: 1
+- Brünn: 1
+- Wilsdruff: 1
+- Walldürn: 1
+- Traventhal: 1
+- Mockrehna: 1
+- Niepars: 1
+- Ahnsen: 1
+- Gifhorn: 1
+- Mahlberg: 1
+- Deizisau: 1
+- Fröndenberg: 1
+- Heiligenhaus: 1
+- Pyrbaum: 1
+- Tiefenbach: 1
+- Neufahrn in Niederbayern: 1
+- Niederneisen: 1
+- Wachtberg: 1
+- Zeulenroda: 1
+- Langenselbold: 1
+- Mayen: 1
+- Schnaittenbach: 1
+- Twist: 1
+- Baiersbronn: 1
+- Traunreut: 1
+- Uhldingen-Mühlhofen: 1
+- Bestensee: 1
+- Blankenburg: 1
+- Monzelfeld: 1
+- Nittendorf: 1
+- Ampfing: 1
+- Schnelldorf: 1
+- Auerbach/Vogtland: 1
+- Kollmar: 1
+- Kaltenkirchen: 1
+- Hörgertshausen: 1
+- Greiz: 1
+- Pölzig: 1
+- Reichenberg: 1
+- Wernberg-Köblitz: 1
+- Büdingen: 1
+- Siegsdorf: 1
+- Aach: 1
+- Vöhrenbach: 1
+- Erligheim: 1
+- Datteln: 1
+- Eppenbrunn: 1
+- Murr: 1
+- Marienheide: 1
+- Regenstauf: 1
+- Johannesberg: 1
+- Steinheim: 1
+- Speichersdorf: 1
+- Goslar Hahndorf: 1
+- Bad Düben: 1

@@ -153,3 +153,29 @@ Zahlen, was auf Freigabe wartet.
   `input/listings-raw.csv`, gemeldete Kosten **1,1771 $**, 1.266 Städte, 861 mit E-Mail,
   `last_updated_time` 2023-05-24 bis 2026-10-07. `01-umfang.md` steht auf
   `wartet-auf-freigabe`. **Wartet auf:** Freigabe von `01-umfang.md`, dann Gate 2.
+- **2026-11-03** **Gate 1 freigegeben, Gate 2 gelaufen.** `clean_listings.py` auf
+  `input/listings-raw.csv` mit `--category "locksmith"` (englisches Kategorie-Label in den Daten,
+  nicht „Schlüsseldienst“ – der Abholbericht schlug fälschlich das deutsche Label vor),
+  `--chain-addresses 3` (Spec: „Namen an mehr als drei Adressen“; der Vergleich im Skript ist
+  strikt `>`), beiden owned-Schaltern (10 Nummern, 21 Domains).
+  Ergebnis: **3.102 → 2.912 behalten** (93,9 %); verworfen 102 veraltet, 88 Dubletten; 1.008 dünn;
+  2 eigene Zeilen; `02-listings-clean.csv`, `02-domains.txt` (2.029), `02-clean-report.md`.
+  **Zwei Datenmängel behoben (vom Betreiber freigegeben):**
+  (1) **Bundesland fehlte komplett** – DataForSEO liefert für DE kein `region`; `clean_listings.py`
+  leitete es nicht aus der PLZ ab. Autoritativen **GeoNames-PLZ-Datensatz** (CC BY 4.0) nach
+  `scripts/data/geonames-de-plz.tsv` gevendert (23.295 Zeilen, 10.814 PLZ; `scripts/data/README.md`)
+  und `clean_listings.py` erweitert (`load_plz_index`, `assign_from_plz`, `_pick_city`): Bundesland
+  aus der PLZ, deutscher Name aus dem Kürzel (nicht aus GeoNames’ teils englischem Namen).
+  Ergebnis: **2.911/2.912 zugeordnet**, nur 64760 Oberzent offen (GeoNames-Lücke, für Gate 4
+  markiert). Der Rhein-Neckar-Dreiländerrand löst exakt auf (RP/BW/HE).
+  (2) **Städtenamen englische Exonyme** (Munich/Cologne…) und 300 leer – aus PLZ/`address`-Feld auf
+  Deutsch normalisiert: 349 Exonyme ersetzt, 300 gefüllt; Stadtstaaten BE/HH auf eine Stadt gezogen
+  (Berlin 163, Hamburg 77), Bremen bleibt Bremen+Bremerhaven; 2 leere PLZ aus `address` nachgezogen.
+  **Verteilung:** NW 666, BY 409, BW 376, NI 237, HE 213, BE 162, SN 154, RP 119, BB 97, SH 96,
+  MV 78, HH 77, ST 77, TH 72, SL 46, HB 30. 1.257 Städte, 216 ab 3 Einträgen (halten 1.614 Zeilen).
+  **Gate-4-Listen im Bericht:** fremde Gewerbe (Metallbau 240, Schuhmacher 87, Baumärkte 32,
+  Gravur 19, Kfz 10), 841 nur über Nebenkategorie, Ketten (OBI 22, PM Service 9 u. a.).
+  **Wichtiger Befund für den Betreiber:** von 21 eigenen Betrieben erscheinen nur **2** überhaupt
+  in den Google-Daten (Merz Sicherheit Mannheim; eine Ludwigshafener Zeile über Telefon) – die
+  übrigen 19 haben kein bewertetes Google-Profil unter `locksmith` und wurden nicht etwa verworfen.
+  **Wartet auf:** Freigabe von `02-listings-clean.csv`, dann Gate 3.
