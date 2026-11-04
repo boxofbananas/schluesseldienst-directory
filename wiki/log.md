@@ -320,3 +320,15 @@ Zahlen, was auf Freigabe wartet.
   breiten Kategorien bestätigt: `kern≠true` aus security/safe-Kategorien gehört per Gate-4-Ausschluss
   heraus. Nebenfund: 9 Städte ohne Bundesland (ausländische Grenzorte, u. a. Basel mit 9 Einträgen).
   Bericht: `berichte/2026-11-04-stadttext-probe.md`. **Wartet auf:** Entscheidungen des Betreibers.
+
+- **2026-11-04 — Grenzorte, Textregel für 180 breite Einträge, Gegenprobe.** (1) 18 Einträge in 7
+  ausländischen Grenzorten (Basel 6, Binningen/Kreuzlingen/Münchenstein, Słubice, Forbach,
+  Spicheren) gedroppt; Oberzent auf Hessen korrigiert; „Unbekannt" (Schlüsseldienst Leipzig Herrmann,
+  ohne Adresse) zur Entscheidung vorgelegt. (2) Textregel des Betreibers (Türöffnung im Text
+  maßgeblich, nicht `kern`) per LLM auf alle 180 Einträge der Kategorien Alarm/Tresor angewandt:
+  **135 ausschließen, 45 behalten**, in `04-exclusions.csv`. 25 Divergenzen zu `kern` (17×
+  kern=true→ausschließen, 8× kern≠true→behalten) vorgelegt. Eichfälle ast/Stürmer/Reiher richtig
+  getroffen. (3) Gegenprobe der 431 Gate-4-Drops: alle sauber, die 115 „Türöffnung"-Erwähnungen sind
+  sämtlich Verneinungen. `04-exclusions.csv` nun **595 Drops**. Sonnet für Stadttexte freigegeben,
+  aber **noch nicht gestartet** — wartet auf Durchsicht der Divergenzen. Bericht:
+  `berichte/2026-11-04-breite-kategorien-und-grenzorte.md`.
