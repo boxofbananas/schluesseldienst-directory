@@ -185,7 +185,7 @@ def run_one(mode, cache, num, a, log):
     m = MODES[mode]
     answers = os.path.join(cache, m["answers"], f"batch-{num}.json")
     task = m["task"].replace("{slug}", a.slug).replace(m["token"], num)
-    extra, res = "", {"ok": False, "cost": 0.0, "attempts": 0, "answered": 0}
+    extra, res = "", {"ok": False, "cost": 0.0, "attempts": 0, "answered": 0, "tokens": 0}
     for attempt in range(1, a.attempts + 1):
         res["attempts"] = attempt
         if os.path.exists(answers):
@@ -203,14 +203,20 @@ def run_one(mode, cache, num, a, log):
         log(f"batch-{num}: Versuch {attempt} von {a.attempts}, Start")
         r = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True, env=env)
         secs = int(time.time() - t0)
-        cost, turns, text = "", "", r.stdout.strip()
+        cost, turns, text, toks = "", "", r.stdout.strip(), ""
         try:
             j = json.loads(text); cost = j.get("total_cost_usd", ""); turns = j.get("num_turns", ""); text = j.get("result", text)
+            u = j.get("usage") or {}
+            tin = (u.get("input_tokens") or 0) + (u.get("cache_read_input_tokens") or 0) + (u.get("cache_creation_input_tokens") or 0)
+            tout = u.get("output_tokens") or 0
+            if tin or tout:
+                toks = f"{tin + tout}"
+                res["tokens"] += tin + tout
         except Exception: pass
         try: res["cost"] += float(cost or 0)
         except (TypeError, ValueError): pass
         with open(os.path.join(cache, "runner-replies.log"), "a", encoding="utf-8") as f:
-            f.write(f"\n## batch-{num} attempt {attempt} ({secs}s, turns {turns}, cost {cost})\n{text}\n{r.stderr.strip()}\n")
+            f.write(f"\n## batch-{num} attempt {attempt} ({secs}s, turns {turns}, cost {cost}, tokens {toks})\n{text}\n{r.stderr.strip()}\n")
         if r.returncode != 0 and not os.path.exists(answers):
             log(f"batch-{num}: claude endete mit {r.returncode} nach {secs}s: {r.stderr.strip()[:300] or text[:300]}")
             continue
@@ -256,11 +262,13 @@ def summary_line(mode, results, secs):
     unit = MODES[mode]["unit"]; unit_sg = MODES[mode]["unit_sg"]
     passed = [r for r in results if r["ok"]]; failed = [r for r in results if not r["ok"]]
     answered = sum(r["answered"] for r in passed); cost = sum(r["cost"] for r in results)
+    tokens = sum(r.get("tokens", 0) for r in results)
     retries = sum(r["attempts"] - 1 for r in results)
     per = f"{cost / answered * 100:.1f} Cent je {unit_sg}".replace(".", ",") if answered else "keine Kosten je Stück (nichts bestanden)"
+    tok_part = f", {tokens:,} Token verbraucht".replace(",", ".") if tokens else ""
     wall = f"{secs // 60} min {secs % 60} s" if secs >= 60 else f"{secs} s"
     return (f"Zusammenfassung: {len(passed)} Stapel bestanden, {len(failed)} durchgefallen, {retries} Wiederholungen, "
-            f"{answered} {unit} beantwortet, {f'{cost:.2f}'.replace('.', ',')} $ von claude -p gemeldet, {per}, {wall} Laufzeit")
+            f"{answered} {unit} beantwortet, {f'{cost:.2f}'.replace('.', ',')} $ von claude -p gemeldet{tok_part}, {per}, {wall} Laufzeit")
 
 
 def main():

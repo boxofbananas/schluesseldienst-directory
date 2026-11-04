@@ -1,0 +1,842 @@
+[
+  {
+    "slug": "schuh-und-schluesselkoenig-elmshorn",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "false",
+      "tueroeffnung": "false",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Schuhreparatur und Schlüsselservice unter einem Dach: Der inhabergeführte Fachbetrieb in Elmshorn arbeitet mit Ladengeschäft und Werkstatt. Den Schwerpunkt bilden Fahrzeugschlüssel. Ersatz- und Zweitschlüssel, Funkfernbedienungen und Keyless-Systeme für nahezu alle gängigen Marken werden angefertigt, angelernt und repariert, dazu gehören der Batteriewechsel am Autoschlüssel und das Anlernen der Wegfahrsperre. Daneben stehen klassischer Schlüsselservice für Haus-, Wohnungs-, Briefkasten- und Sicherheitsschlüssel, Schließtechnik mit Zylindern, Schließanlagen und Sicherheitsbeschlägen sowie Gravuren. Für Gewerbekunden gibt es ein eigenes Angebot. Einen mobilen Türöffnungsdienst und Einsätze im Notdienst rund um die Uhr bietet der Betrieb bewusst nicht an, er arbeitet stationär mit persönlicher Beratung. Was möglich ist und was es kostet, wird vorab gesagt, und Fahrzeugdaten können vorher geschickt werden, damit die Machbarkeit geklärt ist. Persönliche Beratung im Ladengeschäft steht im Mittelpunkt.",
+    "trace": {
+      "festpreis_genannt": "bekommen vorher gesagt, was möglich ist und was es kostet"
+    }
+  },
+  {
+    "slug": "notschluesseldienst-pinneberg-elmshorn",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Als 24-Stunden-Schlüsseldienst arbeitet der Notschlüsseldienst Pinneberg in Elmshorn und im gesamten Kreis Pinneberg. Das Einsatzgebiet reicht von Uetersen, Tornesch und Wedel bis Quickborn, Halstenbek, Schenefeld und Barmstedt. Der Betrieb übernimmt Türöffnungen und Aussperrungen sowie den Wechsel von Schlössern und Zylindern und geht dabei möglichst beschädigungsarm vor. Als Notschlüsseldienst für den Kreis tritt er unter dem Namen Notschlüsseldienst Pinneberg auf.",
+    "trace": {
+      "notdienst_24h": "24-Stunden-Schlüsseldienst für Elmshorn"
+    }
+  },
+  {
+    "slug": "schluesseldienst-schluesselnotdienst-boum-elmshorn-kreis-pinneberg-elmshorn",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Boum unterhält mehrere Standorte im Raum Elmshorn, Pinneberg, Norderstedt, Barmstedt, Uetersen und Tornesch, dazu eine Filiale in Hamburg. Der Schlüsselnotdienst ist Tag und Nacht, auch am Wochenende, erreichbar und öffnet zugefallene und verschlossene Haus-, Wohnungs- und Bürotüren, nach eigener Angabe zerstörungsfrei. Zum Angebot gehören Schloss- und Zylinderwechsel, die Montage und Reparatur von Schließanlagen, Einbruchschutz für Türen und Fenster mit Beratung sowie die Reparatur defekter Beschläge, wofür ein Lager mit nicht mehr gefertigten Teilen besteht. Ersatzschlüssel für ein geöffnetes Schloss werden angefertigt. Der Betrieb arbeitet nach eigener Angabe ohne versteckte Gebühren, nennt seine Preise vorab und hält die Anfahrtskosten unabhängig von der Entfernung gleich. Beratungen finden beim Kunden oder im Lager statt. Als Standort im Raum Pinneberg und Elmshorn mit direkter Anbindung an Hamburg nennt der Betrieb kurze Wartezeiten."
+  },
+  {
+    "slug": "obi-emden",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "In Emden führt OBI einen Baumarkt mit einem Sortiment aus den Bereichen Bauen, Wohnen, Technik und Garten. Dazu gehören ein Gartencenter, ein Holzzuschnitt-Service, ein Farbmischservice sowie Mietgeräte und Werkzeugverleih. Ein Containerservice, Solaranlagen und Wärmepumpen mit Beratung und Montage und eine Terrassenüberdachung nach Maß mit Montage ergänzen das Angebot. Einen eigenen Bereich gibt es für Profis. Beim Schlüsseldienst des Marktes werden Schlüssel sofort angefertigt und können direkt mitgenommen werden. Ware kann innerhalb von drei Monaten umgetauscht werden, und Geschenkkarten sind erhältlich.",
+    "trace": {
+      "schluessel_nachmachen": "Schlüsseldienst Für dich sofort angefertigt – direkt zum Mitnehmen",
+      "ladengeschaeft": "Dein OBI Markt Emden, Thüringer Straße 7"
+    }
+  },
+  {
+    "slug": "janssen-kruse-gmbh-co-kg-emden",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Janssen + Kruse ist ein Baustoffhandel in Emden und tritt als Ansprechpartner für Bauen, Wohnen und Garten in Emden und auf Borkum auf. Die Rechtsform ist GmbH & Co. KG. Neben Baustoffen und Heimwerkerbedarf reicht das Sortiment nach den hinterlegten Kategorien bis zu Fliesen, Angelbedarf, Spielzeug und Geschenkartikeln. Auch ein Schlüsseldienst gehört zu den Kategorien des Betriebs."
+  },
+  {
+    "slug": "captainkey-neuer-markt-emden",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "CaptainKey in Emden dreht sich um Schlüsselkopien: Haus-, Wohnungs-, Briefkasten- und Sicherheitsschlüssel mit eigenem Profil sowie Auto- und Motorradschlüssel werden lasergesteuert gefräst. Schlüsselzubehör gehört zum Sortiment, ebenso Smartkey-Lösungen von Abus und Nuki. Die fünf wichtigsten Schlüssel lassen sich digital im Shop hinterlegen. Daneben repariert der Betrieb Smartphones und Tablets, vom Displaytausch über den Backcovertausch bis zum Akkutausch, und bietet Datenrettung an. Kostenvoranschläge gehören zum Service. Als Vorteile nennt der Betrieb schnelle, präzise Kopien in guter Qualität. Kunden schreiben dem Betrieb oder kommen vorbei.",
+    "trace": {
+      "autoschluessel": "Auto- und Motorradschlüssel",
+      "elektronische_schliesssysteme": "Smartkeylösungen von Abus und Nuki",
+      "ladengeschaeft": "Digitale Hinterlegung Ihrer 5 wichtigsten Schlüssel bei uns im Shop"
+    }
+  },
+  {
+    "slug": "obi-emmendingen-emmendingen",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Der Baumarkt OBI in Emmendingen deckt die Bereiche Bauen, Wohnen, Technik und Garten ab. Zu den Leistungen zählen Gartencenter, Holzzuschnitt, Farbmischservice, Mietgeräte und Werkzeugverleih, dazu ein Containerservice. Solaranlagen und Wärmepumpen werden mit Beratung und Montage angeboten, ebenso Terrassenüberdachungen nach Maß. Profis finden ein eigenes Angebot, und ein Termin lässt sich im Markt vereinbaren. Der Schlüsseldienst im Haus fertigt Schlüssel sofort an, sie gehen direkt mit. Umtausch ist ganz entspannt innerhalb von drei Monaten möglich, und es gibt Geschenkkarten in vielen Designs.",
+    "trace": {
+      "schluessel_nachmachen": "Schlüsseldienst Für dich sofort angefertigt – direkt zum Mitnehmen",
+      "ladengeschaeft": "Dein OBI Markt Emmendingen, Karl-Friedrich-Str. 91"
+    }
+  },
+  {
+    "slug": "autoschluessel-info-emmendingen",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Als Fahrzeug-Schlüsseldienst für Südbaden arbeitet autoschlüssel.info von Emmendingen aus, im Einsatz auch in Waldkirch, Freiburg und Denzlingen. Das Fachgebiet ist das Reparieren, Kopieren und Programmieren von Fahrzeugschlüsseln: Funk-, Transponder-, Keyless-go- und Smart-Key-Systeme fast aller am Markt befindlichen Marken. Hinzu kommen Schlüssel für Wohnmobile, Nutzfahrzeuge, Oldtimer, Motorräder und Roller, auch wenn der Master Key fehlt. Techniker lernen Transponder an der Wegfahrsperre an und synchronisieren Funkfernbedienungen. Defekte Schlüssel werden repariert, damit sie wieder wie neu funktionieren. Bei nur noch einem vorhandenen Fahrzeugschlüssel rät der Betrieb zu einem Ersatzschlüssel mit Transponder, weil bei einem Totalverlust das Fahrzeug nicht ohne Weiteres zu öffnen ist. Viele Kunden kommen seit Jahren wieder. Eine umfangreiche Ausrüstung und ein gepflegter Lagerbestand sollen es ermöglichen, nahezu jedes Problem mit dem Fahrzeugschlüssel zeitnah zu lösen."
+  },
+  {
+    "slug": "ismail-hausmeisterservice-und-rohrreinigung-emmendingen",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Ismail Hausmeisterservice und Rohrreinigung arbeitet in Emmendingen als Hausmeisterdienst mit Rohrreinigung. Nach den Kategorien des Betriebs gehören Gebäudereinigung, Strahlreinigung, Trockenbau, Gartenarbeiten und die Beseitigung von Wasserschäden dazu, außerdem ein Notdienst für Schlüssel und Schlösser. Der Schwerpunkt liegt auf dem Hausmeisterservice und nicht auf dem klassischen Schlüsseldienst. Das Leistungsfeld reicht damit von Reinigung und Garten bis zu Notfällen rund ums Haus."
+  },
+  {
+    "slug": "schluesseldienst-demir-im-kaufland-eschweiler-eschweiler",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Mehmet Demir führt in Eschweiler Schuhreparaturen und Schlüsseldienst unter einem Dach. Der Betrieb sitzt innerhalb des Kaufland-Marktes, trägt den Namen Schlüsseldienst Demir und ist nach seiner Kategorie ein Schlüsseldienst, der zugleich als Schuhmacher arbeitet. Beide Gewerke teilen sich damit eine gemeinsame Anlaufstelle im Markt. Der Familienname im Betriebsnamen verweist auf den Inhaber, die Lage im Markt auf einen Standort mitten im Alltag der Stadt."
+  },
+  {
+    "slug": "hhomme-auto-schluesseldienst-24-7-dienstleistungen-demirak-eschweiler",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "HHOMME in Eschweiler wirbt mit einem Aufsperrdienst rund um die Uhr, einem Autoschlüsseldienst und allgemeinem Schlüsseldienst. Der Betrieb mit dem Zusatz Dienstleistungen Demirak führt zudem Kategorien wie Kfz-Elektrik, Autoreparatur, Hausmeisterdienst und Immobilienpflege, außerdem Schlüsselkopien und einen Schlossladen. Er ist damit ein Mischbetrieb aus Fahrzeug- und Gebäudedienstleistungen. Der Name bündelt Fahrzeug- und Gebäudedienste unter einer Marke.",
+    "trace": {
+      "notdienst_24h": "24/7 Aufsperrdienst Eschweiler",
+      "tueroeffnung": "24/7 Aufsperrdienst Eschweiler"
+    }
+  },
+  {
+    "slug": "schluesseldienst-mitten-in-weisweiler-eschweiler",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Im Eschweiler Ortsteil Weisweiler arbeitet ein Betrieb, der sich als Schlüsseldienst mitten in Weisweiler bezeichnet und an der Lindenallee sitzt. Im Mittelpunkt steht der Schlüsselkopierdienst: Ein Ersatzschlüssel ist nach eigener Angabe im Handumdrehen angefertigt, die Schlüsselkopien entstehen schnell, zuverlässig und nach hohen Standards. Der Betrieb versteht sich als Anlaufstelle für Schlüsselkopien im Ortsteil und tritt unter dem Namen Schlüsseldienst Weisweiler auf. Wer in Eschweiler Schlüssel nachmachen lassen will, findet ihn im Stadtteil Weisweiler. Der Auftritt beschränkt sich auf diesen einen Dienst: schnelle Kopien nach hohen Standards."
+  },
+  {
+    "slug": "schluesseldienst-esslingen-mond-esslingen-am-neckar",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Schlüsseldienst Esslingen MOND ist Schlüsseldienst und Fachgeschäft für Sicherheitstechnik im Raum Esslingen und seit 1999 am Markt. Der Betrieb montiert, bearbeitet, bestellt und berät und fertigt Nachschlüssel an. Er arbeitet mit zahlreichen Schlossherstellern zusammen, deren Produkte in Deutschland gefertigt werden, und stellt damit Sicherheitstechnik aus deutscher Fertigung in den Mittelpunkt."
+  },
+  {
+    "slug": "sancak-sicherheitstechnik-schluesseldienst-esslingen-am-neckar",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Sancak Sicherheitstechnik versteht sich als Schlüsseldienst und Fachgeschäft für Sicherheit in Esslingen. Der Schlüsselnotdienst ist rund um die Uhr erreichbar, auch an Sonn- und Feiertagen, und öffnet ausgesperrten Kunden die Tür, ohne Schäden zu verursachen. Im Einsatz ist der Betrieb in Esslingen, Nellingen, Köngen, Denkendorf, Ostfildern und weiteren Orten der Umgebung. Zum Fachgeschäft gehören Beratung und Planung von Schließanlagen, darunter Zentralschloss-Anlagen, sowie Türbeschläge, Briefkästen, Tresore, Orientierungstechnik und Fluchtwegtechnik. Digitale Schließzylinder, die herkömmliche Zylinder ersetzen und das Öffnen per Finger ermöglichen, zählen ebenso zum Programm wie Einbruchschutz. Außerdem werden Gravuren und Stempel angeboten. Der Betrieb will als Experte für Sicherheitstechnik in Projekten zur Verfügung stehen und die Umgebung der Kunden sicherer machen. Wichtige Dokumente sollen sicher aufbewahrt werden, deshalb wird beim Kauf von Tresoren beraten.",
+    "trace": {
+      "elektronische_schliesssysteme": "digitale Schließzylinder ersetzen herkömmliche Zylinder und ermöglichen neue Funktionen"
+    }
+  },
+  {
+    "slug": "mm-united-hausmeisterservice-esslingen-am-neckar",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "MM United ist ein inhabergeführter Hausmeisterservice aus Esslingen, der neben dem Hausmeisterdienst auch einen Schlüsselnotdienst betreibt. Das Hausmeisterangebot umfasst Gebäude- und Büroreinigung, Kehrwoche, Fenster- und Glasreinigung, Winterdienst sowie Garten- und Grünpflege. Kleinreparaturen, Montagen, Grundstücksrodung und Abbrucharbeiten kommen hinzu. Die Kundschaft besteht aus Wohnanlagen, Hausverwaltungen, Eigentümergemeinschaften, Vermietern und Gewerbeobjekten. Der Schlüsselnotdienst ist rund um die Uhr besetzt und öffnet zugefallene Türen zerstörungsfrei. Der Betrieb arbeitet nach eigener Angabe ohne versteckte Kosten und nennt Festpreise für die Türöffnung. Die Reinigung umfasst Treppenhäuser, Gehwege und Gemeinschaftsflächen, Sonderreinigungen erfolgen nach Absprache. Weitere Sonderleistungen gibt es auf Anfrage, und ein Termin lässt sich online vereinbaren. Der Schlüsselnotdienst ist nach eigener Angabe innerhalb kurzer Zeit vor Ort. Der Betrieb führt Kleinreparaturen und Montagen aus einer Hand aus und setzt auf schnelle Einsatzbereitschaft und individuelle Absprachen."
+  },
+  {
+    "slug": "schluesseldienst-fellbach-rapid-service-fellbach",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Schlüsseldienst Fellbach Rapid Service sitzt in Fellbach und tritt unter dem Namen Rapid Service Schlüsseldienst auf. Nach seiner Kategorie ist er ein Schlüsseldienst, der zusätzlich als Notschlüsseldienst eingeordnet ist. Der Name des Betriebs verweist auf schnelle Einsätze in der Stadt und der näheren Umgebung. Der Betrieb nennt sich schlicht Rapid Service Schlüsseldienst und versteht sich als lokaler Ansprechpartner für Fellbach."
+  },
+  {
+    "slug": "arga-schluesseldienst-fellbach",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Arga ist ein Familienbetrieb in Fellbach, der Schuhreparatur und Schlüsseldienst verbindet und nach eigener Angabe auf über 30 Jahre Erfahrung in Schlüsseldienst, Schlüsselanfertigung und Einbruchschutz zurückblickt. Der Schlüsselnotdienst ist rund um die Uhr im Einsatz, öffnet zugefallene und verschlossene Haus- und Wohnungstüren möglichst ohne Spuren am Schloss, hilft bei abgebrochenen Schlüsseln und tauscht Schlösser. Auch Notöffnungen, Reparaturen und der Einbau von Schließsystemen aller Art gehören dazu, ebenso die Erstabsicherung nach einem Einbruch. Autos werden geöffnet, Autoschlüssel nachgemacht, und Schlüsselzubehör wie Anhänger und Schrankschlösser ist vorrätig. Alle Preise für Arbeit und Material werden vorab genannt. Zum Laden gehören außerdem Uhrenreparatur und Textilreinigung. Zum Angebot zählen Schlüsselanfertigungen, Schlüsselkopien und Reparaturen an Tür und Schloss, und für den Familienbetrieb gelten zufriedene Kunden und persönlicher Kontakt als Maßstab.",
+    "trace": {
+      "ladengeschaeft": "Cannstatter Str. 10"
+    }
+  },
+  {
+    "slug": "ekhardt-schwiete-gmbh-fellbach",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Ekhardt & Schwiete GmbH in Fellbach beschäftigt sich seit mehr als 35 Jahren mit Schließtechnik. Der Betrieb nennt Reparaturen, Instandsetzung und schnelle Hilfe im Notfall als Aufgaben und stellt seinen Erfahrungsschatz und passende Lösungen für auch spezielle Anforderungen heraus. Als Kategorien führt er Sicherheitsausrüstung, Schlüsseldienst und Briefkastenhandel. Einsätze finden auch vor Ort beim Kunden statt."
+  },
+  {
+    "slug": "obi-markt-friedrichshafen-friedrichshafen",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Am Standort Friedrichshafen betreibt OBI einen Baumarkt mit Sortiment rund um Bauen, Wohnen, Technik und Garten. Im Markt gibt es Badplaner und Gartenplaner, ein Gartencenter, Holzzuschnitt und Farbmischservice, dazu Mietgeräte, Werkzeugverleih, Lieferservice und Miettransporter. Eine Wertstoffrücknahme gehört ebenso zum Service wie Beratung in den Abteilungen. Schlüssel werden im Schlüsseldienst des Marktes sofort angefertigt und können direkt mitgenommen werden. Umtausch ist innerhalb von drei Monaten möglich, und Geschenkkarten sind erhältlich. Für Profis hält der Markt ein eigenes Angebot bereit, und ein Termin lässt sich vereinbaren.",
+    "trace": {
+      "schluessel_nachmachen": "Schlüsseldienst Für dich sofort angefertigt – direkt zum Mitnehmen"
+    }
+  },
+  {
+    "slug": "oliver-friedrichshafen",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Oliver verbindet in Friedrichshafen Schuhreparatur und Schlüsseldienst und ist nach eigener Angabe seit 1994 im Marktkauf zu finden. Ein Monteur ist an sieben Tagen rund um die Uhr für Türöffnungen und Aufsperrdienst erreichbar, auch bei kaputten Schlüsseln. Zum Angebot gehören außerdem Schlossservice und Autoschlüssel: Viele Fahrzeugschlüssel werden angefertigt und programmiert, als Ersatz oder als zusätzlicher Schlüssel, und der Betrieb prüft vorab, ob für das Fahrzeug eine passende Lösung möglich ist. Der Einsatzraum reicht über Tettnang, Eriskirch, Langenargen, Markdorf und Ravensburg in die Bodenseeregion. Für die Türöffnung wird der Preis vorab genannt, die Anfahrt kommt hinzu. Das Team ist nach eigener Angabe seit rund 30 Jahren in Friedrichshafen tätig und arbeitet fachmännisch. Die Preise für die Türöffnung sind nach Tageszeit gestaffelt, werktags tagsüber gilt ein anderer Preis als abends sowie an Sonn- und Feiertagen.",
+    "trace": {
+      "festpreis_genannt": "65 Euro + Anfahrt"
+    }
+  },
+  {
+    "slug": "nextgenecu-autoschluesseldienst-24-7-diagnose-softwareoptimierung-friedrichshafen",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "true",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "NextgenECU in Friedrichshafen verbindet einen Autoschlüsseldienst rund um die Uhr mit Fahrzeugtechnik. Der Betrieb hilft bei verlorenen oder eingeschlossenen Autoschlüsseln, erstellt Ersatzschlüssel und programmiert Funkschlüssel, Transponder und Wegfahrsperren. Dazu kommen Fahrzeugdiagnose, Fehlerauslesen, Steuergerätecodierung und Softwareoptimierung für Leistung und Effizienz sowie die Optimierung von DPF, AGR und AdBlue. Der Service ist mobil in Friedrichshafen und Umgebung.",
+    "trace": {
+      "notdienst_24h": "Unser Autoschlüsseldienst 24/7 hilft schnell"
+    }
+  },
+  {
+    "slug": "obi-garbsen",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Die Filiale in Garbsen ist ein OBI Baumarkt für Bauen, Wohnen, Technik und Garten. Angeboten werden Gartencenter, Holzzuschnitt, Farbmischservice, Mietgeräte und Werkzeugverleih, ebenso ein Containerservice. Wer Solaranlagen oder eine Wärmepumpe sucht, bekommt Beratung und Montage, und Terrassenüberdachungen werden nach Maß mit Montage geliefert. Der Markt führt außerdem einen Anhängerverleih. Der Schlüsseldienst im Markt fertigt Schlüssel sofort an, sie können direkt mitgenommen werden. Umtausch ist innerhalb von drei Monaten möglich, und Geschenkkarten stehen in vielen Designs bereit. Für Profis gibt es ein eigenes Angebot, und Termine lassen sich im Markt vereinbaren.",
+    "trace": {
+      "schluessel_nachmachen": "Schlüsseldienst Für dich sofort angefertigt – direkt zum Mitnehmen",
+      "ladengeschaeft": "Dein OBI Markt Garbsen, Berenbostelerstr. 76"
+    }
+  },
+  {
+    "slug": "karat-schluesseldienst-garbsen-garbsen",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "true",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Seit dem Jahr 2000 arbeitet der Karat Schlüsseldienst in Garbsen und Umgebung, mit Einsätzen in Berenbostel, Neustadt, Seelze, Wunstorf und Langenhagen. Der Schlüsselnotdienst ist auch außerhalb der normalen Geschäftszeiten schnell vor Ort, öffnet zugefallene Türen, wechselt defekte Türschlösser und montiert neue Schließzylinder und Zusatzschlösser. Zum Angebot gehören außerdem Einbruchschutz, Alarm- und Schließsysteme, die Planung von Schließanlagen sowie die Öffnung von Tresoren und Briefkästen. Im Ladengeschäft in Hannover und Garbsen entstehen auf modernen Fräsmaschinen exakte Schlüsselkopien. Die Preise für die einfache Türöffnung stehen vorab fest, und für die Anfahrt innerhalb Garbsens gilt eine Pauschale. Die Monteure installieren auch Alarm- und Schließsysteme. Türöffnungen außerhalb der üblichen Geschäftszeiten werden zu vorab bekannten Preisen durchgeführt, damit die Kosten planbar bleiben. Als ortsansässiger Schlüsselnotdienst nennt der Betrieb sehr kurze Reaktionszeiten und sieht sich als Ansprechpartner für Tür, Schloss und Schlüssel."
+  },
+  {
+    "slug": "sprint-garbsen",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Sprint ist ein Schuh- und Schlüssel-Schnell-Dienst mit Filialen vor Ort, eine davon in Garbsen. Neben Schuhreparatur und Schlüsseldienst gehören ein Uhrenservice und Gravuren zum Angebot. Weitere Filialen bestehen in Altwarmbüchen, Bielefeld, Braunschweig, Gifhorn, Hannover, Hameln, Hemmingen, Helmstedt, Nienburg, Uelzen, Wolfsburg und Wunstorf. Das Leistungsangebot soll in Bestzeit und kundenfreundlich direkt in der Filiale erbracht werden, und Sprint stellt heraus, dass es nicht nur um Schuhe und Schlüssel geht. Die Filiale in Garbsen gehört zu einem Netz aus mehr als einem Dutzend Standorten. Hinzu kommen Aktionen unter dem Menüpunkt Specials."
+  },
+  {
+    "slug": "schluesseldienst-sicherheitstechnik-garscha-gotha",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Der Gothaer Betrieb von Inhaber Philipp Garscha verbindet klassischen Schlüsseldienst mit Sicherheitstechnik. Er berät, plant und installiert nach den Sicherheitsansprüchen der Kunden und führt Schlösser, Beschläge, Schlüssel, Schließanlagen und elektrische Schließsysteme. Dazu kommen elektronische Zutrittskontrollen, Kameraüberwachung, der Umbau von Fluchtwegen und die Installation von Panikschlössern. Bei Tresoren reicht das Angebot vom Verkauf über Wartung und Transport bis zur Öffnung. Ein Notdienst nimmt Aussperrungen an, und Türen werden innerhalb weniger Minuten schadenfrei geöffnet. Die Preise nennt der Betrieb vorab und transparent. Zum Aufsuchen gibt es ein Geschäft in Gotha mit Öffnungszeiten, und Beratungen sind auch vor Ort möglich. Nach eigener Angabe zählt der Betrieb über 3560 zufriedene Kunden und stellt Beratung vor Ort in den Vordergrund. Geführt werden Produkte namhafter Hersteller wie WINK HAUS, Wilka, DOM, Abus, EVVA, KESO, BASI und Burg Wächter."
+  },
+  {
+    "slug": "detlev-pinnow-gotha",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Detlev Pinnow arbeitet in Gotha und ist nach seiner Hauptkategorie ein Herstellerbetrieb, der zusätzlich als Schlüsseldienst eingeordnet wird. Der Betrieb trägt den Namen seines Inhabers und hat Öffnungszeiten hinterlegt. Schlüsseldienst ist bei ihm eine Nebenkategorie neben der Herstellung, und der Betrieb ist in der Stadt als Einzelanbieter zu finden. Er sitzt in Gotha."
+  },
+  {
+    "slug": "metallbau-zerreich-gotha",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Metallbau Zerreich in Gotha ist im Kern ein Metallbaubetrieb mit Schlosserei und Schweißerei, der zusätzlich Türnotöffnungen übernimmt. Wer ausgesperrt ist und keinen Schlüssel dabei hat, erreicht den Betrieb im Raum Gotha und Umgebung rund um die Uhr. Die Türöffnung erfolgt nach eigener Angabe professionell und noninvasiv, sodass Tür und Schloss geschont werden. Alte Schlösser werden fachgerecht ausgetauscht und durch moderne Lösungen ersetzt, auch Griffe und Armaturen werden erneuert oder instand gesetzt. Hinzu kommen Schlüsselfertigung, Metallreparaturen, Schlosserarbeiten und die Sanierung von Garagentoren. Eine Referenzgalerie zeigt Arbeiten aus dem Metallbau, und für nahezu jedes Problem an Schloss oder Metall wird eine passende Lösung gesucht. Im Mittelpunkt stehen Schlosser- und Reparaturarbeiten sowie Schlüssel- und Schlosserarbeiten im Raum Gotha. Der Betrieb stellt außerdem Metallkonstruktionen her und repariert Metallteile.",
+    "trace": {
+      "schluessel_nachmachen": "Schlüsselfertigung"
+    }
+  },
+  {
+    "slug": "service-point-gravur-und-schluesseldienst-gross-zimmern",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "In Groß-Zimmern bündelt Service Point mehrere Handwerke in einem Geschäft: Schlüsselanfertigung, Schuhreparaturen, Gravuren, Stempel, Schilder, Pokale und Uhrenservice. Ein Sortiment von über 2300 verschiedenen Schlüsselrohlingen soll gewährleisten, dass nahezu jeder Schlüssel nachgemacht werden kann. Dazu zählen Haus- und Zimmertürschlüssel, Sicherheitsschlüssel mit Sicherungs- oder Codekarte, Kleinzylinder für Briefkästen und Büromöbel, Möbel- und Antikschlüssel, Doppelbartschlüssel und Schlüssel für Zweiräder und Stapler. Autoschlüssel gibt es auf Anfrage, und auch Schlüsselanfertigung nach Codenummer ist möglich. Außerdem gehören Schlösser und Schließanlagen zum Programm. Batterien und Knopfzellen sowie Geschenkideen ergänzen das Angebot im Laden. Auch Bartschlüssel für Zimmertüren und Hoftore sowie Kreuzschlüssel werden angefertigt. Das Geschäft erledigt Handwerksdienste des Alltags, bei denen Schuhe, Uhren, Schlüssel und Gravuren an einer Stelle bearbeitet werden. Pokale, Stempel und Schilder lassen sich ebenfalls dort anfertigen.",
+    "trace": {
+      "ladengeschaeft": "Waldstraße 81 - 64846 Groß-Zi"
+    }
+  },
+  {
+    "slug": "metallmanufaktur-di-girolamo-gross-zimmern",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Die Metallmanufaktur Di Girolamo in Groß-Zimmern ist ein Metallbaubetrieb und kein Schlüsseldienst. Die Hauptleistung ist die Herstellung maßgeschneiderter Metalldesigns: Metallmöbel, Metallkonstruktionen, Geländer und Sonderanfertigungen, aber auch Baugruppen und Serienfertigung. Dazu kommen Schweißarbeiten, Reparaturschweißen, die Restaurierung von Metallarbeiten sowie Beratung und Design und die Kombination verschiedener Materialien für kundenspezifische Projekte. Der Betrieb wirbt mit Individualität: Metall wird in kunstvolle Designs umgewandelt."
+  },
+  {
+    "slug": "schlosserei-steinbrecher-gross-zimmern-gross-zimmern",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Die Schlosserei Steinbrecher in Groß-Zimmern ist ein familiengeführter Metallbaubetrieb, der nach eigener Angabe bereits seit 1835 besteht. Der Betrieb fertigt, liefert und montiert Fenster und Türen aus Aluminium und PVC, Garagen- und Sectionaltore, Hoftore und Metallbauelemente wie Geländer, Handläufe, Stahltreppen und Überdachungen. Verarbeitet werden Produkte der Hersteller Klauke und Wirus. Das Einsatzgebiet liegt im Raum Darmstadt. Mit Schlüsselarbeiten im Sinne eines Schlüsseldienstes hat der Betrieb nichts zu tun, sein Schwerpunkt ist Metallbau. Die Produkte sollen sich durch ein ästhetisches Design und hohen Einbruchschutz auszeichnen."
+  },
+  {
+    "slug": "guenzburger-schluesseldienst-guenzburg",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Der Günzburger Schlüsseldienst versteht sich als Fachgeschäft für Sicherheitstechnik, das sich unter anderem auf häusliche Bedürfnisse eingestellt hat. Der Inhaber bringt über 40 Jahre Berufserfahrung mit. Angeboten wird ein Türöffnungs-Notdienst, der derzeit nur eingeschränkt läuft: werktags tagsüber, samstags nur bis zum Nachmittag und sonntags gar nicht. Er ist ein Anlaufpunkt für Schlüssel, Schlösser und Sicherheit im Haushalt in Günzburg."
+  },
+  {
+    "slug": "huso-s-schuh-und-schluesseldienst-guenzburg",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Huso's Schuh und Schlüsseldienst sitzt in Günzburg und vereint nach dem Namen Schuhreparatur und Schlüsseldienst in einem Geschäft. Nach seiner Kategorie zählt er zu den Schlüsseldiensten der Stadt. Der Betrieb hat Öffnungszeiten hinterlegt und arbeitet als kleiner Laden vor Ort, in dem beide Gewerke zusammenkommen. Der Name stellt den Schlüsseldienst gleichberechtigt neben die Schuhreparatur."
+  },
+  {
+    "slug": "lara-fachschluesseldienst-guenzburg",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Lara Fachschlüsseldienst in Günzburg ist nach eigener Angabe seit über 40 Jahren als Schlüsseldienst tätig. Der Betrieb hilft bei Aussperrungen, fertigt Schlüssel nach, arbeitet mit Festpreisen ohne versteckte Kosten und bietet für Notfälle einen Aufsperrservice rund um die Uhr an. Kunden können sich melden oder direkt vorbeikommen. Schlüssel und Schlösser sind das Metier des Betriebs aus Günzburg.",
+    "trace": {
+      "notdienst_24h": "Für Notfälle bieten wir einen 24-Stunden-Aufsperrservice an",
+      "tueroeffnung": "24-Stunden-Aufsperrservice"
+    }
+  },
+  {
+    "slug": "obi-guestrow-guestrow",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Zu OBI Güstrow gehört ein Baumarkt mit Sortiment aus Bauen, Wohnen, Technik und Garten. Der Markt bietet Gartencenter, Holzzuschnitt, Farbmischservice, Mietgeräte, Werkzeugverleih und Mietanhänger sowie Lieferservice und Pflanzenverpackung. Eine Wertstoffrücknahme steht ebenfalls bereit, und es gibt ein eigenes Angebot für Profis. Im Schlüsseldienst des Marktes werden Schlüssel sofort angefertigt und gehen direkt mit. Umtausch ist innerhalb von drei Monaten möglich, Geschenkkarten sind in vielen Designs erhältlich, und Beratung gibt es in den Abteilungen. Termine lassen sich im Markt vereinbaren, und eine Bildergalerie zeigt den Markt.",
+    "trace": {
+      "schluessel_nachmachen": "Schlüsseldienst Für dich sofort angefertigt – direkt zum Mitnehmen",
+      "ladengeschaeft": "Dein OBI Markt Güstrow, Glasewitzer Chaussee 1"
+    }
+  },
+  {
+    "slug": "presch-a-guestrow",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Rund um die Uhr, an 365 Tagen im Jahr, ist dieser Schlüsseldienst in Güstrow und Umgebung im Einsatz, auch an Wochenenden und Feiertagen. Das Team öffnet Haus-, Wohnungs- und Fahrzeugtüren und betreut Einfamilien- und Reihenhäuser, Wohnungen und das Gewerbe. Im Geschäft gibt es Schlüssel, Schließanlagen, mechanische Schlösser und Sicherheitstechnik, außerdem Briefkästen, Geldkassetten, Waffenschränke, Tresore und Schilder verschiedener Hersteller. Auch Türschließer, Panikschlösser, Beschläge und Briefkastenanlagen zählen zum Lieferprogramm. Für Unternehmen werden elektronische Zutrittskontrollen geliefert, montiert und gewartet. Unter dem Leitgedanken Schlüsselmomente stellt der Betrieb dar, dass eine Aussperrung jeden treffen kann, der nur kurz die Post holt. Gesichert werden Haus, Wohnung, Büro und Fahrzeug. Das Geschäft hat feste Öffnungszeiten, und Sicherheitsschlösser und Schlüsselservice kommen von vielen verschiedenen Herstellern. Das Team ist auch an Wochenenden und Feiertagen zuverlässig im Einsatz.",
+    "trace": {
+      "ladengeschaeft": "Adresse Achmed Presch Schwaaner Strasse 12 18273 Güstrow",
+      "gewerblich_objektbetreuung": "Wohnungen und das Gewerbe"
+    }
+  },
+  {
+    "slug": "worzfeld-schliesstechnik-guestrow",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Seit 1990 besteht Worzfeld Schließtechnik in Güstrow als Familienunternehmen. Die Firma wurde im Mai 1990 gegründet und konnte ab Juli desselben Jahres ein Ladengeschäft mieten. Mit der Kundschaft wuchs der Bedarf an Schließ- und Sicherheitstechnik, sodass später eine eigene Immobilie als Firmensitz gekauft wurde. Der Schlüsselnotdienst mit Türöffnung ist täglich von morgens bis abends erreichbar und fährt nach Laage, Teterow, Krakow am See, Bützow, Schwaan und in die Umgebung. Als Fachhändler bietet der Betrieb gleichschließende Zylinder und Schließanlagen aus eigener Fertigung an, mit Eigenprofilen eines namhaften Herstellers. Dazu kommen Beratung und Montage von Schließ- und Sicherheitstechnik für Haus, Wohnung und Auto, und das Team setzt weiter auf Beratung und Montage. Das Ladengeschäft liegt in der Langen Straße in Güstrow, und für Notdienste gelten eigene Zeiten von Montag bis Sonntag."
+  },
+  {
+    "slug": "schluesseldienst-heidenheim-toni-heidenheim-an-der-brenz",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Schlüsseldienst Heidenheim Toni arbeitet in Heidenheim an der Brenz als Schlüsselnotdienst. Zum Angebot zählen Türöffnungen, Briefkastenöffnungen, Garagenöffnungen und Autoöffnungen, dazu Einbruchschutz. Der Betrieb tritt unter dem Namen Toni auf und führt seine Leistungen als Reihe einzelner Öffnungsdienste für Türen, Briefkästen, Garagen und Fahrzeuge. Das Einsatzgebiet ist Heidenheim und die nähere Umgebung."
+  },
+  {
+    "slug": "eos-security-service-gmbh-co-kg-heidenheim-an-der-brenz",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "EOS Security Service tritt unter der Marke Garandus als Sicherheitsdienst auf und ist kein Schlüsseldienst. In Heidenheim und Ostwürttemberg arbeitet der Betrieb für Unternehmen, Veranstaltungen und öffentliche Einrichtungen, mit stationären und mobilen Sicherheitsdiensten und Veranstaltungssicherung. Die Sicherheitstechnik umfasst Alarmanlagen, Bewegungsmelder, Tür- und Fenstersensoren, Videoüberwachung, Perimeterschutz sowie Zutrittskontrollsysteme mit Karten-, Code- oder biometrischen Verfahren. Sicherheitsdrohnen und Roboter ergänzen die Einsatzkräfte. Weitere Standorte bestehen in Mannheim, Dortmund und Düsseldorf/Ratingen. Die Leistungen gliedern sich in stationäre Sicherheitsdienste wie Objekt- und Personenschutz, mobile Dienste und Spezialdienste. Überfallmeldeanlagen sollen Einbrüche, Diebstähle und Überfälle verhindern, im Notfall Hilfeleistende benachrichtigen und die Aktionszeit von Tätern verkürzen. Sicherheitstechnik meint dabei alle technischen Systeme, die Menschen, Gebäude, Anlagen, Daten oder Werte vor Gefahren schützen. Heidenheim wird als Wirtschafts- und Veranstaltungsstandort in Ostwürttemberg betreut."
+  },
+  {
+    "slug": "knoedler-hurler-sicherheitstechnische-anlagen-gmbh-heidenheim-an-der-brenz",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Knödler + Hurler Sicherheitstechnische Anlagen GmbH ist ein alteingesessenes Unternehmen in Heidenheim an der Brenz. Der Betrieb stellt Service und kundenorientierte Beratung in den Vordergrund. Nach seinen Kategorien liefert er Sicherheitssysteme, führt Einbruchmeldeanlagen, Tresore und Sicherheitsausrüstung, handelt mit Eisenwaren und ist zugleich als Schlüsseldienst eingeordnet. Er arbeitet auch vor Ort beim Kunden."
+  }
+]

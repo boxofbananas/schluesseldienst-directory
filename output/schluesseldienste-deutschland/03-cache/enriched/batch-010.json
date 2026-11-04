@@ -1,0 +1,684 @@
+[
+ {
+  "slug": "a-d-sicherheitstechnik-dalitz-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "false",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Seit der Gründung 1997 arbeitet A.D. Sicherheitstechnik als Schlüsseldienst und Fachbetrieb für Sicherheitstechnik im Großraum Hamburg. Der Inhaber Joachim Dalitz ist nach eigener Angabe persönlich Ansprechpartner, berät private wie gewerbliche Kunden schon in der Planung und bildet sich laufend im Bereich Sicherheitstechnik weiter. Das Angebot reicht von mechanischen Schließsystemen und Schließanlagen für Wohngebäude, Mietwohnungen, Wohnanlagen und Gewerbeobjekte über Schlösser und Schließzylinder mit Schutz vor Manipulation bis zu Einbruchschutz mit Panzerriegeln. Dazu kommen Alarmanlagen, Videoüberwachung, Rollladenbau und Rollladenreparatur sowie Haussteuerung über IO Home Control. Der Betrieb hat kein Ladengeschäft und ist ausschließlich mobil unterwegs, die Einsatzgebiete reichen von Rahlstedt, Bergedorf und Wandsbek bis nach Ahrensburg. Als Eigenschaften seines Betriebs nennt er Diskretion, saubere Arbeit, handwerkliches Können und Pünktlichkeit, und er berät zur Sicherheit für Haus und Wohnung vom ersten Gespräch an."
+ },
+ {
+  "slug": "m-kummerfeld-e-k-schlosserei-metallbau-inhaber-a-hartfiel-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Kummerfeld Metallbau ist eine Schlosserei für Metallbau in Hamburg, die nach eigener Angabe auf 75 Jahre Betriebsgeschichte zurückblickt. Der Schwerpunkt liegt auf Fenstern und Türen, Geländern und Handläufen, Treppen, Vordächern und Sonderanfertigungen sowie auf individuellen Metall- und Stahlkonstruktionen für private, gewerbliche und öffentliche Auftraggeber. Zum Angebot zählen außerdem Einbruchschutz sowie Wartung und Reparatur. Dabei behebt der Betrieb Schäden, wechselt Schlösser, tauscht Schließzylinder aus und fertigt zusätzliche Schlüssel an. Das Unternehmen wird als eingetragener Kaufmann geführt, Inhaber ist A. Hartfiel. Es setzt nach eigener Angabe auf Tradition, Erfahrung, Präzision und moderne Technik, Metallbau nach Maß bleibt die Hauptarbeit. Fenster und Türen, Geländer und Handläufe sowie Wartung und Reparatur bilden die Leistungsfelder, dazu kommen individuelle Lösungen nach Kundenwunsch. Der Betrieb ist bis heute am selben Standort in Hamburg ansässig.",
+  "trace": {
+   "schluessel_nachmachen": "der Anfertigung zusätzlicher Schlüssel",
+   "gewerblich_objektbetreuung": "private, gewerbliche"
+  }
+ },
+ {
+  "slug": "abc-schluesseldienst-hamburg-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Barmbek-Süd rund um die Hamburger Straße und die Hamburger Meile ist das häufigste Einsatzgebiet des ABC Schlüsseldienstes Hamburg, auch in Uhlenhorst, Winterhude und Eilbek arbeitet der Betrieb oft. Er versteht sich als Schlüsselnotdienst und ist nach eigener Angabe rund um die Uhr erreichbar, auch an Wochenenden und Feiertagen. Zum Angebot gehören Türöffnung, Schlosswechsel und die Planung moderner Schließsysteme und Sicherheitstechnik. Kunden sind Privathaushalte, Gewerbe und Hausverwaltungen."
+ },
+ {
+  "slug": "tamar-sicherheitstechnik-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Tamar Sicherheitstechnik in Hamburg tritt als Fachpartner für Sicherheitstechnik auf und führt den Schlüsselnotdienst an erster Stelle seiner Leistungen. Dazu kommen Einbruchschutz als Zusatzsicherung für Türen und Fenster, Alarmanlagen und Videoüberwachung, mechanische und elektronische Schließsysteme, Objektausstattung und Fluchtwegsicherung. Neu ist die Partnerschaft mit dem Hersteller DormaKaba. Außerdem bietet der Betrieb Sperrschließungen und Schließanlagen im Eigenprofil der BKS Serie Nuvius SLX an. Zu den weiteren Leistungen zählen Tresore, das Nachmachen von Schlüsseln, Briefkastenanlagen, Feststellanlagen und die Objektbetreuung. Einbruchschutz für Fenster und für Türen stellt der Betrieb mit einer Auswahl von Produkten vor. Er verbindet damit mechanische und elektronische Schließsysteme für Gebäude und Objekte. Mit BKS und DormaKaba arbeitet der Betrieb mit zwei Herstellern von Schließsystemen zusammen, und die Serie Nuvius SLX von BKS liefert das Profil für Schließanlagen im Eigenprofil."
+ },
+ {
+  "slug": "schlosserei-peter-a-bauer-gmbh-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Die Schlosserei Peter A. Bauer GmbH in Hamburg-Billbrook führt nach eigener Angabe seit über 30 Jahren Schlosserarbeiten aus und versteht sich als Traditionsbetrieb. Ein Team aus erfahrenen Schlossern arbeitet für Industrie und Gewerbe, für Haus- und Grundstücksverwaltungen, Architekturbüros und Privathaushalte. Zu den Arbeiten zählen der Betriebsschlosser-Service sowie Reparatur und Erneuerung von Balkongeländern, Balkonanlagen, Nachrüstbalkonen, Geländern, Frontzaunanlagen und Carports. Auch die Renovierung antiker Schmiedearbeiten gehört dazu. Der Betrieb arbeitet damit als Schlosserei im Metallbau und nicht als Schlüsseldienst. Das Angebot reicht von Industrie und Gewerbe bis zu Arbeiten rund ums Haus und im Garten."
+ },
+ {
+  "slug": "schuh-und-schluesseldienst-nnz-hermes-paketshop-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schuhreparatur und Schlüsselanfertigung unter einem Dach: Der Schuh und Schlüsseldienst NNZ in Hamburg erneuert Absätze und Schutzsohlen, übernimmt Näharbeiten und weitet Schuhe. Auf der Schlüsselseite fertigt der Betrieb Kopien für Haustür und Vorhangschloss sofort zum Mitnehmen an und berät zur Sicherheit und zu Schlossanpassungen. Für die Sohlen verwendet er nach eigener Angabe Gummi und Leder für Damen- und Herrenschuhe."
+ },
+ {
+  "slug": "schluesseldienst-schliesstechnik-walther-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüsseldienst & Schließtechnik Walther arbeitet als mobiler Schlüsseldienst in Hamburg-Harburg und im Umland. Der Betrieb öffnet zugefallene und verschlossene Türen zerstörungsfrei, tauscht Zylinder und Schlösser fachgerecht aus und berät zu Sicherheitstechnik, etwa nach einem Schlüsselverlust. Er montiert Einbruchschutz von der mechanischen Verstärkung an und plant Schließanlagen. Ersatzschlüssel für Haus, Wohnung und Büro entstehen aus hochwertigen Rohlingen. Der Notdienst läuft rund um die Uhr an jedem Tag der Woche. Der Betrieb nennt transparente Festpreise und arbeitet nach eigener Angabe ohne versteckte Kosten und ohne unnötige Zusatzleistungen. Nach einem Schlüsselverlust oder zur Erhöhung der Sicherheit bietet er individuelle Beratung und die Montage moderner Sicherheitstechnik zum Schutz des Eigentums vor unbefugtem Zugriff an. Termine nimmt er auch online entgegen. Der Betrieb fährt zu den Kunden und ist als lokaler Anbieter schnell vor Ort."
+ },
+ {
+  "slug": "schluesseldienst-schluesselnotdienst-wittmann-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Im Hamburger Stadtteil Bergedorf sitzt der Schlüsseldienst und Schlüsselnotdienst Wittmann. Der Betrieb öffnet zugefallene und verschlossene Türen möglichst beschädigungsfrei, tauscht Schlösser aus, hilft bei verlorenen Schlüsseln und defekten Schlössern und berät zur Absicherung von Wohnungen, Häusern und Gewerbeobjekten. Notöffnungen und Einbruchschutz gehören ebenfalls zum Angebot, der Einsatzraum umfasst Bergedorf und die Umgebung.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Absicherung von Wohnungen, Häusern und Gewerbeobjekten"
+  }
+ },
+ {
+  "slug": "schluesseldienst-schluesselnotdienst-schuhreparatur-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Unter einem Namen führt dieser Hamburger Betrieb einen Schlüsseldienst, einen Schlüsselnotdienst und eine Schuhreparatur. Er ist als Schlüsseldienst eingeordnet und verbindet das Handwerk rund um Schlüssel mit der Reparatur von Schuhen, wie es bei kleinen Läden in der Stadt üblich ist. Zu den Ladenzeiten sind Öffnungszeiten hinterlegt, der Betrieb liegt in Hamburg."
+ },
+ {
+  "slug": "schluesseldienst-hamburg-erbse-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Seit 2003 arbeitet die Erbse Sicherheitstechnik als Schlüsseldienst in Hamburg und Umgebung. Der Notdienst ist rund um die Uhr an 365 Tagen im Jahr im Einsatz und öffnet Türen in der Regel zerstörungsfrei, dazu Autotüren, Kofferräume, Fahrradschlösser und Tresore. Schlösser und Zylinder tauscht der Betrieb aus, defekte Schlösser repariert er. Als Werkspartner von KESO mit eigener Produktion fertigt er Schließanlagen, Gleichschließungen, Zentral- und Generalhauptschlüsselanlagen, daneben bietet er elektronische Schließsysteme und Zugangskontrollsysteme an. Hinzu kommen Einbruchschutz mit Panzerriegeln, Beschlägen und Mehrfachverriegelungen sowie Ersatzschlüssel, die im Ladengeschäft angefertigt werden. Wohnanlagen und Unternehmen gehören zur Kundschaft. Für Schließanlagen gibt der Betrieb feste Preise an. Bei Aussperrung übernimmt der Betrieb im Auftrag des Eigentümers die Öffnung von Hauseingangstüren, und die Mitarbeiter fahren in jeden Stadtteil Hamburgs."
+ },
+ {
+  "slug": "bravo-notschlosser-hamburg-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Der Bravo Notschlosser Hamburg ist ein Notdienst für Aussperrungen und Schlüsselverlust, der nach eigener Angabe rund um die Uhr arbeitet und die Bezirke Altona, Eimsbüttel, Wandsbek, Harburg, Hamburg-Mitte und Hamburg-Nord abdeckt. Der Betrieb öffnet Türen möglichst schadensfrei, wechselt Schlösser und Zylinder, repariert Schlösser und beseitigt Einbruchschäden. Er sichert Türen, Fenster und Schlösser und stellt den Einbruchschutz nach Schäden wieder her. Hinzu kommen Fahrzeugöffnungen mit programmierten Autoschlüsseln, Schlüsselkopien für Haustür, Büro und Sicherheitsschlüssel sowie Hauptschlüsselsysteme und Zutrittskontrolle für Büros, Arztpraxen und Geschäfte. Ein Tresor- und Wertschutzschlosser öffnet, repariert und installiert Tresore. Die Festpreise nennt der Betrieb nach eigener Angabe klar und ohne versteckte Kosten, Kunden sind Privatleute und Gewerbe. Der Betrieb arbeitet für Wohnungen, Häuser, Gewerbe und Parkhäuser und gliedert sich in die Sparten Privatkunden, Auto, Gewerbe und Tresore."
+ },
+ {
+  "slug": "rissener-schluesseldienst-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Rissener Schlüsseldienst arbeitet in Hamburg und führt den Stadtteil Rissen im Namen. Zum Angebot gehören der Schlüsseldienst, die Schlossmontage und ein Notdienst über 24 Stunden, dazu weitere Arbeiten rund um Schlüssel und Schlösser. Der Betrieb verbindet damit den Alltag eines Schlüsseldienstes mit der Bereitschaft, auch außerhalb üblicher Zeiten zu helfen."
+ },
+ {
+  "slug": "autoschluesseldienst-neugraben-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Fahrzeugschlüssel sind das Fach des Autoschlüsseldienstes Neugraben in Hamburg. Der Betrieb fertigt Autoschlüssel ohne Funk, Funkschlüssel, Transponderschlüssel sowie Keyless- und Smart-Key-Schlüssel für viele Marken an, kopiert und programmiert sie und fräst Schlüsselbärte und Notschlüssel. Auch Ersatz- und Zweitschlüssel gehören dazu, ebenso Lösungen bei verlorenen Fahrzeugschlüsseln bis zum Verlust sämtlicher Schlüssel. Am Standort in Neugraben wird zu Fahrzeug und passender Lösung persönlich beraten.",
+  "trace": {
+   "ladengeschaeft": "An unserem Standort in der Neugrabener Bahnhofstraße 10b beraten wir Sie persönlich"
+  }
+ },
+ {
+  "slug": "niro-bau-und-schlosserei-rainer-hagemann-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Niro Bau und Schlosserei von Rainer Hagemann in Hamburg ist eine Metallbau-Werkstatt. Dort werden Teile montiert, gefertigt und repariert, daneben entstehen Sonderanfertigungen nach Wunsch. Der Betrieb arbeitet als Metallbauer und Schlosserei und nicht als Schlüsseldienst, auch wenn er unter der Kategorie Schlüsseldienst geführt wird. Sein Tätigkeitsfeld liegt in der Werkstatt, nicht bei Türöffnungen vor Ort."
+ },
+ {
+  "slug": "schluesseldienst-hamburg-nord-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüsseldienst Hamburg Nord ist ein Schlüsselnotdienst für den Norden Hamburgs und die Umgebung. Der Betrieb öffnet Türen, wechselt Schlösser und Profilzylinder, behebt Defekte an Schlössern und Mehrfachverriegelungen und hilft bei verlorenen, abgebrochenen oder defekten Schlüsseln. Weitere Leistungen sind Einbruchschutz, Schließanlagen und Autoschlüssel. Die Preise für die Türöffnung gibt der Betrieb offen an, dazu setzt er auf persönliche Beratung und fachgerechte Ausführung."
+ },
+ {
+  "slug": "bastian-metall-und-maschinenbau-gmbh-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die Bastian Metall- und Maschinenbau GmbH in Hamburg plant und baut Projekte im Metall- und Maschinenbau für Industrie und Privatkunden. Zu den Arbeiten zählen Stahlbau, Transportwagen, Sonderhebemittel, Aluminium-Transportkisten und Material Delivery Units sowie Balkone, Treppen und Geländer, außerdem individuelle Sonderlösungen. Gefertigt wird in einer eigenen Werkshalle am Firmensitz. Der Betrieb arbeitet als Metallbauer und nicht als Schlüsseldienst."
+ },
+ {
+  "slug": "obi-markt-muenchen-daglfing-muenchen",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der OBI Markt in München-Daglfing führt Waren für Bauen, Wohnen, Technik und Garten und gliedert sein Sortiment in Abteilungen vom Bad bis zum Gartencenter. Zu den Services zählen ein Holzzuschnitt, ein Farbmischservice, Mietgeräte und Werkzeugverleih, ein Container-Mietservice sowie Beratung und Montage für Solaranlagen, Terrassenüberdachungen und Wärmepumpen. Bad- und Gartenplaner helfen bei der Planung. Gekaufte Ware kann innerhalb von drei Monaten umgetauscht werden. Schlüssel fertigt der Markt in einem Schlüsselservice sofort an, zum Mitnehmen. Der Markt gehört zur Baumarktkette OBI und arbeitet als Baumarkt, nicht als Schlüsseldienst für Türöffnungen.",
+  "trace": {
+   "schluessel_nachmachen": "Schlüsseldienst Für dich sofort angefertigt",
+   "ladengeschaeft": "Dein OBI Markt München-Daglfing, Riemer Straße 199"
+  }
+ },
+ {
+  "slug": "obi-markt-muenchen-westend-muenchen",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Zwischen Gartencenter, Holzzuschnitt und Farbmischservice arbeitet der OBI Markt München-Westend als Baumarkt für Bauen, Wohnen, Technik und Garten. Er gehört zur Baumarktkette OBI und führt Abteilungen für Bad, Küche und Garten. Der Markt verleiht Mietgeräte und Werkzeug, vermietet Container und bietet Solaranlagen, Terrassenüberdachungen nach Maß und Wärmepumpen jeweils mit Beratung und Montage an. Für Umtausch gilt eine Frist von drei Monaten, außerdem verkauft er Geschenkkarten. Ein Schlüsselservice fertigt Schlüssel sofort an und gibt sie direkt mit. Termine lassen sich vereinbaren.",
+  "trace": {
+   "schluessel_nachmachen": "Schlüsseldienst Für dich sofort angefertigt",
+   "ladengeschaeft": "Dein OBI Markt München-Westend, Westendstr. 221"
+  }
+ },
+ {
+  "slug": "schluesseldienst-arnold-gmbh-muenchen-muenchen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Zerstörungsfreie Türöffnungen sind der Schwerpunkt der Schlüsseldienst Arnold GmbH München, eines ortsansässigen Fachbetriebs. Der Notdienst ist nach eigener Angabe rund um die Uhr an 365 Tagen im Jahr einsatzbereit und hilft bei verschlossenen Türen. Außerdem montiert der Betrieb Schlösser und Zylinder und arbeitet im Bereich Einbruchschutz. Er nennt kurze Anfahrtszeiten in ganz München.",
+  "trace": {
+   "schlossaustausch": "höchste Standards bei der Montage von Schlössern, Zylindern und Einbruchschutz"
+  }
+ },
+ {
+  "slug": "schluesseldienst-muenchen-mario-pichelmaier-muenchen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Der Schlüsseldienst München von Mario Pichelmaier wird in dritter Generation als Familienbetrieb geführt: Der Großvater gab sein Wissen über Schloss, Zylinder, Schlüssel und Tür an den Sohn Herbert weiter, der es später an Mario Pichelmaier übergab. Der Betrieb mit regionaler Münchner Notrufnummer ist an allen Tagen des Jahres rund um die Uhr erreichbar und arbeitet für Stadt und Landkreis München. Er öffnet zugefallene Türen und Türen nach Schlüsselverlust beschädigungsfrei, repariert, tauscht und montiert Schlösser, Schließzylinder, Riegel und Türbeschläge und baut Schließanlagen jeder Größe ein. Außerdem erhöht er die Einbruchsicherheit von Wohn- und Gewerbeimmobilien, beseitigt Einbruchschäden und fertigt Ersatzschlüssel an. Privat- und Firmenkunden fragen ihn an, ebenso Behörden und Ämter. Bei einem Anruf nennt er einen Festpreis, der dann gilt. Der Betrieb arbeitet nach eigener Angabe auch an Feiertagen und Wochenenden."
+ },
+ {
+  "slug": "eintritt-in-pasing-arcaden-ii-schuh-schluesseldienst-muenchen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schuhe, Schlüssel und Uhren sind die drei Themen von Eintritt in Pasing Arcaden II in München. Der Betrieb in den Pasing Arcaden übernimmt Schuhreparaturen und Schuhpflege, gravuriert persönliche Gegenstände nach Wunsch und wartet und repariert Uhren, mit schnellem und unkompliziertem Batteriewechsel. Er verweist dabei auf langjährige Erfahrung und handwerkliches Können."
+ },
+ {
+  "slug": "schluesseldienst-arnold-gmbh-muenchen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Rund um die Uhr, an sieben Tagen in der Woche, steht die Schlüsseldienst Arnold GmbH für das zerstörungsfreie Öffnen von Türen in München und Umgebung bereit. Der Betrieb hilft bei zugefallenen Türen und eingeschnappten Schlössern und nennt nach eigener Angabe feste Preise ohne versteckte Kosten. Als Schwerpunkt führt er Sicherheitsschlösser, Schließanlagen und Sicherheitstüren, die er vom einfachen Wohnungsschloss bis zum komplexen Sicherheitssystem öffnet."
+ },
+ {
+  "slug": "schluesselmann-s-s-werkstaette-muenchen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Seit 1993 führt eine Familie den Schlüsselmann im Münchner Westend, eine Werkstatt für Schlüssel, Autoschlüssel und Schuhreparatur mit Ladengeschäft. Autoschlüssel werden nachgemacht und programmiert, auch wenn alle Schlüssel verloren sind, dazu kommen Reparaturen an Zündschloss, Türzylinder und Lenkradverriegelung, Transponder, Wegfahrsperren und Motorradschlüssel. Haustürschlüssel, Sicherheitsschlüssel und Kopien aller Art entstehen oft sofort, vom Zweitschlüssel bis zur kompletten Schließanlage, und Zylinder montiert und tauscht der Betrieb. Er öffnet Türen und Fahrzeuge schonend und ist als Notfalldienst rund um die Uhr erreichbar. Gravuren und Stempel in Laser und CNC, Fahrradschlösser, Schlüsselanhänger und Schuhpflegeprodukte ergänzen das Sortiment im Laden. Im Laden gibt es persönliche Beratung und Sofortservice, und auch Ersatzschlüssel für Oldtimer gehören zu den Aufträgen. Der Laden liegt im Münchner Westend an der Gollierstraße und ist von Montag bis Freitag ganztägig und samstags bis mittags geöffnet.",
+  "trace": {
+   "schlossaustausch": "Von der einfachen Zylindermontage bis zur komplexen Schließanlage"
+  }
+ },
+ {
+  "slug": "schluesseldienst-azman-muenchen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Schlüsseldienst Azman in München öffnet Türen schonend und ohne Schäden und ist nach eigener Angabe rund um die Uhr auf Abruf, im Stadtgebiet und im Umland. Der Betrieb gibt an, innerhalb von 10 bis 30 Minuten vor Ort zu sein. Ein zweiter Schwerpunkt sind Autoschlüssel: Der Betrieb fertigt Fahrzeugschlüssel, Sicherheits- und Schließanlagenschlüssel sowie Tresorschlüssel an, programmiert Wegfahrsperren und Funkfernbedienungen und tauscht Batterien oder Akkus von Autoschlüsseln. Daneben stellt er Stempel her und bietet einen Schilder- und Gravurservice. Für Hausverwaltungen führt der Betrieb ein eigenes Angebot. Für Transponder- und Fahrzeugschlüsseltechnik setzt der Betrieb nach eigener Angabe die aktuellste Ausrüstung ein und beschreibt das als schnelle, unkomplizierte Alternative zur Nachbestellung beim Fahrzeughersteller. Zu den Einsatzgebieten zählen Thalkirchen-Obersendling, Bogenhausen, die Ludwigsvorstadt-Isarvorstadt, die Maxvorstadt und Moosach."
+ },
+ {
+  "slug": "schuhreparatur-muenchen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Als Familienbetrieb besteht die Schuhreparatur in München seit 41 Jahren und liegt nach eigener Angabe keine zwei Minuten von der S-Bahn entfernt. Neben der Reparatur von Schuhen übernimmt der Laden Schlüsselkopien, Gravuren und Stempel. Der Betrieb ist damit ein Handwerksladen für kleine Alltagsarbeiten rund um Schuhe, Schlüssel und Beschriftungen in der Stadt."
+ },
+ {
+  "slug": "obi-markt-muenchen-neuaubing-muenchen",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Als Baumarkt im Münchner Stadtteil Neuaubing führt der OBI Markt Waren für Bauen, Wohnen, Technik und Garten, geordnet in Abteilungen von Bad bis Garten. Der Markt hält einen Holzzuschnitt und einen Farbmischservice bereit, verleiht Mietgeräte und Werkzeug, bietet einen Container-Mietservice und übernimmt Beratung und Montage bei Solaranlagen, Terrassenüberdachungen und Wärmepumpen. Er veranstaltet Verkaufsaktionen, und gekaufte Ware lässt sich innerhalb von drei Monaten umtauschen. Dazu gibt es einen Schlüsselservice, der Schlüssel sofort anfertigt, zum Mitnehmen. Das Sortiment richtet sich an Heim- und Handwerker.",
+  "trace": {
+   "schluessel_nachmachen": "Schlüsseldienst Für dich sofort angefertigt",
+   "ladengeschaeft": "Dein OBI Markt München-Neuaubing, Am Gleisdreieck 8"
+  }
+ },
+ {
+  "slug": "munich-locksmiths-kilian-gmbh-muenchen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Seit 1949 sitzt die Münchener Schlüsseldienst Kilian GmbH in der Fraunhoferstraße in der Isarvorstadt und versteht sich als Fachgeschäft für Schlüssel, Schließanlagen und Sicherheitstechnik. Der Betrieb verkauft Sicherheitseinrichtungen, Schließanlagen und Schlüssel aller Art und montiert auf Wunsch, was bei ihm erworben wird. Das Sortiment umfasst Schlüssel, Schließzylinder, Schlösser, Beschläge, Hausabsicherung, Tresore, Briefkästen und Briefkastenanlagen, Zweiradschlösser und Feuerwehrzubehör. Ein Fachbereich beschäftigt sich mit digitalen Schließsystemen, ein weiterer mit Objektberatung, außerdem gibt es eine eigene Werkstatt. Für Kaba Micro Schlüssel liefert der Betrieb Nachfertigungen nach Schlüsselnummer. Zu seinen Arbeiten zählt auch die Schließtechnik im Münchner Hofbräuhaus. In Werkstatt und Montage arbeiten eigene Mitarbeiter, daneben gibt es Verkauf und Objektberatung. Die Firmengeschichte reicht bis 1949 zurück, und ein Team mit Geschäftsleitung, Objektberatung, Verkauf, Montagen und Werkstatt trägt den Betrieb.",
+  "trace": {
+   "schluessel_nachmachen": "Fertigung nach Schlüsselnummer",
+   "elektronische_schliesssysteme": "Digitale Schließsysteme",
+   "ladengeschaeft": "Fachgeschäft für Schlüssel, Schließanlagen und Sicherheitstechnik in München"
+  }
+ },
+ {
+  "slug": "berger-sicherheitstechnik-ug-muenchen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Seit 1989 arbeitet die Berger Sicherheitstechnik UG in München als Aufsperr- und Schlüsseldienst. Der Betrieb ist nach eigener Angabe 24 Stunden am Tag in und um München erreichbar und nennt für die Türöffnung einen Festpreis ohne Abzocke. Sein Angebot umfasst Türöffnung, Zylinder-Austausch, Zusatzschlösser, Panzerriegel und Einbruchschutz, dazu Schließanlagen und die Behebung von Einbruchschäden. Vertragspartner ist er nach eigener Angabe für viele namhafte Hausverwaltungen und Wohnungsgenossenschaften, und er öffnet fast jedes verschlossene Objekt. Der Schwerpunkt liegt auf dem Aufsperrdienst für Wohnungen und Häuser sowie auf Objekten von Hausverwaltungen. Panzerriegel und Zusatzschlösser sichern Türen zusätzlich, die Einbruchschadenbehebung stellt Türen nach einem Einbruch wieder her. Der Betrieb führt außerdem Produkte rund um die Sicherheitstechnik. Sein Name steht für Sicherheitstechnik, der Aufsperrdienst für Ausgesperrte bleibt aber das Kerngeschäft rund um die Uhr.",
+  "trace": {
+   "schlossaustausch": "Zylinder-Austausch"
+  }
+ },
+ {
+  "slug": "shoe-locksmiths-laim-muenchen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Flinkmann Schuh & Schlüsseldienst sitzt in München-Laim in der Mall des Hit Markts und fertigt dort Schlüssel vor Ort an: Autoschlüssel mit Fernbedienung, Sicherheitsschlüssel, Schließanlagenschlüssel, Briefkasten- und Zimmertürschlüssel bis zu Sonderanfertigungen. Als Aufsperrdienst öffnet der Betrieb zugefallene Türen ohne bleibende Schäden und ist rund um die Uhr im Notdienst erreichbar. Außerdem wechselt er Türschlösser, Mehrfachverriegelungen und Einsteckschlösser, montiert Schließanlagen nach Plan, Türbeschläge und Schließzylinder und sichert Haus- und Wohnungstüren mit Zusatzschlössern, Sicherungsketten, Stangenschlössern und Quer-Panzerriegeln. Türspione baut er mit oder ohne Kamera ein. Dazu kommen Schuhreparatur, Stempel und Gravuren, Lederwaren, Uhrenbatteriewechsel, Geschenkartikel und ein eigenes Angebot für Hausverwaltungen. Namensschilder, Klingelschilder und Briefkastenschilder fertigt er am selben Tag an. Der Betrieb arbeitet vor Ort in der Mall, wo auch Sonderanfertigungen von Schlüsseln und Stempel im Sofortservice entstehen.",
+  "trace": {
+   "ladengeschaeft": "sind in der Mall vom Hit Markt und fertigen vor Ort alle Schlüssel an"
+  }
+ },
+ {
+  "slug": "d-r-schluesseldienst-muenchen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "D&R Schlüsseldienst öffnet in München, Starnberg und Umgebung Türen im Notfall, wenn jemand ausgesperrt ist oder den Schlüssel verloren hat, und ist nach eigener Angabe rund um die Uhr erreichbar. Zugefallene und abgeschlossene Türen gehören zum Alltag des Betriebs. Die Mitarbeiter wurden nach eigener Angabe von führenden Herstellern in Schlosstechnik, Nottüröffnung und Einbruchschutz geschult. Zudem verbaut der Betrieb Sicherheitstechnik für Firmen und Privatkunden und berät dazu: Sicherheitszylinder, Panzerriegel, Türzusatzschlösser, Fenstertechnik, Schaniersicherungen und Gitterrostsicherungen. Der Schutz des Eigentums hat für den Betrieb große Bedeutung, daher gibt es eine Beratung zur Sicherheitstechnik, die auf die individuellen Bedürfnisse zugeschnitten ist. Der Betrieb arbeitet in Bayern mit dem Schwerpunkt München und Starnberg und beschreibt Abus ONE Zylinder als eigenes Thema. Die Reaktionszeit hängt vom Standort des Kunden ab.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Wir verbauen hochwertige Sicherheitstechnik für Firmen und Privatkunden"
+  }
+ },
+ {
+  "slug": "ein-tritt-im-forum-schuh-und-schluesseldienst-muenchen",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Im Untergeschoss des Einkaufszentrums Forum in München führt EIN-Tritt ein Ladengeschäft für Schuhe, Schlüssel und Uhren. Zu den Leistungen zählen Schuhpflege und Schuhreparaturen wie neue Absätze und Sohlen, die Anfertigung von Schlüsseln, Gravuren und Uhrenservice mit Batteriewechsel. Verkauft werden Schuhbänder, Uhren, Gürtel, Portemonnaies und Stempel. Geöffnet ist von Montag bis Samstag zwischen 9:30 und 20:00 Uhr."
+ },
+ {
+  "slug": "woldrich-schluesseldienst-sicherheitstechnik-gmbh-muenchen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Seit über 80 Jahren steht die Woldrich GmbH in München für Schlüsseldienst und Sicherheitstechnik. Ein Sicherheitstechniker des eigenen Schlüsseldienstes öffnet im Notdienst rund um die Uhr Türen bei Aussperrung, verlorenen Schlüsseln, beschädigten Schlössern oder defekten Zylindern, möglichst beschädigungsfrei. Dazu kommen Hausabsicherung und Einbruchschutz, Schlösser und Profilzylinder, Schließanlagen für Mehrfamilienhäuser und Gewerbeobjekte, Zutrittskontrolle, Tresore, Fluchtwegsicherung, Panikschlösser und Brandschutztüren. Das Angebot erweitern Schilder, Gravuren, Stempel, Firmenschilder, Folienbeschriftung, Klingeltableaus, Briefkastenanlagen sowie Türbeschläge und Klinken. Zu den Kunden zählen Hausverwaltungen, Gewerbebetriebe und Privathaushalte. Neben dem Notdienst gibt es persönliche Beratung zur Sicherheitstechnik. Die Firma führt außerdem Reparaturen an Fenstern, Türen, Schlössern, Schließanlagen und Garagentoren aus. Der Betrieb fertigt Schilder und Stempel für private und gewerbliche Zwecke und versteht sich als Komplettanbieter rund um Sicherheit im Alltag, vom Notdienst bis zur Beratung."
+ }
+]

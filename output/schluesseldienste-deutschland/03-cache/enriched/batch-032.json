@@ -1,0 +1,553 @@
+[
+ {
+  "slug": "tayfun-schuh-u-schluesseldienst-fuerth",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Aus der Reparatur von Stiefeln für die amerikanischen Truppen in Fürth ist ein Familienbetrieb aus Vater und Stiefsohn geworden, der nach eigener Angabe seit 1990 besteht. Neben Schuhreparaturen, Stempeln und Gravuren aller Art arbeitet er als Schlüsseldienst: Er öffnet zugefallene Wohnungs-, Haus- und Bürotüren schonend und in den meisten Fällen ohne Beschädigung, hilft bei verlorenen Schlüsseln, tauscht und repariert Schlösser und fertigt Ersatzschlüssel an. Dazu kommen Autoschlüssel samt Programmierung sowie Fernbedienungen, deren Gehäuse und Knopfzellen er ebenfalls repariert. Zum Tätigkeitsbereich zählen außerdem Objektsicherheit und Projektierung. Der Notdienst ist rund um die Uhr erreichbar, die Anfahrt erfolgt schnell in der Region. Beratung bietet der Betrieb zu Schließanlagen und zu modernen Sicherheitssystemen an. Das Team arbeitet heute zu zweit als Familienunternehmen. Auch Ersatzschlüssel für Wohnungen gehören zum Alltag des Betriebs."
+ },
+ {
+  "slug": "schluesseldienst-korb-fuerth",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Im Ladengeschäft des Schlüsseldienstes Korb in Fürth entstehen Schlüssel aller Art. Das Angebot reicht von Schließzylindern und Schließanlagen über Beschläge und Schlösser für Schränke bis zu Tresoren und Schlüsselschränken. Außerdem stellt der Betrieb Türen und Fenster neu ein und repariert sie. Der Notdienst ist täglich bis in den späten Abend erreichbar und arbeitet mit feststehenden Preisen, ausgenommen bei defekten Türen."
+ },
+ {
+  "slug": "asl-schluesseldienst-scheiderer-manfred-fuerth",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Manfred Scheiderer führt in Fürth die Firma ASL Sicherheitstechnik und ist nach eigener Angabe seit 1993 im Türöffnungs-, Not- und Schlüsseldienst tätig. Im Mittelpunkt stehen Türnotöffnungen: Der Betrieb öffnet zugefallene und verschlossene Türen fachmännisch und kommt in der Regel ohne Beschädigung des Schlosses aus. Für Notöffnungen steht er zu seinen Öffnungszeiten bereit, Mobilnummer und Festnetz sind getrennt hinterlegt. Zum Angebot gehören außerdem Schließanlagen für alle Bereiche, vom Privathaushalt bis zum Gewerbe, mit kostenloser Beratung zu den Möglichkeiten je nach Anforderung. Dazu kommen mechanische Hausabsicherungen, bei denen verschiedenste Sicherungen im ganzen Haushalt eingebaut werden. Die Firma tritt unter dem Namen ASL Schlüsseldienst auf und wirbt mit professioneller und zuverlässiger Arbeit. Im Privathaushalt genügt dank einer Schließanlage ein einziger Schlüssel für mehrere Türen.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Schließanlagen für alle Bereiche: Privat und gewerblich."
+  }
+ },
+ {
+  "slug": "tuerfix-schluesseldienst-fuerth",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "TürFix arbeitet als Schlüsseldienst in Fürth und im Umland, unter anderem in Herzogenaurach, Nürnberg, Erlangen, Forchheim, Heroldsberg und Dechsendorf. Der Betrieb öffnet zugefallene und abgeschlossene Haus-, Wohnungs- und Bürotüren und versucht dabei, jede Tür möglichst beschädigungsfrei zu öffnen, damit keine unnötigen Kosten entstehen. Er tauscht und repariert Schlösser und Schließzylinder, baut moderne Sicherheitszylinder ein, wechselt Schlösser nach Schlüsselverlust oder Einbruch, berät zu Einbruchschutz und montiert ihn. Bei defekten Schlössern und Schließanlagen leistet er Hilfe. Der Notdienst läuft rund um die Uhr, an sieben Tagen in der Woche, auch an Wochenenden und Feiertagen. Die Anfahrt in Fürth und der gesamten Umgebung erfolgt schnell. Die Preise nennt der Betrieb als feste Preise ohne versteckte Kosten. Weitere Einsatzorte in der Region sind Herzogenaurach, Nürnberg und Erlangen."
+ },
+ {
+  "slug": "master-key-fuerth-fuerth",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Master Key in Fürth verbindet Schuhservice und Schlüsseldienst unter einem Dach. Im Ladengeschäft werden Schlüssel kopiert, Schuhe repariert, Näharbeiten ausgeführt und Gravuren angefertigt, auch Zubehör ist im Angebot. Im Sortiment stehen Schließzylinder in vielen Bauformen, vom Knaufzylinder über Doppel- und Halbzylinder bis zum Kurzzylinder, dazu Zweiradschlösser, Kettenschlösser, Bügelschlösser und Spiralschlösser, teils mit Zahlencode. Für Schuhe und Taschen gibt es Pflegeprodukte wie Lederfett, Imprägnierung und Farbauffrischung, außerdem Einlegesohlen, Schnürsenkel und Anti-Rutsch-Pads. Wer Nähte an der Handtasche gerissen hat, wird dort ebenso bedient wie bei Ersatzschlüsseln. Als besondere Arbeit nennt der Betrieb ein Foto als 3D-Gravur im Glas, zum Beispiel als Geschenk oder Erinnerung. Die Produkte reichen von Basi-Bügelschlössern bis zu Lederpflege, und der Betrieb bittet auf der Seite um Rückmeldung seiner Kunden."
+ },
+ {
+  "slug": "roger-kellermann-fuerth",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Roger Kellermann ist ein Metallbaubetrieb in Fürth, der Treppen, Geländer, Stahlbalkone, Carports, Türen und Tore sowie Stahlhallen, Glasdächer und Fassaden fertigt. Die Arbeiten werden nach den Wünschen der Kunden beraten, geplant und im eigenen Werk ausgeführt. Der Betrieb besteht nach eigener Angabe in vierter Generation und führt seine Tradition auf das Jahr 1866 zurück. Als Schlüsseldienst tritt er nicht auf."
+ },
+ {
+  "slug": "schluesseldienst-schlossboss-fuerth",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlossboss ist ein Schlüsseldienst für Fürth, Nürnberg und Erlangen. Er öffnet zugefallene, zugezogene und nicht abgesperrte Türen und ist rund um die Uhr für Nottüröffnungen da. Weitere Arbeiten sind Zylinderwechsel und Zylindermontage, die Montage von Drückergarnituren und Beschlägen, das Entfernen abgebrochener Schlüssel und der Einbau von Schließsystemen. Der Betrieb bestätigt die Preise vor der Auftragsvergabe und sagt zu, dass es keine versteckten Kosten gibt. Für Fürth und Nürnberg gilt ein Preis, der die Anfahrt einschließt, für Erlangen und weitere Orte ein höherer. Eine Leerfahrt wird berechnet, wenn die Dienstleistung nach Auftragsvergabe nicht mehr gewünscht ist. Studenten, Auszubildende und Rentner erhalten einen Rabatt. Der Betrieb wirbt mit seriösem und freundlichem Auftreten. Die Preise sind nach Einsatzgebiet gegliedert, mit Zuschlägen und Rabatten.",
+  "trace": {
+   "anfahrtspauschale_genannt": "Zugefallene Türen • Inkl. Anfahrt"
+  }
+ },
+ {
+  "slug": "schluessel-toni-hagen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüssel Toni ist ein Schlüsseldienst in Hagen und Umgebung, der nach eigener Angabe von null bis vierundzwanzig Uhr an sieben Tagen und 365 Tagen im Jahr im Einsatz ist. Der Betrieb sieht sich als Ansprechpartner für Schlüsselnotdienst und Aufsperrdienst und wird von einem Inhaber geführt, der langjährige Berufserfahrung angibt. Im Mittelpunkt stehen Türöffnungen, wenn eine Tür spät am Abend oder am Wochenende zugefallen ist. Ergänzt wird das Angebot um Autoöffnungen, Abdeckungen und Firmenschlösser. Schließsysteme baut der Betrieb nach eigener Angabe innerhalb von 48 Stunden ein. Weitere Leistungen werden auf dem Schadensort immer individuell abgestimmt. Der Betrieb versteht sich als pünktlich und schnell und veröffentlicht Stimmen seiner Kunden zu Professionalität und Qualität auf der eigenen Seite. Auch bei Firmenschlössern und in dringenden Fällen steht der Betrieb jederzeit bereit."
+ },
+ {
+  "slug": "ipek-schluesseldienst-sicherheitstechnik-hagen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "IPEK in Hagen ist Fachgeschäft für Schlüsselnotdienst und Sicherheitstechnik, nur wenige Schritte vom Stadtzentrum. Der Notdienst ist an sieben Tagen rund um die Uhr erreichbar, über eine eigene Notrufnummer, und öffnet ausgesperrten Kunden die Tür. Das Sortiment umfasst Schlüssel aller Art, Schließanlagen und Schließsysteme von ABUS, Türsicherungen mit Sicherheitsschließblechen, Einsteckschlössern und Schutzbeschlägen, Fenstersicherheit und den Wechsel defekter Türschlösser. Dazu kommen Transponderschlüssel mit Wegfahrsperre für Fahrzeuge, Zutrittskontrolle, Einbruchmeldeanlagen, Videoüberwachung, Brandschutz, Vorhängeschlösser und Liebesschlösser sowie Gravuren, Stempel und Pokale. Privatleute und Unternehmen werden vor Ort oder telefonisch beraten, der Betrieb entwickelt individuelle Sicherheitskonzepte und führt Produkte von Marken wie Jablotron, Dahua, Hikvision, Axis und Mobotix. Hinweise auf Schutz vor Schlüsselkopien und auf patentgeschützte Schließsysteme gegen Aufbohren und Picking ergänzen das Angebot. Der Standort liegt in Hagen, und der Einsatz reicht bis nach NRW.",
+  "trace": {
+   "gewerblich_objektbetreuung": "wie auch in gewerblich genu"
+  }
+ },
+ {
+  "slug": "tueraufservice-s-reichenbach-hagen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Türaufservice ist ein Schlüsselnotdienst für Hagen mit Einsätzen in allen Stadtteilen und in Dahl, Priorei, Hohenlimburg, Herdecke, Wetter, Gevelsberg und Breckerfeld. Der Betrieb nennt über 20 Jahre Erfahrung in Schließ- und Sicherheitstechnik und ist an 365 Tagen rund um die Uhr erreichbar, auch an Sonn- und Feiertagen. Die Monteure öffnen Türen nach eigener Angabe in den meisten Fällen vollständig schadensfrei und beraten bei einem Defekt zu sinnvollen Lösungen wie Zylindertausch, Sicherheitsbeschlägen oder Zusatzschlössern. Dazu kommen Einbruchschutz für Türen und Fenster und der Einbau von Schließzylindern namhafter Hersteller. Komplette Schließanlagensysteme werden geplant, bestellt und montiert, einschließlich Nachbestellungen. Die Preise für Tag und Nacht stehen fest, Zuschläge für Wochenende oder Feiertage entfallen, und im Stadtgebiet fallen keine Anfahrtskosten an. Ein Sicherheits-Check von Türen, Fenstern und Sicherungen mit klarer Einschätzung des Sicherheitsstands gehört ebenfalls zu den Leistungen."
+ },
+ {
+  "slug": "sepp-husung-hagen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Sepp Husung führt in Hagen einen Schlüsseldienst. Für den Betrieb sind feste Öffnungszeiten hinterlegt, zu denen er erreichbar ist. Er arbeitet im Stadtgebiet von Hagen und gehört dort zu den Anlaufstellen für Schlüssel und Schlösser, die als Schlüsseldienst geführt werden. Der Betrieb ist unter dem Namen des Inhabers im Schlüsselgeschäft tätig."
+ },
+ {
+  "slug": "schuhmacherrei-meinert-schluesseldienst-hagen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schuhmacherei Meinert & Schlüsseldienst in Hagen verbindet zwei Handwerke: Schuhreparatur und Schlüsseldienst. Zum Tätigkeitsfeld gehören nach den hinterlegten Kategorien außerdem das Kopieren von Schlüsseln, ein Notdienst für Schlösser und die Anfertigung von Stempeln. Der Betrieb sitzt in Hagen und tritt unter der Doppelbezeichnung Schuhmacher und Schlüsseldienst auf, ein klassisches Nebeneinander von Absatz, Sohle und Schlüsselrohling."
+ },
+ {
+  "slug": "schluesseldienst-vassilev-in-hagen-hagen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüsseldienst und Schuhreparatur teilen sich bei Vassilev in Hagen ein Geschäft, das nach eigener Angabe seit über 33 Jahren besteht und an zwei Standorten in der Stadt arbeitet, einer davon in einem Einkaufszentrum. Kunden lassen dort Haustür-, Briefkasten-, Garagen- und andere Schlüssel nachmachen, auch Sicherheitsschlüssel, und kaufen Türschlösser und Zylinderschlösser mit Schließzylinder. Bei mehreren Kopien gibt es Mengenrabatt. Der Betrieb kopiert Schlüssel auch für den privaten Bedarf, nach eigener Angabe sogar für ungewöhnliche Rohlinge. Er ist Partner von ABUS, berät kostenlos zu Sicherheitstechnik und bietet einen Schlüssel-Sofort-Service und einen Schuhreparatur-Sofort-Dienst an. Der Preis für einen Standardzylinderschlüssel steht fest, die Beratung im Geschäft ist unverbindlich. Der Mengenrabatt gilt ab der zweiten Schlüsselkopie. Die Beratung gilt als kostenlos, und der Betrieb arbeitet in der Stadt seit mehr als drei Jahrzehnten.",
+  "trace": {
+   "festpreis_genannt": "Zylinderschlüssel ab 6,90€"
+  }
+ },
+ {
+  "slug": "liebchen-handwerkservice-schlosserei-hagen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Liebchen Handwerkservice in Hagen ist eine Schlosserei mit Schwerpunkt Metall und Stahl. Das Angebot reicht von Stahlbau, Geländern und Lösungen in Edelstahl über Laserzuschnitte und Gartenkunst bis zu Demontage und Reparaturen sowie Wartung und Reparatur von Maschinen und Anlagen. Hinzu kommen die Prüfung von Toren, Türen, Leitern und Rauchmeldern und die Reparatur und Montage von Türen und Toren. Im Leistungskatalog steht auch ein Schlüsseldienst für Reparatur und Montage. Ein eigener Bereich der Website richtet sich an Industrie und Gewerbekunden. Weitere Informationen zu den Leistungen lassen sich anfordern."
+ },
+ {
+  "slug": "stankiewicz-gmbh-schlosserei-hagen",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Stankiewicz ist eine Schlosserei und ein Metallbaubetrieb in Hagen-Hohenlimburg, ein Handwerksbetrieb, der nach eigener Angabe seit 15 Jahren besteht. Gefertigt werden Tore, Türen, Geländer innen und außen, Treppen, Zaun- und Toranlagen, Vordächer, Anbaubalkone, Handläufe und Insektenschutz im Innen- und Außenbereich. Die Wünsche der Kunden werden im Gespräch aufgenommen und umgesetzt. Ein Schlüsseldienst ist der Betrieb nicht."
+ },
+ {
+  "slug": "richter-sicherheitstechnik-hagen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Richter Sicherheitstechnik betreibt in Hagen einen Schlüsseldienst mit Notdienst an 365 Tagen, Tag und Nacht, auch an Feiertagen. Das Team öffnet Wohnungs-, Haus-, Fahrzeug- und Tresortüren schnell und in den meisten Fällen ohne Beschädigung; bei Tresoren reicht das nach eigener Angabe bis zu Wertschutzschränken sämtlicher Widerstandsklassen. Auch Pkw und Transporter werden geöffnet, etwa wenn der Autoschlüssel im Kofferraum liegt oder das Keyless-Go-System nicht reagiert. Neben der Türöffnung stehen Einbruchschutz mit Mehrfachverriegelungen und Panzerriegeln, Alarmanlagen, Videoüberwachung, Schließanlagen und Smart-Lock-Lösungen im Programm, für Haus, Wohnung und Gewerbe. Zusätzlicher Aufwand wird vor Beginn offen besprochen. Der Preis für eine einfache Türöffnung steht fest und schließt die Anfahrt im Kerngebiet von Hagen ein; Zuschläge entstehen bei längeren Anfahrten. Ein Beratungsgespräch zur Sicherheitstechnik führt zu einem schriftlichen Konzept mit Funkalarmanlage, Videotürklingel oder Smart-Lock, abgestimmt auf Budget und Förderprogramme.",
+  "trace": {
+   "elektronische_schliesssysteme": "Videotürklingel, Smart-Lock oder modularer Schließanlage",
+   "anfahrtspauschale_genannt": "99,90 € inklusive Anfahrt im Kerngebiet von Hagen",
+   "gewerblich_objektbetreuung": "für Haus, Wohnung und Gewerbe"
+  }
+ },
+ {
+  "slug": "hallenser-schluesseldienst-halle",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Der Hallenser Schlüsseldienst hilft in Halle an der Saale und Umgebung rund um die Uhr an sieben Tagen; nach dem Anruf ist das Team nach eigener Angabe in der Regel innerhalb von 20 bis 30 Minuten vor Ort. Es öffnet verschlossene und zugezogene Türen und führt Türnotöffnungen auch für Behörden wie Polizei und Gerichtsvollzieher durch. Misslingt die Öffnung ohne Beschädigung, entfällt die Bezahlung. Daneben stehen Schließzylinder mit Aufbohr- und Kernschutz samt Montage, Schließanlagen für Einfamilienhäuser, Mehrfamilienhäuser, öffentliche Einrichtungen und Gewerbeobjekte, Einbruchschutz wie Türkette, Panzerriegel und Fenstersicherung sowie Alarmanlagen. Fahrzeuge öffnet der Betrieb ohne Schaden und fertigt Ersatzschlüssel für Auto und Motorrad an. Im Fachgeschäft lassen sich Haus-, Garagen-, Briefkasten- und Fahrradschlüssel nachmachen. Die Preise für Türöffnung und Anfahrt legt der Betrieb nach Wochentag und Tageszeit fest.",
+  "trace": {
+   "ladengeschaeft": "bei uns im Fachgeschäft",
+   "anfahrtspauschale_genannt": "54,00 € - Türöffnung + 15,00 € - Anfahrt",
+   "gewerblich_objektbetreuung": "in öffentlichen Einrichtungen und Gewerbeobjeckten"
+  }
+ },
+ {
+  "slug": "schluesseldienst-mueller-halle",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Seit der Gründung im Oktober 1996 arbeitet der Schlüsseldienst Müller in Halle an der Saale und im Saalekreis. Das Team öffnet zugefallene und zugeschlossene Türen möglichst schonend und beschädigungsfrei, erreichbar rund um die Uhr, mit abweichenden Preisen nachts sowie an Sonn- und Feiertagen. Im Ladengeschäft gibt es persönliche Beratung und eine große Auswahl an Sicherheitstechnik, außerdem Schlüsselanfertigung, Ersatzschlüssel, Briefkästen, Rauchmelder und Fenstervergitterungen, dazu Produkte von Herstellern wie ABUS, IKON, EVVA und Burgwächter. Schließanlagen projektiert, liefert und montiert der Betrieb für private und gewerbliche Kunden. Auch Einbruchschutz und Lösungen für Tresore gehören zum Angebot. Der Betrieb gibt an, Erfahrung in Holz und Metall zu haben, und nennt die Preise für zugefallene und zugeschlossene Türen auf der eigenen Seite. Der Betrieb arbeitet mit einem geschulten Team und langjähriger Erfahrung und informiert im Geschäft umfassend zu Sicherheitstechnik.",
+  "trace": {
+   "festpreis_genannt": "Zugefallene Tür 79 €, zugeschlossene Tür 120 €"
+  }
+ },
+ {
+  "slug": "schluesseldienst-heiko-scharfe-halle",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Als inhabergeführter Schlüsselnotdienst arbeitet Heiko Scharfe in Halle an der Saale seit über 20 Jahren. Notöffnungen laufen rund um die Uhr, auch nachts, am Wochenende und an Feiertagen; ein Mitarbeiter ist nach eigener Angabe in 15 bis 30 Minuten vor Ort. Die Türöffnung ist mit An- und Abfahrt zu einem vorab genannten Preis möglich, bezahlt wird nach der Arbeit gegen Rechnung. Lässt sich ein Schloss nicht schadlos öffnen, wird nach der Öffnung ein neues eingebaut. Im Ladengeschäft werden Schlüssel nachgemacht und Kunden zu Sicherheitstechnik und Einbruchschutz beraten. Dazu kommen Schlossreparaturen, Schließanlagen, Fensterabsicherung, elektronische Zutrittskontrolle, Briefkastenanlagen, Funk-Alarmanlagen, Türschließer und Panikschlösser sowie Lieferung und Montage von Tresoren. Für Hausverwaltungen betreut der Betrieb einen festen Objektbestand in Halle und der Region. Der Betrieb bietet zudem Blog, Referenzen und ausführliche Seiten zu Türnotöffnung, Schließanlagen und Einbruchschutz an."
+ },
+ {
+  "slug": "hallescher-schluesseldienst-gmbh-halle",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Der Hallesche Schlüsseldienst ist ein Familienbetrieb in Halle an der Saale, der 1974 gegründet wurde und sich vom klassischen Schlüsseldienst zum Fachbetrieb für mechanische und elektronische Schließsysteme entwickelt hat. Er bietet schadenfreie Notöffnungen rund um die Uhr, Schlosswechsel, Schließanlagen mit Sicherungskarte und Bohrschutz, Zutrittskontrolle per Transponder, Code oder App, Alarmanlagen sowie Verkauf, Lieferung und Einbau von Tresoren und Briefkastenanlagen. Das Sortiment umfasst über 8000 Schlüsselprofile vom Fahrzeug- bis zum Haustürschlüssel, kleinere Gleichschließungen und Schließanlagen entstehen im eigenen Haus innerhalb kurzer Zeit. Gravuren und Beschilderung nach Vorgabe gehören ebenfalls dazu. Kundschaft sind Privatleute, Unternehmen, Hausverwaltungen und öffentliche Einrichtungen. Beratung findet beim Kunden vor Ort oder im Ladengeschäft statt. Elektronische Schließsysteme lassen sich nach Verlust eines Transponders einfach neu programmieren. Das Angebot umfasst auch Tresorkataloge und die Planung von Zutrittskonzepten.",
+  "trace": {
+   "autoschluessel": "vom Fahrzeug- und Haustürschlüssel"
+  }
+ },
+ {
+  "slug": "lockexpress-halle",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "LockExpress ist ein Schlüsseldienst in Halle an der Saale, im Saalekreis und in Merseburg und nennt sich ADAC Schlüsselnotdienst-Partner. Rund um die Uhr öffnet der Betrieb zugefallene und zugeschlossene Türen beschädigungsfrei und ist nach eigener Angabe meist in einer halben Stunde vor Ort; bei Aussperrung fährt er auch Autos an. Er wechselt Schlösser, repariert Beschläge und Türmechanismen, wartet Türen und Fenster und installiert Zylinder, Sicherheitsbeschläge und Schließsysteme. Zusätzlich berät er zu Sicherheitsmaßnahmen und Einbruchschutz. Als Hausmeisterdienst übernimmt der Betrieb seit 2021 Treppenhausreinigung, Winterdienst, Grünschnitt und Kleinreparaturen für Wohn- und Gewerbeobjekte, nach kostenloser Besichtigung und individuellem Angebot, für Hausverwaltungen und Eigentümer. Der Einsatz erfolgt in mehreren Stadtteilen, darunter Altstadt, Neustadt und Südstadt. Aufträge nimmt der Betrieb auch online entgegen, und er hat Ratgeber und häufige Fragen zusammengestellt."
+ },
+ {
+  "slug": "schluesseldienst-an-der-burg-gmbh-halle",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Mit einem Ladengeschäft im Zentrum von Halle an der Saale ist der Schlüsseldienst an der Burg zu finden. Hier entstehen Nachschlüssel und Ersatzschlüssel, dazu gibt es Schließzylinder, Schlösser und ganze Schließsysteme zu kaufen. Der Betrieb repariert beschädigte Schlösser, Schließzylinder und Verriegelungen, plant Schließanlagen mit Haupt- und Gruppenschlüssel, mechanisch wie elektronisch, und baut Panzerriegel und Fenstersicherungen ein. Zur Sicherheitsberatung kommt der Betrieb auch zu den Kunden. Türnotöffnungen führt er zu seinen Öffnungszeiten aus, etwa wenn sich jemand ausgesperrt hat. Er ist Partner von Homematic, auch Smart-Home-Systeme und Zugangskontrolle mit unterschiedlichen Berechtigungsstufen zählen zum Angebot. Die Schlüsselanfertigung gelingt für Hausschlüssel ebenso wie für besondere Sicherheitsschlüssel. Zum Angebot zählen außerdem der Verkauf und professionelle Einbau von Sicherungen für Privatkunden und Unternehmen. Kunden finden dort Beratung zu Verbesserungen der Sicherheit.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Schließanlagen für Privat und Gewerbe"
+  }
+ },
+ {
+  "slug": "ts-metallbau-halle",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "TS Metallbau arbeitet als Metallbau- und Schlosserbetrieb mit Vordächern, Treppen, Geländern, Dachbau, Sichtschutzzäunen sowie Türen und Metallmöbeln nach Maß. Die Website richtet sich an Kunden im Kreis Gütersloh, Projekte lassen sich dort anfragen. Es geht um handwerkliche Präzision und individuelle Konstruktionen, von einfachen Strukturen bis zu komplexen Ausführungen. Als Schlüsseldienst tritt der Betrieb nicht auf."
+ },
+ {
+  "slug": "amw-gmbh-halle",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "AMW GmbH in Halle ist ein Metallbaubetrieb, der Stahl und Edelstahl verarbeitet. Das Angebot umfasst Blechverarbeitung, Schweißarbeiten, Reparaturen, 3D-Druck sowie Beratung und Planung. Auch Brandschutzbeschichtungen gehören dazu. Die Arbeiten werden nach Bedarf vor Ort ausgeführt, und Kostenschätzungen lassen sich online einholen. Als Schlüsseldienst führt der Betrieb nur eine Nebenkategorie. Das Unternehmen firmiert als GmbH und arbeitet vor Ort bei den Kunden."
+ },
+ {
+  "slug": "schloesser-beschlaege-kuehn-e-k-halle",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlösser & Beschläge Kühn e.K. ist ein Fachhandel in Halle für Schlösser und Eisenwaren. Der Betrieb führt Beschläge und Schlösser im Sortiment und hat ein Geschäft, das Kunden aufsuchen können. Als Inhaberbetrieb tritt er mit dem Zusatz e.K. auf und läuft unter der Kategorie Schlüsseldienst, die Ware steht im Mittelpunkt."
+ },
+ {
+  "slug": "adam-haustechnik-schluesseldienst-sanitaer-kassel",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Adam Haustechnik in Kassel kombiniert Schlüsseldienst mit Rohr- und Kanalreinigung, Gebäudereinigung und vermitteltem Sanitärservice. Der Schlüsselnotdienst arbeitet rund um die Uhr, auch an Wochenenden und Feiertagen, in Kassel, Baunatal, Niestetal, Calden und im Umkreis bis 50 Kilometer; im Notfall ist der Techniker nach Angabe des Betriebs in der Regel schnell vor Ort. Er öffnet Türen, Autos und Tresore, wechselt Schlösser und Zylinder, wirkt bei abgebrochenen Schlüsseln und fertigt hochpräzise Schlüsselkopien an. Vor Arbeitsbeginn wird ein verbindlicher Festpreis vereinbart, Anfahrtspauschalen und Material weist der Betrieb gesondert aus. Für Büro, Praxis, Gewerbeobjekt und Hausverwaltung kümmert er sich um kleinere Sanitärreparaturen und koordiniert bei größeren Arbeiten geeignete Fachpartner. Zusätzlich gibt es Hausmeisterservice und Reinigung. Bei einer Stornierung nach begonnener Anfahrt können bereits entstandene Kosten in Rechnung gestellt werden, das hält der Betrieb ausdrücklich fest."
+ }
+]

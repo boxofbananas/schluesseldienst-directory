@@ -124,6 +124,55 @@ _CTX_OK = ssl.create_default_context()
 _CTX_ANY = ssl._create_unverified_context()
 
 
+def _decompress(raw, content_encoding):
+    """Manche Server liefern trotz `Accept-Encoding: identity` gzip oder deflate; urllib packt das
+    nicht selbst aus, dann landet der rohe Strom als Text im Zwischenspeicher. Nach Header, sonst
+    nach den Magic-Bytes (gzip 1f 8b) auspacken, tolerant gegen den MAX_BYTES-Schnitt
+    (decompressobj liefert, so weit es kommt)."""
+    import gzip, zlib
+    ce = (content_encoding or "").lower()
+    is_gzip = "gzip" in ce or raw[:2] == b"\x1f\x8b"
+    is_deflate = "deflate" in ce
+    if not (is_gzip or is_deflate):
+        return raw
+    try:
+        wbits = zlib.MAX_WBITS | 16 if is_gzip else zlib.MAX_WBITS
+        return zlib.decompressobj(wbits).decompress(raw) or raw
+    except zlib.error:
+        try:    # roher deflate ohne zlib-Kopf
+            return zlib.decompressobj(-zlib.MAX_WBITS).decompress(raw) or raw
+        except zlib.error:
+            return raw
+
+
+_META_CHARSET = re.compile(rb'charset=["\']?\s*([a-zA-Z0-9_.\-]+)', re.I)
+
+
+def _decode(raw, header_charset):
+    """HTML robust dekodieren. UTF-8 gewinnt zuerst, denn gültiges UTF-8 entsteht fast nie
+    zufällig; eine Seite, die fälschlich windows-1252 angibt, aber UTF-8 ist, wird so richtig
+    gelesen. Ein paar kaputte Bytes in einer sonst gültigen UTF-8-Seite (Fehler der Quelle)
+    werden ersetzt, statt die ganze Seite auf 1252 zu kippen. Erst wenn UTF-8 deutlich scheitert,
+    kommt die ausdrücklich deklarierte Kodierung, sonst windows-1252. Die alte Fassung erzwang bei
+    iso-8859-1 UTF-8 und dekodierte latin-1/1252-Seiten als UTF-8 – daher das Mojibake im Cache."""
+    try:
+        return raw.decode("utf-8")
+    except UnicodeDecodeError:
+        pass
+    rep = raw.decode("utf-8", errors="replace")
+    if rep.count("�") <= max(2, len(raw) // 5000):   # fast-gültiges UTF-8: wenige Fehlbytes
+        return rep
+    m = _META_CHARSET.search(raw[:4096])
+    meta = (m.group(1).decode("ascii", "ignore").lower() if m else "")
+    for enc in ((header_charset or "").lower(), meta):
+        if enc and enc not in ("utf-8", "utf8", "iso-8859-1", "latin-1", "latin1", "ascii", "us-ascii"):
+            try:
+                return raw.decode(enc)
+            except (LookupError, UnicodeDecodeError):
+                pass
+    return raw.decode("cp1252", errors="replace")
+
+
 def get(url, timeout):
     """Nur Standardbibliothek, damit es mit dem mitgelieferten Python eines Macs läuft. Erst eine
     geprüfte TLS-Verbindung, dann eine ungeprüfte, wenn das Zertifikat nicht taugt (bei kleinen
@@ -135,9 +184,8 @@ def get(url, timeout):
                 ctype = r.headers.get("content-type", "")
                 if "html" not in ctype and ctype: return None, f"not html ({ctype[:30]})", r.url
                 raw = r.read(MAX_BYTES)
-                enc = r.headers.get_content_charset() or "utf-8"
-                if enc.lower() == "iso-8859-1": enc = "utf-8"
-                return raw.decode(enc, errors="replace"), "ok", r.url
+                raw = _decompress(raw, r.headers.get("Content-Encoding", ""))
+                return _decode(raw, r.headers.get_content_charset()), "ok", r.url
         except urllib.error.HTTPError as e:
             return None, f"http {e.code}", url
         except ssl.SSLError:

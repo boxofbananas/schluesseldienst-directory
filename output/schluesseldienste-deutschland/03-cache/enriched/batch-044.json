@@ -1,0 +1,690 @@
+[
+ {
+  "slug": "ssd-schluesseldienst-gmbh-bergheim",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Im Zentrum von Bergheim führt die SSD Schlüsseldienst GmbH ein Geschäft für Sicherheitstechnik und Metallbau, das als Familienunternehmen mit jahrzehntelanger Erfahrung auftritt und 2004 an den heutigen Standort umzog. Der Betrieb bietet neben dem klassischen Türöffnungsdienst Zylinder, Schlösser und Beschläge an, hält über 12.000 Schlüsselrohlinge vorrätig und baut Schließanlagen in eigenen Werkstätten. Dazu kommen Türen von der Brandschutztür bis zum Sektionaltor, Garagentore, Zaunanlagen, Fenster, Gittertüren, Alarmanlagen, Videoüberwachung und elektronische Zutrittssysteme. Zur Kundschaft zählen Privathaushalte, Unternehmen sowie Städte und Gemeinden in Bergheim, Bedburg, Elsdorf, Kerpen, Pulheim und Köln. Eine erweiterte Ausstellung zeigt Sicherheitsprodukte und Tresore, der Betrieb ist Premiumpartner eines Tresorherstellers und stellt die Beratung zum Tresorkauf heraus. Weiterbildung der Mitarbeiter wird ebenfalls herausgestellt, und zu den Partnern im Bereich mechanischer Sicherheit zählen mehrere Hersteller.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Unternehmen mit modernen Alarmanlagen"
+  }
+ },
+ {
+  "slug": "obi-markt-bergisch-gladbach-bensberg-bergisch-gladbach",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der OBI Markt in Bergisch Gladbach-Bensberg ist ein Baumarkt mit Sortiment aus den Bereichen Bauen, Wohnen, Technik und Garten und gehört nicht zu den Betrieben, die Türen öffnen. Zum Angebot zählen ein Gartencenter, Holzzuschnitt, Farbmischservice, Mietgeräte und Werkzeugverleih sowie ein Container-Mietservice. Dazu kommen Beratung und Montage für Solaranlagen, Terrassenüberdachungen und Wärmepumpen, ein Umtauschrecht von drei Monaten und Geschenkkarten. Der Schlüsseldienst des Marktes beschränkt sich auf angefertigte Schlüssel, die sofort zum Mitnehmen bereitliegen. Der Markt liefert und bietet einen Installationsservice für gekaufte Ware.",
+  "trace": {
+   "schluessel_nachmachen": "Für dich sofort angefertigt – direkt zum Mitnehmen"
+  }
+ },
+ {
+  "slug": "schluesseldienst-balki-24-7-bergisch-gladbach-bergisch-gladbach",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Im ersten Obergeschoss des Löwencenters führt Balki in Bergisch Gladbach einen kombinierten Schuh- und Schlüsseldienst, gegenüber einem Friseur gelegen. Der Inhaber bringt nach eigener Angabe 25 Jahre Berufserfahrung mit. Neben Schuhreparatur und Schlüsselservice gehören Gravuren, Passfotos, Schleifservice sowie Uhren- und Batteriewechsel zum Angebot, ebenso der Batteriewechsel bei Autoschlüsseln. Zum Verkauf stehen Schlüsselanhänger und weiteres Zubehör rund um Schlösser. Zylinderwechsel werden ausgeführt, und für Türöffnungen steht ein Notdienst rund um die Uhr in Bergisch Gladbach, Köln und Umgebung bereit, der telefonisch abgesprochen wird. Passfotos, Gravuren und Schleifarbeiten lassen sich im selben Laden erledigen, sodass Schlüssel, Schuhe und Uhren an einem Ort versorgt werden. Beratung zu allen genannten Bereichen bietet der Inhaber persönlich an. Der Betrieb ist zugleich als Notdienst und als Anbieter von Schlüsselkopien eingeordnet.",
+  "trace": {
+   "ladengeschaeft": "Direkt im Löwencenter in der 1. Etage gegenüber dem Friseur finden Sie unsere Schuh- und Schlüsseldienst"
+  }
+ },
+ {
+  "slug": "refrather-schluesseldienst-bergisch-gladbach",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Refrather Schlüsseldienst arbeitet in Bergisch Gladbach und rückt aus, wenn jemand ausgesperrt ist, einen Schlüssel verloren hat, ein Schlüssel gestohlen wurde oder abgebrochen ist. Defekte Schlösser werden repariert oder ausgewechselt, darunter Sicherheitszylinder, Haus- und Wohnungstürschlösser sowie Vorhängeschlösser. Angefertigt werden Schlüssel aller Art, etwa Sicherheitsschlüssel, Zimmer- und Kellertürschlüssel sowie Schlüssel für Schließanlagen. Die Leistungen sind in drei Bereiche gegliedert: Schlüsselanfertigung, Zylinderwechsel samt Reparatur für Türschlösser und Austausch von Vorhängeschlössern. Betont werden eine schnelle und sichere Dienstleistung. Er gilt zugleich als Notdienst, Kopierstelle für Schlüssel und Schlossgeschäft. Der Betrieb bietet nach eigener Angabe eine professionelle, sichere und schnelle Dienstleistung und hilft auch bei durchgedrehten Schlüsseln. Angeboten werden Schlüssel für Wohnung, Haus, Zimmer und Keller sowie für Schließanlagen, und der Betrieb arbeitet in Bergisch Gladbach und Umgebung.",
+  "trace": {
+   "tueroeffnung": "wenn Sie sich ausgesperrt haben"
+  }
+ },
+ {
+  "slug": "thomas-griess-bergisch-gladbach",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Thomas Grieß betreibt in Bergisch Gladbach einen Fachbetrieb für Garagentore und Metallbau rund ums Haus und ist nach eigener Angabe seit über 30 Jahren in der Stadt tätig, auch in Bensberg. Das Angebot umfasst Sektional-, Schwing- und Rolltore samt Antrieben, Türen, Zäune und Metallbau wie Balkongeländer, Handläufe, Fenstergitter und Vordächer. Schließtechnik wird dort als Teil des Metallbaus genannt. Weitere Arbeitsgebiete sind Hufbeschlag mit Barhufpflege sowie Reparatur und Wartung von Toren, Fenstern und Türen. Neubau, Umbau und Reparatur gehören zum Auftragsspektrum."
+ },
+ {
+  "slug": "schluessel-one-erlangen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüssel One sitzt in Erlangen und betreibt einen Schlüsselnotdienst, der bis in die Nacht sowie an Wochenenden und Feiertagen arbeitet. Zugefallene Wohnungstüren werden nach Betriebsangabe beschädigungsfrei mit Kunststoffkarten oder Drähten geöffnet, bei abgeschlossenen Türen wird der Zylinder aufgefräst und ersetzt. Die Preise für die Türöffnung nennt der Betrieb im Voraus. Dazu kommen Autoöffnungen, Tresoröffnungen, Zusatzschlösser, Türbeschläge, Panzerriegel, Fenstersicherungen sowie elektronische Schlösser, Videoüberwachung und Alarmanlagen. Schließanlagen für Einfamilienhäuser und größere Objekte kommen mit Sicherungskarte, sodass nur Berechtigte Schlüssel nachbestellen können. Im Ladengeschäft in der Innenstadt werden Schlüssel nachgemacht, Schilder und Stempel gefertigt. Das Sortiment an Tresoren reicht von Wandeinbau- über Möbel- bis zu Feuerschutztresoren. Verkauft werden Schließzylinder mit und ohne Sicherungskarte, Türbeschläge und Schlösser aller Art. Eigene Seiten behandeln die Einsatzorte Erlangen und Ansbach sowie Kamerasysteme und Möbeltresore.",
+  "trace": {
+   "autoschluessel": "öffnen wir auch Tresore und PKW",
+   "elektronische_schliesssysteme": "Elektronische Schlösser"
+  }
+ },
+ {
+  "slug": "schluesseldienst-by24-erlangen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüsseldienst BY24 ist ein Notdienst für Erlangen und das Umland, der sieben Tage die Woche rund um die Uhr unterwegs ist. Im Mittelpunkt stehen Notöffnungen, Schlosswechsel und das Öffnen von Schließzylindern, ergänzt durch Autoöffnungen und Hilfe bei verlorenen oder vergessenen Schlüsseln. Der Betrieb berät außerdem zu sicheren Schlössern und betont eine schnelle Reaktionszeit. Eigene Seiten gibt es für die Autoöffnung und die Zylinderöffnung sowie für die Einsatzorte Erlangen, Fürth, Nürnberg und Herzogenaurach. Das Einsatzgebiet reicht darüber hinaus bis Forchheim, Baiersdorf, Eckental, Lauf an der Pegnitz, Zirndorf, Oberasbach und Adelsdorf. Als Anfahrtszeit nennt der Betrieb 20 bis 30 Minuten. Zu den Leistungen zählen Türöffnungen aller Art und der Rund-um-die-Uhr-Notdienst, und die Preise werden nach Betriebsangabe transparent und ohne versteckte Kosten genannt."
+ },
+ {
+  "slug": "shoes-keys-by-eski-erlangen",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Bei Shoes & Keys by ESki in Erlangen dreht sich alles um das Fahrzeug und nicht um Haustüren. Der Betrieb fertigt, fräst und programmiert Transponder-, Funk- und Keyless-Schlüssel, auch nach Schlüsselverlust, und lernt Wegfahrsperren an. Weitere Arbeitsfelder sind Codierung, Fahrzeugdiagnose nach einem Unfall, Batterieanlernen, Arbeiten an Motorsteuergeräten einschließlich Klonen, Chiptuning sowie Reparatur von Zündschloss und elektronischer Lenkradverriegelung. Der Einsatzradius reicht über Nürnberg, Fürth und Schwabach bis in eine Entfernung von etwa 50 bis 60 Kilometern. Auch Service- und Wartungsfunktionen sowie Komfortfunktionen gehören zu den Themen."
+ },
+ {
+  "slug": "frank-schluessel-und-sicherheitstechnik-gmbh-co-kg-erlangen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "FRANK Schlüssel- und Sicherheitstechnik ist ein Fachgeschäft für Sicherheitseinrichtungen in Erlangen, das sich als Schlüsseldienst für die Stadt und Umgebung versteht. Das Angebot gliedert sich in mechanische Schließsysteme, Zutrittskontrolle, Einbruchschutz, Tresore, Briefkastenanlagen und Rauchwarnmelder. Beraten wird umfassend zur Produktpalette, auf Wunsch auch beim Kunden vor Ort, montiert wird fachmännisch, danach folgen Service und Wartungsarbeiten. Zum Haus gehören außerdem ein Gravurbetrieb, ein Stempelgeschäft sowie der Fachhandel für Tresore und Briefkästen. Aus der langjährigen Tätigkeit ist ein großer Kundenstamm entstanden, und die fachliche Kompetenz sowie die vertrauensvolle Zusammenarbeit stellt der Betrieb heraus. Referenzen und Herstellerpartner sind aufgeführt. Die Palette reicht damit vom Schlüsseldienst über mechanische und elektronische Zutrittslösungen bis zu Sicherheitstechnik für Haus und Betrieb, und neben dem Verkauf stehen Beratung, Einbau und spätere Betreuung der Anlagen. Auch Sonstiges wie Briefkastenanlagen und Rauchwarnmelder wird im Haus geführt."
+ },
+ {
+  "slug": "dachzelt-dachboxen-verleih-freital-dresden-freital",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Dachzelt & Dachboxen Verleih in Freital vermietet Dachzelte, Dachboxen und Fahrradträger für Dach und Anhängerkupplung, abgeholt wird vor Ort bei Freital. Als Thule-Partner verleiht und verkauft der Betrieb zudem Dachträgersysteme für fast alle Fahrzeugdächer. Ersatzschlüssel und Ersatzteile für Thule-Produkte liegen vorrätig. Es handelt sich um einen Vermietbetrieb für Reisezubehör, nicht um einen Schlüsseldienst. Anfragen laufen über Formular und Messenger, die Besichtigung ist nach Absprache möglich, und die Öffnungszeiten unterscheiden sich in Haupt- und Nebensaison. Besichtigungen und Rückgaben sind flexibel fast immer möglich, weil die Betreiber vor Ort wohnen."
+ },
+ {
+  "slug": "hans-juergen-knoespel-sicherheitsfachgeschaeft-freital",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Das Sicherheitsfachgeschäft von Hans-Jürgen Knöspel in Freital ist als Schlüsseldienst geführt und zusätzlich als Anbieter von Sicherheitsausrüstung eingeordnet. Öffnungszeiten sind hinterlegt. Welche Arbeiten der Betrieb im Einzelnen übernimmt, lässt sich aus diesen Angaben nicht ablesen, einen eigenen Internetauftritt führt er nicht. Der Betrieb trägt den Namen seines Inhabers und versteht sich als Fachgeschäft für Sicherheit."
+ },
+ {
+  "slug": "mmf-mueller-mechanik-freital-gmbh-freital",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Die MMF Müller-Mechanik Freital GmbH ist nach eigener Angabe seit 1990 ein Familienunternehmen im Großraum Dresden und in ganz Sachsen. Der Schwerpunkt liegt auf Tor- und Türanlagen mit Antrieben, Schrankenanlagen, Fenstern, Brandschutzelementen, Fluchttüren, Sonnenschutz und Metallbau. Unter mechanischer Sicherheitstechnik nennt der Betrieb Schlösser und Beschläge, Schließanlagen, Fenstersicherungen, Tresore und Briefkastenanlagen, dazu Sicherheitsgitter und die Vervielfältigung von Schlüsseln. Geplant, verkauft, montiert und gewartet wird für private, gewerbliche und öffentliche Immobilien. Die Beschläge an Bauelementen werden repariert, und der Betrieb zeigt Referenzen und Herstellerpartner. Zum Sonnenschutz zählen Rollläden, Markisen, Raffstores, Plissees, Jalousien und Rollos, zum Metallbau Schachtabdeckungen und Gitter. Torantriebe, Fluchtwegsicherungen sowie Fenster- und Türdichtungen werden ebenfalls gewartet. Die Kundschaft sitzt im Großraum Dresden und in ganz Sachsen, und das Haus verbindet Planung, Verkauf, Montage und regelmäßige Wartung aus einer Hand.",
+  "trace": {
+   "schluessel_nachmachen": "Vervielfältigung von Schlüsseln",
+   "gewerblich_objektbetreuung": "in privaten, gewerblichen und öffentlichen Immobilien"
+  }
+ },
+ {
+  "slug": "felgner-sicherheitstechnik-gmbh-co-kg-freital",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "FELGNER Sicherheitstechnik arbeitet nach eigener Angabe seit 1967 in der Region Dresden und bedient auch Freital und Meißen. Der Notdienst ist rund um die Uhr erreichbar, auch sonn- und feiertags, mit eigenen geschulten Monteuren statt Callcenter. Türen werden nach Möglichkeit beschädigungsfrei geöffnet, die Preise sind vorab genannt und die Anfahrtspauschale wird gesondert ausgewiesen. Das Spektrum reicht von Schließzylindern und Schließanlagen im Eigenprofil über Zutrittskontrolle und Motorschlösser bis zu Alarmanlagen, Videoüberwachung, Brandmeldeanlagen und Tresoren. Beraten wird Privat- wie Gewerbekundschaft, darunter Hausverwaltungen, Hotels, Kliniken und Banken, in Ladengeschäften in Dresden mit Tresorausstellung. Die Referenzen reichen von der Technischen Universität über Energieversorger bis zu einem Einkaufszentrum, und ein eigenes Lager gehört ebenfalls zum Betrieb. Für Zutrittskontrolle, Schließanlagen, Alarmanlagen und Videoüberwachung erfolgt die Betreuung von der Beratung über die Planung bis zu Installation und Wartung.",
+  "trace": {
+   "festpreis_genannt": "Wir öffnen Ihre Tür fachgerecht zu festen, fairen Preisen"
+  }
+ },
+ {
+  "slug": "obi-markt-giessen-west-giessen",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Als Baumarkt in Gießen-West führt OBI ein breites Sortiment für Bauen, Wohnen, Technik und Garten. Der Markt vermietet Geräte und Werkzeug, mischt Farben, schneidet Holz zu und bietet einen Container-Mietservice sowie Beratung mit Montage für Solaranlagen, Terrassenüberdachungen und Wärmepumpen. Dazu gehören ein Gartencenter mit Gartenplaner, ein Umtauschrecht von drei Monaten und Geschenkkarten. Beim Schlüsseldienst des Hauses werden Schlüssel sofort angefertigt und direkt mitgegeben. Türöffnungen oder Schlosswechsel gehören nicht zu dem, was dieser Betrieb beschreibt. Der Markt bietet Abholung vor Ort und einen Installationsservice für gekaufte Ware.",
+  "trace": {
+   "schluessel_nachmachen": "Für dich sofort angefertigt – direkt zum Mitnehmen"
+  }
+ },
+ {
+  "slug": "fix-service-point-schluesseldienst-autoschluessel-giessen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Fix Service Point in Gießen ist ein inhabergeführter Schlüsseldienst mit Wurzeln bis 1987 und einem Notdienst rund um die Uhr. Ausgesperrte Kunden bekommen die Tür vor Ort geöffnet, die Arbeit reicht nach Betriebsangabe von der Haustür bis zum Tresor. Einen Schwerpunkt bildet der Autoschlüssel: Ersatz- und Zweitschlüssel für Marken wie Mercedes-Benz, BMW, Audi und Volkswagen werden gefräst, kodiert und programmiert, für viele Fahrzeuge noch am selben Tag und auch ohne Originalschlüssel. Dazu kommen Zündschlosswechsel und das Klonen von Steuergeräten. Daneben fertigt der Betrieb normale Schlüssel sowie Sicherheitsschlüssel und Spezialschlösser nach und berät zur Sicherheitstechnik. Die Preise für Öffnung und Anfahrt sind nach Tageszeit und Entfernung gestaffelt aufgeführt. Fräsen, Ziehen, Brechen und Montage werden bei der Türöffnung gesondert berechnet, am Wochenende und an Feiertagen können die Preise abweichen. Erfahrung und Tradition seit 1987 stellt der Betrieb heraus.",
+  "trace": {
+   "schlossaustausch": "Zusätzlich wechseln wir Zündschlösser"
+  }
+ },
+ {
+  "slug": "drescher-eisenwaren-sicherheitscenter-giessen",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Drescher Eisenwaren in Gießen ist ein Groß- und Einzelhändler für Werkzeug, Beschläge, Haus und Garten sowie Eisen und Rohre. Zum Sortiment zählen Elektrowerkzeuge, Baubeschläge und Hausgeräte, und mit der Lagerpflege kümmert sich der Betrieb um Vorräte seiner Kunden. Ein Bereich heißt Sicherheitstechnik und Beschläge. Dort hat der Betrieb Erfahrung bei Planung und Umsetzung mechanischer und elektronischer Schließsysteme gesammelt und beliefert nach eigener Angabe namhafte regionale Unternehmen und kommunale Einrichtungen. Ein Onlineshop ergänzt das Sortiment, eine Firmenhistorie und eine Unternehmensphilosophie stellen das Haus vor. Mit Türöffnungen befasst sich dieser Betrieb dem Anschein nach nicht. Als Partner ist ABUS genannt. Der Betrieb stellt Nähe zum Kunden, persönliche Betreuung und ein breites Sortiment heraus und verweist auf Referenzen. Das Angebot reicht von Elektrowerkzeugen bis zu Hausgeräten.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Vertrauen vieler namhafter regionaler Unternehmen und kommunaler Institution"
+  }
+ },
+ {
+  "slug": "d-s-service-e-k-hausmeisterdienste-giessen",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "D.S. Service e.K. ist ein Hausmeisterdienst für Gießen und Mittelhessen, der nach eigener Angabe seit 2007 Immobilien betreut, also seit fast 20 Jahren. Derzeit kümmert sich der Betrieb monatlich um über 180 Objekte. Zum Angebot gehören die Pflege der Außenanlagen und der Winterdienst. Als Schlüsseldienst im Sinne von Türöffnung oder Schlosswechsel tritt der Betrieb nicht auf, seine Arbeit ist Objektbetreuung für Eigentümer und Verwalter. Betont werden Erfahrung, Verantwortung, Kontinuität und ein hoher Qualitätsanspruch bei der Betreuung der Objekte."
+ },
+ {
+  "slug": "obi-gummersbach-gummersbach",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "In Gummersbach betreibt OBI einen Baumarkt mit Abteilungen für Bauen, Wohnen, Technik und Garten, dazu ein Türen- und Fenster-Studio, Bad- und Gartenplaner, Gartencenter und Holzzuschnitt. Verkauft werden Außen- und Innentüren aus Holz, Stahl und Glas in klassischen und modernen Designs, verschiedene Fenstersysteme sowie Werkzeuge und Zubehör. Im Angebot sind außerdem Mietgeräte, ein Container-Mietservice, Solaranlagen und Wärmepumpen mit Montage. Zur Sicherheitstechnik zählen Alarmanlagen, Kameras und Bewegungsmelder. Der Schlüsseldienst des Marktes fertigt Schlüssel an, die sofort zum Mitnehmen bereitliegen. Türen werden hier verkauft, nicht geöffnet.",
+  "trace": {
+   "schluessel_nachmachen": "Für dich sofort angefertigt – direkt zum Mitnehmen"
+  }
+ },
+ {
+  "slug": "srs-dienstleistungen-gbr-umzuege-entruempelung-oberberg-gummersbach",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "SRS Dienstleistungen GbR ist ein Umzugs- und Entrümpelungsbetrieb in Gummersbach, der im gesamten Oberbergischen Kreis arbeitet, unter anderem in Wiehl, Bergneustadt, Waldbröl, Engelskirchen, Marienheide, Reichshof, Nümbrecht, Morsbach, Meinerzhagen und Windeck. Das Spektrum umfasst Umzüge von Wohnungen und Häusern für Privat- und Gewerbekunden, auch international, Haushaltsauflösungen, Möbeltransport und Möbelmontage, Entkernung und Abriss, Gebäude- und Endreinigung sowie Möbeleinlagerung durch Abholung und Rückgabe. Transportiert werden auch Klaviere, Flügel, Tresore und Kunstobjekte. Der Betrieb stellt persönliche Beratung, professionelle Ausrüstung und pünktliche Termine heraus, nennt sich versichert und besichtigt kostenlos. Schlüsseldienstleistungen werden nicht beschrieben. Die Entrümpelung umfasst Wohnungen, Häuser, Keller, Dachböden und Gewerbeflächen, schnell und diskret. Beim Umzug werden Möbel am Auszugsort demontiert, sicher verpackt und am neuen Wohnort montiert, auch komplexe Schränke, Betten und Regalsysteme."
+ },
+ {
+  "slug": "schluesseldienst-mertens-gummersbach",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüsseldienst Mertens in Gummersbach fertigt Schlüssel aller Art, darunter Autoschlüssel mit Wegfahrsperre und Funkfernbedienung, Schlüssel nach Code oder nach Karte sowie Kopien von Fahrrad- und Tresorschlüsseln. Zylinder werden mit Sicherungskarte geliefert, hinzu kommen Vorhängeschlösser, Gravuren und Batteriewechsel. Der Betrieb konfiguriert und baut Schließanlagen ein und berät zu Tresoren und Videoüberwachung. Für Türöffnungen steht ein Notdienst bereit."
+ },
+ {
+  "slug": "otto-frackenpohl-gmbh-co-kg-gummersbach",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Seit mehr als 80 Jahren steht der Name Frackenpohl in Gummersbach für ein Eisenwaren- und Haushaltswarengeschäft. Neben Handwerkzeug, Elektro- und Akkuwerkzeug, Gartengeräten, Bewässerung und Küchenmessern führt der Betrieb einen Schlüsseldienst, der Türen öffnet und Schlüssel nachmacht. Hinzu kommen Tür- und Fenstersicherungen sowie Planung und Einbau von Schließanlagen führender Hersteller, mechanisch oder digital. Montage vor Ort ist möglich, im Geschäft beraten nach Betriebsangabe Fachleute. Das Sortiment führt Marken wie Stihl, Metabo, Wilka, SimonsVoss und Abus. Das Geschäft hat feste Öffnungszeiten an mehreren Wochentagen und zeigt Auszeichnungen und eine Chronik des Hauses. Das Leistungsverzeichnis umfasst Eisenwaren wie Beschläge, Schrauben und Nägel, Ausstattung für den Werkzeugkeller, Gartenbedarf mit Motorgeräten, Äxten und Sägen sowie Haushaltswaren. Aktionen werden eigens ausgewiesen. Küchen- und Gebrauchsmesser werden ebenfalls geführt.",
+  "trace": {
+   "elektronische_schliesssysteme": "Planung und Einbau von Schließanlagen: mechanisch oder digital"
+  }
+ },
+ {
+  "slug": "schluesseldienst-grant-guetersloh",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Als Einzelbetrieb im Gütersloher Ortsteil Friedrichsdorf bietet Schlüsseldienst Grant einen 24-Stunden-Dienst an. Der Inhaber öffnet Türen, repariert Schlösser, baut Schließanlagen und Zusatzschlösser ein und beseitigt Schäden nach Einbrüchen. Das Einsatzgebiet umfasst Gütersloh, Verl, Avenwedde, Isselhorst, Senne und Brackwede sowie einen Umkreis von 25 Kilometern. Er beschreibt sich als erfahrenen Handwerker und regionalen Ansprechpartner.",
+  "trace": {
+   "schlossaustausch": "Schlossreparaturen und den Einbau moderner Schließanlagen",
+   "einbruchschutz": "Schließsysteme & Zusatzschlösser"
+  }
+ },
+ {
+  "slug": "pm-service-gmbh-schluesseldienst-guetersloh",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "PM Service verbindet in Gütersloh Schlüsseldienst, Schuhreparatur, Uhren-Batteriewechsel und Werbetechnik mit Gravuren und Beschriftungen. Der Schlüsseldienst ist nach Betriebsangabe rund um die Uhr erreichbar, wenn jemand ausgesperrt ist oder einen Schlüssel verloren hat. Im Sortiment sind Schließzylinder in mehreren Bauformen, Einsteckschlösser, Vorhängeschlösser und Schlüssel. Das Team plant und installiert Schließanlagen mit Zutrittskontrolle und digitale Schließsysteme für Haushalte, Unternehmen und öffentliche Einrichtungen. Zum Angebot zählen außerdem ein Türschlossantrieb, ein Schlüsseltresor mit einstellbarem Zahlencode für Ferienwohnungen, Büros und Mehrfamilienhäuser sowie Uhrenarmbänder. Der Betrieb führt Geschäftsstellen in Nordrhein-Westfalen und Niedersachsen und verkauft Schließtechnik auch online. Auch Fahrzeugbeschriftung, Digital- und Großformatdruck, Werbebanner, Glasdekorfolien und Bandenwerbung gehören zum Angebot. Der Betrieb ist stetig gewachsen und eröffnete jährlich bis zu fünf neue Filialen. Zudem werden Uhrenservice mit Batteriewechsel und Schuhreparatur angeboten.",
+  "trace": {
+   "tueroeffnung": "wenn ihr euch ausgesperrt habt oder euren Schlüssel verloren habt",
+   "gewerblich_objektbetreuung": "Unternehmen und öffentliche Institutionen"
+  }
+ },
+ {
+  "slug": "metallmanufaktur-guetersloh-gmbh-co-kg-guetersloh",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Die Metallmanufaktur Gütersloh stellt Produkte aus Metall nach Maß her, für Haus und Gewerbe. Schwerpunkte sind Loft-Türen und Raumteiler, Treppen und Geländer, Balkone, Überdachungen und Carports sowie ein Edelstahlpool mit Saunabecken. Unter der Eigenmarke Stahlsein entstehen Pellet-Fackeln und Feuerschalen, die der Betrieb selbst produziert. In der Lohnfertigung arbeiten Schweißroboter mit Mitarbeitern zusammen, so entstehen Einzelteile und Baugruppen. Mit Schlüsseldienst hat die Tätigkeit nichts zu tun.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Maßgeschneiderte Metallprodukte für Haus und Gewerbe"
+  }
+ },
+ {
+  "slug": "schluesseldienst-erdmann-guetersloh",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüsseldienst Erdmann in Gütersloh versteht sich als Schlüsselnotdienst für ausgesperrte Kunden, bei verlorenem Schlüssel oder defektem Schloss. Türen jeglicher Art, ob Haus oder Wohnung, werden in den meisten Fällen beschädigungsfrei geöffnet. Hinzu kommen der Austausch und die Reparatur von Schlössern sowie die Installation moderner Sicherheitssysteme für das Zuhause. Der Betrieb nennt transparente Preise als Teil seines Auftretens.",
+  "trace": {
+   "schlossaustausch": "Austausch und die Reparatur von Schlössern"
+  }
+ },
+ {
+  "slug": "naviwerk-hameln",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Naviwerk in Hameln ist ein Kfz-Schlüsseldienst mit mobilem Service für Hameln und Umgebung. Autoschlüssel werden nachgemacht, gefräst und programmiert, auch bei Totalverlust, Gehäuse, Tasten und Akku lassen sich reparieren. Wegfahrsperren werden angelernt und Steuergeräte geklont. Daneben rüstet der Betrieb Apple CarPlay, Android Auto, Rückfahrkameras und DAB+ nach und bietet OBD-Diagnose und Codierung für Marken wie BMW, VAG und Mercedes. Haus- und Wohnungstüren zählen nicht zum Angebot."
+ },
+ {
+  "slug": "schlosserei-uhlit-gmbh-co-kg-hameln",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Die Schlosserei Uhlit in Hameln verarbeitet Metall und Stahl für gewerbliche und private Kunden. Zu den Leistungen zählen Metallbau, Edelstahlbau, Blechbearbeitung, Bauelemente, Sonderkonstruktionen, Stahlbau, Brandschutz und Treppen. Ein Schweißzertifikat steht zum Download bereit. Türöffnungen oder Schlosswechsel erscheinen nicht im Angebot, der Betrieb arbeitet als klassische Metallbau-Schlosserei mit Firmenhistorie und Referenzen.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Metall-und Stahlbauverarbeitung für gewerbliche und private Kunden"
+  }
+ },
+ {
+  "slug": "city-schluesseldienst-hameln-hameln",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "In der Hamelner Altstadt führt der City-Schlüsseldienst ein Geschäft, das nach eigener Angabe seit über 45 Jahren zu Sicherheit und Einbruchschutz berät, auch vor Ort mit Montage. Das Leistungsverzeichnis nennt Türöffnungen, Sonderanfertigung von Schlüsseln einschließlich Tresorschlüsseln, Autoschlüssel mit und ohne Wegfahrsperre sowie Reparatur und Erneuerung aller Schlossarten. Geplant und montiert werden mechanische und elektronische Schließanlagen für Objekt- und Wohnungsbau. Dazu kommen Schutzbeschläge und Schlösser für Haus- und Korridortüren, Panikschlösser, selbstverriegelnde Schlösser, Panzerriegel, Fluchtwegsicherung, Alarmanlagen, Waffenschränke und Tresore sowie Funkfernbedienungen für Garagen-, Gitter- und Schwingtore und Markisen. Der Einbau von Panzerriegeln und die Beratung vor Ort gehören ebenso zum Leistungsverzeichnis wie Einbruchschutz mit Montage. Der Betrieb zeigt eine Galerie und beschreibt den Weg zum Geschäft. Beraten wird seit Jahrzehnten zu allen Fragen rund um Sicherheit und Einbruchschutz.",
+  "trace": {
+   "schluessel_nachmachen": "Sonderanfertigung von Schlüsseln, Tresorschlüssel"
+  }
+ },
+ {
+  "slug": "a-s-schlosstec-hameln-hameln",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "A&S SchlossTec in Hameln wirbt mit einem Schlüsselnotdienst rund um die Uhr. Die Angaben nennen Notöffnungen, Schlossmontagen, Schließanlagen, Hausabsicherung und Panzerriegel, außerdem Tresore sowie Gravuren und Schilder. Als Nebenkategorie ist der Betrieb zusätzlich als Sicherheitsdienst eingeordnet. Zum Angebot zählen damit sowohl die schnelle Öffnung verschlossener Türen als auch die dauerhafte Absicherung von Haus und Wohnung.",
+  "trace": {
+   "tueroeffnung": "Notöffnungen"
+  }
+ },
+ {
+  "slug": "schluesseldienst-jutte-hattingen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Schlüsseldienst Jutte ist ein Familienbetrieb in Hattingen mit langer Tradition, der rund um die Uhr einsatzbereit ist und in kurzer Zeit vor Ort sein will. Türen werden sauber und ohne unnötige Schäden geöffnet, verlorene Briefkastenschlüssel und klemmende Schlösser gehören ebenso dazu wie Notverglasung. Der Betrieb kopiert Schlüssel, repariert und ersetzt Schlösser an Türen und Fenstern und montiert Türsicherungen. Hinzu kommen Schließanlagen, digitale Schließsysteme und Zutrittskontrolle für Privat- und Geschäftskunden sowie die Öffnung von Tresoren, wenn der Code vergessen oder der Schlüssel weg ist. Verbindliche Preise nennt er schon vor der Anfahrt. Beraten wird im Ladenlokal in der Stadt, das Einsatzgebiet umfasst Hattingen und Umgebung. Aufgerüstet werden können Türen und Fenster, und Reparaturen an Schließsystemen gehören ebenso dazu wie die Modernisierung vorhandener Anlagen. Im Ladenlokal gibt es Beratung zu Sicherheitstechnik und ihrer Anwendung.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Geschäftskunden bei allen Anliegen rund um Schlösser"
+  }
+ },
+ {
+  "slug": "schluesseldienst-brandes-hattingen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Schlüsseldienst Brandes ist ein Schlüsselnotdienst mit Sicherheitstechnik in Hattingen, der rund um die Uhr erreichbar ist und nach eigener Angabe in kurzer Zeit vor Ort sein will. Zugefallene Türen werden fast immer zerstörungsfrei geöffnet, verriegelte Türen mit neuester Öffnungstechnik, und auch abgebrochene Schlüssel werden entfernt. Der Betrieb tauscht Profilzylinder und Einsteckschlösser aus, montiert Querriegel, Fenster-, Garagen- und Torschlösser, liefert Schließanlagen und elektronische Türschlösser und programmiert Autoschlüssel. Auch Fahrzeuge werden geöffnet. Kopiert werden Schlüssel, geplant werden Alarmanlagen, Kameraüberwachung und Heimsicherheitssysteme. Angesprochen sind Privat- und Gewerbekunden. Den Preis vereinbart er vorab per Anruf, zusätzliche Anfahrtskosten fallen laut Betrieb nicht an. Zur Auswahl stehen Einsteckschlösser, Fensterschlösser, Garagenschlösser und Torschlösser, dazu Beratung zu Autoschlüsseln und Gebäudesicherheit. Die Leistungen sind für Privat, Gewerbe und Fahrzeuge getrennt aufgeführt.",
+  "trace": {
+   "anfahrtspauschale_genannt": "keine zusätzlichen Anfahrts- oder versteckten Kosten",
+   "gewerblich_objektbetreuung": "Gewerbe Sie benötigen für Ihre Firma große Sicherheit"
+  }
+ }
+]

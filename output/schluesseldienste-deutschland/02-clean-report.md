@@ -14,7 +14,7 @@ Land: Germany  ·  ganz Deutschland  ·  Kategorie: locksmith  ·  Namensbegriff
 | Dubletten über Telefon und Adresse verworfen | 2.912 |
 
 **Behalten:** 93,9 %  (eine DataForSEO-Abholung ist schon vor dem Eintreffen nach Kategorie gefiltert, deshalb besteht der größte Teil der Zeilen; Zeilen, die die Kategorie nur als zusätzliche tragen, kommen mit und stehen unten für die Entscheidung bei Gate 4)
-**Städte:** 1.257, davon über der Mindestzahl von 3 Einträgen: 216; diese halten 1.614 der 2.912 behaltenen Zeilen
+**Städte:** 1.256, davon über der Mindestzahl von 3 Einträgen: 216; diese halten 1.614 der 2.912 behaltenen Zeilen
 **Eigene Zeilen gefunden:** 2 (werden wie jeder andere Eintrag geführt, siehe footprint-rules)
 **Dünne Zeilen (zum Start noindex):** 1.008 (unter 5 Bewertungen oder ohne Beschreibungstext; Attribut-JSON in `about` gilt nicht als Text)
 **Als Dublette verworfen:** 88 (gleiche Telefonnummer oder gleiche Adresse; behalten wurde die Zeile mit mehr Bewertungen)
@@ -23,6 +23,7 @@ Land: Germany  ·  ganz Deutschland  ·  Kategorie: locksmith  ·  Namensbegriff
 
 ## Hinweise zum Lauf
 
+- Ortsnamen vereinheitlicht: 1 Städte mit mehreren Schreibweisen zusammengeführt (gleiche Grundform, unter 5 km). Königstein im Taunus ← Königstein im Taunus Falkenstein
 - Bundesland aus der PLZ abgeleitet (`scripts/data/geonames-de-plz.tsv`, GeoNames): 2.911 der 2.912 behaltenen Zeilen haben ein Bundesland, 1 bleiben „(ohne Angabe)“ und stehen in der Bundesland-Tabelle. Städtenamen auf Deutsch normalisiert: 349 Exonyme ersetzt (Munich -> München), 300 leere city gefüllt; 0 PLZ auf einer Landesgrenze über den Ort aufgelöst, 2 PLZ aus dem address-Feld nachgezogen (postal_code war leer) (Zählung über alle Zeilen mit PLZ vor dem Entdoppeln).
 
 ## Einträge je Bundesland
@@ -35,7 +36,7 @@ Land: Germany  ·  ganz Deutschland  ·  Kategorie: locksmith  ·  Namensbegriff
 | Bayern | BY | 410 | 221 | 24 | 175 | Bayern |
 | Baden-Württemberg | BW | 376 | 201 | 29 | 171 | Baden-Württemberg |
 | Niedersachsen | NI | 237 | 116 | 24 | 116 | Niedersachsen |
-| Hessen | HE | 213 | 88 | 19 | 123 | Hessen |
+| Hessen | HE | 213 | 87 | 19 | 123 | Hessen |
 | Berlin | BE | 163 | 1 | 1 | 163 | Berlin |
 | Sachsen | SN | 154 | 90 | 10 | 59 | Sachsen |
 | Rheinland-Pfalz | RP | 119 | 70 | 11 | 47 | Rheinland-Pfalz |
@@ -677,6 +678,7 @@ In dieser Branche gibt es viele Kettenbetriebe mit identischem Namen an vielen A
 - Barchfeld: 2
 - Traunstein: 2
 - Neumünster: 2
+- Königstein im Taunus: 2
 - Bad Lippspringe: 2
 - Lüdinghausen: 2
 - Zweibrücken: 2
@@ -1082,7 +1084,6 @@ In dieser Branche gibt es viele Kettenbetriebe mit identischem Namen an vielen A
 - Bruckmühl: 1
 - Hilzingen: 1
 - Kreuzau: 1
-- Königstein im Taunus: 1
 - Wurzen: 1
 - Baabe: 1
 - Meerane: 1
@@ -1099,7 +1100,6 @@ In dieser Branche gibt es viele Kettenbetriebe mit identischem Namen an vielen A
 - Rees: 1
 - Dollern: 1
 - Raunheim: 1
-- Königstein im Taunus Falkenstein: 1
 - Hennef: 1
 - Wiesloch: 1
 - Eslohe: 1

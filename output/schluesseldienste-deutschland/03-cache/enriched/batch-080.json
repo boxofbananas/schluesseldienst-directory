@@ -1,0 +1,786 @@
+[
+ {
+  "slug": "paetow-b-niepars",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schmiede, Schlosserei und Schlüsseldienst unter einem Dach: Der Betrieb von Bernd Paetow in Niepars führt eine Familientradition, die nach eigener Angabe 1920 begann. Die Schlosserei fertigt Zäune, Geländer und Treppen, die Schmiede Tür- und Fensterbeschläge, und Edelstahlarbeiten nehmen immer größeren Raum ein. Beim Schlüsseldienst stehen Notöffnungen von Wohnungstüren, die Montage von Schlössern und Beschlägen sowie die Fertigung von Nachschlüsseln im Angebot. Dazu kommen Schließanlagen, Vergitterungen zur Sicherung von Gebäuden und Sektionaltore. Alte Handwerkstechnik trifft hier auf moderne Technik: Der Betrieb sieht sich der Tradition verpflichtet, ohne neue Arbeitsweisen zu scheuen. Der Schlüsseldienst lässt nach eigener Aussage niemanden im Regen stehen, und auch Briefkastenanlagen gehören zum Leistungsumfang des Betriebs. Zäune, Treppen und Beschläge entstehen in der eigenen Schmiede und Schlosserei, und die Familie führt die Arbeit seit Generationen fort.",
+  "trace": {
+   "tueroeffnung": "von Wohnungstüren Notöffnung",
+   "einbruchschutz": "Für Sicherheit sorgen Vergitterungen und Schließanlagen"
+  }
+ },
+ {
+  "slug": "schuh-und-schluesseldienst-nierstein-nierstein",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Schuh- und Schlüsseldienst in Nierstein verbindet zwei Handwerke in einem Betrieb: die Reparatur von Schuhen und den Schlüsselservice. Als Hauptkategorie ist Schlüsseldienst geführt, und schon der Name macht die Doppelrolle zum Programm. Der Betrieb arbeitet mit festen Öffnungszeiten und ist in Nierstein selbst ansässig, als Anlaufstelle für Schuhe und Schlüssel am Ort."
+ },
+ {
+  "slug": "patrick-loeber-niestetal",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Patrick Löber führt in Niestetal einen Betrieb, der sich auf Schlüsselnotdienst, Sicherheitstechnik und Einbruchschutz spezialisiert hat. Er steht nach eigener Angabe jederzeit für Sicherheitsanliegen zur Verfügung und baut hochwertige Profilzylinder ein, bei denen ein einziger Schlüssel mehrere Türen schließt. Als Highlights nennt er professionellen Schlüsselnotdienst, innovative Sicherheitstechnik, umfassenden Einbruchschutz und kundenorientierten Service. Dazu kommen Briefkästen, die auf Wunsch personalisiert werden können, auch mit integriertem Zeitungsfach. Für Planung und Einbau von Rauchwarnmeldern bringt er die Sachkunde einer Fachkraft für Rauchwarnmelder nach DIN 14676 mit. Das Ziel ist ein sicheres, geschütztes Zuhause oder Unternehmen, und das Angebot reicht vom Notfall bis zur Absicherung im Voraus. Er arbeitet persönlich, will Kunden ein sicheres Zuhause bieten und kennt sich nach eigener Angabe mit Sicherheitsanliegen aller Art aus."
+ },
+ {
+  "slug": "wagner-licht-schatten-nindorf",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Hinter dem Namen Wagner Licht & Schatten steht die Wagner Metallbau GmbH aus Nindorf, die nach eigener Angabe seit 1962 im Metallbau arbeitet. Der Betrieb liefert und montiert Sonnenschutz für innen und außen, Terrassendächer, Glashäuser, Glasfaltwände, Wintergärten und Insektenschutzsysteme. Dazu kommen Rollläden, Raffstoren, Textilscreens, Garagentore, Rolltore und Rollgitter. Bei den Schiebefenstern eines der angebotenen Systeme ist eine Ausstattung nach Einbruchschutzklasse RC2 und RC3 optional erhältlich. Montiert wird durch Metallbau-Facharbeiter, die auf die jeweiligen Produkte geschult sind. Ein Schlüsseldienst ist das nicht, das Gewerk ist Sonnenschutz und Metallbau."
+ },
+ {
+  "slug": "wwh-landtechnik-nistertal",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "WWH Landtechnik in Nistertal ist ein Landtechnikbetrieb mit mehreren Standbeinen: Großhandel für landwirtschaftlichen Bedarf, Herstellung und Reparatur von Landmaschinen, Maschinenbau und Blecharbeiten. Außerdem führt der Betrieb ein Eisenwarensortiment und tritt als landwirtschaftliche Organisation auf, und zum Gewerk zählt zusätzlich ein Schlüsseldienst. Das Schwergewicht liegt aber erkennbar auf Maschinen und Geräten für die Landwirtschaft."
+ },
+ {
+  "slug": "obi-markt-nordenham-nordenham",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Baumarkt OBI in Nordenham führt Sortimente für Bauen, Wohnen, Technik und Garten und bietet dazu Services wie Containermietservice, Holzzuschnitt, Farbmischservice, Mietgeräte und ein Gartencenter. Wärmepumpen, Solaranlagen und Terrassenüberdachungen gibt es mit Beratung und Montage. Schlüssel werden im Markt sofort angefertigt und können direkt mitgenommen werden. Gekaufte Ware lässt sich innerhalb von drei Monaten umtauschen, Geschenkkarten gibt es in vielen Designs, und für Profis besteht ein eigener Bereich. Der Schwerpunkt liegt auf dem Handel mit Heim- und Handwerkerbedarf; die Schlüsselanfertigung ist ein Service neben vielen anderen.",
+  "trace": {
+   "schluessel_nachmachen": "Schlüsseldienst Für dich sofort angefertigt – direkt zum Mitnehmen",
+   "ladengeschaeft": "Dein OBI Markt Nordenham, An der Sielbrücke 10"
+  }
+ },
+ {
+  "slug": "miss-work-norderstedt",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Miss Work verbindet in Norderstedt Schuhmacherhandwerk und Schlüsseldienst, mit einem zweiten Standort in der Rindermarkthalle auf St. Pauli in Hamburg, der als Lucky Clean & Heels firmiert. Im Mittelpunkt der Arbeit steht nach eigener Angabe der Schlüsseldienst: Der Betrieb fertigt Ersatzschlüssel für Haus, Wohnung, Büro und mehr, plant Schließanlagen für private und gewerbliche Objekte, Beratung inklusive, und bietet einen Autoschlüssel-Service, wenn die Fernbedienung streikt oder beschädigt ist. Der Schlüsselnotdienst ist rund um die Uhr, Tag und Nacht, erreichbar, öffnet Türen schnell und arbeitet mit einem feststehenden Preis und ohne Zuschläge. Daneben bleibt es ein Schuhmacherbetrieb mit Schuhreparaturen und Gravuren. Als Anlässe nennt der Betrieb den Notfall an der Haustür, den defekten Autoschlüssel und die abgenutzten Lieblingsschuhe. Grundlage der Arbeit sind nach eigener Angabe Erfahrung und Fachwissen.",
+  "trace": {
+   "ladengeschaeft": "in Norderstedt und in der Rindermarkthalle St. Pauli in Hamburg",
+   "gewerblich_objektbetreuung": "Schließanlagen für private und gewerbliche Objekte"
+  }
+ },
+ {
+  "slug": "reichl-sicherheitstechnik-nordhausen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Reichl Sicherheitstechnik in Nordhausen ist ein Sicherheitsfachgeschäft mit festen Öffnungszeiten, das zusätzlich einen Schlüsselnotdienst rund um die Uhr unterhält. Ein Schwerpunkt sind Schließanlagen, mechanisch wie digital: Der Betrieb erläutert, wie gleichschließende Zylinder sich von einer Schließanlage mit verschiedenen Schlüsseln unterscheiden, und liefert Anlagen, die auf die jeweiligen Sicherheitsbedürfnisse zugeschnitten sind. Daneben werden Tresore für jeden Bedarf verkauft, die Wertsachen bei Einbruch oder Brand sicher und zuverlässig schützen sollen. Zylinder und Schlüssel gehören ebenfalls zum Sortiment des Hauses, und die Beratung zu allen Bereichen ist fester Bestandteil der Arbeit. Für Notfälle besteht neben der Geschäftsnummer eine eigene Mobilnummer des Notdienstes. Das Geschäft wirbt damit, 24 Stunden am Tag da zu sein, und hilft nach eigener Aussage gern. Mechanische und digitale Schließanlagen werden getrennt dargestellt.",
+  "trace": {
+   "elektronische_schliesssysteme": "digitale Schließanlagen",
+   "ladengeschaeft": "Wir haben täglich für Sie geöffnet"
+  }
+ },
+ {
+  "slug": "glass-nordhorn",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Das Unternehmen Glaß in Nordhorn wurde nach eigener Angabe vor 90 Jahren in Ortelsburg in Ostpreußen gegründet und wird in dritter Generation von Anke und Cees Landman geführt. Aus der Eisenwarenhandlung ist ein Fachgeschäft auf rund 800 Quadratmetern Verkaufsfläche geworden, dessen Schwerpunkt die Schließ- und Sicherheitstechnik bildet. Der Schlüsselnotdienst ist rund um die Uhr erreichbar, wenn die Tür zugefallen und der Schlüssel innen geblieben ist. Schlösser werden codiert, Schlüssel gefräst und Tresore verkauft; als Premium-Partner von Burg-Wächter führt der Betrieb Tresore dieses Herstellers. Mechanische und elektronische Schließanlagen werden geplant, montiert, gewartet und verwaltet, wobei der Betrieb aus Sicherheitsgründen keine Einzelheiten zu geplanten Anlagen nennt. Zur Kundschaft zählen Wohnungsbaugesellschaften, Hotels, Geldinstitute, Kanzleien, Schulen und Kindergärten. Der Betrieb gehört dem Fachverband Interkey an und führt eine Partnerfiliale der Deutschen Post.",
+  "trace": {
+   "tueroeffnung": "tür zu und den Schlüssel drinnen gelassen haben, dann lassen wir Sie auch hier nicht alleine"
+  }
+ },
+ {
+  "slug": "schluesselnotdienst-muensterland-nordkirchen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "false",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Von Nordkirchen aus fährt der Schlüsselnotdienst Münsterland als mobiler Betrieb Einsätze im Umkreis von rund 40 Kilometern, mit nach eigener Angabe mehr als zehn Jahren Erfahrung. Er öffnet Haus- und Wohnungstüren, Garagen und Autos möglichst ohne Beschädigung, tauscht Schlösser und Schließzylinder und plant Schließanlagen und gleichschließende Zylinder für Ein- und Mehrfamilienhäuser und kleine Gewerbeobjekte. Der Notdienst läuft rund um die Uhr. Der Preis wird vor der Auftragserteilung genannt, und die Anfahrt außerhalb von Nordkirchen wird nach Entfernung berechnet. Zum Servicegebiet gehören unter anderem Capelle, Südkirchen, Seppenrade, Lüdinghausen, Ascheberg, Dülmen, Senden, Werne und Selm. Ein Ladenlokal gibt es nicht; Termine für Beratung oder Lasergravuren werden nach Absprache vereinbart. Außerdem besteht ein Online-Shop für Schließzylinder. Der Betrieb beschreibt sich als lokalen Familienbetrieb mit schneller Anfahrt.",
+  "trace": {
+   "gewerblich_objektbetreuung": "kleine Gewerbeobjekte"
+  }
+ },
+ {
+  "slug": "haus-fuer-sicherheit-northeim-schluesseldienst-northeim",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Das Haus für Sicherheit in Northeim, auch unter dem Namen Sicherheitstechnik Deppe geführt, versteht sich als Partner für individuelle Sicherungssysteme in Südniedersachsen und arbeitet für Privat- wie Geschäftskunden. Nach eigener Angabe seit über 20 Jahren am Markt, bietet der Betrieb Einbruchmeldeanlagen, Alarmanlagen, Videoüberwachung, Zutrittskontrollsysteme, Tresore und Schließanlagen an. Der Schlüsseldienst hilft bei Aussperrung und öffnet Türen, außerdem werden Schlösser und Profilzylinder eingebaut und Schlüssel nachgemacht. Ein 24-Stunden-Notdienst ist eingerichtet. Im Mittelpunkt der Arbeit steht eine ausführliche, individuelle Beratung: Der Betrieb nimmt sich Zeit, das persönliche Sicherheitsbedürfnis zu analysieren und daraus ein abgestimmtes Sicherheitspaket zu liefern. Beraten wird im Ladengeschäft, in dem Sicherheitstechnik zum Anfassen gezeigt wird. Zu den Leistungsbereichen zählen außerdem Haussicherheit, Montagearbeiten und maßgeschneiderte Sicherheitslösungen für Privat und Gewerbe.",
+  "trace": {
+   "tueroeffnung": "konnte sofort ohne Beschädigung geöffnet werden",
+   "elektronische_schliesssysteme": "Zutrittskontrollsysteme",
+   "gewerblich_objektbetreuung": "Sicherheit für Privat und Gewerbe"
+  }
+ },
+ {
+  "slug": "der-schluesselladen-nostorf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Schlüsselladen nennt sich einen Schlüsseldienst mit Herz und arbeitet rund um Lauenburg, Büchen, Schwarzenbek, Boizenburg, Lüneburg, Winsen (Luhe) und Bleckede. Der Betrieb öffnet Türen und Autos ohne Beschädigung, hilft bei Schlüsselverlust und wechselt Türschlösser und Schließzylinder. Hochwertige Verriegelungen werden je nach Hersteller repariert oder ausgetauscht, und der Schließzylinder der Haustür wird zum vereinbarten Termin fachgerecht gewechselt. Der Notdienst ist an 365 Tagen im Jahr rund um die Uhr im Einsatz, auch an Wochenenden und Feiertagen, und nach eigener Angabe in der Regel innerhalb von zehn bis dreißig Minuten vor Ort. Der Preis für den Zylinderwechsel steht vorab fest, alle Kosten werden vorher mitgeteilt. Polizei und Gerichtsvollzieher rufen den Betrieb nach seiner Angabe häufig zum Öffnen von Türen. Als Standort ist Winsen (Luhe) genannt.",
+  "trace": {
+   "autoschluessel": "schnell mein Auto geöffnet"
+  }
+ },
+ {
+  "slug": "boeker-tor-und-tuerwerk-muensterland-nottuln",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Das Tor- und Türwerk Münsterland aus Nottuln baut und montiert Türen und Tore: Innentüren, Haustüren, Stahltüren, Sicherheitstüren, Brandschutztüren, Garagentore, Sektionaltore und Rolltore, dazu Fenster und Sicherheitstechnik. Die Türen vereinen nach Darstellung des Betriebs Brandschutz, Einbruchschutz und Schallschutz und eignen sich für Wohngebäude und Gewerbeobjekte. Ein eigenes Montageteam setzt die Aufträge um. Neben dem Bau gibt es einen Schlüsseldienst mit Türnotöffnungen, Reparaturen und Schlosswechsel, rund um die Uhr, auch an Wochenenden und Feiertagen. Der Betrieb arbeitet mit feststehenden Preisen, und eine Preisliste weist Türöffnung, Fensteröffnung, Anfahrt nach Entfernung und Notdienstzuschläge getrennt aus. Jeder Auftrag soll pünktlich ausgeführt werden, und es zählen zufriedene Kunden mehr als der schnelle Profit. Der Einsatzraum umfasst Nottuln, Dülmen, Coesfeld, Billerbeck, Senden und Münster. Erfahrene Monteure arbeiten sauber und fachgerecht."
+ },
+ {
+  "slug": "schlosserei-schaefer-inh-uli-seeger-nufringen",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die Schlosserei Schäfer sitzt seit 1990 im Gewerbegebiet von Nufringen. Inhaber Uli Seeger arbeitet seit 1991 im Betrieb und hat ihn 2018 von Fritz Schäfer übernommen. Das Leistungsspektrum liegt im Metallbau: Balkone, Geländer und Handläufe, Treppen, Vordächer, Carports, Fenstergitter, Gartentore, Edelstahlverarbeitung sowie Garagentore, Haustüren und Stahltüren. Klassische Schlosserarbeiten für Privatkunden und regionale Firmen bilden den Kern."
+ },
+ {
+  "slug": "bauschlosserei-metallbau-heroldt-inh-a-gaertner-nuthe-urstromtal",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Die Bauschlosserei Metallbau Heroldt arbeitet im Ortsteil Jänickendorf der Gemeinde Nuthe-Urstromtal und ist spezialisiert auf Schlosserarbeiten und Metallbau für Gewerbe und Privat. Nach eigener Angabe ist der Betrieb seit über 25 Jahren am Markt. Das Angebot umfasst Schlosser- und Bauschlosserarbeiten, leichten Stahlbau, Edelstahl- und Aluminiumverarbeitung, Schweißarbeiten und Kanalschacht-Abdeckungen, vom Unikat bis zur Serie. Eine Besonderheit ist die Fertigung von Ringschneidern. Geschulte Mitarbeiter und reichlich Technik gehören zum Betrieb. Aufträge kommen von Firmenkunden ebenso wie von Privatkunden. Verarbeitet werden Stahl, Edelstahl und Aluminium."
+ },
+ {
+  "slug": "bhn-metallbau-nussdorf-am-inn",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "BHN Metallbau in Nußdorf am Inn plant, fertigt und montiert individuelle Produkte aus Aluminium und Glas: Türen, Fenster, Überdachungen, Wintergärten und Fassaden. Der Betrieb verarbeitet Systeme von Schüco und ist auch im Brandschutz als Hersteller tätig. Der Schwerpunkt liegt auf dem Metall- und Glasbau, mit individuellen Lösungen für jedes Bauvorhaben."
+ },
+ {
+  "slug": "schluessel-lippacher-noerdlingen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüssel Lippacher in Nördlingen ist ein Traditionsunternehmen in dritter Generation und versteht sich als Sicherheitsfachgeschäft. Das Angebot reicht von Schlüsseln und Schlössern aller Art über Schließanlagen, Beschläge und Tresore bis zu Briefkästen, Digitalzylindern und biometrischen Sicherheitssystemen sowie Zubehör. Ein erfahrenes Team berät im Geschäft in der Stadt zur passenden Sicherheitslösung."
+ },
+ {
+  "slug": "schluesseldienst-lienhard-oberkirch",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Hinter dem Namen Schlüsseldienst Lienhard steht eine Schlosserei in Oberkirch, die nach eigener Angabe seit 1894 besteht und seit 1988 in vierter Generation von Rudolf Alexander Lienhard geführt wird; 1990 wurde sie in eine GmbH umgewandelt. Die Werkstatt plant, fertigt und montiert Treppen, Geländer, Tore mit Antrieben, Überdachungen, Glasbalkone und Sonnenschutz für die Terrasse. Bestehende Garagentore werden modernisiert, und Antrieb, Beschläge oder eine umfassende Instandsetzung kommen zum Zug, wo sie sinnvoll sind. Jedes Projekt läuft von der Skizze über die individuelle Planung bis zur fertigen Konstruktion. Aus der früheren Werkstatt am Kirchplatz wurde später ein Fachgeschäft für Sicherheitstechnik und Schlüsseldienst. Heute berät und verkauft dieses Fachgeschäft zu mechanischer Sicherungstechnik und Schließsystemen, eine Werkstatt ist es nicht. Das Haus verbindet damit Metallbau nach Maß mit einem Fachhandel für Sicherungstechnik, beides in Oberkirch.",
+  "trace": {
+   "ladengeschaeft": "Fachgeschäft am Kirchplatz"
+  }
+ },
+ {
+  "slug": "klaus-holzer-gmbh-sanitaere-anlagen-oberndorf-am-neckar",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die Klaus Holzer GmbH in Oberndorf am Neckar, Ortsteil Bochingen, ist ein Fachbetrieb für Bad-, Heizungs- und Haustechnik. Das Angebot umfasst Badmodernisierung, Heizungsmodernisierung mit Öl-, Gas- und regenerativen Anlagen, Wärmeverteilung, Wartung und Service sowie Trinkwassertechnik, Spenglerarbeiten und Blecharbeiten. Hinzu kommen intelligente Gebäudesteuerung, Smart Home und Zentralstaubsauger. Ein virtueller Showroom und Musterbäder zeigen Beispiele, und eine Ausstellung steht in Zimmern ob Rottweil. Fachpersonal, das der Betrieb selbst schult oder ausbildet, und hohe Termintreue gehören zu den Zusagen. Türen oder Schlösser gehören nicht zum Leistungsbild; das Gewerk ist Sanitär und Heizung."
+ },
+ {
+  "slug": "s-bayer-sicherheitstechnik-gmbh-notdienst-24-std-obertshausen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die S. Bayer Sicherheitstechnik GmbH in Obertshausen versteht sich als Schlüsseldienst mit Notdienst rund um die Uhr. Bei einem Notfall oder einer Türöffnung ist der Betrieb jederzeit erreichbar, und schon im Firmennamen steht der 24-Stunden-Notdienst. Neben dem Schlüsseldienst gehört die Sicherheitstechnik zum Namen und zum Selbstverständnis der GmbH, die in Obertshausen ansässig ist."
+ },
+ {
+  "slug": "guertler-gmbh-co-kg-oberviechtach",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Die Gürtler GmbH & Co. KG in Oberviechtach im Landkreis Schwandorf ist ein Metallbauunternehmen, das nach eigener Angabe seit Generationen für Handwerk steht. Im Mittelpunkt stehen Anbaubalkone aus Stahl, die beraten, geplant und montiert werden, dazu kommen Bodensysteme, Außentreppen, Balkongeländer, Zäune und Tore, Treppen und Geländer sowie Vordächer und Terrassenüberdachungen. Kunden sind private und gewerbliche Auftraggeber aus der Region. Zu den Antworten auf häufige Fragen gehören die Baugenehmigung für Anbaubalkone und die wählbaren Materialien. Das Gewerk ist Metallbau und kein Schlüsseldienst."
+ },
+ {
+  "slug": "hartmann-specialists-e-k-oberzent",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Hartmann Specialists e.K. betreibt in Oberzent den Hartmann-Fachmarkt, ein Geschäft mit den Bereichen Garten, Werkzeug, Sanitär und Heizung. Im Haus befindet sich seit Mai 2001 eine Postfiliale, und 2007 wurde das Geschäft erfolgreich an eine neue Leitung übergeben. Zum Schlüsseldienst des Fachmarkts gehören Türöffnung, Schlüsselreplikation und weitere Schloss- und Schlüsselangelegenheiten. Geschultes Personal berät bei allen Fragen rund um Projekte im Haus und im Garten. Zum Spektrum zählen außerdem Schreibwaren und eine Werkzeugreparatur. Der Betrieb ist damit ein Handelsgeschäft mit angeschlossenem Schlüsselservice sowie einem Heizungs- und Sanitärbereich, in dem ein geschultes Team arbeitet. Der Fachmarkt wirbt mit einem breiten Angebot unter einem Dach und führt Mitarbeiterzahl, Erfahrung, Verkaufsfläche und vorrätige Artikel als Kennzahlen an. Sortiment und Serviceangebote sollen helfen, Projekte zu verwirklichen, und das Personal unterstützt bei allen Fragen.",
+  "trace": {
+   "schluessel_nachmachen": "Schlüsselreplikation"
+  }
+ },
+ {
+  "slug": "obi-oelde-oelde",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "In Oelde betreibt OBI einen Baumarkt mit den Abteilungen Bauen, Wohnen, Technik und Garten. Zu den Services zählen ein Containermietservice, Holzzuschnitt, Farbmischservice, Werkzeug- und Mietgeräteverleih, Solaranlagen und Wärmepumpen mit Montage sowie die Anfertigung von Schlüsseln zum Mitnehmen. Auch Terrassenüberdachungen nach Maß mit Montage und Geschenkkarten stehen im Angebot, und gekaufte Ware kann innerhalb von drei Monaten umgetauscht werden. Termine lassen sich im Markt vereinbaren. Der Markt ist ein Handelsbetrieb für Heim und Handwerk, bei dem der Schlüsselservice nur einen kleinen Teil ausmacht.",
+  "trace": {
+   "schluessel_nachmachen": "Schlüsseldienst Für dich sofort angefertigt – direkt zum Mitnehmen",
+   "ladengeschaeft": "Dein OBI Markt Oelde, Hohe Str. 2-14"
+  }
+ },
+ {
+  "slug": "toom-baumarkt-oelsnitz-vogtland-oelsnitz",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der toom Baumarkt in Oelsnitz im Vogtland ist ein Baumarkt mit Abteilungen für Bauen und Renovieren, Bad und Sanitär, Garten und Freizeit, Wohnen und Haushalt, Werkstatt und Maschinen sowie Fenster, Türen und Vordächer. Zum Sortiment zählen Eisenwaren und Beschläge, Elektrowerkzeuge, Handwerkzeuge, Messwerkzeuge, Reinigungsmaschinen, Werkstatteinrichtung, Farben, Lacke und Holzschutz, Bodenbeläge, Baustoffe, Holz und Bauzubehör. Hervorgehoben werden die Abteilungen für Farben und Innendekoration sowie für Bodenbeläge. Online bestellte Ware lässt sich im Markt abholen; dazu gibt es Handwerksservice, Entsorgungsservice, Finanzierung, eine Vorteilskarte, einen Online-Prospekt, Werkzeugverleih und einen Anhängerverleih. Der Markt ist eine Filiale der toom Baumarkt GmbH und wirbt mit wechselnden Aktionen. Der Schwerpunkt liegt auf dem Handel mit Bau- und Heimwerkerbedarf. Die Abholung im Markt ist nach Angabe in zwei Stunden möglich, und Hilfe- und Kontaktbereiche begleiten den Einkauf."
+ },
+ {
+  "slug": "hotte-4s-service-oer-erkenschwick",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Bei Hotte 4S-Service in Oer-Erkenschwick trifft Schuhmacherhandwerk auf Schlüsselservice. Der Betrieb ist in erster Linie eine Schuhreparaturwerkstatt und kopiert daneben Schlüssel. Auch die Einordnung als Schlüsseldienst gehört zu seinem Profil, und feste Öffnungszeiten sind hinterlegt. Die Kategorien Schuhreparatur, Schlüsselvervielfältigung und Schlüsseldienst zeigen das Doppelgewerbe, das Kunden aus dem Ort für beide Anliegen an einer Stelle anspricht."
+ },
+ {
+  "slug": "metallbau-schlotter-gmbh-co-kg-oerlenbach",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Metallbau Schlotter sitzt in Eltingshausen, einem Ortsteil von Oerlenbach, und besteht nach eigener Angabe seit 1909 als Familienbetrieb. Der Betrieb fertigt und montiert Treppen, Balkongeländer, Zäune, Tore, Überdachungen und Kunstschmiedearbeiten aus Edelstahl, Aluminium, Glas und Kunststoff. Beim Einbruchschutz stehen Fenstergitter, Türgitter und Absperrgitter im Programm, dazu Sicherheitsschlösser, Schließanlagen und Panzerriegel; geschützt werden Familie, Eigenheim und Betrieb mit mechanischen Mitteln. Zugangssysteme, mit denen sich die Haustür per PIN-Code oder Fingerabdruck öffnen lässt, gehören ebenfalls dazu. Seit 2015 kommen technische, medizinische, Lebensmittel- und Laborgase von Linde und Tyczka Energie sowie Propan-Vollpfand- und Campinggas hinzu, mit flaschengas.de als Partner. Das Leistungsfeld umfasst auch Carports, Sonderanfertigungen und Aluminiumarbeiten. Als Schweißbetrieb und Geländerbauer ordnet sich der Betrieb ebenso ein. Persönlich, regional und über Generationen gewachsen, so beschreibt sich der Betrieb.",
+  "trace": {
+   "schluesseldienst_kern": "Gerne installieren wir Ihnen Sicherheitsschlösser, Schließanlagen, Panzerriegel",
+   "schlossaustausch": "Gerne installieren wir Ihnen Sicherheitsschlösser, Schließanlagen, Panzerriegel"
+  }
+ },
+ {
+  "slug": "ingolf-darr-ohrdruf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Ingolf Darr betreibt in Ohrdruf eine Schlosserei mit Metallbau und Schlüsseldienst. Der Betrieb versteht sich als zuverlässiger Partner in allen klassischen Fällen und Einsätzen des Schlosserhandwerks oder des Schlüsseldienstes und übernimmt Einzelgewerke des Um- oder Ausbaus oder arbeitet als Handwerksbetrieb in größeren Bauprojekten mit. Das Angebot gliedert sich in Schlosserhandwerk und Metallbau, ergänzt um Vorschläge und Referenzen. Das Leitmotiv lautet solides Handwerk mit Dienstleistungsgedanken. Unter der Überschrift Nur scheinbar unscheinbar ist gemeint, dass Arbeit, die auf Jahre unauffällig funktioniert, die beste ist."
+ },
+ {
+  "slug": "obi-markt-olpe-olpe",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Olpe hat einen OBI Markt mit Küchenstudio, Gartencenter, Gartenplaner, Baustoffhalle, Holzzuschnitt, Farbmischservice und Containermietservice. Auch Solaranlagen, Wärmepumpen und Terrassenüberdachungen nach Maß werden mit Beratung und Montage angeboten, dazu Mietgeräte und Werkzeugverleih. Ein Schlüsselservice fertigt Schlüssel sofort an, sodass sie direkt mitgenommen werden können; gekaufte Ware kann innerhalb von drei Monaten umgetauscht werden, und Geschenkkarten gibt es in vielen Designs. Das Gewerk ist der Baumarkt; Schlüssel werden hier als Zusatzservice angefertigt. Für Profis gibt es einen eigenen Bereich, und Termine lassen sich im Markt vereinbaren.",
+  "trace": {
+   "schluessel_nachmachen": "Schlüsseldienst Für dich sofort angefertigt – direkt zum Mitnehmen",
+   "ladengeschaeft": "Dein OBI Markt Olpe, In der Trift 17"
+  }
+ },
+ {
+  "slug": "schluesseldienst-terciak-ug-oschersleben",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Schlüsseldienst Terciak UG in Oschersleben ist hauptsächlich ein Schlüsselkopierdienst und führt dazu ein Geschäft für Schlösser und Schließtechnik mit Tresoren. Sein Profil umfasst die Einordnungen Schlüsseldienst, Schlossverkauf, Schlossanbieter und Tresorgeschäft und damit das Spektrum von der Schlüsselkopie bis zum Tresor. Der Betrieb firmiert als Unternehmergesellschaft und hat feste Öffnungszeiten hinterlegt."
+ },
+ {
+  "slug": "obi-ottendorf-okrilla-ottendorf-okrilla",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Markt in Ottendorf-Okrilla gehört zu OBI und führt Baustoffe, Werkzeug, Garten- und Wohnbedarf. Angeboten werden Holzzuschnitt, Farbmischservice, Containermietservice, Mietgeräte und Werkzeugverleih, Wärmepumpen und Solaranlagen mit Montage und ein Anhängerverleih. Schlüssel werden im Markt sofort angefertigt und können direkt mitgenommen werden. Für Profis gibt es einen eigenen Bereich, gekaufte Ware kann innerhalb von drei Monaten umgetauscht werden, und Geschenkkarten stehen in vielen Designs bereit. Der Betrieb ist ein Baumarkt, in dem der Schlüsselservice neben vielen anderen Services steht. Termine lassen sich im Markt vereinbaren.",
+  "trace": {
+   "schluessel_nachmachen": "Schlüsseldienst Für dich sofort angefertigt – direkt zum Mitnehmen",
+   "ladengeschaeft": "Dein OBI Markt Ottendorf-Okrilla, Grünberger Str. 1"
+  }
+ },
+ {
+  "slug": "schluesseldienst-ottersberg-ottersberg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Der Schlüsseldienst Ottersberg hält nach eigener Angabe dauerhaft Bereitschaft und ist tagsüber, nachts und am Wochenende rund um die Uhr erreichbar. Wer den Haustürschlüssel verloren hat oder ausgesperrt ist, bekommt Zutritt zur Wohnung. Zu den Leistungen zählen Notöffnungen von Türen, Autos, Fenstern und Tresoren, die Anfertigung von Schlüsseln aller Art, Planung und Montage von Schließanlagen, Montage von Schlössern und Beschlägen sowie Reparaturen und Einstellungen an Fenstern und Türen. Zur Ausrüstung zählen Notöffnungs-Werkzeuge, Schlüsselfräsmaschinen, Profilzylinder und Schutzausrüstung. Ein Bereich für Geschäftskunden besteht ebenfalls. Die Einsatzorte reichen von Ottersberg bis nach Bremen, Delmenhorst, Achim, Weyhe, Osterholz-Scharmbeck, Stuhr und Verden. Fensteröffnung und Autoöffnung sind jeweils eigene Leistungen des Betriebs, und Einsätze finden zu jeder Tageszeit statt, ob bei verlorenem Haustürschlüssel oder nach einer Aussperrung.",
+  "trace": {
+   "tueroeffnung": "24h Notöffnungen (Türen, Autos, Tresore etc.)",
+   "gewerblich_objektbetreuung": "Geschäftskundenbereich"
+  }
+ },
+ {
+  "slug": "eisen-heise-eisen-und-haushaltswaren-pegau",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Eisen Heise in Pegau ist ein Fachgeschäft für Eisenwaren, Bau und Werkzeug, das als Familienunternehmen inzwischen in dritter Generation geführt wird und nach eigener Angabe großen Wert auf erstklassigen Service legt. Das Ladengeschäft hält Befestigungsmaterial, Baubeschläge, Gartenartikel, Sanitär- und Elektroinstallationsmaterial sowie Werkzeuge und Elektrowerkzeuge bereit; die Auswahl an Gartenartikeln reicht bis zur grünen Oase vor dem Haus. Dazu kommen Schleifarbeiten und Reparaturen von Elektrowerkzeugen. Der Schlüsseldienst des Hauses übernimmt Notöffnungen, Schlüsselfertigung, Schließanlagen und Reparaturen von Türen. Der Notruf ist von morgens bis 23 Uhr besetzt, zwei Mobilnummern stehen dafür bereit, und die Preise für Öffnungen sind nach Tageszeit ausgewiesen, mit einer Trennung zwischen einfacher und mechanischer Öffnung. Das Haus führt neben Eisenwaren auch Haushaltswaren und bietet nach eigener Angabe gute Beratung, Service und eine große Warenvielfalt.",
+  "trace": {
+   "tueroeffnung": "Schlüsseldienst bietet Notöffnungen, Schlüsselfertigung, Schließanlagen und Reparaturen von Türen",
+   "schluessel_nachmachen": "Schlüsselfertigung",
+   "festpreis_genannt": "einfache Öffnung 60,00€"
+  }
+ },
+ {
+  "slug": "aaa-hirt-e-k-allg-absicherungstechnik-und-aufsperrdienst-peiting",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Allgemeine Absicherungstechnik und Aufsperrdienst Hirt e.K. mit Sitz in Peiting ist als Schlüsseldienst für München und die Randgebiete aufgestellt. Das Angebot reicht vom Notfall bei verlorenem Schlüssel bis zu Beratung, Planung und Umsetzung eines umfangreichen Sicherheitskonzepts, mit Schwerpunkt Schließanlagen. Ein 24-Stunden-Service macht die Mitarbeiter rund um die Uhr erreichbar."
+ },
+ {
+  "slug": "stephan-kammel-schluesseldienst-penzberg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Stephan Kammel arbeitet in Penzberg als Schlüsseldienst. Er war nach eigener Angabe 30 Jahre hauptberuflich bei der Feuerwehr in Penzberg tätig und hat sich dabei seine Kenntnisse angeeignet. Als Rentner kann er nach eigener Angabe sehr schnell vor Ort sein, ein Vorteil, den er in seinem Schlüsseldienst nutzt, wenn jemand vor verschlossener Tür steht."
+ },
+ {
+  "slug": "aufsperrdienst-1-2-3-auf-die-tuer-inh-jochen-schreck-pfarrkirchen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Aufsperrdienst 1.2.3.auf-die-Tür von Jochen Schreck arbeitet in Pfarrkirchen und Vilshofen an der Donau und versteht sich als Ansprechpartner aus dem Rottal für Haus- und Türsicherheit, Türöffnungen, elektronische Schließanlagen und Alarmanlagen. Ein 24-Stunden-Notdienst öffnet Türen. Das Angebot umfasst außerdem Tür- und Fenstersicherungen, Nachrüstungen an Haus- und Eingangstüren mit neuen Schlössern, Tresore, Briefkastenanlagen, Luftfilteranlagen und Brandschutz. Wer Fenster und Türen unauffällig und schnell öffnen kann, so die Haltung des Betriebs, ist auch der richtige Ansprechpartner zum Thema Einbruchschutz. Gezeigt wird eine Auswahl an Fenstersicherungen, damit in den eigenen vier Wänden mehr Sicherheit entsteht. Wenn der Schlüssel nicht mehr sperrt, das Schloss kaputt ist oder die Tür zugefallen ist, soll nicht zwingend ein hoher Aufwand entstehen. Termine im Ladengeschäft sind montags bis freitags tagsüber und am frühen Abend möglich.",
+  "trace": {
+   "schlossaustausch": "neue Schlösser oder bspw. auch Nachrüstungen an"
+  }
+ },
+ {
+  "slug": "pforzheimer-schluesseldienst-pforzheim",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Pforzheimer Schlüsseldienst besteht nach eigener Angabe seit 1967 und versteht sich als verlässlicher Partner in der Stadt. Das Liefer- und Leistungsspektrum gliedert sich in Schlüssel, Schlösser, Schließanlagen, Sicherheitstechnik und Schlüsseldienst mit Notdienst, dazu kommen weitere Produkte. Schließanlagen fertigt der Betrieb mit und ohne Sicherungskarte und Patentschutz in der eigenen Werkstatt, wodurch lange Lieferzeiten entfallen und kleine Erweiterungen schnell möglich sind. Damit verbindet der Betrieb den Handel mit Schlüsseln und Schlössern mit der Fertigung vor Ort, vom einzelnen Schlüssel bis zur kompletten Anlage. Der Betrieb liefert eigene Anlagen ohne Wartezeit auf Zulieferer und kann Anlagen später erweitern. Der Notdienst ist Teil des Schlüsseldienstes, und Kontakt und Anfahrtsangaben zum Standort in Pforzheim sind vorhanden. Das Programm gliedert sich damit in Handel, Fertigung und Notdienst."
+ }
+]

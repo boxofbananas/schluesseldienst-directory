@@ -1,0 +1,573 @@
+[
+ {
+  "slug": "zero-schluesseldienst-berlin-berlin",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Zero Schlüsseldienst sitzt in Berlin-Lichtenberg und fährt auch in umliegende Berliner Ortsteile. Der Türnotdienst ist an allen Tagen rund um die Uhr erreichbar; er öffnet zugefallene und verschlossene Türen möglichst schonend und beurteilt vor Ort zunächst Schloss und Beschlag. Dazu kommen Schlosswechsel, neue Schließzylinder, die Beseitigung von Einbruchschäden und Einbruchschutz. Für Wohnhäuser und Gewerbe plant und montiert der Betrieb Schließanlagen, bei denen ein Schlüssel mehrere Türen und Zugangsbereiche bedient. Ersatz- und Zusatzschlüssel fertigt er in einem Geschäft an; bei Sicherheitsschlüsseln kann eine Sicherungskarte nötig sein. Neben dem Schlüsseldienst stehen Alarmanlagen und Videoüberwachung im Angebot. Kunden sind Privatpersonen, Hausverwaltungen und Gewerbekunden. Vor Beginn der Arbeiten nennt der Betrieb die nötigen Maßnahmen und die zu erwartenden Kosten. Für Mehrfamilienhäuser, Büroflächen, Gewerbeobjekte und Praxen plant der Betrieb passende Schließlösungen."
+ },
+ {
+  "slug": "metall-baumontage-richter-berlin",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Metall & Baumontage Richter ist ein Metallbaubetrieb in Berlin mit eigener Werkstatt. Die Schlosserei ist auf Treppenbau, Zaunbau und Stahlbau spezialisiert und fertigt zum Beispiel Balkongeländer. Der Betrieb beschreibt sich als Full-Service-Unternehmen mit langjähriger Erfahrung von der Planung bis zur Ausführung. Im Mittelpunkt steht der Metallbau, nicht der Schlüsseldienst. Der Betrieb verbindet Tradition und Erfahrung im Metallbau."
+ },
+ {
+  "slug": "schluesseldienst-karg-berlin",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüsseldienst Karg in Berlin tritt als Schlüsseldienst und Sicherheitsfachgeschäft auf. Zum Angebot gehören Schließanlagenbau und Türnotöffnungen. Darüber hinaus unterstützt der Betrieb bei Bedarf rund um das Thema Tür, Schloss und Schlüsselverlust. Der Betrieb nennt den Dreiklang aus Schlüsseldienst, Sicherheitsfachgeschäft und Schließanlagenbau als sein Tätigkeitsfeld in der Hauptstadt. Das Sicherheitsfachgeschäft ist in Berlin zu Hause.",
+  "trace": {
+   "tueroeffnung": "Türnotöffnung"
+  }
+ },
+ {
+  "slug": "obi-markt-hamburg-altona-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der OBI Markt Hamburg-Altona ist ein Baumarkt mit Abteilungen für Bauen, Wohnen, Technik und Garten sowie mit Bad- und Gartenplaner. Zu den Services gehören Mietgeräte und Werkzeugverleih, Holzzuschnitt, Farbmischservice, Lieferservice, Wertstoffrücknahme und Umtausch. Beraten wird zu Bad, Küche und Garten. Einen Schlüsseldienst gibt es als Service im Markt: Schlüssel werden dort sofort angefertigt und können direkt mitgenommen werden. Der Schlüsseldienst beschränkt sich auf das Anfertigen von Schlüsseln, im Mittelpunkt steht der Baumarkt. Der Markt wendet sich mit Markenprodukten an Heim- und Handwerker und bietet Abholung im Markt sowie Lieferung.",
+  "trace": {
+   "schluessel_nachmachen": "Für dich sofort angefertigt – direkt zum Mitnehmen"
+  }
+ },
+ {
+  "slug": "obi-markt-hamburg-neugraben-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "In Hamburg-Neugraben führt OBI einen Baumarkt mit breitem Sortiment aus Bauen, Wohnen, Technik und Garten. Der Markt bietet Mietgeräte, Miettransporter und Mietanhänger, Holzzuschnitt, Farbmischservice und Lieferservice, dazu Umtausch und Wertstoffrücknahme. Ein Schlüsseldienst gehört zu den Services: Schlüssel werden vor Ort sofort angefertigt und sind direkt zum Mitnehmen. Der Schlüsseldienst beschränkt sich auf das Anfertigen von Schlüsseln; den Schwerpunkt bildet der Bedarf für Heim- und Handwerker, mit Beratung zu Bad, Küche und Garten. Der Markt wendet sich mit Markenprodukten an Heim- und Handwerker und stellt einen Badplaner bereit.",
+  "trace": {
+   "schluessel_nachmachen": "Für dich sofort angefertigt – direkt zum Mitnehmen"
+  }
+ },
+ {
+  "slug": "a-j-schluesseldienst-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "A+J Schlüsseldienst arbeitet in Hamburg und den umliegenden Stadtteilen als Schlüsselnotdienst, der rund um die Uhr an allen Tagen erreichbar ist. Nach eigener Angabe geht der Anruf direkt an den Techniker und nicht an ein Callcenter, und der Betrieb hat über 19 Jahre Berufserfahrung. Er öffnet Türen schonend ohne Beschädigung von Schloss und Rahmen, öffnet Autos und Tresore und wechselt Schlösser und Schließzylinder. Er baut Zusatzschlösser, Panzerriegel und Sicherheitsbeschläge ein, montiert und konfiguriert Schließanlagen und berät zum Einbruchschutz. Der verbindliche Endpreis wird vorab genannt, ohne Anfahrtskosten und ohne Zuschläge für Nacht, Wochenende und Feiertag; bezahlt wird nach der Arbeit. Die Einsatzgebiete reichen über viele Hamburger Stadtteile, von Alsterdorf über Altona, Barmbek und Bergedorf bis Wilhelmsburg, und schließen Orte wie Bargteheide und Wentorf ein. Kunden sollen sich nach eigener Angabe persönlich betreut fühlen, weil sie direkt mit dem erfahrenen Techniker sprechen."
+ },
+ {
+  "slug": "ash-autoschluessel-hamburg-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "ASH Autoschlüssel Hamburg ist ein Ladengeschäft mit Werkstatt für Fahrzeugschlüssel in Hamburg-Barmbek. Der Betrieb programmiert und codiert Autoschlüssel, fertigt Schlüssel nach, löscht oder weist Schlüssel dem Steuergerät neu zu und befasst sich mit der Wegfahrsperre. Auch wenn alle Schlüssel eines Fahrzeugs verloren sind, kommt er mit dem Vor-Ort-Service; die Autoöffnung gehört ebenfalls dazu. Als Notfall gilt dem Betrieb, wenn das Fahrzeug ungünstig steht oder nicht zu Hause steht. Der Einsatzraum reicht bis Hannover, an die Ostsee und nach Sylt. Die fertigen Fahrzeugschlüssel können Kunden sofort mitnehmen. Auf der Preisseite nennt der Betrieb Preise für Autoschlüssel nach Fahrzeugmarke und Modell. Unter den Kunden sind nach eigener Angabe auch Behörden, weshalb komplexe Programmierungen möglich sind. Termine werden vorab abgesprochen. Außerdem repariert der Betrieb Fahrzeugschlüssel."
+ },
+ {
+  "slug": "asd-schluesseldienst-hamburg-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "ASD Schlüsseldienst Hamburg ist ein Schlüsselnotdienst, der nach eigener Angabe bei Tag, Nacht, am Wochenende und an Feiertagen im Einsatz ist. Er öffnet verschlossene und zugefallene Türen, entfernt abgebrochene Schlüssel aus dem Schloss, tauscht Schlosskästen und Gestänge aus und baut Schließzylinder um. Hinzu kommen Autoöffnungen, Tresoröffnungen, das Öffnen von Briefkästen, Garagentoren sowie Motorrad- und Fahrradschlössern. Der Betrieb liefert Schließanlagen und Gleichschließungen, erstellt Nachschlüssel und berät zu Einbruchschutz und Sicherheitstechnik. Zylinder gibt es in fünf Sicherheitsstufen. Der Betrieb nennt einen einheitlichen Einsatzpreis ohne Nacht-, Wochenend- und Feiertagszuschläge. Zu den Kunden zählen nach eigener Angabe Polizeidienststellen, Zoll und Gerichtsvollzieher. Hamburg-weit sind viele Stadtteile als Einsatzgebiete aufgeführt. Zu den weiteren Leistungen zählen ein Tischlernotdienst, und ein Glasnotdienst ist als künftiges Angebot angekündigt. Material kommt gesondert hinzu.",
+  "trace": {
+   "autoschluessel": "Auto-Öffnungen"
+  }
+ },
+ {
+  "slug": "blankeneser-sicherheitsshop-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Blankeneser Sicherheitsshop ist ein mittelständisches Unternehmen mit Ladengeschäft in Hamburg-Blankenese und langjähriger Erfahrung in Einbruchschutz, Schlossnotdienst sowie Schließzylindern und Schlössern. Der Schloss-Notdienst ist rund um die Uhr erreichbar, nach eigener Angabe an 365 Tagen im Jahr. Das Angebot reicht von der Notöffnung bei Aussperrung über Schlosswechsel, Schlüsselwechsel und die Montage von Hochsicherheitsschlössern bis zur Schlüsselkopie. Dazu kommen Schließanlagen, Türsicherheit, Fenstersicherungen, Fenster- und Türbeschläge, Tresore und Geldkassetten. Beraten wird im Laden und bei Bedarf auch zu Hause bei den Kunden, nach eigener Angabe kostenlos und unverbindlich. Das Einsatzgebiet umfasst Altona, Bahrenfeld, Eidelstedt und Groß Flottbek. Zum Programm zählen auch die Schlossreparatur und die Installation von Frischeschlössern, außerdem Rekeying, bei dem alte Schlüssel ungültig werden und das vorhandene Schloss weiter genutzt wird.",
+  "trace": {
+   "tueroeffnung": "Aussperrungen für Notfälle zu Hause"
+  }
+ },
+ {
+  "slug": "alles-klar-schluesseldienst-schluesselnotdienst-hamburg-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Schlüsseldienst von ALLES Klar ist ein inhabergeführter Betrieb in Hamburg, der Türnotöffnungen ohne Beschädigung anbietet. Für eine zugefallene Tür nennt er den Preis vorab. Neben dem Notdienst gehört der Einbau von Einbruchschutz zum Programm: Abus-Panzerriegel, Türsicherungen und Fenstersicherungen, jeweils mit Beratung und fachkundiger Montage. Zur wirksamen Absicherung einer Tür zählt der Betrieb ein stabiles Einsteckschloss, einen hochwertigen Profilzylinder, ein Sicherheitsschließblech und einen Sicherheitsbeschlag. Die Arbeit umfasst Türöffnungen, Reparaturen und die Beratung zur Einbruchsicherheit; nach Einbrüchen übernimmt der Betrieb auch schwere Schäden an Türen und Fenstern. Nach eigener Angabe sind viele einstige Notkunden zu Dauerkunden geworden. Die Einsatzgebiete umfassen unter anderem Altona, Bahrenfeld und Eidelstedt. Der Betrieb gibt an, über alle anfallenden Kosten zu informieren, soweit das möglich ist. Die Beratung zu Schließtechnik ist Teil der Arbeit."
+ },
+ {
+  "slug": "rws-textilpflege-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Im Billstedt-Center betreibt RWS Textilpflege eine Textilreinigung, die Wäscherei, Änderungsschneiderei, Schuhreparatur und Schlüsseldienst unter einem Dach verbindet. Seit 1991 kümmern sich die Fachkräfte um unterschiedliche Textilien, dazu kommen Hemdenservice, Lederreinigung, Bettenreinigung, Teppichwäsche, Kitteldienst und ein Hol- und Bringservice. Der Schlüsseldienst fertigt in kürzester Zeit Schlüssel mit Normalprofil nach, Zweitschlüssel gibt es schnell. Türöffnungen oder Schlosswechsel gehören nicht zu den genannten Leistungen, der Schwerpunkt liegt auf der Textilpflege. Der Betrieb kombiniert die Textilpflege mit einem Abholautomaten für gereinigte Textilien und bietet Sparkarten für Hemden an.",
+  "trace": {
+   "schluessel_nachmachen": "Unser Schlüsseldienst fertigt in kürzester Zeit Schlüssel mit Normalprofil nach"
+  }
+ },
+ {
+  "slug": "eisen-und-haushaltswaren-harms-inh-uwe-kaspereit-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Eisen- und Haushaltswaren Harms ist ein traditionsreiches Fachgeschäft in Hamburg-Hoheluft. Das Sortiment reicht von Werkzeugen, Elektro-, Garten- und Sanitärartikeln bis zu Malerbedarf, dazu kommen Einzelteile wie Schrauben, Dichtungsringe und Porzellankleber aus den vielen Schubladen. Schlüssel macht der Laden nach. Zur Geschichte des Geschäfts gehört, dass Elisabeth Harms bis zur Übernahme 1981 täglich im Laden stand. Heute führt Inhaber Uwe Kaspereit das Haus und berät die Kunden im Laden. Die Schlüsselarbeiten laufen neben dem Verkauf von Eisenwaren, Werkzeug und Haushaltsartikeln in einem Laden mit langer Familiengeschichte, die über mehrere Inhaber reicht.",
+  "trace": {
+   "schluessel_nachmachen": "machen ihre Schlüssel zu fairen Preisen nach"
+  }
+ },
+ {
+  "slug": "yaman-schluesseldienst-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Yaman Schlüsseldienst ist ein Familienunternehmen, das nach eigener Angabe seit 2006 mit zwei Standorten in Hamburg und Norderstedt arbeitet und rund um die Uhr als Schlüsselnotdienst erreichbar ist. Der Betrieb öffnet Türen ohne Schäden, wechselt Türschlösser und Zylinder, auch Zusatzschlösser, und arbeitet mit digitalen Schließzylindern von Simons & Voss. Schlüssel werden im Ladengeschäft in Tonndorf nachgemacht, Autoschlüssel gehören ebenfalls zum Angebot. Das Einsatzgebiet reicht von Wandsbek, Rahlstedt, Farmsen, Bramfeld und Jenfeld bis nach Garstedt und Pinneberg. Der Betrieb versteht sich als Experte statt Vermittler und nennt ausdrücklich keine Anfahrtskosten, einen Preis für alle Türarten und die Rechnungsausstellung vor Ort. Auch Geschäftskunden gehören zur Kundschaft. Auch Büros gehören zu den Einsätzen: Dort wurden sämtliche Schlösser ausgetauscht. Als Familienunternehmen legt der Betrieb Wert auf persönlichen Kontakt zu den Kunden.",
+  "trace": {
+   "elektronische_schliesssysteme": "Einer der wenigen Schlüsseldienste für digitale Schließzylinder (Simons & Voss)",
+   "gewerblich_objektbetreuung": "Unsere Geschäftskunden"
+  }
+ },
+ {
+  "slug": "schloss-und-sicherheitscenter-h-g-bienek-gmbh-telefon-040-77-44-04-schluesseldienst-u-sicherheitsfachgeschaeft-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Das Schloss- und Sicherheitscenter von H.-G. Bienek ist ein Familienunternehmen in Hamburg, das seit über 40 Jahren im Sicherheitsgeschäft arbeitet. Der Schlüsselnotdienst öffnet zugefallene Türen rund um die Uhr. Das Haus fertigt Nachschlüssel aller Art, vom Zackenschlüssel über den Bohrmuldenschlüssel bis zum Autoschlüssel verschiedener Fabrikate, oft in wenigen Minuten. Es entwickelt Schließanlagen mit eigenem Schließplan als General-, Hauptschlüssel- oder Zentralanlage, von mechanisch bis elektronisch, und berät zum Einbruchschutz mit Nachrüstung an Türen und Fenstern. Außerdem im Programm: Videoüberwachung, Alarmtechnik, Video-Türsprechsysteme, Gefahrenmelder, Elektronik- und Funkzylinder sowie Tresormodelle. Antike Tür- und Möbelschlösser werden repariert und gewartet; Schilder und Stempel gehören dazu. Zur Kundschaft zählen Mittelstand, Großunternehmen und Hausverwaltungen sowie Privatbesitzer. Dabei arbeitet das Haus ausschließlich mit namhaften Herstellern zusammen, von der Beratung bis zur Montage aus einer Hand. Das Lager führt diverse antike Ersatzteile."
+ },
+ {
+  "slug": "schluessel-reese-gmbh-schliessanlagen-einbruchschutz-hamburg-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüssel-Reese ist ein Traditionsbetrieb, der nach eigener Angabe seit 1921 als Schlüsseldienst in Hamburg und Lübeck arbeitet. Das Programm umfasst mechanische Schließzylinder von KESO, CES und Winkhaus mit Anbohrschutz, elektronische Schließzylinder sowie mechanische und elektronische Schließanlagen und Einzelschließungen. Schlüssel gibt es vom Ersatzschlüssel bis zum Oldtimerschlüssel, dazu Zylinder-, Tresor-, Auto-, Motorrad-, Möbel- und Truhenschlüssel. Kurzfristige Türöffnungen, Schlossreparaturen, Briefkästen, Tresore, Gravuren und Zusatzsicherungen wie Panzerriegel, Stangenschloss, Fenstersicherung und Kastenzusatzschloss ergänzen das Angebot. Beratung zur Einbruchsicherung für Haus und Wohnung gehört ebenfalls dazu. Bei Fahrzeugschlüsseln sieht sich der Betrieb als Experte, und er steht nach eigener Angabe deutschlandweit zur Verfügung. Der Betrieb stellt Serviceleistungen rund um Schlüssel, Schlösser und Sicherheit zusammen, mit Standorten in Hamburg und Lübeck, und führt seine Produkte nach eigener Angabe in höchster Qualität."
+ },
+ {
+  "slug": "torsten-groenwoldt-shoemaking-locksmiths-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Torsten Grönwoldt führt seit 1989 in der Sternschanze eine Schuhmacherei, die zugleich Schlüsseldienst und Schlossnotdienst ist. Er repariert Schuhe, Taschen und Lederartikel, fertigt Gürtel und Schlüsselbänder an und schärft Messer und Schneidwerkzeuge. Im Schlüsseldienst fertigt er Schlüssel an, baut Sicherheitsschlösser, Panzerriegel und Schließanlagen ein und übernimmt Türöffnungen bei zugeschlagener Tür, defektem Schloss oder abgebrochenem Schlüssel. Er arbeitet mit hochwertigen Materialien und legt Wert auf handwerkliche Qualitätsstandards. Zu seinen Kunden gehören Privat- und Geschäftsleute sowie Hausverwaltungen, bei denen er sich über Jahrzehnte einen Ruf erworben hat. Im Ladenlokal gibt es außerdem Schuhpflege, Gürtelschnallen und Zubehör. Messer und höherwertige Schneidwerkzeuge werden professionell geschliffen, beraten wird im Ladenlokal. Der Betrieb ist im Viertel verankert und nennt die Sternschanze sein Einsatzgebiet. Zubehör und Accessoires ergänzen das Sortiment.",
+  "trace": {
+   "schlossaustausch": "den Einbau von Sicherheitsschlössern oder Panzerriegeln"
+  }
+ },
+ {
+  "slug": "key-center-barmbek-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Das Key center Barmbek, in Hamburg als Schlüssel-Zentrum-Barmbek geführt, ist ein Schlüsseldienst, der sich selbst seit 20 Jahren als zuverlässigen Partner bezeichnet. Zum Umfeld gehören Einbruchmeldetechnik, Gravuren und ein Geschäft für Tresore. Das Angebot umfasst eine breite Auswahl von Sicherheitsprodukten verschiedener Hersteller, die von Fachkräften des Betriebs installiert werden. Der Betrieb stellt das Gefühl von Sicherheit zu jeder Tageszeit in den Vordergrund und verspricht keine Kompromisse."
+ },
+ {
+  "slug": "mister-minit-mercado-ottensen-hamburg-altona-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Mister Minit Mercado Ottensen ist eine Filiale in Hamburg-Altona, die Schuhreparatur, Schuhpflege und Orthopädieschuhmacherei mit Schlüsselservice und Gravur verbindet. Hier werden Schlüssel nachgemacht und Gravuren angefertigt. Dazu kommen Uhrenservice und Smartphone-Reparatur; Stickereien auf Handtüchern oder Baseballkappen sind ebenfalls möglich. Die Filiale gehört zur Kette Mister Minit, die nach eigener Angabe seit 1957 Qualitätsservice bietet, und hat feste Öffnungszeiten. Es werden gebrochene Absätze repariert, und die Filiale gibt ihre Erfahrung aus vielen Jahren als Grundlage ihres Angebots an. Auch Stempel und Druckarbeiten finden sich unter den Leistungen."
+ },
+ {
+  "slug": "pape-das-schloss-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Pape, Das Schloss, ist ein Familienunternehmen in Hamburg-Bramfeld, das am 7. August 1970 gegründet wurde, zunächst als Schlosserei und Akustikbau. Auf Wunsch vieler Kunden kam der Schlüsseldienst hinzu, das erste Ladengeschäft entstand an der Bramfelder Chaussee. Heute reicht das Angebot von Nachschlüsseln, die an CNC-Maschinen auch nach Code gefertigt werden, über Briefkastenanlagen bis zu Einbruchschutz, Sicherungstechnik und Bau- und Reparaturschlosserei. Der Betrieb plant, liefert und verwaltet mechanische, mechatronische und elektronische Schließanlagen, bietet Sicherheitsbeschläge, Sicherheitszylinder, Einsteckschlösser, Türsicherungen und Fenstersicherungen an und bestellt bei Vorlage einer Sicherungskarte Schlüssel namhafter Hersteller. Die Zusatzelemente erschweren das Aufhebeln von Türen und Fenstern. Aufträge führt er im gesamten norddeutschen Raum aus. Mechatronische Zylinder lassen sich bei Schlüsselverlust neu programmieren, so dass ein schnelles Reagieren möglich ist."
+ },
+ {
+  "slug": "rolf-kappler-security-gmbh-co-kg-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Rolf Kappler Einbruchschutz sitzt in Hamburg-Niendorf und arbeitet als familiengeführtes Sicherheitsfachgeschäft. Das Haus berät zum Einbruchschutz bei den Kunden zu Hause und bietet Tür- und Fenstersicherungen wie Sicherheitsbeschläge mit Kernziehschutz, Mehrfachverriegelungen, Querriegel, Stangen- und Bandseitensicherungen, auch für Altbautüren. Zu den Marken zählen Keso, Ikon und Kaba Gege. Schließanlagen gibt es mechanisch, mechatronisch und digital, vom Einfamilienhaus über Wohnanlagen bis zu standortübergreifenden Firmengebäuden. Alarmanlagen, Stempel, Schilder und Gravuren ergänzen das Programm; Reparaturen führt das Haus selbst aus. Für sämtliche Einbruchsicherungen samt Montage und Anfahrt im Großraum Hamburg wird der Preis verbindlich genannt. Das Ladengeschäft ist werktags geöffnet. Beratung, Montage und Reparatur kommen aus einer Hand, und Einbruchschutz wird in privaten wie gewerblichen Bereichen eingebaut, von der Wohnungs- bis zur Hausabsicherung. Die Beratung zu Hause ist nach eigener Angabe kostenlos und unverbindlich.",
+  "trace": {
+   "elektronische_schliesssysteme": "Schließanlagen (mechanisch/mechatronisch/digital)"
+  }
+ },
+ {
+  "slug": "multi-express-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Multi-Express in Hamburg ist ein Schuhreparaturbetrieb, der außerdem Schlüssel nachmacht, Gravuren anfertigt und Schlösser führt. Der Betrieb ist zusätzlich als Schlüsseldienst eingeordnet, so dass sich Schuhwerkstatt, Schlüsselservice und Gravurarbeiten an einer Adresse finden. Der Schwerpunkt liegt auf handwerklichen Kleinleistungen für den täglichen Bedarf. Der Betrieb hat feste Öffnungszeiten und verbindet mehrere kleine Handwerksleistungen unter einem Dach."
+ },
+ {
+  "slug": "guenter-hanisch-ohg-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die Günter Hanisch OHG ist ein Familienbetrieb in zweiter Generation in einem alteingesessenen Geschäft in Hamburg. Der Betrieb handelt mit Haushaltswaren und Eisenwaren, führt Gartengeräte, Küchenutensilien und Profilzylinder und nennt außerdem Schlüssel und Schlüsseldienst als Teil seines Angebots. Das Geschäft ist ein klassischer Eisenwarenladen, der Alltagsbedarf für Haushalt und Garten abdeckt und dabei Zylinder und Schlüssel mit im Sortiment hat. Der Schwerpunkt liegt auf Haushalt und Handwerk, der Schlüsseldienst ist eines von mehreren Angebotsfeldern. Profilzylinder und Schlüssel stehen im Sortiment neben Haushaltswaren, Eisenwaren und Küchenutensilien, ergänzt um den Schlüsseldienst."
+ },
+ {
+  "slug": "rws-textilpflege-hamburg-21079",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Seit 1988 reinigt RWS Textilpflege in Hamburg Textilien und verbindet Reinigung, Wäscherei und Änderungsschneiderei mit Schuhreparatur und Schlüsseldienst. Der Schlüsseldienst fertigt Ersatzschlüssel schnell, präzise und direkt vor Ort an. Zum Angebot gehören außerdem Gravieren, Vorhänge-Service, Handtücher-Service, Lederreinigung, Teppichreinigung und Schuhreinigung an mehreren Standorten sowie Hochzeitskleider. Die Reinigung arbeitet mit einer intensiven Spezialbehandlung aus Vorbehandlung, Einweichen, Waschen und Trocknen. Hinzu kommen Lederreparaturen, Änderungen als Schneiderarbeit und eine Schuhreinigung für Leder und Stoff. Die Textilpflege arbeitet mit dem neusten Waschmittel. Der Betrieb ist in Hamburg an mehreren Standorten vertreten."
+ },
+ {
+  "slug": "bernd-s-heel-mending-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Bernd's Heel Mending ist eine Schuhreparaturwerkstatt in Hamburg. Neben der Schuhreparatur wird der Betrieb auch als Schlüsseldienst geführt, so dass Schuhe und Schlüssel an einer Adresse bearbeitet werden. Der Name verweist auf das Kerngeschäft, das Flicken und Erneuern von Absätzen. Der Betrieb gehört damit zu den kleinen Handwerksbetrieben mit gemischtem Angebot im Stadtgebiet."
+ },
+ {
+  "slug": "rws-textilpflege-hamburg-22609",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "RWS Textilpflege in Hamburg-Berne ist eine Textilreinigung, die unter dem Namen RWS-Berne auftritt. Das Angebot gliedert sich in Dienstleistungen und Angebote für die Textilpflege, daneben ist der Betrieb auch als Schlüsseldienst und Schuhreparatur eingeordnet. Anfragen sind kostenlos möglich. Der Betrieb stellt seine Leistungen, Informationen über das Unternehmen und Kundenmeinungen vor."
+ },
+ {
+  "slug": "schuh-schluesseldienst-service-hamburg-langenhorn-fee-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Schuh & Schlüsseldienst-Service Feè in Hamburg-Langenhorn kombiniert Schlüsseldienst, Schuhreparatur, Änderungsschneiderei und Gravur in einem Familienunternehmen. Der Schlüsseldienst ist nach eigener Angabe rund um die Uhr verfügbar, öffnet Türen und fertigt Schlüsselkopien an, auch von Autoschlüsseln; das Angebot reicht von der Schlüsselkopie bis zum Einbruchschutz. Daneben stehen Stempel und Siegel, Passfotos, Lederreparaturen sowie Uhren- und Batterieservice. Das Bereitschaftsgebiet umfasst Hamburg und Umgebung. Das Team arbeitet nach eigener Angabe mit Sorgfalt und Sauberkeit, sei es bei einer Türöffnung oder bei der Restaurierung von Lieblingsschuhen. Kunden können im Ladengeschäft in Langenhorn vorbeikommen. Dazu gehören Schuhreparaturen, die der Betrieb als lohnend beschreibt, weil sie Lieblingsschuhe länger erhalten. Jedes Teammitglied arbeitet mit Präzision, von der Schuhreparatur bis zur Sicherheitstechnik. Der Betrieb sieht sich als Experten für Sicherheit und Reparaturen."
+ },
+ {
+  "slug": "sicherheitszentrale-klein-borstel-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Die Sicherheitszentrale Klein Borstel in Hamburg bietet Schlüsselnotdienst, Schließanlagen und Sicherheitstechnik für Privathaushalte, Gewerbe und Hausverwaltungen. Das Team ist nach eigener Angabe rund um die Uhr erreichbar, auch am Wochenende und an Feiertagen, und häufig in Poppenbüttel, Sasel und Ohlsdorf im Einsatz. Es öffnet Türen, wechselt Schlösser und Zylinder, repariert Mehrfachverriegelungen und montiert Sicherheitsbeschläge. Bei Schließanlagen reicht die Leistung von der Planung mit Schließplan über Lieferung und Montage bis zur Übergabe der Sicherungskarte; Winkhaus-Technik mit gesperrten Schlüsselprofilen ist im Programm. Zugang per Handy, Funkschlüssel, Tastatur oder Fingerabdruck ist ebenfalls möglich. Außerdem gehören Autoschlüssel, Balkone, Geländer, Tore und Garagen zum Angebot. Das Ladengeschäft hat feste Öffnungszeiten. Zur Auswahl stehen Zylinder für Einzelschließungen, Schließanlagen mit zeitlich begrenzten Zugangsberechtigungen für mehrere Personen und eine Aktion zum Wechsel von Türschlössern."
+ }
+]

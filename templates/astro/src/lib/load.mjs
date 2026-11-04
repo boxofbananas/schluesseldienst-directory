@@ -365,7 +365,7 @@ export function loadDirectory() {
       name: r.name, slug, city, citySlug, regionName: region.name, regionSlug: region.slug,
       regionCode: region.code, stateCode: region.code, postalCode: r.postal_code,
       county: r.county, address: r.address, street: r.street, phone: r.phone, website: r.website,
-      lat: num(r.latitude), lng: num(r.longitude), rating, reviews, reviewsTags: r.reviews_tags,
+      lat: num(r.latitude), lng: num(r.longitude), population: int(r.population), geoPrecision: (r.geo_precision || '').trim(), rating, reviews, reviewsTags: r.reviews_tags,
       socials: (r.socials || '').split('|').map((s) => s.trim()).filter(Boolean).map((s) => { const i = s.indexOf('='); return i > 0 ? { network: s.slice(0, i), url: s.slice(i + 1) } : null; }).filter(Boolean),
       type: r.type, subtypes: r.subtypes, description, hours, verifiedOnGoogle: truthy(r.verified),
       mapLink: r.location_link || '', areaService: truthy(r.area_service), placeId: r.place_id,
@@ -394,11 +394,16 @@ export function loadDirectory() {
   // Stadtseite seines Bundeslandes entfernt liegt, wird nicht gefaltet. Er bekommt eine eigene
   // Seite, indexiert und in der Sitemap, und steht auf der Bundesland-Seite unter "Kleinere Orte".
   const foldMaxKm = Number(site.foldMaxKm) || Infinity;
+  // Mittelstadt-Regel (site.cityMinPopulation): eine Stadt ab dieser Einwohnerzahl bekommt eine
+  // eigene Seite, auch mit nur einem Eintrag, statt auf eine kleinere Nachbarstadt gefaltet zu
+  // werden. Gilt für alle gleich, auch owned. 0/leer schaltet die Regel ab.
+  const minPop = Number(site.cityMinPopulation) || Infinity;
   const remote = [];
   for (const f of folded) {
+    const pop = Math.max(0, ...f.listings.map((l) => Number(l.population) || 0));
     let best = null, bd = Infinity;
     for (const p of pages) { if (p.regionSlug !== f.regionSlug) continue; const d = haversine(f, p); if (d < bd) { bd = d; best = p; } }
-    if (!best || bd > foldMaxKm) { remote.push({ ...f, underFloor: true }); continue; }
+    if (!best || bd > foldMaxKm || pop >= minPop) { remote.push({ ...f, underFloor: true }); continue; }
     for (const l of f.listings) {
       l.foldedFrom = l.city; l.citySlug = best.slug; l.city = best.name;
       l.path = `/firma/${best.regionSlug}/${best.slug}/${l.slug}/`;
@@ -492,6 +497,10 @@ export function loadDirectory() {
   const noindexPaths = new Set();
   for (const l of listings) if (l.thin && !l.claimed && !l.optimized) noindexPaths.add(l.path);
   for (const l of listings) if (l.geprueft) noindexPaths.add(`/auszeichnung/${l.slug}/`);
+  // Stadtseiten mit nur einem Eintrag (eigenständige Orte jenseits foldMaxKm und Mittelstädte mit
+  // einem Eintrag) starten außerhalb der Sitemap und werden nach der 30-Tage-Prüfung in Tranchen
+  // freigeschaltet (Betreiber-Regel, output/<slug>/06-launch.md). Sie bleiben gebaut und verlinkt.
+  for (const c of cities) if (c.count <= 1) noindexPaths.add(c.path);
   for (const p of ['/eintrag-beanspruchen/', '/premium/', '/datenschutz/', '/agb/', '/impressum/',
     '/kontakt/', '/suche/', '/verzeichnis/', '/festpreis-garantie/antrag/', '/404/']) noindexPaths.add(p);
 

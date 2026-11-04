@@ -1,0 +1,541 @@
+[
+ {
+  "slug": "schluesselfix-koeln",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüsselfix vermittelt in Köln und in vielen weiteren Städten Schlüsseldienste und nennt Regionen von Nordrhein-Westfalen über Bayern, Baden-Württemberg und Berlin bis Hamburg, Niedersachsen und Sachsen. Die Hilfe ist rund um die Uhr erreichbar, auch an Wochenenden und Feiertagen. Zum Angebot zählen die schonende Türöffnung, bei der Tür und Schloss intakt bleiben, der Schlosswechsel mit Zylindern und Sicherheitstechnik sowie die Öffnung von Tresoren und Safes. Die vermittelten Betriebe sind in der Regel innerhalb von 20 bis 30 Minuten vor Ort, und die Anfahrt ist im vereinbarten Preis enthalten. Der Preis wird vor der Beauftragung genannt, versteckte Gebühren schließt der Vermittler nach eigener Angabe aus. Entsteht ein Schaden, dokumentiert er ihn für die Versicherung und stellt eine detaillierte Rechnung aus. Eine Sicherheitsberatung gibt es ohne Aufpreis."
+ },
+ {
+  "slug": "schluessel-prinz-m-drescher-koeln",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüssel Prinz in Köln, als KSP Kölner Schlüsseldienst Prinz uG geführt, beschreibt sich als junges, engagiertes Unternehmen, das im Interesse seiner Kunden handelt und auf den Kundenservice stolz ist. Das Arbeitsfeld umfasst Reparaturen von Fenstern, Türen und Toren, die Absicherung von Haus-, Gewerbe- und Wohnräumen und die Beseitigung von Einbruchschäden. Hinzu kommt die Montage von Briefkastenanlagen, Fenstergittern und Wohnungstüren. Der Betrieb stützt sich nach eigener Angabe auf langjährige Erfahrung und nimmt sich auch persönlicher Anliegen an. Privat- wie Gewerbeobjekte gehören damit zum Einsatzfeld.",
+  "trace": {
+   "einbruchschutz": "Absicherung von Haus-, Gewerbe-, und Wohnräumen bis zur Beseitigung von Einbruchschäden"
+  }
+ },
+ {
+  "slug": "schluesseldienst-dietrich-koeln",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüsseldienst Dietrich arbeitet in Köln und übernimmt Türöffnungen sowie den Wechsel von Schloss und Riegel. Daneben berät der Betrieb zur Sicherheit rund um die Tür. Nach eigener Angabe ist er schnell vor Ort und arbeitet mit Festpreisen. Der Schwerpunkt liegt damit auf den klassischen Notfällen eines Schlüsseldienstes, bei denen eine Tür nicht mehr aufgeht oder ein Schloss ersetzt werden muss. Weitere Leistungen oder besondere Spezialgebiete sind nicht beschrieben.",
+  "trace": {
+   "schlossaustausch": "Schloss und Riegel Wechsel"
+  }
+ },
+ {
+  "slug": "pkw-schluessel-nrw-koeln",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "PKW Schlüssel NRW ist ein Kölner Betrieb für Fahrzeugelektronik mit dem Schwerpunkt Autoschlüssel. Er fertigt und programmiert Fahrzeugschlüssel, rüstet sie nach und arbeitet mit Smart- und Transponderschlüsseln. Dazu kommen die Reparatur und Kalibrierung von Tachoeinheiten, die Diagnose mit dem Auslesen von Fehlercodes, Sensor- und Steuergeräteanalysen und Software-Updates. Zur Codierung zählen Fahrzeugcodierungen, Wegfahrsperren und Freischaltungen. Außerdem übernimmt die Werkstatt Kfz-Elektrik, Scheibenservice mit Scheinwerferwechsel, Chiptuning sowie An- und Verkauf von Gebrauchtwagen. Geöffnet ist montags bis freitags tagsüber, samstags nach Terminabsprache. Nach eigener Angabe arbeitet der Betrieb mit Qualitätsmarken und modernen Geräten, um sichere und langlebige Lösungen zu bieten. Er dokumentiert Originalkilometerstände. Der Betrieb führt nach eigener Angabe nur Qualitätsmarken. Außerdem gehören Alarmanlagen und Ortungssysteme zur Elektronik, um die sich die Werkstatt kümmert.",
+  "trace": {
+   "schluessel_nachmachen": "PKW Schlüssel: Anfertigung, Programmierung und Nachrüstung"
+  }
+ },
+ {
+  "slug": "aga-moderne-bauelemente-fenster-und-tueren-in-koeln-leverkusen-bonn-koeln",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "AGA Moderne Bauelemente betreibt in Köln ein Fenster- und Türenstudio mit Beratung und Verkauf vor Ort. Im Sortiment stehen Haustüren aus Aluminium und Kunststoff, Fenster, Rollläden, Innentüren, Vordächer, Terrassenüberdachungen, Briefkästen und Treppen. Verkauft werden nach eigener Angabe nur Markenelemente aus deutscher Fertigung. Ein Showroom und ein Haustürenkonfigurator gehören zum Auftritt. Das Einzugsgebiet reicht von Köln über Bergisch Gladbach bis nach Leverkusen und Bonn."
+ },
+ {
+  "slug": "tuer-fix-schluesseldienst-koeln",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Tür Fix Schlüsseldienst in Köln öffnet Türen und fertigt Schlüsselduplikate. Der Betrieb arbeitet für Privat- und Geschäftskunden und ist als Schlüsselnotdienst rund um die Uhr an sieben Tagen in der Woche erreichbar. Er beschreibt sich als lokaler Schlüsseldienst mit lösungsorientierter Arbeitsweise, der auf Transparenz und Seriosität setzt und auch in stressigen Situationen schnell zur Stelle sein will.",
+  "trace": {
+   "schluessel_nachmachen": "Schlüsselduplikationen",
+   "gewerblich_objektbetreuung": "Privat- und Geschäftskunden"
+  }
+ },
+ {
+  "slug": "adac-center-reisebuero-duesseldorf",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Das ADAC Center und das ADAC Reisebüro in Düsseldorf arbeiten unter einem Dach und decken die Themen Reisen, Mobilität und Sicherheit ab. Vor Ort gibt es Kfz-Zubehör wie Vignetten und Verbandskästen, Reiseliteratur und Geschenkgutscheine. Dazu kommen Versicherungen, der ADAC Autokredit, die Kfz-Zulassung sowie Auskünfte zur Mitgliedschaft und die Installation der digitalen Mitgliedskarte, auch telefonisch. Angeboten werden außerdem Fahrzeugchecks wie die Prüfung von Bremswirkung und Stoßdämpferwirkung beim PKW, der Urlaubs-Check, ein Sicherheits-Check und die Wertermittlung für Gebrauchträder, dazu Leistungen für Motorrad, Wohnmobil und Oldtimer. Termine lassen sich online buchen. Der Betrieb verweist zudem auf einen ADAC Schlüsselnotdienst, der auch Nichtmitgliedern offensteht. Hinzu kommen ein Ticketshop, ein Online-Shop, eine Vorteilswelt für Mitglieder und Prämienaktionen. Der Betrieb weist außerdem auf die ADAC Radservice-Stationen in Nordrhein-Westfalen hin, die rund um die Uhr und kostenfrei für Selbstreparaturen an Fahrrädern, Kinderwagen und Ähnlichem zugänglich sind."
+ },
+ {
+  "slug": "autoschluessel24-schuh-und-schluesseldienst-modern-duesseldorf",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Autoschluessel24 ist ein Schuh- und Schlüsseldienst in Düsseldorf, der seit 1983 am selben Standort besteht. Der Schwerpunkt liegt auf Autoschlüsseln: Nachmachen, auch wenn der Schlüssel verloren ging, Codieren und Programmieren, Anlernen von Fernbedienungen und Batteriewechsel. Hinzu kommen Motorradschlüssel sowie die Reparatur von Zündschloss und Lenkradschloss. Daneben bietet der Betrieb gewöhnliche Türschlüssel und Türschlösser an, ebenso Reparaturen und das Anfertigen neuer Schlüssel. Der Einsatz vor Ort ist in Düsseldorf, Duisburg, Essen, Hilden, Köln, Leverkusen, Neuss und Solingen möglich, und für viele Fahrzeugmodelle lässt sich die passende Lösung finden. Nach eigener Angabe zeichnet sich der Betrieb durch zuverlässige Arbeit und freundlichen Service aus. Das Angebot reicht von der einfachen Reparatur bis zum Anfertigen neuer Schlüssel, vom Haustürschlüssel bis zum Fahrzeugschlüssel samt Fernbedienung."
+ },
+ {
+  "slug": "schluesseldienst-rols-duesseldorf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Schlüsseldienst Rols arbeitet in Düsseldorf und Umgebung als Schlüssel- und Schlossnotdienst. Er öffnet Haus- und Wohnungstüren schadenfrei, tauscht Schlösser und Zylinder aus, repariert Schlösser und berät zu moderner Sicherheitstechnik. Für den Einbruchschutz montiert der Betrieb unter anderem Querriegel als Ergänzung zur Sicherheitstür. Typische Fälle sind die zugefallene Tür, der abgebrochene Schlüssel oder das defekte Schloss. Erreichbar ist er rund um die Uhr, auch an Sonn- und Feiertagen, und legt Wert auf eine kurze Reaktionszeit mit Anfahrtszeiten von meist 10 bis 30 Minuten. Der Betrieb arbeitet mit Festpreisen, die auch an Sonn- und Feiertagen gelten, und führt eine eigene Preisliste. Als Leistungen hebt der Betrieb Türöffnung für Haus- und Wohnungstüren, Schlosswechsel, Zylindertausch, Schlossreparatur sowie Montage von Einbruchschutz hervor. Eigene Bereiche behandeln den Schlüsselnotdienst und die Sicherheitstechnik."
+ },
+ {
+  "slug": "schluesseldienst-de-angelis-duesseldorf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Schlüsseldienst De Angelis sitzt in Düsseldorf-Bilk und blickt nach eigener Angabe auf über 30 Jahre Erfahrung zurück. Er öffnet Türen, fertigt Schlüssel an und macht Autoschlüssel nach. Ein Schlüsselnotdienst steht 24 Stunden täglich bereit und soll schnelle Hilfe in der Nähe liefern. Der Einsatz erfolgt in Bilk ebenso wie in anderen Stadtteilen. Eine kostenlose Erstberatung wird angeboten. Der Betrieb stellt sich als kompetenter, schneller Anbieter für Schlüsseldienste und Schlüsselnotfälle in der Landeshauptstadt dar. Das Angebot reicht vom Notfall an der Haustür über den Ersatzschlüssel bis zum Nachmachen von Fahrzeugschlüsseln. Als Schlüsseldienst für Düsseldorf setzt der Betrieb auf kompetente Beratung und schnellen Service und ist in der Umgebung bekannt. Der Schwerpunkt liegt auf Schlüsseldiensten und dem 24-Stunden-Schlüsselnotdienst. Der Betrieb nennt Türöffnungen, Schlüsselanfertigung und das Nachmachen von Autoschlüsseln als seine Leistungen."
+ },
+ {
+  "slug": "steinrueck-gmbh-co-kg-duesseldorf",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Steinrück GmbH & Co. KG versteht sich als Problemlöser mit Dienstleistungen und Produkten aus der Welt der Bau- und Möbelbeschläge. Der Betrieb hat Standorte in Düsseldorf und Wuppertal. Seine Kategorie ist der Baustoffhandel, daneben führt er Eisenwaren, Sicherheitsausrüstung und Werkzeuge im Großhandel. Ein Schlüsseldienst im engeren Sinn ist aus diesen Angaben nicht erkennbar."
+ },
+ {
+  "slug": "bolt-schluesseldienst-duesseldorf-duesseldorf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "BOLT Schlüsseldienst Düsseldorf öffnet Haus- und Wohnungstüren, Garagentore, Autotüren, Briefkästen und Tresore und ist dafür 24 Stunden am Tag an 365 Tagen im Jahr erreichbar, auch an Sonn- und Feiertagen. Die Anfahrt dauert meist 10 bis 30 Minuten. Für einfache Türöffnungen nennt der Betrieb Festpreise. Zum Einbruchschutz gehören Beratung und Einbau von Schließanlagen und Zutrittskontrollen, bei denen festgelegt wird, wer wann und wo Zutritt erhält. Neue Schlösser und Ersatzbauteile stammen von namhaften Herstellern, und vor Ort wird erklärt, welche Schritte an der Tür vorgenommen werden. Weitere Einsatzorte liegen in Essen, Mülheim an der Ruhr und Moers. Nach eigener Angabe berät der Betrieb auch zum Einbruchschutz und weist darauf hin, dass sich professionelle Sicherung von Haus und Wohnung lohnt. Als regionaler Experte für Sicherheit und Türöffnungen arbeitet der Betrieb mit erfahrenen Monteuren."
+ },
+ {
+  "slug": "schluesseldienst-diamant-duesseldorf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Der Schlüsseldienst Diamant ist in Düsseldorf ortsansässig und bedient Privat- und Gewerbekunden in Düsseldorf, Ratingen, Neuss, Velbert und Hilden. Der Notdienst läuft rund um die Uhr, auch außerhalb der üblichen Geschäftszeiten, sonn- und feiertags. Der Betrieb öffnet zugefallene Türen, tauscht Schlösser und Türzylinder aus und montiert zusätzliche Schlösser wie Panzerriegelschlösser für den mechanischen Grundschutz. Eigene Seiten widmet er dem Einbruchschutz, der Sicherheitstechnik und der Tresoröffnung. Er arbeitet mit Festpreisen und macht nach einer Situationsbeschreibung direkt ein Angebot. Die Preise setzen sich aus Aufwand, Anfahrtspauschale und Tageszeit zusammen. Nach eigener Angabe ist der Betrieb schnell erreichbar und arbeitet transparent und sorgfältig. Er nennt Beratung, Qualität und Effizienz als Maßstäbe und hilft auch bei Schlüsseln, die im Schloss stecken geblieben sind. Der Betrieb hebt hervor, dass nicht alle Schlüsselnotdienste in Düsseldorf einen 24-Stunden-Service bieten, er selbst aber schon."
+ },
+ {
+  "slug": "schluesseldienst-albert-duesseldorf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüsseldienst Albert ist ein Düsseldorfer Betrieb und Kooperationspartner des ADAC. Der Notdienst arbeitet 24 Stunden am Tag, sieben Tage die Woche, auch an Wochenenden und Feiertagen. Der Betrieb öffnet Haus- und Wohnungstüren möglichst ohne Beschädigung, wechselt Schlösser und Zylinder, öffnet Garagen und Autos und bietet Einbruchschutz mit Sicherheitsbeschlägen, Alarmanlagen und Beratung. Ziel ist, schon vor der Anfahrt nach einer kurzen Schilderung einen verbindlichen Festpreis zu nennen; werden vor Ort zusätzliche Arbeiten nötig, informiert der Monteur vorher. Eigene Seiten gibt es für die Stadtteile Oberbilk, Derendorf, Oberkassel, Gerresheim, Altstadt und Bilk sowie für Neuss, Meerbusch und Ratingen. Nach eigener Angabe wird der Einsatzort schnell erreicht, und die Experten arbeiten mit modernen Methoden, um Schäden zu vermeiden. Auch bei Einbruchschäden reagiert der Betrieb nach eigener Angabe schnell."
+ },
+ {
+  "slug": "duofix-schluesseldienst-duesseldorf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "DuoFix Schlüsseldienst ist ein Düsseldorfer Betrieb mit Ladenlokal in Derendorf, der nach eigener Angabe seit 2020 Privatkunden und Unternehmen hilft. Das Team bringt über 15 Jahre Berufserfahrung im Schlüsseldienst und in der Sicherheitstechnik mit. Der Notdienst ist rund um die Uhr erreichbar, auch nachts, an Feiertagen und am Wochenende, mit Anfahrten von meist 15 bis 30 Minuten. Zugefallene Türen werden mit schonenden Techniken möglichst ohne Schäden geöffnet, ebenso Autos und Tresore. Weitere Leistungen sind Zylindertausch, Schlüsselkopien und Ersatzschlüssel, der Einbau von Schließanlagen, Alarmanlagen und Panzerriegeln sowie Beratung zum Einbruchschutz. Der Preis für die Türöffnung wird inklusive Anfahrt ohne versteckte Kosten genannt. Einsatzgebiete sind Düsseldorf, Ratingen, Neuss, Meerbusch, Hilden, Kaarst, Langenfeld, Mettmann und Erkrath. Nach eigener Angabe wird erst gezahlt, wenn die Tür geöffnet oder der Auftrag abgeschlossen ist. Eigene Seiten widmen sich Autoöffnung, Einbruchschutz, Ersatzschlüsseln, Schließanlagen, Schlössern und Zylindern.",
+  "trace": {
+   "gewerblich_objektbetreuung": "helfen wir Privatkunden und Unternehmen"
+  }
+ },
+ {
+  "slug": "schloss-ambulanz-duesseldorf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die Schloss-Ambulanz ist ein Schuh- und Schlüsseldienst für Düsseldorf und Umgebung. Ein Team von über zehn Monteuren öffnet Türen in der Regel ohne Schäden, an 24 Stunden täglich und 365 Tagen im Jahr, auch nachts und an Feiertagen. Der Betrieb blickt auf über zehn Jahre Erfahrung zurück und bildet sich nach eigener Angabe jährlich weiter. Er kopiert Schlüssel jeder Art, fertigt Ersatzschlüssel an, repariert und installiert Schlösser und öffnet Autotüren. Die Einsatzzeit liegt bei 10 bis 30 Minuten, und bei der Kontaktaufnahme nennt der Betrieb einen groben Preis, ehe ein Festpreis vereinbart wird. Eigene Seiten gibt es für Stadtteile wie Altstadt, Benrath, Bilk, Derendorf, Eller und Kaiserswerth. Nach eigener Angabe bietet der Betrieb auch Schuhreparaturen an und empfängt Kunden im Laden. Die Preise werden transparent kommuniziert, und die Öffnung der Tür erfolgt in der Regel schadensfrei.",
+  "trace": {
+   "schlossaustausch": "aus Sicherheitsgründen ersetzen möchten"
+  }
+ },
+ {
+  "slug": "schluesseldienst-philip-duesseldorf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüsseldienst Philip ist ein mobiler Schlüsseldienst in Düsseldorf und Umgebung, der als Notdienst rund um die Uhr an sieben Tagen und 365 Tagen im Jahr arbeitet, auch sonn- und feiertags. Im Mittelpunkt steht die Notöffnung zugefallener Türen, zu der der Betrieb meist innerhalb von 20 bis 30 Minuten vor Ort ist. Die Preise für die Türöffnung nennt er nach Tageszeit gestaffelt und im Voraus, ein Zylindertausch mit neuem Zylinder der Marken ABUS oder BKS ist als Leistung aufgeführt. Schlüsselkopien aller gängigen Marken werden angefertigt, ab zwei Schlüsseln mit Hol- und Bringservice. Innerhalb von Düsseldorf entfallen die Anfahrtskosten, außerhalb kommt eine Anfahrt hinzu. Erfahrungsberichte von Kunden sind auf einer eigenen Seite gesammelt. Der Betrieb legt Wert auf Transparenz vor Arbeitsbeginn und beschreibt sich als freundlich, erfahren und transparent.",
+  "trace": {
+   "schlossaustausch": "sive neuem Zylinder (ABUS/BKS)"
+  }
+ },
+ {
+  "slug": "schluesseldienst-service-punkt-duesseldorf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Service Punkt ist ein Schuh- und Schlüsseldienst mit mehreren Filialen, darunter eine auf der Düsseldorfer Königsallee. Dort öffnet er zugefallene Türen nach eigener Angabe zum größten Teil ohne Kratzer oder Schäden, ist rund um die Uhr an 365 Tagen erreichbar und installiert Panzerriegel, Komponenten für Alarmanlagen und Sicherheitszylinder namhafter Hersteller. Der Betrieb fertigt Schlüsselkopien an, repariert Schuhe, Handtaschen und Koffer und bietet Gravuren, Stempel, Lederarbeiten und Uhrenservice mit Batteriewechsel. Für Gravuren wird vorab ein Festpreis genannt. Weitere Standorte nennt der Betrieb unter anderem in Köln, Bonn, Bochum, Dortmund, Berlin, Witten, Bad Honnef und Königswinter. Nach eigener Angabe setzt der Betrieb auf diskrete Arbeit, handwerkliche Präzision und kurze Anfahrtswege im Zentrum, unter anderem rund um Graf-Adolf-Platz, Carlstadt und Altstadt. Hilfe gibt es bei abgebrochenen Schlüsseln, für Geschäfte, Kanzleien und Privatwohnungen.",
+  "trace": {
+   "schlossaustausch": "installieren hochwertige Panzerriegel, Alarmanlagen-Komponenten und Sicherheitszylinder namhafter Hersteller"
+  }
+ },
+ {
+  "slug": "schluesseldienst-eduardo-duesseldorf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüsseldienst Eduardo in Düsseldorf umfasst Türöffnung, Schließanlagen, Schlösser und Zylinder, Schlüssel aller Arten und Autoschlüssel. Dazu kommen Türbeschläge, Türschilder, Stempel und Gravuren. Außerdem gehört ein Schlüsselnotdienst rund um die Uhr zum Angebot, sodass der Betrieb auch außerhalb der Ladenzeiten erreichbar ist. Das Angebot verbindet klassische Schlüsseldienstarbeit mit Beschriftung und Beschlägen.",
+  "trace": {
+   "schluessel_nachmachen": "Schlüssel aller Arten"
+  }
+ },
+ {
+  "slug": "seimann-schluesseldienst-sicherheitstechnik-duesseldorf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Seimann Schlüsseldienst & Sicherheitstechnik arbeitet von Düsseldorf-Friedrichstadt aus und versteht sich als familiengeführter Betrieb ohne Callcenter. Er öffnet Türen und Autotüren rund um die Uhr, auch an Wochenenden und Feiertagen, meist zerstörungsfrei und mit einer Anfahrt von 10 bis 30 Minuten. Der Preis wird sofort bei der ersten Kontaktaufnahme genannt und vor Beginn der Arbeit erneut bestätigt. Zum Angebot gehören Schlosswechsel, Zylindertausch, Beratung und Montage zum Einbruchschutz sowie Planung und Montage von Schließanlagen für Wohnungen, Häuser und Gewerbe. Hausverwaltungen und Gewerbetreibende nutzen den Betrieb für Mieterwechsel, Zylindertausch und Schließanlagen. Vor einer Öffnung wird ein Lichtbildausweis verlangt. Einsatzgebiete sind unter anderem Friedrichstadt, Bilk, Oberkassel, Pempelfort, Derendorf und Flingern. Der Betrieb versteht sich als Fachbetrieb für mechanische und elektronische Sicherheitstechnik und arbeitet mit sauberer Arbeit und kurzen Wartezeiten.",
+  "trace": {
+   "autoschluessel": "Autotüröffnung Aller Fahrzeugtypen"
+  }
+ },
+ {
+  "slug": "schluesseldienst-uwe-oberbilk-duesseldorf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüsseldienst Uwe in Düsseldorf-Oberbilk führt ein eigenes Ladengeschäft und verbindet Sicherheitstechnik, Schlüsseldienst und Schlüsselservice mit Notdienst, Schuhservice und Hausmeisterservice. Nach eigener Angabe ist der Betrieb immer persönlich erreichbar, und Kunden werden beraten und betreut. Er verweist auf jahrelange Erfahrung und darauf, dass ihm der Service für seine Kunden besonders wichtig ist."
+ },
+ {
+  "slug": "schluesseldienst-visconte-duesseldorf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Seit 2001 führt der Inhaber den Schlüsseldienst Visconte im Düsseldorfer Stadtteil Benrath, mit über 20 Jahren Erfahrung. Als 24-Stunden-Schlüsselnotdienst öffnet der Betrieb Haus- und Wohnungstüren, Gartenhäuser, Briefkastenschlösser und Zimmertüren. In seinem Ladengeschäft bietet er zu den üblichen Geschäftszeiten Einbruchsicherung für Türen und Fenster, Schlösser, Zylinder und Schließanlagen an. Außerdem fertigt er Ersatzschlüssel, Schilder und Gravuren. Der Betrieb arbeitet mit Pauschalpreisen und ohne versteckte Kosten.",
+  "trace": {
+   "tueroeffnung": "Das Öffnen von Haus- und Wohnungstüren, Gartenhäusern",
+   "schlossaustausch": "Schlösser, Zylinder und Schließanlagen"
+  }
+ },
+ {
+  "slug": "schluesselherz-schluesseldienst-duesseldorf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüsselherz Schlüsseldienst betreibt in Düsseldorf und Umgebung einen Schlüsselnotdienst, der rund um die Uhr arbeitet, auch am Wochenende und sonntags. Der Betrieb öffnet Haus-, Wohnungs- und Tresortüren möglichst ohne Beschädigung, außerdem Briefkästen und Autos, und wechselt Schlösser. Für Sicherheitstechnik nennt er Einbruchschutz und Schließanlagen sowie Zugangskontrollsysteme, Alarmsysteme, Videoüberwachung und Zutrittskontrollen, zu denen er berät. Die Türöffnung wird zum Festpreis angeboten, und das Team ist in den Städten rund um Düsseldorf im Einsatz. Er beschreibt sich als schnell vor Ort. Weitere Leistungen sind schadenfreie Türöffnung, Briefkastenöffnung und Autoöffnung. Der Betrieb beschreibt sich als schnell, kompetent und qualifiziert. Der Betrieb nennt als Vorteile Schnelligkeit und eine Erreichbarkeit zu jeder Tages- und Nachtzeit, auch bei einer schlichten zugefallenen Tür. Das qualifizierte Team arbeitet mit moderner Technik, und die Einsätze reichen über die Stadt Düsseldorf hinaus in die umliegenden Städte."
+ },
+ {
+  "slug": "schluesseldienst-duesseldorf-schloss-duesseldorf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Schlüsseldienst Düsseldorf Schloss ist ein ortsansässiger Betrieb, der nach eigener Angabe seit 1998 Wohnungs-, Haus-, Tresor- und Autotüren im privaten und gewerblichen Bereich öffnet. Der Schlüsselnotdienst ist 24 Stunden am Tag, sieben Tage die Woche erreichbar, auch nachts und an Feiertagen, mit einer Anfahrt von meist 15 bis 30 Minuten. Haus- und Wohnungstüren werden in vielen Fällen beschädigungsfrei geöffnet. Hinzu kommen Schlosswechsel, Zylindertausch, Schließanlagen und Einbruchschutz mit mechanischen Sicherungen wie Panzerriegel und Aufhebelschutz. Auch Gewerbe sowie Hotel und Gastgewerbe zählen zur Kundschaft. Autotüren werden für eingeschlossene Personen und Haustiere kostenlos geöffnet. Die Türöffnung wird zum Festpreis angeboten, und die Preise sind nach Uhrzeit gestaffelt. Bei Türen, die nur zugefallen sind, kommen Türfallenkarten zum Einsatz, die schonend öffnen. Wenn das nicht klappt, wird der Schließzylinder ausgewechselt."
+ },
+ {
+  "slug": "schluesseldienst-am-rhein-duesseldorf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Der Schlüsseldienst am Rhein gehört nach eigener Angabe zur Service Group am Rhein und ist in Düsseldorf zu Hause. Er öffnet zugefallene und verschlossene Türen, wechselt Schlösser und Schließzylinder, öffnet Autos, Garagen, Briefkästen und Tresore und bietet Ersatzschlüssel sowie Sicherheitstechnik für Tür und Schloss an. Schließanlagen organisiert er für Wohnhäuser, Büros und Gewerbe. Der Notdienst läuft rund um die Uhr, das Vorgehen und der Preisrahmen werden vor Beginn der Arbeit abgesprochen, und die Anfahrt wird als eigener Preis ausgewiesen. Der Betrieb arbeitet nach der Devise sorgfältig statt hektisch. Eigene Ortsseiten gibt es für die Düsseldorfer Stadtteile sowie für Neuss, Hilden, Erkrath und Solingen. Der Ablauf besteht aus Anruf, Absprache und Öffnung, und der Betrieb arbeitet nach eigener Angabe sorgfältig statt hektisch.",
+  "trace": {
+   "anfahrtspauschale_genannt": "19 € Anfahrt",
+   "gewerblich_objektbetreuung": "Zugänge für Wohnhäuser, Büros und Gewerbe organisieren"
+  }
+ }
+]

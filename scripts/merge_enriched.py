@@ -74,6 +74,35 @@ INTERNAL = re.compile(
     r"|\bbeim (?:abruf|pruefen|aufruf)\b|\bkonnte nicht (?:gelesen|abgerufen|geladen|geprueft) werden\b"
     r"|\bleer geladen\b|\bverweigert\b|\bautomatisierte[rn]? (?:zugriff|abruf|anfrage)\b"
     r"|\blieferte einen? fehler\b|\bnicht auslesbar\b", re.I)
+
+# Die Beschreibung beschreibt den Betrieb in dritter Person, aus den Paketdaten, und hält sich
+# von Feldern fern, die die Seite ohnehin zeigt. Jede der folgenden Prüfungen lässt den
+# Zusammenbau scheitern (wiki/framework/enrichment.md, scripts/enrichment-instructions.md).
+# Kein Geldbetrag und kein Prozentsatz: Preise sind allein die geprüften Garantiespalten.
+PRICE = re.compile(r"\d[\d.,]*\s?(?:€|eur\b|euros?\b|%|prozent)|(?:€|eur\b|euros?\b)\s?\d", re.I)
+# Keine Bewertung im Text: Schnitt, Anzahl, Sterneverteilung zeigt die Seite aus eigenen Feldern.
+RATING = re.compile(r"\bbewertung|\brezension|\bsternen?\b|google-?bewert|aus \d+ bewert", re.I)
+# Keine Kontaktdaten: Telefonnummer, Telefon-/WhatsApp-Label, E-Mail-Adresse, Straße mit Hausnummer.
+CONTACT = re.compile(
+    r"(?:\+49|\b0)\d[\d /().-]{5,}\d|\btelefon\b|\btel\.|\bwhatsapp\b"
+    r"|[\w.+-]+@[\w-]+\.[a-zäöü]{2,}"
+    r"|\b[a-zäöüß][\wäöüß.\-]*(?:stra(?:ß|ss)e|str\.|weg|platz|allee|ring|gasse|damm|ufer|chaussee)\s+\d", re.I)
+# Keine Leseransprache: formelles „Sie"/„Ihr" (Imperative wie „rufen Sie" fallen darunter).
+READER = re.compile(r"\bSie\b|\bIhnen\b|\bIhre[nmrs]?\b")
+# Nichts aus Karriere-/Partnerbereichen.
+CAREER = re.compile(
+    r"stellenangebot|stellenanzeige|\bsucht (?:personal|monteure|mitarbeiter|verst[äa]rkung)"
+    r"|\bkarriere\b|\bbewerb|\bm/w/d\b|partnerbetrieb|werden sie teil", re.I)
+# Keine Google-Ausstattungsmerkmale als Fließtext (maps_about gehört in die Merkmalsliste).
+GOOGLEATTR = re.compile(
+    r"gef[üu]hrt von einer frau|inhaberin gef[üu]hrt|frauengef[üu]hrt|barrierefrei|rollstuhlgerecht"
+    r"|\brollstuhl|kostenlos\w* parkpl|gratis parkpl|\bwlan\b|\btoilette", re.I)
+TEXT_CHECKS = [(PRICE, "names a price in euros or a percentage"),
+               (RATING, "names a rating, review count or stars"),
+               (CONTACT, "names contact data (phone, e-mail or a street address)"),
+               (READER, "addresses the reader with Sie/Ihr or an imperative"),
+               (CAREER, "uses career or partner wording, not aimed at end customers"),
+               (GOOGLEATTR, "renders a Google amenity attribute as prose")]
 # geprueft bis preisschutz: die Spalten der Festpreis-Garantie (wiki/konventionen.md), von Hand
 # gesetzt, hier nur unveraendert durchgereicht.
 EXTRA = ["premium", "best_of_rank", "photos", "geprueft", "geprueft_jahr",
@@ -130,6 +159,10 @@ def main():
     ap.add_argument("--band", type=int, nargs=2, default=[120, 200]); ap.add_argument("--short-band", type=int, nargs=2, default=[50, 90])
     ap.add_argument("--thin-floor", type=int, default=80, help="word floor when only one or two attributes have a quote")
     ap.add_argument("--partial", action="store_true")
+    ap.add_argument("--basic-unanswered", action="store_true",
+                    help="Zeilen ohne Antwort nicht als Fehler werten, sondern als Grundeintrag schreiben "
+                         "(Merkmale „keine Angabe“, keine Beschreibung). Für Läufe, die absichtlich nur die "
+                         "Einträge mit Beleg anreichern (wiki/framework/enrichment.md).")
     ap.add_argument("--only", default="", help="check this one answers file and nothing else (implies --partial)")
     ap.add_argument("--slugs", default="", help="with --only: the batch's .slugs.json, every slug in it must be answered")
     a = ap.parse_args()
@@ -170,7 +203,7 @@ def main():
     for r in rows:
         s = r["slug"]; x = answers.get(s)
         if x is None:
-            if not a.partial: fails[s].append("no answer in the cache")
+            if not a.partial and not a.basic_unanswered: fails[s].append("no answer in the cache")
             continue
         pk = packets.get(s, {}); blob = packet_text(pk)
         for k in keys:
@@ -187,6 +220,9 @@ def main():
         n = words(d)
         if not lo <= n <= hi: fails[s].append(f"description is {n} words, band is {lo} to {hi}")
         if "—" in d or "–" in d or " -- " in d: fails[s].append("description has a dash used as punctuation")
+        for rx, label in TEXT_CHECKS:
+            hits = sorted({m.group(0).strip() for m in rx.finditer(d)})
+            if hits: fails[s].append(f"description {label}: {hits} (belongs in a field or the attribute grid, not the text)")
         folded = fold(d)
         inside = sorted({m.group(0) for m in INTERNAL.finditer(folded)})
         if inside: fails[s].append(f"internal wording a reader should not see: {inside}")
@@ -205,15 +241,22 @@ def main():
         for s in json.load(open(a.slugs, encoding="utf-8")):
             if s not in answers: fails[s].append("in the batch but not answered")
     for s in set(dupes): fails[s].append("answered twice in the cache")
-    for s in answers:
-        if s not in {r["slug"] for r in rows}: fails[s].append("slug is not in the clean CSV")
+    csv_slugs = {r["slug"] for r in rows}
+    orphan = [s for s in answers if s not in csv_slugs]
+    for s in orphan:
+        # Antwort ohne passende Zeile: der Eintrag wurde seit der Anreicherung umbenannt
+        # (Ortsnamen-Normalisierung) oder ausgeschlossen. Unter --basic-unanswered/--partial ist das
+        # kein Fehler – die verwaiste Antwort wird übergangen; sonst bleibt es ein harter Fehler.
+        if not (a.basic_unanswered or a.partial):
+            fails[s].append("slug is not in the clean CSV")
     shared = {o: n for o, n in openers.items() if n >= 4 and o}
     shared_here = defaultdict(list)   # opener -> slugs in the checked set
     for s, x in answers.items():
         o = opener(x, packets.get(s, {}))
         if o in shared: shared_here[o].append(s)
 
-    print(f"listings: {len(rows)}, answered: {len(answers)}, failing: {len(fails)}")
+    print(f"listings: {len(rows)}, answered: {len(answers)}, failing: {len(fails)}"
+          + (f", orphaned answers skipped: {len(orphan)}" if orphan else ""))
     print("answers per attribute (true / false / not enough info):")
     for k in keys: print(f"  {k}: {tally[k]['true']} / {tally[k]['false']} / {tally[k]['not enough info']}")
     if shared_here:
@@ -234,16 +277,24 @@ def main():
     out_cols = cols + [c for c in EXTRA if c not in cols] + keys + ["description_enriched"]
     with open(a.out, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=out_cols); w.writeheader()
+        basic = 0
         for r in rows:
-            x = answers[r["slug"]]
+            x = answers.get(r["slug"])
             for c in EXTRA: r.setdefault(c, "")
+            if x is None:
+                # Eintrag ohne Beleg (kein Maps-Text, keine lesbare Website): bleibt Grundeintrag,
+                # jedes Merkmal „keine Angabe", keine Beschreibung (wiki/framework/enrichment.md).
+                for k in keys: r[k] = "not enough info"
+                r["description_enriched"] = ""
+                basic += 1
+                w.writerow(r); continue
             for k in keys: r[k] = str(x["attributes"][k]).strip().lower()
             r["description_enriched"] = " ".join(x["description"].split())
             # A listing that now has a real description and five reviews or more is no longer thin.
             if r.get("thin") == "true" and int(float(r.get("reviews") or 0)) >= 5 and packets.get(r["slug"], {}).get("quotes"):
                 r["thin"] = "false"
             w.writerow(r)
-    print(f"wrote {a.out}")
+    print(f"wrote {a.out} ({len(rows)} rows: {len(rows) - basic} enriched, {basic} basic without evidence)")
 
 
 if __name__ == "__main__":

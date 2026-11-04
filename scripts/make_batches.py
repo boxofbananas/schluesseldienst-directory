@@ -28,7 +28,17 @@ def render(pk):
     L = [f"### {pk['slug']}", f"name: {pk['name']}", f"city: {pk['city']}",
          f"maps_type: {pk['maps_type']}", f"maps_subtypes: {pk['maps_subtypes']}"]
     stars = [str(int(float(x))) if str(x).strip() not in ("", "None") else "0" for x in pk["stars_1_to_5"]]
-    L.append(f"rating: {pk['rating']} from {int(float(pk['reviews']))} reviews (1 star: {stars[0]}, 2: {stars[1]}, 3: {stars[2]}, 4: {stars[3]}, 5 star: {stars[4]})")
+    def _int(x):
+        try: return int(float(str(x)))
+        except (ValueError, TypeError): return 0
+    reviews = _int(pk["reviews"])
+    rating = str(pk.get("rating") or "").strip()
+    if reviews > 0 and rating:
+        L.append(f"rating: {rating} from {reviews} reviews (1 star: {stars[0]}, 2: {stars[1]}, 3: {stars[2]}, 4: {stars[3]}, 5 star: {stars[4]})")
+    else:
+        # Nachgetragene eigene Betriebe haben kein öffentliches Profil und deshalb keine Bewertung
+        # (wiki/framework/eigene-betriebe.md); nie eine erfinden.
+        L.append("rating: none (no public reviews)")
     L.append(f"hours_posted: {'yes' if pk['has_hours'] else 'no'}")
     if pk.get("maps_about"): L.append("maps_about: " + "; ".join(pk["maps_about"]))
     if pk.get("maps_description"): L.append("maps_description: " + pk["maps_description"])

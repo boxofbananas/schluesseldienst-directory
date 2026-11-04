@@ -1,0 +1,502 @@
+[
+ {
+  "slug": "firma-fischer-haus-und-sicherheitstechnik-leipzig",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Haus- und Sicherheitstechnik in Leipzig bildet den Kern der Firma Fischer. Der Betrieb montiert Türen sowie Fenster- und Terrassentüren und baut Briefkastenanlagen ein. Dazu kommen die Herstellung und die Montage von Schließsystemen, sodass Zugang und Absicherung eines Hauses aus einer Hand stammen. Eine zugefallene Tür öffnet er innerhalb Leipzigs während der Geschäftszeit und legt die Kosten dafür offen. Nach eigener Angabe blickt die Firma auf dreißig Jahre Tätigkeit zurück und dankt ihrer Kundschaft dafür. Der Betrieb arbeitet im Stadtgebiet Leipzig und tritt als Anbieter für Bauteile rund um Tür, Fenster und Schließtechnik auf. Zum Kerngeschäft gehören damit die Montage von Türen, Fenstern und Briefkästen sowie der Einbau der passenden Schließtechnik, und für den Fall einer zugefallenen Tür steht der Betrieb in Leipzig bereit.",
+  "trace": {
+   "festpreis_genannt": "schon ab 55.- Euro"
+  }
+ },
+ {
+  "slug": "schluesseldienst-herzog-mannheim",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Der Schlüsseldienst Herzog arbeitet vom Mannheimer Norden aus und versteht sich nicht als überregionale Vermittlung und nicht als Callcenter. Tag und Nacht öffnet der Betrieb zugefallene und abgeschlossene Türen, meist ohne Schaden, und tauscht bei Bedarf sofort den Zylinder, wobei ein neuer Zylinder mit mehreren Schlüsseln gleich mitkommt. Zum Angebot gehören außerdem der Schlosswechsel, das Nachmachen von Schlüsseln einschließlich Sicherheitsschlüsseln mit Sicherungskarte, Schließanlagen für Wohnanlagen, Hausverwaltungen und Betriebe sowie Einbruchschutz mit Schutzbeschlägen, Zusatzschlössern und Querriegeln. Im Kfz-Bereich übernimmt er Autoöffnungen, Ersatzschlüssel, die Codierung der Wegfahrsperre und Reparaturen an ELV und EZS bei Mercedes. Die Kosten einer Türöffnung nennt er per Anruf vorab, bevor der Einsatz beginnt. In Mannheim und den Nachbarorten ist er meist binnen 15 bis 30 Minuten vor Ort. Geplante Arbeiten erledigt er auch nach Terminabsprache, und Ratgeber zu Türsicherheit und Schlüsselverwaltung gehören zum Auftritt."
+ },
+ {
+  "slug": "key-walter-mannheim-mannheim",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüssel Walter ist ein Schlüsseldienst in Mannheim, der Notdienst, Sicherheitsanlagen und Überwachungskameras unter einem Dach führt. Zum Umfeld des Betriebs zählen Videoüberwachung und Brandmeldetechnik neben den klassischen Schlüsselarbeiten. Kunden werden im Hauptgeschäft zu festen Öffnungszeiten bedient, das mit eigenem Parkplatz erreichbar ist. Ein früherer Standort in der Innenstadt ist dauerhaft geschlossen, sodass sich der Betrieb auf das Hauptgeschäft in einem anderen Mannheimer Stadtteil konzentriert. Die Marke Schlüssel Walter tritt mit dem Zusatz Schlüsseldienst Mannheim auf, und die Seite des Betriebs ist noch im Aufbau."
+ },
+ {
+  "slug": "schluesseldienst-atilla-mannheim",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüsseldienst-ATILLA verbindet in Mannheim einen Schlüsselnotdienst mit einem Ladengeschäft, in dem auch Stempel, Schilder und Gravuren entstehen. Der Notdienst ist rund um die Uhr erreichbar und öffnet Türen bei Schlüsselverlust zum Festpreis in Mannheim und Umgebung. Beim Autoschlüssel bietet der Betrieb Ersatz, Nachfertigung und Reparatur an; über einen Konfigurator lassen sich Marke, Modell und Baujahr wählen, und für fast alle Modelle sind Schlüssel zu bekommen. Eine zweite Stelle widmet sich ausschließlich Autoschlüsseln, auch für Händler. Außerdem berät der Betrieb zur Auswahl von Schließzylindern und Türbeschlägen und baut sie ein, mit langjähriger Erfahrung in der Sicherheitstechnik. Das Ladengeschäft hat feste Öffnungszeiten von Montag bis Samstag, und eine Montierhalle gehört zum Betrieb. Zum Einsatzgebiet zählen Stadtteile wie Käfertal, Jungbusch, Freudenheim und Friedrichsfeld sowie die Innenstadt."
+ },
+ {
+  "slug": "autoschluessel-nachmachen-in-mannheim-mannheim",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Fahrzeugschlüssel stehen bei diesem Mannheimer Betrieb im Mittelpunkt. In einem Fachgeschäft fertigt er Zweitschlüssel für Marken wie BMW, Mercedes, Opel, Ford und VW an und repariert defekte Autoschlüssel; als Ausrüstung nennt er Geräte von Huf und Silca. Zum Angebot zählen außerdem die Türnotöffnung und die Tresornotöffnung. Nach eigener Angabe arbeitet der Betrieb seit mehr als zwanzig Jahren in der Schlüsselbranche und hat den Wandel vom rein mechanischen Schlüssel zum Funkschlüssel mit Transponder miterlebt. Die Notfallnummer ist an allen Wochentagen rund um die Uhr besetzt. Für Reparaturen und Schlüsselprogrammierungen vergibt er Termine, und die Preise für das Nachmachen listet er je nach Schlüsseltyp auf. Für verschiedene Marken gibt es eigene Seiten, zum Beispiel für BMW, Mercedes, Opel, Ford und VW, und der Betrieb nennt sich Fachwerkstatt für Schlüsseltechnik. Kundenstimmen und Öffnungszeiten stehen auf der eigenen Seite.",
+  "trace": {
+   "ladengeschaeft": "In unserem Fachgeschäft können wir Ihren Autoschlüssel nachmachen."
+  }
+ },
+ {
+  "slug": "schluesseldienst-josef-mannheim",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüsseldienst Josef sitzt in Mannheim und beschreibt sich als Betrieb in den Mannheimer Quadraten. Die Leistungen umfassen Türöffnung, den Austausch von Schloss oder Schließzylinder, die Prüfung und Verbesserung von Schutzbeschlag, Schließblech sowie Tür- und Fenstersicherungen, die Öffnung von Fenster- und Terrassentüren und Nachschlüssel oder Ersatzschlüssel nach Vorlage. Fahrzeuge öffnet der Betrieb nach Prüfung von Fahrzeug und Berechtigung, und Autoschlüssel bietet er für viele Marken von Audi bis Renault an. Der Schlüsselnotdienst ist rund um die Uhr erreichbar, bei zugefallener Tür, verlorenem Schlüssel oder blockiertem Schloss. Neben Mannheim betreut der Betrieb Anfragen aus der Rhein-Neckar-Region, darunter Ludwigshafen, Heidelberg, Viernheim, Weinheim, Speyer, Worms und Leimen. Zum Auftritt gehören außerdem Wissens- und Ratgeberseiten sowie eigene Seiten für die einzelnen Einsatzgebiete. Die Leistungsübersicht reicht von der Türöffnung über die Autoaufsperrung bis zur Schlüsselanfertigung und führt Fenster- und Terrassentüröffnungen als eigene Leistung."
+ },
+ {
+  "slug": "schuh-u-schluesseldienst-neseli-mannheim",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schuh u. Schlüsseldienst Neseli in Mannheim ist ein Schuhmacher, der zugleich als Schlüsseldienst auftritt. Neben Schuhreparatur und dem klassischen Schusterhandwerk gehören Schlüsselarbeiten zum Alltag des Betriebs. Der Name nennt beide Gewerke gleichrangig, und feste Öffnungszeiten sind hinterlegt. Der Betrieb arbeitet im Mannheimer Stadtgebiet und verbindet zwei Handwerke an einer Adresse."
+ },
+ {
+  "slug": "schluesseldienst-uhr-service-mannheim",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Zwei Gewerke stehen im Namen dieses Mannheimer Betriebs: Schlüsseldienst und Uhr Service. Der Betrieb verbindet Schlüsselarbeiten mit Arbeiten rund um Uhren, ein Geschäft aus der Nachbarschaft, das feste Öffnungszeiten hinterlegt hat. Er ist im Mannheimer Stadtgebiet ansässig und wird als Schlüsseldienst geführt, mit dem Uhrenservice als zweitem Standbein neben den Schlüsselarbeiten."
+ },
+ {
+  "slug": "sk-schluesseldienst-stefan-kiefer-mannheim",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "SK Schlüsseldienst von Stefan Kiefer betreibt in der Mannheimer Innenstadt ein Ladengeschäft, in dem aus mehr als dreitausend vorrätigen Rohlingen Schlüssel angefertigt werden. Das Kerngeschäft sind Schließanlagen, mechanisch und elektronisch, für Mehrfamilienhäuser, Gewerbebetriebe und Einfamilienhäuser, von der Beratung und Planung über die Lieferung und Montage bis zur Nachbetreuung. Hinzu kommen Schlösser, Schutzbeschläge, Einsteckschlösser, Zusatzschlösser und Querriegel, Stempel und Schilder sowie der Zylindertausch bei Türnotöffnungen. Zugefallene Türen öffnet der Betrieb zerstörungsfrei, mit vorab vereinbarten Festpreisen und ohne zusätzliche Kosten für Anfahrt oder Fahrzeug. Als Kundschaft nennt er Hausverwaltungen, die öffentliche Hand, Gewerbe und Privatleute. Auch in Ludwigshafen und Heidelberg ist er tätig. Zum Sortiment gehören Fabrikate wie ABUS, KESO, DOM, IKON und EVVA, und der Betrieb bietet zudem Gebäudereinigung und Hausmeisterdienste an.",
+  "trace": {
+   "anfahrtspauschale_genannt": "Wir berechnen keine zusätzlichen Kosten für Anfahrt oder Fahrzeug"
+  }
+ },
+ {
+  "slug": "weber-bohley-inh-andreas-kraenzle-mannheim",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Weber & Bohley unter Inhaber Andreas Kränzle ist ein Fachgeschäft für Schlüssel- und Sicherheitstechnik in Mannheim. Das Angebot umfasst Schließanlagen, Alarmanlagen, mechanische Hausabsicherung, das Auswechseln von Schließzylindern, Beschläge, Rauchmelder, Briefkästen, Eisenwaren und Tresore, dazu Autoschlüssel, die Reparatur von Autoschlössern und die Fertigung von Schlüsseln aller Art. Von der Beratung über die Planung bis zum Einbau begleitet der Betrieb die Absicherung von Haus und Wohnung. Seit 2015 ist er nach eigener Angabe ABUS Secvest Kompetenzpartner und bietet eine Erstberatung zum Einbruchschutz beim Kunden zu Hause kostenlos an. Ein Rauchwarnmelder-Service für Vermieter und Mieter, ein Schilder- und Gravurenservice und ein Online-Shop ergänzen das Sortiment, und für Mieter hält der Betrieb eigene Vorteile bereit. Das Team ist klein, aber stark, und hat den Bereich der Sicherheitstechnik in den letzten Jahren weit ausgebaut.",
+  "trace": {
+   "schluesseldienst_kern": "Auswechseln von Schließzylindern",
+   "schluessel_nachmachen": "Fertigung aller Art von Schlüsseln"
+  }
+ },
+ {
+  "slug": "schuh-schluesseldienst-derinoez-mannheim",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Derinöz in Mannheim führt Schuh und Schlüsseldienst in einem Betrieb, wie es schon der Firmenname sagt. Schuhreparatur und Schlüsselarbeiten laufen dort nebeneinander, ein klassisches Handwerksgeschäft für den Alltag im Stadtteil. Feste Öffnungszeiten sind hinterlegt, und der Betrieb arbeitet im Mannheimer Stadtgebiet an einer einzigen Adresse, an der beide Handwerke zusammenkommen."
+ },
+ {
+  "slug": "schluesseldienst-cuecue-inh-ilhami-cuecue-mannheim",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Ilhami Cücü führt in der Mannheimer Neckarstadt seit 1992 einen Schlüsseldienst, den er als Betrieb aus der Nachbarschaft versteht. Er öffnet Türen, hilft bei Schlüsselnotfällen und richtet Schließanlagen ein, und für Türöffnungen ist er nach eigener Angabe rund um die Uhr erreichbar. Im Geschäft fertigt er Schlüssel an, vom Standardschlüssel über den Briefkastenschlüssel bis zum Schlüssel mit Sonderprofil. Die Preise für Türöffnung und Schlüsselarbeiten stehen offen auf der eigenen Seite, und Fahrtkosten fallen nach seiner Angabe nicht an. Vorab berät der Inhaber per Anruf, damit die Kosten für den Kunden überschaubar bleiben. Zuverlässigkeit, Professionalität und Fairness nennt er als Leitlinie seines Betriebs, und er tritt als Ansprechpartner für Anwohner der Neckarstadt auf, die eine Schlüsselkopie brauchen oder sich ausgesperrt haben.",
+  "trace": {
+   "ladengeschaeft": "Im Geschäft Standard Schlüssel 10,00€",
+   "festpreis_genannt": "Abgeschlossene Türen ab 180,00€"
+  }
+ },
+ {
+  "slug": "tuerengel-schluesseldienst-mannheim-mannheim",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Türengel Schlüsseldienst Mannheim ist nach eigener Angabe an sieben Tagen in der Woche rund um die Uhr besetzt, auch nachts, an Wochenenden und an Feiertagen. Die Monteure sind meist innerhalb von 20 bis 45 Minuten vor Ort, mehrere Servicefahrzeuge decken das Stadtgebiet mit Stadtteilen wie Lindenhof und Sandhofen ab. Das Angebot umfasst die Türöffnung, die Autoöffnung, die Tresoröffnung sowie Einbruchschutz und Sicherheitstechnik. Ein Austausch des Schließzylinders erfolgt nur, wenn er wirklich nötig ist, und in Abstimmung mit dem Kunden. Der Betrieb arbeitet mit festen Preisen, nennt die Kosten vor dem Einsatz und hält eine Preisliste bereit. Nach eigener Angabe verfügt er über mehr als dreißig Jahre Erfahrung und nimmt Zahlungen auch per Karte entgegen. Bei verlorenen, beschädigten oder gestohlenen Schlüsseln hilft er ebenfalls."
+ },
+ {
+  "slug": "schuh-schluesseldienst-mannheim",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Ein Ladenlokal in zentraler Lage in Mannheim verbindet hier die Schuhreparatur mit einem Schlüsselnotdienst. Der Notdienst ist rund um die Uhr erreichbar und übernimmt Türöffnungen, möglichst ohne Beschädigung, den Schlosswechsel und die Reparatur von Schlössern. Der Betrieb arbeitet im gesamten Stadtgebiet mit seinen Stadtteilen und in Nachbarstädten wie Ludwigshafen, Viernheim, Schwetzingen, Hockenheim, Speyer, Frankenthal, Worms und Schriesheim. Handwerkliche Qualität, persönliche Beratung und schnelle Bearbeitung stehen bei dem Unternehmen im Vordergrund. Es versteht sich als modernes Dienstleistungsunternehmen, das traditionelles Handwerk mit zeitgemäßen Lösungen verbindet, und sein Angebot reicht von Schuhen über Schlüssel bis zur Sicherheitstechnik. Als Stadtteile und Umgebung listet der Betrieb Mannheim samt Stadtteilen und die Nachbarstädte einzeln auf, damit klar wird, wo der Notdienst ausrückt, und führt die Schuhreparatur weiter als Handwerk."
+ },
+ {
+  "slug": "schlosserei-metallbau-wetzel-gmbh-mannheim",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die Schlosserei & Metallbau Wetzel GmbH ist ein Familienunternehmen, das seit 1986 im Raum Mannheim, Ludwigshafen und Heidelberg arbeitet. Das Angebot liegt im Metallbau: Balkone, Geländer, Tore, Türen, Gitter, Zäune, Vordächer, Markisen und Blecharbeiten für Privatpersonen und Firmen. Der Betrieb stellt sich als Komplettanbieter aus einer Hand dar und legt nach eigener Angabe Wert auf Umweltschutz."
+ },
+ {
+  "slug": "schluesseldienst-vetter-schliess-und-sicherheitstechnik-mannheim",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüsseldienst Vetter Schließ und Sicherheitstechnik arbeitet von Mannheim aus und versorgt auch Ludwigshafen, Neckarau, Limburgerhof und Mutterstadt. Der Betrieb ist rund um die Uhr erreichbar und öffnet Türen in den meisten Fällen beschädigungsfrei, mit speziell geschulten Außendienstmitarbeitern, modernem Werkzeug und viel Fingerspitzengefühl. Wechsel und Reparaturen von Schlössern, Schließzylindern und Türbeschlägen erledigt er direkt vor Ort, neue Schlösser und Schließzylinder montiert er, und alte oder beschädigte Schließsysteme tauscht er aus. Zum Einbruchschutz zählen Empfehlungen zu mechanischen Sicherungen und stabilen Türbeschlägen, auch nach einem Einbruch. Daneben fertigt der Betrieb Gravuren und Schilder und führt Zwangsöffnungen sowie gleichschließende Zylinder im Programm. Er konzentriert sich nach eigener Angabe auf das, was er am besten kann: professionelle Arbeiten an Tür, Schloss und Zylinder, ausgerichtet auf Sicherheit und Soforthilfe."
+ },
+ {
+  "slug": "grossmann-und-hahl-gbr-mannheim",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Großmann und Hahl GbR in Mannheim tritt als Anbieter für Sicherheitstechnik auf und lädt zur Beratung ein; Entwicklung und Betreuung gehören zum Auftritt. Das Umfeld des Betriebs reicht von Alarmanlagen über Türen, Briefkästen, Tresore und Sicherheitssysteme bis zu Elektrotechnik, Maschinenwerkstatt und Metallbedarf. Auch Schlosserarbeiten zählen zu den Bereichen, in denen die Gesellschaft tätig ist, und der Betrieb verbindet damit Elektro- und Metalltechnik mit der Absicherung von Gebäuden."
+ },
+ {
+  "slug": "hifa-gmbh-mannheim",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die HiFa GmbH wurde im März 2002 gegründet und ist in Mannheim im Schlosserhandwerk und im Schweißen verankert. Beide Geschäftsführer bringen nach eigener Angabe mehr als 25 Jahre Berufserfahrung im Schlosserhandwerk mit. Zuvor waren sie in der Instandhaltung von Maschinen und Apparaten bei einem namhaften Energieunternehmen tätig. Einer der beiden hat zudem eine Prüfung als Maschinenbauer abgelegt. Das Tätigkeitsfeld des Betriebs liegt damit bei Schlosserarbeiten, Schweißen und Maschinenwartung. Die beiden Gesellschafter führen die Firma gemeinsam als Geschäftsführer, und die Firma besteht in dieser Form seit der Gründung."
+ },
+ {
+  "slug": "aba-schluessel-sicherheitstechnik-gueler-gmbh-schluesseldienst-karlsruhe-karlsruhe",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Aba Schlüssel- & Sicherheitstechnik Güler GmbH arbeitet seit 1995 in Karlsruhe, mit fünf voll ausgestatteten Servicefahrzeugen und einem Notdienst, der an sieben Tagen rund um die Uhr erreichbar ist, im Stadtgebiet, in Durlach, Ettlingen und im Großraum Baden. Der Schlüsselnotdienst konzentriert sich auf schadenfreie Türöffnungen, und ein Ladengeschäft mit festen Öffnungszeiten ergänzt ihn. Zum Angebot zählen Schließanlagen von der Zentralschließanlage bis zur Großschließanlage für private und gewerbliche Objekte, auch mit Zutrittskontrolle, Sicherheitsbeschläge und Einbruchsicherung, Tresore samt Tresoröffnung und Verkauf von Fabrikaten namhafter Hersteller wie ABUS, Ersatz-Autoschlüssel und Notöffnungen an Fahrzeugen sowie Stempel. Für Türöffnungen nennt der Betrieb feste Preise und beruft sich auf mehr als dreißig Jahre Berufserfahrung. Ein Team von Fachleuten unterstützt die Einsätze in ganz Baden, und auch Schlüssel lassen sich nachbestellen."
+ },
+ {
+  "slug": "keyprofi24-frauen-schluesseldienst-karlsruhe",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Keyprofi24 versorgt Karlsruhe, Ettlingen und die Umgebung mit einem Notdienst, der rund um die Uhr zur Verfügung steht. Der Betrieb öffnet zugefallene und verschlossene Türen zerstörungsfrei, hilft bei abgebrochenen Schlüsseln, öffnet Briefkästen und Garagentore und tauscht Zylinder, wenn eine Öffnung das erfordert. Außerdem installiert und entfernt er Schließsysteme, berät zu Sicherheitstechnik und Einbruchschutz und bearbeitet Sonderanfragen. Den Preis nennt er per Anruf vorab und hält sich nach eigener Angabe verbindlich daran; online steht ein Preisrechner bereit. Zur Kundschaft zählen Privatleute, Hausverwaltungen und Behörden, und der Betrieb legt Wert auf Vertrauen und Diskretion, damit sich die Kundschaft jederzeit sicher fühlt. Für verschlossene und zugefallene Türen hat er jeweils einen eigenen Notdienst eingerichtet. Nach eigener Angabe gehört er zum ADAC Schlüsselnotdienst-Netzwerk und hat weitere Standorte in der Region, an denen Partner einen Notdienst anbieten."
+ },
+ {
+  "slug": "flexibel-schluesseldienst-autoschluessel-karlsruhe",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Flexibel Schlüsseldienst- & Autoschlüssel hat seinen Standort seit 2002 im HIT-Markt in Grünwinkel bei Karlsruhe und fährt von dort Einsätze im ganzen Stadtgebiet und in Ettlingen. Der Notdienst läuft rund um die Uhr, auch nachts, an Wochenenden und an Feiertagen, und der Betrieb ist nach eigener Angabe meist binnen 15 bis 30 Minuten da. Er öffnet Wohnungstüren, Garagentore und Autos ohne Spuren, tauscht Schlösser und Zylinder, baut Sicherheitsbeschläge, Panzerungen und smarte Schlösser ein, öffnet Tresore und Safes und programmiert Funk- und Transponderschlüssel. Ersatzschlüssel gibt es nach eigener Angabe binnen 60 Minuten. Dazu kommen Schließanlagen bis zur Großschließanlage, Zutrittskontrolle und Beratung für Privat- und Gewerbekunden sowie für Vermieter, Hotels und Arztpraxen. Der Betrieb nennt Preise ohne versteckte Kosten und bedient Stadtteile wie Neureut, Knielingen, Durlach, Mühlburg und Rüppurr."
+ },
+ {
+  "slug": "radsport-karlsruhe-karlsruhe",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Radsport Karlsruhe ist ein Fahrradgeschäft mit Werkstatt in Karlsruhe. Neben dem Verkauf und der Reparatur von Fahrrädern bietet es Schlösser an und fertigt Schlüssel nach. Der Schlüsselservice läuft als Nebenleistung eines Zweiradfachgeschäfts, dessen Schwerpunkt bei Rädern und Zubehör liegt. Wer mit dem Rad unterwegs ist, kann Schloss und Schlüssel dort in einem Zug besorgen."
+ },
+ {
+  "slug": "locksmiths-bagmaci-karlsruhe-karlsruhe",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Der Schlüsseldienst Bagmaci in Karlsruhe betreibt nach eigener Angabe seit fünfzehn Jahren einen Schlüsselnotdienst, der rund um die Uhr in Karlsruhe und Umgebung erreichbar ist. Er öffnet zugefallene und verschlossene Türen, Kfz und Briefkästen möglichst ohne Schäden, entfernt abgebrochene Schlüssel, tauscht Schließzylinder und fertigt Schlüssel nach. Bei Autoschlüsseln reicht das Angebot von der Fahrzeugöffnung über Ersatz und Reparatur bis zur Codierung von Fernbedienungen. Ein Ladengeschäft im Scheck-In Center mit festen Zeiten von Montag bis Samstag ergänzt den Notdienst, und dort gibt es eine kostenlose Sicherheitsberatung rund um Türschlösser und Schließanlagen. Für Hausverwaltungen, Vermieter und Immobilienbesitzer plant und installiert der Betrieb Schließanlagen und bietet einen Immobilienservice mit Dokumentation und Terminservice. Für Notöffnungen führt er feste Preise auf, und er arbeitet für Privatpersonen wie für Unternehmen."
+ },
+ {
+  "slug": "schluesseldienst-west-karlsruhe",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Der Schlüsseldienst West zählt nach eigener Angabe seit Jahren zu den Schlüsselnotdiensten in Karlsruhe und Umgebung und betreut Privat- wie Gewerbekunden. Der Service wird als professionell und zügig beschrieben. Die Leistungen gliedern sich in Schlüsselnotdienst, Sicherheitstechnik, Schließanlagen, Briefkastenanlagen und Tresoröffnungen. In einem Fachgeschäft entstehen Schlüsselkopien, darunter Buntbart-, Fahrrad-, Koffer- und Möbelschlüssel sowie bestimmte Zylinderschlüssel. Schlüssel für Schließanlagen bestellt der Betrieb direkt im Lieferwerk oder fertigt sie im Haus. Zur Sicherheitstechnik berät er für Gewerbeeinheiten und private Räume und beruft sich dabei auf jahrzehntelanges Know-how und eigene Ausrüstung als Fachbetrieb. Der Betrieb sitzt im Westen von Karlsruhe, wie schon der Name andeutet. Eine Seite mit Kontakt und Anfragen sowie Hinweise zu Datenschutz und Impressum gehören zum Auftritt, und die Briefkastenanlagen stehen als eigener Leistungsbereich neben den Tresoröffnungen.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Ob für Ihre Gewerbeeinheit oder Ihre privaten Räume"
+  }
+ }
+]

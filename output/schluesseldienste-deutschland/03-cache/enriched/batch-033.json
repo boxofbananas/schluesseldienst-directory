@@ -1,0 +1,545 @@
+[
+  {
+    "slug": "kassel-schluesseldienst-kassel",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Türöffnungen ohne Beschädigung, Zylinderwechsel und Autoschlüssel gehören beim Kassel Schlüsseldienst zum Tagesgeschäft. Der Betrieb gibt an, rund um die Uhr erreichbar zu sein, auch am Wochenende und an Feiertagen, und fährt neben Kassel selbst nach Baunatal, Vellmar, Hofgeismar, Wolfhagen und Bad Wildungen. Türen, Autos, Garagen und Tresore öffnet er nach eigener Angabe beschädigungsfrei. Dazu kommen das Nachmachen von Schlüsseln, Ersatzschlüssel samt Programmierung für verschiedene Automarken und Arbeiten an der Wegfahrsperre. Für Privathaushalte plant er Schließanlagen und Einbruchschutz, neben mechanischen Anlagen auch elektronische Schließsysteme. Hausverwaltungen erhalten einheitliche Schließkonzepte für Wohnanlagen, einschließlich Zentralschließanlagen und Schlüsselverwaltung. Die Preise nennt der Betrieb transparent und ohne Überraschungen. Die Spezialisten arbeiten mit moderner Diagnosetechnik, sodass Ersatzschlüssel für alle Automarken sofort vor Ort programmiert werden können. Der Betrieb hebt hervor, dass es in der Branche schwarze Schafe gibt, und setzt dagegen auf eine Abrechnung, die sich nachvollziehen lässt."
+  },
+  {
+    "slug": "schuh-schluesselservice-inh-oender-karaaslan-kassel",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Aufsperrdienst und Schuhservice teilen sich diesen Kasseler Betrieb. Als Schlüsseldienst öffnet er verschlossene Türen möglichst schadensfrei, wechselt Schlösser und Schließzylinder und baut neue Schlösser fachgerecht ein. Bei Schlüsselverlust, Mieterwechsel oder zur Erhöhung der Sicherheit tauscht er den Zylinder aus, und er berät dazu, wie sich Wohnung oder Haus besser gegen Einbruch sichern lassen. Der Dienst nennt sich an sieben Tagen in der Woche rund um die Uhr erreichbar und arbeitet mit Partnern zusammen. Aufträge nimmt er in Kassel und im Landkreis an, etwa in Baunatal, Vellmar und Lohfelden, nach Absprache auch weiter entfernt in Espenau oder Körle. Das zweite Standbein ist die Reparatur von Schuhen aller Art, ergänzt um Schnürsenkel, Einlegesohlen sowie neue Sohlen und Absätze. An Menschen, die sich ausgesperrt oder ihren Schlüssel verloren haben, richtet sich der Aufsperrdienst, ebenso bei defekten Schlüsseln."
+  },
+  {
+    "slug": "deno-schluesseldienst-sicherheitstechnik-eisenwarenhaendler-kassel",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "true",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "DENO verbindet einen Schlüsselnotdienst für Kassel und Vellmar mit einem Fachgeschäft für Eisenwaren und Sicherheitstechnik. Der Geschäftsführer hat sich nach eigener Angabe früh auf Schließtechnik spezialisiert, vom Türzylinder über Schließanlagen bis zu Einsteckschlössern. Geöffnet werden Haus- und Wohnungstüren, Briefkästen, Garagen und Tresore, bei Bedarf Tag und Nacht und möglichst ohne Beschädigung. Der Betrieb wechselt Türzylinder, plant und montiert Schließanlagen und berät zum Einbruchschutz. Schlüsselkopien für Haus, Fahrzeug und Sicherheitsschlösser entstehen vor Ort, Schlösser und Zylinder in der hauseigenen Werkstatt, in der auch Schließanlagen repariert werden. Elektronische Schließsysteme und Zutrittskontrollen gehören ebenfalls dazu. Im Sortiment stehen außerdem Briefkastenanlagen, Farben und Lacke, Werkzeuge, Schrauben und Sanitärbedarf. Die Preise für Türöffnung und Anfahrt gibt der Betrieb vorab an, getrennt nach Stadt und Landkreis.",
+    "trace": {
+      "autoschluessel": "Egal, ob Haustür-, Fahrzeug- oder Sicherheitsschlüssel",
+      "ladengeschaeft": "In unserer hauseigenen Werkstatt fertigen wir hochwertige Schlösser und Türzylinder"
+    }
+  },
+  {
+    "slug": "schuhservice-schluesseldienst-kassel-kassel",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Schuhservice & Schlüsseldienst Kassel bringt Schuhe wieder auf Hochglanz und in einen neuwertigen Zustand. Daneben werden Schlüssel nachgemacht, wofür der Betrieb auch als Schlüsseldienst geführt wird. Er sitzt in Kassel, und Öffnungszeiten sind hinterlegt. Der Schwerpunkt liegt auf der Schuhpflege, der Schlüsselservice ergänzt sie als zweites Angebot. Eine eigene Website besteht nicht, und über die Schlüsselarbeit hinaus sind keine Leistungen genannt.",
+    "trace": {
+      "schluessel_nachmachen": "Schlüssel können günstig und schnell nachgemacht werden"
+    }
+  },
+  {
+    "slug": "koch-kg-eisenwaren-haushaltswaren-kassel",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Seit 1902 besteht die Firma Koch in der Kasseler Südstadt als alteingesessenes Familienunternehmen. Das Ladengeschäft gliedert sich in eine Haushaltswarenabteilung und eine Eisenwarenabteilung, in denen nützliche und wertige Dinge angeboten werden. Beraten wird von Mensch zu Mensch. Als Schlüsseldienst tritt der Betrieb nur über eine Nebenkategorie in Erscheinung; sein Schwerpunkt liegt auf Eisenwaren, Werkzeug, Schrauben und Haushaltswaren."
+  },
+  {
+    "slug": "schlosserei-siemon-gmbh-co-kg-kassel",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Die Schlosserei Siemon in Kassel ist vor allem ein Metallbaubetrieb. Der Betrieb plant, fertigt und montiert Balkone, Geländer, Handläufe, Schutz- und Schmiedegitter, Zäune, Tore und Grillschmiede, übernimmt Reparaturarbeiten und führt einen UVV-Check für Unternehmen durch. Daneben bietet sie einen Notdienst an: Die Monteure fahren aus Kassel zu verschlossenen oder beschädigten Türen und öffnen sie mit schonenden Techniken. Ersatzschlüssel fertigt die eigene Werkstatt auf Wunsch an, außerdem plant und setzt der Betrieb mechanische und digitale Schließanlagen für Wohn- und Gewerbeobjekte um. Die Preise für Einsätze nennt er vorab. Kundschaft sind Privat- und Geschäftskunden, darunter Wohnungsbaugesellschaften, Kommunen und Logistikbetriebe, für die Wartung und Prüfung von Toren, Brandschutztüren und Zutrittssystemen anfällt. Kurze Wege entstehen durch eigenes Fachpersonal vor Ort, und die Monteure treffen in der Regel innerhalb von 30 bis 60 Minuten ein."
+  },
+  {
+    "slug": "schuster-kassel",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Schuster ist ein Betrieb in Kassel mit der Kategorie Schlüsseldienst. Eine eigene Beschreibung oder Website gibt es nicht, hinterlegt sind lediglich Öffnungszeiten. Welche Arbeiten der Betrieb im Einzelnen übernimmt, etwa Türöffnungen oder das Nachmachen von Schlüsseln, bleibt offen, ebenso ob ein Notdienst besteht. Der Name lässt ein Handwerk rund um Schuhe vermuten, als Branche ist jedoch Schlüsseldienst eingetragen."
+  },
+  {
+    "slug": "schluesseldienst-sanitaer-abdalmalek-kassel",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Schlüsseldienst&Sanitär Abdalmalek in Kassel verbindet zwei Gewerke: Sanitärarbeiten und Schlüsseldienst. Der Betrieb nennt sich Ansprechpartner für beides, mit schneller Hilfe, kundenorientiertem Service und Lösungen aus einer Hand. Welche Schlüsseldienst-Arbeiten im Einzelnen dazugehören, etwa Türöffnungen oder Schlosswechsel, ist nicht ausgeführt. Öffnungszeiten sind hinterlegt, eine eigene Website gibt es nicht. Den Namen trägt der Betrieb nach beiden Gewerken, dem Schlüsseldienst und dem Sanitärdienst."
+  },
+  {
+    "slug": "schluesseldienst-nord-krefeld-krefeld",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "true",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Seit 2006 arbeitet Schlüsseldienst Nord Krefeld als lokaler Betrieb in Krefeld und fährt in Stadtteile wie Bockum, Uerdingen, Fischeln, Hüls, Traar, Linn und Oppum. Der Notdienst ist rund um die Uhr an 365 Tagen im Jahr erreichbar, auch nachts, an Wochenenden und an Feiertagen. Der Betrieb öffnet zugefallene Türen mit zerstörungsfreien Techniken, wechselt Schlösser, fertigt Zweit- und Ersatzschlüssel an und öffnet Tresore und Wertschutzschränke diskret. Zum Angebot zählen außerdem Beratung zu Einbruchschutz, Fenster- und Türsicherungen nach einer Vor-Ort-Analyse und smarte Schließanlagen, die sich per Smartphone, Fingerabdruck oder PIN-Code bedienen lassen. Das Angebot richtet sich an Privat- und Gewerbekunden. Der verbindliche Preis wird vorab telefonisch genannt, die Anfahrt innerhalb Krefelds ist darin enthalten. Der Betrieb versteht sich als lokaler Fachbetrieb direkt aus Krefeld und nicht als anonymes Callcenter. Das Angebot gilt bei jedem Einsatz im gesamten Krefelder Umkreis.",
+    "trace": {
+      "anfahrtspauschale_genannt": "Innerhalb von Krefeld ist die Anfahrt bereits in unseren Festpreisen en",
+      "gewerblich_objektbetreuung": "für Privat und Gewerbe mit individueller Beratung"
+    }
+  },
+  {
+    "slug": "tds-schluesseldienst-krefeld-krefeld",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "true",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Der TDS Schlüsseldienst Krefeld besteht nach eigener Angabe seit über 40 Jahren und ist in Krefeld, Uerdingen und Umgebung im Einsatz, von Fischeln bis Oppum und Hüls. Der Schlüsselnotdienst ist rund um die Uhr an 365 Tagen erreichbar, auch an Sonn- und Feiertagen. Die Monteure öffnen zugefallene und verschlossene Türen zu Wohnungen, Häusern und Unternehmen sowie Tresore. Vorher verlangen sie eine Legitimation, etwa einen Ausweis; liegt er hinter der Tür, muss der Nachweis unverzüglich nach der Öffnung folgen, sonst wird die Polizei hinzugezogen. Dazu kommen Schlosswechsel und der Austausch von Schließzylindern, die Montage von Schließanlagen, die Anfertigung von Ersatzschlüsseln sowie Beratung zu Tür- und Fenstersicherheit und Einbruchschutz. Die Preise für Türöffnungen stehen vorab fest und schließen die Anfahrt ein. Verbaut werden Produkte von ABUS, BKS, DOM und Burgwächter."
+  },
+  {
+    "slug": "schluessel-jacobs-krefeld",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Schlüssel Jacobs in Krefeld ist ein Sicherheitsfachgeschäft, das nach eigener Angabe 1978 als ortsansässiger Schlüsseldienst begann und sein Sortiment seither stark ausgeweitet hat. Im Ladenlokal mit großer Ausstellungsfläche wird zu Einbruchschutz, Sicherheitstechnik, Briefkästen und Tresoren beraten; auf Wunsch kommt die Beratung auch zu den Kunden. Das Angebot reicht von mechanischem Einbruchschutz mit Schutzbeschlägen über mechanische und elektronische Schließsysteme, bei denen die Tür per Smartphone, Transponder oder Pincode geöffnet wird, bis zu Tresoren und Waffenschränken. Montagen und Reparaturen an Türen, Zylindern, Schlössern und Beschlägen übernimmt der Betrieb ebenso wie das Nachmachen von Schlüsseln. Autoschlüssel fertigt er für fast alle Marken, auch mit Transponder für die Wegfahrsperre, Funkfernbedienung oder Keyless Go. Insektenschutz nach Maß rundet das Angebot ab. Der Betrieb nennt über 40 Jahre Erfahrung."
+  },
+  {
+    "slug": "lohberg-sicherheitstechnik-gmbh-krefeld",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Sicherheit rund ums Haus seit über 85 Jahren, so lautet der Leitsatz der Lohberg Sicherheitstechnik GmbH in Krefeld. Der Betrieb ist als Schlüsseldienst geführt und gehört nach Name und Kategorie in den Bereich Sicherheits- und Schließtechnik. Öffnungszeiten sind hinterlegt. Einzelne Arbeiten wie Türöffnung, Schlosswechsel oder Notdienst sind nicht ausgeführt. Die Firma tritt als GmbH auf."
+  },
+  {
+    "slug": "der-schluesseldienst-schloss-ambulanz-krefeld",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Die Schloss-Ambulanz wurde nach eigener Angabe 2021 gegründet, hat ihren Hauptstandort in Duisburg und nennt Krefeld neben Duisburg und dessen Stadtteilen als Einsatzgebiet. Ihr Motto lautet, dass alles, was zugeht, auch wieder aufgeht. Dahinter steht ein junges Team geschulter Monteure, das schon viele Jahre im Schlüsseldienst gearbeitet hat. Zugefallene Türen öffnet der Betrieb ohne Schäden, tags wie nachts, und ist nach eigener Angabe rund um die Uhr erreichbar. Zur Leistungsliste gehören Garagenöffnung, Tresoröffnung, Panzerriegel, Fenster- und Türsicherungen, Schließanlagen von BKS und CES, Zutrittskontrollen, Alarmanlagen und Schloßreparaturen. Den Preis für die Türöffnung nennt der Betrieb vorab. Die Zufriedenheit der Kunden nennt der Betrieb als Mission und verweist auf langjährige, qualifizierte und motivierte Mitarbeiter. Bei Fragen rund um Türen und Schlösser wird beraten."
+  },
+  {
+    "slug": "schluesseldienst-krefeld-gebauer-krefeld",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "true",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Der Schlüsseldienst Krefeld Gebauer ist nach eigener Angabe rund um die Uhr und das ganze Jahr im Einsatz. Er arbeitet in Krefeld, die Einsätze finden vor Ort statt, und Öffnungszeiten sind hinterlegt. Eine eigene Website gibt es nicht; welche Arbeiten im Einzelnen angeboten werden, etwa Türöffnungen oder Schlosswechsel, ist nicht beschrieben."
+  },
+  {
+    "slug": "boeker-santelmann-krefeld",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Die Böker & Santelmann Schlüsseldienst GmbH arbeitet nach eigener Angabe seit über 40 Jahren in Krefeld und hält vier Einsatzwagen vor, damit mehrere Notfälle gleichzeitig laufen können. Die Besonderheit ist der Tag- und Nachtdienst für Notöffnungen an Mietwohnungen, Eigenheimen und Gewerbeflächen, für Privat- und Gewerbekunden. Der Betrieb repariert beschädigte Schließzylinder und defekte Schlösser, baut neue Schlösser ein, plant und setzt Schließanlagen um und fertigt Schlüssel sowie Gravuren und Stempel an. Dazu kommen Einbruchschutz mit Tür-, Fenster- und Rollladensicherungen, Hausabsicherung und Beratung, auch vor Ort beim Kunden. Im Ladengeschäft in Krefeld zeigt eine große Ausstellung stets mehr als 60 Tresore. Die Techniker sind nach eigener Angabe speziell geschult und arbeiten mit modernem Equipment, das die Tür möglichst unbeschädigt lässt. Mit Einsatzwagen, Tag- und Nachtdienst und der Tresorausstellung deckt der Betrieb Notfälle ebenso ab wie die dauerhafte Absicherung von Wohnung und Gewerbe.",
+    "trace": {
+      "schluessel_nachmachen": "Der Schlüsseldienst umfasst die genaue Formverleihung von Schlüsseln und Schlössern"
+    }
+  },
+  {
+    "slug": "focken-sicherheitstechnik-krefeld",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Focken Sicherheitstechnik in Krefeld berät zu neuen Absicherungen für das Eigentum und alles, was dem Kunden wertvoll ist. Als Hauptkategorie steht Sicherheitstechnik, ergänzt um den Handel mit Alarmanlagen und Tresoren und die Einordnung als Schlüsseldienst. Der Betrieb tritt als Dienstleister für Sicherheitstechnik auf, ohne einzelne Arbeiten wie Türöffnung oder Schlosswechsel zu benennen. Eine eigene Website gibt es nicht."
+  },
+  {
+    "slug": "homework-gmbh-hausverwaltung-hausmeisterservice-sicherheitstechnik-krefeld",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Das Hauptgeschäft der Homework GmbH in Krefeld ist die Hausverwaltung: WEG-Verwaltung, Mietverwaltung und Sondereigentumsverwaltung, dazu ein Hausmeisterservice mit regelmäßiger Objektbetreuung, Reparaturen und Handwerkerservice. Seit der Übernahme eines Schlüsseldienstes in Krefeld-Hüls erweitert der Betrieb sein Angebot um Sicherheitstechnik, Türöffnungen und Schließanlagen. Bei Schließzylindern und Schließanlagen übernimmt er Wartung, Anpassung und Erneuerung bestehender Systeme und verbindet die Arbeit vor Ort mit dem Blick auf die gesamte Immobilie. Die Kundschaft sind Eigentümer, Eigentümergemeinschaften und Mietobjekte in Krefeld und Umgebung. Termine und Beratung vor Ort finden nur nach Vereinbarung statt. Qualifizierte Handwerker vermittelt der Betrieb für alle Projekte, auch ein Verwalterwechsel wird begleitet. Drei Verwaltungsbereiche betreut ein direkter Ansprechpartner, mit persönlicher Betreuung und kurzen Wegen. Verwalten heißt für den Betrieb auch zu verstehen, was am Gebäude passiert."
+  },
+  {
+    "slug": "schluesseldienst-schaffrath-luebeck",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Seit mehr als drei Jahrzehnten ist Schlüsseldienst Schaffrath in Lübeck und Umgebung für Türöffnungen im Einsatz; die Leitung blickt nach eigener Angabe auf 35 Jahre Erfahrung zurück. Der Schlossnotdienst ist rund um die Uhr unterwegs, für Unternehmen wie für Privatpersonen, und öffnet zugefallene Türen ebenso wie Autotüren, auch wenn der Schlüssel im Fahrzeug liegt. Der Preis für Türöffnungen wird vorab telefonisch genannt. Dazu kommen Schlossmontagen, der Einbau neuer Schlösser und Schließzylinder, Schließanlagen, Panzerriegel und Fenstersicherungen, die Beseitigung von Einbruchschäden und Sicherheitsberatung. Wertschränke, Dokumentenschränke und Wandtresore öffnet der Betrieb, außerdem betreibt er Tresorhandel und Tresorservice. Ersatzschlüssel gibt es bei Zylindern mit geschütztem Schlüsselprofil nur mit Sicherungskarte; so kann allein der Eigentümer Nachschlüssel bestellen. Ladengeschäfte unterhält der Betrieb in Lübeck. Außerdem berät der Betrieb zu den neuesten Sicherheitstechniken für das Zuhause.",
+    "trace": {
+      "gewerblich_objektbetreuung": "sowohl Unternehmen als auch Privatpers"
+    }
+  },
+  {
+    "slug": "schluesseldienst-luebeck-junghans-luebeck",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Schlüsselnotdienst, Tresoröffnung und Sicherheitsberatung deckt Schlüsseldienst Junghans in Lübeck und Ostholstein ab, und zwar rund um die Uhr. Zugefallene Türen öffnet der Betrieb meist besonders schonend, größtenteils komplett zerstörungsfrei, und die Mitarbeiter sind in der Regel 15 bis 30 Minuten nach dem Anruf vor Ort. Außerdem tauscht er Schlösser aus, baut Schließzylinder ein und aus und wechselt Schließanlagen in Mehrfamilienhäusern und Wohnanlagen. Zum Einbruchschutz gehört ein Beratungsgespräch, das vorab per Termin vereinbart wird. Der Preis wird vorab im Gespräch genannt, ohne versteckte Kosten und ohne böse Überraschungen. Auf Wunsch hilft der Betrieb dabei, ein Schloss gegen ein sichereres auszutauschen, und führt den Austausch durch. Er kümmert sich um die typischen Notfälle, in denen die Tür kurz nach dem Verlassen der Wohnung ins Schloss fällt."
+  },
+  {
+    "slug": "schluessel-garber-luebeck",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Schlüssel Garber in Lübeck steht für alles rund um Schlüssel, Schließanlagen, Schloßreparatur und Absicherung aller Art. Neben Schlüsseln und Schließanlagen führt der Betrieb Schloßbeschläge und Antikbeschläge, damit sich für das Heim das passende Schloß finden lässt. Auch Briefkastenanlagen, Wert- und Geldkassetten sowie Tresore gehören zum Sortiment, nach eigener Angabe die ganze Welt der Schlüssel. Ein Service für Haus und Auto ergänzt das Angebot. Mit Fachwissen in Schließ- und Sicherheitstechnik, das über viele Jahre erworben wurde, sorgt der Betrieb für den Schutz von Wohnung, Haus und Außenanlagen vor Einbruch. Sein Leitsatz lautet, erst zufrieden zu sein, wenn der Kunde es ist. Der Betrieb sitzt in Lübeck und richtet sich mit Schließtechnik, Beschlägen und Kassetten an Haushalte, die ihr Eigentum absichern wollen. Schlösser werden dort nicht nur verkauft, sondern auch repariert."
+  },
+  {
+    "slug": "aenderungsschneiderei-erman-luebeck",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Die Änderungsschneiderei Erman in Lübeck ändert und repariert Kleidung und bietet dazu weitere Dienste an: Schlüsseldienst und Schlüsselzubehör, Gravuren, Batteriewechsel und Uhrenanpassungen, Reparaturen von Taschen, Schuhen, Leder und Pelz sowie Austausch und Reparatur von Reißverschlüssen. Der Schwerpunkt liegt auf der Schneiderei. Der Schlüsseldienst ist eine Zusatzleistung, deren Umfang nicht näher beschrieben ist. Eine eigene Website gibt es nicht."
+  },
+  {
+    "slug": "schlossnotdienst-krukenbaum-luebeck",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Das Schloßnotdienst Krukenbaum arbeitet nach eigener Angabe seit mehr als 20 Jahren im Raum Lübeck für Türöffnungen und Absicherungen. Ein Schlüsseldienst-Monteur kommt in alle Lübecker Stadtteile und die Umgebung. Der Schlüsselnotdienst ist von 6 bis 22 Uhr erreichbar, auch an Feiertagen. Die anfallenden Kosten teilt der Betrieb bereits im ersten Gespräch mit und veröffentlicht außerdem eine Preisübersicht nach Wochentag und Tageszeit, inklusive einer Arbeitsstunde. Zu den Dienstleistungen zählen Schlossmontagen, der Einbau von Profilzylindern und die Absicherung von Fenstern und Türen. Im Angebot stehen Profilzylinder, Schlösser, Sicherheitsbeschläge, Mehrfachverriegelungen, Schließanlagen, Panzerriegel sowie Tür- und Fenstersicherungen. Ein Ratgeber zum Schlüsseldienst in Lübeck ergänzt die Seite. Der Betrieb sieht sich als Schlüsseldienst-Partner für Türöffnungen und Absicherungen und arbeitet in allen Lübecker Stadtteilen, ergänzt durch Einsätze in der Umgebung."
+  },
+  {
+    "slug": "schluesseldienst-augustin-luebeck",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Schlüsseldienst Augustin versteht sich als lokaler Schlossnotdienst aus Lübeck und ausdrücklich nicht als Zentrale. Er ist rund um die Uhr an sieben Tagen in der Woche erreichbar, auch an Feiertagen, und fährt nach Lübeck, in die Umgebung und in Nachbarorte; das Einzugsgebiet wurde nach eigener Angabe erweitert. Türöffnungen erfolgen ohne Beschädigungen, ebenso öffnet der Betrieb Fahrzeuge. Er tauscht Schlösser, Schließzylinder und Schließanlagen aus, privat wie gewerblich, und führt Sicherheitsberatungen zum Einbruchschutz durch, bei denen er Schwachstellen im Zuhause aufzeigt. Die Preise nennt er schon vorab im Gespräch. Einsätze fährt er unter anderem in Travemünde, St. Gertrud, St. Jürgen, Schlutup, Buntekuh und Moisling. Der Betrieb distanziert sich ausdrücklich von dubiosen Klauseln und Abzocke. Beraten wird mit Produkten führender Hersteller. Die Mitarbeiter sind nach eigener Angabe bestens geschult, und der Betrieb legt Wert auf Transparenz und Seriosität.",
+    "trace": {
+      "gewerblich_objektbetreuung": "ob privat oder gewerblich"
+    }
+  },
+  {
+    "slug": "luebecker-hausmeister-luebeck",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "true",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Lübecker Hausmeister ist ein Hausmeisterservice für Lübeck und Hamburg, der Gewerbe- und Privatkunden betreut. Das Angebot umfasst Reparaturen und Kleinmontagen, Maler- und Renovierungsarbeiten, abgehängte Decken, Klima- und Lüftungsreinigung, Abflüsse und Sanitärreparaturen, Gartenpflege, Entrümpelung sowie Umzug und Transport. Im Bereich Türen, Beschläge und Schlösser übernimmt er Instandsetzung und Austausch von Türgriffen, Beschlägen und Schlössern sowie Arbeiten an mechanischen Türen und Toren. Zur Kundschaft zählen Supermärkte, Büros und betreute Immobilien; neben einzelnen Reparaturaufträgen gibt es laufende Objektbetreuung. Ein Foto, der Einsatzort und eine kurze Beschreibung helfen bei der Einschätzung eines Auftrags."
+  },
+  {
+    "slug": "schluesseldienst-rickert-luebeck",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "false",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Seit 1985 arbeitet Schlüsseldienst Rickert in Lübeck und Umgebung rund um Sicherheit und Einbruchschutz, von Schließanlagen über Sicherheitsriegel bis zur Haussicherung. Türöffnungen gibt es nur nach vorheriger Absprache oder Termin, einen Notdienst bietet der Betrieb ausdrücklich nicht an. Anfragen nimmt er rund um die Uhr per Mailbox oder E-Mail entgegen und meldet sich zurück. Für die Türöffnung nennt der Betrieb einen Preis auf seiner Seite. Zu den Fachbereichen zählen Sicherheitsbeschläge, Panzerriegel, Schließzylinder, Türschlösser, Schließbleche, Tresore, Alarmanlagen, Fenstersicherung und Kellerschachtabsicherung, jeweils mit Montage, Service, Reparatur und Wartung aus einer Hand. Haussicherung gibt es nach eigener Angabe von A bis Z, mit dem Schwerpunkt auf geplanten Arbeiten statt auf Einsätzen im Akutfall. Die Eigentumssicherung umfasst Türriegel, Fensterriegel und Schliessbleche, jeweils mit Montage und Wartung durch den Betrieb selbst.",
+    "trace": {
+      "festpreis_genannt": "Türöffnung ab 59,- €"
+    }
+  },
+  {
+    "slug": "nc-locksmith-luebeck",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "NC Locksmith in Lübeck ist ein Autoschlüsseldienst. Er fertigt Autoschlüssel nach, liefert Ersatzschlüssel, programmiert Funk- und Transponderschlüssel, repariert und codiert Autoschlüssel und übernimmt Smart-Key-Programmierung, Batteriewechsel und Fahrzeugöffnung für zahlreiche Automarken. Sein Einsatzgebiet ist Lübeck und Umgebung. Eine eigene Website gibt es nicht. Der Schwerpunkt liegt auf Fahrzeugschlüsseln bei Verlust oder Defekt."
+  }
+]

@@ -1,0 +1,852 @@
+[
+ {
+  "slug": "obi-markt-ravensburg-ravensburg",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "In Ravensburg führt OBI einen Baumarkt mit Abteilungen für Bauen, Wohnen, Technik und Garten, der hochwertige Markenprodukte für Heim- und Handwerker führt und zu Bad, Küche und Garten berät. Zum Markt gehören ein Küchenstudio, ein Gartencenter, Bad- und Gartenplaner, Mietgeräte und Werkzeugverleih, ein Farbmischservice, ein Holzzuschnitt und ein Lieferservice. Der Schlüsseldienst im Markt ist ein Schlüsselservice: Schlüssel werden vor Ort angefertigt und können sofort mitgenommen werden. Einen mobilen Türöffnungsdienst betreibt der Markt damit nicht, sein Schwerpunkt ist der Handel mit Baumarktsortiment. Weitere Services sind Umtausch, Geschenkkarte und Wertstoffrücknahme.",
+  "trace": {
+   "schluessel_nachmachen": "Für dich sofort angefertigt – direkt zum Mitnehmen"
+  }
+ },
+ {
+  "slug": "thommel-i-h-gmbh-ravensburg",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Thommel Industrie- und Handwerkerbedarf in Ravensburg steht seit 2003 für Qualität für Industrie und Handwerk. Der Betrieb ist ein Fachhandel mit Webshop und legt Wert auf persönlichen Kontakt zu Kunden, ein Schlüsseldienst für Türöffnungen ist er nicht. Das Sortiment reicht von Betriebseinrichtungen, Werkzeugen und Elektrowerkzeugen über Befestigungstechnik, Arbeitsschutz und Bauelemente bis zu chemisch-technischen Produkten, Steigtechnik, Möbelbeschlägen, Garten- und Baubedarf, Elektro und Licht sowie Sanitär, Bad und Küche. Die Kategorien Beschlag und Schloss und Sicherheitstechnik führen Tresore, Geldkassetten, mechanische und elektronische Schließsysteme, Einsteckschlösser, Smart-Home-Produkte, Schlüssel und Schlüsselzubehör. Kunden registrieren sich für den Einkauf im Shop, Lieferung und Abholung im Markt gehören zum Angebot, und Teams stehen für alle Aufgaben und Fragen bereit. Der Shop wirbt mit Rabatten, genauen Lieferzeiten und einer Shopzugabe."
+ },
+ {
+  "slug": "keyss-esslingen-reichenbach-an-der-fils",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "KEYSS ist ein Autoschlüssel-Service für Esslingen am Neckar und die Umgebung, darunter Ostfildern, Denkendorf, Nürtingen und weitere Orte. Das Angebot umfasst das Nachmachen, Programmieren und Reparieren von Autoschlüsseln sowie Ersatzschlüssel für verlorene oder defekte Exemplare, unabhängig vom Fahrzeugtyp. Die Hilfe erfolgt mobil vor Ort oder in einer Partnerfiliale. Der Betrieb versteht sich als Vermittler: Er verbindet Kunden mit Fachleuten der Region, holt ein Angebot ein und lässt erst nach erledigter Arbeit direkt beim Partner bezahlen. Moderne Transponder- und Funkschlüssel gelten als aufwendiger als einfache mechanische Schlüssel, deshalb wird das Angebot vorab individuell erstellt. Auch Autohändler und Werkstätten gehören zur Kundschaft. Weitere Stadtseiten bestehen unter anderem für Stuttgart und Nürtingen, und Betriebe können sich als Partner anschließen. Verlorene Autoschlüssel lassen sich ersetzen, defekte reparieren.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Autoschlüssel-Service für Autohändler & Werkstätten in Esslingen und Umgebung"
+  }
+ },
+ {
+  "slug": "michael-kohlhaas-schlosserei-reichenbach-an-der-fils",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Als Metallbauunternehmen mit Tradition arbeitet die Schlosserei Michael Kohlhaas aus Reichenbach an der Fils an Balkonen, Treppen, Geländern, Toren, Zäunen und Gittern. Dazu kommen Dächer, Carports, Markisen und Beschattungen. Verarbeitet werden Stahl und Edelstahl in den Güten V2a und V4a, aber auch Kunststoffe. Der Betrieb arbeitet für Privatkunden ebenso wie für Firmenkunden, bei größeren und kleineren Projekten und bei privaten wie gewerblichen Objekten. Eine Auswahl abgeschlossener Arbeiten zeigt er unter dem Punkt Projekte. Türöffnung oder Schließtechnik gehören nicht zum Leistungsbild, es handelt sich um eine Bau- und Metallschlosserei."
+ },
+ {
+  "slug": "valon-schuhmacher-schluesselnotdienst-24h-rheinbach",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "In Rheinbach verbindet Valon ein Schuhmacher-Handwerk mit einem Schlüsselnotdienst, der sich schon im Namen als rund um die Uhr erreichbar bezeichnet. Der Betrieb beschreibt sich selbst schlicht als Schlüsselnotdienst und ist als Schlüsseldienst eingetragen. Zu den einzelnen Arbeiten, die er ausführt, liegen keine näheren Angaben vor; Öffnungszeiten für den Ladenbetrieb sind hinterlegt."
+ },
+ {
+  "slug": "metallbau-paffenholz-rheinbach",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Metallbau Paffenholz sitzt in Rheinbach-Wormersdorf und versteht sich als erfahrener Betrieb für Metallbau, Stahlbau und Schlosserarbeiten. Das Leistungsspektrum umfasst Stahlbau sowie Garagentore und Antriebe, dazu allgemeine Metallbau- und Schlosserarbeiten. Angebote lassen sich über ein Formular anfragen. Mit einem Schlüsseldienst, der Türen öffnet oder Schlösser tauscht, hat die Arbeit des Betriebs nichts zu tun, er arbeitet als Metallbauer."
+ },
+ {
+  "slug": "gogolkey-autoschluesseldienst-rheinberg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Autoschlüsseldienst Gogolkey in Rheinberg kümmert sich um kaputte Autoschlüssel, leere Batterien und Fernbedienungen, die nicht mehr funktionieren. Geht der gesamte Satz Autoschlüssel verloren, kommt der Inhaber nach eigener Angabe zum Fahrzeug und hilft vor Ort. Der Name nennt den Schwerpunkt auf Fahrzeugschlüsseln schon selbst. Der Betrieb führt einen Eintrag als Notdienst und als Schlüsselkopierservice."
+ },
+ {
+  "slug": "der-schluesseldienst-schloss-ambulanz-rheinberg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Hauptsitz der Schloss-Ambulanz ist Duisburg, von dort aus arbeitet der Schlüsseldienst auch in Rheinberg und in den Duisburger Stadtteilen. Er hat sich auf Türöffnungen spezialisiert: Ein Monteur ist nach eigener Angabe binnen 10 bis 30 Minuten vor Ort und öffnet zugefallene Türen ohne Schäden, Tag und Nacht und rund um die Uhr erreichbar. Daneben stehen Schlossreparaturen, Haustürschlösser und Zusatzschlösser der Hersteller BKS und CES, Schließanlagen, Panzerriegel, Fenster- und Türsicherungen, Alarmanlagen, Zutrittskontrollen, Tresoröffnungen und Garagenöffnungen im Programm. Schlüssel jeglicher Art werden kopiert, und in Rheinberg besteht ein Laden, in dem Kunden vorbeikommen können. Das Tätigkeitsgebiet umfasst die gesamte Stadt Duisburg mit ihren Stadtteilen sowie die Umgebung. Die Kosten für eine Öffnung legt der Betrieb nach eigener Angabe vorab fest. Der Betrieb gibt an, auch in schwierigen Zeiten für seine Kunden da zu sein.",
+  "trace": {
+   "schlossaustausch": "Türschlösser Schloßreparaturen Haustürschlösser",
+   "ladengeschaeft": "kommen Sie in unserem Laden vorbei"
+  }
+ },
+ {
+  "slug": "schuh-und-schluessel-profi-dschurny-rosdorf",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Manuel Dschurny ist gelernter Schuhmacher, seit 1999 mit abgeschlossener Ausbildung und nach eigener Angabe seit 22 Jahren in der Welt der Schlüssel und Schließanlagen tätig. 2017 übernahm er das Geschäft und eröffnete es neu auf dem Gelände von Holzland Hasselbach, nachdem er zuvor im Schlüsseldienst eines Kaufparks gearbeitet hatte. Das Ladengeschäft verbindet Schuhreparatur, vom Besohlen bis zu Reitstiefeln und Lederarbeiten, mit einem großen Sortiment an Schlüsselrohlingen. Angefertigt werden Zylinder-, Buntbart-, Tresor- und Codekartenschlüssel, auch für Oldtimer, sowie Autoschlüssel mit Transponder, einschließlich Anlernen und Codieren von Funkfernbedienungen und Keyless Go. Dazu kommen Sicherheitszylinder mit Sicherungskarte, Schließanlagen auf Bestellung, Smarthome, Stempel, Pokale und Gravuren. Das Einsatzgebiet reicht von Rosdorf über Göttingen und Dransfeld bis Hann. Münden und Northeim. Auch Wander- und Trekkingschuhe werden repariert."
+ },
+ {
+  "slug": "schuh-und-schluesseldienst-meisterbetrieb-mustafa-degirmenci-rosdorf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Mustafa Degirmenci führt in Rosdorf eine Schuhmacherei mit Schlüsseldienst. Nach eigener Angabe ist er seit 1995 selbständig und hat rund 40 Jahre Berufserfahrung. Neben Schuhreparaturen aller Art fertigt er Schlüssel an und bietet einen Türöffnungs-Notdienst, außerdem Sicherheitstechnik, Stempel, Gravuren, Näharbeiten und den Batteriewechsel bei Uhren. Verkauft werden Portemonnaies, Gürtel, Schlüsseltaschen und Liebesschlösser mit persönlicher Gravur. Das Geschäft zog aus Göttingen nach Rosdorf um."
+ },
+ {
+  "slug": "schluesseldienst-franken-schluesseldienst-roth-roth",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Rund um die Uhr, auch nachts, am Wochenende und an Feiertagen, ist der Schlüsseldienst Franken in Roth erreichbar. Nach eigener Angabe steht ein Team in rund 15 Minuten vor der Tür, in Roth, Allersberg, Hilpoltstein, Thalmässing und Greding, auch im Raum Nürnberg und Schwaig. Geöffnet werden Haus- und Wohnungstüren sowie Autos ohne Beschädigung, aus Sicherheitsgründen gegen einen gültigen Lichtbildausweis. Der Betrieb tauscht Schlösser und Zylinder, fertigt Schlüssel an, montiert Sicherheitstechnik und berät zum Einbruchschutz. Für Privatkunden, Gewerbe, Hausverwaltungen und öffentliche Einrichtungen plant er Schließanlagen, auch elektronische Schließsysteme und Generalhauptschlüsselanlagen. Er gibt über 15 Jahre Erfahrung im Schlüsselnotdienst an und weist seine Preise für Türöffnungen aus; die Anfahrt wird separat berechnet, Materialkosten fallen nur bei einem nötigen Zylindertausch an und werden vorher abgesprochen.",
+  "trace": {
+   "festpreis_genannt": "Klare Preise"
+  }
+ },
+ {
+  "slug": "modi-gmbh-schlosserei-metallbau-roth",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die Modi GmbH aus Roth ist seit über 50 Jahren ein Metallbauer für die Metropolregion Nürnberg. Das Leistungsspektrum reicht von Stahlbau, Metallbau und Alubau über Lasertechnik und Anlagen- und Maschinenbau bis zur Edelstahlverarbeitung und Wartung. Auch größere Bauvorhaben wie Industriebauten gehören zu den Projekten. Für private Bauherren entstehen Balkone, Carports, Gartenzäune, Geländer, Handläufe, Treppen und Vordächer, dazu Einbruchschutz, geschmiedete Handwerkskunst und Sonderanfertigungen. Auch kleine Projekte nimmt der Betrieb an. Als Schlüsseldienst für Türöffnungen tritt er nicht auf, es handelt sich um eine Schlosserei mit Metallbau."
+ },
+ {
+  "slug": "keitel-kg-gottlieb-rothenburg-ob-der-tauber",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Eisen-Keitel ist ein Fachmarkt für die ganze Familie in Rothenburg ob der Tauber und besteht nach eigener Angabe seit 1891. Auf 650 Quadratmetern führt der Betrieb Eisenwaren, Haushaltswaren, Werkzeuge, Schreibwaren, Schulbedarf und Spielwaren, dazu die regionalen Spezialitäten Schneeballeneisen und Ochsengurgeleisen. An Dienstleistungen gehören ein Gravurservice, technische Gase, ein Schärf- und Schlüsseldienst und eine Annahmestelle für UPS und GLS dazu. Qualität, Tradition und Beratung stehen im Mittelpunkt. Das Geschäft ist in erster Linie ein Handelshaus, der Schlüsseldienst ist eine Nebenleistung im Laden."
+ },
+ {
+  "slug": "servicepoint-schluesseldienst-rothenburg-im-zentro-rothenburg-ob-der-tauber",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Servicepoint im Zentro von Rothenburg ob der Tauber ist als Schlüsseldienst eingetragen und bündelt mehrere Handwerksdienste unter einem Dach. Seine Einordnung nennt außerdem Schuhreparatur, Änderungsschneiderei, Gravuren, Lasergravur, Stempel, bedruckte T-Shirts und eine Zulassungsstelle für Kfz-Kennzeichen. Eine eigene Website führt der Betrieb nicht, und welche Arbeiten rund um Schlösser er genau übernimmt, ist nicht näher beschrieben."
+ },
+ {
+  "slug": "obi-roedermark",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Rödermark hat einen OBI Baumarkt mit breitem Sortiment aus Bauen, Wohnen, Technik und Garten, der sich an Heim- und Handwerker richtet und zu Bad, Küche und Garten berät. Zu den Services zählen Küchenstudio, Gartencenter, Farbmischservice, Holzzuschnitt, Mietgeräte und Werkzeugverleih, ein Container-Mietservice sowie Beratung und Montage für Solaranlagen, Terrassenüberdachungen und Wärmepumpen. Der Schlüsseldienst des Marktes arbeitet am Standort: Schlüssel werden sofort angefertigt und direkt mitgegeben. Als Baumarkt öffnet der Betrieb keine Türen vor Ort, auch Umtausch und Geschenkkarten gehören zu seinen Services.",
+  "trace": {
+   "schluessel_nachmachen": "Für dich sofort angefertigt – direkt zum Mitnehmen",
+   "ladengeschaeft": "Dein OBI Markt Rödermark, Ober-Rodener-Straße 13"
+  }
+ },
+ {
+  "slug": "schluesseldienst-im-kaufland-autoschluessel-24h-tueroeffnung-roedermark",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Laden im Kaufland von Rödermark vereint Schlüsseldienst und Handwerk an einem Standort. Der Betrieb arbeitet rund um die Uhr, auch als Notdienst für Rödermark, Frankfurt und die Umgebung, und öffnet Türen schnell und schonend ohne Beschädigung. Im Geschäft werden Ersatzschlüssel nachgemacht und codiert, defekte Autoschlüssel vom Gehäusetausch bis zur Elektronik repariert. Von abgebrochenen Schlüsselrohlingen bis zu kaputter Elektronik sucht der Betrieb nach einer Lösung, statt gleich zu ersetzen. Daneben bietet er Schuhreparatur, Gravuren und Stempel, den Batteriewechsel bei Uhren und Autoschlüsseln sowie Uhrenarmbänder an. Geführt wird er von Geschäftsführer Mecit Sahin, der Laden hat montags bis samstags tagsüber geöffnet, und Anfragen nimmt er über ein Formular entgegen. Die Beratung zu defekten Schlüsseln ist kostenlos. Genügt eine Reparatur nicht, ersetzt der Betrieb einen defekten Schlüssel durch eine professionelle Neuanfertigung."
+ },
+ {
+  "slug": "schliesstechnik-wolfen-roedgen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Förster Tür- und Schließtechnik in Bitterfeld-Wolfen ist ein Betrieb für Türen, Tore, Fenster und Schließtechnik mit eigenem Notruf, der nach eigener Angabe an 365 Tagen im Jahr rund um die Uhr erreichbar ist. Er öffnet Wohnungen in Havariefällen, fertigt Nachschlüssel an, plant und montiert Schließanlagen und repariert Tür- und Fensterverriegelungen. Hinzu kommen Einbruchschutz, die Beseitigung von Einbruchschäden sowie Wartung und Service für Brand- und Rauchschutztüren, Drehtürantriebe und Obertürschließer. An Garagentoren baut und repariert der Betrieb Mehrfachverriegelungen. Er arbeitet eng mit renommierten Herstellern mechanischer und elektronischer Sicherheitstechnik zusammen und setzt auf modernste Technik, Vertrauen und Sicherheit. Blecharbeiten laufen über das Partnerunternehmen Förster Metallbauelemente. Der Betrieb nimmt Kunden an seinem Sitz in Bitterfeld-Wolfen auf. Reparatur- und Montagearbeiten im Einbruchschutz übernimmt der Betrieb fachgerecht."
+ },
+ {
+  "slug": "bewa-schluesseldienst-bauschlosserei-roedgen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "BEWA verbindet in Rödgen einen Schlüsseldienst mit einer Bauschlosserei, so zeigt es schon der Name, der beide Gewerke zusammenführt. Der Betrieb ist als Schlüsseldienst eingetragen und hat Öffnungszeiten hinterlegt. Eine eigene Website führt er nicht, und welche Arbeiten er im Einzelnen ausführt, geht aus den vorhandenen Angaben nicht hervor. Sitz ist Rödgen."
+ },
+ {
+  "slug": "meister-schluesseldienst-saarlouis",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Gegründet wurde Meister Schlüsseldienst 2019 mit einer einfachen Idee: Autoschlüssel günstiger und mit gutem Service anzubieten als beim Vertragshändler, wo ein neuer Schlüssel häufig teuer ausfällt. Das kleine Team hat sich ganz auf den Automobilbereich ausgerichtet, auf Autoschlüssel und Autoschlüsselgehäuse. Im Angebot stehen Ersatzschlüssel, neue Schlüssel, Schlüsselreparatur und Fernbedienungen, und die Preise für Reparatur, Ersatzschlüssel und Fernbedienung nennt der Betrieb offen. Sonderkonditionen gelten für Autohändler und Werkstätten. Filialen bestehen in den Globus-Märkten von Saarlouis, Saarbrücken und Homburg/Zweibrücken, dort werden Autoschlüssel nachgemacht und repariert. Türen oder Schlösser von Gebäuden öffnet der Betrieb nicht, er arbeitet als Autoschlüsselspezialist. Anfragen für Autoschlüssel nimmt der Betrieb über ein Formular entgegen, und jede Filiale ist mit eigener Rufnummer aufgeführt. Der Name Meister steht für den Anspruch, Autoschlüssel vom Fachmann zu liefern.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Sonder Preise für Autohändlern und Werkstätten"
+  }
+ },
+ {
+  "slug": "schuhmacher-u-schluesselservices-saarlouis",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die Schuhmacherei mit Schlüsselservice in Saarlouis ist vor allem als Schuhreparatur geführt und nennt zusätzlich einen Schlüsselkopierdienst sowie einen Eintrag als Schlüsseldienst. Der Betrieb hat Öffnungszeiten hinterlegt, eine eigene Website führt er nicht. Welche Arbeiten rund um Schlösser und Türen er über das Kopieren von Schlüsseln hinaus übernimmt, ist nicht beschrieben."
+ },
+ {
+  "slug": "schluessel-schloss-service-diana-begerock-salzgitter",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Diana Begerock führt in Salzgitter den Schlüssel+Schloss-Service, der schon im Namen Schlüssel und Schlösser verbindet. Der Betrieb arbeitet unter dem Namen der Inhaberin und ist als Schlüsseldienst eingetragen. Öffnungszeiten sind hinterlegt. In Salzgitter gehört er zu den Schlüsseldiensten, die persönlich firmieren und feste Zeiten angeben. Zu den einzelnen Arbeiten, die er ausführt, liegen keine näheren Angaben vor."
+ },
+ {
+  "slug": "avantes-sicherheitstechnik-und-schluesseldienst-salzgitter",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Avantes ist ein regionaler Schlüsseldienst in Salzgitter und Umgebung, der Türöffnungen fachgerecht ausführt und sich zugleich als Fachbetrieb für Sicherheitstechnik, Hausabsicherung und Einbruchschutz versteht. Das Angebot reicht von Schlüsseln und Zylindern über große Schließanlagen bis zu Beschlägen. Für jeden Kunden erstellt der Betrieb ein individuelles Sicherheitskonzept. Daneben finden sich Schuhreparatur, Gravuren und Lederreparatur im Umfeld seines Angebots."
+ },
+ {
+  "slug": "othmar-idler-salzwedel",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Unter dem Namen des Inhabers führt Othmar Idler in Salzwedel einen Schlüsseldienst, ohne Firmenbezeichnung. Der Betrieb hat weder eine eigene Website noch hinterlegte Öffnungszeiten, und zu seinen einzelnen Leistungen liegen keine näheren Angaben vor. Eingetragen ist er allein als Schlüsseldienst mit Sitz in Salzwedel. Der Eintrag nennt als Ort nur Salzwedel und als Gewerk den Schlüsseldienst."
+ },
+ {
+  "slug": "karl-schmidt-schluesseldienst-gmbh-salzwedel",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der KS Schlüsseldienst betreut Salzwedel, den Altmarkkreis und das Wendland in allen Fragen der Sicherheitstechnik. Die Mitarbeiter öffnen Türen ohne Beschädigung und haben Lehrgänge zum zerstörungsfreien Öffnen sowie zum Ver- und Entglasen von Fenstern absolviert. Das Spektrum reicht von einfachen Schließzylindern bis zu elektronischen Schließanlagen, samt Wartung, Reparatur und Erneuerung, dazu Instandhaltung an Türen und Fenstern. Im Laden stehen Zimmertür-, Kasten- und Briefkastenschlösser, Zylinder namhafter Hersteller, Baubeschläge, Vorhänge- und Fahrradschlösser sowie Tresore zum Verkauf. Gefertigt werden Zylinder-, Briefkasten-, Möbel- und Buntbartschlüssel, Wendeschlüssel sowie Auto-, Motorrad- und Rollerschlüssel. Öffnungszeiten sind angegeben, und eine Notöffnung ist als eigene Leistung aufgeführt. Der Betrieb fräst außerdem Wendeschlüssel für verschiedene Marken und Modelle und passt Tankverschlüsse, Lenkerschlösser und Rollerschlüssel aus Metall und Kunststoff an, die einseitig geschnitten werden.",
+  "trace": {
+   "ladengeschaeft": "Das Sortiment im Verkauf besteht aus folgenden Warengruppen"
+  }
+ },
+ {
+  "slug": "obi-markt-sangerhausen-sangerhausen",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Ein Baumarkt mit Gartencenter, Mietgeräten, Farbmischservice und Holzzuschnitt ist der OBI Markt in Sangerhausen. Das Sortiment richtet sich an Heim- und Handwerker, und die Mitarbeiter beraten zu Bad, Küche und Garten. Der Markt bietet Container-Mietservice sowie Beratung und Montage für Solaranlagen, Terrassenüberdachungen und Wärmepumpen und veranstaltet Events, etwa zum Motorsägenführerschein. Der Schlüsseldienst gehört zu den Services im Markt und fertigt Schlüssel auf der Stelle an. Türöffnungen vor Ort gehören nicht zum Angebot, der Betrieb arbeitet als Handel mit Baumarktsortiment. Zu den Services zählen außerdem Umtausch und eine Geschenkkarte.",
+  "trace": {
+   "schluessel_nachmachen": "Für dich sofort angefertigt – direkt zum Mitnehmen",
+   "ladengeschaeft": "Dein OBI Markt Sangerhausen, Oststr. 6"
+  }
+ },
+ {
+  "slug": "24h-aufsperr-schluesseldienst-sven-rudolph-sangerhausen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Sven Rudolph betreibt in Sangerhausen einen Aufsperr- und Schlüsseldienst mit Notöffnungs-Hotline an sieben Tagen in der Woche, rund um die Uhr. Er öffnet Türen und Tore, Tresore und Fahrzeuge, bei Autos ohne Beschädigung, auch wenn die Zentralverriegelung geschlossen ist. Das Schloss und der Profilzylinder bleiben bei einer Türöffnung meist erhalten. Auf Wunsch oder bei einem defekten Schloss wechselt er Schlösser und Profil- und Rundzylinder, auch Zylinder mit Not- und Gefahrenfunktion, die beidseitig schließen, wenn der Schlüssel von innen steckt. Er montiert Schließanlagen sowie Schutzbeschläge gegen Herausbrechen, Ausbohren und Herausziehen. Die Leistungen gliedern sich in Tür- und Toröffnung, Tresor- und Kfz-Öffnung sowie Sicherheitstechnik. Dazu kommen Sicherheitsberatung, Einbau und Reparatur von Schließtechnik und die Behebung von Schäden nach einem Einbruch. Der Betrieb tritt unter dem Namen Schlüsseldienst Rudolph auf."
+ },
+ {
+  "slug": "dini-immobilienservice-sankt-augustin",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Dini Immobilienservice aus Sankt Augustin bietet handwerkliche Dienste rund um Gebäude an. Dazu zählen Montageservice, Reparaturen, Objektbetreuung und ein Schlüsseldienst sowie der Einbau und die Lieferung von Fenstern, Türen, Rollläden, Sonnenschutz und Insektenschutz. Der Schlüsseldienst ist nur einer von mehreren Bausteinen des Angebots. Der Betrieb ist außerdem im Bereich Gebäudereinigung eingetragen und hat Öffnungszeiten hinterlegt."
+ },
+ {
+  "slug": "manfred-traude-metallbau-gmbh-sankt-augustin",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Manfred Traude Metallbau aus Sankt Augustin ist ein Metallbaubetrieb in der Rechtsform einer GmbH. Der Betrieb stellt Unternehmen, Produkte, Verfahren und Materialien in eigenen Rubriken vor und verweist auf eine Ausstellung vor Ort sowie auf Multimedia-Inhalte. Eine Schlüsseldienst-Leistung nennt er nicht, die Eintragung unter der Kategorie Schlüsseldienst ist eine Nebenzuordnung."
+ },
+ {
+  "slug": "rapid-schluesseldienst-autoschluessel-nachmachen-autoschluessel-kopieren-oder-reparieren-sofort-stempel-service-gravuren-sankt-wendel",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Seit 22 Jahren öffnet Rapid Schlüsseldienst nach eigener Angabe Türen, macht Autoschlüssel nach und sichert Zuhause und Betrieb, mit vier Läden in Neunkirchen, St. Wendel und Wittlich. Der Notdienst ist Tag und Nacht, am Wochenende und an Feiertagen erreichbar. Wohnungs-, Haus- und Bürotüren werden nach Möglichkeit ohne Schaden geöffnet, sonst wird der Zylinder getauscht. Autoschlüssel gibt es für zahlreiche Marken, oft in etwa einer Stunde, auch mit Anlernen und Wegfahrsperre; der Schlüssel entsteht im Laden oder direkt am Auto, nötig sind Modell, Baujahr, Fahrzeugschein und Ausweis. Dazu kommen Sicherheitszylinder und Schließanlagen mit Sicherungskarte, Zusatzschlösser, Sicherheitsbeschläge und einbruchhemmende Zylinder. Gravuren auf Gläsern und Schmuck, Schilder, Stempel, Uhrenservice und Schuhservice ergänzen das Angebot. Die Preise nennt der Betrieb vorab. Gehäusewechsel und Reparatur von Autoschlüsseln gehören ebenfalls dazu."
+ },
+ {
+  "slug": "schuhservice-wirth-sankt-wendel",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schuhservice Wirth in Sankt Wendel ist in erster Linie eine Schuhreparatur, der Name nennt zuerst das Schuhhandwerk. Der Betrieb hat sein Angebot erweitert: Ab sofort fertigt er Autoschlüssel, samt Anlernen und Codierung. Zusätzlich ist er als Schlüsseldienst eingetragen. Öffnungszeiten sind hinterlegt, und vor dem Geschäft gibt es Parkplätze an der Straße und auf einem Platz.",
+  "trace": {
+   "schluessel_nachmachen": "fertigen wir Autoschlüsseln mit anlernen und Codierung"
+  }
+ },
+ {
+  "slug": "schluesseldienst-berndt-stefanie-schmalkalden",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Stefanie Berndt führt in Schmalkalden einen Schlüsseldienst, der mobil zum Kunden kommt und über eine Handynummer erreichbar ist. Als Einzelperson tritt sie dort unter eigenem Namen auf. Der Betrieb ist ohne eigene Website und ohne hinterlegte Öffnungszeiten im Verzeichnis geführt. Zu den einzelnen Arbeiten, die er ausführt, gibt es keine näheren Angaben; eingetragen ist er als Schlüsseldienst."
+ },
+ {
+  "slug": "schluesseldienst-f-leupold-schmalkalden",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "F. Leupold arbeitet in Schmalkalden als Schlüsseldienst, der nach telefonischer Absprache rund um die Uhr zum Kunden kommt. Er übernimmt Notöffnungen sowie Wartung und Einbau von Schlössern und Schließsystemen direkt vor Ort. Außerdem werden Haus- und Fahrzeugschlüssel dupliziert. Der Betrieb verkauft Schlösser und Beschläge und berät dazu, die Arbeit findet beim Kunden statt und nicht in einem Laden.",
+  "trace": {
+   "notdienst_24h": "Nach telefonischer Absprache 24/7",
+   "tueroeffnung": "Notöffnung",
+   "schluessel_nachmachen": "Duplizieren von Haus- und Fahrzeugschlüsseln"
+  }
+ },
+ {
+  "slug": "premium-schluesseldienst-schorndorf",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "In Schorndorf nimmt der Premium Schlüsseldienst vielseitige Aufträge an und stellt sich als schnell und vielseitig dar: Er kopiert Autoschlüssel und Gebäudeschlüssel und übernimmt Schuhreparaturen und Uhrenservice. Ergänzt wird das Angebot durch Schlüsselgravuren und Stempel. Der Betrieb ist zugleich als Notdienst für Schlüssel eingetragen und stellt sich als jederzeit ansprechbar dar. Öffnungszeiten sind hinterlegt."
+ },
+ {
+  "slug": "schluesseldienst-gravuren-service-im-kaufland-schorndorf",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Mit über 30 Jahren Erfahrung in der Schlüsselanfertigung bietet ein Handwerker im Kaufland Schorndorf seit 2019 seine Arbeit an. Im Vordergrund steht die Fertigung von Haus-, Fahrzeug-, Briefkasten- und Kellerschlüsseln. Hinzu kommen Schuhreparaturen, die Lieblingsschuhe wieder fit machen, sowie Gravuren auf Geschenken und anderen Gegenständen. Der Gedanke dahinter: Ein längerer Lebenszyklus eines Produkts hilft im Kampf gegen den Klimawandel. Türen öffnet der Betrieb nicht.",
+  "trace": {
+   "autoschluessel": "Haus, Fahrzeug, Briefkasten oder Kellerschlüssel"
+  }
+ },
+ {
+  "slug": "der-radladen-cabral-rainer-schriesheim",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Ein Fahrradgeschäft mit Werkstatt ist Der Radladen in Schriesheim. Er verkauft überholte Gebrauchträder und kauft gut erhaltene City- und Trekkingräder an, aus Gründen der Nachhaltigkeit. Zusätzlich schleift der Betrieb alle Arten von Küchenmessern und Schneidwerkzeugen. Ein Schlüsseldienst im engeren Sinn ist er nicht, die Zuordnung als Schlüsseldienst ist nur eine Nebenkategorie seines Eintrags."
+ },
+ {
+  "slug": "mobiler-schluesseldienst-teichmann-schriesheim",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Als Einzelunternehmer fährt Teichmann von Schriesheim aus zu Kunden im Rhein-Neckar-Raum, nach Heidelberg, Mannheim, Weinheim und Viernheim. Er öffnet zugefallene Türen, auch bei innen liegendem oder steckendem Schlüssel, öffnet Fenster und leistet Nottüröffnungen, auch nachts sowie an Sonn- und Feiertagen. Nach eigener Angabe ist er 24 Stunden an sieben Tagen erreichbar und meist in unter 30 Minuten vor Ort. Außerdem repariert er Türen und Türschlösser und plant, verkauft und montiert Schließanlagen für Privat und Gewerbe. Ein Callcenter gibt es nicht, die Preise nennt er vorab.",
+  "trace": {
+   "festpreis_genannt": "Preise nenne ich vorab am Telefon",
+   "gewerblich_objektbetreuung": "für Privat und Gewerbe"
+  }
+ },
+ {
+  "slug": "steinhart-gmbh-schlosserei-schluesseldienst-schwabach",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Schlosserei und Schlüsseldienst in einem Haus: Die Steinhart GmbH in Schwabach ist ein Handwerksbetrieb für Schlosser- und Schlüsselarbeiten. Die GmbH ist Fachgeschäft für Schließ- und Sicherheitstechnik und fertigt Nachschlüssel aller Art, auch mit Spezialrohlingen, teils mit sofortiger Ausgabe, wenn der Rohling vorhanden ist. Der Betrieb öffnet versperrte Türen, tauscht Zylinder und Schließsysteme aus, baut sie ein und repariert Mehrfachverriegelungen. Verkauft werden Schließzylinder, Schlösser und Beschläge; als Fachhandelspartner bedient er unter anderem Abus, BKS, CES, Evva, Iseo, Kaba, Wilka und Winkhaus, auch für Nachschlüssel zu Schließanlagen. Hinzu kommen Reparaturen an Türen, Toren und Fenstern, Beratung zur Sicherheitstechnik und individuelle Metallbauarbeiten. Zur Kundschaft zählen Privat- und Gewerbekunden, Wohnungsbesitzer sowie Reisende mit Wohnmobil. Kleinere Probleme begleitet der Betrieb mit praxisnahen Tipps zur Selbsthilfe."
+ },
+ {
+  "slug": "rabus-schluesseldienst-schwabach",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "RABUS ist ein eigenständiger Schlüsseldienst in Schwabach, der rund um die Uhr im Notdienst arbeitet, getrennt von den Geschäftszeiten für Termine. Er hilft bei zugefallenen und abgeschlossenen Türen, defekten Schlössern und Zylindern, wechselt Profil- und Sicherheitszylinder und baut Einsteckschlösser, Briefkastenschlösser, Panzerriegel und Schutzbeschläge ein. Vor dem Einsatz klärt er die Schloss- und Zylindersituation, je nach Risiko kann neben der Öffnung ein Zylinderwechsel sinnvoll sein. Für Mehrfamilienhäuser, Eigentümergemeinschaften, Hausverwaltungen und Gewerbe plant er mechanische und elektronische Schließanlagen. Schlüssel für angebotene Profile fertigt er an, bei geschützten Systemen nur gegen die Sicherungskarte. Die Preise für Türöffnungen samt Zuschlägen legt der Betrieb offen, die Anfahrt im Stadtgebiet ist im Preis enthalten, Einsätze außerhalb werden nach Entfernung vereinbart. Daneben bietet er Schuhreparatur und Stempel an."
+ },
+ {
+  "slug": "obi-schwedt-schwedt-oder",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "OBI Schwedt ist ein Baumarkt an der Oder mit Abteilungen für Bauen, Wohnen, Technik und Garten, dazu Gartencenter, Mietgeräten, Farbmischservice und Holzzuschnitt. Das Sortiment richtet sich an Heim- und Handwerker, ein eigener Bereich wendet sich an Profis, und die Mitarbeiter beraten zu Bad, Küche und Garten. Der Markt vermietet Container und berät zu Solaranlagen, Terrassenüberdachungen und Wärmepumpen mit Montage. Zu den Services gehört ein Schlüsseldienst, der Schlüssel vor Ort sofort anfertigt, außerdem Umtausch und Geschenkkarten. Mit einem mobilen Türöffnungsdienst hat das nichts zu tun, der Markt ist ein Handelsbetrieb.",
+  "trace": {
+   "schluessel_nachmachen": "Für dich sofort angefertigt – direkt zum Mitnehmen",
+   "ladengeschaeft": "Dein OBI Markt Schwedt, Dammweg 13"
+  }
+ },
+ {
+  "slug": "schluesseldienst-mario-raehse-24-stunden-notdienst-schwedt-oder",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Mario Rähse ist in Schwedt an der Oder seit über 30 Jahren im Bereich Sicherheitstechnik und Schlüsseldienst tätig. Der Betrieb übernimmt Notöffnungen, fertigt Schlüsselduplikate und plant Schließanlagen, außerdem gehören Tresore zu seinem Angebot. Nach eigener Angabe ist er rund um die Uhr in der Nähe seiner Kunden erreichbar, was schon im Namen als 24-Stunden-Notdienst steht.",
+  "trace": {
+   "tueroeffnung": "Notöffnungen",
+   "schluessel_nachmachen": "Schlüsselduplikationen"
+  }
+ }
+]

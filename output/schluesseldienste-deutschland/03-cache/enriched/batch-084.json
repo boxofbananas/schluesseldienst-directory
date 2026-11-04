@@ -1,0 +1,740 @@
+[
+  {
+    "slug": "obi-markt-stadtbergen-stadtbergen",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Der OBI Markt in Stadtbergen ist ein Baumarkt mit einem Sortiment aus den Bereichen Bauen, Wohnen, Technik und Garten. Zum Angebot gehören ein Farbmischservice, ein Holzzuschnitt-Service, Mietgeräte mit Werkzeugverleih und ein Container-Mietservice. Für Solaranlagen, Wärmepumpen und Terrassenüberdachungen bietet der Markt Beratung und Montage an, ein Gartencenter sowie Planer für Bad und Garten ergänzen das Angebot. Umtausch ist innerhalb von drei Monaten möglich, Geschenkkarten gibt es in vielen Designs. Beim Schlüsseldienst des Marktes geht es um das Anfertigen von Schlüsseln, die sofort fertig sind und direkt mitgenommen werden können.",
+    "trace": {
+      "schluessel_nachmachen": "Für dich sofort angefertigt – direkt zum Mitnehmen",
+      "ladengeschaeft": "OBI Markt Stadtbergen, Ulmer Landstraße 350"
+    }
+  },
+  {
+    "slug": "kittel-schluesseldienst-ehemals-wild-sicherheitstechnik-schliessanlagen-starnberg",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Als Familienunternehmen in Starnberg besteht Kittel Schlüsseldienst nach eigener Angabe seit über 30 Jahren und firmierte früher als WILD Sicherheitstechnik & Schließanlagen. Im Ladengeschäft werden Zylinder und Schlösser verkauft und repariert, spezielle Schlüssel angefertigt und Schilder graviert, ein Aufsperrdienst öffnet verschlossene Türen. Zylinder tauscht der Betrieb vor Ort meist innerhalb weniger Stunden. Für Hausverwaltungen und Eigentümergemeinschaften im Landkreis plant er General- und Zentralschließanlagen, mechanisch oder elektronisch, darunter Systeme von BKS, DOM und Dormakaba, auf Wunsch mit Kopierschutz und Sicherungskarte. Das Maß dafür nimmt er kostenlos. Bei bestehenden Anlagen ergänzt er passende Zylinder und Schlüssel systemkonform, wenn die Sicherungskarte oder Anlagennummer vorliegt. Zum Sortiment gehören außerdem Tresore, Briefkastenanlagen, Beschläge und Einbruchschutz. Anfragen zu Schließanlagen werden herstellerunabhängig beraten, auch für Mehrfamilienhäuser. Gearbeitet wird mit Aufmaß und individuellem Angebot.",
+    "trace": {
+      "tueroeffnung": "Aufsperrdienst"
+    }
+  },
+  {
+    "slug": "albert-bockstahler-sicherheitstechnik-u-schluesseldienst-staufen-im-breisgau",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "In Staufen im Breisgau und im Umland arbeitet Albert Bockstahler jun. als Schlüsseldienst mit Sicherheitstechnik. Der Betrieb öffnet Türen aller Art mit einer weitgehend materialschonenden Öffnungsweise und ist nach eigener Angabe rund um die Uhr über eine Hotline erreichbar. Er versteht sich als Ansprechpartner für alle Aufgaben rund um Schlüssel, Schloss und Türen, von der Anfertigung eines Zweitschlüssels bis zur Entwicklung eines individuellen Sicherheitskonzepts. Ersatzschlüssel fertigt er schnell und präzise an, bei der Auswahl einer Schließanlage berät er. Für das Zuhause erstellt der Betrieb kostenlos ein Sicherheitskonzept, das auf die jeweiligen Bedürfnisse zugeschnitten ist. Gearbeitet wird sauber und ohne unnötige Spuren an der Tür. Die Sicherheitstechnik umfasst die Beratung zum Schutz von Haus und Wohnung. Ein Kontaktformular steht für Anfragen bereit."
+  },
+  {
+    "slug": "schluesseldienst-ramona-braunroth-staufenberg",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "false",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Schlüsseldienst Ramona Braunroth in Staufenberg verkauft Schlüssel, Schlüsselrohlinge, Schlösser und Profilzylinder, fertigt Schlüsselkopien an und installiert Schlösser für Zuhause und Unternehmen. Im Umkreis von 50 km kommt der Betrieb zu Haustüren, Briefkästen und Möbelschlössern, auch Schlösser an E-Bikes bestimmter Marken gehören dazu. Türöffnungen übernimmt er ebenfalls, hinzu kommen Schlossreparatur und Sicherheitsberatung. Als Schlüsselparadies beschreibt sich der Betrieb, mit großer Auswahl an Schlüsseln und Schlüsselrohlingen aller Art. Das Sortiment umfasst auch Schlüsselanhänger und sonstiges Zubehör. Einen 24-Stunden-Notdienst gibt es nicht, telefonisch ist der Betrieb an Werktagen erreichbar. Bestellte Ware lässt sich nach telefonischer Vereinbarung abholen, daneben besteht ein Online-Shop, ein Versand ins Ausland findet nicht statt. Die telefonischen Geschäftszeiten liegen an Werktagen mit einer Mittagspause am Vormittag und am Nachmittag. Das Sortiment wird auch online verkauft."
+  },
+  {
+    "slug": "sicherheitszentrale-forth-gmbh-stassfurt",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Die Sicherheitszentrale Forth GmbH arbeitet in Staßfurt im Bereich der Sicherheitstechnik und ist zugleich als Schlüsseldienst eingeordnet. Als Hauptkategorie führt der Betrieb Anbieter von Sicherheitsausrüstung, der Schlüsseldienst kommt als weitere Kategorie hinzu. Er ist als GmbH organisiert, für ihn sind Öffnungszeiten hinterlegt, und er führt eine kurze Begrüßung an seine Kunden."
+  },
+  {
+    "slug": "klaus-dieter-pfeiffer-steffenberg",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "true",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Schlüssel & Schloss in Steffenberg gehört zur Schreinerei Pfeiffer im Ortsteil Steinperf. Der Betrieb verbindet Schreinerarbeiten mit einem Sicherheitsfachgeschäft und bietet Haustüren an. Zusammen bilden Schreinerei, Haustüren und Sicherheitsfachgeschäft ein Angebot, das Tür und Schloss gemeinsam abdeckt. Ein Schlüsselnotdienst ist jederzeit erreichbar, neben einer örtlichen Nummer auch über eine kostenfreie Rufnummer. Zum Betrieb gehört außerdem ein Ferienhaus. Als Hauptkategorie führt er das Schreinerhandwerk, der Schlüsseldienst kommt als weitere Kategorie hinzu. Die Verbindung von Holzarbeit und Sicherheitstechnik prägt den Betrieb. Schreiner und Notdienst sind unter einem Dach vereint."
+  },
+  {
+    "slug": "nicolae-craiovan-schluesseldienst-nico-stein-bei-nuernberg",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Nicolae Craiovan führt in Stein bei Nürnberg einen Schlüsseldienst, der unter dem Namen Nico auftritt. Der Betrieb ist mit Schlüsseldienst als einziger Kategorie eingetragen, Nebenkategorien gibt es nicht. Für ihn sind feste Öffnungszeiten hinterlegt, und er gehört zu den Schlüsseldiensten im Raum Nürnberg. Er richtet sich damit an Kunden in Stein und den Nachbarorten rund um Nürnberg."
+  },
+  {
+    "slug": "stuthe-bauelemente-sicherheitstechnik-gmbh-steinhagen",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Stuthe Bauelemente & Sicherheitstechnik in Steinhagen verbindet einen Schlüsseldienst mit der Herstellung von Bauelementen. Der Schlüsseldienst führt Notöffnungen aus, betreibt einen Schlüsselnotdienst, fertigt Schlüssel nach und berät zur Sicherheit von Zuhause und Unternehmen. Dazu kommen Montage und Herstellung von Handläufen, Geländern, Vordächern und Türen nach individuellem Maß. Mittwochs und freitags ist der Betrieb nach Terminabsprache per Anruf geöffnet.",
+    "trace": {
+      "tueroeffnung": "professionelle Notöffnungen",
+      "schluessel_nachmachen": "Schlüsselreplikationen"
+    }
+  },
+  {
+    "slug": "struck-metallverarbeitung-gmbh-co-kg-steinheim",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Struck Metallverarbeitung in Steinheim ist ein Metallbetrieb, der aus der traditionellen Metallverarbeitung gewachsen ist und mehr als 20 Jahre Erfahrung angibt. Gefertigt wird durch Drehen, Lasern, Biegen und Schweißen, jedes Bauteil soll mindestens die europäische Norm EN 1090 erfüllen. Das Angebot reicht von einzelnen Projekten bis zu komplexeren Konstruktionen. Hinzu kommt Werbetechnik mit Leuchtkästen, Leuchtbuchstaben und Werbepylonen für Shops und Filialen."
+  },
+  {
+    "slug": "robertus-gmbh-stemwede",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Die Robertus GmbH in Stemwede ist ein Handwerksbetrieb rund um Fenster und Türen, Sonnenschutz und Innenausbau. Zu ihren Kategorien zählen Türengeschäft, Fenstereinbau, Markisen, Trockenbau, Bodenbeläge und Möbelherstellung, außerdem ist sie als Schlüsseldienst eingeordnet. Fenster und Türen werden eingebaut, Markisen und weitere Sonnenschutzlösungen montiert. Der Betrieb hat Öffnungszeiten und eine Mobilnummer hinterlegt. Im Mittelpunkt steht damit die Arbeit am und im Haus, der Schlüsseldienst ist eine von mehreren Tätigkeiten. Als Möbelhersteller, Fensterlieferant und Türengeschäft deckt der Betrieb die Ausstattung von Räumen ab."
+  },
+  {
+    "slug": "obi-stephanskirchen-stephanskirchen",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "In Stephanskirchen betreibt OBI einen Baumarkt für Bauen, Wohnen, Technik und Garten. Der Markt berät zu Bad, Küche und Garten und bietet einen Farbmischservice, einen Holzzuschnitt-Service, Mietgeräte, einen Lieferservice und Mietanhänger an. Bad- und Gartenplaner, ein Gartencenter und eine Wertstoffrücknahme gehören ebenfalls dazu. Umtausch ist innerhalb von drei Monaten möglich, Geschenkkarten gibt es in vielen Designs. Der Schlüsseldienst des Marktes fertigt Schlüssel an, die direkt zum Mitnehmen fertig sind. Für Profis und Heimwerker gibt es eigene Angebote und einen Werkzeugverleih.",
+    "trace": {
+      "schluessel_nachmachen": "Für dich sofort angefertigt – direkt zum Mitnehmen"
+    }
+  },
+  {
+    "slug": "schluesseldienst-stockelsdorf-stockelsdorf",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Verschlossene Türen in Stockelsdorf, Ostholstein und Lübeck öffnet Schlüsseldienst Stockelsdorf nach eigener Angabe Tag und Nacht, in nahezu allen Fällen ohne Beschädigung. Das Angebot umfasst Zylindertausch, Schlossmontage und Schlossreparatur, Ersatzschlüssel, Panzerriegel, Fenster- und Türsicherungen und den Einbau von Schließanlagen, dazu die Beseitigung von Einbruchschäden. Schlüsselrohlinge zahlreicher Hersteller hält der Betrieb auf Lager. Auch Autoöffnungen und Autoschlüssel gehören dazu, ebenso Tresoröffnungen und Tresorschlüssel, der Tresorservice ist rund um die Uhr besetzt. Die Sicherheitsberatung vor Ort richtet sich an Privatkunden und Gewerbe. Den Preis nennt der Betrieb bereits im ersten Gespräch, zusammen mit der Anfahrtszeit. Zugefallene Türen, abgebrochene Schlüssel und verlorene Schlüsselbunde zählen zu den typischen Anlässen. Beim Zylindertausch und im Schlossnotdienst wird auch an Wochenenden und Feiertagen im 24-Stunden-Service gearbeitet. Die Beratung beim Einbruchschutz gilt Türen, Fenstern und Garagentoren.",
+    "trace": {
+      "gewerblich_objektbetreuung": "Sicherheitsberatung für Privat & Gewerbe"
+    }
+  },
+  {
+    "slug": "abc-schluesseldienst-stolberg-rheinland",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "true",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Der inhabergeführte ABC Schlüsseldienst in Stolberg versorgt Aachen und die gesamte Städteregion und hat lange Erfahrung in der Türöffnung. Er öffnet Haustüren, Autos und Tresore, repariert Schlossdefekte und Einbruchschäden und montiert Zusatzschlösser an Türen und Fenstern, auch die Reparatur defekter Schlösser von der Haustür bis zum Tresor gehört dazu. Steckt der Schlüssel von innen, ist das für die Öffnung kein Hindernis. Schließanlagen stammen aus eigener Produktion, dazu kommen Alarmanlagen, Videoüberwachung und Schlüssel aller Art, auch für Fahrzeuge mit Wegfahrsperre und nach Code. Der Betrieb berät individuell, bietet zahlreiche Schließsysteme an und setzt sie auch um. Nach eigener Angabe ist er in etwa 20 Minuten vor Ort, Fahrtkosten und Mehrwertsteuer sind in den festen Preisen eingerechnet. Er gibt an, Mitglied der Handwerkskammer sowie der Industrie- und Handelskammer Aachen zu sein.",
+    "trace": {
+      "schlossaustausch": "Montage von Zusatzschlössern an Türen und Fenstern"
+    }
+  },
+  {
+    "slug": "volker-tabbert-strasburg",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Die Kunst- und Bauschlosserei Tabbert ist ein Familienbetrieb in Strasburg, der seit 1946 besteht. Er fertigt Treppen, Geländer, Tore, Zäune und Schmiedekunst und übernimmt Beratung, Fertigung und Montage. 1994 baute der Betrieb eine Wendeltreppe über zwei Etagen für das Kulturhaus Strasburg, für das Gutshaus Wilsickow entstanden künstlerische Treppengeländer. Zu den weiteren Arbeiten zählen Wäschegerüste, Fahrradständer sowie Schließanlagen und Türreparaturen für die Wohnungsgesellschaft vor Ort. Die Aufträge kommen von Privat- und Firmenkunden, private und gewerbliche Objekte werden gleichermaßen betreut. Der Betrieb blickt auf acht Jahrzehnte Firmengeschichte zurück."
+  },
+  {
+    "slug": "andreas-einwich-strullendorf",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Die Schlosserei Einwich in Strullendorf arbeitet an Geländern, Treppen, Türen und Markisen und übernimmt Metallbau, Blechbearbeitung, Sägen und Schweißen. Daneben führt der Betrieb Sicherheitstechnik, Schließanlagen, Beschläge und Einbruchschutz. Im Metallbau fertigt er Geländer, Treppen und Türen, bei der Sicherheitstechnik geht es um Schließanlagen und Beschläge, beim Einbruchschutz um den Schutz von Gebäuden. Zum Betrieb gehört außerdem ein Schlüsseldienst, der nach eigener Angabe nun in Strullendorf sitzt und über eine eigene Adresse für Sicherheitstechnik erreichbar ist. Der Betrieb gibt an, als Handwerksbetrieb im aktuellen Errichternachweis für mechanische Sicherungstechnik aufgenommen zu sein. Die Schlosserei bietet damit Metallarbeiten für Bauteile am Haus und Sicherheitstechnik für Türen und Fenster aus einem Betrieb. Der Kontakt läuft über getrennte Adressen für Schlosserei und Schlüsseldienst, beide in Strullendorf."
+  },
+  {
+    "slug": "bismarck-schluesseldienst-brinkum-stuhr",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Der Bismarck Schlüsseldienst in Brinkum bei Stuhr ist nach eigener Angabe seit über 40 Jahren im Geschäft und öffnet Häuser, Türen und Schlösser aller Art. Der Schlossnotdienst ist Tag und Nacht erreichbar. Beim Einbruchschutz setzt der Betrieb auf Sicherheitseinrichtungen, die von der Kriminalpolizeilichen Beratungsstelle empfohlen werden, und verwendet dazu eigens angefertigte Werkzeuge und Systeme.",
+    "trace": {
+      "tueroeffnung": "Türen und Schlösser aller Art",
+      "einbruchschutz": "Wir sichern ihr zuhause gegen Einbruch"
+    }
+  },
+  {
+    "slug": "theegarten-schluesseldienst-gmbh-stutensee",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Aus der E.-F. Bieringer GmbH ging 1994 die Theegarten Schlüsseldienst GmbH in Stutensee hervor, und sie hat sich seither im Markt für Sicherheitstechnik etabliert. Als Hauptkategorie führt sie den Anbieter von Sicherheitsausrüstung, der Schlüsseldienst kommt als weitere Kategorie hinzu. Der Betrieb ist eine GmbH, und für ihn sind Öffnungszeiten hinterlegt."
+  },
+  {
+    "slug": "autoschluessel-billiger-auto-schluesseldienst-stuttgart-bad-cannstatt",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "true",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Ein Familienunternehmen mit Wurzeln im Schuhmacherhandwerk steht hinter Autoschlüssel-Billiger in Stuttgart Bad Cannstatt: Der Gründer eröffnete 1990 in Waiblingen einen Schuh- und Schlüsseldienst, sein Sohn übernahm 2014 die Leitung der ersten eigenen Filiale. Heute gibt es drei Filialen in Bad Cannstatt, Waiblingen und Steinheim an der Murr. Der Schwerpunkt liegt auf Autoschlüsseln für nahezu jede Fahrzeugmarke: Nachmachen, Programmieren, Reparieren und Neuanfertigung nach Verlust. Funk-, Transponder- und Wegfahrsperrenschlüssel werden angelernt und neu codiert, auch nach Batteriewechsel oder Steuergerätetausch. Bei seltenen Schließsystemen klärt der Betrieb die Machbarkeit vorab im Gespräch. Die meisten Anliegen sind am selben Tag erledigt, der Betrieb kommt nach Absprache zum Kunden oder empfängt ihn in der Werkstatt. Eingesetzt wird in Stuttgart, Ludwigsburg, Waiblingen, Esslingen, Sindelfingen, Böblingen, Fellbach und weiteren Orten. Daneben gibt es Schuhreparatur, Uhrenservice, Lederwaren sowie Gravuren und Stempelservice. Für echte Notfälle ist eine 24-Stunden-Nummer erreichbar, sonn- und feiertags bleibt die Werkstatt geschlossen."
+  },
+  {
+    "slug": "schluesseldienst-stuttgart-haegele-stuttgart-vaihingen",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Schlüsseldienst Stuttgart Haegele in Stuttgart Vaihingen öffnet Türen schadenfrei, ebenso Autos, Lkw, Oldtimer und Wohnwagen, und ist nach eigener Angabe rund um die Uhr im Einsatz. Die speziell geschulten Techniker sind im gesamten Stadtgebiet und in der Umgebung tätig und nach eigener Angabe in 10 bis 20 Minuten vor Ort. Im Programm sind Gleichschließungen sowie mechanische und mechatronische Schließanlagen von Marken wie ABUS, BKS, CES, EVVA, Keso, WILKA und Zeiss Ikon, auch mit Sicherungskarte, dazu elektronische Schließanlagen und Motorschlösser. Tresore öffnet der Betrieb schadenfrei, er transportiert und verkauft neue und gebrauchte Tresore. Hinzu kommen Schlüsselkopien für Haus und Auto, Fenster- und Türsicherungen, Alarmanlagen, Einbruchmeldeanlagen, die Wartung von Rauchmeldern, Briefkästen und Pokale mit Gravur. Der Einsatzradius reicht von Affalterbach über Aidlingen und Altbach bis Backnang, verkauft werden auch Tresore der Marken Format und Burgwächter."
+  },
+  {
+    "slug": "abc-schluesseldienst-stg-stuttgart-wangen",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "In Stuttgart Wangen und Umgebung öffnet ABC-Schlüsseldienst-stg zugefallene Türen, wechselt Schlösser und berät zur Sicherheit. Nach eigener Angabe geschieht das in den meisten Fällen beschädigungsfrei und mit kurzen Einsatzzeiten. Zu den Anlässen zählen zugefallene Türen, verlorene Schlüssel und defekte Schlösser. Der Betrieb arbeitet für Privatkunden, Unternehmen und Hausverwaltungen und ist rund um die Uhr erreichbar."
+  },
+  {
+    "slug": "koenenkamp-metall-glas-gmbh-syke",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Die Könenkamp Metall + Glas GmbH in Syke stellt Fassaden, Fenster, Türen, Überdachungen und Wintergärten her und montiert sie. Gearbeitet wird mit Stahl, Edelstahl und Aluminium. Brandschutztüren und Dreh-Kipp-Fenster werden in der eigenen Werkstatt mit Beschlägen und elektronischen Bauteilen für den Einbau vorbereitet, computergesteuert gefertigt, auf der Baustelle folgt die Montage. Zum Angebot gehören außerdem Garagentore, Sonnenschutz, Schlosserei und Edelstahlverarbeitung, Leichtmetallbau, Sonderkonstruktionen und ein Kundendienst. Für sicherheitsrelevante Gewerbe und die Polizei liefert der Betrieb Fenster und Türen mit durchschusshemmender Ausstattung. Fassaden aus Metall und Glas bilden den Schwerpunkt."
+  },
+  {
+    "slug": "sicherhaus-sylt-gmbh-co-kg-schluesseldienst-sylt-ost",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Auf Sylt ist Sicherhaus Sylt der Fachbetrieb für Sicherheitstechnik, mit einem Fachgeschäft in Tinnum. Der Schlüsselnotdienst hilft bei zugefallenen Türen und verlorenen Schlüsseln mit einer möglichst zerstörungsfreien Notöffnung. Im Notdienstpreis sind die Anfahrt und bis zu 45 Minuten Arbeitszeit vor Ort enthalten, Material wie neue Zylinder oder Schlösser wird bei Bedarf gesondert berechnet. Das Programm reicht von mechanischer Schließtechnik mit Zylindern, Schlössern und Schließanlagen über elektronische Zutrittssysteme bis zu Einbruchschutz, Brandschutz, Tresoren, Tür- und Fensterbeschlägen, Briefkästen und Schlüsselübergabesystemen sowie Schildern und Gravuren. Beratung, Verkauf und Montage kommen aus einer Hand. Beraten werden Privatkunden, Vermieter, Hausverwaltungen und Gewerbebetriebe, auch für Ferienimmobilien und Appartementvermietungen. Ein Team stellt sich vor, und der Betrieb nennt Lieferanten und Partner, mit denen er arbeitet. Schilder und Gravuren reichen von der Einzelanfertigung bis zur kompletten Beschilderung.",
+    "trace": {
+      "tueroeffnung": "bei zugefallenen Türen",
+      "ladengeschaeft": "In unserem Fachgeschäft in Tinnum",
+      "festpreis_genannt": "inklusive Mehrwertsteuer und gelten für eine einfache, möglichst zerstörungsfreie Notöffnung"
+    }
+  },
+  {
+    "slug": "tasch-sicherheitstechnik-gmbh-soemmerda",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Die TASCH Sicherheitstechnik GmbH hat Standorte in Sömmerda und Mühlhausen und konzentriert sich auf Schließtechnik. Zum Programm gehören mechanische Schließsysteme und Schließanlagen, elektronische Systeme mit Codeschlössern, Transpondersystemen und berührungsloser Zutrittskontrolle sowie Auto- und Transponderschlüssel für elektronische Wegfahrsperren. Dazu kommen Ketten, Hangschlösser, Schlüssel, Schlösser und Beschläge, Tresore, Wertschränke und Waffenschränke. Die Systeme lassen sich nach eigener Angabe individuell anpassen und steuern. Eine Referenzliste nennt Kunden aus Landwirtschaft, Verwaltung, Industrie und Justiz, darunter eine Agrartechnik- und Maschinenbau-Firma, ein Liegenschaftsmanagement der AOK in Gera, ein Servicebetrieb in Mühlhausen und das Justizzentrum Mühlhausen. Für beide Standorte sind Öffnungszeiten hinterlegt, und zu den Produkten stehen Anleitungen zum Herunterladen bereit. Der Betrieb bietet flexible Sicherheitskonzepte an, die sich individuell anpassen lassen. Zum Programm zählen außerdem Berührungslose Zutrittslösungen und Schlüssel für Zutrittskontrollen."
+  },
+  {
+    "slug": "creativ-metallbau-tamm-tamm",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Creativ Metallbau Tamm ist eine Schlosserei im Landkreis Ludwigsburg und baut Geländer, Treppen, Balkone, Türen und Tore, Zäune und Einhausungen, Vordächer und Überdachungen sowie Möbel und individuelle Stahlkonstruktionen. Fenstergitter gehören zum Einbruchschutz im Angebot. Flächen werden im Beschichtungsverfahren in allen RAL-Farben veredelt. Wenn ein Projekt ansteht, nimmt der Betrieb vor Ort Maß und übernimmt die Umsetzung. Zu den Kunden zählen Gewerbe- und Industriekunden ebenso wie Privatkunden aus der Region. Möbel, Balkone und Stahlkonstruktionen entstehen individuell nach Maß für private und gewerbliche Kunden."
+  },
+  {
+    "slug": "leichtenmueller-kollmann-gmbh-tapfheim",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Zwei Handwerksmeister führen die Leichtenmüller Kollmann GmbH in Tapfheim, die Spenglerarbeiten, Metallbau, Heizungsbau, Badsanierung und Haustechnik verbindet. Der Metallbau umfasst Geländer, Überdachungen, Balkone und Fenstergitter, bei der Spenglerei geht es um Flachdach, Metalldach, Blecharbeiten und Fassadenverkleidung. Bei Bad und Heizung reicht das Angebot von Badmodernisierung und Fördermöglichkeiten für das Bad bis zu Heizungsmodernisierung und regenerativen Heizsystemen. Auch ein Schlüsseldienst gehört zum Leistungsspektrum. Der Kundendienst steht bei Störungen an der Heizung, bei Rohrbrüchen und bei Verlust von Schlüsseln zur Verfügung. Eine Ausstellung ergänzt das Angebot."
+  },
+  {
+    "slug": "jan-goerrissen-tarp",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Das Autohaus Görrissen in Tarp ist ein Kfz-Betrieb mit Werkstatt und Fahrzeugverkauf, auch Gebrauchtwagen. Als Partner fürs Auto bündelt der Betrieb Reparatur, Fahrzeughandel und Schlüsseldienst an einem Ort. Den Schlüsseldienst bietet er nach eigener Angabe seit vielen Jahren an. Hauptkategorie des Eintrags ist Kfz-Reparatur und Wartung, Gebrauchtwagenhandel und Schlüsseldienst sind weitere Kategorien. Wer eine Reparatur in Raten bezahlen möchte, kann das vor Beginn der Arbeiten mit dem Betrieb vereinbaren. Öffnungszeiten für Werkstatt und Verkauf sind hinterlegt. Kunden erreichen den Betrieb per Anruf oder E-Mail."
+  },
+  {
+    "slug": "frank-reimers-tating",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "In Tating auf Eiderstedt arbeitet Frank Reimers als Tischler und führt zugleich den Schlüsseldienst als Kategorie. Schulische und berufliche Ausbildung absolvierte er auf Eiderstedt, Projekte entlang der Nordseeküste von Sylt über St. Peter-Ording bis nach Hamburg erweiterten seine Erfahrung. Seit 2014 hat Frank Reimers den Meistertitel im Tischlerhandwerk. Als weitere Kategorien sind Möbeltischlerei, Bauschreinerei und Umzugsbedarf genannt."
+  },
+  {
+    "slug": "layer-grosshandel-gmbh-co-kg-tettnang",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "false",
+      "tueroeffnung": "false",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "LAYER-Grosshandel in Tettnang beliefert Handwerk, Industrie und Landwirtschaft mit Werkzeugen, Maschinen, Beschlägen, Schrauben und Arbeitskleidung samt Textilveredelung und persönlicher Schutzausrüstung. Der Betrieb unterhält eine Werkstatt für Husqvarna und STIHL und einen Ersatzteilservice mit über 600.000 Artikeln, daneben gibt es einen Onlineshop und 24-Stunden-Abholstationen. Der Schlüsselservice fertigt Nachschlüssel für Haustüren, Briefkästen, Möbel, Fahrzeuge, Spezialprofile und Schließanlagen an, entweder direkt oder über eine Bestellung beim Hersteller. Geschützte Schlüssel verlangen die Sicherungskarte, viele Schlüssel lassen sich über die Schlüsselnummer nachbestellen. Bei größeren Aufträgen ab etwa 20 Schlüsseln oder Zylindern ist eine vorherige Abstimmung vorgesehen, vor Ort, telefonisch oder per E-Mail. Während der Wartezeit gibt es belegte Brötchen und Getränke. Der Schlüsselservice ist kein Notdienst und bietet keine Türöffnungen an. Für Unternehmen und Objekte gibt es Schließtechnik bis zur Zutrittskontrolle.",
+    "trace": {
+      "gewerblich_objektbetreuung": "Wir beliefern Handwerk, Industrie und Landwirtschaft"
+    }
+  },
+  {
+    "slug": "dirk-scharbau-sicherheitstechnik-schliesstechnik-timmendorfer-strand",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "true",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Sicherheits- und Schließtechnik in Timmendorfer Strand und im Umkreis von 80 km bietet Dirk Scharbau an. Gemeinsam mit den Kunden entwickelt der Betrieb ein individuelles Sicherheitskonzept und versteht sich als Fachbetrieb für alle Belange rund um die Sicherheit. Der Schlüsseldienst ist rund um die Uhr erreichbar, ein Schlüsselnotdienst ist ausdrücklich genannt. Zum Leistungsumfang zählen Schließanlagen, elektronisch und mechanisch, sowie die Wartung von Türen und Fenstern. Der Betrieb sieht sich als Ansprechpartner für Eigentümer, die ihr Eigentum schützen wollen, und berät dazu persönlich. Daneben bietet er Sicherheitstechnik an, die zur jeweiligen Lage passt, und stellt Kunden ein Kontaktformular für Anfragen zur Verfügung. Kartenzahlung ist möglich. Zur Beratung bringt er nach eigener Angabe Kompetenz und fachliches Know-how mit, der Einsatzradius von 80 km ist groß.",
+    "trace": {
+      "elektronische_schliesssysteme": "Schließanlagen Elektronisch und Mechanisch"
+    }
+  },
+  {
+    "slug": "schluesseldienst-tornesch-gravur-u-sicherheitstechnik-hoeltig-tornesch",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Gravuren und Schlüsseldienst treffen in Tornesch zusammen: Der Betrieb ist ein Fachgeschäft für Sicherheitstechnik, Gravuren, Schilder und Stempel und besteht nach eigener Angabe seit über 30 Jahren. In der eigenen Werkstatt entstehen Laser-, Fräs-, Diamant-, Glas- und Handgravuren, Stempel, Schilder, Pokale, Ehrenpreise und Medaillen. Der Schlossnotdienst arbeitet Tag und Nacht und führt Notfalltüröffnungen aus, Schlüsselanfertigung gehört ebenso dazu. Sicherheitsartikel montiert der Betrieb, die Sicherheitsberatung am Objekt ist kostenlos. Haushaltsauflösungen, Entrümpelungen, Transporte und Umzüge gehören ebenfalls zum Angebot. Anfragen für ein Angebot nimmt der Betrieb entgegen.",
+    "trace": {
+      "ladengeschaeft": "Fachgeschäft für Sicherheitstechnik, Gravuren, Schilder- und Stempelherstellung in Tornesch"
+    }
+  },
+  {
+    "slug": "michael-flunk-und-johann-flunk-bauschlosserei-traunreut",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Die Schlosserei Flunk GDBR in Traunreut wird von Michael und Johann Flunk geführt und arbeitet als Bauschlosserei und Metallbau. Gefertigt werden Treppen, Brüstungs- und Außengeländer, Balkone, Vordächer und Überdachungen, Stahltreppen, Tore und Zaunanlagen sowie diverse Sonderkonstruktionen, darunter freitragende Schiebetore. Eine Chronik der Firma und eine Referenzliste ergänzen den Auftritt. Auch Schrauben gehören zum Angebot."
+  },
+  {
+    "slug": "sgsicherheit-traventhal",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "SGSicherheit in Traventhal montiert mechanischen Einbruchschutz, installiert Kameras und öffnet Türen. Zusätzlich bietet der Betrieb IT-Service für PC, Tablet und Smartphone an und verbindet damit Sicherheitstechnik und IT-Dienste in einer Hand. Als Hauptkategorie führt er Anbieter von Sicherheitssystemen, daneben stehen Computerdienste, Sicherheitsausrüstung und Schlüsseldienst. Kameras und mechanischer Einbruchschutz stehen im Mittelpunkt."
+  },
+  {
+    "slug": "metalldesign-heinz-trierweiler",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Metalldesign Heinz ist ein Metallbauunternehmen in Trierweiler, das designorientierte Geländer, Treppen, Sichtschutz, Tore, Gartentüren, Einfahrtstore und Fenstergitter plant, fertigt und montiert. Verarbeitet werden Stahl, Edelstahl, Aluminium und Cortenstahl, Wert legt der Betrieb auf die Materialien und deren Verarbeitung. Abtrennungen dienen als Sichtschutz oder zur räumlichen Trennung, Treppen entstehen maßgeschneidert, schlicht und elegant."
+  },
+  {
+    "slug": "erich-bis-tyrlaching",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "BIS Schlosserei & Schlüsseldienst in Tyrlaching verbindet Metallverarbeitung mit einem Schlüsseldienst, der als Familienbetrieb seit 1973 besteht. In der Schlosserei entstehen Außen- und Innengeländer, Treppen, Zäune und Tore, dank Laserbearbeitung auch Sonderanfertigungen, ergänzt durch Schmieden und Schweißen. Die Schlosserei beschäftigt einen Meister, fünf Gesellen, einen geringfügig Beschäftigten und eine Angestellte für Büro und Verwaltung, der Schlüsseldienst beschäftigt zwei Teilzeitkräfte für Büro und Verwaltung. Die Schlüsseldienstexperten beraten zu Schließsystemen, Türreparaturen, Türöffnungen, Schließanlagen und Beschlägen. Der Betrieb engagiert sich auch regional: 2024 gab es ein Ferienprogramm und eine Spendenaktion anlässlich eines 60. Geburtstags zugunsten der Kinderkrebshilfe Balu und des Vereins Helfer vor Ort der Verwaltungsgemeinschaft Kirchweidach. Zum Betrieb zählen zwei Bereiche, die Schlosserei BIS und der Schlüsseldienst, beide mit eigenem Team. Öffnungszeiten und ein Kontaktformular sind für Anfragen vorhanden."
+  },
+  {
+    "slug": "lh-sicherheitstechnik-toeging-am-inn",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "LH Sicherheitstechnik ist ein Schlüsseldienst in Töging am Inn, der Mühldorf, Waldkraiburg, Altötting, Neuötting, Winhöring und die Umgebung versorgt. Der Betrieb bietet einen 24-Stunden-Notdienst und öffnet Türen ohne Schäden, nach eigener Angabe ist er in 20 bis 40 Minuten vor Ort. Neben der Türöffnung übernimmt er den Schlosswechsel und berät zur Sicherheit. Bei verschlossenen Türen nennt er seine Preise einschließlich Anfahrt und Mehrwertsteuer vorab, ebenso für unverschlossene Türen, dazu kommen Zuschläge an Sonn- und Feiertagen. Muss ein Schließzylinder aufgefräst und ausgetauscht werden, kommen die Kosten für den Zylinder gesondert hinzu. Der Betrieb arbeitet nach eigener Angabe ohne versteckte Kosten, und die Leistung lässt sich online direkt bestellen. Der Betrieb ist täglich auch an Feiertagen im Einsatz, telefonisch läuft der Kontakt über eine Festnetznummer und eine Mobilnummer."
+  }
+]

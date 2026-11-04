@@ -179,3 +179,131 @@ Zahlen, was auf Freigabe wartet.
   in den Google-Daten (Merz Sicherheit Mannheim; eine Ludwigshafener Zeile über Telefon) – die
   übrigen 19 haben kein bewertetes Google-Profil unter `locksmith` und wurden nicht etwa verworfen.
   **Wartet auf:** Freigabe von `02-listings-clean.csv`, dann Gate 3.
+- **2026-11-03** **Gate 2 freigegeben; eigene Betriebe nachgetragen; Gate 3 begonnen.**
+  `add_own_listings.py` (Regeln [[eigene-betriebe]]) trug 12 eigene Betriebe nach (1 Dublette
+  übersprungen): **2.912 → 2.924**, alle owned/thin/ohne Bewertung/ohne Garantie.
+  **Umfang Gate 3 geändert (Betreiber):** nicht BW/RP/HE + 30 Städte, sondern **alle Einträge mit
+  Belegbasis**. Belegklassifikation: **2.672 mit Textgrundlage** (Maps-Text oder lesbare Website),
+  **252 ohne jeden Beleg → bleiben Grundeinträge** (nicht anreichern).
+  Merkmalsdatei `03-attributes.json` aus `scripts/examples/` kopiert (14 Merkmale, Kern
+  `schluesseldienst_kern`, 6 `service`-Blöcke = die sechs Leistungsseiten). Websites gelesen
+  (`fetch_sites.py`), Belege gebaut (`build_evidence.py`, ~2,2 Mio. Token, 761/Eintrag).
+  **Stapelläufer rechnet über das Claude-Abo** des Betreibers (kein API-Key), Verbrauch zählt
+  gegen das Wochenkontingent; `run_batches.py` protokolliert jetzt die **echten Token** je Stapel.
+  **Vier Skriptkorrekturen in Gate 3:**
+  1. `fetch_sites.py` dekodierte latin-1/1252-Seiten als UTF-8 und packte gzip nicht aus → 48
+     Cache-Dateien mit Mojibake/Binär. Neu: `_decode` (UTF-8 zuerst, tolerant gegen wenige
+     Fehlbytes, dann deklarierte Kodierung, dann cp1252) und `_decompress` (gzip/deflate nach
+     Header oder Magic-Bytes). Betroffene neu geholt: 48 → 1 (Rest ist eine Mojibake-Stelle in der
+     Meta-Angabe der Quelle selbst).
+  2. `make_batches.py` stürzte an Zeilen ohne Bewertung ab (`int('')`); rendert jetzt
+     „rating: none" für die nachgetragenen eigenen Betriebe.
+  3. `run_batches.py`: Token-Protokollierung (siehe oben).
+  4. **Sechs Textregeln** vom Betreiber verlangt, in `enrichment-instructions.md` geschärft und als
+     harte Prüfungen in `merge_enriched.py` verankert (lassen den Zusammenbau scheitern): keine
+     Preise/Prozent, keine Bewertung/Sterne im Text, keine Kontaktdaten (Telefon, E-Mail,
+     Straße+Nr.), keine Leseransprache (Sie/Ihr/Imperativ), nichts aus Karriere-/Partnerbereichen,
+     keine Google-Ausstattungsmerkmale als Fließtext. Die alte Regel, die die Bewertungszeile
+     verlangte, und die Erlaubnis für Website-Preise wurden entfernt.
+  **Probeläufe auf Sonnet:** 40er-Stapel (erst mit Preisen, verworfen), dann 20er-Stapel mit den
+  geschärften Regeln: **20/20 bestanden, 0 Verletzungen**, 997.766 Token / 0,975 $ (~50k Token,
+  ~4,9 ct je Eintrag). Hochrechnung voller Lauf (2.672): **~130 $-Äquivalent**, überwiegend
+  Cache-Reads, ~2,5–3 h bei 3 Läufern.
+  **Für Gate 4 vermerkt:** Eintrag „Sicherheitsberater für Mechanische Nachrüstung…" (Goslar) ist
+  ein keyword-gefüllter Google-Name; der echte Firmenname laut eigener Website ist „Schlüsseldienst
+  Meineke" – Beispiel für schlechte Eintragsnamen, die Gate 4 prüft.
+  **Wartet auf:** Freigabe des 20er-Probestapels, dann voller Gate-3-Lauf über die 2.672.
+- **2026-11-04** **Gate 3 voll gelaufen.** 20er-Probestapel freigegeben, dann 86 Stapel (2.652
+  Einträge) auf Sonnet im Hintergrund, Monitor mit 5-%-Abbruchregel (griff nicht). Ergebnis:
+  **86/86 bestanden, 0 durchgefallen, 0 Wiederholungen.** Verbrauch **123,06 $-Äquivalent,
+  131,96 Mio. Token, 4,6 ct/Eintrag, 3 h 12 min** – deckt sich mit der Hochrechnung (~130 $).
+  `merge_enriched.py --basic-unanswered` schrieb `03-listings-enriched.csv`: **2.924 Zeilen,
+  2.672 angereichert, 252 Grundeinträge** (ohne Beleg, jedes Merkmal „keine Angabe"). Dünne
+  Einträge 1.020 → 741. Merkmalszählung u. a. **schluesseldienst_kern: 1.432 wahr / 507 falsch /
+  733 keine Angabe** – die 507 (darunter 75 mit primärer Kategorie `Locksmith`) sind die
+  Kernarbeits-Entscheidung für Gate 4. Bericht `03-enrich-report.md` geschrieben (Website-Status,
+  Verbrauch vs. Hochrechnung, Merkmalszählung, core=false nach Kategorie, 737 Läufer-Notizen
+  zusammengefasst, offene Punkte: 507 core=false, schlechte Namen wie Goslar/„Meineke", 252
+  Grundeinträge, Vermittler). **Wartet auf:** Durchsicht `03-cache/review.md` + Freigabe, dann
+  Gate 4.
+- **2026-11-04** **Gate 3 freigegeben, Gate 4 begonnen.** Betreiber-Korrektur zu den 507
+  `kern=false`: zwei Gruppen. **431 fremde Gewerbe ausschließen** (`04-exclusions.csv`), **76
+  locksmith-Kategorie behalten** als Grundeinträge (75 `Locksmith` + 1
+  `emergency_locksmith_service`; Liste `04-keep-locksmith-review.md` zur Ausreißer-Durchsicht).
+  Behalten nach Ausschluss: **2.493**. Zahlen für die Entscheidungstabelle gerechnet:
+  Stadt-Mindestzahl 2 → 380 Seiten/1.755 Einträge, 3 → 170/1.335; `foldMaxKm` 30 → 310
+  eigenständige Ortsseiten, 50 → 98 (+4 ohne Koordinaten); dünn nach Ausschluss 675 (nicht dünn
+  1.818); Sitemap zum Start 2.324 (foldMaxKm 30) bzw. 2.112 (50). Bundesländer-Reihenfolge nach
+  Einträgen (NW 582 … HB 25), alle 16 mit Seite. `04-plan.md` (Entwurf) mit Entscheidungstabelle
+  und Vorschlägen (Mindestzahl 3, foldMaxKm 50, sechs Leistungsseiten) geschrieben.
+  **Wartet auf:** Entscheidungen zu Mindestzahl/foldMaxKm (und Durchsicht Keep-Liste, Ketten,
+  Callcenter), dann Gate 5.
+- **2026-11-04** **Gate-4-Entscheidungen (Betreiber):** Stadt-**Mindestzahl 2**, **foldMaxKm 30**.
+  Begründung: Notdienst fährt 20–30 km, bei 50 km erschienen Betriebe aus 45 km auf fremden
+  Stadtseiten. Neu gerechnet mit Mindestzahl 2: **380 Stadtseiten**, und bei foldMaxKm 30 nur
+  **80** eigenständige 1-Eintrag-Ortsseiten (die 310 galten für Mindestzahl 3 – korrigiert).
+  Sitemap zum Start **2.224** (die 80 Ortsseiten zunächst draußen). **Gate-6-Regel:** die 80
+  1-Eintrag-Ortsseiten starten außerhalb der Sitemap, nach der 30-Tage-Prüfung tranchenweise
+  frei – in `06-launch.md` festgehalten. Bestätigt: jede Stadt ab 2 Einträgen bekommt eine eigene
+  Seite (Nürnberg 22, Fürth 8, Mannheim 19, Ludwigshafen a. Rh. 5, Heidelberg 7; getrennt von
+  Namensnachbarn). Für Gate 5 vermerkt: Template-Mindestzahl ist 3 – auf 2 parametrisieren.
+  **Wartet auf:** Durchsicht Keep-Liste (76) und Kandidatenlisten Ketten/Callcenter, dann Gate 5.
+- **2026-11-04** **Gate 4: drei Listen gerechnet, Datenstand steht.** Keep-Liste (75 Locksmith)
+  nach Betreiber-Regeln vorsortiert: **alle 75 → Gruppe B (behalten)** (irgendwo Schloss-/Schlüssel-
+  Bezug), 0 Gruppe A, 0 Gruppe C; `04-keep-sorted.md`. **Ketten** (`04-chains.md`): 42 Gruppen
+  gleichen Namens in ≥2 Städten, aber **0 Standorte** erfüllen die Ausschlussregel (geteilte
+  Domain+Nummer und keine prüfbare Anschrift) – alle haben eigene Nummer oder Anschrift.
+  **Callcenter** (`04-callcenter.md`): Daten sind sauber (0 Postfach, 7 ohne Straße, 3×0800),
+  Vorwahl-Prüfung datenintern (Heimvorwahl je Stadt); nur **2 Kandidaten** mit ≥2 Merkmalen
+  (beide nur „keine Straße + Mobil", echte Einmannbetriebe ohne Straßenangabe), kein owned; der
+  1 `emergency_locksmith_service` ohne Merkmal → bleibt. **Template** `site.json` auf
+  `cityFloor: 2`, `foldMaxKm: 30` gesetzt. Datenstand: **431 ausgeschlossen, 2.493 behalten**.
+  **Wartet auf:** Entscheidung 9 (2 Callcenter-Kandidaten) und 10 (4 Orte ohne Koordinaten),
+  dann Gate 5.
+- **2026-11-04** **Gate 4 abgeschlossen; vier Betreiber-Nachträge.** (1) **Callcenter:** Merkmal
+  „keine Straße" (und „nur Mobil ohne Straße") gestrichen – Service-Area ist Normalfall, Google
+  blendet die Anschrift aus. Verbliebene Merkmale: Vorwahl≠PLZ, Postfach/Packstation/c-o, nur
+  0800, Nummer in mehreren Städten. Ergebnis **0 Kandidaten**; `04-callcenter.md` neu. (2)
+  **Koordinaten im Skript:** `add_own_listings.py` geokodiert jetzt über Nominatim (1 Anfrage/s,
+  eigener User-Agent) mit Rückfall auf den PLZ-Mittelpunkt aus dem GeoNames-Datensatz; neue
+  Spalte `geo_precision` (exact/plz), PLZ-Mittelpunkte zeigen später die Ortsfläche. Vendorter
+  Datensatz um lat/lon erweitert; `clean_listings.py` setzt `geo_precision=exact` für
+  Scrape-Zeilen. Pipeline neu gelaufen: alle **12 eigenen Betriebe exakt geokodiert**; die 4
+  1-Eintrag-Orte falten innerhalb 30 km (Sinsheim→Kraichtal, Lampertheim→Viernheim,
+  Frankenthal→frankenthal-pfalz, Bensheim→Heppenheim); 80 eigenständige Ortsseiten unverändert.
+  (3) **Stadtseiten-Sortierung** in `konventionen` festgehalten: nach bezahlten Plätzen →
+  Garantie → Festnetz mit passender Ortsvorwahl → Rest (je Gruppe nach Bewertung); Mobil oder
+  Mehrstadt-Nummer zählt nicht als Ortsbezug (ersetzt „Garantie verändert die Reihenfolge
+  nicht"). (4) **Festpreis-Garantie-Voraussetzung 2** verschärft: Festnetz mit passender
+  Ortsvorwahl, Mobil allein genügt nicht – in `konventionen`, `siegel-programm`, der
+  `/festpreis-garantie/`-Seite und beiden Antragsformularen (Pflichtfeld). Datenstand fix:
+  **431 ausgeschlossen, 2.493 behalten.** **Wartet auf:** Freigabe der Voraussetzungsliste, dann
+  Gate 5.
+- **2026-11-04** **Vier weitere Betreiber-Nachträge.** (A) **Voraussetzung 4** gelockert: „liegen
+  mind. 5 Google-Bewertungen vor, Schnitt ≥ 4,0; sonst entscheiden die übrigen Voraussetzungen"
+  (Garantie = Preissicherheit, nicht Bekanntheit). In `konventionen`, `siegel-programm`,
+  `/festpreis-garantie/`-Seite (+ Abschnitt „nicht geprüft": keine Aussage über Bekanntheit) und
+  beiden Formularen (Google-Profil jetzt optional). (B) **Ortsnamen-Normalisierung** in
+  `clean_listings.py` (`city_base`/`canonicalize_cities`): amtliche Zusätze fallen beim Vergleich
+  weg, Varianten derselben Stadt < 5 km bekommen die häufigste Schreibweise; `add_own_listings.py`
+  übernimmt die Scrape-Schreibweise (reuse der Normalisierung). Ergebnis: **1 Scrape-intern**
+  (Königstein i.Ts. ← Falkenstein), **1 eigener** (Frankenthal → Frankenthal (Pfalz)) – die
+  Daten waren schon sauber. `merge_enriched.py` toleriert jetzt verwaiste Antworten (Slug durch
+  Umbenennung geändert) unter `--basic-unanswered`; der eine betroffene eigene Eintrag
+  (Frankenthal) wird Grundeintrag (regeneriert beim nächsten Vollbau). Pipeline neu: **2.670
+  angereichert, 254 Grundeinträge**. (C) **Mittelstadt-Schwelle (Vorschlag, noch nicht
+  umgesetzt):** Einwohner aus GeoNames cities5000 (Feature P, Name + Bundesland). Schwelle 20.000
+  → **+180** Stadtseiten (alle 1 Eintrag), 30.000 → **+84**; Sinsheim (37.036) fällt sonst auf
+  Kraichtal (14.416), Bensheim (41.124) ganz. Würden wie die 80 Ortsseiten behandelt (Start außer
+  Sitemap, Tranchen). **Wartet auf:** Freigabe der Mittelstadt-Schwelle (20k/30k/keine), dann
+  Gate 5.
+- **2026-11-04** **Mittelstadt-Regel: 20.000 gewählt und umgesetzt.** Datensatz
+  `scripts/data/de-city-population.tsv` (GeoNames cities5000, CC BY 4.0) vendored; `clean_listings.py`
+  und `add_own_listings.py` schreiben die Spalte `population`; `site.json` trägt
+  `cityMinPopulation: 20000`; `load.mjs` gibt einer Stadt unter der Mindestzahl mit
+  `population ≥ cityMinPopulation` eine eigene Seite und setzt alle Stadtseiten mit `count ≤ 1`
+  auf `noindex` (Start außerhalb der Sitemap, Tranchen). `launch-lean`, `06-launch.md` und
+  `04-plan.md` angeglichen. Seitenbild (simuliert): **381 Stadtseiten ≥ 2 Einträge**, **260
+  eigenständige 1-Eintrag-Seiten** (66 Entfernung, 180 Einwohner, 14 beides), 475 gefaltet;
+  Start-Sitemap ~2.225, Tranchen 260 + 675 dünne. **Gate 4 abgeschlossen.** Verifikation der
+  `load.mjs`-Logik erfolgt mit `npm run build` in Gate 5. **Wartet auf:** Start von Gate 5.

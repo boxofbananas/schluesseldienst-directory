@@ -19,8 +19,11 @@ Messwerte vor.)
 - **Jede Bundesland-Seite**, die mindestens eine Stadtseite trägt. Sie sind die neue
   Zwischenebene und gehören von Anfang an hinein: ohne sie hätte die Startseite bis zu 16
   tote Zweige, und die Stadtseiten hingen an keinem Hub.
-- **Jede Stadtseite** über der Mindestzahl von 3 Einträgen.
-- **Jede Ortsseite**, die `foldMaxKm` freistellt. Auch sie sind indexiert.
+- **Jede Stadtseite mit mindestens zwei Einträgen.** (Mindestzahl `cityFloor`, hier 2.)
+- Eigenständige Orts- und Mittelstadtseiten mit **nur einem Eintrag** kommen zum Start **nicht**
+  in die Sitemap, sondern werden wie dünne Einträge behandelt und nach der 30-Tage-Prüfung in
+  Tranchen freigeschaltet (Betreiber-Regel, `output/<slug>/06-launch.md`). Das sind die Orte, die
+  `foldMaxKm` freistellt, und die Städte ab `cityMinPopulation` mit nur einem Eintrag.
 - **Eintragsseiten mit `thin=false`** (5 oder mehr Bewertungen und eine Beschreibung).
 - **Die Leistungsseiten und ihr Index**, sobald der Build sie hat ([[page-types]]).
 - **`/festpreis-garantie/` und `/ueber-uns/`.** Das sind die beiden Vertrauensseiten, die
@@ -56,8 +59,9 @@ die Eintragsseiten nach Bewertung und Zahl der Bewertungen.
 - **`/auszeichnung/[slug]/`**, die Garantie-Nachweisseiten: `noindex`. Sie sind Nachweis für den
   Betrieb, keine Inhaltsseite.
 - **Zugeschlagene Städte** unter der Mindestzahl (sie bekommen keine Seite; ihre Einträge
-  stehen auf der nächsten Stadtseite). Ein Ort jenseits von `foldMaxKm` wird nicht
-  zugeschlagen und behält seine indexierte Seite ([[site-architecture]]).
+  stehen auf der nächsten Stadtseite). Ein Ort jenseits von `foldMaxKm` oder eine Stadt ab
+  `cityMinPopulation` wird nicht zugeschlagen, bekommt aber mit nur einem Eintrag eine Seite,
+  die zum Start **noindex** ist und erst in Tranchen indexiert wird ([[site-architecture]]).
 - **Ein Bundesland ohne eine einzige Stadtseite** bekommt keine Seite. Erwartet wird, dass
   alle 16 eine bekommen; der Fall steht hier, damit Gate 5 nicht auf eine leere Hub-Seite
   verlinkt.

@@ -49,7 +49,8 @@ KEEP = ["name","phone","website","address","street","city","state","state_code",
 # geprüft hat. preisschutz ist die reservierte Stufe „Preisschutz": angelegt, von keinem Skript
 # und keiner Seite ausgewertet, bis der Betreiber sie freigibt.
 GARANTIE = ["geprueft","geprueft_jahr","garantie_tag","garantie_nacht","garantie_anfahrt","preisschutz"]
-ADDED = ["slug","city_slug","owned","thin","featured","featured_cities","claimed"] + GARANTIE
+ADDED = ["slug","city_slug","owned","thin","featured","featured_cities","claimed","geo_precision","population"] + GARANTIE
+POP_TABELLE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "de-city-population.tsv")
 
 NICHE_DEFAULT = ("schlüsseldienst,schluesseldienst,schlüsselnotdienst,aufsperrdienst,"
                  "schlüsselservice,schließanlagen,sicherheitstechnik")
@@ -105,6 +106,93 @@ def slug(s):
     s = "".join(ch for ch in s if not unicodedata.combining(ch))
     s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
     return s or "x"
+
+
+# Amtliche Namenszusätze, die beim Städtevergleich wegfallen: „Frankenthal (Pfalz)",
+# „Frankfurt am Main", „Neustadt an der Weinstraße", „Landau in der Pfalz", „Bergen auf Rügen",
+# „Halle (Saale)", „Lindau (Bodensee)", Abkürzungen wie „a. M.", „a. d. B.", „i. OB" sowie
+# nachgestellte Gebietskürzel „Westf.", „Holstein". Dient nur dem Vergleich, nicht der Anzeige.
+CITY_SUFFIX = re.compile(
+    r"\s*\(.*?\)\s*$"
+    r"|\s+(?:a\.?\s*d\.?|an\s+der|an\s+dem|am|a\.|auf|ob|im|in\s+der|in|i\.?\s*(?:d\.?|ob|bay\.?)?)\s+\S.*$"
+    r"|\s*[,/]\s*\S.*$"
+    r"|\s+(?:westf|holst|holstein|oldb|rhld|thuer|saale|pfalz|bodensee)\.?\s*$", re.I)
+
+
+def city_base(name):
+    """Vergleichsform eines Ortsnamens ohne amtliche Zusätze und ohne Sonderzeichen."""
+    s = (name or "").strip()
+    for a, b in UMLAUTE:
+        s = s.replace(a, b)
+    prev = None
+    while prev != s:
+        prev = s
+        s = CITY_SUFFIX.sub("", s).strip()
+    return re.sub(r"[^a-z0-9]+", "", s.lower())
+
+
+def load_population(path=POP_TABELLE):
+    """(Bundesland-Kürzel, Ort-Grundform) -> Einwohnerzahl, aus GeoNames cities5000 (Feature P).
+    Für die Mittelstadt-Regel in Gate 4/5: eine Stadt ab `cityMinPopulation` bekommt eine eigene
+    Seite, auch mit nur einem Eintrag ([[site-architecture]])."""
+    tab = {}
+    try:
+        with open(path, encoding="utf-8") as f:
+            for line in f:
+                t = line.rstrip("\n").split("\t")
+                if len(t) >= 3 and t[2].isdigit():
+                    tab[(t[0], t[1])] = int(t[2])
+    except FileNotFoundError:
+        return {}
+    return tab
+
+
+def _coord(r):
+    try:
+        return (float(r["latitude"]), float(r["longitude"]))
+    except (TypeError, ValueError, KeyError):
+        return None
+
+
+def _hav(a, b):
+    import math
+    R = 6371
+    la1, lo1, la2, lo2 = map(math.radians, [a[0], a[1], b[0], b[1]])
+    d = math.sin((la2 - la1) / 2) ** 2 + math.cos(la1) * math.cos(la2) * math.sin((lo2 - lo1) / 2) ** 2
+    return 2 * R * math.asin(math.sqrt(d))
+
+
+def canonicalize_cities(rows, max_km=5.0):
+    """Varianten derselben Stadt vereinheitlichen: gleiche Grundform (city_base) im selben
+    Bundesland, die weniger als max_km auseinanderliegen, bekommen die häufigste volle
+    Schreibweise. Namensnachbarn (Fürth/Wipperfürth: verschiedene Grundform) und gleichnamige
+    Orte über max_km bleiben getrennt. Gibt die Zusammenführungen zurück (für den Bericht)."""
+    groups = defaultdict(list)
+    for r in rows:
+        groups[(r.get("state_code") or "", city_base(r.get("city")))].append(r)
+    merges = []
+    for (code, base), rs in groups.items():
+        if not base:
+            continue
+        clusters = []
+        for r in rs:
+            c = _coord(r)
+            for cl in clusters:
+                if c and cl["cent"] and _hav(c, cl["cent"]) < max_km:
+                    cl["rows"].append(r); cl["pts"].append(c)
+                    cl["cent"] = (sum(p[0] for p in cl["pts"]) / len(cl["pts"]),
+                                  sum(p[1] for p in cl["pts"]) / len(cl["pts"]))
+                    break
+            else:
+                clusters.append({"pts": [c] if c else [], "cent": c, "rows": [r]})
+        for cl in clusters:
+            spellings = Counter((r.get("city") or "").strip() for r in cl["rows"])
+            canon = spellings.most_common(1)[0][0]
+            if len(spellings) > 1:
+                merges.append((code, canon, dict(spellings)))
+            for r in cl["rows"]:
+                r["city"] = canon
+    return merges
 
 
 def norm_phone(p):
@@ -313,6 +401,9 @@ def main():
                     help="optional: nur dieses Bundesland behalten, als Kürzel (BY) oder Name (Bayern, Bavaria)")
     ap.add_argument("--out", required=True)
     ap.add_argument("--category", default="", help="Bezeichnung der Google-Maps-Kategorie (in type/subtypes/category gesucht)")
+    ap.add_argument("--no-category-filter", action="store_true",
+                    help="Regel 5 aussetzen: alle Zeilen behalten (der Abruf hat schon nach Kategorien "
+                         "gefiltert; die Branchenprüfung folgt am Website-Rohtext, z. B. für eine breite Nachbestellung)")
     ap.add_argument("--owned-phones", default="", help="eigene Nummern, mit Komma getrennt; die Zeilen werden nur markiert")
     ap.add_argument("--owned-domains", default="",
                     help="eigene Websites, mit Komma getrennt (mit oder ohne https:// und www.); "
@@ -400,8 +491,11 @@ def main():
         k = match_kind(r)
         if k:
             r["_match"] = k; kept.append(r)   # _match steht nicht in KEEP und kommt nie in die CSV
+        elif a.no_category_filter:
+            r["_match"] = "keep-all"; kept.append(r)
     rows = kept
-    steps.append(("Treffer über Name oder Kategorie", len(rows)))
+    steps.append(("Treffer über Name oder Kategorie" if not a.no_category_filter
+                  else "ohne Kategorie-Filter (alle Kategorien behalten, Filter folgt per fetch_sites)", len(rows)))
 
     rows.sort(key=lambda r: -to_int(r.get("reviews")))
     seen_p, seen_a, out, dropped_dupes = set(), set(), [], 0
@@ -414,6 +508,14 @@ def main():
         out.append(r)
     rows = out
     steps.append(("Dubletten über Telefon und Adresse verworfen", len(rows)))
+
+    # Ortsnamen vereinheitlichen (amtliche Zusätze, Varianten derselben Stadt unter 5 km).
+    city_merges = canonicalize_cities(rows)
+    pop_tab = load_population()
+    if city_merges:
+        bsp = "; ".join(f"{canon} ← {', '.join(k for k in sp if k != canon)}" for _, canon, sp in city_merges[:12])
+        notes.append(f"Ortsnamen vereinheitlicht: {len(city_merges)} Städte mit mehreren Schreibweisen "
+                     f"zusammengeführt (gleiche Grundform, unter 5 km). {bsp}" + (" …" if len(city_merges) > 12 else ""))
 
     slugs = Counter()
     for r in rows:
@@ -430,6 +532,12 @@ def main():
         r["thin"] = "true" if (to_int(r.get("reviews")) < a.thin_reviews or not has_text(r)) else "false"
         r["website"] = clean_url(r.get("website"))
         r["featured"] = ""; r["featured_cities"] = ""; r["claimed"] = ""
+        # Herkunft/Güte der Koordinate: DataForSEO-Zeilen tragen den echten Geopunkt des Betriebs.
+        # Nachgetragene eigene Betriebe setzen das in add_own_listings.py auf "exact" (geokodiert)
+        # oder "plz" (PLZ-Mittelpunkt → auf der Eintragsseite Ortsfläche statt Nadel).
+        r["geo_precision"] = "exact" if ((r.get("latitude") or "").strip() and (r.get("longitude") or "").strip()) else ""
+        # Einwohnerzahl der Stadt (GeoNames) für die Mittelstadt-Regel; leer, wenn nicht gematcht.
+        r["population"] = str(pop_tab.get((r.get("state_code") or "", city_base(r.get("city"))), "") or "")
         for c in GARANTIE: r[c] = ""
 
     os.makedirs(os.path.dirname(a.out) or ".", exist_ok=True)

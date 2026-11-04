@@ -1,0 +1,858 @@
+[
+  {
+    "slug": "generalistics-dienstleistungen-hage",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Generalistics Dienstleistungen verbindet im ostfriesischen Hage mehrere Gewerke unter einem Dach: IT-Service, Hausmeister- und Immobilienservice, Werbetechnik und Schlüsseldienst. Auf der IT-Seite stehen Vor-Ort-Service, Webdesign, Router- und Netzwerkinstallation, Office-Infrastruktur, Datenrettung und Datenlöschung, Android-Service, Refurbished-Hardware und Rechner nach Maß im Angebot. Im Immobilienbereich richtet der Betrieb Ferienhäuser und Ferienwohnungen ein, übernimmt allgemeine Hausmeisterdienste, Instandhaltung, Gartenpflege, die Schlüsselübergabe und die Koordination externer Firmen und erarbeitet für Immobilien ein zugeschnittenes Konzept. Dazu kommen Möbelaufbau, Sicherheitstechnik und Wärmebild-Fotografie. Das Unternehmen versteht sich als vielseitiger Partner in Ostfriesland. Der Schlüsseldienst gehört als ein Bereich neben den übrigen Leistungen dazu. Zusätzlich erstellt der Betrieb Internetseiten und betreut Computer und Netzwerke vor Ort. Die Auswahl der Leistungen reicht von Ferienwohnungen über Sicherheit bis zu IT-Dienstleistungen. Die Einrichtung von Ferienobjekten und die allgemeinen Hausmeisterdienste bilden den Kern des Immobilienservices."
+  },
+  {
+    "slug": "obi-hagenow-hagenow",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Der OBI Markt in Hagenow ist ein Baumarkt mit einem Sortiment aus Bauen, Wohnen, Technik und Garten. Neben den Abteilungen und der Beratung gehören Services wie Umtausch innerhalb von drei Monaten, Geschenkkarte und Wertstoffrücknahme dazu, außerdem Mietgeräte, Werkzeugverleih, Miettransporter, Gartencenter, Holzzuschnitt und Farbmischservice. Über das Kundenprogramm heyOBI gibt es Vorteilsangebote, ein Lieferservice ergänzt das Angebot. Ein Schlüsseldienst im Markt fertigt Schlüssel sofort an, sodass sie direkt mitgenommen werden können. Der Betrieb bleibt damit ein Baumarkt, dessen Schlüsseldienst sich auf das Anfertigen von Schlüsseln beschränkt.",
+    "trace": {
+      "schluessel_nachmachen": "Für dich sofort angefertigt – direkt zum Mitnehmen"
+    }
+  },
+  {
+    "slug": "obi-markt-haiger-haiger",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "In Haiger betreibt OBI einen Markt mit Küchenstudio, Bad- und Gartenplaner, Türen-und-Fenster-Studio, Gartencenter und Container-Mietservice. Aktuelle Themen des Marktes sind Solaranlagen mit Beratung und Montage, Terrassenüberdachungen nach Maß und Wärmepumpen samt Montage; auch Mietgeräte, Werkzeugverleih, Holzzuschnitt und Farbmischservice gehören zum Angebot. Zum Marktbesuch zählen der Umtausch innerhalb von drei Monaten, Geschenkkarten und Vorteilsangebote über das Kundenprogramm heyOBI. Der Schlüsseldienst des Marktes fertigt Schlüssel sofort an, zum Mitnehmen. Es handelt sich um einen Baumarkt, der die Schlüsselanfertigung als Service neben dem Warenangebot führt.",
+    "trace": {
+      "schluessel_nachmachen": "Für dich sofort angefertigt – direkt zum Mitnehmen",
+      "ladengeschaeft": "Dein OBI Markt Haiger, Lohwiese 1"
+    }
+  },
+  {
+    "slug": "schluesseldienst-uwe-rapp-hainichen",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Uwe Rapp führt in Hainichen einen Schlüsseldienst, der Schlüssel anfertigt sowie Schlösser repariert und montiert. Dazu kommen Anfertigung und Einbau von Schließanlagen und ein Schlüsselnotdienst. Die Arbeiten reichen damit vom Nachfertigen einzelner Schlüssel bis zur Ausstattung ganzer Gebäude mit einer Schließanlage; neben dem Notdienst stehen also auch planbare Arbeiten im Programm.",
+    "trace": {
+      "schlossaustausch": "Reparaturen und Montage von Schlössern",
+      "schluessel_nachmachen": "Anfertigung von Schlüsseln"
+    }
+  },
+  {
+    "slug": "jordan-sicherheitstechnik-haldensleben",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "false",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Jordan Sicherheitstechnik in Haldensleben arbeitet als Schlüsseldienst und Tresordienst für Sachsen-Anhalt und verbindet Dienstleistung mit Verkauf. Das Angebot umfasst Türnotöffnungen und Tresornotöffnungen, Tresorwartungen, Türschlösser, Türbeschläge, Türschließer und Panikschlösser sowie Autoschlüssel und Tresorschlüssel. Schlüssel werden nachgefertigt. Bei Schließanlagen führt der Betrieb mechanische Systeme, die er als bewährte und unkomplizierte Technik beschreibt, ebenso digitale Anlagen. In größeren Objekten kombiniert er mechanische Schließanlagen für die Innentüren mit elektronischer Zutrittskontrolle, sodass der Zugang zum Objekt elektronisch überwacht werden kann. Tresor- und Schließfachöffnungen führt er im gewerblichen und im privaten Bereich durch; Geldschränke und Tresore verkauft er ebenfalls. Er hat werktags feste Öffnungszeiten, einen 24-Stunden-Notdienst bietet er nicht an. Als Standort nennt der Betrieb Haldensleben in Sachsen-Anhalt und bietet seine Leistungen für gewerbliche wie private Auftraggeber an. Mechanische Anlagen gelten ihm als langlebig und präzise gefertigt.",
+    "trace": {
+      "tueroeffnung": "Türnotöffnungen",
+      "schluessel_nachmachen": "Schlüsselnachfertigung",
+      "ladengeschaeft": "Mo. -Do. 08:00 - 16:00 Uhr",
+      "gewerblich_objektbetreuung": "im gewerblichen und privaten Bereich"
+    }
+  },
+  {
+    "slug": "maschinen-und-metallbau-erler-gmbh-halsbruecke",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Maschinen und Metallbau Erler in Halsbrücke ist ein Betrieb für Maschinenbau und Bergbauwerkzeuge mit fast hundert Jahren Erfahrung, der Tradition, Erfahrung und Innovation verbinden will. Im Angebot stehen Bohrgestänge aus eigener Fertigung, Spülröhrchen für Bohrgestänge und der Verkauf von Maschinen, darunter Schleifmaschinen. Schlüsseldienstarbeiten gehören nicht zum Angebot. Das Unternehmen ist traditionsreich."
+  },
+  {
+    "slug": "ralli-s-schuh-schluesseldienst-haltern-am-see",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Ralli's Schuh- & Schlüsseldienst in Haltern am See ist in erster Linie eine Schuhmacherwerkstatt, die zusätzlich als Schlüsseldienst geführt wird. Schon der Name verbindet beide Handwerke: Schuhreparatur und Schlüsselarbeiten unter einem Dach. Die Hauptkategorie Schuhmacher weist auf die Schuhreparatur als Kerngeschäft hin, der Schlüsseldienst steht als Nebenkategorie daneben. Regelmäßige Öffnungszeiten sind hinterlegt."
+  },
+  {
+    "slug": "schlosserei-p-p-pociesny-e-k-inh-oliver-guschl-handewitt",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Die Schlosserei P & P Pociesny in Handewitt, geführt von Inhaber Oliver Guschl, arbeitet vor allem im Metallbau. Zum Angebot zählen Stahlbau, Reparaturen und Verschweißungen, Treppen, Zäune, Geländer, Balkone und Edelstahlverarbeitung. Dazu kommen Einbruchsicherung und ein Schlüsseldienst. Der Schwerpunkt liegt damit auf Konstruktions- und Schlosserarbeiten, ergänzt um sicherungstechnische Aufgaben und Arbeiten vor Ort."
+  },
+  {
+    "slug": "rs-hausmeisterservice-hannoversch-muenden",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "RS Hausmeisterservice ist ein Allround-Betrieb für Haus und Garten, der in Hannoversch Münden ansässig ist und auch Kassel als Einsatzraum nennt. Das Angebot umfasst Hausmeisterservice, Garten- und Landschaftsbau, Rohrreinigung, Kleininstallationen sowie Wartungs- und Reparaturarbeiten. Als Schlüsseldienst übernimmt der Betrieb Notöffnungen. Betreut werden private Haushalte, Vermieter und Gewerbekunden; nach eigener Angabe arbeitet das Unternehmen seit 2010."
+  },
+  {
+    "slug": "schluessel-service-harpstedt-24-7-notoeffnungen-alarmanlagen-videoueberwachung-einbruchschutz-harpstedt",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Schuhreparatur, Gravuren und Schlüsselarbeiten gehören beim Harpstedter Betrieb Schlüssel Service unter einem Dach zusammen. Gefertigt werden Haus-, Wohnungs- und Zimmertürschlüssel, Fahrrad-, Motorrad- und Autoschlüssel, Tresorschlüssel und Schließanlagenschlüssel; Schließanlagen werden erstellt und verkauft, Schlösser und Einbruchschutz mit Montage angeboten. Im Namen führt der Betrieb Notöffnungen rund um die Uhr, Alarmanlagen und Videoüberwachung. Daneben gibt es Taschenreparaturen, Näharbeiten an Lederwaren, Namens- und Türschilder, Stempel, Messer- und Scherenschliff sowie Batterie- und Armbandwechsel bei Uhren.",
+    "trace": {
+      "schluesseldienst_kern": "Schlösser und Einbruchschutz inkl.Montage",
+      "notdienst_24h": "24/7 NOTÖFFNUNGEN",
+      "schlossaustausch": "Schlösser und Einbruchschutz inkl.Montage",
+      "schluessel_nachmachen": "Haus - und Wohnungsschlüssel"
+    }
+  },
+  {
+    "slug": "schluesseldienst-neumann-harrislee",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "true",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Schlüsseldienst Neumann arbeitet in Harrislee, Flensburg und Umgebung und bietet nach eigener Angabe seit 1993 Hilfe für Menschen, die sich ausgesperrt oder den Schlüssel verloren haben. Der Betrieb ist auf Türen und Fenster spezialisiert und kommt auch an Sonn- und Feiertagen. Ein erfahrener Techniker mit moderner Ausrüstung öffnet Wohnungen, Häuser und Geschäftsräume. Neben der Türöffnung übernimmt der Betrieb den schnellen Austausch von Profilzylindern und Schlössern bei Verlust oder Beschädigung sowie Schlossreparaturen, und er hat die meisten Profilzylinder und Türschlösser vorrätig. Für die Türöffnung und für die Anfahrt nennt er jeweils einen festen Preis, zu dem nichts weiter hinzukommt; er rät davon ab, Anbieter zu wählen, die vorab keinen Preis nennen wollen. Das Unternehmen beschreibt sich als regionalen Handwerksbetrieb mit mehr als 30 Jahren Erfahrung.",
+    "trace": {
+      "anfahrtspauschale_genannt": "Festpreis für die Anfahrt"
+    }
+  },
+  {
+    "slug": "schluesseldienst-hasbergen-schnell-preiswert-hasbergen",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Der Schlüsselnotdienst Hasbergen ist rund um die Uhr erreichbar und fährt vom Firmensitz in Osnabrück aus nach Hasbergen und in weitere Orte im Raum Osnabrück, darunter Georgsmarienhütte, Lotte, Belm, Bissendorf und Wallenhorst. Als Ansprechpartner nennt der Betrieb Arno Wittbrodt. Zu den Leistungen zählen Türöffnung und Türnotöffnung bei zugefallener Haus- oder Wohnungstür, Schlosstausch und Schlossreparatur, Zylinderwechsel, Briefkasten- und Garagentorschlösser, Schließanlagen mit Sicherungskarte sowie Tresoröffnung und Tresorwartung. Beratung zu Sicherheit und Einbruchschutz gehört ebenfalls dazu, ebenso die Reparatur von Einbruchschäden. Die Türöffnung erfolgt materialschonend. Die Preise für die Türöffnung nennt der Betrieb vorab. Er beschreibt sich als eingetragenen Handwerksbetrieb für Schließtechnik und Tresorbau und Mitglied der Handwerkskammer mit mehr als 40 Jahren Tätigkeit. Weitere Einsatzgebiete liegen rund um Osnabrück, etwa Ohrbeck, Gaste, Hagen, Tecklenburg und Ostercappeln."
+  },
+  {
+    "slug": "schluesseldienst-havelberg-havelberg",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Schlüsseldienst Havelberg versteht sich als ortsansässiges Unternehmen mit jahrelanger Erfahrung, das schnell und gut arbeiten will. Der Betrieb trägt den Ort im Namen und führt als Hauptkategorie den Schlüsseldienst. Die Selbstdarstellung beschränkt sich auf wenige Worte: Ortsbezug, Erfahrung und Tempo stehen im Mittelpunkt. Öffnungszeiten sind hinterlegt. Der Betrieb ist in Havelberg tätig."
+  },
+  {
+    "slug": "havixbecker-autoverwertung-fachbetrieb-fuer-gebrauchte-mercedes-benz-ersatzteile-havixbeck",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Die Havixbecker Autoverwertung in Havixbeck verwertet Fahrzeuge von Mercedes-Benz und verkauft gebrauchte Ersatzteile für MB Modelle, von Motoren und Getrieben bis zu Karosserieteilen. Das Unternehmen hat sich auf rostfreie Teile spezialisiert, die stets im Lager vorrätig sind, und versteht sich als Fachbetrieb für diese Marke. Ein Schlüsseldienst gehört nicht zum Angebot, der Schwerpunkt liegt vollständig im Autoteilehandel."
+  },
+  {
+    "slug": "cavus-hechingen",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "true",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Cavus Dienstleistungen sitzt im Stadtkern der Zollernstadt Hechingen und bietet Service rund ums Haus: Gebäudereinigung, Reinigungsdienst, Hausmeisterdienst, Entrümplungen, Haushaltsauflösungen und einen Mini-Container-Service. Ein Schlüsselnotdienst gehört ebenfalls zum Angebot, ein 24-Stunden-Notdienst ist eingerichtet. Der Ursprung liegt in einem Schuh- und Schlüsseldienst mit kleinem Ladengeschäft in Hechingen; die Schuhreparatur wurde 2004 eingestellt, seither hat sich das Spektrum Schritt für Schritt erweitert. Auch Reinigungs- und Hygieneprodukte sind im Programm. Das Unternehmen tritt damit heute als Dienstleister für Gebäude, Haushalte und Containerdienste auf, nicht mehr als Schuhmacher. Containerdienst und Haushaltsauflösungen ergänzen die Entrümplung; der Hausmeisterdienst übernimmt laufende Arbeiten am Gebäude. Das Angebot wird als Service rund ums Haus beschrieben, vom Gebäude bis zum Container. Die Gebäudereinigung steht dabei an erster Stelle. Der Betrieb bleibt im Stadtkern verwurzelt."
+  },
+  {
+    "slug": "bender-schloesser-schliessanlagen-heddesheim",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Sascha Bender arbeitet in Heddesheim als Schließ- und Sicherheitstechniker für mechanische Schlösser und Schließsysteme. Er montiert, wartet und repariert mechanische Schließzylinder, berät und betreut Objekte mit Schließanlagen und Schlössern aller Art und behebt akute Störungen. Für Austausch, Reparatur und Störungsbehebung berechnet er eine feste Servicepauschale, die er je Stunde für den Kundendienst ansetzt. Termine werden telefonisch oder per E-Mail vereinbart.",
+    "trace": {
+      "schluesseldienst_kern": "Einbau, Reparatur und Wartung von mechanischen Schließzylindern",
+      "festpreis_genannt": "berechne ich eine feste Servicepauschale"
+    }
+  },
+  {
+    "slug": "stahlbau-sicherheitstechnik-borisch-gmbh-co-kg-heidenau",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Aus der 1985 gegründeten Schlosserei und dem Schlüsseldienst Borisch ist im Raum Dresden der Familienbetrieb Stahlbau & Sicherheitstechnik Borisch hervorgegangen, den Maik Borisch seit 2002 als GmbH & Co. KG führt. Der Betrieb stellt Schließanlagen, Schlösser und Beschläge her, mechanisch wie elektronisch, fertigt Ersatz- und Zweitschlüssel und gibt Chipkarten für elektronische Anlagen aus. Er arbeitet mit namhaften Herstellern zusammen, die ihn mit Beschlägen, Profilzylindern und elektronischen Schlüsseln versorgen. Ein 24-Stunden-Notruf steht für ausgesperrte Kunden bereit, ein Team nimmt dann die Notöffnung vor. Im Programm sind außerdem Tresorservice, Waffenschränke, Tortechnik mit Torantrieben, Haus- und Gebäudebeschilderung sowie Metallbau mit Stahlbau, Balkonen, Treppen, Geländern, Zäunen und Hochwasserschutzanlagen. Der Betrieb nennt sich Schweißfachbetrieb. Zu den Kunden gehören Privatpersonen, Gewerbekunden und öffentliche Träger. Das Team legt nach eigener Angabe Wert auf Kundenzufriedenheit.",
+    "trace": {
+      "tueroeffnung": "Notdienst & Notöffnungen"
+    }
+  },
+  {
+    "slug": "s-hedtfeld-und-r-grennigloh-gbr-sicherheitstechnik-schluesseldienst-heiligenhaus",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Die GbR von S. Hedtfeld und R. Grennigloh ist nach eigener Angabe seit vielen Jahren in Heiligenhaus ansässig. Der Betrieb bietet einen Schlüsselnotdienst und Sicherheitstechnik an und fertigt auf Wunsch auch Schlüssel nach. Er verbindet damit den Schwerpunkt Sicherheitstechnik mit dem klassischen Schlüsseldienst. Der Betrieb sitzt direkt vor Ort in der Stadt."
+  },
+  {
+    "slug": "obi-rudolstadt-heilingen",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Der OBI Markt Rudolstadt führt ein Sortiment von Bauen und Wohnen bis Technik und Garten. Neben den Abteilungen bietet er Mietgeräte, Werkzeugverleih, Miettransporter und Mietanhänger, Lieferservice, Holzzuschnitt, Farbmischservice und Pflanzenverpackung. Zum Marktbesuch gehören außerdem Umtausch, Geschenkkarten, Wertstoffrücknahme und Vorteilsangebote über das Kundenprogramm heyOBI. Der Schlüsseldienst im Markt fertigt Schlüssel sofort an, damit sie direkt mitgenommen werden können. Es ist ein Baumarkt, dessen Schlüsseldienst sich auf die Schlüsselanfertigung beschränkt. Die Beratung im Markt deckt Bad, Küche und Garten ab, ein Gartencenter gehört dazu.",
+    "trace": {
+      "schluessel_nachmachen": "Für dich sofort angefertigt – direkt zum Mitnehmen"
+    }
+  },
+  {
+    "slug": "kleiner-schluesseldienst-heimsheim",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Der Kleine Schlüsseldienst in Heimsheim ist ein inhabergeführter Betrieb von Celil Küçük, der nach eigener Angabe seit 2017 selbständig ist und auf fast 30 Jahre Berufserfahrung in Industriemechanik, Schlosserei und Feinwerkmechanik zurückgreift. Er öffnet zugefallene Türen schonend und in aller Regel ohne zerstörende Verfahren, im Umkreis von etwa 30 Kilometern, unter anderem in Leonberg, Renningen, Rutesheim, Weil der Stadt und Pforzheim. Der Notdienst läuft werktags von nachmittags bis in die frühen Morgenstunden und am Wochenende rund um die Uhr. Weitere Leistungen sind Schloss- und Zylindertausch, die Reparatur klemmender Schlösser, Nachschlüssel und Sicherheitsschlüssel mit Sicherungskarte, Schließanlagen für Mehrfamilienhäuser, Praxen und Betriebe, Einbruchschutz mit Nachrüstung sowie die Instandhaltung von Türen und Fenstern. Den Gesamtpreis nennt der Betrieb vor der Anfahrt. Kunden sind Mieter, Eigentümer, Hausverwaltungen und Gewerbebetriebe."
+  },
+  {
+    "slug": "hasso-schuh-und-schluesseldienst-heinsberg",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "true",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Der Schuh- und Schlüsseldienst HASSO in Heinsberg führt einen Schlüsselnotdienst, den der Inhaber persönlich rund um die Uhr anbietet und der telefonisch erreichbar ist. Der Name verweist zugleich auf die Schuhreparatur, womit der Betrieb zwei Handwerke verbindet. Gearbeitet wird vor Ort bei den Kunden. Öffnungszeiten sind hinterlegt. Der Betrieb ist mobil im Einsatz."
+  },
+  {
+    "slug": "schluesselservice-rudolph-inh-mike-thuemmler-heinsdorfergrund",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Schlüsselservice Rudolph unter Inhaber Mike Thümmler in Heinsdorfergrund bietet Türnotöffnung, Schlossreparaturen sowie Verkauf und Einbau von Schlössern: Einsteckschlösser, komplette Türschlösser, Schließzylinder auch gleichschließend, Schließanlagen, Drückergarnituren, Panzerriegel, Zusatz- und Mehrfachverriegelungen, Fenstersicherungen sowie Fahrrad- und Vorhangschlösser. Schlüssel werden nachgefertigt, vom Wohnungs- und Briefkastenschlüssel über Buntbart-, Kreuzbart- und Bohrmuldenschlüssel bis zu Tresorschlüsseln und Autoschlüsseln mit oder ohne Wegfahrsperre. Die Spanne reicht damit vom einzelnen Nachschlüssel über den Einbau neuer Türschlösser bis zur zusätzlichen Verriegelung von Türen und Fenstern. Die Beratung gilt der Sicherheit von Haus, Garage, Auto und anderen Wertgegenständen, die gut verriegelt werden sollen. Daneben führt der Betrieb Schuhreparaturen aus und schleift Messer und Scheren. Zu den Sicherungen zählen die Türsicherung mit Panzerriegel, Einbausicherungen und Zusatzverriegelungen, sodass Türen und Fenster nachgerüstet werden können.",
+    "trace": {
+      "schluesseldienst_kern": "Verkauf und Einbau von Schlössern aller Art",
+      "tueroeffnung": "Türnotöffnung"
+    }
+  },
+  {
+    "slug": "blitz-blank-helgoland-helgoland",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Blitz-Blank Helgoland begann 1968 als reine Fensterputzfirma und ist seit dem 1. September 2018 wieder auf Helgoland tätig. Inzwischen gehören auch Hausreinigung, Schädlingsbekämpfung und ein Schlüsselnotdienst zu den Dienstleistungen. Der Name verweist auf das ursprüngliche Gewerk, die Fensterreinigung. Besonders stolz ist das Unternehmen darauf, nicht nur blitz und blank, sondern auch fix und flott zu sein."
+  },
+  {
+    "slug": "d-uhlmann-conrad-hemer",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "true",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "D. Uhlmann-Conrad hilft in Hemer bei zugefallenen Türen, ausgesperrten Kunden und abgebrochenen Schlüsseln. Für die übliche Türöffnung nennt er den Preis vorab; bei abgeschlossenen Türen richtet sich der Preis nach Aufwand und Absprache. Die Anfahrt im Raum Hemer, Iserlohn und Menden berechnet er nicht, Zuschläge fallen nicht an. Zudem sagt der Betrieb zu, dass ohne Erfolg nichts bezahlt wird.",
+    "trace": {
+      "schluesseldienst_kern": "Tür zugefallen - ausgesperrt - Schlüssel abgebrochen",
+      "tueroeffnung": "Tür zugefallen - ausgesperrt - Schlüssel abgebrochen"
+    }
+  },
+  {
+    "slug": "schuh-schluesseldienst-miggelbrink-hennef",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "true",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Der Schuh- & Schlüsseldienst Miggelbrink ist ein ortsansässiges Unternehmen mit festem Ladenlokal in Hennef; ein weiteres Ladenlokal besteht nach eigener Angabe in Siegburg. Im Mittelpunkt steht ein großes Sortiment an Schlüsseln aus hochwertigem Stahl und Messing, darunter Zylinderschlüssel und Kraftfahrzeugschlüssel. Dazu kommen Gravuren wie Schildergravuren und Liebesschloss-Gravuren, Stempel und eine Auswahl an Keramikschildern. Im Notfall ist der Betrieb über einen 24-Stunden-Notdienst erreichbar. Ein eigener Bereich widmet sich der Sicherheit, ein weiterer den Produkten, und als Vertragshändler führt der Betrieb Waren bestimmter Hersteller. Der Name verbindet den Schlüsseldienst mit der Schuhreparatur, die als Handwerk zum Geschäft gehört. Damit deckt das Geschäft Alltagsschlüssel, Fahrzeugschlüssel und Schilderarbeiten an einem Ort ab. Das Ladenlokal macht den Betrieb zu einer Anlaufstelle für Schlüssel, Schilder und Stempel im Alltag.",
+    "trace": {
+      "schluessel_nachmachen": "Sortiment an Schlüsseln aus hochwertigem Stahl und Messing"
+    }
+  },
+  {
+    "slug": "a-key-gmbh-autoschluessel-nachmachen-experte-service-herbrechtingen",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "A-Key GmbH aus Herbrechtingen handelt im Großhandel mit Autoschlüsseln, Codiergeräten und Zubehör. Das Sortiment umfasst Autoschlüssel und Funkschlüssel fast aller Marken mit Transpondertechnologie, Schlüssel ohne Wegfahrsperre, Universalschlüssel, Schlüsselrohlinge und Stahlschlüssel für Zylinder, dazu Anhänger und Zubehör, auch für Motorräder und Roller. Die passenden Modelle sind nach Fahrzeugmarke gegliedert, von Alfa Romeo, Audi und BMW über Ford und Honda bis zu weiteren Herstellern. Der Auftritt ist in zahlreichen Sprachen abrufbar, ein Bereich für Beschwerden und Empfehlungen stehen bereit. Die Ware wird verschickt, für Händler gibt es eine Registrierung. Das Geschäft ist ein Großhandel und kein Öffnungsdienst. Das Sortiment umfasst ferner Schlüsselringe, Anlageschlüssel, Rohlinge für Tresorschlüssel und Zylinderschlüssel sowie Zubehör. Die Ware ist auf Händler und Werkstätten ausgelegt. Autoschlüssel ohne Wegfahrsperre und Funkschlüssel werden getrennt geführt."
+  },
+  {
+    "slug": "schluesseldienst-n-brandt-herzfelde",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Schlüsseldienst N. Brandt in Herzfelde ist auf das Kopieren und Anfertigen von Schlüsseln ausgerichtet und zusätzlich als Schlüsseldienst geführt. Als Hauptkategorie gilt der Schlüsselkopierdienst, der Schlüsseldienst als zweite Kategorie. Der Name trägt den Anfangsbuchstaben des Inhabers und den Ort, in dem der Betrieb tätig ist. Öffnungszeiten sind hinterlegt. Der Betrieb ist auf Schlüssel spezialisiert."
+  },
+  {
+    "slug": "schlosserei-konrad-wolf-hettstadt",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Die Schlosserei Konrad Wolf in Hettstadt fertigt Balkone, Treppen und Tore und weitere Metallarbeiten. Neben dem Metallbau führt der Betrieb einen Getränkemarkt als zweites Geschäftsfeld. Ein Schlüsseldienst wird nicht beschrieben, der Schwerpunkt liegt auf der Schlosserei. Zu den Metallarbeiten zählen Balkone, Treppen und Tore ebenso wie weitere Konstruktionen; der Betrieb gliedert seine Arbeit nach diesen Gewerken."
+  },
+  {
+    "slug": "schluesseldienst-sicherheitstechnik-schams-heusenstamm",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Schlüsseldienst & Sicherheitstechnik Schams ist in Heusenstamm rund um die Uhr erreichbar und fährt auch nach Obertshausen, Dietzenbach, Rodgau, Neu-Isenburg, Offenbach, Langen, Hanau und Frankfurt am Main. Der Betrieb öffnet zugefallene Haus- und Wohnungstüren möglichst beschädigungsfrei, auch bei abgebrochenem oder innen steckendem Schlüssel, außerdem Briefkästen und Fahrzeuge bei eingeschlossenem oder verlorenem Schlüssel. Er tauscht Schlösser, Schließzylinder und Sicherheitszylinder, ersetzt defekte Briefkastenschlösser, repariert Mehrfachverriegelungen, montiert Türschließer, elektrische Türöffner und Türbeschläge und plant Schließanlagen für Privathaushalte, Gewerbekunden und Hausverwaltungen. Zur Sicherheitstechnik zählen Sicherheitsbeschläge und Zusatzsicherungen für Türen und Fenster. Die Preise für die Öffnung sind nach Tageszeit gestaffelt und enthalten Anfahrt sowie Zuschläge; der Betrieb nennt sie vorab und stimmt den genauen Betrag vor Arbeitsbeginn ab. Er wirbt mit transparenten Preisen, fachgerechter Arbeit und persönlicher Betreuung."
+  },
+  {
+    "slug": "stahlbau-arone-gmbh-heusweiler",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Stahlbau Arone in Heusweiler ist ein Schweißfachbetrieb für Stahl- und Anlagenbau. Die Fertigung umfasst Schlosserei, Metallbau und Funktionsmöbel, Treppen, Geländer und Balkone sowie Kranbau; verarbeitet werden Stahl, Edelstahl und Aluminium mit WIG-, MIG-, MAG- und Bolzenschweißen. Der Betrieb plant und konstruiert selbst und hat seine Produktionshalle in Eigenleistung errichtet. Schlüsseldienstleistungen werden nicht beschrieben."
+  },
+  {
+    "slug": "rothe-sicherheitstechnik-inh-stan-meinunger-hildburghausen",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Rothe Sicherheitstechnik von Inhaber Stan Meinunger in Hildburghausen ist ein Fachschlüsseldienst und Sicherheitsfachgeschäft, das rund um die Uhr an 365 Tagen im Jahr erreichbar ist. Schwerpunkt sind Schließanlagen: Der Betrieb projektiert neue Anlagen oder erweitert bestehende, erstellt Schließpläne und arbeitet mit Hauptschlüsseln und Generalhauptschlüsseln, mit Hauptgruppen und untergeordneten Gruppen und mit gesetzlich geschützten Schlüsseln, deren Nachbestellung nur mit Sicherungskarte möglich ist. Der Betrieb erläutert, was eine Schließanlage und was ein geschützter Schlüssel ist, wie die richtige Zylinderlänge bestimmt wird und wie ein Schließplan entsteht, und dokumentiert Referenzobjekte. Zum Programm gehören außerdem Beratung und Verkauf, Notöffnungen, die wo technisch möglich zerstörungsfrei erfolgen, und historische Schlösser. Geöffnet wird erst nach Prüfung, ob der Auftraggeber dazu berechtigt ist. Der Betrieb verweist darauf, dass ein seriöser Anbieter unter einer festen Adresse firmiert.",
+    "trace": {
+      "ladengeschaeft": "Sicherheitsfachgeschäft"
+    }
+  },
+  {
+    "slug": "eichmann-roland-gmbh-co-kg-hilzingen",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Die Roland Eichmann GmbH & Co. KG in Hilzingen führt als Hauptkategorie den Schlüsseldienst und als weitere Kategorie die Metallbearbeitung. Damit deutet das Profil auf einen Betrieb hin, der Schlüsselarbeiten mit Metallverarbeitung verbindet. Die Rechtsform GmbH & Co. KG zeigt ein Unternehmen mit Gesellschaftsstruktur und keinen Einzelbetrieb. Weitere Angaben zu den Leistungen sind nicht hinterlegt."
+  },
+  {
+    "slug": "martin-bernard-bauschlosserei-hintertiefenbach",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Martin Bernard Bauschlosserei in Hintertiefenbach ist ein Metallbaubetrieb, der zusätzlich die Kategorie Schlüsseldienst führt. Der Name nennt die Bauschlosserei als Gewerk, also Metall- und Schlosserarbeiten am Bau wie Konstruktionen aus Stahl. Der Betrieb trägt den Namen seines Inhabers Martin Bernard. Der Eintrag zeigt keine eigene Selbstdarstellung mit Leistungsliste, sodass das Profil allein vom Firmennamen und den Kategorien getragen wird."
+  },
+  {
+    "slug": "schlosserei-nakel-hirrlingen",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Die Schlosserei Nakel in Hirrlingen fertigt Balkone, Balkongeländer, Carports und Pergolen, Geländer und Zäune, Ladungsträger, Treppen und Vordächer. Das Spektrum ist weit gefächert, der Betrieb beschreibt sich als erfahren; eingetragen ist er auch als Schmiede und Zaunbauer. Das Gewerk liegt klar im Metall- und Stahlbau. Ein Schlüsseldienst wird nicht beschrieben."
+  },
+  {
+    "slug": "waagenbau-gmbh-waege-und-metalltechnik-hohenstein-ernstthal",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Die Waagenbau GmbH in Hohenstein-Ernstthal wurde 1961 gegründet und ist von dort aus im Umkreis von etwa 150 Kilometern tätig. Kern des Betriebs sind Wägetechnik, Wartung und Kundendienst für Waagen, Herstellung und Verkauf von Wägetechnik aller Art sowie Eichung und Kalibrierung mit Kalibrier- und Eichzertifikaten. Zwei weitere feste Standbeine sind Schlosserei und Schlüsseldienst. Der Betrieb beschreibt sich als Fachunternehmen und tritt als Ansprechpartner für Wägetechnik, Schlosserei und Schlüsseldienst gleichermaßen auf. Hinzu kommen Prüfung und Wartung von Fenstern und Türen: Ein Mitarbeiter kontrolliert Dichtungen, Beschläge und bewegliche Teile und stellt sie ein. Er verfügt über Sachkunde für kraftbetätigte Fenster, Türen und Tore sowie für Prüfung, Wartung und Nachrüstung von Feuerschutztüren, Rauchschutzabschlüssen und Feststellanlagen. Als Fachbetrieb für Fenster- und Türenwartung sorgt er für eine reibungslose Funktion."
+  },
+  {
+    "slug": "db-schluesseldienst-holdorf",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Daniel Besselmann führt in Holdorf den DB Schlüsseldienst, der sich als Vertragspartner von ADAC und EVVA darstellt und einen Notdienst rund um die Uhr an sieben Tagen der Woche betreibt. Das Angebot umfasst Türöffnungen, Autoschlüssel und moderne Schließtechnik. Die Arbeit reicht damit von der Notöffnung bis zur Ausstattung mit Schließtechnik.",
+    "trace": {
+      "autoschluessel": "Auto-Schlüssel, Türöffnungen und moderne Schließtechnik"
+    }
+  },
+  {
+    "slug": "top-class-schluesseldienst-holzkirchen-24h-notdienst-schuhreparatur-holzkirchen",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Der Top Class Schuh- & Schlüsseldienst in Holzkirchen verbindet einen Autoschlüsseldienst für alle Fahrzeugarten mit Hausschlüsseln, Türöffnung und Handwerksservices. Autoschlüssel werden für viele Marken neu angefertigt, kopiert, repariert, codiert und programmiert, mit und ohne Wegfahrsperre und auch mit Funkfernbedienung. Bei zugefallener Tür öffnet der Betrieb ohne Schaden; die 24-Stunden-Hotline ist jederzeit, auch an Wochenenden und Feiertagen, zu erreichen. Haustürschlüssel, Zweit- und Ersatzschlüssel sowie Schlüssel für Sicherheits- und Schließanlagen werden gefertigt. Das Einzugsgebiet reicht über Holzkirchen hinaus bis nach Dietramszell und Warngau. Dazu kommen Schuhreparatur, Gravuren, Messer- und Scherenschleifen, Uhrenservice mit Batteriewechsel und eine Annahmestelle für Teppichreinigung. Der Betrieb arbeitet in mehreren Filialen. Neben der Fahrzeugtechnik deckt der Betrieb auch den Hausbereich ab: Haustürschlüssel, Schließanlagen und Schlüsselduplikate werden schnell gefertigt. Schlüsselhüllen und Gehäuse für Autoschlüssel gehören ebenfalls zum Angebot."
+  },
+  {
+    "slug": "sicherheitsfachmarkt-security-schmidt-gmbh-hoyerswerda",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Der Sicherheitsfachmarkt Security Schmidt in Hoyerswerda wurde 1991 als Handwerksbetrieb gegründet und versteht sich als Facherrichter der Sicherheitstechnik. Angeboten werden Sicherheitsberatungen, Lieferung und Montage, ein Wartungsservice und ein Ladengeschäft. Zur mechanischen Technik zählen Schlüsseldienst, Schließanlagen, Schlösser, Beschläge, Tresore, Kassetten, Daten- und Schlüsselschränke, Briefkästen und Baustellensicherheit; gleichschließende Zylinder werden im Schnelldienst geliefert. Elektronisch gibt es die Programmierung von elektronischen Schließsystemen, elektrische Türöffner, Sprech- und Klingelanlagen und Zeiterfassung, dazu Freilandsicherung mit Zaunanlagen, Absperrsystemen, Schranken und Pollern. Zu den Arbeiten gehören auch Montage und Abnahmeprüfung von Rettungswegtechnik und Feststellanlagen. Die Leistungen führen eigene, regelmäßig weitergebildete Mitarbeiter aus. Das Angebot richtet sich an Kunden in Hoyerswerda und Umgebung; die Beratung betrifft mechanische, elektronische und mechatronische Sicherheitstechnik. Zu den Lösungen zählen auch Datenschränke und Schlüsselschränke für den Objektbereich."
+  },
+  {
+    "slug": "giessener-schluesseldienst-hungen",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Der Giessener Schlüsseldienst hat seinen Sitz in Hungen und ist als Schlüsselnotdienst geführt; die Hauptkategorie lautet Schlüsseldienst. Der Name stellt die Nähe zu Gießen heraus, der Sitz des Betriebs ist aber Hungen. Öffnungszeiten sind für den Betrieb hinterlegt, und die Zuordnung zum Notdienst deutet auf Hilfe bei Schlüsselproblemen hin. Der Schlüsseldienst ist damit auf akute Fälle ausgerichtet."
+  },
+  {
+    "slug": "schluesselwerk-husum-husum",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "true",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Schlüsselwerk Husum ist ein Fachbetrieb für Schlüsseldienst, Glas und Sicherheitstechnik in Husum und Umgebung. Der Betrieb übernimmt Türöffnungen, Glasreparaturen an Fenstern und Türen sowie Wartung und Reparatur klemmender, schleifender oder undichter Fenster und Türen, bei der Beschläge und Scharniere geprüft werden, damit sie wieder zuverlässig schließen. Schließanlagen bietet er mechanisch und elektronisch für Privatkunden, Gewerbe und Mehrfamilienhäuser an, elektronische Schließsysteme nennt er seine Spezialität. Er beschreibt sich als persönlichen, zuverlässigen und transparenten Betrieb vor Ort. Die Preise für die Türöffnung stehen vorab fest und sind auf einer eigenen Seite aufgeführt; auch die Fahrtkosten je Kilometer und die Fahrtzeit werden gesondert ausgewiesen. Ein Schlüsselnotdienst gehört ebenfalls zum Angebot. Die Fenster- und Türenwartung ist ein eigener Leistungsbereich, damit es gar nicht erst zu Störungen kommt.",
+    "trace": {
+      "gewerblich_objektbetreuung": "Mechanische und elektronische Schließanlagen für Privat, Gewerbe und Mehrfamilienhäuser"
+    }
+  }
+]

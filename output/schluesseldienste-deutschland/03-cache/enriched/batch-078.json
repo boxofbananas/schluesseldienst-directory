@@ -1,0 +1,763 @@
+[
+ {
+  "slug": "obi-loebau-loebau",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Im OBI Markt in Löbau finden Heim- und Handwerker ein breites Sortiment aus den Bereichen Bauen, Wohnen, Technik und Garten, geordnet in Abteilungen und ergänzt um Angebote für Profis. Ein Türen- und Fenster-Studio führt Außen- und Innentüren aus Holz, Stahl und Glas in klassischen und modernen Designs sowie verschiedene Fenstersysteme; als Sicherheitstechnik gibt es Alarmanlagen, Kameras und Bewegungsmelder. Ein Schlüsseldienst im Markt fertigt Schlüssel sofort an, sie lassen sich direkt mitnehmen. Der Betrieb ist ein Baumarkt, kein Spezialist für Türöffnungen. Zu den Services zählen Umtausch innerhalb von drei Monaten, Geschenkkarten, die Rücknahme von Wertstoffen, Mietgeräte und Werkzeugverleih, ein Miettransporter, ein Lieferservice, ein Holzzuschnitt-Service und ein Farbmischservice. Beratung gibt es nach Terminvereinbarung. Ein Gartencenter, die Pflanzenverpackung und eine eigene Rubrik für Profis runden das Angebot für Heimwerker ab.",
+  "trace": {
+   "schluessel_nachmachen": "Schlüsseldienst Für dich sofort angefertigt"
+  }
+ },
+ {
+  "slug": "pm-service-gmbh-schluesseldienst-loehne",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "PM Service in Löhne verbindet den Schlüsseldienst mit Schuhreparatur, Uhrenbatteriewechsel und Werbetechnik und gehört zu einem Filialnetz mit 23 Geschäftsstellen in Nordrhein-Westfalen und Niedersachsen, das jährlich um bis zu fünf Filialen wuchs. Der Schlüsseldienst ist nach eigener Angabe rund um die Uhr da, wenn jemand ausgesperrt ist oder einen Schlüssel verloren hat. Das Team plant und installiert Schließanlagen für Haushalte, Unternehmen und öffentliche Institutionen, dazu digitale Schließsysteme mit Zutrittskontrolle, außerdem Türschlossantriebe von ABUS und Schlüsselsafes mit vierstelligem Zahlencode für Ferienwohnungen, Büros und Mehrfamilienhäuser. Die Werbetechnik reicht von Beschriftungen und Schildern über Fahrzeugbeschriftung und Großformatdruck bis zu Werbebannern, Glasdekorfolien und Gravuren. Schließzylinder und Vorhängeschlösser gibt es zusätzlich im Online-Shop. Ergänzt wird das Sortiment durch Einsteckschlösser, Sicherheitsschlösser und digitale Schließsysteme, die eine flexible Verwaltung von Zutrittsrechten erlauben.",
+  "trace": {
+   "tueroeffnung": "wenn ihr euch ausgesperrt habt oder euren Schlüssel verloren habt",
+   "gewerblich_objektbetreuung": "Haushalte, Unternehmen und öffentliche Institutionen"
+  }
+ },
+ {
+  "slug": "hinrichs-it-sicherheitstechnik-loerrach",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Ein Familienunternehmen für Sicherheit rund ums Haus: Hinrichs IT & Sicherheitstechnik in Lörrach betreibt einen Schlüsselnotdienst, der rund um die Uhr für Lörrach und Umgebung erreichbar ist und in der Regel innerhalb von 30 Minuten vor Ort sein will. Er öffnet Türen, Garagentore, Tresore und Briefkästen, tauscht Zylinder und arbeitet laut Betrieb zu Festpreisen. Als Hauptgeschäft verkauft und baut der Betrieb Schließanlagen ein, elektronisch und mechanisch, und führt Reparaturen aus. Dazu kommen Zusatzsicherungen, Alarmanlagen und Tresore sowie Einbruchschutz und die Beseitigung von Schäden nach einem Einbruch. Ein Sicherheitscheck für das eigene Zuhause und die Beratung sind kostenlos. Als Hauptangebote führt der Betrieb Notrufservice, professionelle Türöffnungen, Einbruchschutzlösungen und den Verkauf von Schließanlagen. Beratung zu Sicherheitstechnik und Einbruchsvorsorge ist kostenlos. Die Sicherheit der Kunden stellt der Betrieb als Mission in den Mittelpunkt.",
+  "trace": {
+   "elektronische_schliesssysteme": "Schließanlagen, elektronisch und mechanisch"
+  }
+ },
+ {
+  "slug": "schluesseldienst-voss-loessnitz",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Rund 40 Jahre Erfahrung bringt der Inhaber von Schlüsseldienst Voß in Lößnitz mit. Er öffnet Türen für Ausgesperrte, wechselt Schlösser, baut Zylinder ein und montiert Schließanlagen für Garagen und Lagerbereiche. Ein 24-Stunden-Service mit Notdienst deckt Lößnitz und Orte im Umkreis von etwa 20 Kilometern ab, darunter Hartenstein, Lauter, Wildbach und Bockau; weitere Orte sind auf Anfrage möglich. Die verkauften Zylinder und Schlösser halten im Durchschnitt zehn bis zwanzig Jahre. Für Ersatzschlüssel hält er 2800 verschiedene Rohlinge vorrätig, darunter alte und seltene, und fertigt Schlüssel für Autos, Motorräder, Bundbart-, Kasten- und Möbelschlösser an. Riegel, Türketten und Beschläge gehören ebenfalls zum Sortiment. Das Ladengeschäft hat an Werktagen und samstags vormittags geöffnet. Zylindereinbau, Ersatzschlüssel und Autoschlüssel bilden die Hauptleistungen, dazu kommen Tresor- und Bundbartschlüssel für Zimmertüren und Kastenschlösser.",
+  "trace": {
+   "tueroeffnung": "Ausgesperrt? Ihre Schlösser müssen gewechselt werden?"
+  }
+ },
+ {
+  "slug": "hr-schluesseldienst-gmbh-luebbecke",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Als regionaler Aufsperrdienst arbeitet die HR-Schlüsseldienst GmbH in den Kreisen Minden und Minden-Lübbecke. Der Notdienst ist Tag und Nacht erreichbar, auch an Sonn- und Feiertagen, mit kurzen Anfahrtszeiten in Lübbecke, Minden und den Nachbargemeinden. Türen öffnet der Betrieb zerstörungsfrei. Dazu gehören Beratung zum Einbruchschutz sowie Montage von Schlössern und Zylindern. Festpreise ohne versteckte Kosten gehören nach eigener Angabe zum Auftritt.",
+  "trace": {
+   "schlossaustausch": "Professionelle Beratung und Montage von Schlössern und Zylindern"
+  }
+ },
+ {
+  "slug": "roblick-sicherheitstechnik-luebbenau-spreewald",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Seit 1997 liefert und montiert Roblick Sicherheitstechnik in Lübbenau/Spreewald mechanische und digitale Schließsysteme, von einem einzelnen Zutrittspunkt bis zu komplexen Schließanlagen. Das Angebot reicht von Profilzylinder-Schließanlagen samt Montage, Wartung und Reparatur über Schlüsseltresore, Wertgelasse und Einbruch-Meldeanlagen bis zu Zutrittskontrolle, elektrischen Tür-Öffnungsanlagen, Torantrieben und Parkplatz-Sicherungssystemen. Hinzu kommen Türöffnungen, Briefkastenanlagen, Emaille-Hausnummern und die Sonderanfertigung von Schlössern und Beschlägen. Schlüssel für Tresore, Autos und Profilzylinder werden angefertigt. Kunden sind Privathaushalte, Gewerbe und Industrie; für Versorger, Entsorger und Dienstleister gibt es ein Schlüsselmanagement mit Sonderlösungen für Objektzugänge. Das Ladengeschäft hat feste Öffnungszeiten, geliefert und montiert wird bundesweit. Als Leistungsprofil nennt der Betrieb Beratung, Verkauf, Lieferung und Montage, dazu Sonderanfertigungen statt Standardlösungen. Das Team um Herrn Roblick betreut die Kunden freundlich, und Beratung, Verkauf und Montage laufen im selben Haus.",
+  "trace": {
+   "schluessel_nachmachen": "Anfertigung von Tresor-, Kreuzbart-, Profilzylinder-, Buntbart- und Autoschlüsseln",
+   "gewerblich_objektbetreuung": "Sonderlösungen für Objektzugänge"
+  }
+ },
+ {
+  "slug": "wormsbecher-facility-service-luenen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Hausmeisterservice und Handwerk aus einer Hand bietet Wormsbecher Facility Service in Lünen seit 2007. Neben Türöffnungen als Schlüsseldienst umfasst das Angebot Gebäudeservice, Renovierung, Sanierung, Montage sowie Einbau und Reparatur von Fenstern, Türen und Rollläden. Hinzu kommen Maler- und Trockenbauarbeiten, Deckenabhängungen, Pflasterarbeiten, Zaunbau, Baumpflege, Möbelmontagen, Entrümpelungen und Haushaltsauflösungen. Auch Verglasungen, Metallbau, Smart Home und Solaranlagen übernimmt der Betrieb. Er arbeitet für Privatkunden, Vermieter, Hausverwaltungen und Gewerbekunden."
+ },
+ {
+  "slug": "jt-metallbau-gmbh-mahlberg",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Metallbau steht bei der JT Metallbau GmbH in Mahlberg im Mittelpunkt, nicht der Schlüsseldienst. Der Betrieb fertigt Zäune, Tore, Carports, Terrassen, Balkone, Treppen, Geländer, Vordächer, Terrassenüberdachungen und Stahlmöbel. Dazu kommen Sonderanfertigungen nach Kundenwunsch sowie Service an den gelieferten Anlagen. Auch Einbruchschutz zählt zu den Produktbereichen. Als Metallwerkstatt arbeitet der Betrieb mit eigener Fertigung und führt daneben die Kategorie Schlüsseldienst. Zur Website des Unternehmens gehören Rubriken zu Fertigung, Produkten, Aktuellem und Referenzen. Der Betrieb führt Fertigung und Service als eigene Bereiche."
+ },
+ {
+  "slug": "abpa-sicherheitstechnik-gmbh-mahlow",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die ABPA Sicherheitstechnik GmbH in Mahlow hat ihre Tätigkeit zum 31.12.2025 aus Altersgründen des Geschäftsführers eingestellt. Die Firma besteht im Zuge einer Verschmelzung in der alten Form nicht mehr. Haustürreparaturen werden nur noch in eingeschränktem Maß erfolgen. Für elektronische Sicherheitstechnik wie Alarmanlagen, Videoüberwachung und elektronische Zutrittskontrolle ist nun die Karp GmbH die Anlaufstelle. Vor der Einstellung war der Betrieb als Anbieter von Sicherheitstechnik und Sicherheitssystemen geführt, mit Schlüsseldienst als Nebenkategorie. Die Karp GmbH führt diese Themen weiter, sofern Kunden es wünschen."
+ },
+ {
+  "slug": "schluesseldienst-wiesbaden-ante-mainz-kastel",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Mobil unterwegs ist der Schlüsseldienst Wiesbaden Ante aus Mainz-Kastel: Er arbeitet nach telefonischer Absprache in Mainz, Wiesbaden, Gustavsburg, Hochheim und im Rheingau. Schwerpunkt sind Autoschlüssel, die er repariert, programmiert und nachmacht, auch wenn kein Originalschlüssel mehr vorhanden ist und nur das Schloss bleibt. Die Codierung von Kfz-Schlüsseln erledigt er direkt vor Ort beim Kunden."
+ },
+ {
+  "slug": "elektro-sicherheitstechnik-westermair-maisach",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Elektrotechnik, Sicherheitstechnik und Schließtechnik bietet Elektro & Sicherheitstechnik Westermair in Maisach unter einem Dach an. Ein Ladengeschäft mit Schlüsseldienst gehört dazu, ebenso Schließzylinder aller Art, Zentral-, Hauptschlüssel- und Generalschließanlagen, Sperrschließungen sowie Transponder-Systeme, elektronische Schließzylinder und app-gesteuerte Zutrittslösungen. Durch die Verbindung aus Schlüsseldienst und Elektrotechnik übernimmt der Betrieb die mechanische und die elektrische Umsetzung komplett. Zur Sicherheitstechnik zählen Alarmanlagen, Videoüberwachung, Zutrittskontrolle, Fenstersicherungen und einbruchhemmende Fensterbeschläge. Neu ist ein Autoschlüssel-Service. Bedient werden Wohnhäuser, Mehrfamilienhäuser, Gewerbeobjekte und öffentliche Einrichtungen. Veranstaltungstechnik sowie Beschriftungen, Gravuren und Werbetechnik ergänzen das Angebot. Zur Elektrotechnik zählen Photovoltaik sowie Video- und Sprechanlagen, im Bereich Tresore und Wertschutz gibt es Beratung zu Tresoren. Termine lassen sich vereinbaren. Die Kombination aus Elektro-, Sicherheits- und Zutrittstechnik soll Wohnung, Unternehmen und Wertgegenstände schützen. Mechanische und digitale Schließsysteme sind beide im Programm.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Wohnhäuser, Mehrfamilienhäuser, Gewerbeobjekte und öffentliche Einrichtungen"
+  }
+ },
+ {
+  "slug": "schloss-notdienst-stahl-malchow",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "In Malchow und Umgebung ist der Schloß-Notdienst Stahl an sieben Tagen in der Woche rund um die Uhr im Einsatz. Die Mission des Betriebs ist es, in Notfällen schnell zur Seite zu stehen: Er hilft, wenn jemand ausgesperrt ist oder Schlüssel verloren hat, und will Anwohner rasch wieder in ihr Zuhause bringen. Der Betrieb verweist auf seine Erfahrung im Schlüsseldienst. Außerdem fertigt er Ersatzschlüssel an und repariert Schlüssel, nach eigener Angabe schnell und effizient. Der Auftritt richtet sich an Menschen vor Ort, die schnelle Hilfe an der Tür brauchen. Die Zufriedenheit der Kunden stellt der Betrieb nach eigener Angabe in den Mittelpunkt. Wer einen Ersatzschlüssel braucht, bekommt in Malchow schnellen Service, und der Notdienst bleibt auch nachts und am Wochenende im Einsatz.",
+  "trace": {
+   "tueroeffnung": "egal ob Sie sich ausgesperrt haben oder Ihre Schlüssel verloren haben"
+  }
+ },
+ {
+  "slug": "zv-key-auto-schluesseldienst-malsburg-marzell",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "ZV_KEY ist ein mobiler Autoschlüsseldienst in Malsburg-Marzell, der bis zu 30 Kilometer weit fährt. Er macht Autoschlüssel nach, programmiert sie und fräst Rohlinge, auch nach Code, für Marken wie BMW, VW, Audi und Mercedes. Bei Schlüsselverlust liefert er Ersatz und löscht verlorene Schlüssel aus dem Wegfahrsperren-System, außerdem klont er Wegfahrsperren und tauscht defekte Gehäuse und Tasten. Vor Ort arbeitet er in Lörrach, Weil am Rhein, Müllheim und Freiburg."
+ },
+ {
+  "slug": "kaiserstuehler-sicherheitstechnik-malterdingen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Türschloss, Panzerriegel oder Tresor: Kaiserstühler Sicherheitstechnik in Malterdingen berät und verkauft rund um Einbruchschutz und Rettungswegtechnik in Emmendingen, Freiburg, Bad Krozingen, Waldkirch, Endingen und der Ortenau. Für Fenster und Balkontüren gibt es Fenstersicherungen wie Krallfix und Abus mit abschließbarem Fenstergriff, für Türen Zusatzsicherungen und Panzerriegel, dazu Alarmanlagen und digitale Türspione. Das Sortiment umfasst Profilzylinder von BKS, EVVA, IKON und KESO, einbruchsichere und feuersichere Tresore, Schließanlagen, Türschließer, Panikverschlüsse, Fluchttürsicherungen und Feststellanlagen. Rauch-, Kohlenmonoxid- und Hitzewarnmelder ergänzen den Brandschutz. Die Zutrittskontrolle läuft elektronisch mit Fingerprint und Funkschlüsseln, auch als Schlüsselmanagement. Ein Schlüsseldienst mit Reparaturen steht ebenfalls im Angebot. Zu den Produkten zählen Fensterstangenverschlüsse mit abschließbarem Fenstergriff oder Druckolive, Fensterantriebe, Zutrittslösungen wie EVVA Airkey und Xesar sowie Video- und Überwachungstechnik. Die abschließbaren Zusatzsicherungen von IKON sind gleichschließend erhältlich; Material ist verzinkter Stahl, teilweise beschichtet."
+ },
+ {
+  "slug": "e-kroll-gmbh-stahlbau-schlosserei-marbach-am-neckar",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Stahlbau, Schlosserarbeiten, Metallverarbeitung und Schweißarbeiten stehen bei der E. Kroll GmbH in Marbach am Neckar auf dem Programm, verarbeitet werden Stahl und Edelstahl. Das mittelständische Handwerksunternehmen mit langer Tradition verfügt über ein eigenes technisches Büro und einen Schweißfachingenieur und übernimmt Beratung, Planung und technische Bearbeitung selbst; Facharbeiter setzen die Aufträge in Fertigung und Montage um. Der Betrieb arbeitet als Metallbauer, nicht als Schlüsseldienst."
+ },
+ {
+  "slug": "schluessel-gentsch-sicherheitsfachgeschaeft-gentsch-gbr-marienberg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüssel-Gentsch aus Marienberg ist ein Sicherheitsfachgeschäft in der Rechtsform einer GbR. Im Mittelpunkt stehen mechanische Schließanlagen und der Schlüsselnotdienst. Der Aufsperrdienst öffnet verschlossene Türen, daneben gehören Schließanlagen und Sicherheitstechnik zum Angebot. Der Betrieb führt den Schlüsseldienst im Namen und hat feste Öffnungszeiten hinterlegt. Schlüsselnotdienst und Aufsperrdienst werden ausdrücklich nebeneinander geführt.",
+  "trace": {
+   "tueroeffnung": "Schlüsseldienst Aufsperrdienst"
+  }
+ },
+ {
+  "slug": "sicherheitsfachhandel-ek-marienheide",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Frank Ruland führt in Marienheide den Sicherheitsfachhandel als eingetragener Kaufmann. Das Angebot gliedert sich in Haussicherheit, Bauelemente und Baubeschlag, Brandschutz und einen Schlüsselnotdienst. Der Betrieb arbeitet mit Partnern zusammen und stellt Wissenswertes zu seinen Produkten bereit. Er führt Schlösser und Einbruchschutz im Sortiment und hat Geschäftszeiten für Besucher festgelegt, die sich anfahren lassen. Im Eintrag erscheint er als Schlüsseldienst. Der Betrieb stellt Produkte, Partner und Wissenswertes in eigenen Rubriken vor und gibt Anfahrt und Geschäftszeiten an. Die Bauelemente und der Baubeschlag bilden einen eigenen Sortimentsbereich neben dem Brandschutz."
+ },
+ {
+  "slug": "schuh-und-schluesseldienst-claudi-markkleeberg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Zwei Handwerke trägt Schuh- und Schlüsseldienst Claudi in Markkleeberg schon im Namen: die Schuhreparatur und den Schlüsseldienst. Als Schlüsseldienst ist der Betrieb eingeordnet, mit festen Öffnungszeiten. Er steht für eine Kombination, die in kleineren Geschäften häufig anzutreffen ist: Schuhe und Schlüssel an einer Adresse, in Markkleeberg. Beides ist unter einem Namen vereint."
+ },
+ {
+  "slug": "notz-gmbh-locksmith-markt-rettenbach",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die Schlosserei Notz aus Markt Rettenbach im Unterallgäu arbeitet unter den Leitworten Gestalten, Bauen, Sichern. Als Stahlbauer fertigt sie Geländer, auch aus Edelstahl, Treppen, Balkone, Zäune, Terrassenüberdachungen, Vordächer, Hof- und Garagentore sowie Stahldachkonstruktionen. Zur Objektgestaltung gehören Baumschutzgitter, Leuchtenmasten, Poller, Parkbänke, Brücken, Stege, Wartehäuschen und Rankschutz. Unter dem Stichwort Sichern führt der Betrieb Notöffnungen, Schließanlagen, Schutzbeschläge, Fenstergitter und einen Schlüsseldienst auf. Das Unternehmen ist eine GmbH mit eigener Historie und eigenem Mitarbeiterstamm in Markt Rettenbach. Geländer gibt es auch in Edelstahl, dazu Treppen und Balkone nach Maß. Der Betrieb hat feste Öffnungszeiten, zeigt Referenzen und Bescheinigungen und führt eine Bildergalerie mit ausgeführten Arbeiten. Die Hof- und Garagentore, Vordächer und Fenstergitter ergänzen die Stahlarbeiten für Haus und Hof. Über Dienstleistungen, Referenzen und Termine informiert der Betrieb gesondert.",
+  "trace": {
+   "tueroeffnung": "Notöffnungen",
+   "einbruchschutz": "Schutzbeschläge Schlüsseldienst Fenstergitter"
+  }
+ },
+ {
+  "slug": "eisen-fendt-gmbh-marktoberdorf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Seit der Gründung 1904 als kleiner Eisenwarenhändler ist Eisen Fendt in Marktoberdorf in der vierten Generation zum Systemlieferanten für Handwerk und Industrie gewachsen. Das Sortiment reicht von Walz- und Edelstahl, Bewehrung und Werkzeug über Befestigungstechnik und Arbeitsschutz bis zu Öfen und Herden mit großer Ofenausstellung. Im Bereich Tür und Tor gibt es Zimmertüren, Haustüren und Beschläge mit Aufmaß und Montage vor Ort, einem virtuellen Showroom und Smart-Home-Integration. Hinzu kommen Planung und Umsetzung von Schließanlagen samt Schließplan sowie Schlüsseldienst und Schlüsselnachfertigung. Eine Türenausstellung lädt zum Besuch ein, ein Workwear-Store führt Arbeitskleidung ausgewählter Marken, und im Online-Shop kann bestellt werden; eine Abholbox ist rund um die Uhr zugänglich. Weitere Sortimente sind Draht und Eisenwaren, Dach und Fassade, Betriebseinrichtung, Schiebetorbeschläge und chemisch-technische Produkte. Veranstaltungen wie der Martinimarkt, ein Grillkurs und die Kinderwerkstatt gehören zum Haus.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Fachhandelspartner für Industrie, Handwerk und Gewerbe"
+  }
+ },
+ {
+  "slug": "herm-fichtner-hof-gmbh-marktredwitz",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Als Fachhändler für Baubeschläge, Bauelemente und Werkzeuge beliefert die Herm. Fichtner Hof GmbH in Marktredwitz ausschließlich gewerbliche Handwerksbetriebe, Industriekunden und professionelle Verarbeiter aus der Region. Das inhabergeführte Familienunternehmen besteht seit rund 130 Jahren und beschäftigt über 80 Mitarbeiter. Zum Programm gehören Fenster-, Tür- und Möbelbeschläge, Lacke, Werkzeuge und Maschinen, Zimmereibedarf, Sicherheitstechnik sowie ein Bereich Schlüsseldienst und Mechatronik. Hohe Lieferbereitschaft, ein eigener Fuhrpark mit Lager und Logistik und ein Online-Shop, in dem jederzeit bestellt werden kann, sorgen dafür, dass die Ware schnell bei den Betrieben ankommt. Der Betrieb bildet aus. Das Sortiment umfasst alles, was Handwerksbetriebe benötigen, von Türen über Beschläge bis zu Sicherheitstechnik; so erhalten die Kunden schnell das Produkt für ihr Projekt. Ein Serviceportal, Downloads, häufige Fragen und ein Shopzugang für neue Kunden ergänzen das Angebot."
+ },
+ {
+  "slug": "obi-markt-massen-finsterwalde-massen",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Als Baumarkt für Heim- und Handwerker führt der OBI Markt in Massen-Finsterwalde Waren aus Bauen, Wohnen, Technik und Garten, geordnet in Abteilungen, mit eigenen Angeboten für Profis. Zu den Services zählt ein Schlüsseldienst, der Schlüssel sofort anfertigt, sodass sie direkt mitgenommen werden können. Dazu kommen Umtausch innerhalb von drei Monaten, Geschenkkarten, Mietgeräte und Werkzeugverleih, ein Holzzuschnitt-Service, ein Farbmischservice und ein Containerservice. Beratung und Montage gibt es für Solaranlagen, Terrassenüberdachungen nach Maß und Wärmepumpen. Ein Gartencenter gehört ebenfalls zum Markt, und für die Beratung lässt sich ein Termin vereinbaren.",
+  "trace": {
+   "schluessel_nachmachen": "Schlüsseldienst Für dich sofort angefertigt",
+   "ladengeschaeft": "Dein OBI Markt Massen-Finsterwalde, Ludwig-Erhard Str. 5"
+  }
+ },
+ {
+  "slug": "kersting-gmbh-maulburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Türen, Schlösser, Fenster und Brandschutz stehen bei der Kersting GmbH in Maulburg im Raum Lörrach im Mittelpunkt. Der Betrieb arbeitet als Schlüsseldienst und widmet dem Einbruchschutz eine eigene Rubrik. Dazu kommen Reparaturen, Garagentore sowie Wartung und Prüfung von Brandschutz, Rauchschutz und Fluchttüren. Auch Fenster gehören zum Leistungsspektrum, und für Privat- und Geschäftskunden gibt es Tipps und Tricks rund um Sicherheit. Neben dem Schlüsseldienst führt der Betrieb Notdienst und Schlüsselnachfertigung in seiner Kategorie. Der Betrieb richtet sich an Privat- und Geschäftskunden und gliedert seine Leistungen in Reparaturen, Schlüsseldienst, Garagentore und Einbruchschutz."
+ },
+ {
+  "slug": "schluesseldienst-patronus-sicherheitstechnik-meerane",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Schlüsseldienst patronus Sicherheitstechnik arbeitet in Meerane. Schon der Name führt zwei Arbeitsfelder zusammen, den Schlüsseldienst und die Sicherheitstechnik. Als Schlüsseldienst ist der Betrieb eingeordnet. Mit dem Wort Sicherheitstechnik im Namen stellt er die Sicherung von Türen und Räumen neben das Handwerk rund um Schloss und Schlüssel. Der Betrieb gehört zu den Schlüsseldiensten in Meerane und führt seinen Namen mit beiden Feldern."
+ },
+ {
+  "slug": "reiners-metall-meerbusch",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Treppen, Geländer, Handläufe und Sonderanfertigungen aus Stahl, Edelstahl und Aluminium fertigt Reiners-Metall nach Maß in der eigenen Werkstatt in Krefeld, der Sitz laut Eintrag ist Meerbusch. Das Aufmaß entsteht mit einem 3D-Laserscanner. Handläufe sind wandmontiert oder am Geländer geführt, die Stöße verschweißt und verschliffen, auch als Nachrüstung nach DIN 18040. Sonderanfertigungen reichen von Tischgestellen über Abdeckungen und Brunnenroste bis zu Carportteilen. Der Ablauf gliedert sich in Erstgespräch, digitales Aufmaß, Fertigung sowie Montage und Abnahme. Der Betrieb arbeitet als Metallbauer, nicht als Schlüsseldienst."
+ },
+ {
+  "slug": "warns-kochen-geniessen-porzellan-hausrat-schluesseldienst-meldorf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Seit rund 140 Jahren besteht das Fachgeschäft Warns in der Meldorfer Fußgängerzone, heute in vierter Generation unter Arne Warns. Der Verkauf von Öfen und Herden wurde eingestellt, dafür wuchsen die anderen Sortimente: Der Laden zeigt Töpfe, Pfannen, Bräter, Küchenhelfer, Küchenmesser, Porzellan, Glas und Geschenkartikel, dazu Haus und Garten sowie Schreibwaren. Unter Manfred Warns wurde das Ladengeschäft vergrößert, ein 15-köpfiges Team berät heute individuell. Neben dem Handel bietet das Haus einen Schlüsseldienst für Meldorf und Umgebung, der auch Türöffnungen übernimmt; er kam schon vor der Erweiterung des Sortiments hinzu. Versand mit UPS und DHL, Lotto und eine Dienstleistungsagentur der Landeszeitung gehören ebenfalls dazu. Durch den Bau der Fußgängerzone in den 1960er Jahren änderte sich der Kundenlauf in kurzer Zeit. 1999 stieg Arne Warns in das Unternehmen ein. Das Geschäft liegt nur wenige Meter vom Markt entfernt."
+ },
+ {
+  "slug": "ac-tech-services-schuhmacherei-und-schluesseldienst-melsungen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Seit 2011 führt AC-Tech Services in Melsungen den Schlüsseldienst gemeinsam mit einer Schuhmacherei. Zum Schlüsseldienst zählen Türöffnungen und Notdienst, Schlüsselkopien, Schließzylinder, mechanische und elektronische Zylinder und Autoschlüssel, auch mit Wegfahrsperre und Fernbedienung, samt Ersatz, Nachbestellung und Reparatur für fast alle Fahrzeugmarken. Schließanlagen plant, installiert und wartet der Betrieb für Unternehmen, große Wohnanlagen und andere Objekte. Daneben gibt es Schuh-, Taschen- und Lederreparaturen, Näharbeiten und Lederpflege, Gravuren mit Laser in Gold, Silber und Holz, Fotogravuren, Pokale, Stempel und Schilder, Uhrenservice mit Batterietausch und Armbändern sowie bedruckte Geschenke wie Tassen, Kissen, Taschen, Thermoflaschen und Schiefertafeln. Bei Schließanlagen stehen individuelle Lösungen, Beratung und Planung sowie schnelle Reparaturen im Vordergrund. Ein defekter oder verlorener Autoschlüssel lässt sich ersetzen, nachbestellen oder reparieren. Der Standort in Melsungen ist neu."
+ },
+ {
+  "slug": "first-class-schuh-und-schluesseldienst-memmingen-memmingen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Rund um die Uhr erreichbar ist First Class Schuh- und Schlüsseldienst in Memmingen als Schlüsseldienst, neben dem Schuhservice im Namen. Der Betrieb hilft sofort. Bei einer Türöffnung ist das erste Ziel, Schäden am Eigentum des Kunden zu vermeiden, und bei jeder Türöffnung gibt er sein Bestes, keine Öffnungsspuren zu hinterlassen. Nach eigener Angabe gelingt das in den allermeisten Fällen.",
+  "trace": {
+   "notdienst_24h": "Wir als 24-Std. Schlüsseldienst helfen sofort!"
+  }
+ },
+ {
+  "slug": "aufsperrheld-mering-mering",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Notöffnungen sind das Geschäft von Aufsperrheld Mering: Der Betrieb öffnet Häuser, Wohnungen, Büros und andere Einrichtungen, ebenso Autos sowie Fenster und Türen aus Metall und Kunststoff. Hinzu kommen Austausch und Einbau neuer Türschlösser einschließlich Zylindertausch und weitere Dienstleistungen rund um Schloss und Tür. Das Einsatzgebiet umfasst Wohn- wie Gewerbeobjekte, von Häusern bis zu Büros.",
+  "trace": {
+   "tueroeffnung": "Notöffnung von Häusern, Wohnungen, Büros",
+   "autoschluessel": "Notöffnung von Autos"
+  }
+ },
+ {
+  "slug": "schluessel-mit-system-michael-johannes-merzig",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Über 30 Jahre Erfahrung in der Sicherheitstechnik bringt Schlüssel mit System von Michael Johannes mit, mit Sitz in Mettlach und Einsatzgebiet bis Merzig, Saarlouis, Losheim, Saarbrücken und Luxemburg. Die Kernarbeit ist die Installation von Schließanlagen, mechanisch wie elektronisch, samt Wartung und Ergänzung, auch als Eigenprofilanlage; mechanische Anlagen gibt es als Hauptschlüssel- und Gleichschließ-Anlagen. Eine Schwachstellenanalyse vor Ort führt zu passenden Lösungen für Türen und Fenster, dazu kommen Funk-Alarmanlagen und Sicherheitstechnik. Der Schlüsselnotdienst arbeitet 24 Stunden und öffnet zugefallene Türen zerstörungsfrei, verschlossene Türen möglichst materialschonend; vor der Öffnung weisen sich Mieter aus. Pauschalpreise nennt der Betrieb vorab. Kunden sind Privathaushalte und Gewerbe. Wartung und Ergänzung vorhandener Anlagen gehören zum Service, ebenso Hinweise zur Auswahl eines Schlüsselnotdienstes und Sicherheitstipps für Haus und Wohnung.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Zuverlässige Lösungen für Gewerbe und privat"
+  }
+ },
+ {
+  "slug": "schluessel-mit-system-michael-johannes-mettlach",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Als Sicherheitsfirma aus Mettlach plant, liefert und montiert Schlüssel mit System seit über 30 Jahren mechanische und elektronische Schließsysteme. Fachhandel für Schließanlagen namhafter Hersteller gehört ebenso dazu wie Einbruchschutz für Türen und Fenster mit Beratung und Schwachstellenanalyse vor Ort. Eigenprofilanlagen sparen Wartezeiten bei Nachbestellungen; Zylinder- und Schlüsselbestellungen zu bestehenden Anlagen laufen über die Sicherungskarte. Türen in Mettlach, Merzig, Saarlouis und Losheim öffnet der Schlüsselnotdienst rund um die Uhr, möglichst ohne Schäden an Zylinder, Beschlag oder Tür. Die Pauschalpreise für Wohnungs- und Haustüren werden vorab genannt. Gewerbe und Privatkunden sind gleichermaßen Kunden, dazu kommen Alarmanlagen. Funk-Alarmanlagen und Sicherheitstechnik ergänzen das Angebot, ebenso Wartung und Ergänzung vorhandener Schließsysteme. Referenzen und Sicherheitstipps zeigen, wie sich Einbrechern der Zugang erschweren lässt. Das Einsatzgebiet reicht bis Saarbrücken und Luxemburg.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Zuverlässige Lösungen für Gewerbe und privat"
+  }
+ },
+ {
+  "slug": "schliessanlagenshop24-metzingen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Beratung, Planung und Montage von Schließanlagen jeder Art und Größe im Großraum Metzingen sind die Spezialität von Schliessanlagenshop24. Online lassen sich Anlagen mit einem Konfigurator zusammenstellen, ein Schließplan-Entwurf ist möglich, und Nachbestellungen laufen über einen eigenen Ablauf. Die Anlagen eignen sich für Einfamilienhaus, Mehrfamilienhaus, Firmen, Krankenhäuser und Hausverwaltungen, geliefert von Herstellern wie CES, BASI, BKS, WILKA und ISEO. Zur Absicherung von Wohnungstüren, Haustüren und Fenstern montiert der Betrieb Sicherheitsbeschläge, Sicherheitsschlösser, Querverriegelungen, Mehrfachverriegelungen und Zusatzkastenschlösser. Fällt eine Tür zu, rückt er aus. Betrieben wird der Shop von einem Schlüsseldienst in Metzingen. Der Konfigurator führt Schritt für Schritt durch die Planung, beginnend mit der Frage, wo die Schließanlage installiert werden soll. Die Produkte eignen sich für Gleichschließungen und Hauptschlüssel-Anlagen. Ein Schlüsseldienst vor Ort betreut Kunden in Metzingen.",
+  "trace": {
+   "tueroeffnung": "Fällt die Tür zu, kommen wir im NU!",
+   "einbruchschutz": "Absicherung von Wohnungstüren, Haustüren und Fenstern durch Montage von Sicherheitsbeschlägen"
+  }
+ },
+ {
+  "slug": "glas-und-schloss-wir-machen-das-midlum",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Glas und Schloß vereint der Betrieb Glas und Schloß wir machen das in Midlum schon im Namen. Als Schlüsseldienst ist er eingeordnet, ergänzend als Glaserei. Feste Öffnungszeiten sind hinterlegt. Der Name verspricht Arbeit an Glas und an Schlössern aus einer Hand, wie sie ein kleiner Handwerksbetrieb vor Ort verbindet. Der Betrieb sitzt in Midlum."
+ },
+ {
+  "slug": "schluesseldienst-fischer-inh-andreas-woernle-mittenwald",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Inhaber Andreas Wörnle führt in Mittenwald den Schlüsseldienst Fischer. Der Betrieb installiert Zutrittskontrollsysteme für Zuhause und Unternehmen, fertigt Schlüssel an und bietet einen Notdienst bei Schlüsselproblemen. Daneben gibt es Gravuren, Beratung in allen Belangen der Sicherheitstechnik, Messer und Souvenirs. Im Laden finden sich außerdem Türen, Geschenke, Schilder und Pokale. Zum Sortiment zählen außerdem Neuheiten und Geschenkartikel.",
+  "trace": {
+   "schluessel_nachmachen": "Anfertigung von Schlüsseln",
+   "elektronische_schliesssysteme": "Installation von Zutrittskontrollsystemen"
+  }
+ },
+ {
+  "slug": "schreinerei-weiss-und-schluesseldienst-handcrafted-furniture-mitterteich",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "In der nördlichen Oberpfalz baut die Schreinerei Weiß in Mitterteich Möbel und Innenausbau nach Maß: Küchen, Schränke, Regale, Tische, Bänke, Stühle und Garderoben, Räume vom Wohnzimmer über das Schlafzimmer bis zum Bad sowie Büro, Praxis, Ladenbau und Hotelmöbel. Der Betrieb versteht sich als Schreiner, Raumplaner und Designer und liefert die gesamte Produktion aus einer Hand. Auch Türen und Renovierung gehören zum Programm. Beim Einbruchschutz rüstet der Schreiner Fenster und Türen nach, nach Polizeivorgaben und ohne Austausch der vorhandenen Elemente; innenverschraubte Schutzbeschläge verhindern, dass Einbrecher den Profilzylinder herausziehen."
+ }
+]

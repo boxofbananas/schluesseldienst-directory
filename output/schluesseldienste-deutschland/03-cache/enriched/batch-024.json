@@ -1,0 +1,550 @@
+[
+  {
+    "slug": "ampatsidis-schluesseldienst-dortmund",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Als Schlüsseldienst für Türöffnung, Objekt- und Sicherheitstechnik arbeitet Ampatsidis in Dortmund nach eigener Angabe seit über 40 Jahren. Der Betrieb öffnet Türen im Notfall und tauscht dabei bei Bedarf auch das Schloss. Er rüstet bestehende Schließanlagen nach, berät zu Einbruchschutzmaßnahmen und nimmt Türen, Tore und Türbeschläge vor Ort in Augenschein, um eine passende Lösung zu finden. Betreut werden Gewerbeobjekte, Mietwohnanlagen und Privatkunden, von der Erstellung eines Sicherheitskonzepts bis zu Wartung und Reparatur von Türen, Toren, abschließbaren Fenstern und Sicherheitseinrichtungen. Zum Angebot gehören außerdem Rollläden und Fenster sowie Schilder, Gravuren und Stempel. Dazu kommt eine große Stammkundschaft aus allen Unternehmensbereichen in Dortmund und Umgebung. Der Notdienst ist als eigener Bereich neben der Türöffnung aufgeführt, ebenso Beratung und Verkauf. Montage und Reparatur, Einbruchsicherungen, Türbeschläge und Schlösser sowie Schließanlagen und Tresore bilden jeweils eigene Leistungsbereiche."
+  },
+  {
+    "slug": "schluesseldienst-gks-dortmund-dortmund",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "trace": {
+      "schluessel_nachmachen": "In unserer Filiale kopieren wir Schlüssel aller Art"
+    },
+    "description": "Der Schuh- und Schlüsseldienst Glücksschlüssel in Dortmund öffnet Türen im Handumdrehen, wenn sich jemand ausgesperrt hat, und kopiert in seiner Filiale Schlüssel aller Art. Er graviert Schilder und Schlösser, lässt individuelle Stempel erstellen und verkauft Türzylinder. Daneben arbeitet der Betrieb als Schuster, erneuert Absätze und Schuhsohlen und montiert Sicherheitstechnik wie Panzerriegel und Schließanlagen. Eine ausführliche Beratung bietet er kostenlos an."
+  },
+  {
+    "slug": "kaufhold-schuh-und-lederservice-dortmund",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Gegründet 1906, wird die Schuhmacherei Kaufhold in der Dortmunder Innenstadt heute in dritter Generation geführt und ist weiterhin in Familienbesitz. Die Werkstatt blickt auf eine über hundertjährige Erfahrung im Handwerk zurück, die Arbeiten übernehmen gelernte Fachkräfte mit langjähriger Berufserfahrung im Haus. Der Betrieb repariert Schuhe, Taschen, Koffer und Lederwaren, fertigt Gürtel und Gürtelschnallen an, die Gürtel werden sofort angepasst und können gleich mitgenommen werden. Außerdem führt er Lederhandel mit Lederpflege und stellt Schilder her. Als Nebenleistung kopiert er Schlüssel. Zum Sortiment zählen außerdem Gürtelschnallen und Saphir Lederpflege, und der Betrieb unterhält einen Shop mit Lederwaren. Betriebsferien sind auf einer eigenen Seite zu den Öffnungszeiten festgehalten. Ein Schlüsseldienst im Sinne von Türöffnung oder Schlosswechsel ist nicht das Gewerk dieses Betriebs, er arbeitet in erster Linie als Schuster und Täschner."
+  },
+  {
+    "slug": "pinger-gmbh-dortmund",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "trace": {
+      "schluessel_nachmachen": "fertigen wir in unserer Schlüsselmanufaktur antike Chubb- und Besatzungsschlüssel"
+    },
+    "description": "Pinger Sicherheitstechnik in Dortmund versteht sich als Spezialist für elektronische Schließsysteme und Zutrittskontrolle, vom biometrischen System bis zur mechatronischen Schließanlage. Ausgestattet werden kleinere Einheiten wie Praxen und Kanzleien ebenso wie Verwaltungsgebäude, Schulen, Krankenhäuser und Hotels. Für den Einbruchschutz rüstet der Betrieb Fenster und Türen mit Zusatzsicherungen nach, etwa an Fenstern und Kellerschächten. In einer eigenen Schlüsselmanufaktur entstehen antike Chubb- und Besatzungsschlüssel, Spezialschlüssel stellt er auf modernen Bearbeitungszentren her. Das Programm reicht außerdem von Alarmanlagen, Funk- und Hybridalarm über Videoüberwachung und Schutznebelsysteme bis zu Tresoren, Waffenschränken, Briefkästen und Schlüsseldepots. Es gibt ein Ladengeschäft und einen Onlineshop, Service wird auch vor Ort beim Kunden zu Hause geleistet. Berechtigungen elektronischer Schlüssel oder Transponder lassen sich am PC oder Mobilgerät ändern, mit Kalenderfunktion für Sonn- und Feiertage und einem Protokoll darüber, wer wann welche Tür geöffnet hat."
+  },
+  {
+    "slug": "schuh-schluesseldienst-goldschluessel-dortmund",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "true",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "trace": {
+      "schluessel_nachmachen": "Schlüssel aller Art",
+      "ladengeschaeft": "Unsere Dienste & Öffnungszeiten"
+    },
+    "description": "Goldschlüssel in Dortmund führt Schlüsseldienst, Sicherheitstechnik und Eisenwaren unter einem Dach. Der Schlüsselnotdienst ist an allen Tagen des Jahres bis in den späten Abend besetzt, daneben gelten eigene Geschäftszeiten für das Ladengeschäft. Angeboten werden Schlüssel aller Art, Autoschlüssel aller Hersteller, Tresorschlüssel, Autoöffnungen und die Beseitigung von Einbruchsschäden. Hinzu kommen Gravuren und Pokale, Stempel, Rollläden sowie Uhrenbatterie- und Armbandwechsel. Das Angebot beschreibt der Betrieb als breite Auswahl an Produkten und Lösungen, die sich nach den individuellen Wünschen und Anforderungen der Kunden richten und jeweils eine passende Lösung finden sollen. Schuhreparaturen führt der Betrieb nur noch eingeschränkt aus, Absätze und Sohlen werden nicht mehr gemacht. Der Name steht für ein Angebot aus Schlüsselnotdienst, Sicherheitstechnik und Eisenwaren, ergänzt um Alltagsdienste wie Stempel, Gravuren und Uhrenbatterien."
+  },
+  {
+    "slug": "key-shoes-ug-wilfried-mintel-aplerbecker-schluesseldienst-dortmund",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "trace": {
+      "schluessel_nachmachen": "Bei uns erhalten Sie Schlüssel vor Ort und Sofort"
+    },
+    "description": "Im Dortmunder Stadtteil Aplerbeck betreibt die Key & Shoes UG von Wilfried Mintel den Aplerbecker Schlüsseldienst. Er hilft bei verlorenen Schlüsseln und zugefallenen Türen als Schlüsselnotdienst, der rund um die Uhr erreichbar sein soll. Bei einer Öffnung prüft ein Techniker zunächst, welches Schloss betroffen ist, und wählt dann die passende Methode mit speziellem Werkzeug, das auf den jeweiligen Schlossmechanismus abgestimmt ist. Schlüssel werden vor Ort angefertigt, passgenau und auf Wunsch sofort. Zusätzlich übernimmt der Betrieb Schuhreparaturen, fertigt individuelle Schilder an und graviert, auch auf mitgebrachten Gegenständen. Nach der Türöffnung berät er außerdem zu weiteren Sicherheitslösungen. Schlüsselverlust, Einbruchschutz und Türöffnungen nennt der Betrieb als Anlässe, bei denen er hilft, und verweist dabei auf Erfahrung und handwerkliche Qualität. Die Betreiber führen die Firma als UG und beschreiben ihren Service als schnell, passgenau und zuverlässig."
+  },
+  {
+    "slug": "service-punkt-schuh-und-schluesseldienst-dortmund",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "trace": {
+      "schlossaustausch": "Wir montieren Panzerriegel, moderne Schließanlagen und Sicherheitszylinder"
+    },
+    "description": "Der Service Punkt Schuh- und Schlüsseldienst in Dortmund gehört zu einem Verbund mit Standorten in mehreren Städten, darunter Köln, Berlin und Bonn. Das Ladenlokal liegt am Westenhellweg. Der Betrieb öffnet zugezogene Türen schonend, hält nach eigener Angabe einen Notdienst an 365 Tagen im Jahr bereit und fährt in die Innenstadt, nach Hörde und Hombruch und in Stadtteile bis nach Aplerbeck, Mengede, Eving und Lütgendortmund. Er montiert Panzerriegel, Schließanlagen und Sicherheitszylinder, fertigt Schlüssel an und programmiert moderne Autoschlüssel. Preise nennt der Betrieb vorab. Zum Angebot zählen außerdem Gravuren für Geschenke, Schmuck und Schilder, Schuh- und Taschenreparaturen, Stempelanfertigung, Messer- und Scherenschleifen sowie biometrische Passfotos. Gravuren führt er auch auf mitgebrachten Gegenständen aus, Logos werden am besten als Vektordatei oder in hoher Auflösung geliefert."
+  },
+  {
+    "slug": "schluesseldienst-pavlos-schuhreparatur-gravur-dortmund",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Schlüsseldienst und Schuhreparatur stehen bei Pavlos in Dortmund und Umgebung nebeneinander. Der Betrieb übernimmt Türöffnungen an Haustüren, Bürotüren und Garagen, wechselt Schlösser und baut Sicherheitstechnik ein. Ein Notdienst rund um die Uhr gehört dazu. Auf der Schuhseite stehen Sohlen- und Absatzreparaturen, Näharbeiten und Pflege, auch Taschen und Lederwaren werden instand gesetzt."
+  },
+  {
+    "slug": "lutz-allroundservice-dortmund",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "trace": {
+      "tueroeffnung": "Ihre Tür ist zugefallen und Ihr Schlüssel liegt noch im Haus? Kein Grund zur Panik! Der Schlüsselnotdienst von Lutz Allroundservice aus Dortmund kümmert sich umgehend"
+    },
+    "description": "Ein Handwerker- und Dienstleistungsbetrieb aus Dortmund mit breitem Zuschnitt ist Lutz Allroundservice. Im Mittelpunkt stehen Haushaltsauflösungen, Sanierungen und Kleinarbeiten rund um Haus und Garten, mit schneller und einfacher Terminvergabe. Dazu kommen Kleintransporte sowie Unterhaltsreinigung und Industriereinigung. Als einer von mehreren Bereichen betreibt der Betrieb einen jederzeit erreichbaren Schlüsselnotdienst. Fällt eine Tür zu und der Schlüssel bleibt im Haus, kümmert sich der Notdienst zeitnah darum und legt Wert auf eine materialschonende Öffnungsweise. Der Schlüsseldienst ist damit eine Leistung neben vielen anderen und nicht der Schwerpunkt des Betriebs. Zum Betrieb gehört außerdem eine Kunstgalerie, auf die verwiesen wird, und es gibt ein Firmenprofil sowie einen Shop. Das Team verspricht schnelle und einfache Terminvergabe für die übrigen Arbeiten. Wer den Notdienst anfordert, soll schnelle Abhilfe erhalten, ohne dass die Öffnung Schäden hinterlässt."
+  },
+  {
+    "slug": "bookholt-sicherheit-dortmund-alarmanlagen-rolllaeden-sicherheitstechnik-dortmund",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "trace": {
+      "festpreis_genannt": "Notdienstzeiten Ob Türöffnung, Schlossaustausch, Rollladen- Reparatur oder jegliche Montagearbeiten. 8:00 - 17:00 Uhr: 90,- Euro inkl. MwSt.",
+      "gewerblich_objektbetreuung": "DOM ENIQ und Tapkey für Gewerbe"
+    },
+    "description": "Sicherheitstechnik für Haus und Gewerbe im Ruhrgebiet steht bei Bookholt Sicherheit im Vordergrund. Der Betrieb liefert Funkalarmanlagen, Videoüberwachung, Fenster- und Türsicherungen, einbruchsichere Rollläden und elektrische Gurtwickler. Schließanlagen und Zutrittskontrollsysteme bezieht er unter anderem von DOM und ABUS, auch für Gewerbe. Das Ladenlokal liegt in Kamen, dort steht der Schlüsseldienst während der Öffnungszeiten zur Verfügung. Er übernimmt Türöffnungen, Schlossaustausch sowie Rollladen- und Montagearbeiten. Außerhalb der Öffnungszeiten ist ein Notdienst erreichbar, dessen Preise nach Tageszeit gestaffelt vorab genannt werden. Ersatzschlüssel werden mit moderner Maschinentechnik gefertigt, Schlüsselrohlinge für diverse Schlüsseltypen liegen bereit. Das Team berät von der Planung bis zur Montage und Wartung. Im Sortiment stehen DAITEM-Funkalarmsysteme, ABUS-Hybridsysteme, IP-Kameras für Gewerbe und Edelstahl-Rollläden. Das Unternehmen bietet ein unverbindliches Erstgespräch an und sagt, Beratung, Verkauf, Montage und Wartung selbst zu übernehmen."
+  },
+  {
+    "slug": "a-drucks-inh-martin-linde-dortmund",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Seit 1867 sitzt Albert Drucks e.K. im Dortmunder Stadtteil Mengede und führt damit eine über 150 Jahre alte Familiengeschichte fort. Der Schlüsselnotdienst ist rund um die Uhr erreichbar und öffnet auch in Waltrop und Castrop-Rauxel. Im Fachgeschäft entstehen Schlüsselkopien auf einer computergesteuerten Maschine, darunter alte Kammschlüssel sowie Auto- und Motorradschlüssel, vieles liegt direkt auf Lager. Der Betrieb plant Schließanlagen, montiert Zylinder und Schutzbeschläge und richtet elektronische Zutrittssysteme mit Transponder, Zahlencode oder Smartphone-App ein. Dazu kommen Safes, Wertschutzschränke und eine Ausstellung, in der Schutzbeschläge und Schließanlagen ausprobiert werden können. Ergänzend bietet er Garagentore mit Antrieben, Markisen, Rollläden und Fensterwartung an. Die Preise für Türöffnungen nennt er nach Tageszeit gestaffelt vorab. Bei Schließanlagen und Einbruchschutz arbeitet er mit KESO und ABUS, bei Garagentoren mit Hörmann, bei Markisen mit Hella und bei Rollläden mit Selve und Somfy."
+  },
+  {
+    "slug": "schluesseldienst-flasch-wuppertal",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "true",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "trace": {
+      "notdienst_24h": "Öffnungszeiten Mo – So 24h"
+    },
+    "description": "Schlüsseldienst Flasch ist ein Wuppertaler Betrieb, der an allen Wochentagen rund um die Uhr erreichbar sein will. Seine Kategorie ist der Schlüsseldienst, ergänzt um einen Schlüsselkopierservice. Einsätze finden vor Ort statt, und Termine lassen sich online vereinbaren. Verantwortlich zeichnet Alfonso Parisi. Im Mittelpunkt des Webauftritts steht ein Sicherheits-Check, dazu gibt es ein Kontaktformular für Anfragen. Der Service wird direkt vor Ort erbracht, die Terminvergabe läuft auch online, und die Erreichbarkeit gilt von Montag bis Sonntag rund um die Uhr. Der Betrieb sitzt im Wuppertaler Stadtgebiet."
+  },
+  {
+    "slug": "mj-schluesseldienst-autoschluessel-ecu-immo-programmierer-wuppertal",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "trace": {
+      "schlossaustausch": "Austausch von Schlössern & Sicherheitszylindern"
+    },
+    "description": "Fahrzeugschlüssel und Fahrzeugelektronik bilden bei MJ in Wuppertal den Schwerpunkt. Der Betrieb fertigt und programmiert Chip-, Funk- und Keyless-Schlüssel, fräst Kopien nach Muster oder nach Code, repariert Funkschlüssel und öffnet Fahrzeuge. Daneben diagnostiziert und repariert er Steuergeräte und Wegfahrsperren, auch im mobilen Service vor Ort. Wohnwagenschlüssel nach Nummer und Zubehörschlüssel für Dachbox, Fahrradträger, Skiträger oder Anhängerkupplung gehören ebenfalls dazu. Der klassische Schlüsseldienst umfasst die Öffnung von Haus- und Wohnungstüren, Hilfe bei abgebrochenen Schlüsseln, den Austausch von Schlössern und Sicherheitszylindern sowie Einbruchschutz und Sicherheitsberatung. Ein Notdienst ist als eigener Bereich aufgeführt, ein Lager hält Schlüsselrohlinge und Zubehör bereit. Auch Werkstätten erhalten Unterstützung bei der Fahrzeugelektronik. Eigene Seiten behandeln Aftermarket- und OEM-Schlüssel, den Fall, dass alle Fahrzeugschlüssel verloren sind, und Vorhängeschlösser. Auch die Diagnose von Fehlern am Schlüssel gehört zur Arbeit des Betriebs."
+  },
+  {
+    "slug": "mb-schluesseldienst-wuppertal-elberfeld-wuppertal",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "trace": {
+      "schlossaustausch": "Schlüsseldienst Wuppertal - Schlossreparatur und -austausch"
+    },
+    "description": "Rund um die Uhr im Einsatz sieht sich MB Schlüsseldienst in Wuppertal und Umgebung, mit Einsatzgebiet in Elberfeld, Barmen, Beyenburg, Cronenberg, Heckinghausen, Katernberg, Langerfeld, Ronsdorf, Vohwinkel und weiteren Stadtteilen. Die Techniker öffnen Wohnungen, Häuser und Fahrzeuge mit modernen Werkzeugen, bei zugezogenen Türen schadenfrei. Hinzu kommen Schlossreparatur und Schlossaustausch sowie ein Tresorservice, bei dem Tresore geöffnet, repariert, gewartet und installiert werden, etwa wenn Kombination oder Schlüssel fehlen. Der Betrieb öffnet außerdem Briefkästen und bietet einen 24-Stunden-Schlüsselnotdienst an. Für die Türöffnung nennt er ein Festpreisangebot. Neben dem Schlüsseldienst entstehen Klingelschilder, Türschilder, Namensschilder und Firmenstempel nach individuellen Entwürfen. Autotüröffnungen übernimmt der Betrieb rund um die Uhr und ohne Schäden am Fahrzeug, wenn der Schlüssel eingeschlossen wurde oder verloren ging. Eigene Seiten zeigen Preise und Einsatzgebiet, außerdem gibt es einen Rückrufservice."
+  },
+  {
+    "slug": "schluesseldienst-becker-gmbh-wuppertal",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "trace": {
+      "schluessel_nachmachen": "Schlüsselnachbestellung"
+    },
+    "description": "Seit 1877 gibt es den Schlüsseldienst Becker in Wuppertal, heute in fünfter Generation als Familienunternehmen geführt und als ortsansässiger Betrieb für Wuppertal und Umgebung tätig. Im Ladenlokal lassen sich moderne Schließanlagen vor Ort ansehen und testen. Die Kernkompetenzen sind mechanische und elektronische Schließanlagen mit Zutrittskontrolle, Einbruchschutz für Fenster und Türen, Alarmanlagen, Videoüberwachung und Rauchmelder. Türen öffnet der Betrieb beschädigungsfrei, wo es möglich ist, auch im Notdienst rund um die Uhr, und er tauscht Schlösser aus. Tresore werden geöffnet, wenn der Schlüssel fehlt oder das Gerät beschädigt ist. Ersatzschlüssel lassen sich nachbestellen, außerdem gibt es Türbeschläge, Briefkästen, Schilder, Stempel sowie Scheren- und Messerschleifen. Die Kundschaft besteht aus Privat- und Gewerbekunden, eine Vor-Ort-Sicherheitsanalyse gehört zum Ablauf. Sicherheitsbeschläge und Schutzrosetten namhafter Hersteller sowie Waffenschränke und Tresore in verschiedenen Größen führt der Betrieb im Sortiment."
+  },
+  {
+    "slug": "schluesseldienst-red-fox-wuppertal",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "true",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "trace": {
+      "elektronische_schliesssysteme": "Unser Sortiment umfasst mechanische, elektrische sowie hochsichere Schließsysteme"
+    },
+    "description": "Ausgesperrte Kunden in Elberfeld, Barmen, Ronsdorf, Vohwinkel, Oberbarmen und anderen Stadtteilen bedient Red Fox in Wuppertal. Der Notdienst läuft rund um die Uhr, und zugefallene Türen öffnet der Betrieb nach eigener Angabe fast immer zerstörungsfrei. Dasselbe gilt für Autos und Tresore. Bei verriegelten Türen kann ein Aufbohren des Zylinders nötig werden, danach ist der Austausch von Schloss oder Zylinder möglich. Im Geschäft entstehen Schlüsselkopien für Haus und Auto, Autoschlüssel werden für viele Fahrzeugmodelle programmiert. Dazu kommen Schließanlagen, mechanische und elektrische Schließsysteme, Panzerriegel, Fenstersicherungen und Gravurarbeiten an Schildern und Metall. Die Anfahrtspauschale und die Preise der Türöffnung nennt der Betrieb vorab. Zu seinen Kunden zählen Privatleute, Hausverwaltungen und Firmen. Eine Preisliste führt Zuschläge für Haustüren, Doppelfalz-Beschläge und Kastenschlösser sowie Reparaturen bei Riegel- oder Fallenbruch einzeln auf."
+  },
+  {
+    "slug": "bergischer-schluesseldienst-brkic-brkic-wiersbowsky-gbr-wuppertal",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "trace": {
+      "elektronische_schliesssysteme": "Planung und Installation mechanischer und digitaler Schließsysteme",
+      "ladengeschaeft": "direkt vor Ort sowie in unserem Geschäft einen Kundendienst bereitzustellen"
+    },
+    "description": "Der Bergische Schlüsseldienst, geführt von Brkic, Brkic und Wiersbowsky, arbeitet nach eigener Angabe seit über 20 Jahren als Fachbetrieb für Sicherheitstechnik und Einbruchschutz in Wuppertal, Solingen, Remscheid und Schwelm. Er öffnet Türen beschädigungsfrei und ist dafür auch außerhalb der Geschäftszeiten, am Wochenende und an Sonn- und Feiertagen im Schlüsselnotdienst erreichbar. Im Mittelpunkt stehen Sicherheitstechnik und Einbruchschutz durch die Sicherung von Fenstern und Türen. Der Betrieb plant und installiert mechanische und digitale Schließanlagen mit Produkten namhafter Hersteller, montiert und wartet Schlösser und Türzylinder und fertigt Schlüsselkopien an, dazu Fahrzeugschlüssel. Kundendienst gibt es direkt vor Ort und im Geschäft. Alarmanlagen, Briefkästen, Tresore und Beschilderung ergänzen das Angebot. Das Team berät zu Fenster- und Türsicherung und verspricht eine freundliche Beratung und zügige Leistung. Schlösser, Türzylinder und Schließanlagen werden fachgerecht montiert und regelmäßig gewartet."
+  },
+  {
+    "slug": "wuppertaler-schluesseldienst-gmbh-wuppertal",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Seit 1947 arbeitet der Wuppertaler Schlüsseldienst als Fachbetrieb für Sicherheit und hat inzwischen mehrere Filialen in der Stadt, die erste an der Berliner Straße eröffnete in den Jahren nach dem Umzug an den heutigen Hauptsitz. Er öffnet Türen und Autos möglichst schadenfrei, vorsichtig und schnell und hat für Notfälle am Abend, am Wochenende und an Feiertagen eine eigene Notdienstnummer. Zum Angebot zählen mechanische Schließanlagen mit Profilzylindern, Wendeschlüsselsystemen und Türschließern, ebenso digitale Zutrittslösungen mit Funktechnik, Zeitzonensteuerung und Protokollierung, geplant und montiert von eigenen Technikern. Ersatzschlüssel entstehen in den Läden, andere Modelle bestellt der Betrieb beim Hersteller. Die Beratung umfasst Fenstersicherheit und Briefkastenanlagen, auch Schilder und Stempel werden gefertigt. Kunden sind Privatleute, Hausverwaltungen und Gewerbe. Der Betrieb nennt Mitgliedschaften im Fachverband Interkey und in einem europäischen Fachverband für Sicherheitstechnik."
+  },
+  {
+    "slug": "schluesseldienst-tueroeffnung24-wuppertal",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Türöffnung24 ist ein Schlüsselnotdienst für Wuppertal und Umgebung, der rund um die Uhr erreichbar ist, auch an Sonn- und Feiertagen. Die erfahrenen Monteure helfen bei zugefallenen und verschlossenen Türen, verlorenen Schlüsseln, defekten Schlössern und Autoöffnungen und öffnen möglichst beschädigungsfrei. Das Einsatzgebiet reicht von Vohwinkel, Elberfeld und Barmen bis Ronsdorf und Cronenberg, auch Solingen gehört dazu. Der Betrieb nennt Festpreise für die Türöffnung und wickelt seine Einsätze ohne unnötige Zusatzkosten ab."
+  },
+  {
+    "slug": "schluesseldienst-elba-wuppertal-wuppertal",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "trace": {
+      "notdienst_24h": "Wir sind 24/7 für Sie da!"
+    },
+    "description": "SCHLÜSSELDIENST ELBA in Wuppertal stellt Türöffnungen und Sicherheitstechnik in den Mittelpunkt. Der Betrieb übernimmt Notöffnungen und Schlosswechsel und berät zur Einbruchsicherung von Türen und Fenstern. Er ist an allen Tagen rund um die Uhr erreichbar und beschreibt seine Arbeit als schnell, professionell und transparent. Als Ansprechpartner rund um Türöffnungen tritt er für Privatleute in der ganzen Stadt auf."
+  },
+  {
+    "slug": "schluesseldienst-fuchs-wuppertal",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "trace": {
+      "schlossaustausch": "wechseln Schlösser"
+    },
+    "description": "Kurze Anfahrtszeiten in Elberfeld, Barmen, Vohwinkel und den anderen Wuppertaler Stadtteilen nennt Schlüsseldienst Fuchs als Stärke. Der Betrieb öffnet zugefallene und verschlossene Türen, wechselt Schlösser und berät zum Einbruchschutz. Der Notdienst ist an 24 Stunden täglich erreichbar, auch an Wochenenden und an Feiertagen. Die Arbeit soll transparent und ohne versteckte Kosten ablaufen, getragen von Erfahrung und kundenorientiertem Service."
+  },
+  {
+    "slug": "versiyon-wuppertal",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Mode nach Maß steht bei Versiyon in Wuppertal im Mittelpunkt. Der Betrieb arbeitet als Änderungsschneiderei und führt Damen- und Herrenmode, Brautmode und Abendmode. Spezialisiert ist er auf Herrenanzüge, Brautkleider und Abendkleider. Neben Kollektionen verschiedener Marken fertigt und ändert er auch nach Maß. Mit Schlüsseln oder Schlössern hat die beschriebene Arbeit nichts zu tun."
+  },
+  {
+    "slug": "steinrueck-gmbh-co-kg-wuppertal",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Steinrück GmbH & Co. KG beliefert Kunden mit Bau- und Möbelbeschlägen und tritt als Problemlöser rund um diese Produkte auf. Neben dem Standort in Wuppertal gibt es einen weiteren in Düsseldorf. Der Betrieb handelt mit Eisenwaren und Werkzeug und führt Sicherheitsausrüstung. Ein Schlüsseldienst im engeren Sinn ist daraus nicht zu erkennen, der Schwerpunkt liegt im Handel mit Beschlägen und Baubedarf."
+  },
+  {
+    "slug": "wuppertaler-schluesseldienst-herbert-szigat-gmbh-wuppertal",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Tür- und Autoöffnungen gehören seit 74 Jahren zum Kerngeschäft der Herbert Szigat GmbH, die in Wuppertal als Wuppertaler Schlüsseldienst auftritt. Wer nach 18 Uhr, am Wochenende oder an Feiertagen Hilfe braucht, erreicht den Betrieb über eine Notdienstnummer. In den Läden entstehen Ersatzschlüssel aller Art, fehlende Modelle bestellt der Betrieb beim Hersteller. Er misst Türen aus, plant Schließanlagen einschließlich Beratung zu staatlicher Förderung und montiert mechanische Anlagen mit Zylindern sowie digitale Zylinder mit Funktechnik, Zutrittskontrolle und Protokollierung. Fenstersicherung, Briefkastenanlagen, Schilder und Stempel gehören ebenfalls dazu. Bedient werden Privatpersonen, Hausverwaltungen und Gewerbe, und der Betrieb gibt an, Fachverbänden der Sicherheitstechnik anzugehören. Die Techniker arbeiten mit Herstellern wie SimonsVoss, Dormakaba und ASSA ABLOY zusammen, und Zylinder werden auch mit Sicherungskarte sowie Not- und Gefahrenfunktion geliefert."
+  },
+  {
+    "slug": "arel-schuh-schluesseldienst-aenderungsschneiderei-reinigung-wuppertal",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "AREL in Wuppertal bündelt mehrere Kleindienste unter einem Namen: Änderungsschneiderei, Schuhreparatur und Reinigung, daneben Schlüsseldienst, Batteriewechsel und Gravurarbeit. Der Betrieb ist als Schlüsseldienst geführt, arbeitet nach den weiteren Angaben aber ebenso als Schuhmacher, Textilreinigung und Gravierbetrieb für Schmuck, sodass der Schlüsseldienst nur ein Teil eines breiten Alltagsangebots ist. Er nennt sich zugleich Schuh- und Schlüsseldienst."
+  }
+]

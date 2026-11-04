@@ -1,0 +1,860 @@
+[
+ {
+  "slug": "metallgestaltung-kunstschmiede-michael-ertlmeier-dietramszell",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Michael Ertlmeier führt in Dietramszell eine Kunstschmiede und Schlosserei. Gefertigt werden Fenstergitter, Tore, Zäune, Brunnen, Skulpturen und Grabkreuze aus Metall, Kupfer und Bronze, dazu Grills, Hausnummern und Geschenke. Die Arbeiten sind für Zuhause, Garten und öffentliche Räume gedacht. Der Betrieb bietet außerdem einen Schmiedekurs an. Sein Gewerk ist die Metallgestaltung, nicht der Schlüsseldienst."
+ },
+ {
+  "slug": "haus-sanitaer-montage-dietzenbach",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Haus & Sanitär Montage in Dietzenbach hat sich auf den Einbau von Glaselementen spezialisiert, drinnen wie draußen. Das Angebot umfasst Duschkabinen, Fenster, Spiegel und Glas mit Beratung und Verkauf, Aufmaß, Lieferung und Montage. Eine Glasbruch-Sicherung steht rund um die Uhr bereit. Das kleine, hochmotivierte Unternehmen legt Wert auf hochwertige Materialien, modernes Design und guten Service. Sein Gewerk ist die Glasmontage, nicht das Öffnen von Türen.",
+  "trace": {
+   "notdienst_24h": "24/7 Glasbruch-Sicherung"
+  }
+ },
+ {
+  "slug": "express-service-ersan-schuhreparatur-und-schluesseldienst-in-diez-diez",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Betrieb in Diez verbindet Schuhreparatur mit Schlüsseldienst. Er öffnet zugefallene und verschlossene Türen vor Ort, wechselt Schlösser und hält dafür einen Schlüsselnotdienst für Diez und Umgebung bereit. Eine Erreichbarkeit rund um die Uhr strebt er an, ohne sie in jedem Fall zuzusichern. In der Schlüsselabteilung entstehen Schlüsselkopien für Auto, Wohnung, Zimmer, Möbel und Briefkasten, auch Schließanlagenschlüssel und Autoschlüssel gehören dazu, bei vielen Automodellen auch Notschlüssel mit programmierter Wegfahrsperre. Daneben führt der Betrieb Schuhreparaturen mit Besohlung, Klebe- und Näharbeiten, Weiten, Fersenfutter und Individualisierung aus und übernimmt Gravuren, Stempel, Schleifarbeiten und Batterieservice sowie den Verkauf von Waren und Pflegemitteln. Preise für Schlüssel nennt er offen und beantwortet häufige Fragen dazu. Feste Öffnungszeiten sind angegeben, und der Betrieb bietet einen Vor-Ort-Service für Diez und Umgebung an. Auch Näharbeiten und Stempelservice gehören zum Alltag des Geschäfts.",
+  "trace": {
+   "ladengeschaeft": "15:30 Uhr – 19:00 Uhr"
+  }
+ },
+ {
+  "slug": "porta-safe-einbruchabsicherungen-diessen-am-ammersee",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Porta-Safe in Dießen am Ammersee ist auf Sicherheitstechnik spezialisiert und beschreibt sich mit dem Satz Technik für Sicherheit. Das Angebot reicht von Schlössern und Beschlägen über Schließanlagen, Briefkästen und Tresore bis zu Einbruchschutz und Einbruchabsicherungen. Vertrieb, Beratung, Planung, Einbau, Reparatur und Wartung gehören zum Leistungsumfang, dazu kommt ein Aufsperrdienst. Der Betrieb sichert Einrichtungen für Banken, Industrie- und Technologieunternehmen, Architektur- und Planungsbüros und Hausverwaltungen und führt solche Auftraggeber als Referenzen, darunter auch einen Automobilzulieferer. Genannt werden außerdem Unternehmen aus Dämmstoff- und Lasertechnik sowie der Automobilbranche. Der Betrieb übernimmt für diese Kunden Beratung, Planung und Wartung der Sicherheitseinrichtungen. Die Firma sitzt in Dießen in Bayern und bedient die Gegend rund um den Ammersee bis in den Raum München, mit Dießen bei München als Bezugspunkt."
+ },
+ {
+  "slug": "schluessel-notdienst-24h-schmitt-dillenburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "false",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Schlüssel-Notdienst Schmitt hat seinen festen Betriebssitz in Dillenburg-Frohnhausen und ist als 24-Stunden-Notdienst rund um die Uhr erreichbar. Zugefallene Türen öffnet er in der Regel beschädigungs- und zerstörungsfrei, dazu kommen verriegelte Türen, Fenster, Garagen, Fahrzeuge und Briefkästen. Muss dabei ein Zylinder zerstört werden, steht dies als Mehrpreis in der Preisliste. Wird eine Erneuerung nötig, kommen hochwertige Schlösser und Schließzylinder zum Einsatz; Profilzylinder für Wohnungseingangstüren montiert der Betrieb samt Schlüsseln. Tresore öffnet er nicht. Das Einsatzgebiet umfasst Dillenburg, Haiger, Eschenburg und Dietzhölztal mit ihren Ortsteilen. Die Preisliste unterscheidet nach Tageszeit, Wochenende und Feiertag, die Kosten einer Öffnung variieren nach Aufwand und Material. Bezahlt werden kann bar oder per Karte. Der Betrieb versteht sich als fairer Helfer für Menschen, die sich ausgesperrt haben oder deren Schlüssel abgebrochen ist.",
+  "trace": {
+   "autoschluessel": "Verriegelte Türen öffnen Türe, Fenster oder KFZ"
+  }
+ },
+ {
+  "slug": "werkzeugbau-sovinec-gmbh-dinklage",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die Werkzeugbau Sovinec GmbH in Dinklage baut Werkzeuge und Formen für Kunden, die ein Produkt entwickeln und fertigen lassen. Der Betrieb unterhält einen Maschinenpark, bildet aus und beschreibt die Entstehung eines Produkts von der Idee bis zur Serie. Sein Leitspruch lautet GUT in Form. Mit Türöffnungen oder Schließtechnik hat die Arbeit nichts zu tun."
+ },
+ {
+  "slug": "schluesseldienst-und-reparaturen-zink-ditzingen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Familienbetrieb Zink in Ditzingen-Hirschlanden bietet Schlüsseldienst und Reparaturen an. Hervorgegangen ist er aus einer Schreinerei mit über 75 Jahren Erfahrung im Handwerk, die 2024 zur Firma Schlüsseldienst und Reparaturen Zink wurde. Der Betrieb öffnet zugefallene Haus- und Wohnungstüren, tauscht defekte Schlösser und Zylinder, baut neue Schließsysteme ein und wechselt Schließanlagen aus. Auch bei vergessenen Schlüsseln und Türen, die sich nicht öffnen lassen, hilft er. Dazu kommen Beratung und Reparaturen an Möbelstücken, womit er dem Handwerk treu bleibt. Er arbeitet rund um die Uhr in Ditzingen, Leonberg, Gerlingen und Umgebung und beschreibt sich als persönlich, schnell vor Ort und mit transparenten Preisen. Der Name Zink steht nach eigener Aussage für ehrliche Arbeit und größte Sorgfalt, gestützt auf jahrelange Erfahrung. Gäste können den Betrieb in Hirschlanden aufsuchen oder sich telefonisch und per Nachricht melden.",
+  "trace": {
+   "schlossaustausch": "Austausch von Schließanlagen defekten Schlössern und Zylindern"
+  }
+ },
+ {
+  "slug": "3d-druck-manufaktur-ug-dollern",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die 3D Druck Manufaktur in Dollern ist auf 3D-Druck, 3D-Scan und Prototyping spezialisiert. Zum Angebot zählen Reverse Engineering, Falschfarbenanalyse, die Digitalisierung von Komponenten, Sonderanfertigungen in Metall und ein NC-Service mit Planung, Konstruktion und Programmierung. Auch Museen gehören zu den Auftraggebern. Der Betrieb arbeitet in der Fertigungstechnik und nicht als Schlüsseldienst."
+ },
+ {
+  "slug": "schlosserei-rosenstiel-donaueschingen",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die Schlosserei Rosenstiel in Donaueschingen ist ein familiengeführtes Metallbauunternehmen mit über 60 Jahren Erfahrung. Gefertigt werden Treppen, Geländer, Fenstergitter, Balkone, Tore und Zäune, Terrassenüberdachungen, Vordächer, Türen und Fenster, Wintergärten sowie Brücken und Stege aus Metall, Edelstahl oder Aluminium. Auch Markisen gehören zum Programm. Der Schwerpunkt liegt auf Metallbau, nicht auf Schließtechnik."
+ },
+ {
+  "slug": "schluesseldienst-express-donauwoerth",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Schlüsseldienst-Express arbeitet in Donauwörth und Umgebung mit eigenen Technikern und ohne Vermittlung an Callcenter. Der Notdienst läuft rund um die Uhr, die Techniker sind in der Regel innerhalb von 15 bis 30 Minuten vor Ort. Geöffnet werden Haus- und Wohnungstüren, Garagen, Briefkästen und Fahrzeuge, bevorzugt ohne Beschädigung; bei Autos nennt der Betrieb viele Hersteller von VW über Mercedes-Benz bis Toyota. Dazu kommen der Wechsel von Schließzylindern und Einsteckschlössern, das Entfernen abgebrochener Schlüssel oder Fremdkörper aus Zylindern, die Behebung von Einbruchsschäden und die Beratung gegen Einbruch und Diebstahl. Das Einzugsgebiet reicht von Donauwörth bis Nördlingen, Neuburg, Dillingen und Oettingen. Die Preise für Festpreisangebote und die Anfahrt nach Entfernungsstufen nennt der Betrieb vorab, ein Angebot erstellt er unverbindlich und kostenlos. Zusätzlich sind Garagenöffnungen und Briefkastenöffnungen im Angebot."
+ },
+ {
+  "slug": "paul-rathgeber-donzdorf",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Paul Rathgeber in Donzdorf fertigt Treppen- und Balkongeländer, Vordächer und Stahlhallen nach den Wünschen und Vorstellungen der Auftraggeber. Er führt eine Schlosserei und einen Stahlbaubetrieb und ist als Metallverarbeiter geführt. Ein Schlüsseldienst im Sinne von Türöffnungen und Schlosstausch ist das nicht, der Schwerpunkt liegt auf Metallbau und Stahlkonstruktion. Der Betrieb sitzt in Donzdorf."
+ },
+ {
+  "slug": "d-laemmerzahl-sicherheitstechnik-gmbh-dorfen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Die D.Lämmerzahl Sicherheitstechnik GmbH sitzt in Isen und betreut als regionaler Schlüsseldienst einen Umkreis von etwa 40 Kilometern um Dorfen, bis Landshut, Wasserburg und Freising. Zum Angebot zählen Türöffnungen ohne Beschädigung, das Öffnen von Tresoren und Fahrzeugen, der Austausch von Schlössern und Zylindern sowie das Nachfertigen von Ersatzschlüsseln. Beschädigungsfreies Öffnen von Kraftfahrzeugen nennt der Betrieb eine seiner Kernkompetenzen, auch bei neuesten Modellen. Für Häuser, Wohnungen und Gewerbeobjekte plant er Schließanlagen und Sicherheitstechnik und berät vor Ort zur Absicherung. Der Notdienst ist jederzeit erreichbar, im Notfall ist der Betrieb in weniger als einer Stunde da. Preise für die Türöffnung, Zuschläge nach Uhrzeit und die Anfahrt gibt er vorab bekannt. Auf seiner Seite warnt er vor unseriösen Anbietern in der Branche.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Absicherung von Haus, Wohnung oder Gewerbeobjekten"
+  }
+ },
+ {
+  "slug": "schluesseldienst-mueller-erlangen-dormitz",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüsseldienst Müller Erlangen sitzt in Dormitz und deckt Reparaturen und Wartung von Schloss- und Sicherheitssystemen ab. Zu den Leistungen zählen der Austausch und Einbau von Schlössern, Fenstersicherungen, Sicherheitsverriegelungen mit Installation, Öffnung und Reparatur, elektronische Schlösser, Schließanlagen, Videoüberwachung, Schlüsselkopien und ein Schlüsselnotdienst. Der Betrieb berät außerdem zum Einbruchschutz und liefert Produkte und Dienstleistungen für Sicherheitsbedürfnisse vor Ort.",
+  "trace": {
+   "schlossaustausch": "Schlösseraustausch: Zuverlässig und effizient",
+   "elektronische_schliesssysteme": "Elektronikschloss: Moderne Sicherheitstechnik"
+  }
+ },
+ {
+  "slug": "hsh-schlosserei-haeussler-dornstadt",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die HSH Schlosserei Häußler arbeitet in Dornstadt und Sontheim als Schlosserei sowie im Tor- und Zaunbau. Der Betrieb tritt als GbR auf, firmiert unter dem Kürzel HSH und zeigt seine Arbeiten in einer Bildergalerie. Sein Gewerk ist der Metallbau, nicht der Schlüsseldienst, und Tore und Zäune stehen im Mittelpunkt, daneben besteht ein Bereich mit Partnerseiten."
+ },
+ {
+  "slug": "schluesseldienst-meiners-24-std-tueroeffnung-dornum",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Schlüsselnotdienst Meiners sitzt in Dornum im Ortsteil Nesse und arbeitet als kleines Familienunternehmen ohne zwischengeschaltete Zentrale. Nach eigener Angabe ist der Inhaber seit über 25 Jahren im Schlüsselnotdienst tätig und rund um die Uhr in Dornum und einem Umkreis von 60 Kilometern im Einsatz, Inseln ausgenommen. Das Einsatzgebiet umfasst den ostfriesischen Raum um Aurich, Wittmund und Emden. Zu den Tätigkeiten zählen Notöffnungen und Türöffnungen, Schlossreparaturen, der Austausch von Schließzylindern, kleine Schließanlagen sowie Arbeiten an Briefkästen, Kleinschlössern, Möbeln, Dachboxen und Fahrradträgern. Der Betrieb ist ADAC Kooperationspartner und öffnet Türen zügig, mit und ohne Termin. Der Preis wird vor dem Einsatz mündlich genannt, bezahlt wird bar oder mit Karte. Der Inhaber arbeitet persönlich vor Ort und kommt zu Kunden im gesamten Einsatzgebiet."
+ },
+ {
+  "slug": "johannes-helbig-drebach",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Johannes Helbig in Drebach ist als Schlüsseldienst geführt, mit Metallbau als weiterem Tätigkeitsfeld. Der Betrieb tritt unter dem Namen seines Inhabers auf und hat Öffnungszeiten hinterlegt. Damit wendet er sich an Kunden aus Drebach und der Umgebung, die einen Schlüsseldienst vor Ort suchen. Die Einordnung als Schlüsseldienst und als Metallbaubetrieb deutet auf handwerkliche Arbeit rund um Schlösser, Türen und Metall hin und beschreibt den Betrieb als kleinen Ansprechpartner in der Gegend, der unter eigenem Namen am Markt auftritt. Wer in Drebach nach Hilfe bei Türen und Schlössern sucht, findet hier einen Betrieb vor Ort."
+ },
+ {
+  "slug": "metallbau-foegeling-gmbh-drensteinfurt",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die Metallbau Fögeling GmbH in Drensteinfurt ist ein Metallbaubetrieb in der Rechtsform einer GmbH. Als weitere Tätigkeitsfelder sind Schweißarbeiten, Brandschutz, Schwimmbadbau und Schlossereiarbeiten geführt. Öffnungszeiten sind hinterlegt. Der Betrieb verbindet mehrere Gewerke unter einem Namen, mit dem Metallbau als Schwerpunkt, und tritt in Drensteinfurt und Umgebung als Auftragnehmer für handwerkliche Arbeiten in Metall auf."
+ },
+ {
+  "slug": "adler-sicherheitstechnik-dresden-blasewitz",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Sicherheitstechnik Adler arbeitet in Dresden-Blasewitz und Umgebung als Schlüsseldienst und Fachgeschäft für Schließtechnik. Der Notdienst ist rund um die Uhr erreichbar und öffnet zugefallene Türen und Fahrzeuge zerstörungsfrei; vor dem Einsatz nennt der Betrieb telefonisch ein verbindliches Preisangebot. Defekte Schlösser werden repariert oder getauscht, Einbruchsschäden behoben. Projektiert, geliefert und montiert werden mechanische und elektronische Schließanlagen, Briefkastenanlagen und Zutrittskontrollsysteme für private und gewerbliche Nutzung, auch Referenzprojekte in Dresden und Leipzig sind genannt. Dazu kommen Sicherheits-Checks und Einbruchschutz mit bedarfsgerechter Beratung, Alarmanlagen, Videoüberwachung und Smart-Home-Sicherheitstechnik. Wartung, Beschilderungssysteme und Sicherheitsprodukte gehören ebenfalls zum Programm, und der Betrieb stellt sein Team und seine Referenzen vor. Das Anfertigen von Schlüsseln, Gravuren, Türschilder und Schleifarbeiten gehören zum Ladengeschäft am Schillerplatz. Das Notdienstangebot gilt für den Großraum Dresden.",
+  "trace": {
+   "schlossaustausch": "Türschloss wechseln, Schlösser reparieren oder ganze Schließanlagen austauschen",
+   "autoschluessel": "Notöffnung KFZ",
+   "gewerblich_objektbetreuung": "private und gewerbliche Nutzung"
+  }
+ },
+ {
+  "slug": "d-k-maschinen-und-metallbau-dresden-langebrueck",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "D&K Maschinen- und Metallbau in Dresden-Langebrück ist als Metallbau- und Maschinenbaubetrieb geführt. Er ist als Maschinenwerkstatt, Stahlbauunternehmen, Metallbearbeiter und Auftragnehmer für mechanische Arbeiten eingeordnet, Schlosserarbeiten sind ein weiterer Bereich. Öffnungszeiten sind hinterlegt, und der Betrieb arbeitet als Werkstatt für Maschinen- und Metallbau in Langebrück, einem Stadtteil von Dresden, und führt mehrere Gewerke zusammen."
+ },
+ {
+  "slug": "harald-koerner-e-k-schlosserei-durlangen",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Harald Körner e.K. betreibt in Durlangen eine Schlosserei und einen Metallbaubetrieb, der nach eigener Angabe seit 1996 besteht und auf eine über 25-jährige Firmengeschichte zurückblickt. Der Schwerpunkt liegt auf Stahlbau und Laserschneiden. Gefertigt, erneuert und restauriert werden Treppen, Balkongeländer und Geländer, Türen und Tore, Vordächer, Carports und weitere Stahlkonstruktionen; Blechbearbeitung bezeichnet der Betrieb als Spezialgebiet, ob für Platten, Beschläge oder Dächer. Der Stahl dient auch anspruchsvollen Anforderungen. Mit Türöffnungen und Schlosstausch hat das Angebot nichts zu tun, sein Gewerk ist der Metallbau."
+ },
+ {
+  "slug": "matthias-fust-doerphof",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Matthias Fust betreibt in Dörphof einen Schlüsseldienst für Karby, Kappeln, Eckernförde, Schwansen und Angeln, mit eigener Notdienstnummer. Der Betrieb öffnet Türen und Autos im Notfall, plant und führt Schließanlagen durch und fertigt Schlüsselkopien und gleichschließende Profilzylinder und Hangschlösser an. Auch die Nachbestellung für bestehende Schließanlagen gehört dazu, ebenso die Impressionstechnik, bei der ein Schlüssel zu einem Schloss entsteht, für das kein Schlüssel mehr vorhanden ist, und die Transponder-Codierung für Fahrzeugschlüssel. Für Haus und Fenster berät er zu Zusatzsicherungen und montiert sie. Daneben stehen Schilder, Stempel, Alarmanlagen und Rauchwarnmelder im Programm. Neben dem Schlüsseldienst deckt der Betrieb die Absicherung rund ums Haus ab; Qualitätsprodukte führender Hersteller von Sicherheitstechnik und Schließanlagen liegen vor. Der Betrieb grenzt sich ausdrücklich von unseriösen Schlüsselnotdiensten ab.",
+  "trace": {
+   "tueroeffnung": "Notöffnungen von Türen und Autos"
+  }
+ },
+ {
+  "slug": "schluesselnotdienst-metzger-eberbach",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Schlüsselnotdienst Metzger arbeitet in Eberbach und der gesamten Region und bietet einen 24-Stunden-Schlüsselnotdienst. Er hilft bei zugefallenen oder verschlossenen Türen und legt dabei großen Wert auf eine beschädigungsarme Arbeitsweise. Zu den Leistungen gehören Türöffnungen von Haus- und Wohnungstüren, Briefkastenöffnungen, der Austausch und die Montage von Schließzylindern, Profilzylindern und Einsteckschlössern sowie die Reparatur und der Austausch von Mehrfachverriegelungen. Außerdem berät der Betrieb zum mechanischen Einbruchschutz und bietet hochwertige Schließanlagen sowie weitere Sicherheitslösungen an. Beratung rund um mechanischen Einbruchschutz ergänzt die Türöffnungen, und für Haus- und Wohnungstüren ebenso wie für Briefkästen steht Fachwissen bereit. Der Betrieb hat Eberbach als Standort und versorgt die Region mit schnellem Notdienst. Kurze Anfahrtszeiten, transparente Preise und ein freundlicher Service stehen im Mittelpunkt. Für zugefallene und verschlossene Türen kommt der Betrieb nach Eberbach und in die umliegenden Orte."
+ },
+ {
+  "slug": "schluesselnotdienst-schott-eberhardzell",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Schlüsselnotdienst Schott in Eberhardzell hilft bei zugefallenen Türen und ist auch am Wochenende im Einsatz. Das Einsatzgebiet umfasst Eberhardzell, Bad Waldsee und die Region. Der Betrieb stellt sich als schnell und transparent dar und arbeitet als Handwerksbetrieb und Anbieter von Sicherheitstechnik. Hilfe bei verschlossenen Türen steht im Mittelpunkt des Angebots.",
+  "trace": {
+   "tueroeffnung": "Tür zugefallen? Wir sind da!"
+  }
+ },
+ {
+  "slug": "bauschlosserei-lotz-gmbh-egelsbach",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die Bauschlosserei Lotz GmbH führt in Egelsbach in Hessen seit 1989 Schlosser- und Metallarbeiten aus. Gefertigt und montiert werden Treppen- und Balkongeländer, Vordächer, Fenstergitter, Zaunanlagen und Hoftore nach den Wünschen der Auftraggeber. Neben Neuanfertigungen übernimmt der Betrieb Reparaturen und Ausbesserungen. Sein Schwerpunkt ist der Metallbau, dazu bietet er Beratung und Angebote an."
+ },
+ {
+  "slug": "helmar-brocksch-eibau",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Helmar Brocksch in Eibau ist als Schlüsseldienst geführt und tritt unter dem Namen Schloß und Beschlag, Brocksch und Partner auf. Der Name deutet auf Schlösser und Beschläge als Arbeitsfeld, das gemeinsam mit Partnern betrieben wird. Für den Betrieb sind Öffnungszeiten hinterlegt, sodass Kunden die Zeiten kennen, zu denen er erreichbar ist."
+ },
+ {
+  "slug": "juergen-gnuechtel-schlosserei-eibenstock",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Jürgen Gnüchtel führt in Eibenstock eine Schlosserei und ist als Schlüsseldienst geführt. Die Einordnung umfasst außerdem Metallbearbeitung, sodass der Betrieb zwischen Schlosserarbeiten, Metallbearbeitung und Schlüsseldienst angesiedelt ist. Für den Betrieb sind Öffnungszeiten hinterlegt. Er tritt unter dem Namen des Inhabers auf, was auf einen kleinen Einzelbetrieb deutet, der Schlosserei und Schlüsseldienst unter einem Dach führt. Kunden aus Eibenstock und der Umgebung finden in ihm einen Ansprechpartner für Schlosserarbeiten und Metallbearbeitung, die Tätigkeit ist handwerklich geprägt. Die Verbindung beider Arbeitsfelder macht den Betrieb zu einem Ansprechpartner vor Ort."
+ },
+ {
+  "slug": "althammer-sicherheitstechnik-eichenau",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Althammer-Sicherheitstechnik in Eichenau bei Fürstenfeldbruck versteht sich als Spezialist für Schließ- und Sicherungstechnik im Raum München. Der Betrieb unterhält einen eigenen Aufsperrnotdienst und einen 24-Stunden-Service und öffnet auch Tresore im Notdienst. Hinzu kommen Schlüsseldienst, Reparatur von Türschlössern, Sicherheitsbeschläge, Schließanlagen mit Planung, Montage und Betreuung sowie Beratung zu nachrüstbarem mechanischem Einbruchschutz. Tresore, Waffenschränke und Sicherheitsbriefkästen liefert und transportiert er, in einer Tresorausstellung vor Ort können Kunden sie ansehen. Möbeltresore, Feuerschutztresore und Geldschränke stehen ebenso im Sortiment wie Dichtungen und Fenstergetriebe. Das Einsatzgebiet reicht von München über Starnberg, Dachau und Grünwald bis zum Tegernsee. Das Angebot richtet sich an Privatkunden, Gewerbe und Behörden; für Feuerwehren und Behörden bildet der Betrieb in der Türöffnung aus. Bezahlt wird vor Ort bar oder mit Karte.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Gewerbe Sicherheit"
+  }
+ },
+ {
+  "slug": "schluesseldienst-steinert-tuer-und-notoeffnungen-tag-und-nacht-auch-ausserhalb-der-oeffnungszeiten-eilenburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Schlüsseldienst Steinert Sicherheitstechnik in Eilenburg bietet nach eigener Angabe seit 25 Jahren elektronische und mechatronische Sicherheitslösungen für Haus, Heim und Gewerbe. Tür- und Notöffnungen werden Tag und Nacht ausgeführt, auch außerhalb der Öffnungszeiten. Zum Programm gehören Sprechanlagen, Einbruchmeldeanlagen, Videoanlagen mit Neuinstallation, Erweiterung und Wartung, elektronische Zylinder und Mehrfachverriegelungen verschiedener Hersteller, Laseranlagen, Feststellanlagen in Rettungswegen sowie Rauchwarnmelder, für die der Betrieb als Fachkraft auftritt. Genannt werden Hersteller wie Hekatron, Abus, Simons Voss, EVVA und Winkhaus. Als weiterer Bereich kommen Lasergravuren dazu. Der Betrieb liefert elektronische Sicherheitstechnik für Wohnhäuser und Gewerberäume und kümmert sich dabei um Planung, Einbau und Wartung der Anlagen. Der Inhaber knüpft nach 25 Jahren in der Sicherheitstechnik an seine langjährige Erfahrung an, führt den Betrieb unter eigenem Namen und weist seine Arbeiten in Referenzen aus.",
+  "trace": {
+   "notdienst_24h": "Tür und Notöffnungen Tag und Nacht auch außerhalb der Öffnungszeiten",
+   "tueroeffnung": "Tür und Notöffnungen Tag und Nacht",
+   "gewerblich_objektbetreuung": "FÜR HAUS, HEIM UND GEWERBE"
+  }
+ },
+ {
+  "slug": "stahlbau-lang-gmbh-eimeldingen",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die Stahlbau Lang GmbH in Eimeldingen ist ein Familienbetrieb in dritter Generation und bearbeitet Stahl nach individuellen Wünschen. Der Betrieb legt Wert auf Qualität und langjährige Geschäftsbeziehungen und kündigt an, in den Ruhestand zu gehen. Mit Türöffnungen oder Schlosstausch hat sein Stahlbau nichts zu tun, seine Leistungen liegen in der Stahlbearbeitung."
+ },
+ {
+  "slug": "obi-eisenberg-eisenberg",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der OBI Markt in Eisenberg ist ein Baumarkt mit Sortiment aus den Bereichen Bauen, Wohnen, Technik und Garten und markenstarken Produkten für Heim- und Handwerker. Zu den Services zählen Mietgeräte und Werkzeugverleih, Holzzuschnitt, Farbmischservice, Container-Mietservice sowie Beratung und Montage für Solaranlagen, Terrassenüberdachungen und Wärmepumpen. Ein Gartencenter gehört zum Markt, auch eine Finanzierung wird angeboten. Umtausch ist innerhalb von drei Monaten möglich, Geschenkkarten gibt es in vielen Designs. Beim Schlüsseldienst des Marktes werden Schlüssel sofort angefertigt und direkt mitgegeben. Als Einsatzdienst für Türöffnungen arbeitet der Markt nicht.",
+  "trace": {
+   "schluessel_nachmachen": "Für dich sofort angefertigt – direkt zum Mitnehmen",
+   "ladengeschaeft": "Dein OBI Markt Eisenberg, Königshofener Str. 25"
+  }
+ },
+ {
+  "slug": "stahlbau-naegele-gmbh-schlosserei-eislingen-fils",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Stahlbau Nägele in Eislingen/Fils ist ein Stahlbauunternehmen mit angeschlossener Schlosserei. Der Betrieb fertigt Metallbauarbeiten und kann bei Bedarf auf den gesamten Stahlbau zurückgreifen. Zum Umfeld gehören Treppen, Geländer, Carports, Pergolen und Garagen. Sein Gewerk ist der Stahl- und Metallbau, nicht der Schlüsseldienst, und Kunden erhalten Schlosserarbeiten aus einer Hand."
+ },
+ {
+  "slug": "schlosserei-froehle-gbr-elchingen",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Die Schlosserei Fröhle GbR in Elchingen ist eine Bau- und Kunstschlosserei, die in zwei Generationen geführt wird. Gefertigt werden Treppen, Geländer, Stahlbalkone, Vordächer und Überdachungen, Türen und Tore sowie Sonderkonstruktionen. Die Kundschaft besteht aus Privatkunden, Unternehmen und Kommunen. Der Betrieb arbeitet im Metallbau und nicht als Schlüsseldienst, mit einem breiten Leistungsangebot.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Für Privatkunden, Unternehmen und Kommunen"
+  }
+ },
+ {
+  "slug": "schuh-schluesseldienst-elsdorf-elsdorf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schuh & Schlüsseldienst Elsdorf bietet in Elsdorf einen Schlüsseldienst rund um die Uhr an: Türöffnung, Reparatur und Austausch von Schlössern. Der Betrieb verbindet den Schlüsseldienst mit einer Schuhreparatur, wie schon sein Name sagt, und ist zugleich als Notdienst ausgewiesen. Neben der Türöffnung und dem Schlosstausch werden Schlüssel angefertigt und Einbruchsicherungen angeboten, und Festpreise werden ebenfalls erwähnt.",
+  "trace": {
+   "schlossaustausch": "Austausch von Schlössern"
+  }
+ },
+ {
+  "slug": "metallbau-werner-gmbh-elsnig",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die Metallbau Werner GmbH in Elsnig verarbeitet Stahl, Edelstahl und Aluminium und führt Kunstschmiedearbeiten aus. Zum Angebot zählen individuelle Metallkonstruktionen, Treppen und Geländer, Tore, Zäune und Balkone, Schweiß- und Blechbearbeitung sowie Industrie- und Sonderanfertigungen. Der Betrieb verfügt über einen eigenen Maschinenpark und ist als GmbH organisiert. Sein Gewerk ist der Metallbau, nicht der Schlüsseldienst."
+ },
+ {
+  "slug": "hzw-schluesseldienst-wagner-wagner-gmbh-elz",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "HZW Schlüsseldienst Wagner in Elz ist ein Geschäft, das Schlüsseldienst, Schließanlagen, Beschläge sowie Werkzeug- und Ersatzteilservice anbietet. Montags bis freitags ist es von neun Uhr bis halb fünf geöffnet, Besucher sind willkommen. Das Geschäft wird von der Wagner GmbH geführt und ist als Geschäft für Heimwerkerbedarf eingeordnet, mit dem Schlüsseldienst als einem von mehreren Bereichen.",
+  "trace": {
+   "ladengeschaeft": "Montag - Freitag: 09:00 - 16:30 Uhr"
+  }
+ },
+ {
+  "slug": "schluesseldienst-aufsperrdienst-sascha-deck-elzach",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Aufsperrdienst Sascha Deck im Elztal ist rund um die Uhr erreichbar und kommt nach Elzach, Waldkirch, Biederbach, Denzlingen, Sexau, Emmendingen, Freiburg und in Teile des Kinzigtals. Der Betrieb öffnet zugefallene und verschlossene Haus- und Wohnungstüren möglichst ohne Beschädigung, außerdem Schlösser und Autos. Wo nötig, werden Schließzylinder oder Beschläge ausgetauscht. Als Experte für zerstörungsfreie Öffnungen zugefallener Türen tritt der Inhaber auf; kurze Wartezeiten bei Notfällen stehen im Vordergrund, und erfahrene Techniker helfen schnell. Einen unverbindlichen Kostenvoranschlag erstellt er auf Anfrage. Zur Preisliste gehören eine Anfahrtspauschale, Nachtzuschläge ab 21:30 Uhr und ein Wochenendzuschlag ab Samstag 14 Uhr. Der Betrieb sieht sich als lokaler Anbieter und legt Wert auf transparente Preise. Die Preise werden telefonisch mitgeteilt, bevor der Einsatz beginnt, und der Betrieb arbeitet mit minimaler Schadensbilanz.",
+  "trace": {
+   "autoschluessel": "Öffnen von Autos"
+  }
+ },
+ {
+  "slug": "luis-zuhause-elztal",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Hinter dem Namen Luis Zuhause in Elztal steht eine scherzhaft gehaltene Beschreibung: Der Schlüsselnotdienst gilt Luis, wenn er wieder einmal seinen Schlüssel vergisst. Ein gewerbliches Angebot mit Leistungen, Einsatzgebiet oder Erreichbarkeit lässt sich daraus nicht ableiten. Der Name klingt nach einem privaten Haushalt, und der Eintrag ist als Schlüsseldienst in Elztal eingeordnet."
+ },
+ {
+  "slug": "schluesseldienst-stolte-emsdetten",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüsseldienst Stolte in Emsdetten ist als Schlüsseldienst geführt und wirbt damit, immer erreichbar zu sein, auch an Sonn- und Feiertagen. Der Betrieb ist in Emsdetten ansässig und hat feste Öffnungszeiten hinterlegt. Als Einordnung steht allein die Branche Schlüsseldienst, ohne weitere Nebenkategorien. Der Auftritt trägt den Familiennamen Stolte als Firmennamen und richtet sich an Kunden aus Emsdetten."
+ },
+ {
+  "slug": "schmiede-schlosserei-josef-leippert-engstingen-grossengstingen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die Schlosserei und Schmiede Leippert in Engstingen-Großengstingen besteht nach eigener Angabe seit 1802 und wird in Familientradition geführt. Das Angebot umfasst Stahlbau mit Balkonen, Geländern, Zäunen, Toren und Sonderkonstruktionen, den Verkauf und die Reparatur von Gartengeräten wie Rasenmähern und Kettensägen sowie einen Schlüsseldienst für Engstingen und Umgebung. Die Firmengeschichte reicht vom Hufbeschlag und der Landwirtschaft im Nebenerwerb über den Umzug in eine neue Werkstatt im Jahr 1957 bis zum Bau der Stahlhalle 1989. 1972 fertigte die Schmiede 320 goldene Hufeisen zur Olympiade, 2002 feierte der Betrieb sein 200-jähriges Jubiläum. Arbeiten wie Fahrgestelle für Feuerwehranhänger, eine Turmkreuz-Restauration und Stahlglocken zeugen davon. Auch eine Verbindung zur Hohenzollerischen Landesbahn findet sich in der Chronik, und die Schmiedewerkstatt war 1977 ein Treffpunkt im Ort. Zum Betrieb gehört eine Werkstatt, die Kunden in Engstingen aufsuchen können."
+ },
+ {
+  "slug": "pm-service-schuhreparatur-und-schluesselbetriebe-gmbh-ennepetal",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "PM Service in Ennepetal verbindet Schlüsseldienst und Schuhreparatur mit Uhren-Batteriewechsel und Werbetechnik. Nach eigener Angabe ist das Unternehmen stetig gewachsen, jährlich kamen bis zu fünf Filialen hinzu, inzwischen sind es 23 Geschäftsstellen in Nordrhein-Westfalen und Niedersachsen. Der Schlüsseldienst ist rund um die Uhr erreichbar, wenn jemand ausgesperrt ist oder seinen Schlüssel verloren hat. Dazu kommen Schließzylinder, Einsteckschlösser, Vorhängeschlösser und Schließanlagen, die der Betrieb für Haushalte, Unternehmen und öffentliche Institutionen plant und installiert, sowie digitale Schließsysteme mit Zutrittskontrolle und Zahlencode. Im Sortiment stehen unter anderem ein Türschlossantrieb und eine Schlüsselbox mit vierstelligem Zahlencode, gedacht für Ferienwohnungen, Büros und Mehrfamilienhäuser. Außerdem bietet der Betrieb Besohlung, Klebe- und Näharbeiten an. Ein Online-Shop liefert Schließtechnik; Gravuren, Stempel, Uhrenarmbänder und Fahrzeugbeschriftung ergänzen das Angebot. Eine Filialübersicht führt die Standorte auf.",
+  "trace": {
+   "tueroeffnung": "wenn ihr euch ausgesperrt habt",
+   "gewerblich_objektbetreuung": "Haushalte, Unternehmen und öffentliche Institutionen"
+  }
+ }
+]

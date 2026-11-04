@@ -75,7 +75,12 @@ tauschen Zylinder, zwei planen Schließanlagen für Hausverwaltungen"), mit Name
   zeigt die erste Hälfte über den Eintragskarten und die zweite darunter, die erste Hälfte soll
   also einordnen, die zweite darf ins Einzelne gehen.
 - **Erster Absatz:** enthält die Branchenbezeichnung aus der Zeile `directory:` und den Stadtnamen.
-- **Was hinein soll:** siehe „Wovon der Text handelt". Die Zahl der Betriebe auf der Seite, einmal.
+- **Keine Zahl, die sich aus der Eintragsmenge ergibt.** Nie „ein Betrieb ist eingetragen", „drei
+  Schlüsseldienste", „mehrere Anbieter" o. ä.: diese Zahl veraltet beim nächsten Datenlauf und
+  widerspricht dann der Liste darunter. Die Seite zeigt die Betriebe selbst; der Text beschreibt
+  das Gewerk am Ort, nicht wie viele gerade gelistet sind. (Betriebe in der Umgebung werden auf der
+  Seite als eigener Abschnitt mit Entfernung gezeigt, nicht im Fließtext gezählt.)
+- **Was hinein soll:** siehe „Wovon der Text handelt".
   Die Arbeiten, die das Gewerk hier schwerpunktmäßig übernimmt, als Beschreibung. Wo die Betriebe
   hier arbeiten. Die Orte, die sich die Seite teilen, und der Landkreis. Die ein oder zwei Betriebe,
   deren Bewertungsgeschichte heraussticht, mit Bewertung und Anzahl. Was die Stadtfakten hergeben,

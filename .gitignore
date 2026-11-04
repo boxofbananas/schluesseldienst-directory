@@ -20,3 +20,14 @@ input/listings-raw.csv
 input/listings-raw-report.md
 output/*/02-listings-clean.csv
 output/*/03-listings-enriched.csv
+
+# Nachbestellung (breiter Abruf) und regenerierbare Gate-3-Caches
+input/listings-raw-broad.csv
+input/listings-raw-radius.csv
+input/listings-raw-combined.csv
+output/*/03-cache/sites-new/
+output/*/03-cache/evidence/
+output/*/03-cache/evidence-probe/
+output/*/03-cache/batches/
+output/*/03-cache/probe*.csv
+output/*/03-cache/runner-replies.log

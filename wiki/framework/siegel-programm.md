@@ -64,9 +64,13 @@ Voraussetzungen nicht veröffentlicht sind, ist angreifbar; deshalb ist die Ver�
 Pflicht und nicht Kür. Wortlaut wie in [[konventionen]]:
 
 - vollständiges Impressum auf der eigenen Website
-- erreichbare Festnetz- oder Mobilnummer, die zum Betrieb gehört
+- eine erreichbare **Festnetznummer**, die zum Betrieb gehört und deren Ortsvorwahl zur
+  angegebenen Anschrift passt; eine Mobilnummer als einziger Kontakt genügt nicht
 - die drei Standardpreise verbindlich genannt (Türöffnung tagsüber, nachts, Anfahrt)
-- mindestens 10 Google-Bewertungen bei einem Schnitt von mindestens 4,0
+- liegen mindestens 5 Google-Bewertungen vor, beträgt der Schnitt mindestens 4,0; liegen weniger
+  oder keine vor, entscheiden die übrigen Voraussetzungen (die Garantie sagt etwas über
+  Preissicherheit, nicht über Bekanntheit; eine Mindestzahl schlösse neue und profillose Betriebe
+  aus, der Riegel nach unten bleibt)
 - keine Weiterleitung an ein Callcenter ohne Ortsbezug
 - unterschriebenes Serviceversprechen: der genannte Preis ist der Rechnungspreis, keine
   Zuschläge, die nicht vorher beziffert wurden, Rechnung mit vollständiger Firmenanschrift,
@@ -79,6 +83,9 @@ Auf `/festpreis-garantie/` steht in eigenen Sätzen:
 - Grundlage sind **Selbstauskunft des Betriebs** sowie die Prüfung von **Unterlagen und
   Website** durch den Herausgeber.
 - Es gibt **keinen Test vor Ort**, keine Probeöffnung, keinen Testkauf.
+- Sie trifft **keine Aussage über Bekanntheit oder Bewertungsmenge**. Ein Betrieb ohne oder mit
+  wenigen Google-Bewertungen kann die Garantie führen, wenn er die übrigen Voraussetzungen
+  erfüllt; die Garantie bewertet Preissicherheit, nicht Reichweite.
 - **Die Garantie gibt der Betrieb**, nicht der Herausgeber. Der Herausgeber prüft die
   Voraussetzungen, veröffentlicht die Preise und entzieht die Garantie bei belegten Verstößen.
 - Die Garantie trägt die **Jahreszahl**, gilt **ein Jahr** und muss jährlich erneuert werden.

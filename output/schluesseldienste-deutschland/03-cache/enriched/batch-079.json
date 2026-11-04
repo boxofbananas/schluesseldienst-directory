@@ -1,0 +1,833 @@
+[
+  {
+    "slug": "monchi-s-schuh-und-schluesseldienst-monheim-am-rhein",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Das Geschäft Monchi's in Monheim am Rhein verbindet Schuhreparatur mit einem Schlüsselnotdienst, der rund um die Uhr arbeitet. Zum Angebot gehören Sohlen, Absätze, Spitzen, Fersenfutter und Klebearbeiten ebenso wie Haustürschlüssel, Autoschlüssel, farbige Schlüssel und Schlüssel für Schließanlagen, auch mit Sicherungskarte, sowie ein Kopierservice. Dazu kommen Gravuren auf Bestecken, Schlüsselanhängern, Feuerzeugen sowie Klingel- und Firmenschildern, außerdem ein Uhrenservice und Druckarbeiten. Der Betrieb hat in Monheim am Rhein ein neues Geschäft bezogen, in dem Kunden Öffnungszeiten finden, und beschreibt seine Arbeit als Mischung aus klassischem Handwerk und moderner Sicherheitstechnik. Ausgesperrten Kunden sagt er zu, in Kürze vor Ort zu sein. Neben dem Geschäft nennt er eine eigene Notdienstnummer. Das Geschäft liegt in einem Einkaufszentrum und ist telefonisch unter zwei Nummern erreichbar. Besucher finden zudem eine Galerie und Kundenstimmen.",
+    "trace": {
+      "ladengeschaeft": "Unser neues Geschäft"
+    }
+  },
+  {
+    "slug": "zweirad-schluesseldienst-offermann-inh-daniela-haas-monschau",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Zweirad Offermann in Monschau ist in erster Linie ein Fahrrad-Fachgeschäft. Im Stadtteil Imgenbroich führt der Betrieb Fahrräder, Mountainbikes und E-Bikes verschiedener Marken, darunter Bulls, Kalkhoff und KTM, in Rubriken wie E-Trekking, E-City, E-MTB, E-Fatbikes, Jugend-E-Bikes und Transportrad. Er berät beim Kauf, passt Räder per Bike-Fitting an und übernimmt Reparatur und Wartung. Auch Leasing und Finanzierung von Rädern gehören zum Angebot. Der Betrieb bezeichnet sich außerdem als Schlüsseldienst und führt dafür einen eigenen Menüpunkt, der Umfang dieser Arbeit ist nicht näher beschrieben."
+  },
+  {
+    "slug": "metalldesign-schuhmacher-monzelfeld",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Achim Schuhmacher führt in Monzelfeld einen Metallbaubetrieb, der sich seit 1995 auf Edelstahl spezialisiert hat. Gefertigt werden individuelle Lösungen wie Treppengeländer, Französische Balkone, Balkonvergrößerungen, Kaminofen-Verkleidungen, Edelstahltore und Gartenzäune sowie Dekoration und Geschenke aus Stahl. Mit Schlüsseldienst im Sinne von Türöffnung oder Schlosstausch hat die Arbeit nichts zu tun, der Familienname Schuhmacher bezeichnet hier den Inhaber und kein Schuhgewerbe."
+  },
+  {
+    "slug": "schlosserei-und-schmiedekunst-ter-fehr-gmbh-moormerland",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Die Schlosserei und Schmiedekunst ter Fehr GmbH in Moormerland ist ein Metallbaubetrieb aus Ostfriesland. Das Programm umfasst Treppen, Treppengeländer, Handläufe, Balkongeländer, Außenfluchttreppen, Überdachungen, Zäune, Tore und Fenstergitter sowie Sonderanfertigungen für innen und außen. Referenzen und eine Produktübersicht stellt der Betrieb bereit. Türöffnungen oder Schlosswechsel gehören nicht zu den genannten Arbeiten."
+  },
+  {
+    "slug": "metallbau-wilhelm-walz-mudau",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Metallbau Walz in Mudau-Donebach arbeitet als Walz & Kaufmann Metallbau GbR im Neckar-Odenwald-Kreis. Der Betrieb baut Sichtschutz, Tore und Türen, Überdachungen, Balkonanlagen, Geländer und Treppen aus Metall, dazu Industrietore und Garagentore. Er arbeitet im Stahlbau und in der Metallverarbeitung für Projekte aller Art. Ein Schlüsseldienst mit Türöffnung oder Schlosstausch wird nicht beschrieben."
+  },
+  {
+    "slug": "steffen-ziegler-stahlbau-schlosserei-kuenstner-murr",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Die Stahlbau-Schlosserei Künstner in Murr fertigt Außen- und Innengeländer, Fenstergitter und Gitter, Handläufe, Treppen, Türen und Tore sowie Vordächer. Dazu kommen Schmiedearbeiten. Der Betrieb stellt seine Schweißnachweise und seine Mitgliedschaften auf eigenen Seiten vor. Eine Tätigkeit als Schlüsseldienst mit Türöffnung oder Zylindertausch wird nicht beschrieben, die Schlosserei ist ein Metallbaubetrieb."
+  },
+  {
+    "slug": "hausmeisterdienst-daniel-glaw-und-schluesselnotdienst-mylau",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Daniel Glaw betreibt in Mylau einen Hausmeisterdienst für Haus und Garten. Das Angebot reicht von Rasenmähen, Grünpflege, Baumschnitt und Heckenschnitt über Arbeiten mit Hebebühne oder Seilklettertechnik bis zum Streu- und Winterdienst. Zusätzlich öffnet der Betrieb zugefallene Türen als Schlüsseldienst. Gezahlt wird erst nach erfolgreicher Türöffnung, bar oder mit Karte, und die Preise für einfache Türöffnungen stehen vorab fest. Termine vereinbart der Inhaber telefonisch, ist dort nach eigener Angabe jederzeit erreichbar und ruft bei Verhinderung zeitnah zurück. Der Dienst arbeitet im gesamten Vogtland rund um Mylau und Reichenbach und ist versichert. Auf der Seite beantwortet er häufig gestellte Fragen zu Leistungen, Terminen und Versicherung. Der Betrieb liefert Service rund um Haus und Garten und arbeitet für ein individuelles Angebot nach Rücksprache."
+  },
+  {
+    "slug": "hebold-lederwaren-accessoires-moeckern",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Hebold ist ein Fachgeschäft für Lederwaren und Accessoires mit Showroom in Zeddenick und einem Online-Shop unter dem Namen Hebold24. Das Sortiment reicht von Schuhpflege, Schuhcreme, Schuhbürsten und Schuhspannern über Lederartikel und Schuhe bis zu Dekoration und Schlüsselanhängern. Als Schlüsseldienst fertigt der Betrieb Kopien nahezu jedes Schlüssels sofort an, darunter antike Bartschlüssel, Zimmertür-, Schrank- und Tagebuchschlüssel. Auch für Schließanlagen mit verlorener Sicherungskarte bietet er Ersatzschlüssel an, und Schlösser, Graphit und Schlosspflegemittel stehen im Angebot. Fahrzeugschlüssel macht er nur bedingt und nur für sehr alte Fabrikate nach, sonst verweist er auf Partner. Ergänzt wird das durch einen Gravurservice. Jeden ersten Samstag im Monat öffnet das Lager zum Verkauf. Dabei geht der Betrieb nach eigener Angabe auf die Vorstellungen der Kunden ein und setzt sie genau um. Qualität und Nachhaltigkeit stehen bei den Lederprodukten im Mittelpunkt."
+  },
+  {
+    "slug": "schulz-pfahl-haus-rad-gmbh-moeckmuehl",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Schulz & Pfahl, bekannt als Haus & Rad, führte in Möckmühl ein Geschäft für Dinge des täglichen Bedarfs. Seit Februar 2019 gab es dort Haushaltswaren, Schreibwaren, Eisenwaren, Spielwaren, Baumarktartikel und Fahrradzubehör sowie einen Schlüsseldienst und Sicherheitstechnik. Zum Geschäft gehörte auch ein Fahrradservice mit Montage und Reparatur. Das Geschäft hat seit dem 30.09.2025 geschlossen, die Seite weist auf gesetzliche Gewährleistung und das Widerrufsrecht hin. Die Seite des Betriebs führte zuletzt Haushalt, Schreibwaren, Fahrrad, Eisenwaren, Schlüsseldienst und Spielzeug auf. Der Betrieb firmierte als Schulz & Pfahl Haus & Rad GmbH."
+  },
+  {
+    "slug": "v-s-garten-und-baumpflege-nichelmann-moelln",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "V&S Dienstleistungen von André Nichelmann ist ein Garten- und Landschaftsbetrieb in Mölln, der im Herzogtum Lauenburg, im Raum Hamburg und in Stormarn arbeitet. Zum Programm gehören Gartenpflege, Baumschnitt und Baumfällung, Beetanlagen, Rasenpflege, Terrassenbau, Wegebau, Zaunbau und Erdarbeiten. Dazu kommen Entrümpelungen, Haushaltsauflösungen, kleinere Umzüge, Renovierungen und Reinigung. Ein Schlüsseldienst ist nicht Teil der Leistungsliste."
+  },
+  {
+    "slug": "sicherheits-center-walldorf-moerfelden-walldorf",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Das Sicherheits-Center-Walldorf besteht seit dem Jahr 2000 in Mörfelden-Walldorf und arbeitet als Fachgeschäft für Sicherheitstechnik und Schlüsseldienst. Der Betrieb übernimmt Notöffnungen rund um die Uhr, fertigt Schlüsselkopien von A bis Z und liefert Schlüssel für Schließanlagen und geschützte Schließungen auf Bestellung. Im Sortiment stehen Schlösser, Hangschlösser, Schließzylinder und Beschläge, dazu Fenster- und Kellersicherungen, Rauchmelder, Ersatzteile für Briefkästen, Geldkassetten, Schlüsselschränke sowie Tresore und Wertschränke auf Bestellung, außerdem Pflegesprays und Pflegeöle für Schlösser und Zylinder. Schließanlagen werden geplant und verkauft. Ergänzt wird das Angebot durch Schildergravuren, Gutscheine und eine Annahmestelle für Päckchen. Auf der Seite zeigt der Betrieb Einblicke in den Laden und einen Plan für den Weg dorthin. Er gibt einen Überblick über sein Sortiment und sein Serviceangebot, von Sicherheitstechnik und Schlüsseldienst bis zu Gravuren und Gutscheinen.",
+    "trace": {
+      "tueroeffnung": "Notöffnung 24h"
+    }
+  },
+  {
+    "slug": "alles-aufsperrdienst-ruck-zuck-schluesseldienst-muehlacker",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Seit 1991 ist der Aufsperrdienst Ruck-Zuck in Pforzheim und Mühlacker tätig. Der Schlüsseldienst bietet einen Service rund um die Uhr, der nach eigener Angabe zuverlässig arbeitet, und öffnet in den meisten Fällen zerstörungsfrei. Als weiteres Angebot wird das Kopieren von Schlüsseln geführt. Das Einsatzgebiet umfasst beide Städte, die Öffnungszeiten sind hinterlegt."
+  },
+  {
+    "slug": "schluesseldienst-juergen-troester-muehlhausen",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Jürgen Tröster betreibt in Mühlhausen einen Schlüsseldienst für den Landkreis Neumarkt in der Oberpfalz. Der Betrieb öffnet Türen, repariert Schlösser, wechselt Schlösser und Zylinder und liefert Schließanlagen samt Planung der Zutrittsberechtigungen. Zum Einsatz kommt der Dienst auch für Tresor, Briefkasten und Garage. Montiert werden Sicherheitsschlösser und Einbruchschutz, damit Einbrecher es schwerer haben. Nach eigener Angabe kümmert sich der Betrieb seit 1998 um Sicherheit, Einbruchschutz und Vorsorge. Der Schlüsselnotdienst arbeitet auch nach Ladenschluss und rund um die Uhr, sofern ein Monteur verfügbar ist, und vereinbart den Preis vor dem Einsatz. Ist niemand verfügbar, verweist der Betrieb auf einen Kollegen in der Region. Der Betrieb weist darauf hin, dass sich ein Defekt oder ein Versehen nicht an Öffnungszeiten hält. Schlösser und Zylinder lassen sich nach seiner Angabe reparieren, öffnen oder austauschen, ein Wechsel auf Sicherheits-Schließzylinder wird zeitweise als Aktion angeboten."
+  },
+  {
+    "slug": "schneiderei-schluesseldienst-michael-bayer-muelheim-kaerlich",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Im Atelier von Michael Bayer in Mülheim-Kärlich dreht sich die Arbeit vor allem um Textilien: Änderungen und Reparaturen für Abendkleider, Hosenanzüge, Hochzeitskleider, Herrenanzüge, Alltagskleidung, Pelz, Leder und Gardinen, dazu Stickerei, Lederanpassungen, ein Schnellservice wie das Kürzen von Hosen und eine Annahmestelle für Textilreinigung und Wäscherei. Der Betrieb blickt auf rund 30 Jahre Berufserfahrung als Schneider zurück. Als Schlüsseldienst fertigt er Kopien von Haus-, Wohnungs- und Briefkastenschlüsseln an. Hinzu kommen Gravuren auf Glas und Edelstahl sowie Batteriewechsel für Uhren, Autoschlüssel und Fernbedienungen. Mit Türöffnung oder Schlosswechsel befasst sich der Betrieb nicht. Das Atelier liegt in einem Einkaufszentrum bei einem Supermarkt. Individuelle Stickereien bringen Ideen detailgetreu auf den Stoff. Präzision und Handwerkskunst stehen nach eigener Angabe im Mittelpunkt. Kunden aus Koblenz und Umgebung finden dort auch Lasergravuren und Lederreparaturen."
+  },
+  {
+    "slug": "auto-schluesseldienst-key24-ersatzschluessel-programmierung-muennerstadt",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Der Auto Schlüsseldienst Key24 in Münnerstadt kümmert sich um Autoschlüssel, Wegfahrsperren und Fahrzeugtechnik. Der Betrieb fertigt Ersatzschlüssel, programmiert Funk- und Transponderschlüssel, liest PIN-Codes aus und hilft, wenn alle Autoschlüssel verloren gegangen sind. Für ältere Mercedes-Modelle wie SLK R170, SL R129, W140 und W168 macht er Schlüssel nach und programmiert sie. Fahrzeuge öffnet er ohne Beschädigung, und er repariert Zündschlösser mit elektronischem Zündschloss von Mercedes. Außerdem übernimmt er Diagnose und Instandsetzung von Airbag-Steuergeräten und setzt Crash-Daten zurück. Auch zugefallene Haustüren öffnet er. Der Service ist mobil im Raum Münnerstadt und Umgebung, Termine gibt es nach telefonischer Vereinbarung. Der Betrieb arbeitet als Kfz-Schlüsseldienst und hilft auch, wenn ein Autoschlüssel abgebrochen ist. Die Arbeit reicht vom Schlüssel über das Zündschloss bis zum Steuergerät, also von der Mechanik bis zur Fahrzeugelektronik.",
+    "trace": {
+      "tueroeffnung": "Öffnung von zugefallenen Haustüren"
+    }
+  },
+  {
+    "slug": "hammer-markt-mueschenbach",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Der Hammer-Markt in Müschenbach ist nach seiner Hauptkategorie ein Baumarkt, der zusätzlich unter Schlüsseldienst geführt wird. Der Markt bietet Einkauf im Geschäft vor Ort sowie Lieferung, auch am selben Tag, und hat Öffnungszeiten hinterlegt. Welche Arbeiten rund um Schlüssel und Schlösser dort angeboten werden, geht aus den vorliegenden Angaben nicht hervor. Der Betrieb gehört damit zu den Märkten, die neben Heimwerkerbedarf auch Arbeiten rund um Schlüssel führen."
+  },
+  {
+    "slug": "christian-katz-schreinerei-u-holzmanufaktur-nagold",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Christian Katz führt in Nagold eine Schreinerei und Holzmanufaktur. Er baut Möbel nach Maß, darunter Einbauschränke, Regale, Sideboards, Lowboards, Tische und Küchen aus beschichteten Platten, furniertem Material oder Massivholz, und baut sie passend ein. Daneben übernimmt er Türöffnungen, so wie es ein Schlüsseldienst tut. Kostenvoranschläge sind online möglich. Die Möbel entstehen passend für den jeweiligen Kunden."
+  },
+  {
+    "slug": "phn-schluesseldienst-sicherheitstechnik-ug-peter-hoelzer-nastaetten",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Peter Hölzer führt seit 2005 in Nastätten das Familienunternehmen Schlüsseldienst Hölzer, das als PHN Sicherheitstechnik auftritt. Er öffnet Türen in Nastätten und Umgebung, fertigt kopiergeschützte Schließsysteme für Einzel- und Gleichschließungen und arbeitet mit Zylindern von keyTec, bei denen Nachschlüssel nur mit der mitgelieferten Sicherungskarte entstehen. Hinzu kommen Gravuren, ein Notdienst rund um die Uhr, ein Einzelhandel für Zubehör und Sicherheitstechnik rund ums Haus mit Funkalarmsystemen von Ajax, Rauchmeldern, Gasmeldern und Wassermeldern im Keller. Bei Alarmanlagen begleitet der Inhaber den Kunden von der ersten Beratung über die Montage bis zur Wartung selbst, die Beratung ist kostenlos. Er arbeitet nach eigener Angabe ausschließlich mit hochwertigen Produkten. Das Leistungsspektrum reicht von Türöffnungen über Schließanlagen, Zylinder und Gravuren bis zu Funkalarmsystemen. Ein fester Ansprechpartner betreut Kunden vom ersten Gespräch bis zur Wartung."
+  },
+  {
+    "slug": "haase-sicherheit-und-zubehoer-nauen",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Haase Sicherheit und Zubehör ist ein kleines Familienunternehmen aus dem Umland von Berlin, das auf Sicherheitstechnik und Schlüsseldienstarbeiten spezialisiert ist. Der Betrieb unterhält zwei Filialen, in Glienicke Nordbahn und in Nauen, die zugleich als UPS-Annahmestelle dienen. Das Angebot spannt sich von digitaler Alarmtechnik und Überwachungssystemen bis zu bewährter Schloss- und Sicherheitstechnik, dabei setzt er auf etablierte Hersteller wie Burg Wächter und Abus. Ein hauseigener Schlüssel-Notdienst hilft bei verlorenen Schlüsseln während der Öffnungszeiten der Filialen. Der Betrieb stellt das Vertrauen an die erste Stelle und beschreibt sich als Fachbetrieb in allen Bereichen der Sicherheit rund ums Heim. Das erklärte Ziel ist mehr Sicherheit für das Heim. Der Betrieb stellt Team und Standorte auf eigenen Seiten vor und berät persönlich rund um die Sicherheit."
+  },
+  {
+    "slug": "rudis-radladen-neckargemuend",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Rudis Radladen in Neckargemünd ist ein Fahrradgeschäft für Heidelberg, Mannheim und den Rhein-Neckar-Kreis. Im Laden und im Online-Shop gibt es Pedelecs, E-Bikes, Mountainbikes, Gravelbikes, Trekkingräder, Kinder- und Jugendräder und Reiseräder von Marken wie Conway, Giant und Liv, dazu auch gebrauchte Räder. Die Werkstatt arbeitet als Shimano Service Center, nimmt Reparaturen ohne Voranmeldung an und erstellt Kostenvoranschläge. Leasing von Rädern ist möglich, und auf der Seite stehen Servicehinweise und Tricks direkt aus der Werkstatt. Als zweites Standbein führt der Betrieb einen Schlüsseldienst mit Schlüsselkopien in wenigen Augenblicken, Schließanlagen und Türzylindern. Die Seite des Betriebs führt Rubriken zu Marken und Finanzierung, zu Freizeit und Tourismus sowie zu sozialem Engagement und stellt das Team vor. Im Online-Shop erscheinen laufend neue Modelle. Der Radladen versteht sich als Servicepartner für E-Bikes, Fahrräder, Leasing und Reparaturen."
+  },
+  {
+    "slug": "meister-rapid-e-k-neckarsulm",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Meister Rapid e.K. in Neckarsulm tritt als Schuh- und Schlüsseldienst auf. Nach den hinterlegten Kategorien gehören neben dem Schlüsseldienst und dem Schlüsselkopieren auch Schuhreparatur, Gravuren, Stempel, Näharbeiten, Schleifdienst und Uhrenreparatur zum Umfang. Die Öffnungszeiten sind hinterlegt, eine Internetseite hat der Betrieb nicht. Die Firma ist als eingetragener Kaufmann geführt."
+  },
+  {
+    "slug": "franco-piccione-sicherheitstechnik-schluesseldienst-24-std-nehren",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Franco Piccione betreibt seit 1995 einen Schlüsseldienst für Nehren, Mössingen, Gomaringen, Ofterdingen und Tübingen und Umgebung. Der Notdienst ist an 365 Tagen im Jahr rund um die Uhr erreichbar, auch an Sonn- und Feiertagen. Der Betrieb öffnet Wohnungs- und Haustüren meist ohne Beschädigung, dazu Tresore und Pkw-Türen, und ist nach eigener Angabe in der Regel schnell vor Ort. Außerdem bearbeitet er Schlossreparaturen, tauscht Schlösser und Schließzylinder aus, fertigt Nachschlüssel an, installiert und wartet mechanische Schließanlagen und elektronische Anlagen mit Zugangskarten und Transpondern, sorgt für Hausabsicherung und Einbruchschutz und beseitigt Einbruchschäden. Auch bei verlorenen Autoschlüsseln hilft er. Er arbeitet mit Festpreisen. Auch bei verlorenen oder gestohlenen Schlüsseln wird geholfen, und Schließanlagen kommen nach seiner Angabe in Firmen, Hochhäusern und Eigenheimen zum Einsatz."
+  },
+  {
+    "slug": "schluesseldienst-stahl-neu-guelze",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "true",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Das Schloß-Notdienst Stahl hat seinen Sitz in Zahrensdorf und fährt von dort als Schlüsselnotdienst im Landkreis Ludwigslust-Parchim. Der Einsatzradius reicht über die Landesgrenze von Mecklenburg-Vorpommern hinaus bis nach Schleswig-Holstein und Niedersachsen. Der Notdienst ist das ganze Jahr über erreichbar und nach eigener Angabe in kürzester Zeit am Einsatzort. Der Betrieb tritt als Partner aus Zahrensdorf auf."
+  },
+  {
+    "slug": "peter-celik-schluesseldienst-e-k-neu-wulmstorf",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Peter Celik Schlüsseldienst e.K. ist seit 1989 in Neu Wulmstorf und der Region Ansprechpartner für Schließtechnik, Einbruchschutz und Sicherheitstechnik. Der Betrieb bezieht seine Produkte von namhaften Herstellern und bietet Schließanlagen, Sicherheitsberatung, individuelle Schließsysteme und modulare Zylinder an, die sich über die Seite bestellen lassen. Fahrzeugschlüssel entstehen für Pkw, Oldtimer, Motorrad, Camper, Bagger und Motorboot; bei vielen Kopien wird dafür etwas am Fahrzeug ausgelesen, die Wegfahrsperre lässt sich meist auf einen neuen Schlüssel übertragen, eine Funkfernbedienung kann der Betrieb dagegen nicht neu anlernen. Zum Verkauf stehen außerdem Tresore und Waffenschränke für Jäger. Das Ladengeschäft hat feste Öffnungszeiten und ist mittwochs geschlossen, dann bleibt das Büro telefonisch erreichbar. Ein Schlossnotdienst arbeitet Tag und Nacht. Der Betrieb legt Wert auf fachgerechte Lösungen und Vertrauen, auf das sich Kunden nach seiner Angabe seit Jahrzehnten verlassen können.",
+    "trace": {
+      "schluessel_nachmachen": "bei einigen Kopien etwas an Ihrem Fahrzeug auslesen müssen"
+    }
+  },
+  {
+    "slug": "schluesseldienst-hoeser-gmbh-neu-anspach",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Der Schlüsseldienst Höser in Neu-Anspach im Taunus ist ein kleiner Betrieb mit zwei Mitarbeitern, der häufig im Außendienst unterwegs ist. Er fertigt Schlüssel aller Art, auch für Altanlagen, und liefert Zylinder, auch gleichschließend, sowie Schließanlagen. Er öffnet Türen und repariert und wartet Schlösser, Beschläge, Türen, Schränke und Garagentore. Fenster rüstet er mit Zusatzschlössern, Stangenschlössern und Riegeln nach, wie es zur Hausabsicherung gehört. Im Angebot sind außerdem Tresore, Briefkästen und Geldkassetten, Schrauben und Eisenwaren, Messerschleifen sowie Metall- und Blecharbeiten. Auch für Modellbau, Autorestauration und antike Schlösser findet der Betrieb Lösungen. Das kleine Team ist oft im Außendienst, Besucher melden sich daher vor 17 Uhr kurz telefonisch an. Der Betrieb beschreibt sich als Haussicherung und Schlüsseldienst aus dem Taunus und bearbeitet Ärger mit Schlössern, Beschlägen, Türen, Schränken und Zylindern.",
+    "trace": {
+      "einbruchschutz": "Zusatzschlösser, Stangenschlösser, Riegeln und Eigenproduktionen nachgerüstet werden",
+      "schluessel_nachmachen": "Schlüssel aller Art, auch für Altanlagen"
+    }
+  },
+  {
+    "slug": "zeller-beschlaege-ohg-neubiberg",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Die Zeller Beschläge OHG in Neubiberg ist ein Fachbetrieb für Türen, Tore und Zugangslösungen mit über 40 Jahren Erfahrung und nach eigener Angabe Münchener Präzision. Das Programm umfasst Schließsysteme, Zutrittskontrolle, Schranken, Stoßgriffe, Türgriffe, Torantriebe, Garagentore und Metallbau, dazu Sicherheitstechnik mit Kameras und Einbruchmeldeanlagen. Als Partner werden die Hersteller ISEO und DEA genannt. Der Notdienst ist rund um die Uhr erreichbar und öffnet Wohnungs- und Haustüren, meist ohne Beschädigung. Defekte Schlösser und Zylinder werden repariert oder ausgetauscht, Schlüssel nachgemacht, und für mehr Sicherheit rüsten die Monteure moderne Schließsysteme oder elektronische Zutrittslösungen nach. Die Monteure sind täglich im Einsatz und kommen direkt zum Kunden. Für Anlagen bietet der Betrieb Wartungsverträge mit festen Ansprechpartnern und planbaren Terminen an. Team, Partner und Notdienst stellt der Betrieb auf eigenen Seiten vor. Außerdem gibt es einen eigenen Bereich für den 24-Stunden-Notruf."
+  },
+  {
+    "slug": "holz-sicherheitstechnik-schluesseldienst-neuenbuerg",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Holz Sicherheitstechnik in Neuenbürg versteht sich als Sicherheitspartner für den Enzkreis, den Kreis Calw und die Region. Das Team berät vor Ort zu Schließanlagen, Einbruchmeldeanlagen und Videoüberwachung und installiert die Produkte selbst. Im Notfall steht ein Notdienst rund um die Uhr bereit, ob ein Schlüssel gebraucht wird oder jemand ausgesperrt ist."
+  },
+  {
+    "slug": "zimmerschluessel-de-e-k-neuendorf-sachsenbande",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "false",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Zimmerschlüssel.de aus Neuendorf-Sachsenbande ist ein reiner Onlineshop für Buntbartschlüssel und Zimmertürschlüssel, kein Schlüsselladen vor Ort. Der passende Ersatzschlüssel lässt sich über einen Foto-Check des Schlüssellochs finden, über die eingeprägte Nummer, über das Aussehen der Schweifung und der Bartform oder nach Hersteller und Serie, etwa für Innentüren und Kastenschlösser. Der Shop erklärt außerdem den Unterschied zwischen Buntbartschlüsseln und Chubbschlüsseln und was bei einem unklaren Treffer zu tun ist. Viele Buntbartschlüssel sind als fertige Standardprofile erhältlich, sodass ein Nachmachen oft entfällt. Türöffnungen und Schlosswechsel gehören nicht zum Angebot."
+  },
+  {
+    "slug": "schluesseldienst-klewitz-neuenkirchen",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Der Schlüsseldienst Klewitz in Neuenkirchen öffnet und montiert Türen, Schlösser, Tresore und Autos. Die Arbeiten finden zu den angegebenen Öffnungszeiten statt. Damit deckt der Betrieb vom Haushalt über den Wertschrank bis zum Fahrzeug mehrere Bereiche ab. Eine Internetseite hat der Betrieb nicht, die Öffnungszeiten sind hinterlegt, und ein Notdienst außerhalb davon ist nicht vermerkt.",
+    "trace": {
+      "tueroeffnung": "Öffnung und Montage von Türen, Schlössern, Tresoren und Autos",
+      "schlossaustausch": "Öffnung und Montage von Türen, Schlössern, Tresoren und Autos",
+      "autoschluessel": "Öffnung und Montage von Türen, Schlössern, Tresoren und Autos"
+    }
+  },
+  {
+    "slug": "markus-ambrosch-neuenstein",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Die Schlosserei und Schmiedewerkstatt in Neuenstein wurde 1976 von Otto Ambrosch gegründet, 2006 übernahm Markus Ambrosch den elterlichen Betrieb. Gefertigt werden Treppen, Geländer, Gitter, Stahlbauten, Terrassen- und Eingangsüberdachungen, Carports und Stahlbalkone, dazu kommen Montage und Reparatur von Tor- und Türanlagen. Der Inhaber ist ausgebildeter Installateur und übernimmt auch Badsanierungen. Sonderanfertigungen für Garten- und Grabschmuck zählen zu den Stärken."
+  },
+  {
+    "slug": "schluessel-schneldienst-neufahrn-neufahrn-bei-freising",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Der Schlüssel-Schnelldienst in Neufahrn bei Freising ist unter der Kategorie Schlüsseldienst geführt. Der Betrieb hat Öffnungszeiten hinterlegt und tritt unter einem Namen auf, der schnelle Hilfe verspricht. Über einzelne Leistungen wie Türöffnung, Zylindertausch oder Schließanlagen liegen keine näheren Angaben vor. Der Name des Betriebs verweist auf einen Schnelldienst rund um Schlüssel."
+  },
+  {
+    "slug": "schluesseldienst-matthaei-neuhaus-am-rennweg",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Matthäi in Neuhaus am Rennweg ist ein Sicherheitsfachgeschäft und Nähmaschinen-Fachhandel mit mehr als 30 Jahren Berufserfahrung. Als Schlüsselnotdienst fährt der Betrieb mobil zu Türöffnungen ohne Schäden und ist über zwei Hotlines erreichbar. Im Ladengeschäft führt er Schlüssel, Schlösser, Schließanlagen, Sicherheitsschränke, Tresore und Briefkästen. Bei den Schließanlagen liegt ein Schwerpunkt auf elektronischen Systemen der Hersteller Abus, Smartlocks, Elock2 und SimonsVoss. Tresore und Sicherheitsschränke kommen von Firmen wie Hautmann, Rottner und Burg-Wächter. Dazu gehört ein Fachhandel für Nähmaschinen, außerdem ein Technik-Service und Hinweise zum Sicherheitsfachgeschäft. Die Seite stellt Öffnungszeiten und einen Routenplaner bereit. Das Angebot gliedert sich in die Bereiche Sicherheit, Schlüssel, Schlösser, Schließanlagen, Sicherheitsschränke, Tresore, Briefkästen und Nähmaschinen, ergänzt um Hinweise zu Rechtlichem und zum Datenschutz. Der Betrieb nennt sich Sicherheitsfachgeschäft."
+  },
+  {
+    "slug": "metallbau-pruefer-daniel-pruefer-neukirchen-erzgebirge",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Metallbau Prüfer in Neukirchen im Erzgebirge ist ein Handwerksbetrieb in dritter Generation, der seit 1956 mit Stahl arbeitet und auch ausbildet. Im Mittelpunkt stehen filigraner Stahl-Glasbau und klassischer Metallbau, gefertigt mit dem Stahlsystem Jansen von Schüco, dazu Wartung und Reparatur im Tür- und Glasdachbereich. Als Türenhersteller liefert der Betrieb Türen mit Brand- und Einbruchschutz. In einem Sicherheitsfachgeschäft berät er außerdem zu Schließtechnik und Sicherheit. Der Betrieb nennt sich Handwerksbetrieb mit Teamgeist und Begegnung auf Augenhöhe und ist Mitglied in Innungen und Fachgruppen."
+  },
+  {
+    "slug": "siwa-gmbh-neuruppin",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Die SIWA GmbH in Neuruppin ist als Schlüsseldienst geführt und hat Öffnungszeiten hinterlegt. Der Betrieb ist in Neuruppin ansässig, unter der Rubrik Schlüsseldienst in einem Firmenverzeichnis aufgeführt und mit Telefonnummer eingetragen. Das Kürzel SIWA steht als Name über allem, was der Betrieb anbietet, und die Rechtsform ist die einer GmbH, also einer Gesellschaft mit beschränkter Haftung. Nähere Angaben zu einzelnen Arbeiten wie Türöffnung, Zylindertausch, Schließanlagen oder Notdienst liegen nicht vor. Der Betrieb arbeitet als Schlüsseldienst in Neuruppin und ist dort unter einer örtlichen Rufnummer erreichbar."
+  },
+  {
+    "slug": "schluesseldienst-haus-fuer-sicherheit-neustadt-in-sachsen",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Das Haus für Sicherheit in Neustadt in Sachsen gehört zu einem bundesweiten Verbund von Fachbetrieben für Sicherheitstechnik. Das Programm reicht von Alarmanlagen und Videoüberwachung über Fenster- und Türensicherungen, Briefkastenanlagen und Tresore bis zu Schlössern und Beschlägen vom einfachen Möbelschloss bis zum Antrieb. Schließanlagen werden nach Umfang geplant und errichtet, auf Wunsch mit Not- und Gefahrenfunktion und Anbohrschutz. Elektronische Zylinder mit Transponder ersetzen mechanische Schlüssel, ein verlorener Transponder lässt sich einfach aus dem System löschen. Auch Brandschutztechnik zählt dazu. Im Schlüssel-Notdienst sagt der Betrieb vorher, was es kostet. Zur Beratung gehört der Hinweis, dass rechtzeitige Planung zusätzliche Kosten spart und ein Zusatzschloss Einbrüche verhindern kann. Die Seite des Betriebs bietet außerdem Beratung, Neuigkeiten, Hinweise zu Standorten und eine Auswahl der Lieferanten, mit denen zusammengearbeitet wird.",
+    "trace": {
+      "festpreis_genannt": "Wir sagen Ihnen vorher, was es kostet."
+    }
+  },
+  {
+    "slug": "salman-schluesseldienst-schuhreparatur-aenderungschneiderei-nidda",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Salman in Nidda im Wetteraukreis vereint Schlüsseldienst, Schuhreparatur und Änderungsschneiderei in einem Handwerksbetrieb mit etwa 25 Jahren Erfahrung. Der Schlüsseldienst öffnet Türen zerstörungsfrei rund um die Uhr, fertigt Haus- und Wohnungsschlüssel an und codiert und kopiert Autoschlüssel. Im Produktangebot stehen mechanische Schließsysteme wie Profilzylinder, Blindzylinder, Spezialzylinder, Knaufzylinder und Wendeschlüsselzylinder, außerdem Schließanlagen, Garnituren, Schutzbeschläge, Zimmertürbeschläge, Einsteckschlösser sowie Feuerschutz- und Paniktechnik. Die Preise für die Türöffnung gibt der Betrieb als Festpreis an, Anfahrt und Mehrwertsteuer sind darin enthalten. Daneben kürzt die Schneiderei Kleider, und die Werkstatt erneuert Absätze. Termine lassen sich online vereinbaren. Die Seite des Betriebs zeigt außerdem Profilzylinder von BKS mit Gefahrenfunktion, verschiedenschließend oder gleichschließend, und eine Auswahl nach Zylinderart. Zur Änderungsschneiderei zählen etwa Abendkleider und Hosen, und die Schuhreparatur gehört zum selben Haus."
+  },
+  {
+    "slug": "gunther-lorenz-hausmeisterservice-nidderau",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Gunther Lorenz führt in Nidderau einen Hausmeisterservice, der seine Dienstleistungen an die Anforderungen der Auftraggeber anpasst und dabei auf Leistung und Qualität achtet. Nach den hinterlegten Kategorien ist der Betrieb zusätzlich unter Schlüsseldienst geführt. Welche Arbeiten rund um Schlösser dazugehören, ist nicht beschrieben. Auf Kundenwünsche wird nach eigener Angabe individuell eingegangen."
+  },
+  {
+    "slug": "obi-markt-niebuell-niebuell",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Der OBI Markt in Niebüll ist ein Baumarkt mit Sortimenten aus den Bereichen Bauen, Wohnen, Technik und Garten, mit Gartencenter und Beratung zu Bad, Küche und Garten. Er gehört zur OBI Heimwerkermarkt-Kette und gliedert sein Angebot in Abteilungen. Zu den Services zählen Mietgeräte und Werkzeugverleih, Mietanhänger, Holzzuschnitt, Farbmischservice, Lieferservice, Pflanzenverpackung, Umtausch innerhalb von drei Monaten, Geschenkkarten und Wertstoffrücknahme. Auch einen Schlüsseldienst gibt es im Markt: Schlüssel werden sofort angefertigt und können gleich mitgenommen werden. Türöffnungen oder der Wechsel von Schlössern werden nicht beschrieben.",
+    "trace": {
+      "schluessel_nachmachen": "Für dich sofort angefertigt – direkt zum Mitnehmen"
+    }
+  },
+  {
+    "slug": "mondorfer-sicherheitstechnik-niederkassel",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Mondorfer Sicherheitstechnik ist ein regionales Unternehmen in Niederkassel mit Schwerpunkt auf Sicherheitstechnik, Schlüssel-Notdienst und der Anfertigung von Schlüsseln aller Art. Dazu gehören Fahrzeugschlüssel für viele Old- und Youngtimer. Geführt werden Marken wie Keso, Abus und BKS sowie Zubehör, das bei Bedarf kurzfristig besorgt wird. Die Beratung zur Sicherheitstechnik für Zuhause oder Geschäft findet vor Ort statt, kostenlos und unverbindlich. Der Inhaber ist nach eigener Angabe seit 1989 selbstständig, in Mondorf seit 2018.",
+    "trace": {
+      "schluesseldienst_kern": "Schlüssel- Notdienst",
+      "schluessel_nachmachen": "Anfertigung Schlüsseln aller Art"
+    }
+  },
+  {
+    "slug": "kunstschmiede-und-metallbau-reiner-umlauf-niedernhausen",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Reiner Umlauf gründete 1990 in Niedernhausen im Taunus die Kunstschmiede und den Metallbau, der Schmiede- und Metallarbeiten ausführt. 1995 kam mit den Steinbeissern ein zweites Standbein für Beton, Bohren und Sägen dazu. Durch das Zusammenspiel beider Gewerke übernimmt er Arbeiten aus einer Hand, etwa Ausschnitte mit Lieferung und Einbau einer Treppe oder von Fenstern und Türen."
+  }
+]

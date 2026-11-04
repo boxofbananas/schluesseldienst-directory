@@ -1,0 +1,707 @@
+[
+ {
+  "slug": "schluesseldienst-h-schmid-tuebingen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Seit 1975 sitzt Schlüsseldienst H. Schmid in Tübingen und wird inzwischen in dritter Generation geführt. Aus dem kleinen Familienbetrieb ist ein Anbieter für Sicherheitstechnik geworden. Zum Angebot zählen die Öffnung von Türen und Fahrzeugen, der Austausch von Zylindern und Schlössern vor Ort, Reparaturen an Schlössern und Beschlägen sowie Schlüsselkopien, darunter Zylinder-, Buntbart- und viele Autoschlüssel. Dazu kommen mechanischer Einbruchschutz für Türen und Fenster, Schließanlagen für Wohnhäuser, Büros und Wohnanlagen sowie mechanische und elektronische Schließsysteme. Als Zugang nennt der Betrieb Schlüssel, Smartphone, PIN-Code und Fingerabdruck. Beratung zu Sicherheit und Zutritt, Montage und Wartung von Schließsystemen gehören ebenfalls dazu, ebenso Tresore und Briefkästen. Die Kundschaft besteht aus Privat- und Gewerbekunden, erreichbar ist der Betrieb nach eigener Angabe rund um die Uhr, am Wochenende und an Feiertagen."
+ },
+ {
+  "slug": "fox-multi-service-h-kaya-schuh-schluesseldienst-tuebingen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Fox Multi-Service H Kaya in Tübingen führt Schuhreparatur und Schlüsseldienst unter einem Namen. Als Hauptkategorie steht die Schuhreparatur, der Schlüsseldienst läuft als Nebenkategorie daneben. Der Name Multi-Service deutet auf mehrere Handwerksleistungen unter einem Dach, die Öffnungszeiten des Betriebs sind hinterlegt. Zu einzelnen Schlüsselarbeiten, Türöffnungen oder einem Notdienst gibt es keine Beschreibung des Betriebs selbst."
+ },
+ {
+  "slug": "locksmiths-marion-schlang-unna",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Der Familienbetrieb Schlüsseldienst Marion Schlang arbeitet in Unna, Dortmund und Umgebung. Den Grundstein legte 1975 der Firmengründer Wilhelm Schlang in Unna-Massen, 2013 eröffnete Marion Schlang dort ein neu eingerichtetes Ladenlokal, 2018 folgte eine Vergrößerung, und heute führt die dritte Generation das Geschäft weiter. Das Leistungsspektrum reicht von Türöffnungen mit vorab genanntem Preis über Schlüssel und Autoschlüssel, die in den ausgestatteten Fahrzeugen vor Ort geschnitten werden, bis zu Schlössern, Beschlägen sowie Tür- und Fenstersicherungen. Schließanlagen gibt es in digitaler und mechanischer Form, dazu kommen Objektsicherung, Schweißarbeiten sowie Garagensicherung samt Antrieben. Zu den Kunden zählen nach eigener Angabe die Polizei in Unna, Dortmund und Kamen, Wohnungsbaugesellschaften und viele Privatkunden. Auch wenn das Geschäft an Feiertagen oder Brückentagen geschlossen bleibt, ist der Außendienst im Notfall erreichbar.",
+  "trace": {
+   "schluessel_nachmachen": "Schlüssel sofort geschnitten werden",
+   "elektronische_schliesssysteme": "Schließanlagen in digitaler & mechanischer Form"
+  }
+ },
+ {
+  "slug": "ringsdorf-sicherheitssysteme-unna",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Ringsdorf Sicherheitssysteme in Unna beschreibt sich als Spezialist für mechanische und elektronische Sicherungstechnik und verweist auf mehr als 25 Jahre Erfahrung. Den Schwerpunkt bilden einbruchhemmende Nachrüstungen an Türen, Fenstern und Gittern, darunter innenliegende und aufgeschraubte Nachrüstungen nach DIN 18104-2 sowie nachrüstbare Türgetriebe. Hinzu kommen Schließanlagen in mechanischer und mechatronischer Form mit Systemen der Marken ABUS und DOM, unter anderem DOM TapKey. Für größere Objekte nennt der Betrieb Offline-, virtuell vernetzte und Onlinesysteme sowie aktive Transponder. Die Anlagen sind für Einfamilienhäuser und Wohnanlagen ebenso gedacht wie für Kleinbetriebe und Konzerne. Schlüsselkopien und Reparaturen gehören zum Programm. Ausführliche Fachtexte erklären Schließpläne, Hauptschlüsselanlagen und Profilzylinder mit Bohr- und Manipulationsschutz. Eigene Rubriken gibt es zu Mitgliedschaften, Marken und aktuellen Meldungen, dazu einen Downloadbereich sowie Angaben zu Öffnungszeiten und Anfahrt."
+ },
+ {
+  "slug": "car-parts-steinert-gmbh-usingen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Autoteile Steinert in Usingen im Hochtaunuskreis ist seit 1982 ein Handel für Autoteile und Autozubehör. Das Sortiment umfasst Bremsen, Reifen, Stoßdämpfer, Auspuffanlagen und weitere Verschleißteile, dazu Motorenöle, Dachboxen, Dachträger und Fahrradträger der Marke Thule. Verkauf und Verleih von Anhängern gehören ebenso dazu wie Anhängerteile und Zubehör. Außerdem liefert der Betrieb technische Gase von Progas und Air Liquide. Ein Schlüsselservice steht als eigener Menüpunkt unter dem Angebot, das Schwergewicht liegt aber klar beim Teilehandel und beim Zubehör für Fahrzeuge. Kontakt und Anfahrt stehen auf einer eigenen Seite."
+ },
+ {
+  "slug": "b-m-land-sicherheitssysteme-schluesseldienst-usingen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "BM-Land Security Group aus Usingen arbeitet nach eigener Angabe seit über 15 Jahren unter dem Leitsatz, Eigentum zu sichern. Der Betrieb verkauft und installiert Sicherheitssysteme aller Art und nennt einen Notdienst bei Tag und Nacht. Als Einsatzorte stehen neben Usingen auch Rödermark, Bad Homburg und Bad Segeberg im Firmenauftritt. Die Maps-Kategorie ist Schlüsseldienst, als Nebenkategorie erscheint der Goldankauf."
+ },
+ {
+  "slug": "pm-service-gmbh-verl",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "PM Service in Verl hat sich seit 1977 auf Schließzylinder und Schließanlagen spezialisiert und verkauft sie über einen Onlineshop. Angeboten werden Doppel-, Halb- und Knaufzylinder, Systeme von DOM, Winkhaus, BKS und ABUS sowie elektronische Schließsysteme. Im Shop finden sich Serien wie BKS Janus, BKS belvius, BKS Detect3, ABUS Bravus und Winkhaus keyTec, dazu Blind- und Rundzylinder, Feuerwehrdreikant, Kofferbänder und Pflegespray, bei den elektronischen Systemen ABUS One, EVVA Airkey und Winkhaus Blue Compact. Der Betrieb fertigt und plant Schließanlagen und führt passend dazu Schlüssel. Daneben stehen Türketten, Türöffner und Türschließer im Sortiment. Nach seiner Maps-Kategorie arbeitet er außerdem mit Gravuren, Stempeln, Schildern und Bannern. Der Shop führt Wunschzettel und Kundenkonto und ist auf Deutsch und Englisch nutzbar. Schließanlagenfertigung und Schließanlagenplanung stehen als eigene Rubriken."
+ },
+ {
+  "slug": "pm-service-schuhreparatur-und-schluesselbetriebe-gmbh-verl",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Hinter dem Namen PM Service in Verl steht ein Filialbetrieb mit 23 Geschäftsstellen in Nordrhein-Westfalen und Niedersachsen, in den ersten Jahren kamen bis zu fünf neue Filialen jährlich hinzu. Er verbindet Schlüsseldienst und Schuhreparatur mit Uhren-Batteriewechsel und Werbetechnik, dazu gehören Beschriftungen, Fahrzeugbeschriftung, Großformatdruck, Banner und Gravuren, ein Filialfinder zeigt die Standorte. Der Schlüsseldienst ist nach eigener Angabe rund um die Uhr erreichbar, wenn jemand ausgesperrt ist oder den Schlüssel verloren hat. Auf der Seite der Schließtechnik stehen Schließzylinder, Vorhängeschlösser, Einsteckschlösser und Sicherheitsschlösser, außerdem geplante und installierte Schließanlagen für Haushalte, Unternehmen und öffentliche Einrichtungen sowie digitale Systeme, Zahlencode-Schlösser und Türschlossantriebe von ABUS. Schließtechnik wird auch online verkauft. Als Kompetenzbereiche nennt die Seite Schuhreparatur, Uhrenarmbänder und Uhrenbatterien, Schließtechnik und Werbetechnik. Schließtechnik gibt es sowohl in den Filialen als auch online, dazu führt die Seite einen Online-Shop für Schließzylinder und Vorhängeschlösser.",
+  "trace": {
+   "tueroeffnung": "wenn ihr euch ausgesperrt habt",
+   "gewerblich_objektbetreuung": "Haushalte, Unternehmen und öffentliche Institutionen"
+  }
+ },
+ {
+  "slug": "meister-schuh-schluesseldienst-autoschluessel-nachmachen-schlosser-schuhrepatur-lederware-gravur-und-stempel-voelklingen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "In Völklingen verbindet Meister Schuh & Schlüsseldienst das Schlüsselgeschäft mit Schuhreparatur, Lederwaren und Gravuren. Beim Autoschlüssel fertigt der Betrieb neue Schlüssel an und dupliziert vorhandene, auch mit Wegfahrsperre und Keyless-Go, und wechselt Gehäuse und Batterien von Fahrzeugschlüsseln. Dazu kommen Näharbeiten, der Austausch von Reißverschlüssen und Federdruckknöpfen, Gürtel, Geldbörsen, Handtaschen, Schlüsselanhänger, individuelle Gravuren und Stempel."
+ },
+ {
+  "slug": "stewa-schluesseldienst-voelklingen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Stewa Schlüsseldienst ist ein Betrieb in Völklingen im Saarland, der unter der Kategorie Schlüsseldienst läuft. Öffnungszeiten sind für ihn hinterlegt, eine eigene Website mit Leistungsliste gibt es nicht. Der Name beschränkt sich auf das Gewerk, nennt also keine Spezialisierung auf Autos, Tresore oder Schließanlagen, und aus den wenigen Angaben lässt sich die Arbeit im Einzelnen nicht ableiten."
+ },
+ {
+  "slug": "servicepoint-waghaeusel",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Der Service Point im GLOBUS Waghäusel-Wiesental ist ein Laden mit Schlüsselservice und Alltagsreparaturen. Als Kernkompetenz nennt er Autoschlüssel: nachmachen, programmieren und reparieren, vom Gehäuseproblem bis zur verschlissenen Taste. Dazu kommt der Schlüsseldienst mit Türöffnung, ein telefonisch rund um die Uhr erreichbarer Schlüsselnotdienst für Tür- und Schlossprobleme in Waghäusel und Umgebung, getrennt von den Ladenöffnungszeiten, sowie Beratung zu Schließzylindern. Ob eine Tür nur ins Schloss gefallen oder tatsächlich verriegelt ist, entscheidet über die Art der Öffnung. Schließanlagen plant und berät der Betrieb für Mehrfamilienhäuser, Büros und gewerbliche Objekte. Ratgebertexte erklären, welche Angaben bei einem abgebrochenen Schlüssel wichtig sind, wann ein neuer Schließzylinder sinnvoll ist und wie es nach einem verlorenen Autoschlüssel weitergeht. Außerdem gehören Gravuren, Schuhreparatur und ein Wäscherei- und Textilservice zum Standort.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Mehrfamilienhäusern, Büros und gewerblichen Objek"
+  }
+ },
+ {
+  "slug": "hardt-schluesseldienst-waghaeusel-waghaeusel",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Hardt Schlüsseldienst arbeitet in Waghäusel ohne Vermittlungszentrale und nennt einen Notdienst rund um die Uhr, der in 20 bis 40 Minuten vor Ort sein soll. Beschrieben sind Türöffnungen bei zugefallenen und abgeschlossenen Türen, Panikschlössern und Mehrfachverriegelungen, dazu die Öffnung von Fahrzeugen ohne Beschädigung, von Briefkästen und Garagen. Bei Bedarf wird der Zylinder getauscht, ein Schlosswechsel steht ebenfalls im Angebot. Außerdem berät der Betrieb zu mechanischem Einbruchschutz mit Panzerriegeln, Zusatzschlössern und Fenstersicherungen und liefert Schließanlagen für Haus, Mehrfamilienhaus und Gewerbe samt Schließplan und Sicherungskarte. Ausführliche Abschnitte erklären, was eine Türöffnung ist, wie eine Fahrzeugöffnung abläuft, welche Fahrzeuge geöffnet werden können und was der Schlüsseldienst nicht macht. Die Preise nennt er vor Arbeitsbeginn, ohne versteckte Kosten. Die Seite führt auch Rubriken zu Einsatzgebiet und häufigen Fragen.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Individuelle Schließanlagen für Haus, Mehrfamilienhaus und Gewerbe"
+  }
+ },
+ {
+  "slug": "schneider-srs-hannan-wahlstedt",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "SRS Hannan in Wahlstedt ist eine Änderungsschneiderei mitten im Ort. Gekürzt und angepasst werden Kleider und Hosen, auch Hochzeits- und Abendkleider, dazu kommen Reparaturen an Reißverschlüssen und Nähten. Daneben bietet der Betrieb Schuhreparatur, einen Schlüssel- und Uhrenservice sowie Reinigungen an. Die Maps-Kategorie führt den Schlüsseldienst als Nebenkategorie, die Schneiderarbeit steht im Vordergrund."
+ },
+ {
+  "slug": "schluesseldienst-hartmann-wahlstedt",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüsseldienst Hartmann in Wahlstedt arbeitet nach telefonischer Vereinbarung. Der Betrieb nennt Ersatzschlüssel, Schließzylinder, Türöffnungen und Schließanlagen als Leistungen, dazu Montage und Reparaturen. Seine Arbeit führt er vor Ort bei den Kunden aus. Die Öffnungszeiten sind hinterlegt, als Kategorie steht der Schlüsseldienst. Termine werden nur telefonisch vergeben, spontane Besuche sind darum nicht vorgesehen."
+ },
+ {
+  "slug": "hammer-market-very-good-parking-waldbroel",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Hammer market in Waldbröl ist ein Baumarkt mit Verkauf im Laden. Nach seiner Maps-Kategorie führt der Betrieb nebenbei auch den Schlüsseldienst, Einzelheiten zu Türöffnungen oder Schlüsselarbeiten liegen aber nicht vor. Waren können im Markt gekauft oder geliefert werden, auch noch am selben Tag. Der Markt nimmt außerdem Batterien und Leuchtmittel zur Entsorgung zurück. Die Öffnungszeiten sind hinterlegt."
+ },
+ {
+  "slug": "keymaster-schluesseldienst-waldbroel",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "KeyMaster Schlüsseldienst arbeitet in Waldbröl und Umgebung und ist nach eigener Angabe Tag und Nacht, rund um die Uhr, unterwegs. Der Betrieb hilft Menschen, die ihren Schlüssel verloren haben oder ausgesperrt sind. Weitere Leistungen wie Schlösser, Schließanlagen oder Autoschlüssel nennt die Beschreibung nicht. Die Öffnungszeiten sind hinterlegt. Der Name KeyMaster steht für den Schlüsseldienst als Kerngeschäft."
+ },
+ {
+  "slug": "huebsch-schweissfachhandel-wallenhorst",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Hübsch Schweißfachhandel in Wallenhorst ist ein Fachhandel für Schweiß- und Schneidtechnik und kein Schlüsseldienst. Das Sortiment umfasst Schweißgeräte, Schweißzusätze, Verschleißteile, Schlauchpakete, Absaugungen, technische Gase und Arbeitsschutz wie Schweißerjacken und Helme, geführt werden unter anderem Geräte von ESAB, Lorch und Holzer. Dazu kommen Reparaturen, UVV-Prüfungen, Validierung, Beratung und Vorführungen. Als Nebenkategorien erscheinen unter anderem Maschinenbau, Schweißer und Baumarkt."
+ },
+ {
+  "slug": "schliess-und-sicherheitstechnik-liesen-wallenhorst",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Tür zu, und der Inhaber kommt selbst: Schließ- und Sicherheitstechnik Liesen versorgt Wallenhorst, Osnabrück und den Landkreis, in 35 Orten, rund um die Uhr. Es ist ein Ein-Mann-Betrieb mit einem Fahrzeug und einer Nummer, ohne Vermittlungsportal. Der Preis wird schon vor der Anfahrt genannt, auch die Autoöffnung hat einen Preis und wird bei Misserfolg nicht berechnet, die Anfahrt ist je nach Entfernung geregelt. Nachts geht es meist um eine Tür, die aufmuss, tagsüber um Zylinder, Beschläge und Schließanlagen. Zum Angebot zählen Türöffnung, Autoöffnung, Schloss- und Profilzylinderwechsel, Beschläge und Mehrfachverriegelungen, mechanische Schließanlagen, Einbruchschutz mit Beratung, Smart Locks sowie Wartung und Service. Für Verwaltungen, Vermieter und Betriebe gibt es Angebote auf Objektlisten, auf Wunsch als Wartungsvertrag, außerdem Einbau und Prüfung von Rauch- und Kohlenmonoxidmeldern."
+ },
+ {
+  "slug": "wallufer-schuh-schluesseldienst-24h-tueroeffnung-autoschluesselservice-walluf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "In Walluf am Rhein läuft Schuhreparatur und Schlüsselservice im selben Betrieb. Der Schlüsseldienst bietet Türöffnung an allen Tagen rund um die Uhr, bei zugefallener Tür, verlorenem Schlüssel oder klemmendem Schloss, und arbeitet im Großraum Wiesbaden. Der Ablauf ist in fünf Schritten beschrieben, abgeschlossen wird ein Einsatz erst, wenn der Kunde zufrieden ist, und ein Rückruf lässt sich anfordern. Nach der Öffnung wird der Zustand von Schloss, Zylinder und Beschlägen geprüft, Zylinder- und Schlosswechsel gehören dazu. Schlüssel kopiert der Betrieb vom Wendeschlüssel über Kreuz- und Buntbartschlüssel bis zum Sicherheitsschlüssel, bei Verlust fertigt er Ersatz. Beim Autoschlüssel bietet er Reparatur, Kopieren, Codieren und Löten an. Daneben stehen Batteriewechsel für Uhren, Lasergravur, Stempel, Schilder und Schlosszubehör im Angebot. Ein Rückruf lässt sich über ein Kontaktformular eintragen."
+ },
+ {
+  "slug": "carkeys-hazer-walluf",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "CarKeys Hazer in Walluf hat sich auf Autoschlüssel und Fahrzeugelektronik spezialisiert. Der Betrieb fertigt Autoschlüssel nach und programmiert Auto-, Funk- und Keyless-Schlüssel für viele Fahrzeugmarken, darunter Mercedes-Klappschlüssel. Auch bei Totalverlust, wenn alle Schlüssel fehlen, kann er häufig helfen. Zusätzlich bietet er Diagnose, Reparatur und Programmierung von Wegfahrsperren, Zündschlössern und elektronischen Lenkradschlössern sowie Steuergeräten an. Die Kundschaft kommt aus Walluf, Wiesbaden, Mainz und dem gesamten Rhein-Main-Gebiet. Die Seite gliedert sich in Autoschlüssel nachmachen, Programmierung und Codierung, Totalverlust, Standort, Galerie und Kontakt."
+ },
+ {
+  "slug": "schluesseldienst-wandlitz-tuernotoeffnung-schlossreparatur-wandlitz",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Ein Türöffnungsservice für die Großgemeinde Wandlitz: Der Inhaber arbeitet allein und spricht auf seiner Seite in der ersten Person. Er ist nach eigener Angabe rund um die Uhr erreichbar, jeden Tag der Woche, und bietet Soforthilfe über eine feste Nummer. Gedacht ist der Service für alle, die sich versehentlich ausgesperrt haben oder ausgesperrt wurden, wenn die Tür zu ist und kein Schlüssel zur Hand. Schadensbegrenzung und schnelle Hilfe sind für ihn selbstverständlich. Als Versprechen nennt er hohe Qualität der Arbeit, verlässliche Kostenaussagen und schnelle Hilfe. Die Seite besteht aus Startseite, Kontakt, Impressum und Datenschutz und stellt den Türöffnungsservice in den Mittelpunkt. Die Arbeit konzentriert sich auf die Türnotöffnung, andere Gewerke werden nicht beschrieben. Der Betrieb nennt sich Türöffnungsservice und eilt nach eigener Beschreibung zur Hilfe, sobald jemand vor verschlossener Tür steht."
+ },
+ {
+  "slug": "msb-metallbau-inh-christian-schroeder-wandlitz",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "MSB Metallbau unter Inhaber Christian Schröder in Wandlitz ist ein Metallbaubetrieb mit Bauschlosserei. Neben dem Metallbau nennt der Betrieb den Schlüsseldienst als weiteres Tätigkeitsfeld. Als Nebenkategorien erscheinen Zaunbau und Treppenbau, die Hauptkategorie ist der Metallbau. Die Öffnungszeiten sind hinterlegt, Einzelheiten zu Türöffnungen oder Schlüsselarbeiten gibt der Betrieb nicht an. Die Nebenkategorien zeigen, dass der Betrieb auch Zäune und Treppen baut."
+ },
+ {
+  "slug": "xpress-ihr-schuh-schluesseldienst-24h-schluesselnotdienst-lasergravuren-auf-uhren-holz-und-schmuck-weiterstadt",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "XPRESS in Weiterstadt ist ein Mischbetrieb aus Schuh- und Schlüsseldienst mit einem Schlüsselnotdienst, der rund um die Uhr erreichbar ist. Das Angebot umfasst Schumacherarbeiten, Schuhzubehör, Lederarbeiten wie Gürtel und Taschen, Uhrenservice, Schilder sowie Gravurarbeiten, darunter Lasergravuren auf Uhren, Holz und Schmuck. Auch Sicherheitstechnik nennt der Betrieb als Arbeitsfeld, näher beschrieben ist sie nicht."
+ },
+ {
+  "slug": "fischer-schluesseldienst-tueroeffnungsseminare-weiterstadt",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Fischer Schlüsseldienst in Weiterstadt bietet vor allem Türöffnungsseminare an, für Feuerwehren ebenso wie für Gewerbetreibende. Das Programm besteht aus Grundseminar, Kombi-Kurs, Aufbauseminar, Abendschulung und Gewerbe-Seminar, aufgebaut in Modulen zu zugefallenen und verschlossenen Türen, der Kombi-Kurs ist in zwei Blöcke geteilt. Ein theoretischer Teil behandelt die rechtlichen Grundlagen, den Aufbau von Schließzylindern und die Funktion der Schlösser, danach üben die Teilnehmer an einer großen Auswahl aktueller Türöffnungswerkzeuge zerstörungsfreie und zerstörende Öffnungstechniken, wahlweise auch am eigenen Werkzeug. Der Aufbaukurs behandelt unter anderem Fräsen und Bohren. Für Feuerwehren leitet Thomas Görich die Seminare, die auch das notfallmäßige Öffnen von Türen, Fenstern, Fahrzeugen und Aufzügen behandeln. Daneben führt die Seite einen Menüpunkt Schlüsseldienst, außerdem eine Galerie und Werkzeuge sowie Termine. Preise und Termine stehen auf einer eigenen Seite."
+ },
+ {
+  "slug": "sicherheitstechnik-kretzschmar-inh-nicole-voigt-24h-notdienst-weissenfels",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Im Dezember 1990 gründete Bernd Kretzschmar in Weißenfels zunächst in der privaten Garage einen Schloß- und Schlüsseldienst, heute führt Nicole Voigt den Betrieb unter dem Namen Sicherheitstechnik Kretzschmar. Er deckt die klassischen Aufgaben rund um Schloss und Riegel ab und reicht vom einfachen Profilzylinder über Gleichschließungen im Standardprofil bis zu Sperrschließungen und Schließanlagen im Eigenprofil, mechanisch oder elektronisch und nach individuellem Konzept. Dazu kommen mechanische Sicherungstechnik, Zutrittskontrolle, Alarmanlagen und Videoüberwachung, Gravuren, Briefkastenanlagen und Tresore in verschiedenen Bauformen. Als Qualifikationen der Inhaber nennt die Seite Schweißfachmann und Diplom-Wirtschaftsingenieurin. Der Betrieb nimmt an Weiterbildungslehrgängen der Industrie und der Fachverbände teil und ist Mitglied im Bundesverband Sicherungstechnik Deutschland. Bei der Planung entsteht gemeinsam mit den Kunden ein individuelles Konzept, die Seite führt zudem Rubriken zu Aktuellem und Leistungen."
+ },
+ {
+  "slug": "schluesseldienst-und-hausmeister-daniel-weissenfels",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Schlüsseldienst und Hausmeisterservice laufen in Weißenfels im selben Betrieb. Beim Schlüsseldienst geht es um zugefallene Türen und verlorene Schlüssel, die Öffnungen erfolgen nach eigener Angabe schonend und fachgerecht, und der Betrieb ist 24 Stunden am Tag erreichbar. Zum Hausmeisterservice zählen kleine Reparaturen, Treppenhausreinigung, Gartenpflege und Winterdienst. Außerdem nennt der Betrieb Objektbetreuung aller Art. Die Öffnungszeiten sind hinterlegt. Schnell vor Ort zu sein, nennt der Betrieb als Merkmal des Schlüsseldienstes. Beide Gewerke werden ausdrücklich unter einem Namen angeboten. Zu den Arbeiten zählen auch Treppenhausreinigung und Winterdienst."
+ },
+ {
+  "slug": "autokys-altin-yaman-gbr-wenden",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Autokys von Altin & Yaman in Wenden arbeitet allein rund um den Autoschlüssel und bedient auch Kunden aus Siegen. Der Betrieb erstellt neue Schlüssel bei Verlust, kopiert vorhandene, repariert beschädigte oder defekte Schlüssel, ersetzt Schlüsselanhänger und programmiert Autoschlüssel, auch für führende Automarken. Nach eigener Angabe beruht die Arbeit auf jahrelanger Erfahrung in der Branche. Für Ersatz, Nachmachen und Reparatur gilt ein unkomplizierter und schneller Ablauf: Kunden kommen vorbei, lassen den Schlüssel machen, und der Fall ist erledigt. Die Seite gliedert sich in Dienstleistungen, Marken, Über uns und Kontakt."
+ },
+ {
+  "slug": "sst-sicherheitstechnik-gmbh-wenden",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "SST Sicherheitstechnik in Wenden verbindet Videoüberwachung, Brandschutz, Türsprechanlagen, Einbruchschutz und Tresore mit einem Schlüsseldienst. Der Schlüsseldienst öffnet Türen erst nach einem Nachweis der Berechtigung, vereinbart nur feste Preise und berechnet nur eine erfolgreiche Öffnung, mögliche Mehrkosten nennt er vor Arbeitsbeginn. Die Anfahrt ist nach Einsatzort gestaffelt. Schlüssel fräst der Betrieb nach und greift dabei auf eine große Schlüsseldatenbank zu, auch für Autoschlüssel mit und ohne Wegfahrsperre sowie Transponder. Der mobile Vorortservice macht Schlüssel direkt an der Haustür. Im Ladenlokal gelten feste Öffnungszeiten an einzelnen Nachmittagen, sonst nach Terminvereinbarung. Bei den Produkten stehen Marken wie ABUS, Telenot, Lupus und Jablotron, auf Wunsch erstellt der Betrieb ein individuelles Angebot. Zur Videoüberwachung beschreibt der Betrieb auch, wie die Meldungen der einzelnen Sensoren zusammenlaufen und an bestimmte Stellen weitergeleitet werden.",
+  "trace": {
+   "tueroeffnung": "Sie zahlen nur für eine erfolgreiche Öffnung",
+   "anfahrtspauschale_genannt": "Anfahrt: Wenden"
+  }
+ },
+ {
+  "slug": "schluesseldienst-b-jung-werder-havel",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "false",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Mit über 20 Jahren Erfahrung in der Nottüröffnung arbeitet Schlüsseldienst B. Jung in Werder an der Havel, rund um Potsdam, Glindow, Geltow, Schwielowsee, Michendorf, Beelitz und weiter bis Falkensee. Der Betrieb öffnet zugefallene und verschlossene Türen schadenfrei, auch wenn der Schlüssel innen steckt oder verloren ist, und nennt für zugefallene Türen einen Festbetrag. Beschrieben sind der abgebrochene Schlüssel im Schließzylinder, defekte Schlösser und in der Wohnung vergessene Schlüssel. Er tauscht Schließzylinder direkt vor Ort, repariert Schlösser und Mehrfachverriegelungen und plant neue Schließanlagen mit unterschiedlichen Schlüsselberechtigungen. Auch am Wochenende ist er unterwegs. Preisliste und Einzugsgebiet stehen auf eigenen Seiten. Ausdrücklich bietet er keinen Schlüsselduplikationsdienst an, Schlüssel werden also nicht nachgemacht. Kundenstimmen auf der Seite sprechen von Hilfe am Sonntag und einem Schlosswechsel nach einem Einbruch."
+ },
+ {
+  "slug": "dienstleistungen-lieber-werder-havel",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Dienstleistungen Lieber in Werder an der Havel ist ein Fachgeschäft im Einkaufszentrum Werderpark für Schuhreparaturen, Schlüssel, Gravuren und Stempel. Die Seite führt zudem eine Schleiferei, Schlösser, Pokale und Vereinsbedarf sowie einen Verkauf auf. Einfache Reparaturen, Schlüsselkopien, Gravuren und Stempel erledigt der Betrieb als Sofort-Service, während die Kundschaft im Center ihre Einkäufe macht. Der Name Dienstleistungen Lieber steht für ein breites Handwerksangebot unter einem Dach. Geschäftszeiten und Anfahrt stehen auf der Seite. Die Seite bietet zusätzlich ein Kontaktformular, eine Druckversion und eine Sitemap."
+ },
+ {
+  "slug": "obi-wermelskirchen-wermelskirchen",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der OBI Markt Wermelskirchen ist ein Baumarkt, kein Türöffnungsdienst. Er gliedert sich in Abteilungen wie Küchenstudio, Gartencenter, Baustoffhalle, Lampen- und Leuchtenstudio sowie ein Studio für Türen und Fenster, dazu kommen Holzzuschnitt, Container-Mietservice und Mietgeräte. Im Angebot stehen Außen- und Innentüren aus Holz, Stahl und Glas in klassischen und modernen Designs sowie verschiedene Fenstersysteme. Solaranlagen, Terrassenüberdachungen und Wärmepumpen gibt es jeweils mit Montage. Zu den Marktservices zählen Umtausch und Geschenkkarten sowie ein Schlüsseldienst, bei dem Schlüssel sofort angefertigt und direkt mitgegeben werden. Ergänzend führt der Markt Alarmanlagen, Kameras und Bewegungsmelder.",
+  "trace": {
+   "schluessel_nachmachen": "Schlüsseldienst Für dich sofort angefertigt – direkt zum Mitnehmen"
+  }
+ },
+ {
+  "slug": "obi-smart-technologies-gmbh-wermelskirchen",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Als Baumarkt mit Onlineshop führt die OBI Smart Technologies GmbH in Wermelskirchen Heimwerker-, Bau- und Gartenbedarf. Das Sortiment reicht von Beleuchtung, Smart Home und Kaminöfen über Sauna und Dämmung bis zu Schwerlastregalen, Arbeitsplatten und Akustikpaneelen, dazu gibt es Markenshops und Super Deals des Monats. Der Betrieb bietet Wärmepumpen und Klimaanlagen mit Montage und einen individuellen Sanierungsfahrplan an, einen Vermittlungsservice auch in Österreich und einen eigenen Bereich für Profis. Zu den Marktservices zählen ein Zuschnitt-Service, die Rücknahme von Werkstoffen, ein Bestellservice für vergriffene Artikel, Geschenkkarten und Schlüsselkopien. Ein Schlüsseldienst im Sinne von Türöffnung oder Schlossarbeiten gehört nicht zum Angebot. Die Seite führt außerdem Rubriken zu Angeboten, Services sowie Anleitungen, Tipps und Ideen. Besonders genannt werden der örtliche Zuschnitt-Service und die Rücknahme von Elektrogeräten und Wertstoffen."
+ },
+ {
+  "slug": "kraut-systemhaus-fuer-sicherheitstechnik-gmbh-wernigerode",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Das Systemhaus Kraut in Wernigerode plant, installiert und wartet Sicherheitstechnik für private und geschäftliche Kunden in Wernigerode, Braunschweig und Braunlage. Zum Programm gehören Alarmanlagen, Brandmeldesysteme, Videosysteme samt Wartung, Hausnotruf, Zutrittskontrolle, Schrankenanlagen, Fluchtwegtechnik und Briefkastenanlagen sowie Tresore. Bei Schließanlagen richtet der Betrieb die Berechtigungen nach der Struktur von Unternehmen oder Wohnhaus aus, auch als Mietanlage und mit elektronischen Systemen, deren Berechtigungen sich ohne Zylindertausch ändern lassen. Hinzu kommen Fenster- und Türsicherungen und die Nachfertigung von Schlüsseln, auch Fahrzeugschlüsseln mit Transponderprogrammierung. Die Firma geht auf eine Übernahme durch Annemarie und Lutz Geist nach dem Zweiten Weltkrieg zurück, damals mit Baubeschlägen und Haushaltswaren. Mit der Übernahme der Firma ESS Caretel aus Quedlinburg, die auf Hausnotruf spezialisiert war, verdoppelte sich später die Zahl der Anschlüsse.",
+  "trace": {
+   "schluessel_nachmachen": "Schlüsselnachfertigung",
+   "gewerblich_objektbetreuung": "für den privaten sowie geschäftlichen Bereich"
+  }
+ },
+ {
+  "slug": "haus-fuer-sicherheit-beck-luettge-gmbh-wernigerode",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Das Haus für Sicherheit Beck & Lüttge in Wernigerode führt einen Schlüsseldienst und ein Geschäft für mechanische und elektronische Sicherheitssysteme. Im Angebot stehen Schlüssel und Schließanlagen, Elektronikzylinder, Wandleser, Fingerprint und Code-Tastaturen, dazu Fenstersicherungen sowie Alarmanlagen, drahtlos und auch mit Video über das Netzwerk. Als Kategorie führt der Betrieb den Schlüsseldienst. Die Öffnungszeiten sind hinterlegt."
+ }
+]

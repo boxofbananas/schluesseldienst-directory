@@ -1,0 +1,487 @@
+[
+  {
+    "slug": "schluesseldienst-hannover-yapar-hannover",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "true",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Zugefallene Wohnungs- und Haustüren öffnet der Schlüsseldienst Yapar in Hannover schadensfrei, und der Einsatzradius reicht bis in die umliegenden Ortschaften. Als Einsatzorte nennt der Betrieb Stadtteile wie Nordstadt, Südstadt, Vahrenwald, Oststadt, Linden, Bothfeld, Herrenhausen und Stöcken. Neben der Not-Türöffnung gehören der Schlosswechsel, das Öffnen von Fahrzeugtüren und die Anfertigung von Schlüsseln zum Angebot. Außerdem berät das Team zum Einbruchschutz und installiert auf Wunsch einbruchhemmende Systeme sowie Zusatzsicherungen für Türen und Fenster. Nach eigener Angabe ist der Betrieb rund um die Uhr erreichbar und meist in weniger als 30 Minuten vor Ort. Die Anfahrt berechnet er nicht, und den Preis für die Türöffnung nennt er vorab. Nach der Türöffnung gibt es immer eine Quittung. Auch defekte Schlösser und Zylinder übernimmt das Team, wobei es ausschließlich Material nach eigenen Qualitätsstandards vorsieht.",
+    "trace": {
+      "autoschluessel": "Fahrzeugtüren"
+    }
+  },
+  {
+    "slug": "schluesseldienst-hannover-hannover",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "true",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Rund um die Uhr fahren die Monteure dieses Hannoveraner Schlüsseldienstes durch die Stadt und das Umland, um Türen zu öffnen und Schlösser zu wechseln. Der Betrieb gibt an, auch an Wochenenden und Feiertagen im Einsatz zu sein und bei der Türöffnung stumpfe Gewalt zu vermeiden, damit die Tür danach normal weiter nutzbar bleibt. Zum Angebot zählen außerdem Gleichschließanlagen und Zentralschließanlagen, deren Aufbau und Konfiguration der Betrieb ausführlich erklärt, dazu smarte Türschlösser für Neubauten und als Nachrüstung sowie Tür- und Hausprechanlagen. Einbruchschutz bildet einen eigenen Schwerpunkt. Der Betrieb nennt den Preis für die Türöffnung vorab, mit enthaltener Mehrwertsteuer und Anfahrt, und die Anfahrt ist kostenlos. Als Einsatzorte führt er zahlreiche Stadtbezirke von Hannover Mitte bis Herrenhausen-Stöcken auf. Die Monteure sind nach seiner Angabe gut ausgebildet und erfahren, sodass Schäden an Tür und Schloss möglichst ausbleiben.",
+    "trace": {
+      "elektronische_schliesssysteme": "smarten Türschlössern für Neubauten und als Nachrüstung"
+    }
+  },
+  {
+    "slug": "schluessel-notdienst-hannover-hannover",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Als mobiler Schlüsselnotdienst arbeitet Schlüssel-Notdienst Hannover rund um die Uhr in der Stadt, der Region und im Umland. Der Schwerpunkt liegt auf Türöffnungen aller Art. Hinzu kommen Instandsetzungen und Montage rund um Haus- und Wohnsicherheit, Türsicherheit, Einbruchschutz und Diebstahlschutz sowie Schließanlagen mit Zylindern. Der Betrieb fertigt außerdem Gitter und Metalltüren an und repariert und bessert Alu- und Metalltüren aus. Nach eigener Angabe setzt er hochwertige Markenqualität ein und stellt seinen Dienst als Konzept ohne versteckte Kosten dar. Bei einer lebensbedrohlichen Situation verweist er zuerst auf Rettungsdienst und Polizei, auf Wunsch kommt er auch gemeinsam mit der Polizei. Als Einsatzgebiet nennt er Hannover, die Region und das Umland, jeweils im 24-Stunden-Service. Der Dienst fährt als mobiler Schlüsselnotdienst direkt zu den Kunden, und der Betrieb beruft sich auf langjähriges Fachwissen.",
+    "trace": {
+      "festpreis_genannt": "48€ Schlüsseldienst Hannover"
+    }
+  },
+  {
+    "slug": "hannover-calenberger-schluesseldienst-24-7-hannover",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "In Hannover zu Hause beschreibt sich der Calenberger Schlüsseldienst, der rund um die Uhr, auch am Wochenende und an Feiertagen, Notöffnungen übernimmt. Türen, Autos, Garagen und Tresore öffnet er nach eigener Angabe beschädigungsfrei. Beim Auto reicht das Angebot vom Fertigen von Ersatzschlüsseln über die Programmierung für alle Marken bis zu Wegfahrsperren. Bei den Sicherheitslösungen stehen Schließanlagen, Einbruchschutz, Zusatzsicherungen und elektronische Schließsysteme im Mittelpunkt, und defekte Zylinder ersetzt das Team direkt vor Ort durch Modelle führender Hersteller. Für Firmenkunden und Hausverwaltungen bietet der Betrieb Rahmenvereinbarungen mit festen Ansprechpartnern, auch für Fahrzeugschlüssel in größeren Stückzahlen. Er unterhält eine Werkstatt und ein Ladengeschäft in der Stadt und nennt die Preise bereits im ersten Gespräch verbindlich, ohne Wochenendaufschläge. Die Monteure sind in der Regel innerhalb von 30 Minuten vor Ort, und Stadtteile wie Oststadt, Linden, Limmer und Mühlenberg zählen zu den Einsatzgebieten."
+  },
+  {
+    "slug": "isk-schluesseldienst-hannover-hannover",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Meist nach etwa 25 Minuten steht ein Monteur von ISK Schlüsseldienst vor der Tür, wenn in Hannover jemand ausgesperrt ist. Der Betrieb gibt an, seit über fünf Jahren in der Stadt aktiv zu sein, Monteure im gesamten Stadtgebiet zu steuern und auch in Orten wie Laatzen, Ronnenberg, Seelze, Hemmingen, Lehrte oder Burgdorf zu arbeiten. Geöffnet wird vorsichtig und ohne Beschädigung, danach prüfen die Monteure Beschläge, Mehrfachverriegelungen und Dichtungen. Auf den Servicefahrzeugen liegen Profilzylinder, Knaufzylinder und Schließbleche, sodass nach einem Einbruch oder Mieterwechsel Schlösser sofort getauscht werden können. Rund um die Uhr ist der Betrieb erreichbar, auch sonntags und an Feiertagen, und er nennt den verbindlichen Betrag vor dem Einsatz schriftlich, ohne Aufschläge für Nacht oder Wochenende. Nach der Öffnung prüft er Ausweis und Bezug zur Adresse."
+  },
+  {
+    "slug": "kirchroeder-schluesseldienst-hannover",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Auf eine möglichst materialschonende Öffnung legt der Kirchröder Schlüsseldienst in Hannover Wert und setzt Spezialwerkzeug ein, um auch hartnäckige Türen zu öffnen. Der Betrieb ist nach eigener Angabe in Hannover und im Umland rund um die Uhr erreichbar und öffnet neben Wohnungstüren auch Kraftfahrzeuge. Zum Schlüsseldienst gehört das schnelle und genaue Anfertigen von Ersatzschlüsseln. Als Sicherheitstechnik bietet er Sicherheitszylinder, Schließanlagen, Panzerriegel, Zusatzsicherungen für Türen und Fenster sowie Alarmanlagen an, dazu ein kostenloses, auf den Bedarf zugeschnittenes Sicherheitskonzept mit Markenprodukten. Außerdem fertigt er Gravuren und Schilder. Für den Schlüsselnotdienst rechnet der Betrieb einen Pauschalpreis ab, der nicht von den nötigen Arbeitsschritten und Materialien abhängt. Eine Hotline nimmt Notöffnungen von Türen und Kraftfahrzeugen entgegen, und der Betrieb arbeitet unter dem Namen seines Inhabers Stavros Kefalas.",
+    "trace": {
+      "tueroeffnung": "Notöffnung Ihrer Tür",
+      "autoschluessel": "Notöffnungen Ihrer Türen und Kraftfahrzeuge"
+    }
+  },
+  {
+    "slug": "city-locksmiths-hannover-gmbh-hannover",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "City Locksmiths Hannover GmbH ist ein Betrieb der Branche Schlüsseldienst mit Sitz in Hannover und firmiert als Gesellschaft mit beschränkter Haftung. Feste Öffnungszeiten sind für den Betrieb hinterlegt. Der Name führt den Stadtbezug Hannover bereits in der Firma, und als Gewerk ist der Schlüsseldienst angegeben. Damit gehört der Betrieb zu den Schlüsseldiensten, die ihren Sitz in der Stadt selbst haben."
+  },
+  {
+    "slug": "haus-fuer-sicherheit-kuehn-sicherheit-gmbh-hannover",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Als Niederlassung der KÜHN Sicherheit GmbH tritt das Haus für Sicherheit in Hannover als Fachgeschäft für Sicherheitstechnik auf. Seit über 50 Jahren steht das Unternehmen nach eigener Angabe für Sicherheit im privaten und gewerblichen Bereich. Das Sortiment umfasst Fenster- und Türensicherungen, Zusatzschlösser, Schlösser und Beschläge, mechanische und elektronische Schließanlagen, Elektronikzylinder und Tresore, dazu Alarmanlagen, Videoüberwachung, Briefkastenanlagen und Brandschutztechnik. Auch einen Wach- und Sicherheitsdienst führt der Betrieb im Angebot. Schließanlagen plant und errichtet er nach Bedarf, auf Wunsch mit Not- und Gefahrenfunktion und Anbohrschutz. Beraten wird auf Wunsch bei den Kunden vor Ort, ein Vor-Ort-Termin lässt sich buchen. Ein Schlüssel-Notdienst gehört ebenfalls zum Leistungsangebot. Als Grundsatz nennt der Betrieb, dass rechtzeitige Planung zusätzliche Kosten spart und dass ein Zusatzschloss Einbrüche verhindern kann.",
+    "trace": {
+      "gewerblich_objektbetreuung": "Sicherheit im privaten und gewerblichen Bereich"
+    }
+  },
+  {
+    "slug": "schluessel-und-gravur-express-hannover-hannover",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Schlüssel, Gravuren und Stempel unter einem Dach: Der Fachbetrieb Schlüssel und Gravur Express liegt zentral in Bahnhofsnähe in der Passerelle in Hannover. Beim Schlüsselservice fertigt er Standardschlüssel, Zweitschlüssel und Sicherheitsschlüssel mit Sicherungskarte an, dazu Autoschlüssel und Spezialschlüssel wie Tresorschlüssel oder Schlüssel für Briefkästen und Vorhängeschlösser. Im Sortiment stehen Türschlösser und Schließzylinder namhafter Hersteller, darunter Wendeschlüsselzylinder und elektronische Schließzylinder, die sich in bestehende Schließanlagen einfügen lassen. Daneben gravieren die Mitarbeiter Schilder, Schmuck, Pokale und Geschenke und stellen Stempel her, vom Holzstempel bis zum selbstfärbenden Modell. Der Betrieb besteht nach eigener Angabe seit über 15 Jahren und bietet einen Express-Service, bei dem Schlüsselkopien während eines Einkaufsbummels entstehen. Kunden kommen aus Stadtteilen wie List, Linden, Südstadt, Vahrenwald und Bothfeld, und feste Öffnungszeiten sind für den Laden hinterlegt."
+  },
+  {
+    "slug": "schluesseldienst-berardinelli-hannover",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Schuhreparatur und Schlüsseldienst unter einem Dach: Berardinelli in Hannover ist nach eigener Angabe seit 45 Jahren tätig. Das Angebot reicht von Schuhreparaturen über Messer- und Scherenschleifen und den Batteriewechsel in Uhren bis zu Gravuren. Dazu kommen der Schlüsseldienst mit einem Notdienst und die Spezialanfertigung von Schließanlagen. Der Betrieb verbindet damit mehrere Handwerke, die Kunden in der Stadt für den Alltag brauchen."
+  },
+  {
+    "slug": "martin-seffers-sicherheitstechnik-service-hannover",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Inhabergeführt und seit über zehn Jahren im Geschäft: Martin Seffers Sicherheitstechnik & Service arbeitet als Schlüsseldienst im Hannoveraner Stadtteil Misburg und im Umland. Der Betrieb öffnet zugefallene Türen und hilft bei abgebrochenen oder verlorenen Schlüsseln, dazu bietet er einen Schlossnotdienst. Nach eigener Angabe sind die Mitarbeiter 24 Stunden täglich ansprechbar. Die Preise für die Türöffnung sind nach Tageszeit gestaffelt, etwa tagsüber, spät, nachts, sonntags und feiertags, und der Betrieb nennt sie als feste Beträge ohne versteckte Kosten. Neben dem klassischen Schlüsseldienst vermittelt er mit Partnern weitere Sicherheitstechnik. Bei außergewöhnlicher Witterung oder höherer Gewalt weist er auf deutlich längere Anfahrtszeiten hin. Er versteht sich als Dienstleister für Sicherheitstechnik und will Menschen in Notsituationen persönlich, nah und kompetent helfen, nach eigener Aussage mit Leidenschaft und Engagement."
+  },
+  {
+    "slug": "schluesseldienst-baete-schluessel-baete-hannover",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Seit 1965 führt Schlüssel Bäte in Hannover ein Fachgeschäft für Schlüssel und Sicherheitssysteme mit eigenem Ladengeschäft. Zum Angebot zählen der Schlüsseldienst mit Türöffnung, der Austausch des Schlosses, falls eine Reparatur nicht reicht, und Ersatzschlüssel aus bruchfesten Materialien wie Messing oder Eisen für befugte Personen. Der Betrieb berät zu neuen Schließanlagen und führt Marken-Schließanlagen, mechanische und elektronische Zutrittskontrollsysteme, Wohnungs- und Hausabsicherungen sowie Alarmanlagen und Briefkastenanlagen. Einen Schwerpunkt bilden Tresore, zu denen er berät und die er verkauft. Für Hausverwaltungen übernimmt er die Betreuung, und für die Stadt und Region Hannover besteht ein Notdienst rund um die Uhr. Zum Leistungsspektrum zählen außerdem Schließ-, Schloss- und Funktionstechnik, Projektierung, Kundendienst und Sicherheitsberatung, auch im Großhandel. Nach Möglichkeit öffnet der Betrieb so, dass kein neues Schloss samt Schlüsselsatz nötig wird."
+  },
+  {
+    "slug": "hartlieb-sicherheitssysteme-katrin-buehler-knapp-e-k-hannover",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Seit 1958 ist hartlieb Sicherheitssysteme in Hannover tätig und hat sich auf das Planen, Fertigen und Montieren von mechanischen und mechatronischen Schließsystemen spezialisiert. Das Unternehmen führt Produkte namhafter Hersteller, darunter Keso und Assa Abloy, und zeigt sie in einer Ausstellung, die Kunden besuchen können. Im Programm stehen Schließsysteme wie Keso 8000, Smart Air und Keso Integra. Ein eigener Bereich widmet sich dem Einbruchschutz mit Zusatzsicherungen, einem Sicherheits-Check und einem Montageservice. Zur Beratung gehören Hinweise, wie sich Einbrüche durch passende Sicherungstechnik verhindern lassen. Als eingetragener Kaufmann wird der Betrieb von Katrin Bühler-Knapp geführt. Nach eigener Angabe hat er seine Kompetenz bereits mehrfach mit Referenzprojekten unter Beweis gestellt, und für die Ausstellung sind feste Öffnungszeiten hinterlegt. Nach Ansicht des Betriebs lassen sich viele Einbrüche durch richtiges Verhalten, passende Sicherungstechnik und aufmerksame Nachbarn verhindern.",
+    "trace": {
+      "elektronische_schliesssysteme": "mechatronischen Schließsystemen"
+    }
+  },
+  {
+    "slug": "hanokey-schluesseldienst-hannover",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "true",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Als Schlüsseldienst für die Region Hannover tritt HanoKey auf und betreibt nach eigener Angabe einen Schlüsselnotdienst, der an 365 Tagen im Jahr rund um die Uhr in Hannover und Umgebung zur Verfügung steht. Die Monteure zeichnen sich nach dem Betrieb durch eine sehr kurze Anfahrtszeit aus, und es fallen keine versteckten Kosten an. Der Betrieb stellt sich als Notdienst mit Einsatzfahrten in der Region vor, bei dem schnelle Hilfe im Mittelpunkt steht. Der Einsatzschwerpunkt liegt damit auf Ausgesperrten und Schlüsselnotfällen, die kurzfristig Hilfe brauchen, in der Stadt wie im Umland."
+  },
+  {
+    "slug": "locktec-schluesseldienst-bothfeld-hannover",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Von Bothfeld aus fährt LockTec Schlüsseldienst als mobiler Schlüsseldienst durch Hannover und die Umgebung, nach eigener Angabe rund um die Uhr und an 365 Tagen im Jahr. Der Betrieb nennt Einsatzzeiten von 15 bis 30 Minuten und verweist auf 25 Jahre Erfahrung in Sicherheitstechnik und Einbruchschutz. Zu den Leistungen zählen die schonende Türöffnung, Kellertür- und Zimmertüröffnung, Autoöffnung, Briefkastenöffnung und Tresoröffnung sowie der Schlosswechsel mit Sicherheitsschlössern. Hinzu kommen Schlüsselkopien, Wartung und Installation von Schließanlagen, die RB Locks genannten Schließsysteme, Digitalzylinder und elektronische Zutrittskontrollen. Das Angebot reicht bis zu Alarmanlagen, Videoüberwachung und kostenloser Sicherheitsberatung, für Privatkunden und Gewerbe. Der Preis steht nach Angabe des Betriebs vor dem Einsatz fest. Bei Schließanlagen mit Sicherungskarte weist der Betrieb darauf hin, dass Schlüssel nur gegen Vorlage der Karte nachgemacht werden dürfen, was besonders Mehrfamilienhäuser betrifft.",
+    "trace": {
+      "gewerblich_objektbetreuung": "Schließanlagen für Gewerbe & Privat"
+    }
+  },
+  {
+    "slug": "schuhe-und-schluessel-dienst-hannover",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Schuhreparatur steht beim Schuhe und Schlüssel Dienst in Hannover im Vordergrund: Der Betrieb setzt Nieten und Ösen, wechselt Reißverschlüsse an Schuhen und übernimmt Schleifarbeiten. Dazu kommen der Batteriewechsel bei Uhren sowie Lederwaren wie Portemonnaies und Schlüsseltaschen aus Leder. Das Handwerk des Betriebs liegt damit bei Schuhen, Leder und Uhren. Feste Öffnungszeiten sind hinterlegt."
+  },
+  {
+    "slug": "schluesseldienst-express-schuhreparatur-hannover",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Schuhreparatur, Uhrenbatterien und Gravuren prägen den Betrieb Schlüsseldienst Express Schuhreparatur in Hannover. Er wechselt Batterien in Uhren und graviert Klingelschilder und Briefkastenschilder. Der Name verbindet die Schuhreparatur mit dem Schlüsseldienst, als Handwerk stehen jedoch die Arbeit an Schuhen, Uhren und Schildern im Vordergrund. Feste Öffnungszeiten sind für den Betrieb hinterlegt."
+  },
+  {
+    "slug": "schluesseldienst-suedstadt-hannover",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Im Stadtteil Südstadt von Hannover arbeitet der Schlüsseldienst Südstadt und beschreibt sich als lokaler Ansprechpartner für beschädigungsarme Türöffnungen. Er hilft bei zugefallener Tür, verlorenem Schlüssel, defektem Schloss und akutem Schlüsselnotfall, wechselt Schlösser und Zylinder, repariert Schlösser und berät zum Einbruchschutz. Das Einsatzgebiet umfasst Südstadt, Bult, Döhren, Mitte und Kleefeld sowie die Gegend um Maschsee, Hildesheimer Straße und Aegidientorplatz. Nach eigener Angabe legt der Betrieb Wert auf transparente Kommunikation und schnelle Hilfe vor Ort."
+  },
+  {
+    "slug": "lagershausen-sicherheitstechnik-hannover",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "true",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Seit 1986 arbeitet Lagershausen Sicherheitstechnik von derselben Adresse in der List in Hannover aus, nach eigener Angabe ohne Callcenter und ohne wechselnde Rufnummer. Der Betrieb öffnet zugefallene Türen ohne Schaden, tauscht Zylinder am selben Termin und ist rund um die Uhr erreichbar, auch sonntags und an Feiertagen. Zum Angebot zählen Einbruchschutz, mechanische, mechatronische und elektronische Schließanlagen, Autoöffnung und Tresoröffnung sowie Zutrittskontrolle, Hallentore und Panikverschlüsse für Betriebe, Wohnanlagen und Verwaltungen. Einsätze führt er in Hannover, in vielen Stadtteilen und in der Region durch, etwa in Garbsen, Langenhagen, Wunstorf, Laatzen und Lehrte. Die Beträge für Türöffnung und Schlosswechsel nennt er vorab, inklusive Anfahrt und Mehrwertsteuer, ohne Zuschläge für Etage, Wochenende oder Dauer. Er arbeitet seit rund 40 Jahren in diesem Gewerbe und führt Gruppen und öffentliche Stellen als Auftraggeber an, ohne einzelne Objekte oder Aufträge zu nennen."
+  },
+  {
+    "slug": "autoschluesseldienst-hannover-hannover",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "true",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Den Autoschlüssel stellt der Autoschlüsseldienst Hannover in den Mittelpunkt. Der Betrieb ersetzt verlorene, gebrochene oder abgenutzte Schlüssel, kopiert und programmiert sie und repariert sie für alle Marken und Modelle. Auch eine Notöffnung gehört zum Angebot, und selbst in Notfällen ist der Betrieb nach eigener Angabe rund um die Uhr erreichbar. Daneben bietet er Codierungen an: die Codierung von Nachrüstungen, die Codierung nach Import, beliebte Codierungen wie Video in Motion und die Reparatur des Fußraummoduls. Über einen Onlineshop lassen sich Produkte bestellen. Als Qualitätsanspruch nennt der Betrieb eine schadenfreie und sichere Lösung für den Autoschlüssel, getragen von moderner Ausrüstung. Mit neuesten Methoden will der Betrieb die beste Lösung für das jeweilige Fahrzeug finden, vom Ersatzschlüssel bis zur Fahrzeugcodierung. Der Fokus liegt nach eigener Angabe auf Qualität und Kundenzufriedenheit."
+  },
+  {
+    "slug": "bremer-key-center-bremen",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "true",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Notöffnungen von Türen zum festen Inklusivpreis stehen im Mittelpunkt des Bremer Key Center. Der Betrieb sitzt in Bremen, hat Zweigstellen und fährt täglich, auch am Wochenende, in alle Stadtteile und das Umland, ohne Anfahrtskosten, Monteurslöhne oder Wochenendaufschläge. Die Notöffnung ist nach Tageszeit innerhalb und außerhalb der Öffnungszeiten gestaffelt. Das Sortiment umfasst Kopien und Neuanfertigungen aller Schlüsselarten, auch für Autos und Tresore, Schlüssel mit Sicherungskarte, Schließanlagen in Normal- oder Eigenprofil, elektronische Zutrittskontrolle, Briefkästen und Briefkastenanlagen, Alarmanlagen und Videoüberwachung. Beratung zu Einbruchschutz sowie Tür- und Fenstersicherung bietet er vor Ort an. Tresore öffnet der Betrieb je nach Modell und Aufwand. Schäden an Türen und Fenstern will er so gering wie möglich halten. Schlüssel und Zylinder mit Sicherungskarte bestellt er bei den Herstellern, die Lieferzeit beträgt etwa 14 Tage.",
+    "trace": {
+      "ladengeschaeft": "Öffnungszeiten Mo.-Fr. 9:30-18 Uhr"
+    }
+  },
+  {
+    "slug": "schluesseldienst-edu-bremen",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Seit dem Jahr 2000 arbeitet Schlüsseldienst Edu in Bremen und beschreibt sich als unabhängiger, lokal geführter Partner für Schlüssel und Sicherheit. Der Betrieb öffnet Wohnungen, Häuser und Autos zerstörungsfrei, wechselt und repariert Schlösser, auch in Neubauten mit komplexen Sicherheitsbeschlägen, und programmiert, kopiert und repariert Autoschlüssel. Dazu kommt Beratung zum mechanischen Einbruchschutz. Im Ladengeschäft in Osterholz entstehen Schlüsselkopien, Gravuren auf Metall, Holz, Glas und Leder sowie Schuhreparaturen. Der Notruf ist nach eigener Angabe rund um die Uhr besetzt, auch nachts und an Feiertagen. Einsatzgebiete sind unter anderem Osterholz, Vahr, Mahndorf und die Überseestadt. Den Preis für die Türöffnung nennt der Betrieb vorab. Er versteht sich nicht als anonyme Internetfirma, sondern betreibt ein reales Fachgeschäft in der Nähe der Kunden, und die Verkehrsanbindung über die Hafenrandstraße verkürzt die Anfahrten."
+  },
+  {
+    "slug": "obi-bremen-nord-bremen",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "OBI Markt Bremen-Nord ist ein Baumarkt für Heim- und Handwerker, der Markenprodukte rund um Bad, Küche und Garten führt. Im Zentrum stehen Baustoffe, Eisenwaren und Werkzeuge, zu denen die Mitarbeiter im Markt beraten. Bestellte Ware lässt sich im Markt abholen, und eine Montage kann beauftragt werden. Das Sortiment deckt Renovierung, Gartengestaltung und Heimwerkerprojekte ab."
+  }
+]

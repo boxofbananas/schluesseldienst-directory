@@ -1,0 +1,730 @@
+[
+ {
+  "slug": "hoto-schuhreparatur-schluesseldienst-inh-mario-sinske-erfurt",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Seit der Gründung im Jahr 1960 steht dieser Erfurter Betrieb in erster Linie für Schuhreparatur. Im Mittelpunkt stehen Absätze, Sohlen, Reißverschlüsse und Näharbeiten an Damen-, Herren-, Kinder-, Arbeits- und Wanderschuhen. Für die einzelnen Reparaturen gelten Blockpreise, im Geschäft liegt eine Preisliste mit rund 50 Positionen aus. Neben der Online-Schuhreparatur gibt es ein Logistikcenter für Großkunden, und auch Zubehör und Pflegemittel gehören zum Sortiment. Weitere Fachabteilungen übernehmen Gravuren und Stempel sowie den Uhrenservice. Der Schlüsseldienst bildet einen Teilbereich neben dem Schuhmacherhandwerk: Die Fachabteilung für Schlüsselanfertigung und Sicherheitstechnik hält ein großes Sortiment an Schlüsselrohlingen bereit und ist auch für neue Zylinder- und Vorhängeschlösser zuständig. Neben dem Standort in Erfurt gibt es Filialen in Eisenach und Gotha. Inhaber ist Mario Sinske. Die Seite führt zudem Neuigkeiten zum Betrieb."
+ },
+ {
+  "slug": "dienstleistungshaus-oberlaender-erfurt",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Das Dienstleistungshaus von Thomas Oberländer in Erfurt vereint mehrere Handwerke unter einem Dach. Den größten Raum nehmen die Reparatur von Schuhen und Taschen sowie Änderungen und Reinigung von Kleidung ein, auch Koffer und Lederbekleidung werden instand gesetzt. Dazu kommen Gravuren und Stempel, Messer- und Scherenschleifen sowie die Schlüsselanfertigung. Mit der Fenster- und Türensicherung gehört außerdem mechanischer Einbruchschutz zum Angebot. Eine eigene Seite zur Firmenphilosophie stellt die Arbeitsweise vor, und für die Reparaturen gilt die gesetzliche Gewährleistung. Der Betrieb versteht sich als Dienstleistungshaus mit breitem Handwerksspektrum, das über das Schuhmacherhandwerk hinausgeht."
+ },
+ {
+  "slug": "koenig-sicherheitstechnik-gmbh-erfurt",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Die Firmengeschichte begann 1977 mit dem Anfertigen von Schlüsseln, nach der Wende 1991 folgte die Gründung der König Sicherheitstechnik in Erfurt. Seither erweiterte sich das Angebot um mechanische Schließanlagen, Beschläge, Briefkastenanlagen und Tresore, die der Betrieb liefert und installiert. Inzwischen entstehen vermehrt elektronische Schließanlagen für Unternehmen, Firmengebäude und Fabrikanlagen, ebenso Zutrittskontrolle, Fluchtwegsteuerungen und Hotelschließanlagen. Auch auf Smart-Homes und angebundene Sicherheitssysteme sieht sich der Betrieb vorbereitet. Im Ladengeschäft auf der Leipziger Straße werden Schlüssel nachgefertigt, darunter Autoschlüssel, Profilzylinder und Tresorschlüssel; Schlüssel von Schließanlagen bestellt der Betrieb bei Bedarf gegen Vorlage der Sicherungskarte beim Hersteller nach. Zugefallene Türen öffnet er tagsüber auch außerhalb der Öffnungszeiten, an Wochenenden und Feiertagen übernimmt ein Notdienst diese Aufgabe. Die Montage übernimmt ein eigener Montageservice mit Fachpersonal.",
+  "trace": {
+   "schluesseldienst_kern": "Öffnung zugefallener Türen",
+   "tueroeffnung": "Öffnung zugefallener Türen",
+   "gewerblich_objektbetreuung": "elektronische Schließanlagen in Unternehmen, Firmengebäuden und Fabrikanlagen"
+  }
+ },
+ {
+  "slug": "gebaeudeservice-nauendorff-erfurt",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Hausmeisterservice, Gartenpflege, Garten- und Landschaftsbau, Glas- und Gebäudereinigung, Terrassenreinigung und Entrümpelung bilden das Kerngeschäft dieses Erfurter Betriebs, der sich an private Eigentümer, Hausverwaltungen und Gewerbekunden richtet. Dazu kommen Winter- und Streudienst, Mülltonnen-Service, Kleinreparaturen, Wartung und Objektbetreuung für Verwaltungen. Hinzu kommt ein Notdienst rund um die Uhr, der Wasserschäden absichert, Sturm- und Hagelschäden behandelt, Scheiben notverglast und Heizungsausfälle auffängt. Zu diesem Notdienst gehören auch Türöffnungen und der Einbau eines Notschlosses, bei defekten Schließanlagen in Mehrfamilienhäusern rückt der Betrieb ebenfalls aus. Die Einsatzzeit liegt nach eigener Angabe im Großraum Erfurt unter 60 Minuten. Der Betrieb arbeitet mit eigenem Team, nennt feste Preise und beantwortet Anfragen innerhalb von 24 Stunden. Hinzu kommen Möbel- und Küchenaufbau, Fußbodenverlegung, Malerarbeiten und kleine Klempnerarbeiten. Auch Glasreinigung und die Instandhaltung von Gebäuden und Außenanlagen sind Teil des Angebots."
+ },
+ {
+  "slug": "schluesseldienst-aks-paderborn",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Als Schlüsselnotdienst mit Rund-um-die-Uhr-Erreichbarkeit arbeitet AKS in Paderborn und den umliegenden Stadtteilen wie Elsen, Sennelager, Schloß Neuhaus und Wewer. Zum Einsatzgebiet zählen daneben Orte wie Altenbeken, Bad Lippspringe, Büren, Delbrück, Hövelhof, Lichtenau und Lippstadt. Zugefallene und abgeschlossene Türen öffnet der Betrieb nach eigener Angabe in den meisten Fällen ohne Beschädigung, auch am Wochenende. Daneben tauscht er kaputte oder veraltete Schlösser aus, berät zu Einbruchschutz und plant Schließanlagen für Privat- und Geschäftskunden. Die Sicherheitsberatung findet auch zu Hause statt. Im Fahrzeugbereich fertigt er Ersatzschlüssel mit Codierung und Funkfernbedienung nach Termin und kopiert Haus- und Wohnungsschlüssel vor Ort. Die Preise nennt der Betrieb als feste Beträge ohne verborgene Kosten. Er verweist auf mehr als zehn Jahre Erfahrung. Der Betrieb beschreibt seine Standorte in Paderborn und beantwortet häufig gestellte Fragen auf der Seite.",
+  "trace": {
+   "gewerblich_objektbetreuung": "robuste Schließanlage für gewerbliche Räume"
+  }
+ },
+ {
+  "slug": "muehlenbeck-schluesseldienst-paderborn",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Bekannt ist der Paderborner Betrieb nach eigener Angabe vor allem für gewaltfreie Türöffnungen, zu denen auch Fensteröffnungen und Tresoröffnungen zählen. Der Schlossnotdienst ist rund um die Uhr erreichbar, auch nachts, am Wochenende und an Feiertagen, im Umkreis von 30 Kilometern um Paderborn. Außerdem werden Schlösser und Zylinder getauscht und Ersatzschlüssel angefertigt. Im Ladengeschäft führt der Betrieb ein großes Sortiment an Einbruchschutz, darunter abschließbare Fenstergriffe, Fenster- und Türbeschläge und Türspione, dazu Schließanlagen, Sicherheitsbeschläge, Tresore und Videoüberwachung. Nach eigener Angabe bringt der Betrieb über 40 Jahre Erfahrung mit und arbeitet bei Öffnungen mit Justiz und Polizei zusammen. Auf der Seite informiert er außerdem über die Förderung von Einbruchschutz, über Merkmale eines seriösen Schlüsseldienstes und über Messetermine. Zur Seite zählen Hinweise zur Arbeitsweise bei Türöffnungen und zum passenden Einbruchschutz für das Zuhause."
+ },
+ {
+  "slug": "schluesseldienst-menke-gmbh-paderborn",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die Menke GmbH betreibt in Paderborn einen Schlüsseldienst mit 24-Stunden-Notdienst. Der Betrieb öffnet zugesperrte Haustüren, fertigt Schlüsselkopien an und berät zur Sicherheit. Rauchmelder liefert und montiert er ebenfalls. Schlüsselnotdienst, Sicherheitstechnik und Brandschutz zählen zu den Feldern, in denen er nach eigener Angabe seit Jahren Erfahrung sammelt; hinzu kommt die Installation von Schließanlagen.",
+  "trace": {
+   "tueroeffnung": "Öffnung von zugesperrten Haustüren"
+  }
+ },
+ {
+  "slug": "schluesseldienst-schliesstechnik-malinowsky-paderborn",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Malinowsky tritt in Paderborn als Schlüsseldienst und Anbieter von Schließtechnik auf. Schlüssel werden auf Wunsch sofort gefertigt, und auch die Reparatur von Autoschlüsseln gehört zum Angebot. Außerdem entstehen hier biometrische Passbilder für den elektronischen Pass. Die Branchenkategorie ordnet den Betrieb als Schlüsseldienst ein, und mit Passbildservice und Autoschlüsselreparatur reicht sein Angebot über reine Schlüsselarbeiten hinaus.",
+  "trace": {
+   "schluessel_nachmachen": "Schlüsselfertigen Sofort"
+  }
+ },
+ {
+  "slug": "ralf-fiedler-sicherheitstechnik-schluesseldienst-paderborn",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Ralf Fiedler arbeitet als Sicherheitstechniker und Schlüsseldienst im Raum Paderborn und bringt nach eigener Angabe mehr als 15 Jahre Erfahrung mit. Zu den Leistungen zählen Schließanlagen, Türreparaturen und die Notöffnung von Türen. Betreut werden private Hausbesitzer und Mieter ebenso wie Hausverwaltungen, Wohnungseigentümergemeinschaften und Unternehmen. Als Branchenkategorie führt der Betrieb Sicherheitsausrüster, daneben Notdienst für Schlösser und Schlosshandel.",
+  "trace": {
+   "tueroeffnung": "Türnotöffnung"
+  }
+ },
+ {
+  "slug": "loeseke-sohn-gmbh-paderborn",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Als Fachhandel für Eisenwaren, Baubeschläge und Werkzeuge versorgt Löseke & Sohn in Paderborn vor allem Handwerksbetriebe. Das Sortiment umfasst mehr als 8000 Artikel von Arbeitsschutz, Bauchemie und Befestigungstechnik über Fensterbeschläge, Fenstergriffe und Briefkastenanlagen bis zu Schließzylindern. Um Fensterbeschläge und Fensterprofile wuchs es 1970, seit 2004 führt das Unternehmen außerdem digitale Sicherheitstechnik und Schließanlagen, deren Wartung zu den angebotenen Diensten gehört. Langjährige Partnerschaften mit namhaften Herstellern der Beschlagsbranche prägen das Angebot. Weitere Leistungen sind der Zuschnitt von Fensterbänken und Aluminiumprofilen, ein Konfigurator für Fensterbänke, ein Farblackmischservice, die Montage von Briefkastenanlagen, die Abwicklung von Reparaturen und der Versand mit frachtfreier Anlieferung ab einem bestimmten Warenwert. Beratung erfolgt telefonisch, im Ladengeschäft und vor Ort in der Werkstatt oder auf der Baustelle. Für Bauchemie, Beizen und Sonderanwendungen gibt es eigene Sortimentsbereiche."
+ },
+ {
+  "slug": "muenchow-schluesselfachgeschaeft-paderborn",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Münchow führt in Paderborn ein Schlüsselfachgeschäft und tritt im Netz unter dem Namen Schlüsseldienst Münchow auf. Die Seite trägt den Titel Schlüsseldienst Münchow und beschreibt den Betrieb schlicht als den Schlüsseldienst in Paderborn. In der Branchenkategorie ist er als Schlüsseldienst eingeordnet, weitere Unterkategorien sind nicht hinterlegt. Für das Geschäft sind feste Öffnungszeiten angegeben. Zur Seite gehören ein Impressum mit Datenschutzhinweisen und Cookie-Einstellungen. Der Name verbindet Schlüsselfachgeschäft und Schlüsseldienst, und beide Bezeichnungen führt der Betrieb in Paderborn nebeneinander, einmal als Ladengeschäft und einmal im Auftritt im Netz."
+ },
+ {
+  "slug": "obi-markt-wuerzburg-hafen-wuerzburg",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Im Würzburger Hafenviertel liegt einer von drei OBI-Märkten der Stadt, ein Baumarkt mit Sortiment für Bauen, Wohnen, Technik und Garten. Neben Küchenstudio, Badplaner und Gartenplaner gibt es Gartencenter, Mietgeräte und Werkzeugverleih, Holzzuschnitt und Farbmischservice. Beratung mit Montage wird für Solaranlagen, Terrassenüberdachungen und Wärmepumpen angeboten, außerdem ein Container-Mietservice. Als Teil der Marktservices fertigt der Schlüsseldienst des Hauses Schlüssel sofort an, sodass sie direkt mitgenommen werden können. Der Markt bleibt ein Baumarkt, der Schlüsseldienst beschränkt sich auf diese Anfertigung am Standort. Geschenkkarten sind erhältlich.",
+  "trace": {
+   "schluessel_nachmachen": "Für dich sofort angefertigt – direkt zum Mitnehmen",
+   "ladengeschaeft": "Dein OBI Markt Würzburg-Hafen, Paradiesstr. 5"
+  }
+ },
+ {
+  "slug": "obi-markt-wuerzburg-heuchelhof-wuerzburg",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Baumarkt auf dem Heuchelhof gehört zur OBI-Kette und führt Waren aus Bauen, Wohnen, Technik und Garten. Zu den Diensten zählen Gartencenter und Gartenplaner, Mietgeräte und Werkzeugverleih, Holzzuschnitt, Farbmischservice sowie ein Container-Mietservice. Solaranlagen, Terrassenüberdachungen und Wärmepumpen werden mit Beratung und Montage verkauft. In der Servicezone werden Schlüssel sofort angefertigt, und sie gehen direkt mit. Umtausch ist innerhalb von drei Monaten möglich, Geschenkkarten sind erhältlich. Die Seite des Markts führt Neuigkeiten, Angebote und einen Bereich für Profis, außerdem lässt sich ein Termin vereinbaren.",
+  "trace": {
+   "schluessel_nachmachen": "Für dich sofort angefertigt – direkt zum Mitnehmen",
+   "ladengeschaeft": "Dein OBI Markt Würzburg-Heuchelhof, Ossietzkystr. 12"
+  }
+ },
+ {
+  "slug": "schwarz-gmbh-co-kg-wuerzburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Ein Mobilitätspartner mit Sitz in Würzburg: Die Schwarz GmbH & Co. KG schleppt ab, birgt Unfallfahrzeuge, transportiert Fahrzeuge bis hin zur Schwerlastbergung und leistet Pannen- und Starthilfe. Dazu kommen Autovermietung für Pkw und Transporter, Unfallersatzwagen, Reifendienst, Notreparatur sowie Ölspurbeseitigung, Verkehrsflächenreinigung und Erdreichsanierung. Zum Angebot zählt ein 24-Stunden-Schlüsseldienst für Fahrzeuge: Wer den Schlüssel im Auto eingeschlossen hat, bekommt das Fahrzeug nach Angabe des Betriebs schonend und ohne Kratzer geöffnet. Der Notdienst läuft rund um die Uhr, das Büro ist werktags besetzt. Auch Verkehrsabsicherung und die Meldung von Falschparkern auf Privatparkplätzen und zugeparkten Einfahrten gehören dazu, hier bedient der Betrieb Eigentümer und Hausverwaltungen. Filialen bestehen neben Würzburg in Schweinfurt, Kitzingen, Kürnach, Bad Mergentheim und Hanau. Die Autovermietung leitet Marco Kolloch, der auch als Ansprechpartner genannt wird.",
+  "trace": {
+   "autoschluessel": "Wir öffnen Ihr Fahrzeug schonend und präzise"
+  }
+ },
+ {
+  "slug": "obi-markt-wuerzburg-lengfeld-wuerzburg",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Lengfeld im Norden von Würzburg hat einen eigenen OBI-Markt mit Sortiment für Bauen, Wohnen, Technik und Garten. Angeboten werden Gartencenter, Mietgeräte und Werkzeugverleih, Holzzuschnitt, Farbmischservice und ein Container-Mietservice. Hinzu kommen Solaranlagen und Wärmepumpen jeweils mit Beratung und Montage. Zum Marktservice zählt auch die Schlüsselanfertigung, die nach Angabe des Markts sofort erledigt wird, damit der Schlüssel gleich mitgenommen werden kann. Neuigkeiten, Angebote und ein Bereich für Profis gehören zur Seite des Markts, und ein Besuch lässt sich per Terminvereinbarung planen. Umtausch ist innerhalb von drei Monaten möglich.",
+  "trace": {
+   "schluessel_nachmachen": "Für dich sofort angefertigt – direkt zum Mitnehmen",
+   "ladengeschaeft": "Dein OBI Markt Würzburg-Lengfeld, Louis-Pasteur-Straße 16"
+  }
+ },
+ {
+  "slug": "autostation-wuerzburg-wuerzburg",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Chiptuning steht bei dieser Würzburger Kfz-Werkstatt im Mittelpunkt: Die Kennfelder werden individuell für das Fahrzeug optimiert, mit dem Ziel von mehr Leistung und Drehmoment bei geringerem Verbrauch. Das Angebot gibt es in Stufen, darunter ein Öko-Tuning für Vielfahrer und Pendler. Außerdem reinigt der Betrieb Partikelfilter, bietet Carbon Cleaning und eine AdBlue-Deaktivierung und führt allgemeinen Kfz-Service für Pkw, Transporter und Lkw aus, darunter Ölwechsel. Als weiteres Angebot gehört der Autoschlüssel-Service dazu, bei dem Schlüssel für alle Marken nachgemacht, gefräst und programmiert werden. Die Seite führt eine Übersicht der Leistungen, Kundenfeedback und den Ablauf der Zusammenarbeit. Es handelt sich um eine Kfz-Werkstatt in der Gattingerstraße. Chiptuning wird für Pkw, Transporter und Lkw angeboten, Anfragen laufen über ein Formular, auf das der Betrieb innerhalb von 24 Stunden mit einem Rückruf antwortet.",
+  "trace": {
+   "ladengeschaeft": "Wir sind Ihre spezialisierte KFZ-Werkstatt in Würzburg"
+  }
+ },
+ {
+  "slug": "schluesseldienst-der-tueroeffner-schluesselmacher-wuerzburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Türöffner ist ein Schlüsselnotdienst für Würzburg und die Umgebung. Der Betrieb öffnet Türen und nennt für diese Einsätze feste Preise, die er auf Anruf bekannt gibt. Das Einsatzgebiet reicht von Würzburg über Ochsenfurt, Kitzingen, Marktheidenfeld, Schweinfurt, Marktbreit, Karlstadt, Giebelstadt, Rottendorf und Gerbrunn bis nach Bad Mergentheim. Als Branchenkategorie führt er Notdienst für Schlösser und Schlüsselkopierservice."
+ },
+ {
+  "slug": "stippel-schluesseldienst-gmbh-wuerzburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "false",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Rechtsnachfolger des früheren Betriebs RS Die Schlüsselmacher ist die Stippel Schlüsseldienst GmbH in Würzburg. Statt eines klassischen Ladengeschäfts mit festen Öffnungszeiten besucht und berät der Betrieb seine Kunden zu Hause oder auf dem Bauprojekt, Bestellungen laufen viel per Anruf oder Nachricht. Das Angebot reicht von der Konfiguration, Lieferung und dem Einbau von Schließanlagen namhafter Hersteller über Briefkastenanlagen jeder Art und Größe bis zu Türschließern an fast allen Türen und fast allen Sicherungseinrichtungen. Seit 2006 gibt es eine kostenlose 24-Stunden-Notfall-Hotline. Die Firmenhistorie führt über eine Namensänderung im Jahr 2013 bis zur heutigen GmbH. Nach eigener Angabe betreut der Betrieb fast alle großen Hausverwaltungen in Würzburg und der näheren Umgebung. Beratungsleistungen, Dienstleistungen und Waren, wie sie von einem klassischen Schlüsseldienst bekannt sind, bietet er ebenfalls an.",
+  "trace": {
+   "einbruchschutz": "Beratung, Lieferung und Einbau von fast allen Sicherungseinrichtunge"
+  }
+ },
+ {
+  "slug": "bezet-beschlaegezentrum-gmbh-co-kg-goettingen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Das BEZET Beschlägezentrum in Göttingen ist ein Fachhandel für Werkzeug und Beschläge. Das Sortiment reicht über Schrauben, Aluminium, Baustoffe und Holzbearbeitungsbedarf bis zu Briefkästen, und Kunden können im Geschäft einkaufen und abholen oder sich beliefern lassen. Der Betrieb nennt einen 24-Stunden-Lieferservice für alle Kunden und führt nach eigener Angabe ausschließlich professionelle Artikel namhafter Hersteller. Die Branchenkategorie ordnet ihn zusätzlich als Schlüsseldienst ein."
+ },
+ {
+  "slug": "schuh-und-schluesseldienst-bernd-schutte-goettingen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schuhreparatur und Schlüsseldienst unter einem Dach: Bernd Schutte führt sein Geschäft im Göttinger KaufPark, in der ehemaligen Post-Filiale, und verweist auf 35 Jahre Berufserfahrung. Türöffnungen führt der Betrieb seit 1995 durch und ist dafür über eine Notfallnummer jederzeit erreichbar. Im Ladengeschäft entstehen Schlüssel mit moderner Maschinentechnik, auch nach Schlüsselcode und Schlüsselnummer, ergänzt durch Schlösser, Beschläge, Türzylinder und Schließanlagen. Neu im Angebot ist das Klonen und Programmieren von Autoschlüsseln. Für einen neuen Kfz-Schlüssel mit Fernbedienung braucht der Betrieb das Fahrzeug, einen funktionierenden Schlüssel und etwa zwei Stunden; einen Großteil der üblichen Wegfahrsperren kann er kopieren, ob ein Fahrzeug betroffen ist, prüft er kostenfrei und unverbindlich. Außerdem gibt es Gravuren mit CNC-Gravieranlage und Stempel. Geöffnet ist montags bis samstags. Aktuelle Angebote des Geschäfts führt die Seite ebenfalls."
+ },
+ {
+  "slug": "lipphardt-metal-gmbh-co-kg-goettingen",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Metallbau ist das Gewerk dieses Göttinger Unternehmens, das seit drei Generationen besteht und sich als Innungsfachbetrieb für den Raum Göttingen versteht. Es entwirft, repariert und montiert Arbeiten aus Metall, Edelstahl und Aluminium für Privat- und Geschäftskunden, darunter Fenster, Türen und Tore, Zäune und Geländer, Bauteile am Gebäude und Anlagen für die Industrie. Service und Reparatur gehören zum Angebot. Zur Sicherheit zählen Konzepte für wirksamen Einbruchschutz bei Neubau, Umbau und Renovierung. Die Arbeit liegt im Metallbau. Ein Blog und eine Auswahl von Projekten auf der Seite zeigen Beispiele der Arbeit."
+ },
+ {
+  "slug": "3d-cleantime-schluesseldienst-tueroeffnung-umzug-fensterreinigung-goettingen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Ein Dienstleister rund ums Haus in Göttingen: Neben dem Schlüsseldienst für ausgesperrte Türen bietet 3D CleanTime Umzüge mit Verpacken, Transport, Möbel- und Küchenmontage sowie Endreinigung an, privat wie für Firmen, dazu kleine Transporte. Das Angebot für einen Umzug richtet sich nach Volumen, Zugangssituation und gewünschten Zusatzleistungen. Weitere Leistungen sind die Reinigung von Wohnungen, Häusern und Büros, Fensterreinigung, Müllentsorgung und Haushaltsauflösungen, Malerarbeiten und Gartenpflege. Gearbeitet wird in Göttingen und bis zu 100 Kilometer in der Umgebung. Die Preise für den Schlüsseldienst werden im Gespräch genannt."
+ },
+ {
+  "slug": "car-key-service-ihr-kfz-schluesseldienst-in-goettingen-goettingen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Fahrzeugschlüssel sind das Thema dieses Göttinger Betriebs, der sich als Kfz-Schlüsseldienst vorstellt. Arbeiten gibt es nur nach telefonischer Terminabsprache. Vorab verlangt der Betrieb Fotos des Schlüssels und der Seiten 2 und 3 des Fahrzeugscheins sowie die Information, ob es sich um einen Keyless-Go-Schlüssel handelt. Zum Termin gehören Ausweis, Fahrzeugschein und alle vorhandenen Schlüssel, bei fremdem Fahrzeughalter außerdem eine Vollmacht samt Ausweis des Besitzers."
+ },
+ {
+  "slug": "stadie-gmbh-goettingen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die Stadie GmbH in Göttingen übernimmt die Projektierung von mechanischen und elektronischen Schließsystemen. Als Baustoff- und Briefkastenlieferant ist der Betrieb in der Branchenkategorie eingeordnet, zusätzlich führt diese ihn als Schlüsseldienst. Die Projektierung betrifft mechanische und elektronische Systeme gleichermaßen. Der Betrieb liefert außerdem Briefkästen und Baustoffe und ist damit zugleich ein Lieferant für den Bau."
+ },
+ {
+  "slug": "festpreis-schluesseldienst-hildesheim-hildesheim",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Ein Einzelunternehmer in Hildesheim hat sich auf eine einzige Arbeit festgelegt: die beschädigungsfreie Öffnung zugefallener Türen. Er öffnet sie mit einfachen Mitteln, auch wenn der Schlüssel von innen steckt, und erreicht damit nach eigener Angabe die große Mehrzahl der Türen. Abgeschlossene Türen und solche mit Doppelfalz übernimmt er nicht. Den Schlüsseldienst führt er als Nebengewerbe, angemeldet, weil ihm die Praktiken mancher Anbieter missfielen, und er verweist darauf, dass Anbieter, die in Suchmaschinen immer ganz oben stehen, mit Misstrauen zu betrachten seien. Die Preise sind vorab bekannt und nach Tageszeit gestaffelt, einschließlich Steuern. Anfahrtsgebühren fallen in Hildesheim nicht an, außerhalb nennt er sie auf Anfrage. Meist ist er nach eigener Angabe nach etwa zwanzig Minuten vor Ort. Für Türöffnungen im Rhein-Erft-Kreis verweist er auf einen anderen Schlüsseldienst."
+ },
+ {
+  "slug": "aps-schluesseldienst-24h-tueroeffnung-schuh-uhrenservice-hildesheim",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Im Kaufland am Römerring in Hildesheim sitzt dieser Schlüsseldienst, der nach eigener Angabe seit über 20 Jahren Privat- und Geschäftskunden bedient. Er öffnet Türen im 24-Stunden-Schlüsselnotdienst, wechselt Schlösser und Zylinder und berät zum Einbruchschutz. Schlüssel werden angefertigt, und für Autos gibt es einen eigenen Schlüsselservice. Neben den Türen kümmert sich der Betrieb um Schuhreparaturen, Gravuren, Batteriewechsel und Uhrenservice. Ein zweiter Standort besteht am HIT-Markt in Ochtersum. Die Preise für die Türöffnung stehen vorab fest.",
+  "trace": {
+   "ladengeschaeft": "Direkt im Kaufland Hildesheim am Römerring bieten wir Privat- und Geschäftskunden schnelle Hilfe"
+  }
+ },
+ {
+  "slug": "haus-fuer-sicherheit-kuehn-sicherheit-gmbh-hildesheim",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Als Niederlassung der KÜHN Sicherheit GmbH führt das Haus für Sicherheit in Hildesheim ein Sicherheitsfachgeschäft für den privaten und gewerblichen Bereich, hinter dem nach eigener Angabe mehr als 50 Jahre Erfahrung stehen. Das Angebot umfasst Fenster- und Türensicherungen, Schlösser und Beschläge, mechanische und elektronische Schließanlagen, Schließzylinder und Elektronik-Zylinder. Außerdem gehören Alarmanlagen, Videoüberwachung, Tresore, Briefkastenanlagen sowie Brandschutz und ein Wach- und Sicherheitsdienst dazu. Ein Schlüsselnotdienst ist rund um die Uhr im Einsatz. Beratung und Planung beginnen mit einem Vor-Ort-Termin, der sich online buchen lässt, und die Zentrale betreibt einen Onlineshop. Die Seite behandelt Zusatzschlösser gegen Einbrüche, rechtzeitige Planung und die Frage, wer welche Türen einer Schließanlage öffnen darf. Das Haus gehört zu einem Netz von über 60 Betrieben in Deutschland. Zum Sortiment gehören auch Werkzeuge und Exklusives.",
+  "trace": {
+   "ladengeschaeft": "ist ein Sicherheitsfachgeschäft der KÜHN Sicherheit GmbH",
+   "gewerblich_objektbetreuung": "Sicherheit im privaten und gewerblichen Bereich"
+  }
+ },
+ {
+  "slug": "schluessel-schloesser-sicherheitsmechanik-d-grzesiak-inh-v-puhl-hildesheim",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Das Fachgeschäft S.S.S Grzesiak unter Inhaberin V. Puhl bedient Hildesheim und das Umland mit einem Notdienst, der an sieben Tagen in der Woche rund um die Uhr telefonisch erreichbar ist und innerhalb Hildesheims schnell vor Ort sein will. Haus- und Wohnungstüren öffnet der Betrieb mit möglichst materialschonender Öffnungsweise, auch Kraftfahrzeuge werden im Notfall geöffnet. Ersatzschlüssel entstehen schnell und präzise, außerdem erarbeitet der Betrieb ohne Kosten ein auf den Kunden zugeschnittenes Sicherheitskonzept; vom Zweitschlüssel bis zu diesem Konzept reicht das Spektrum. Im Verkauf stehen Tür- und Fenstersicherungen, Tresore und auf Bestellung Schlüsselschilder. Das Geschäft hat montags bis freitags und samstagvormittags geöffnet und blickt auf langjährige Erfahrung zurück. Die Seite zeigt außerdem eine Bildergalerie mit einer Auswahl der Leistungen und Produkte sowie den Weg zum Geschäft.",
+  "trace": {
+   "tueroeffnung": "Wir öffnen Haus- und Wohnungstüren",
+   "autoschluessel": "Notöffnungen Ihrer Türen und Kraftfahrzeuge",
+   "ladengeschaeft": "Sie erreichen unser Geschäft und den Notdienst"
+  }
+ },
+ {
+  "slug": "pfennig-glas-schluesseldienst-hildesheim",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Glaserei und Schlüsseldienst teilen sich in Hildesheim einen Betrieb, der nach eigener Angabe auf 30 Jahre Erfahrung zurückblickt. Auf der Glaserseite stehen Fenster, Haustüren, Terrassenüberdachungen, Beschattung, Markisen und Insektenschutz sowie Duschabtrennungen und Glasrückwände. Als Schlüsseldienst öffnet er zugefallene Türen meist zerstörungsfrei, hilft bei Fallen- und Riegelbrüchen und ist als Notdienst täglich rund um die Uhr erreichbar. Die Türöffnung wird zu einem Preis angeboten, der die Anfahrt in Hildesheim einschließt und nach Tageszeit sowie Sonn- und Feiertagen gestaffelt ist. Im Sortiment stehen Schließtechnik der Hersteller BKS, ABUS und WINKHAUS sowie Tresore von Burg Wächter. Beratung zu Schließ- und Sicherheitstechnik gibt es vor Ort und im Shop im Stadtteil Bavenstedt, die Fachberatung läuft täglich auf Anfrage. Fenster, Türen und Sicherheitstechnik bietet der Betrieb aus einer Hand an.",
+  "trace": {
+   "ladengeschaeft": "bei uns im Shop in der Bavenstedter Hauptstraße 10",
+   "anfahrtspauschale_genannt": "Türöffnungs Festpreis inkl. Anfahrt in Hildesheim"
+  }
+ },
+ {
+  "slug": "aps-schluesseldienst-ochtersum-hit-tueroeffnungen-schuh-und-uhrenservice-hildesheim",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Direkt am HIT-Markt in Hildesheim-Ochtersum liegt die zweite Filiale des APS Schlüsseldienstes, die rund um die Uhr für Türöffnungen bereitsteht. Privat- und Geschäftskunden finden hier einen Notdienst, der diskret arbeitet. Wie am Hauptstandort im Kaufland am Römerring kommen Schuhreparaturen, Gravuren, Uhrenservice und weitere Serviceleistungen hinzu. Der Betrieb nennt für die zugefallene Tür einen festen Preis ohne versteckte Kosten und verweist auf mehr als 20 Jahre Erfahrung.",
+  "trace": {
+   "ladengeschaeft": "Zwei Geschäfte im Kaufland & HIT-Markt Ochtersum"
+  }
+ },
+ {
+  "slug": "liebherr-siegfried-kempten",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Seit rund 30 Jahren führt Siegfried Liebherr in Kempten ein Sicherheitsfachgeschäft, das Schlüsseldienst mit Schilder- und Stempelanfertigung verbindet. Schlüssel, Stempel und Schilder entstehen im Haus und sind kurzfristig verfügbar, nur Schlüssel von Schließanlagen sind davon ausgenommen. Das Sortiment umfasst Schlösser, Zylinder, Briefkästen und Tresore, außerdem Gravuren, Lasergravur und Pokale. Beratung, Planung, Montage und Verkauf richten sich an Gewerbe und private Kunden; dazu gehört die Planung und Ausfertigung von Schließanlagen im privaten, gewerblichen und im Objektbereich. Stempel werden zusätzlich über das Portal Stempeldirekt vertrieben, Termine lassen sich online vereinbaren, und eine Auswahl an Referenzen zeigt bisherige Projekte. Das Ladengeschäft hat montags bis freitags geöffnet und verfügt über Kundenparkplätze direkt am Eingang. Das Geschäft stellt Sicherheitslösungen für Gewerbe und für private Kunden vor, dazu Aktuelles, Tipps und weitere Meldungen.",
+  "trace": {
+   "schluessel_nachmachen": "Stempel, Schlüssel (ausgenommen Schließanlagen) und Schilder kurzfristig möglich",
+   "gewerblich_objektbetreuung": "Sicherheitslösungen für Gewerbe"
+  }
+ },
+ {
+  "slug": "schluesselnotdienst-sepp-kempten",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Zugezogene und verschlossene Türen öffnet der Schlüsselnotdienst Sepp in Kempten und Umgebung, und das nach eigener Angabe bereits seit 1995. Der Betrieb arbeitet ohne versteckte Kosten und nennt den Preis in jedem Fall schon im ersten Anruf, bevor der Einsatz beginnt. Das Angebot beschränkt sich auf die Türöffnung, die Arbeit ist als Notdienst ausgerichtet.",
+  "trace": {
+   "festpreis_genannt": "Preis wird immer bereits am Telefon genannt"
+  }
+ },
+ {
+  "slug": "redmer-schluesseldienst-sicherheitstechnik-kempten",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Schließ- und Zutrittssysteme für Hotels, öffentliche Gebäude, Industrieanlagen und Gewerbeeinrichtungen sind das Spezialgebiet dieses Sicherheitsfachbetriebs, der an zwei Standorten in Kempten und Sonthofen arbeitet. Das Angebot reicht von mechanischen Schließanlagen über Mechatronik und Elektronik bis zu Karten- und Smartphone-Schlüsseln, Fingerscan und Remote-Öffnung. Wartungsverträge sollen die Anlagen dauerhaft sicher halten. Hinzu kommen Einbruchschutz, Alarmanlagen, Brandschutz, Tresore, Briefkästen, Schildersysteme, Stempel und die Anfertigung von Schlüsseln, auch ausländischer Fabrikate. Bei Schlüsselsystemen betont der Betrieb Patent-, Marken- und technischen Kopierschutz; es gibt einen Bestellweg im Netz und eine Verlusterklärung für abhandengekommene Schlüssel. Den klassischen Schlüsseldienst deckt der Betrieb nach eigener Angabe ebenfalls ab, auf 200 Quadratmetern in Sonthofen und 400 in Kempten zeigt er seine Auswahl. Der Bereich Lösungen gliedert sich in Karten- und Schließanlagen, Zutrittsysteme mit Fingerscan, Briefkästen, Brandschutz und Tresore.",
+  "trace": {
+   "ladengeschaeft": "400 m² in Kempten finden Sie eine breite Auswahl",
+   "gewerblich_objektbetreuung": "Zutrittssysteme für Hotels, öffentliche Gebäude, Industrieanlagen oder Gewerbeeinrichtungen"
+  }
+ }
+]

@@ -150,9 +150,14 @@ Zwei Stufen, beide sichtbar im Eintrag:
 Die sechs Voraussetzungen, die auf `/festpreis-garantie/` veröffentlicht stehen müssen (sonst
 ist die Garantie angreifbar):
 - vollständiges Impressum auf der eigenen Website
-- erreichbare Festnetz- oder Mobilnummer, die zum Betrieb gehört
+- eine erreichbare **Festnetznummer**, die zum Betrieb gehört und deren Ortsvorwahl zur
+  angegebenen Anschrift passt; eine Mobilnummer als einziger Kontakt genügt nicht
 - die drei Standardpreise verbindlich genannt (Türöffnung tagsüber, nachts, Anfahrt)
-- mindestens 10 Google-Bewertungen bei einem Schnitt von mindestens 4,0
+- liegen mindestens 5 Google-Bewertungen vor, beträgt der Schnitt mindestens 4,0; liegen weniger
+  oder keine vor, entscheiden die übrigen Voraussetzungen (die Garantie sagt etwas über
+  Preissicherheit, nicht über Bekanntheit – eine Mindestzahl an Bewertungen schlösse neue und
+  profillose Betriebe aus, obwohl sie alle inhaltlichen Voraussetzungen erfüllen; der Riegel nach
+  unten bleibt)
 - keine Weiterleitung an ein Callcenter ohne Ortsbezug
 - unterschriebenes Serviceversprechen: der genannte Preis ist der Rechnungspreis, keine
   Zuschläge, die nicht vorher beziffert wurden, Rechnung mit vollständiger Firmenanschrift,
@@ -172,8 +177,18 @@ und darf nicht abgeschaltet werden. Keine Formulierung, die dem Betrieb ohne Gar
 unterstellt.
 
 Stadtkarte: Betriebe mit Garantie zeigen eine Zeile „Festpreis-Garantie · Türöffnung ab
-<garantie_tag> €“. Sortierung bleibt bezahlte Plätze, dann Bewertung; die Garantie verändert
-die Reihenfolge nicht.
+<garantie_tag> €“.
+
+**Sortierung der Einträge auf einer Stadtseite** (Gate 5, `load.mjs`), nach den bezahlten
+Plätzen in dieser Reihenfolge:
+1. bezahlte Plätze (Premium/Top-Platzierung),
+2. Einträge mit Festpreis-Garantie (`geprueft` = `true`),
+3. Einträge mit einer **Festnetznummer, deren Ortsvorwahl zur PLZ passt** (echter Ortsbezug),
+4. alle übrigen.
+Innerhalb jeder Gruppe wie bisher nach Bewertung. Eine Mobilnummer oder eine Nummer, die in
+mehreren Städten vorkommt, zählt **nicht** als Ortsbezug. Die Festpreis-Garantie verändert damit
+die Reihenfolge (anders als zuvor): sie hebt einen Eintrag über die ortsgebundenen und die
+übrigen.
 
 Nachweis auf der Website des Betriebs: HTML-Schnipsel mit Bild `/auszeichnung/<slug>.svg`,
 Text „Festpreis-Garantie 2026“ mit dem Tagespreis, verlinkt auf die Eintragsseite.

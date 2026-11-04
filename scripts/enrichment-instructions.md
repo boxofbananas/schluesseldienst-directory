@@ -89,22 +89,42 @@ Beantworten Sie jeden Schlüssel der Tabelle mit genau einem von `true`, `false`
   und die `true`-Antworten als Fließtext. Sagen Sie nichts über das Unbekannte: das Attributgitter
   der Seite trägt „keine Angabe" für jeden Schlüssel, den Sie nicht beantworten konnten, die
   Beschreibung erzählt also nicht, was die Website nicht sagt.
-- Nur Fakten aus dem Paket. Jede Zahl kommt aus dem Paket: Bewertung, Anzahl der Bewertungen,
-  Sterneverteilung, Jahreszahlen. Bewertungen in Dezimalschreibweise mit Komma (`4,8`), Anzahl als
-  ganze Zahl.
+- Nur Fakten aus dem Paket. **Keine Bewertung im Text:** kein Schnitt, keine Anzahl der
+  Bewertungen, keine Sterneverteilung, kein „X Sterne", kein „Google-Bewertungen". Die Seite
+  zeigt die Bewertung als Sterne aus eigenen Feldern; im Fließtext veraltet sie und widerspricht
+  der Anzeige. Eine Zahl im Text betrifft nur eine Sachangabe des Betriebs, etwa eine Jahreszahl
+  der Gründung („seit 1998").
 - **Fakten als Tatsache, nie die Quelle nennen.** Schreiben Sie, was der Betrieb tut, anbietet und
   über sich angibt, als schlichte Aussage: „Der Betrieb öffnet zugefallene Türen, tauscht Zylinder
   und montiert Schließanlagen. Nach eigener Angabe seit 1998 in Mannheim." Nie „laut Website",
   „auf der eigenen Seite steht", „die Website nennt", „im Impressum", „bei Google Maps", „den
-  Angaben zufolge". Einzige Ausnahme ist die Bewertung, bei der „Google-Bewertungen" die Einheit
-  benennt: „Bewertung 4,8 aus 142 Google-Bewertungen, davon 130 mit fünf Sternen." Superlative des
-  Betriebs übernehmen Sie nicht als Tatsache („Nummer 1", „bester", „Testsieger"); lassen Sie sie
-  weg, statt sie abzuschwächen. Jede Aussage muss weiter im Paket belegt sein.
-- **Keine Preisangaben**, außer der Betrieb nennt sie selbst auf seiner Website. Dann gilt: Betrag
-  in Euro mit Komma (`89 €`), als Angabe des Betriebs formuliert und ohne Versprechen, dass er
-  gilt („nennt für die Türöffnung ab 89 € und eine Anfahrtspauschale von 29 €"). Nennt die Website
-  keine Preise, steht in der Beschreibung **keine Zahl** zu Preisen, auch keine Spanne, kein
-  „günstig", kein „fair", kein „zum Festpreis".
+  Angaben zufolge". Superlative des Betriebs übernehmen Sie nicht als Tatsache („Nummer 1",
+  „bester", „Testsieger"); lassen Sie sie weg, statt sie abzuschwächen. Jede Aussage muss weiter
+  im Paket belegt sein.
+- **Keine Preise, kein Euro-Betrag, kein Prozentsatz.** In der Beschreibung steht **nie** ein
+  Geldbetrag, keine Zahl mit `€`, `EUR` oder „Euro", keine Spanne, kein „ab …", kein Prozentsatz
+  (`%`, „Prozent"), keine Mehrwertsteuerangabe mit Zahl, kein „günstig", kein „fair", kein „zum
+  Festpreis". Das gilt auch, wenn der Betrieb die Preise selbst auf seiner Website nennt: die
+  Preise des Verzeichnisses sind allein die geprüften Spalten der Festpreis-Garantie
+  (wiki/framework/enrichment.md). Dass ein Betrieb seine Preise vorab nennt, dürfen Sie als
+  Tatsache schreiben — **ohne den Betrag** („nennt die Preise vor Arbeitsbeginn", „gibt die
+  Anfahrt vorab an"). Die Merkmale `festpreis_genannt` und `anfahrtspauschale_genannt` halten
+  den Sachverhalt fest; die Zahl gehört nicht in den Text.
+- **Keine Kontaktdaten im Text.** Keine Telefonnummer, keine E-Mail-Adresse, keine Hausanschrift
+  (Straße mit Hausnummer), keine Postleitzahl. Alles davon sind eigene Felder und erscheinen auf
+  der Seite dort, nie im Fließtext. Die Stadt zu nennen, in der der Betrieb arbeitet, ist in
+  Ordnung; eine Straße mit Hausnummer nicht.
+- **Keine Leseransprache.** Kein „Sie", kein „Ihr"/„Ihre", kein Imperativ („rufen Sie an",
+  „fragen Sie", „beachten Sie", „erfragen Sie"), keine Empfehlung, kein Ratschlag. Die
+  Beschreibung spricht in der **dritten Person** über den Betrieb, nie zum Leser. Ist eine Angabe
+  unklar, bleibt sie offen (das Attributgitter zeigt „keine Angabe"); schreiben Sie keine
+  Aufforderung, sie zu erfragen.
+- **Nichts aus Karriere- oder Partnerbereichen.** Keine Stellenanzeige, kein „sucht Monteure",
+  kein „sucht Personal", kein „m/w/d", keine Ansprache an andere Betriebe oder Partner. Die
+  Beschreibung richtet sich allein an Endkunden, die eine Leistung suchen.
+- **Keine Google-Ausstattungsmerkmale als Fließtext.** Nicht „geführt von einer Frau", nicht
+  „barrierefrei"/„rollstuhlgerecht", nicht „kostenlose Parkplätze", nicht „WLAN", „Toilette" und
+  Ähnliches aus `maps_about`. Solche Merkmale gehören in die Merkmalsliste, nicht in den Text.
 - Keine Behauptung über Lizenz, Zulassung, Zertifizierung oder Meisterbetrieb (siehe oben).
 - Kopieren Sie keine Sätze von der Website. Kurze Wendungen von wenigen Wörtern sind in Ordnung.
 - Keine Gedankenstriche als Satzzeichen (kein Halbgeviertstrich, kein Geviertstrich, kein doppelter
@@ -119,8 +139,9 @@ Beantworten Sie jeden Schlüssel der Tabelle mit genau einem von `true`, `false`
   sein Tun sagen. Zwei solche Beschreibungen dürfen nicht denselben Anfang haben. Die Prüfliste
   zählt die Anfänge über alle Stapel des Laufs und lehnt einen Eintrag ab, dessen Anfang vier oder
   mehr Einträge teilen.
-- Kein Ratschlag an den Inhaber, keine Aufforderung „Eintrag beanspruchen", kein Werbeaufruf; der
-  einzige erlaubte Hinweis ist, eine Angabe telefonisch zu erfragen, wenn das Paket dünn ist.
+- Kein Ratschlag an den Inhaber, keine Aufforderung „Eintrag beanspruchen", kein Werbeaufruf und
+  keine Ansprache des Lesers. Ist das Paket dünn, nennt die Beschreibung schlicht, was die
+  Maps-Kategorie und etwaige Maps-Wendungen sagen, und lässt den Rest offen.
 - Variieren Sie die Anfänge. Nicht jede Beschreibung beginnt mit „<Name> ist ein". Führen Sie mit
   dem Ort, dem Gewerk, der Geschichte, der Mischung der Leistungen, was das Paket am Eigensten hat.
 - Die Prüfliste verbietet eine Liste abgenutzter Wörter und Wendungen (`scripts/copy-bans.txt`).
@@ -153,15 +174,16 @@ Antwort: `schluesseldienst_kern: true`, `tueroeffnung: true`, `schlossaustausch:
 
 > Schlüsseldienst Müller öffnet in Mannheim zugefallene und verschlossene Türen, tauscht Zylinder
 > und Schlösser und montiert Schließanlagen für Hausverwaltungen. Nach eigener Angabe arbeitet der
-> Betrieb seit 1998 in der Stadt und ist über eine Notdienstnummer rund um die Uhr erreichbar. Für
-> die Türöffnung nennt er 89 € und für die Anfahrt 29 €. Bewertung 4,8 aus 142 Google-Bewertungen,
-> davon 130 mit fünf Sternen.
+> Betrieb seit 1998 in der Stadt und ist über eine Notdienstnummer rund um die Uhr erreichbar. Den
+> Preis für die Türöffnung und die Anfahrt nennt er vor Arbeitsbeginn.
+
+(Die Bewertung, die Nummer und der Betrag `89 €` stehen zwar im Paket, aber nie in der
+Beschreibung: Bewertung und Kontakt sind eigene Felder, der Preis lebt in den Garantiespalten.)
 
 Das Paket sagt: keine Website, keine Öffnungszeiten, 2 Bewertungen, Bewertung 3,0, Maps-Kategorie
 „Schlüsseldienst", Maps-Untertyp „Schuhmacher".
 Antwort: jeder Schlüssel `not enough info`, `schluesseldienst_kern: not enough info`.
 
-> Schlüssel Ecke ist ein Schlüsseldienst in Fürth, der auch Schuhreparaturen übernimmt, ohne
-> hinterlegte Öffnungszeiten. Bewertung 3,0 aus zwei Google-Bewertungen, eine mit fünf und eine mit
-> einem Stern. Das ist zu wenig, um zu sagen, welche Arbeiten der Betrieb übernimmt. Rufen Sie an,
-> bevor Sie damit planen.
+> Schlüssel Ecke ist ein Schlüsseldienst in Fürth, der nach seiner Maps-Kategorie auch
+> Schuhreparaturen übernimmt. Öffnungszeiten sind nicht hinterlegt, und die wenigen Angaben
+> lassen offen, welche Arbeiten der Betrieb im Einzelnen ausführt.

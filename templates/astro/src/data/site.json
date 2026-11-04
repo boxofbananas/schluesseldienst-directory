@@ -102,7 +102,7 @@
     "bandOverlay": "rgba(11,37,69,0.78)",
     "gold": "#F5B940"
   },
-  "cityFloor": 3,
+  "cityFloor": 2,
   "maxCardsPerCity": 60,
   "faq": [
     {
@@ -127,7 +127,8 @@
     }
   ],
   "sortAttribute": "",
-  "foldMaxKm": 40,
+  "foldMaxKm": 30,
+  "cityMinPopulation": 20000,
   "cityFilter": false,
   "vetting": [
     "Die Einträge stammen aus öffentlich zugänglichen Quellen, vor allem aus Google Maps und den Websites der Betriebe selbst.",

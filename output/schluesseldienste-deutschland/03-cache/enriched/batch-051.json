@@ -1,0 +1,663 @@
+[
+ {
+  "slug": "suedpfalz-schluesseldienst-landau-landau-in-der-pfalz",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Als regionaler Schlüsseldienst in Landau in der Pfalz arbeitet der Betrieb ohne Vermittler und Callcenter und ist nach eigener Angabe Tag und Nacht im Einsatz. Er öffnet Haus- und Wohnungstüren beschädigungsfrei, wechselt defekte oder unsichere Türschlösser aus und montiert Panzerriegel, Zusatzschlösser und Sicherheitsbeschläge. Dazu kommen die Planung und Installation von Schließsystemen und Schließanlagen für Wohnanlagen, Büros und Gewerbeobjekte sowie Zutrittskontrolle für Bürogebäude, Praxen und Werkstätten, bei der Mitarbeiter nur die für sie vorgesehenen Zugänge erhalten. Beim Einbruchschutz berät er zu mechanischer Sicherung und bespricht auch Fördermöglichkeiten. Das Einsatzgebiet umfasst die Kernstadt, die Stadtteile und die Weindörfer und reicht etwa 20 Kilometer ins Umland der Südpfalz. Den Endpreis nennt der Betrieb schon beim ersten Anruf, für Einbauten legt er vorab ein Angebot mit Material und Montage vor."
+ },
+ {
+  "slug": "schluesselzentrale-langen-langen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Rund um Langen, Egelsbach, Dreieich, Neu-Isenburg, Dietzenbach und Mörfelden im Rhein-Main-Gebiet ist die Schlüsselzentrale im Einsatz. Ein Schlüsselnotdienst steht an 365 Tagen im Jahr rund um die Uhr bereit, wenn jemand ausgesperrt ist oder ein Zylinder defekt oder nach einem Einbruch beschädigt ist. Die Mitarbeiter sind auf das zerstörungsfreie Öffnen von Türen geschult, geöffnet wird nur, wenn sich der Auftraggeber für das Objekt ausweisen kann. Das Angebot reicht weiter zu mechanischen und elektronischen Schließsystemen, Schließanlagen und Zutrittskontrolle, zu Alarmanlagen und Videoüberwachung sowie zu Haustüren der Widerstandsklasse RC2 und Briefkästen. Bei Tresoren öffnet der Betrieb die Geräte und arbeitet mit dem Hersteller Wertheim zusammen. Ersatzschlüssel werden angefertigt, auch für Autos. Den Preis für eine Öffnung nennt er, sobald das Problem geschildert ist."
+ },
+ {
+  "slug": "city-schluesseldienst-kunze-langen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Seit über 50 Jahren führt die Familie Kunze in zweiter Generation ein Fachgeschäft für Sicherheit in Langen. Inhaber ist Jörg Kunze. Im Ladengeschäft mit festen Öffnungszeiten entstehen Schlüssel vom Möbelschlüssel bis zum Schließanlagenschlüssel. Geführt werden Profilzylinder vieler Hersteller und Schlösser aller Art, darunter Panikschlösser, Rohrrahmenschlösser und fast alle Mehrfachverriegelungen. Der Betrieb liefert mechanische und elektronische Schließanlagen, darunter digitale Systeme für Wohnanlagen mit Zutrittsprotokollen und kabelloser Türüberwachung. Bei programmierbaren Zylindern bedeutet ein Schlüsselverlust kein Sicherheitsrisiko, weil sich Zugangsrechte ändern lassen, statt Zylinder zu tauschen. Für den Einbruchschutz gibt es Türschließer, Fenstersicherungen, Zusatzschlösser und elektrische Türöffner, außerdem Alarmanlagen und Überwachungskameras. Zum Sortiment zählen ferner Schilder und Messer. Außerhalb der Ladenzeiten ist ein Schlüsselnotdienst über eine Mobilnummer erreichbar. Ein Fachgeschäft in zweiter Generation kennt viele gängige Hersteller von Zylindern und Schließsystemen und liefert sie aus eigenem Sortiment.",
+  "trace": {
+   "schluessel_nachmachen": "Wir fertigen vom Möbelschlüssel bis zum Schließanlagenschlüssel",
+   "ladengeschaeft": "Inh. Jörg Kunze Wiesenstr. 12 63225 Langen Kontakt Öffnungszeiten"
+  }
+ },
+ {
+  "slug": "langener-schuh-und-schluesseldienst-l-autoschluessel-i-24h-tueroeffnung-langen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Mitten in Langen verbindet der Langener Schuh- und Schlüsseldienst zwei Handwerke unter einem Dach. Er repariert Schuhe, fertigt Schlüssel an und übernimmt Notöffnungen. Dazu bietet der Betrieb Schlösser und Sicherheitszubehör an. Die Maps-Kategorie lautet Schlüsseldienst, im Namen stehen außerdem Autoschlüssel und Türöffnung rund um die Uhr. Der Betrieb beschreibt seinen Service als schnell, freundlich und fachgerecht und versteht sich als Anlaufstelle für alles rund um Schuhe, Schlösser und Zubehör."
+ },
+ {
+  "slug": "obi-markt-laufenburg-laufenburg",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der OBI Markt in Laufenburg ist ein Baumarkt mit Abteilungen für Bauen, Wohnen, Technik und Garten, dazu mit Planern für Bad und Garten. Beratung im Markt deckt Bad, Küche und Garten ab, Termine lassen sich vereinbaren. Zu den Services zählen ein Schlüsseldienst, der Schlüssel sofort anfertigt und zum Mitnehmen herausgibt, der Umtausch innerhalb von drei Monaten, Geschenkkarten, Mietgeräte und Werkzeugverleih, Holzzuschnitt, Farbmischservice und ein Gartencenter. Ein Studio für Türen und Fenster führt Außen- und Innentüren aus Holz, Stahl und Glas sowie Sicherheitstechnik wie Alarmanlagen, Kameras und Bewegungsmelder. Die Schlüsselanfertigung ist hier ein Zusatzservice des Marktes. Türöffnungen oder der Schlosswechsel beim Kunden gehören nicht zum Angebot, das die Beschreibung des Marktes nennt. Außerdem bietet der Markt Zuschnitt von Holz und eine Auswahl an Werkzeugen und Zubehör für Heim- und Handwerker.",
+  "trace": {
+   "schluessel_nachmachen": "Für dich sofort angefertigt – direkt zum Mitnehmen",
+   "ladengeschaeft": "Dein OBI Markt Laufenburg, Stadtweg 4"
+  }
+ },
+ {
+  "slug": "masterxpress-laufenburg-laufenburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schuhe, Schlüssel und Smartphones unter einem Dach: MasterXPress sitzt in einem Einkaufszentrum in Laufenburg und verbindet Schuhmacherei, Schlüsselservice und Handyreparatur. Dazu kommen Uhrenservice, Gravuren, Stempel, Lederwaren und Accessoires, Goldankauf und Polsterei. Im Schlüsselbereich fertigt der Betrieb Schlüssel passgenau an, bietet Autoschlüssel an, tauscht komplette Schlösser aus und hilft, wenn jemand ausgesperrt ist. Notfallöffnungen sind rund um die Uhr möglich. Nach eigener Angabe stützt sich der Betrieb auf langjährige Erfahrung im Schlüsseldienstbereich und will damit auch komplexe Situationen angemessen lösen. Er ist Abus Partner und arbeitet mit mehreren Filialen. Einfache Aufträge wie eine Schlüsselanfertigung sollen ohne unnötige Wartezeit erledigt sein. Während Kunden einkaufen, werden Schuhe und Schlüssel erledigt. Für die Schuhreparatur, die Handyreparatur und den Schlüsselservice gibt es getrennte Preislisten, und zum Programm zählen auch Textilservice und Lederwaren.",
+  "trace": {
+   "tueroeffnung": "oder sich ausgesperrt haben",
+   "schlossaustausch": "ein komplettes Schloss austauschen möchten"
+  }
+ },
+ {
+  "slug": "josef-gamp-jun-schlosserei-gamp-laufenburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die Schlosserei Gamp in Laufenburg arbeitet vor allem als Metallbaubetrieb und stellt den Anspruch an Qualität und Design in den Mittelpunkt. Zu den Leistungen zählen Geländer, Fenstergitter, Türen, Vordächer, Stahlbau, Treppen und Edelstahlverarbeitung. Außerdem fertigt der Betrieb Garagentore nach Maß und führt das Sonnensegel Shadeone, ein Twister-Segel. Beim Stahlbau weist er auf die Norm EN 1090-2 hin, die seit dem 1. Juli 2014 vorgeschrieben ist. Neben diesem Metallbau wird ein Schlüsseldienst mit 24 Stunden Erreichbarkeit angeboten. Geführt wird der Betrieb unter dem Namen Josef Gamp jun."
+ },
+ {
+  "slug": "obi-markt-luebben-luebben-spreewald",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "In Lübben (Spreewald) betreibt OBI einen Baumarkt für Heim- und Handwerker mit Abteilungen rund um Bauen, Wohnen, Technik und Garten. Das Serviceangebot umfasst Mietgeräte und Werkzeugverleih, ein Gartencenter, Holzzuschnitt, Farbmischservice und einen Container-Mietservice. Hinzu kommen Beratung und Montage für Solaranlagen, Terrassenüberdachungen nach Maß und Wärmepumpen. Auch ein Schlüsseldienst gehört zu den Marktservices: Schlüssel werden sofort angefertigt und können direkt mitgenommen werden. Es handelt sich um einen Handelsbetrieb, der Schlüssel an der Theke herstellt und kein Schlüsselnotdienst ist. Umtausch ist innerhalb von drei Monaten möglich.",
+  "trace": {
+   "schluessel_nachmachen": "Für dich sofort angefertigt – direkt zum Mitnehmen",
+   "ladengeschaeft": "Dein OBI Markt Luebben, Weinbergstraße 1"
+  }
+ },
+ {
+  "slug": "hadel-sicherheitstechnik-luebben-spreewald",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Hadel Sicherheitstechnik in Lübben (Spreewald) stellt die Sicherheitstechnik in den Mittelpunkt des Namens und ist unter der Kategorie Schlüsseldienst geführt. Als Beschreibung nennt der Betrieb eine Notdienstnummer, unter der er telefonisch erreichbar ist. Eine eigene Website führt er nicht, Kunden erreichen ihn über diese Nummer direkt. Der Notdienst richtet sich an Einsätze in Lübben und im Spreewald."
+ },
+ {
+  "slug": "sicherheitstechnik-paschke-luebben-spreewald",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Sicherheitstechnik Paschke in Lübben (Spreewald) bietet elektronische und mechanische Sicherheitstechnik an. Das Leistungsangebot reicht von Beratung und Vorplanung über die Planung und Bauausführung bis zur Inbetriebsetzung und zum Service. Zusätzlich erstellt der Betrieb Sachverständigengutachten und nennt dafür eine Mitgliedschaft im BVFS. Der Betrieb begleitet damit Vorhaben vom ersten Konzept bis zur laufenden Betreuung der fertigen Anlage."
+ },
+ {
+  "slug": "keylocks-schluesseldienst-luedenscheid",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "KeyLocks Schlüsseldienst in Lüdenscheid betreibt einen Schlüsselnotdienst, der Tag und Nacht, am Wochenende und an Feiertagen erreichbar ist. Türen werden ohne Schäden geöffnet, nach eigener Angabe ist der Betrieb in kurzer Zeit vor Ort. Zum Angebot zählen das Wechseln von Türschlössern, Planung und Einbau von Schließanlagen, die Öffnung von Tresoren, Garagen und Autos sowie die Lieferung und Montage von Schließtechnik. Tresore öffnet der Betrieb unter anderem über ein Bohrloch, damit der Safe weiter nutzbar bleibt. Beim Einbruchschutz berät der Notdienst und passt die Sicherheitstechnik an die Wünsche und Anforderungen der Auftraggeber an, denn unzureichend gesicherte Türen und Fenster lassen sich schon mit einem Schraubendreher öffnen. Den Preis für die Türöffnung nennt der Betrieb als festen Betrag, bezahlt werden kann bar, mit EC-Karte oder PayPal."
+ },
+ {
+  "slug": "heinrich-blechinger-schluesseldienst-luedenscheid",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Betrieb von Heinrich Blechinger in Lüdenscheid arbeitet als Schlüsselnotdienst für Ausgesperrte und zugleich als stationärer Schlüsseldienst mit Reparaturannahme. Dort werden Schlüssel und Autoschlüssel nachgemacht, hinzu kommen der Batteriewechsel für Autoschlüssel und Uhren, Gravuren und Türschilder sowie Reparaturen rund um die Tür. Daneben übernimmt der Betrieb Schuhreparaturen, etwa bei kaputten Absätzen. Die Annahme ist werktags und samstags ab 8 Uhr geöffnet. Bei der Türöffnung wirbt der Betrieb mit einem transparenten und ehrlichen Preis.",
+  "trace": {
+   "schluessel_nachmachen": "um Schlüssel & Autoschlüssel nachzumachen",
+   "ladengeschaeft": "stationärer Schlüsseldienst"
+  }
+ },
+ {
+  "slug": "heinz-rode-wagemeyer-pretzel-ohg-luedenscheid",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die Firma Heinz Rode, Wagemeyer, Pretzel OHG sitzt in Lüdenscheid und ist unter der Kategorie Schlüsseldienst geführt. Als Rechtsform nennt der Name die offene Handelsgesellschaft, getragen von mehreren Gesellschaftern, deren Familiennamen die Firma bilden. Der Betrieb tritt damit als traditionell benannte Gesellschaft auf und arbeitet im Stadtgebiet von Lüdenscheid und der näheren Umgebung."
+ },
+ {
+  "slug": "ms-schluesseldienst-lueneburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Seit mehr als 25 Jahren arbeitet MS Schlüsseldienst in Lüneburg als Schlüsselnotdienst, der rund um die Uhr an sieben Tagen der Woche erreichbar ist. Die Monteure öffnen nach eigener Angabe die große Mehrzahl der Türen ohne Schaden, wechseln Schlösser und bauen Schließanlagen mit einem patentierten Abus-Profil ein. Dazu kommen Tür- und Fenstersicherungen gegen Einbrüche, Sicherheitsberatung und das Nachmachen von Zweitschlüsseln. Bei Autoschlüsseln, die gestohlen, verloren, gebrochen oder abgenutzt sind, hilft der Betrieb auch bei Fahrzeugen mit Wegfahrsperre. Das Sortiment umfasst außerdem Zutrittskontrolle, Funk-Videoüberwachung, Brandschutz, Briefkastenanlagen und Gravuren. Der Betrieb informiert vorab über alle anfallenden Kosten und führt die Arbeit erst aus, wenn der Auftraggeber mit dem Preis einverstanden ist. Ein Einheitspreis gilt zu jeder Tag- und Nachtzeit. Der Betrieb stellt Qualität und Zuverlässigkeit in den Vordergrund und bietet ein großes Sortiment."
+ },
+ {
+  "slug": "lueneburger-schluesseldienst24-schluesselnotdienst-lueneburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "false",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Ohne Ladengeschäft, dafür mobil in Lüneburg und Umgebung, arbeitet der Schlüsseldienst von Inhaber Niko Dreiling. Zugefallene Türen werden grundsätzlich zerstörungsfrei geöffnet, ein Zylinder wird nur zerstört, wenn es nicht anders geht. Zum Angebot gehören außerdem Notöffnungen, der Einbau von Zylindern und Schließanlagen sowie Beratung zu Einbruchschutz und Sicherheitstechnik. Für die Türöffnung nennt der Betrieb einen Pauschalpreis, in dem die Anfahrt, die Abfahrt innerhalb Lüneburgs und die Einsatzpauschale enthalten sind; Material kommt hinzu. Der Preis bezieht sich auf eine zugefallene Tür werktags tagsüber im Stadtgebiet. Nach den Geschäftsbedingungen darf der Monteur bei Tür-, Fenster- und Objektöffnungen einen Nachweis der Berechtigung verlangen. Nach eigener Angabe ist der Notdienst rund um die Uhr erreichbar, und der Betrieb legt Wert auf transparente Abrechnung ohne versteckte Kosten."
+ },
+ {
+  "slug": "lueneburger-schloss-schluesseldienst-alznauer-lueneburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Das Lüneburger Schloss- und Schlüsseldienst Alznauer sieht sich als Partner für mechanische und elektronische Schließanlagen in Lüneburg. Im Geschäft gibt es Schlüsselkopien und Schlösser aller Art. Daneben handelt der Betrieb mit Briefkästen und Tresoren und ist auch als Anbieter dieser Waren geführt. Die Öffnungszeiten stehen auf einer eigenen Seite des Betriebs.",
+  "trace": {
+   "ladengeschaeft": "Unsere Öffnungszeiten"
+  }
+ },
+ {
+  "slug": "obi-meissen-meissen",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Meißen hat mit dem OBI Markt einen Baumarkt mit breitem Sortiment aus Bauen, Wohnen, Technik und Garten. Neben den Abteilungen bietet der Markt einen Container-Mietservice, Beratung und Montage für Solaranlagen, Terrassenüberdachungen nach Maß und Wärmepumpen mit Montage. Zu den Services zählen Mietgeräte, Werkzeugverleih, Gartencenter, Gartenplaner, Holzzuschnitt und Farbmischservice. Ein Schlüsseldienst am Markt fertigt Schlüssel sofort an, sie können direkt mitgenommen werden. Dieser Service gehört zum Handel und ersetzt keinen Schlüsselnotdienst. Waren lassen sich innerhalb von drei Monaten umtauschen. Beratung und ein Termin im Markt sind möglich, ebenso Lieferung von Waren.",
+  "trace": {
+   "schluessel_nachmachen": "Für dich sofort angefertigt – direkt zum Mitnehmen",
+   "ladengeschaeft": "Dein OBI Markt Meißen, Fabrikstr. 13"
+  }
+ },
+ {
+  "slug": "antrack-sicherheitsservice-schluesseldienst-meissen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Sven Antrack führt in Meißen einen Schlüsseldienst, der sich zugleich als Sicherheitsservice bezeichnet. Der Betrieb firmiert als Antrack Sicherheitsservice Schlüsseldienst und stellt damit das klassische Schlüsselgeschäft neben die Sicherheitstechnik. Ansprechpartner ist der Inhaber selbst, der Betrieb ist über eine E-Mail-Adresse erreichbar und arbeitet im Raum Meißen. Der Name verbindet beides in einem Betrieb."
+ },
+ {
+  "slug": "schluessel-greiner-meissen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüssel-Greiner übernimmt in Meißen und im Raum Dresden Notöffnungen und Türöffnungen, außerdem Schließanlagen und Reparaturen. Der Preis wird nach Angabe des Betriebs vor der Anfahrt besprochen. Termine gibt es nach Vereinbarung, der Betrieb arbeitet also auf Absprache und nicht als Laden mit festen Öffnungszeiten. Der Einsatz wird telefonisch abgesprochen. Die Region reicht nach Angabe des Betriebs von Meißen bis Dresden."
+ },
+ {
+  "slug": "schluesseldienst-sevinc-neu-isenburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Im Isenburg Einkaufszentrum in Neu-Isenburg führt Sevinc ein Fachgeschäft, das Schuh- und Schlüsseldienst verbindet. Beim Schlüsselservice fertigt der Betrieb Haus-, Wohnungs-, Briefkasten- und Autoschlüssel an, programmiert Funkschlüssel, codiert Autoschlüssel, repariert sie und wechselt Gehäuse und Batterien. Er tauscht Profilzylinder und Türschlösser aus, öffnet zugefallene Türen und Tresore und berät zu Einbruchschutz, Türschlössern und Videoüberwachung. Bei Sicherheitsschlüsseln gelten besondere Bestimmungen, viele davon lassen sich nur mit Sicherungskarte nachmachen. Ein Schlüsselnotdienst ist rund um die Uhr erreichbar, das Geschäft selbst hat von Montag bis Samstag geöffnet. Daneben repariert der Betrieb Leder, Schuhe, Taschen und Gürtel, bietet Lederaufarbeitung, Näharbeiten, Gravuren und Stempelanfertigung an. Zu den Schlüsseln zählen Haustür-, Wohnungstür-, Briefkasten-, Auto-, Tresor-, Zimmer- und Schrankschlüssel sowie Vorhängeschlösser und Einsteckschlösser. Montags bis samstags ist das Geschäft von morgens bis abends offen."
+ },
+ {
+  "slug": "schluesseldienst-neu-isenburg-neu-isenburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Seit 2014 ist dieser Schlüsselnotdienst in Neu-Isenburg und im Landkreis Offenbach im Einsatz, mit Firmensitz in Neu-Isenburg. Er öffnet Türen und Garagen, auch am Wochenende und an Feiertagen. Geliefert und sofort montiert werden Schutzbeschläge, Türschlösser und Schließzylinder, nach Termin außerdem Türspione, Zusatzschlösser und Panzerriegelschlösser. Der Betrieb plant und baut Schließanlagen ein und fertigt Schlüssel für Haus- und Wohnungstüren, Briefkästen, Möbel, Autos, Motorräder, Wohnmobile und Tanks, auch für Oldtimer und Fahrzeuge mit Wegfahrsperre. Schlüssel für Sicherheitsanlagen entstehen nur mit Sicherungskarte. Die Preise stehen in einer Preisliste, die Pauschalen für die Arbeitszeit werktags tagsüber nennt und Zuschläge außerhalb dieser Zeiten ausweist. Der Betrieb sagt von sich, seine Preise nicht verstecken zu müssen. Die Preisliste unterscheidet zwischen Werktagen, Wochenenden und Feiertagen und stellt Leistungen und Preise gegenüber."
+ },
+ {
+  "slug": "sicherheitscenter-biergans-neu-isenburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Seit 1965 steht das Sicherheitscenter Biergans in Neu-Isenburg im Dienst der Sicherheit. Das Leistungsspektrum umfasst Schlüsseldienst, Absicherung, Einbruch-Reparaturen, Mechatronik, Schließanlagen und Nachrüstungen. Geliefert werden gleichschließende Zylinder, Werks- und Serviceschließanlagen, Nachbestellungen für bestehende Anlagen, elektronische Schließsysteme und die Verwaltung von Schließanlagen. Schlüssel entstehen für Türen, Autos, Möbel und Tresore, dazu Sicherheits- und Code-Schlüssel. Die passenden Schlösser reichen von Einsteckschlössern bis zu Panikschlössern. Bei Einbrüchen setzt der Betrieb beschädigte Türen und Schlösser instand und rüstet sie nach, damit sie künftig besser gesichert sind. Mechatronische Lösungen verbinden dabei mechanische Schlösser mit Elektronik. Der Betrieb entwickelt Lösungen nach den Anforderungen seiner Auftraggeber, arbeitet mit Partnern aus der Schließtechnik zusammen und führt ein Geschäft mit festen Öffnungszeiten. Besucher finden die Beratung im Geschäft in Neu-Isenburg zu festen Zeiten.",
+  "trace": {
+   "schluessel_nachmachen": "Wir fertigen alle Arten von Schlüsseln",
+   "ladengeschaeft": "ÖFFNUNGSZEITEN"
+  }
+ },
+ {
+  "slug": "assos-24h-schluesselnotdienst-neustadt-an-der-weinstrasse",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "ASSOS betreibt in Neustadt an der Weinstraße einen Schlüsselnotdienst, der rund um die Uhr an allen Wochentagen arbeitet und nach eigener Angabe in 15 bis 40 Minuten vor Ort ist. Die Techniker öffnen Türen ohne Beschädigung, helfen bei ausgesperrten Autos und führen Reparaturen und Wartungsarbeiten an Tür, Schloss, Zylinder, Beschlag und Türschließer durch. Dazu kommen Schließanlagen, Einzelzylinder und gleichschließende Profilzylinder als registrierte Schließung mit Sicherungskarte, bei der Schlüssel nur mit dieser Karte nachgefertigt werden; mehr als 35.000 unterschiedliche Schließungen sind möglich. Beim Einbruchschutz berät der Betrieb zu Zusatzschlössern, Mehrfachverriegelungen und weiteren Maßnahmen für Wohnungen, Häuser und Gewerbeobjekte. Auch Firmenkunden gehören zur Kundschaft. Festpreise werden angeboten, Anfahrtskosten fallen nach eigener Angabe nicht an. Das Einsatzgebiet reicht von Landau über Heidelberg und Karlsruhe bis Frankfurt."
+ },
+ {
+  "slug": "peter-reuther-gmbh-schreinerei-neustadt-an-der-weinstrasse",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Rund ums Holz arbeitet die Peter Reuther GmbH in Neustadt an der Weinstraße als Schreinerei und Zimmerei. Das Angebot umfasst Bau- und Möbelschreinerei, Fertigung nach Maß, Sonderanfertigungen, Innenausbau und Restaurierungen, mit individueller Beratung, Planung und Montage. Der Betrieb repariert Fenster und Türen aus Holz, Kunststoff und Aluminium, liefert und tauscht Beschläge aus, baut Rollläden und repariert Jalousien und Markisen. Dazu kommen Glasreparaturen, Notverglasungen und Einbruchsicherung. Mit Schlüsseldienst im engeren Sinn hat das Handwerk wenig zu tun, der Betrieb ist eine Schreinerei, die auch Notöffnungen anführt."
+ },
+ {
+  "slug": "paelzer-schluesseldienst-neustadt-neustadt-an-der-weinstrasse",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Ehrlich, lokal und schnell will der Pfälzer Schlüsseldienst in Neustadt an der Weinstraße arbeiten. Er öffnet zugefallene und abgeschlossene Türen, behebt Fallenbruch, Riegelprobleme und defekte Mehrfachverriegelungen und öffnet auch Autos. Voraussetzung ist ein Nachweis von Person und Adresse, etwa eine Rechnung, die in der Wohnung vorliegt. Defekte Zylinder und Schlösser werden getauscht. Für Wohnungen und Häuser montiert der Betrieb Panzerriegel, Sicherheitsbeschläge mit Zylinderabdeckung und Zusatzschlösser, in Mietwohnungen meist mit Rückbau, und bietet einen Sicherheitscheck vor Ort an. Schließanlagen plant und installiert er von der kleinen Wohnlösung bis zur gewerblichen Anlage, auch für Wohnanlagen. Er ist rund um die Uhr erreichbar und nennt den Endpreis einer Türöffnung beim ersten Anruf, Einbauten bietet er mit verbindlichem Angebot vorab an. Bezahlt wird vor Ort gegen Quittung."
+ },
+ {
+  "slug": "schluesselnotdienst-cifci-ostfildern",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Familienunternehmen seit 2003: In Ostfildern ist der Schlüsselnotdienst Cifci nach eigener Angabe seit über 21 Jahren vor Ort. Schwerpunkt sind Autoschlüssel, die der Betrieb nachmacht, repariert, programmiert und codiert, auch mit Funk-Fernbedienung und bei Totalverlust aller Schlüssel. Außerdem hilft er, wenn jemand ausgesperrt ist, auch bei verschlossener Tür, rund um die Uhr. Bei Bedarf wird ein neuer Zylinder eingebaut. Für Schlüsselduplikate stellt er Ersatzschlüssel her. Daneben nimmt der Betrieb Schuhe, Uhren und Taschen zur Reparatur an. Über Dienstleistungen, Preise und Abläufe werden die Auftraggeber vorab informiert, und für den Aufwand bei einer abgeschlossenen Tür nennt er eine Pauschale als festen Betrag. Beim Autoschlüssel soll der neue Schlüssel auch in zukünftigen Modellen funktionieren. Gebrochene oder abgenutzte Schlüssel repariert der Betrieb, statt sie zu ersetzen, und die Fachleute arbeiten nach eigener Angabe schnell, damit niemand lange auf den Schlüssel warten muss. Als Familienunternehmen versteht sich der Betrieb als Ansprechpartner, der Schlüsselnotfälle und Reparaturen in Ostfildern unter einem Dach erledigt.",
+  "trace": {
+   "schlossaustausch": "zzgl. einem neuen Zylinder ab 35€"
+  }
+ },
+ {
+  "slug": "schluesseldienst-colak-ostfildern",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Seit 1997 ist Schlüsseldienst Colak in Ostfildern-Nellingen für Kunden vor Ort, sei es zu Hause, im Büro oder in der Werkstatt. Nach eigenem Anspruch steht die Sicherheit der Kunden im Mittelpunkt der Arbeit. Der Betrieb fertigt Schlüssel an und bietet Schließanlagen an, damit sich viele Türen mit einem einzigen Schlüssel aufschließen lassen. Außerdem gehören Briefkastenanlagen und Reparaturarbeiten zum Angebot. Der Schlüsselnotdienst ist Tag und Nacht an sieben Tagen der Woche erreichbar, auch an Sonn- und Feiertagen, und rückt nach Nellingen und in die umliegenden Einsatzgebiete aus. Der Betrieb hat Standorte, an denen Kunden ihn finden, und beantwortet Fragen zu seinem Unternehmen und seinen Produkten. Der Betrieb sieht den Nutzen einer Schließanlage darin, dass ein einziger Schlüssel viele Türen öffnet und so den Alltag erleichtert. Sein Notdienst gilt sowohl für Privathaushalte als auch für Büros und Werkstätten.",
+  "trace": {
+   "schluessel_nachmachen": "Schlüsselanfertigen"
+  }
+ },
+ {
+  "slug": "schluessel-sicherheitstechnik-ratzel-ostfildern",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüssel und Sicherheitstechnik stehen im Namen des Betriebs Ratzel in Ostfildern, der unter der Kategorie Schlüsseldienst geführt wird. Beide Gebiete gehören damit zum Schwerpunkt des Hauses, das als kleiner Betrieb im Stadtgebiet arbeitet. Eine Beschreibung seiner einzelnen Arbeiten hat der Betrieb nicht veröffentlicht, der Name nennt aber ausdrücklich beide Felder."
+ },
+ {
+  "slug": "obi-markt-papenburg-papenburg",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Papenburg besitzt mit dem OBI Markt einen Baumarkt für Bauen, Wohnen, Technik und Garten, der auch liefert und Waren zur Abholung bereithält. Zu den Services zählen Mietgeräte und Werkzeugverleih, Gartencenter, Holzzuschnitt, Farbmischservice, Container-Mietservice sowie Beratung und Montage für Solaranlagen, Terrassenüberdachungen und Wärmepumpen. Ein Badplaner und ein Gartenplaner helfen bei der Planung. Der Schlüsseldienst des Marktes fertigt Schlüssel sofort an, sie können direkt mitgenommen werden. Das ist ein Handelsservice und kein Notdienst für Türöffnungen. Einkäufe lassen sich innerhalb von drei Monaten umtauschen.",
+  "trace": {
+   "schluessel_nachmachen": "Für dich sofort angefertigt – direkt zum Mitnehmen",
+   "ladengeschaeft": "Dein OBI Markt Papenburg, Am Stadtpark 45"
+  }
+ },
+ {
+  "slug": "schluesseldienst-oeffnungstechnik-freese-papenburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Als inhabergeführter Kleinbetrieb verbindet Öffnungstechnik und Gebäudemanagement Freese in Papenburg Schlüsseldienst und Hausmeisterservice. Der Inhaber öffnet Türen und Fahrzeuge zerstörungsfrei, repariert und tauscht Schlösser, Beschläge und Profilzylinder, richtet Mehrfachverriegelungen und Schließanlagen und berät vor Ort zum Einbruchschutz. Auch die Installation von Überwachungskameras gehört dazu. Dazu kommen Objektbetreuung, Instandhaltung, wenn eine Tür klemmt, schleift oder quietscht, Gartenpflege sowie Schneeräumung und Streudienst im Winter. Eine Preisliste nennt Beträge für den Notdienst, für Zuschläge am Abend und für die Anfahrt je Kilometer. Geöffnet wird nur bei klarer Legitimation des Auftraggebers. Dem Inhaber geht es nach eigener Angabe nicht um großen Firmenaufbau, sondern um ein Kleinunternehmen mit persönlicher Beratung. Zum Angebot zählt ein Sicherheits-Check vor Ort, und die Preisliste hat den Stand Oktober 2025. Als Kleinunternehmen arbeitet der Betrieb direkt mit seinen Kunden und ohne Zwischenstufen."
+ },
+ {
+  "slug": "papenburger-schluesseldienst-papenburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Tag und Nacht in der ganzen Stadt Papenburg und Umgebung unterwegs ist der Papenburger-Schlüsseldienst. Er öffnet zugefallene und verschlossene Türen, hilft bei abgebrochenen Schlüsseln und öffnet Autos, wobei Kunde und Fahrzeug zuvor verifiziert werden. Zylinder und Schlösser werden montiert, dazu kommen Türspione und Briefkastenschlösser. Bei Schließanlagen erstellt der Betrieb einen Entwurf des Schließplans, bestellt die Teile und baut die Anlage ein. Außerdem berät er zu Einbruchschutz und Sicherheitstechnik. Für die Türöffnung werktags tagsüber nennt der Betrieb einen Pauschalpreis, der An- und Abfahrt innerhalb Papenburgs sowie die Einsatzpauschale einschließt; Material kommt hinzu. Zylinder werden nur zerstört, wenn es nicht anders geht. Bei Notöffnungen verlangt er den Nachweis der Berechtigung. Weitere Leistungen sind die Sicherheitsberatung und der Einbau von Türspionen; Notöffnungen sollen in der Regel ohne Schaden gelingen."
+ }
+]

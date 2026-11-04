@@ -1,0 +1,585 @@
+[
+ {
+  "slug": "schluessel-schalk-augsburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüssel Schalk arbeitet in Augsburg und im Großraum rund um Türen, Tore und Fenster. Der Betrieb öffnet zugefallene und verschlossene Türen meist beschädigungsfrei, tauscht Zylinder nach Schlüsselverlust und plant Schließanlagen, mechanisch wie elektronisch. Zum Angebot gehören außerdem Reparaturen, Einbruchsprävention und der Einbau eines Smart Locks von Nuki. Nach einem Einbruch, Vandalismus oder Unwetterschaden sichert der Betrieb Türen und Fenster provisorisch ab, auch mit einer Notverschalung. Der Schlüsselnotdienst ist an allen Tagen des Jahres rund um die Uhr erreichbar, innerhalb Augsburgs ist er nach eigener Angabe meist in etwa einer halben Stunde vor Ort. Ersatzteile und Zubehör nach Maß entstehen im 3D-Druck. Für Einsätze innerhalb der Stadt fällt keine Anfahrt an, außerhalb der Stadtgrenze wird nach gefahrenen Kilometern abgerechnet. Der Betrieb versteht sich als regionaler Schlüsselnotdienst mit Service vor Ort statt anonymer Nummer."
+ },
+ {
+  "slug": "schluesselnotdienst-roman-augsburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Schlüsselnotdienst Roman in Augsburg öffnet Wohnungen, Häuser, Büros, Garagen und Keller, außerdem Fenster, Safes, Vorhängeschlösser und Fahrradschlösser. Auch Autos aller Marken öffnet der Betrieb im Notfall. Zum Angebot zählen der Einbau neuer Türschlösser samt Zylindertausch sowie die Montage und der Austausch elektronischer Schlösser. Dazu kommen Verkauf und Installation von Alarmanlagen und Videoüberwachungssystemen europäischer Marken.",
+  "trace": {
+   "tueroeffnung": "Notöffnungen von Wohnungen, Häusern, Büros, Garagen, Kellern und anderen Räumen",
+   "autoschluessel": "Notöffnungen von Autos aller Marken",
+   "tresoroeffnung": "Öffnung von Fenstern, Safes, Vorhängeschlössern",
+   "elektronische_schliesssysteme": "Montage und Austausch von elektronischen Schlössern"
+  }
+ },
+ {
+  "slug": "schluesseldienst-handwerk-guemueskaya-augsburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüsseldienst & Handwerk Gümüskaya in Augsburg bietet neben dem Schlüsseldienst Schuhreparatur, Taschenreparatur und weitere handwerkliche Arbeiten an. Die Hauptkategorie des Betriebs ist die Schlüsselanfertigung, dazu kommen Schuhmacherarbeiten und die Reparatur von Uhren. Kundinnen und Kunden erledigen kleine Reparaturen und Schlüsselarbeiten damit an einer Stelle. Der Betrieb hat Öffnungszeiten hinterlegt. Kundinnen und Kunden finden Schlüsseldienst und Handwerk damit unter einem Dach."
+ },
+ {
+  "slug": "okey-e-k-tuer-kfz-oeffnungen-augsburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "OKey e.K. in Augsburg kümmert sich um Türöffnungen im Notfall, fertigt Ersatzschlüssel an und repariert Schlösser. Hinzu kommt die Installation moderner Sicherheitssysteme. Im Ladengeschäft führt der Betrieb eine große Auswahl an Schlüsseln, Schlössern und Sicherheitszubehör und berät persönlich vor Ort. Der Betrieb ist als eingetragener Kaufmann geführt. Der Betrieb ist Ansprechpartner rund um Schlüssel, Schlösser und Sicherheitstechnik, persönliche Beratung steht an erster Stelle."
+ },
+ {
+  "slug": "felgner-sicherheitstechnik-gmbh-co-kg-dresden",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Seit 1967 ist Felgner Sicherheitstechnik in der Region Dresden tätig, mit Einsätzen in Freital, Meißen und der Umgebung. Der Betrieb verbindet Schlüsseldienst mit Sicherheitstechnik: Alarmanlagen, Videoüberwachung, Brandmeldeanlagen, Rauch- und Wärmeabzugsanlagen, Zutrittskontrolle und Briefkastenanlagen. Bei Schließanlagen reicht das Angebot von Schließzylindern in mehr als zwanzig Systemen bis zu digitalen Anlagen mit eingebundener Zutrittskontrolle. Türen öffnet der Betrieb nach Möglichkeit beschädigungsfrei und nennt dafür feste Preise; die Anfahrt wird gesondert ausgewiesen. Der Notdienst ist rund um die Uhr erreichbar, auch sonn- und feiertags. Tresore, Wandtresore und Wertschutzschränke sind in einer Ausstellung der Dresdner Ladengeschäfte zu sehen. Als Kundschaft nennt der Betrieb Privatpersonen und Gewerbe, darunter Hausverwaltungen, Hotels, Kliniken und Bildungseinrichtungen. Zu den Leistungen zählen außerdem Motorschlösser und Schlüsselmanagement; Referenzen reichen von der Technischen Universität über einen Energieversorger bis zu einer Einkaufsgalerie.",
+  "trace": {
+   "festpreis_genannt": "Wir öffnen Ihre Tür fachgerecht zu festen, fairen Preisen"
+  }
+ },
+ {
+  "slug": "saxo-schluesseldienst-dresden",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Saxo Schlüsseldienst sitzt in der Dresdner Neustadt und versteht sich als Betrieb, nicht als Vermittler oder Callcenter. Seit 2017 wird er nach eigener Angabe vom Inhaber geführt. Er öffnet zugefallene und abgeschlossene Türen in der Regel ohne Schaden am Schloss, wechselt Schlösser und Zylinder, richtet Einbruchschutz ein und sichert Türen nach einem Einbruch. Schließanlagen und Tresoröffnungen stehen ebenfalls im Leistungsverzeichnis. Fahrzeuge öffnet er, Fahrzeugschlüssel programmiert er nicht. Der Preis wird vor der Anfahrt mündlich genannt und hängt von Uhrzeit, Wochentag und Aufwand ab. Der Notdienst läuft an sieben Tagen in der Woche, auch nachts und an Feiertagen, in allen Stadtteilen sowie im Umland von Radebeul bis Pirna. Vor jeder Öffnung lässt sich der Betrieb die Berechtigung zeigen. Der Betrieb unterscheidet Wohnungstüren, die zugefallen sind, von abgeschlossenen Türen und erklärt den Ablauf eines Einsatzes vom Anruf bis zur Öffnung."
+ },
+ {
+  "slug": "elbtal-schluesseldienst-dresden",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Der Elbtal Schlüsseldienst in Dresden betreibt ein Ladengeschäft, in dem Schlüssel kopiert werden, und fährt von dort zu Einsätzen im Großraum. Zugefallene und abgeschlossene Türen öffnet er meist ohne Schäden; bei aufwendigeren Fällen muss der Zylinder gezogen oder gebohrt und ersetzt werden. Der Schlüsselnotdienst ist Tag und Nacht erreichbar, der Preis wird nach eigener Angabe schon vor der Anfahrt genannt, und die Anfahrt dauert nach seiner Angabe 15 bis 45 Minuten. Dazu kommen Sicherheitstechnik, Türsicherungen und Smart-Home-Systeme, die der Betrieb berät, plant und einbaut. Bei Schließanlagen geht es um Lösungen für Einfamilien- und Mehrfamilienhäuser und Gewerbeobjekte, mit Zutrittskontrolle und der Möglichkeit, die Anlage zu erweitern. Auch eine Objektbetreuung für Immobilien gehört zum Angebot. Das Ladengeschäft ist lokal ansässig und dient als Standort für Kopien und Beratung."
+ },
+ {
+  "slug": "stahlbau-sicherheitstechnik-borisch-gmbh-co-kg-dresden",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Stahlbau & Sicherheitstechnik Borisch in Dresden ist ein Familienbetrieb, der 1985 als Schlosserei und Schlüsseldienst Borisch begann; die GmbH & Co. KG entstand 2002. Heute stehen Schlüsseldienst und Sicherheitstechnik neben Metallbau, Stahlbau und Schweißarbeiten. Der Betrieb fertigt mechanische und elektronische Schließanlagen, liefert Schlösser, Beschläge und Profilzylinder und macht Ersatz- und Zweitschlüssel, bei Sicherheitsschlüsseln gegen Vorlage der Sicherungskarte; Chipkarten für elektronische Anlagen gibt er aus. Notöffnungen führt er in Dresden und Umgebung durch, ein 24-Stunden-Notruf ist eingerichtet. Zum Programm gehören außerdem Tresore, Waffenschränke, Tresorservice, Torservice mit Garagen- und Sektionaltoren sowie Haus- und Gebäudebeschilderung. Kundschaft sind Privatpersonen, Gewerbekunden und öffentliche Träger; Schließanlagen gehen oft an Hausverwaltungen. Im Stahl- und Metallbau entstehen Balkonanlagen, Treppen, Geländer, Zäune und Tore, Stahlkonstruktionen und Hochwasserschutzanlagen; der Betrieb ist außerdem Schweißfachbetrieb.",
+  "trace": {
+   "tueroeffnung": "Notöffnungen in Dresden und Umgebung"
+  }
+ },
+ {
+  "slug": "dienstleistungsservice-by-rossi-inh-steffen-rosse-dresden",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Dienstleistungsservice by Rossi in Dresden ist in erster Linie ein Schuhmacher: Schuhreparatur steht an erster Stelle, daneben führt der Betrieb einen Schlüsseldienst. Unter Inhaber Steffen Rosse gehört außerdem eine Postfiliale zum Haus. Weitere Leistungen sind Pokale und Stempel, Scherenschleiferei und Messerschleiferei, die Annahme von Textilreinigung und eine Änderungsschneiderei. Der Inhaber beschreibt sich selbst als Ansprechpartner für Schuhreparatur und Schlüsseldienst und bündelt damit viele kleine Dienstleistungen des Alltags an einem Ort in der Stadt. Als Kategorien führt der Betrieb Schuhreparatur, Schlüsseldienst und Postdienst."
+ },
+ {
+  "slug": "xl-gebaeudeservice-ihr-hausmeister-in-dresden-dresden",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "XL-Gebäudeservice ist seit 1999 als Hausmeisterbetrieb in Dresden, Radebeul und Freital tätig. Im Mittelpunkt stehen Hausmeister- und Reinigungsservice, Unterhaltsreinigung, Glasreinigung, Kleinreparaturen und die Überwachung technischer Anlagen. Dazu kommen Renovierung, Bodenbeläge, Gartenpflege und Graffitientfernung. Als eigener Zweig gehört ein Schlossnotdienst dazu: Türöffnungen führt der Betrieb gewaltfrei aus, einen Schlüsselnotdienst nennt er rund um die Uhr, und er erstellt und montiert Schließanlagen. Für Türöffnungen nennt er nach eigener Angabe feste Preise. Für Objekte unter Vertrag besteht ein Notdienst rund um die Uhr. Gearbeitet wird für Immobilieneigentümer und Hausverwaltungen, unter anderem bei der Dokumentation von Mängeln und der Aufsicht über externe Fachfirmen. Renovierungs- und Umbauarbeiten übernehmen eigene Fachhandwerker, die auch Bodenbeläge und Fußbodenaufbauten verlegen. Hausmeister, Reinigung und Schlüsselnotdienst kommen damit aus einer Hand."
+ },
+ {
+  "slug": "schluesseldienst-reinigung-berger-dresden",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Reimund Berger führt in Dresden einen Schlüsseldienst mit angeschlossenem Dienstleistungsservice. Das Angebot reicht von Schlüsseln jeder Art, auch für Zylinderschlösser, Tresore sowie Kasten- und Möbelschlösser, bis zu Autoschlüsseln mit Transponder und Fernbedienung; dafür wird meist das Fahrzeug vor Ort gebraucht. Schlüsselnotdienst bietet er in Dresden und Umgebung an. Als Schwerpunkte nennt der Betrieb Schließanlagen und Einbruchschutz. In der Sicherheitstechnik finden sich Einsteckschlösser, Sonderanfertigungen, elektrische Türöffner, Türschließer, Panikverriegelungen, Beschläge, Sperrpfosten und biometrische Systeme. Dazu verkauft er Tresore, Möbeltresore und Waffenschränke von Burg-Wächter und Hartmann sowie Briefkastenanlagen. Zum Dienstleistungsservice gehören Messerschleifen, Stempel, Gravuren, Textilreinigung und Victorinox-Artikel. Tresore gibt es für unterschiedliche Einbruchsicherheitsklassen und Größen, für den privaten und gewerblichen Bereich, als Schutz für Wertsachen, Dokumente und Erinnerungsstücke. Gravuren und Stempel gibt es auch sofort.",
+  "trace": {
+   "schluessel_nachmachen": "Wir fertigen auch Schlüssel für Zylinderschlössr",
+   "elektronische_schliesssysteme": "biometrische Sicherheitssysteme"
+  }
+ },
+ {
+  "slug": "schloss-metallbau-dittmar-boehme-dresden",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Schloss & Metallbau Böhme in Dresden verbindet Schlosserarbeiten mit Sicherheitstechnik. Das Angebot umfasst Stahl-, Edelstahl- und Metallarbeiten wie Zäune und Balkone sowie Schließanlagen für Haus und Hof. Der Betrieb ist nach eigener Angabe seit vielen Jahren in Dresden und der Region als Dienstleister für Sicherheitstechnik und Metallbau gefragt. Zur Kundschaft zählen Privatleute, Gewerbetreibende, Hausverwaltungen und Immobilienbesitzer, aber auch größere Unternehmen und Industriebetriebe. Als Nebenkategorien führt der Betrieb Schlüsseldienst und Metallveredelung. Metallarbeiten betreffen Haus und Hof, Sicherheitstechnik und Schließanlagen gehören zum selben Betrieb. Die Spannweite der Kundschaft reicht damit vom Wohnhaus bis zur Fabrik, und laufende Projekte sowie Referenzen belegen die Arbeit in der Region. Die Seiten des Betriebs trennen Schloss und Metallbau von den Produkten und Leistungen im Bereich Metallarbeiten. Schlosserarbeiten gehören ausdrücklich zum Profil."
+ },
+ {
+  "slug": "metallbau-schlosserei-sommer-gmbh-co-kg-dresden",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die Metallbau & Schlosserei Sommer GmbH & Co. KG arbeitet in Dresden als Schlosserei und Metallbaubetrieb. Als Kategorien führt der Betrieb neben dem Schlüsseldienst auch Metallbau und Metallverarbeitung, und er tritt im Netz unter dem Namen Metallbau Sommer auf. Die Rechtsform ist eine Kommanditgesellschaft mit einer GmbH als persönlich haftender Gesellschafterin. Als Standort ist Dresden angegeben."
+ },
+ {
+  "slug": "kunst-und-bauschlosserei-peter-klingner-dresden",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die Kunst- und Bauschlosserei Peter Klingner in Dresden geht auf eine Gründung durch Max Großmann im Oktober 1898 zurück. 1938 zog der Betrieb an einen neuen Standort, und 1998 belebte der Urenkel Peter Klingner den langjährigen Firmensitz wieder und führt ihn in vierter Generation fort. Das Leistungsprofil umfasst Stahlkonstruktionen, Tore mit Antrieb, Aluminium und Edelstahl, Restaurierungen, Treppen, Geländer, Zäune, Balkone und Fenster."
+ },
+ {
+  "slug": "obi-hamm",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der OBI Markt in Hamm ist ein Baumarkt mit einem Sortiment aus den Bereichen Bauen, Wohnen, Technik und Garten. Zum Markt gehören ein Küchenstudio, ein Badplaner, ein Gartenplaner, ein Gartencenter, Aquaristik, ein Türen- und Fenster-Studio und ein Holzzuschnitt-Service, dazu Mietgeräte, Werkzeugverleih und ein Container-Mietservice. Montage wird für Solaranlagen, Terrassenüberdachungen und Wärmepumpen angeboten. Der Schlüsseldienst des Marktes beschränkt sich auf das Anfertigen von Schlüsseln, die sofort mitgenommen werden können. Für den Einbruchschutz führt der Markt Alarmanlagen, Kameras und Bewegungsmelder. Dazu kommen Geschenkkarten und ein Umtausch innerhalb von drei Monaten.",
+  "trace": {
+   "schluessel_nachmachen": "Schlüsseldienst Für dich sofort angefertigt – direkt zum Mitnehmen",
+   "ladengeschaeft": "Willkommen im OBI Markt Hamm"
+  }
+ },
+ {
+  "slug": "schluesseldienst-tueroeffnung-s-z-hamm-hamm",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "false",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "false",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüsseldienst & Türöffnung S/Z Hamm ist ein mobiler Notdienst, der ausschließlich beim Kunden vor Ort arbeitet und kein Ladengeschäft führt. Er ist an sieben Tagen die Woche rund um die Uhr erreichbar, auch an Sonn- und Feiertagen, und kommt nach eigener Angabe in der Regel innerhalb von 20 bis 40 Minuten, im Umkreis von bis zu 40 Kilometern um Hamm. Er öffnet Wohnungs-, Auto- und Tresortüren, wenn möglich ohne Schaden am Schloss. Weitere Leistungen sind die Reparatur von Mehrfachverriegelungen, die Beseitigung von Einbruchschäden, der Einbau von Elektrozylindern und Smart-Türschlössern, Zusatz- und Panzerriegel, abschließbare Fenstergriffe, Sicherheitsfolie für Scheiben und gleichschließende Anlagen. Die Preise für Türöffnungen stehen vorab fest. Schlüsselkopien fertigt der Betrieb nicht an. Der Betrieb gibt an, wirklich in Hamm zu sitzen und nicht über ein Callcenter zu arbeiten.",
+  "trace": {
+   "elektronische_schliesssysteme": "Smart Home: Montage von Elektrozylindern"
+  }
+ },
+ {
+  "slug": "auto-schluesseldienst-hamm",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Auto Schlüsseldienst in Hamm hilft bei verlorenen, defekten oder abgenutzten Autoschlüsseln und öffnet im Notfall Fahrzeuge und Haustüren. Das Angebot umfasst Ersatz und Reparatur von Autoschlüsseln, Zündschloss und Startsysteme sowie die Elektronik bei Radänderung. Bei einem defekten Schlüssel gehören Funktest, Tastenfunktion und Batterie zur Überprüfung. Daneben bietet der Betrieb einen klassischen Schlüsseldienst für Hamm und Umgebung an. Ein Notservice rund um die Uhr ist eingerichtet und auch über einen Messenger erreichbar. Nach Absprache arbeitet der Betrieb auch überregional, nach eigener Angabe bis nach NRW und darüber hinaus. Als Fachwerkstatt für Autoschlüssel-Reparatur setzt der Betrieb nach eigener Angabe auf spezielle Produktionsverfahren. Auch bei Problemen mit dem Zündschloss, bei denen sich der Wagen nicht starten lässt, hilft er nach eigener Angabe.",
+  "trace": {
+   "tueroeffnung": "Haus Tür Öffnung",
+   "schluessel_nachmachen": "Ersatz eines verlorenen Autoschlüssels"
+  }
+ },
+ {
+  "slug": "mr-schluesseldienst-hamm-hamm",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Der MR Schlüsseldienst arbeitet in Hamm und den Stadtteilen Heessen, Bockum-Hövel und Rhynern und ist rund um die Uhr erreichbar, auch am Wochenende und an Feiertagen. Der Betrieb öffnet Türen nach eigener Angabe meist ohne Schäden und ist meist in 20 bis 30 Minuten vor Ort. Neben Notöffnungen berät er zu Einbruchschutz und Sicherheitstechnik, prüft vorhandene Sicherungen und montiert Schließzylinder, Zusatzschlösser und Schließanlagen. Bei Schließanlagen reicht das von Gleichschließungen über Hauptschlüssel und Bereichsschlüssel bis zu Zentralschließsystemen für Wohnanlagen. Der Betrieb nennt Festpreise und rechnet transparent ab. Nach eigener Angabe führt er das Geschäft seit fast 20 Jahren. Bei Schließanlagen nennt der Betrieb als Merkmale Mehrfachzugang für Familie oder Mitarbeiter, Schutz gegen Manipulation, Kopierschutz für Schlüssel und Erweiterbarkeit der Anlage. Als Leistungen nennt der Betrieb außerdem Schlosswechsel und Sicherheitslösungen aller Art."
+ },
+ {
+  "slug": "baykan-schuh-und-schluesseldienst-hamm",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Baykan Schuh und Schlüsseldienst in Hamm kombiniert Schuhmacherarbeit mit einem Schlüsseldienst. Der Betrieb ist als Schlüsseldienst eingetragen und führt als Nebenkategorie die Schuhreparatur. Das Angebot verbindet Reparaturen am Schuh mit Arbeiten rund um Schlüssel und richtet sich an Kundschaft aus Hamm, die beides an einer Stelle erledigen lassen will. Der Betrieb hat feste Öffnungszeiten hinterlegt."
+ },
+ {
+  "slug": "schluesselnotdienst-belkouzi-hamm-hamm",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüsselnotdienst Belkouzi Hamm arbeitet in Hamm und Umgebung mit ausgebildeten Monteuren. Der Betrieb öffnet Wohnungs- und Haustüren sowie Fahrzeuge, tauscht Profilzylinder und Einsteckschlösser aus und berät ausführlich zur Absicherung. Nach eigener Angabe sind die Preise transparent und die Wartezeiten kurz. Die Leistungen konzentrieren sich damit auf Notöffnungen und den Austausch von Schließtechnik an Türen.",
+  "trace": {
+   "tueroeffnung": "Wir öffnen Wohnung- und Haustüren, Fahrzeuge",
+   "autoschluessel": "Wir öffnen Wohnung- und Haustüren, Fahrzeuge"
+  }
+ },
+ {
+  "slug": "hammer-schluesseldienst-hamm",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Hammer Schlüsseldienst bietet Türöffnung, Schlüsselnotdienst und Autoöffnung in Hamm und Umgebung und ist rund um die Uhr an sieben Tagen erreichbar. Nach eigener Angabe lässt sich kaum ein Schloss oder Schließsystem nicht beschädigungsfrei öffnen. Für Türöffnungen innerhalb Hamms nennt der Betrieb den Preis nach verbindlicher Vorabsprache; außerhalb der Geschäftszeiten kommt ein Notdienstzuschlag hinzu, und eine Anfahrtspauschale fällt nur außerhalb Hamms an. Für Autoschlüssel unterhält er zusätzlich eine eigene Seite zum Autoschlüsseldienst. Anfragen im Notdienst nimmt er auch über einen Messenger entgegen, bezahlt werden kann bar, mit Karte oder über Paypal. Die Arbeit beginnt nach seiner Angabe mit einer Vorabsprache zum Preis, und die beschädigungsfreie Öffnung ist erklärtes Ziel. Bei Autos gilt: Die Bearbeitung mit einem vorhandenen Schlüssel ist einfacher als ohne.",
+  "trace": {
+   "anfahrtspauschale_genannt": "Hamms an: 20,00 Euro je Einsatz"
+  }
+ },
+ {
+  "slug": "hammer-schluesseldienst-schroeter-fabian-haus-fuer-sicherheit-gmbh-hamm",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schröter + Fabian, Haus für Sicherheit, ist ein Betrieb für Sicherheits- und Elektrotechnik in Hamm. Seit mehr als 30 Jahren beschäftigt er sich mit Sicherheitstechnik und hält sein Personal durch Schulungen und Fachmessen auf dem neuesten Stand. Das Angebot gliedert sich in mechanische Absicherung, elektronische Absicherung, Bauelemente und Antriebstechnik sowie Elektroinstallationen. Vorgestellt werden unter anderem das Startersystem von SimonsVoss, die Alarmanlage von Telenot, die Funkalarmanlage von Daitem, der Türöffner per Knopfdruck von ABUS und das Smart-System von Winkhaus. Zusätzlich sind Garagentore im Programm. Eine Mediathek mit Videobeiträgen erklärt Themen der Sicherheitstechnik, und für Nachbestellungen von Schließzylindern gibt es ein eigenes Angebot. Der Betrieb betont, dass die Sicherung von Räumen und Gebäuden stets eine individuelle Aufgabe ist. Für Bauleistungen hält der Betrieb eine Freistellungsbescheinigung und den Nachweis zur Steuerschuld nach Paragraf 13b bereit.",
+  "trace": {
+   "elektronische_schliesssysteme": "Elektronische Absicherung"
+  }
+ },
+ {
+  "slug": "andreas-schwienhorst-hamm",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Andreas Schwienhorst führt in Hamm einen Betrieb für Innenausbau mit dem Werkstoff Holz, der im Netz als Schwienhorst Innenausbau auftritt. Er arbeitet für Privat- und Gewerbekunden und bildet aus. Als Tischlerei eingetragen, führt er Innenarchitektur und Küchenumbau als Nebenkategorien, dazu den Schlüsseldienst. Das Angebot gliedert sich in einen privaten und einen gewerblichen Bereich."
+ },
+ {
+  "slug": "scherwitz-objektservice-hamm",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Scherwitz Objektservice in Hamm ist ein Facility-Service-Betrieb für Hamm, Kamen, Unna, Dortmund und Münster. Im Zentrum stehen Gebäudereinigung, Unterhaltsreinigung, Glasreinigung, Hausmeisterservice, Grünflächenpflege, Kleinreparaturen und technische Instandhaltung, dazu Montagen, Objektkontrollen und Störungseinsätze auf Abruf. Betreut werden Privatkunden, Gewerbe, Filialisten, Büro- und Gewerbeobjekte sowie Hausverwaltungen und Wohnungsgesellschaften, auf Wunsch über Rahmenverträge mit festgelegten Leistungsstandards. Zusätzlich bietet der Betrieb einen Schlüsseldienst an, mit täglicher Rufbereitschaft von sechs Uhr morgens bis Mitternacht und nach eigener Angabe festen Preisen. Auf Angebotsanfragen für Objekte antwortet der Betrieb innerhalb von 24 Stunden. Zu den technischen Leistungen zählen Wartung und Instandhaltung; im Außenbereich übernimmt der Betrieb Laubentfernung. Außerdem gehören Mülltonnenservice sowie TV- und Möbelmontage zum Angebot. Auch die Reinigung von Treppenhäusern und Büros gehört zu den Arbeiten, daneben Außenanlagenpflege und kurzfristige Einsätze."
+ },
+ {
+  "slug": "wd-sicherheitstechnik-schluesseldienst-wiesbaden",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "WD-Sicherheitstechnik, geführt von Achim Gabriel, ist ein Schlüsseldienst in Wiesbaden, der auch Mainz und das Umland in einem Radius von rund 30 Kilometern bedient. Der Notdienst ist rund um die Uhr erreichbar, auch nachts und an Feiertagen; vor Ort ist er nach eigener Angabe in 20 bis 30 Minuten. Zugefallene und verschlossene Türen öffnet er meist ohne Beschädigung. Dazu kommen Autoschlüssel, auch Funkschlüssel, die vor Ort kopiert und programmiert werden, selbst wenn alle Schlüssel verloren sind, sowie Schlüsselkopien für Haustüren, Briefkästen und Vorhängeschlösser. Der Betrieb montiert Schließzylinder, digitale Zugangssysteme, Panzerriegel und Fenstersicherungen, plant Schließanlagen für Privathaushalte, Gewerbeobjekte und Wohnanlagen, öffnet Tresore und Safes und graviert. Ein Ladengeschäft gehört dazu. Die Kosten nennt der Betrieb vorab, und bei Einbruchschäden stellt er eine Rechnung für die Versicherung aus.",
+  "trace": {
+   "elektronische_schliesssysteme": "Installation moderner Schließzylinder und digitaler Zugangssysteme"
+  }
+ },
+ {
+  "slug": "service-point-city-66-schuh-schluesseldienst-wiesbaden",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Service Point City 66 in Wiesbaden verbindet Schlüsseldienst und Schuhreparatur mit weiteren Kleindienstleistungen. Genannt werden Schlüssel, Schließanlagen, Autoschlüssel und Transponder, außerdem Stempel, Gravuren, Pokale, Namen- und Praxisschilder, Uhr-Batteriewechsel und Näharbeiten. Der Betrieb besteht nach eigener Angabe seit 20 Jahren. Für Schlüssel, Schließanlagen, Autoschlüssel und Transponder ist er damit ebenso Anlaufstelle wie für Reparaturen und Gravuren."
+ },
+ {
+  "slug": "multi-service-wiesbaden",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Multi Service in Wiesbaden ist ein Betrieb mit mehreren Filialen in Wiesbaden, Rüsselsheim, Limburg und Lahnstein. Neben dem Schlüsseldienst gehören Schuhreparatur, Näharbeiten, Lasergravur, Batteriewechsel, Smartphone-Reparatur und Sofortstempel zum Angebot. Beim Schlüsseldienst öffnet der Betrieb zugefallene und verriegelte Türen, wechselt Schlösser und Zylinder und fertigt Ersatzschlüssel an, auch mit einer elektronischen Fräsmaschine. Bei Autoschlüsseln übernimmt er Ersatz, Reparatur und Programmierung. In Notfällen ist der Betrieb nach eigener Angabe rund um die Uhr erreichbar, und ein Sofortservice läuft ohne Termin. Autoschlüsselreparaturen werden in den Filialen angeboten. Der Betrieb betont, dass Notfälle keinen Zeitplan kennen, und hebt Diskretion hervor. Im Sortiment stehen Schlüssel, Schlüsselzubehör und Schließzylinder, weitere Leistungen sind Autoschlüsselreparatur und der Austausch von Batterien. Der Sofortservice kommt ohne Terminvereinbarung aus. Zum Selbstverständnis zählen nach eigener Angabe Werte, Mission und Nachhaltigkeit.",
+  "trace": {
+   "tueroeffnung": "Zugefallene und Verriegelte Türen"
+  }
+ }
+]

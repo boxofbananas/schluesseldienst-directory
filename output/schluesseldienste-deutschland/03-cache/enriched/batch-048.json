@@ -1,0 +1,695 @@
+[
+ {
+  "slug": "bau-und-moebeltischlerei-kraft-gmbh-bergen",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die Bau- und Möbeltischlerei Kraft GmbH in Bergen fertigt Holzmöbel und setzt Bauvorhaben in Maßarbeit um. Der Betrieb arbeitet mit Holz und anderen Materialien in gehobener Qualität und stellt Kundennähe und Präzision heraus. Es handelt sich um eine Tischlerei, nicht um einen Schlüsseldienst: Türöffnungen oder Schlosswechsel gehören nicht zu den genannten Leistungen."
+ },
+ {
+  "slug": "schlossnotdienst-hartmann-bergen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Schlossnotdienst Hartmann in Bergen ist auf Türöffnungen und Türnotöffnungen ausgerichtet und über eine eigene Notdienstnummer erreichbar. Zugefallene Türen öffnet der Betrieb meist zerstörungsfrei mit Spezialwerkzeug. Bei verschlossenen Türen wird in der Regel der Profilzylinder des Türschlosses gezogen, wobei der Zylinder zerstört wird. Türöffnung und Schlossnotdienst bilden den Ausgangspunkt des Angebots. Daneben betreut der Betrieb Immobilien: Objektbetreuung mit Pflege und Instandhaltung, ein Hausmeisterservice und Gartenpflege gehören dazu. Die Wartungs- und Reparaturleistungen sollen Liegenschaften funktionstüchtig, sauber und einladend halten. Der Betrieb beschreibt sich als zuverlässig, schnell und kompetent sowie kunden-, bedürfnis- und serviceorientiert und nennt als Ziel schnelle und effiziente Unterstützung. Der Betrieb setzt auf pünktliche Durchführung seiner Leistungen. Alle Angebote sollen das Wohnen und den Besitz rund um das Haus erleichtern."
+ },
+ {
+  "slug": "schluesseldienst-am-schloss-bruchsal",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "trace": {
+   "ladengeschaeft": "Werkstatt: Mo–Fr 9–18 Uhr · Sa 9–14 Uhr"
+  },
+  "description": "Seit über 35 Jahren arbeitet der Schlüsseldienst am Schloss in Bruchsal und der Region als Partner von WILKA. Der Schwerpunkt liegt auf mechanischen Schließanlagen mit Schließplan und Sicherungskarte, die für Privathäuser, Mehrfamilienhäuser, Büros und Gewerbeobjekte geplant und dokumentiert werden. Dazu kommen Türöffnungen im Notdienst von Montag bis Sonntag, der Austausch von Schließzylindern und Sicherheitszylinder mit Aufbohr-, Pick- und Ziehschutz. Schlüssel werden in der eigenen Werkstatt angefertigt, auch für Schließanlagen, und viele Rohlinge sind vorrätig. Hausverwaltungen und Eigentümergemeinschaften betreut der Betrieb langfristig mit Schlüsseldepot und Kartenverwaltung. Den Preis für Türöffnung und Zylinderwechsel nennt er vorab als Festpreis ohne versteckte Kosten. Das Einsatzgebiet umfasst die Stadtteile von Bruchsal, das nördliche und östliche Umland, Kraichtal und die Hardt mit der Rheinebene, insgesamt 48 weitere Orte der Region."
+ },
+ {
+  "slug": "rp-schliesstechnik-bruchsal",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "false",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "trace": {
+   "gewerblich_objektbetreuung": "Wir bieten Sicherheitskonzepte für Privathaushalte, Gewerbeflächen und Mietobjekte"
+  },
+  "description": "RP Schliesstechnik ist ein mobiler Schlüsselnotdienst für Bruchsal, Ettlingen, Waghäusel und die Umgebung ohne Ladengeschäft. Der Betrieb ist rund um die Uhr im Einsatz, auch nachts, an Wochenenden und an Feiertagen, und gibt eine durchschnittliche Anfahrt von etwa 20 Minuten an. Er öffnet zugefallene Türen schadenfrei, wechselt Schlösser und Zylinder, öffnet Autos und Tresore und rüstet Einbruchschutz nach. Dazu zählen Sicherheitszylinder, Mehrfachverriegelungen, Schließanlagen für Privat und Gewerbe sowie Zutrittssysteme und Smart-Home-Sicherheit. Sicherheitskonzepte entstehen für Privathaushalte ebenso wie für Gewerbeflächen und Mietobjekte, und eine kostenlose Sicherheitsberatung mit Analyse der Schwachstellen gehört ebenfalls zum Angebot. Für die Türöffnung nennt der Betrieb einen Festpreis, den er je nach Schlosstyp und Tageszeit festlegt. Als Leitsätze nennt der Betrieb kurze Anfahrtszeiten, transparente Preise und eine zuverlässige Arbeitsweise; das Einsatzgebiet ist Bruchsal und Umgebung."
+ },
+ {
+  "slug": "niko-s-schuhreparaturen-und-schluesseldienst-bruchsal",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Niko's Schuhreparaturen und Schlüsseldienst in Bruchsal führt Schuhreparaturen und Schlüsseldienst unter einem Dach. Der Betrieb besteht nach eigener Angabe seit 1984 und bietet sämtliche Dienstleistungen aus diesen beiden Bereichen in hochwertiger Qualität an. Als zusätzliche Kategorie ist ein Schlüsselnotdienst hinterlegt. Im Mittelpunkt steht das klassische Handwerk rund um Schuhe und Schlüssel."
+ },
+ {
+  "slug": "eisen-muelfarth-kg-bruehl",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "trace": {
+   "ladengeschaeft": "Gerne beraten wir sie telefonisch oder in unserem Fachhandel vor Ort",
+   "gewerblich_objektbetreuung": "für den Gewerbe-, Handwerker-, Industrie- und Privatkunden"
+  },
+  "description": "Eisen Mülfarth KG in Brühl ist ein Fachhandel für Sicherheitstechnik, Baubeschläge, Befestigungstechnik, Handwerkzeuge und Maschinen, Schrauben und Verbindungstechnik, Eisenwaren und Gartengeräte. Er beliefert Gewerbe-, Handwerker-, Industrie- und Privatkunden mit nach eigener Angabe hochwertigen und innovativen Produkten und versteht sich als zuverlässiger Service-Partner. Zum Haus gehören ein eigener Schlüsseldienst mit Montageservice und ein Sortiment an Schließ- und Sicherungstechnik, darunter Schloss- und Mehrfachverriegelungssysteme sowie elektronische Schließsysteme. Außerdem betreibt der Betrieb eine Rasenmäherwerkstatt und einen Schleifservice für verschiedene Produkte. Verliehen werden unter anderem Vertikutierer, Streuwagen und Schlagbohrmaschinen. Beratung gibt es telefonisch und im Fachhandel vor Ort. Der Betrieb gehört zur Firmengruppe Mülfarth, zu der auch ein Metallbaubetrieb zählt. Öffnungs- und Servicezeiten sowie ein Team mit Ansprechpartnern sind vorgestellt, außerdem führt der Betrieb mehrere Marken."
+ },
+ {
+  "slug": "metallbau-franz-peter-muelfarth-e-k-bruehl",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "trace": {
+   "elektronische_schliesssysteme": "Digitale Schließsysteme"
+  },
+  "description": "Metallbau Franz-Peter Mülfarth e.K. mit Sitz in Brühl plant und baut seit 1947 Lösungen in Metallbau, Schlosserei und Sicherheitstechnik und arbeitet im Raum Brühl, Köln und Bonn. Der Betrieb versteht sich als Planungs- und Ausführungsspezialist. Das Angebot reicht von Türen, Brandschutz- und Schallschutztüren über Fenster, Tore und Garagentore bis zu Handläufen und der Tür- und Torautomation. Beim Einbruchschutz nennt der Betrieb die Nachrüstung von Fenstern, Pilzkopfverriegelungen und Fenster-Zusatzsicherungen. Dazu kommen Brandschutz mit Feststellanlagen und Rauchschutztüren sowie Schließtechnik mit digitalen Schließsystemen. Zu den Serviceleistungen zählt ein Schlüsseldienst. Der Betrieb gehört zu einer Firmengruppe, bildet aus und zeigt eine Auswahl aktueller Projekte. Dazu zählen Schlosserarbeiten, Geländer und Treppenhandläufe, Schallschutz sowie Rauchschutz für Türen im Außenbereich. Der Betrieb nennt auch Aktuelles aus der Firmengruppe und einen Bereich für Anfahrt und Kontakt."
+ },
+ {
+  "slug": "tischlerei-reutter-bruehl",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die Tischlerei Reutter in Brühl ist ein Tischlerbetrieb, kein Schlüsseldienst. Im Mittelpunkt stehen Fenster aus Holz und Kunststoff, die der Betrieb auch einbaut und repariert, sowie Türen, darunter Haustüren und Zimmertüren. Dazu kommen Beschlagarbeiten. Im Innenausbau fertigt der Betrieb individuelle Möbel, bringt Möbelbeschläge an und übernimmt Trockenbau mit abgehängten Decken und Wänden. Außerdem baut er Spielgeräte und Spielgerüste sowie Terrassen. Türöffnungen oder Schlossarbeiten zählen nicht zu den genannten Leistungen der Tischlerei. Auch Kunststofffenster werden angeboten. Die Tischlerei zeigt ihre Leistungen auf einer eigenen Seite und ist in Brühl ansässig."
+ },
+ {
+  "slug": "obi-leipzig-burghausen-burghausen",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "trace": {
+   "schluessel_nachmachen": "Für dich sofort angefertigt – direkt zum Mitnehmen",
+   "ladengeschaeft": "Dein OBI Markt Leipzig-Burghausen, Miltitzer Straße 13"
+  },
+  "description": "Als Baumarkt im Leipziger Stadtteil Burghausen führt der OBI Markt Leipzig-Burghausen ein breites Sortiment aus Bauen, Wohnen, Technik und Garten. Zu den Services zählen ein Küchenstudio, Bad- und Gartenplaner, Mietgeräte und Werkzeugverleih, Holzzuschnitt und ein Farbmischservice. Dazu kommen ein Containermietservice sowie Solaranlagen und Terrassenüberdachungen nach Maß, jeweils mit Beratung und Montage. Umtausch ist innerhalb von drei Monaten möglich, und Geschenkkarten gibt es in vielen Designs. Schlüssel werden im Markt sofort angefertigt und können direkt mitgenommen werden, ein Schlüsseldienst für Türöffnungen wird nicht beschrieben."
+ },
+ {
+  "slug": "pfefferl-s-schluesselnotdienst-und-hausmeisterservice-burghausen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Pfefferl's Schlüsselnotdienst und Hausmeisterservice in Burghausen verbindet einen Schlüsselnotdienst mit Hausmeisterleistungen. Zum Angebot gehört neben dem Notdienst die Betreuung von Gebäuden durch einen Hausmeisterservice. Der Betrieb arbeitet nach eigener Angabe zu jeder Tageszeit und nennt die Preise schon im ersten Gespräch. Anschließend hält er sie wie besprochen ein, Überraschungen bei der Abrechnung soll es nicht geben."
+ },
+ {
+  "slug": "schuh-und-schluesseldienst-stefan-rothaug-burghausen",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "trace": {
+   "schluessel_nachmachen": "fertigt preiswert alle gängigen Duplikate für Zimmer-, Haustür- und Autoschlüssel an",
+   "ladengeschaeft": "Unser Geschäft finden Sie direkt im Löwen Center Leipzig"
+  },
+  "description": "Der Schuh- und Schlüsseldienst von Stefan Rothaug hat sein Geschäft im Einkaufszentrum Löwen Center im Leipziger Stadtteil Burghausen und besteht nach eigener Angabe seit mehr als 25 Jahren. Er repariert Schuhe und Lederwaren und fertigt Schlüsselduplikate für Zimmertüren, Haustüren und Autos an. Vorhängeschlösser und Schließzylinder gibt es auf Anfrage. Hinzu kommen Batteriewechsel, etwa für Uhren und Autoschlüssel, sowie Zubehör wie Schlüsselringe, Anhänger und Etuis. Das Geschäft hat Montag bis Samstag geöffnet und legt Wert auf Transparenz, Freundlichkeit und Zuverlässigkeit gegenüber den Kunden. Als schneller Fachservice erledigt es Aufträge, während die Kunden einkaufen. Türöffnungen nennt der Betrieb nicht; der Schlüsselservice ist ein Angebot an der Ladentheke neben der Schuhreparatur. Eine Übersicht der Dienstleistungen steht als PDF bereit. Neben Schuh- und Lederwaren und dem Schlüsselservice bietet das Geschäft den Batteriewechsel als eigenen Punkt an."
+ },
+ {
+  "slug": "obi-bueckeburg",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "trace": {
+   "schluessel_nachmachen": "Für dich sofort angefertigt – direkt zum Mitnehmen",
+   "ladengeschaeft": "Dein OBI Markt Bückeburg, Kreuzbreite 5"
+  },
+  "description": "Der OBI Markt in Bückeburg ist ein Baumarkt mit Sortiment aus den Bereichen Bauen, Wohnen, Technik und Garten, dazu kommt ein eigenes Gartencenter. Im Markt gibt es Mietgeräte und Werkzeugverleih, Holzzuschnitt und einen Farbmischservice. Größere Vorhaben begleitet der Markt mit Beratung und Montage, so bei Solaranlagen, Wärmepumpen und Terrassenüberdachungen nach Maß; außerdem gibt es einen Containermietservice. Gekaufte Ware kann innerhalb von drei Monaten umgetauscht werden. Zu den Services zählt auch die Schlüsselanfertigung: Schlüssel entstehen sofort und gehen direkt mit. Mit Türöffnungen oder Schlosswechseln befasst sich der Markt nicht."
+ },
+ {
+  "slug": "bueckeburger-schuh-und-schluesseldienst-bueckeburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Bückeburger Schuh- und Schlüsseldienst ist eine Schuhmacherei, die zusätzlich Schlüssel nachmacht und weitere Belange rund um Schlüssel übernimmt. Der Inhaber bringt nach eigener Angabe Jahrzehnte Erfahrung als Schuhreparateur mit. Genäht wird alles Mögliche, vom Reiterstiefel bis zur Motorradkleidung. Das Geschäft ist von Montag bis Samstag vormittags von 9 bis 13 Uhr besetzt."
+ },
+ {
+  "slug": "metallbaumeister-albrecht-bueckeburg",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Metallbaubetrieb Albrecht in Bückeburg verbindet nach eigener Angabe langjährige Erfahrung im Metallbau mit moderner Metallverarbeitung. Das Leistungsspektrum reicht von Zäunen, Toren und Carports über Geländer, Handläufe und Balkonanbauten bis zum Treppen- und Stahlbau, einschließlich Schweißarbeiten und Schlosserarbeiten. Montiert wird im Umkreis von 60 Kilometern, unter anderem in Hannover, Minden und Hameln. Es ist ein Betrieb des Metallbaus, ein Schlüsseldienst für Türöffnungen wird nicht beschrieben."
+ },
+ {
+  "slug": "obi-cottbus",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "trace": {
+   "schluessel_nachmachen": "Für dich sofort angefertigt – direkt zum Mitnehmen",
+   "ladengeschaeft": "Dein OBI Markt Cottbus, Madlower Chaussee 4"
+  },
+  "description": "In Cottbus bietet der OBI Markt ein breites Baumarktsortiment aus Bauen, Wohnen, Technik und Garten. Geplant wird im Küchenstudio und mit dem Gartenplaner; außerdem gibt es ein Gartencenter, Mietgeräte und Werkzeugverleih, Holzzuschnitt und einen Farbmischservice. Für größere Vorhaben stehen ein Containermietservice sowie Solaranlagen, Wärmepumpen und Terrassenüberdachungen mit Beratung und Montage bereit. Ware lässt sich innerhalb von drei Monaten umtauschen, und Geschenkkarten gibt es in vielen Designs. Auch Schlüssel fertigt der Markt an, sofort und zum Mitnehmen. Ein Schlüsseldienst, der Türen öffnet, ist damit nicht beschrieben."
+ },
+ {
+  "slug": "schuh-und-schluesselservice-cottbus",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "trace": {
+   "ladengeschaeft": "Werkstatt & Annahmestellen",
+   "festpreis_genannt": "Kleine Schlüsselab 8,90 EUR Große Schlüsselab 13,90 EUR"
+  },
+  "description": "Das Service-Center für Schuh- und Schlüsseldienst in Cottbus arbeitet nach eigener Angabe seit über 45 Jahren als Handwerksbetrieb. Es repariert Schuhe für Damen und Herren, kopiert Schlüssel aller Art, vom einfachen Schlüssel über Zylinder- und Spezialschlüssel bis zu Zimmertür- und Autoschlüsseln, graviert auf verschiedenen Materialien und übernimmt Schleifarbeiten. Die Preise für die Schlüsselkopien stehen offen auf der Leistungsseite. Die Arbeiten entstehen in der eigenen Werkstatt, und für Kunden aus der Umgebung gibt es Annahmestellen in Calau, Lübbenau und Guben. Das Team nimmt sich Zeit für jedes Stück und berät persönlich, ob es um Lieblingsschuhe, einen Ersatzschlüssel oder eine Gravur geht. Am Wochenende bleibt das Geschäft geschlossen. Eine Türöffnung gehört nicht zu den genannten Leistungen. Auch Zylinderschlüssel und Schlüssel mit Bohrung werden kopiert."
+ },
+ {
+  "slug": "poley-sicherheitstechnik-cottbus",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "POLEY Sicherheitstechnik von Marlies Poley sitzt in Cottbus-Madlow und befasst sich mit Schließanlagen. Das Angebot gliedert sich nach der Art der Anlage: Generalhauptschlüsselanlagen, Hauptschlüsselanlagen, Hauptschlüssel mit Zentralschloss, reine Zentralschlossanlagen und Zentralschlossanlagen mit übergeordnetem Schlüssel. Daneben werden Komplettanlagen genannt, und auch die Postnorm ist ein eigenes Thema. Die Gliederung zeigt Anlagen vom einzelnen Zentralschloss bis zur Komplettlösung für ganze Objekte, abgestuft nach den Ebenen der Schlüssel. Informationen zum Service und zu den Allgemeinen Geschäftsbedingungen stehen ebenfalls bereit. Die Firma tritt als Einzelunternehmen auf."
+ },
+ {
+  "slug": "dj-gmbh-detmold",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Die DJ GmbH aus Detmold, geführt von Dirk Jacobi, arbeitet rund um Haus und Gebäude in Montage, Brandschutz und Sicherheitstechnik. Als Schlüsselnotdienst mit 24-Stunden-Nummer öffnet der Betrieb Türen im Notfall für Privatpersonen, Polizei, Feuerwehr und weitere Behörden. Beim Einbruchschutz nennt er Lösungen nach DIN 18104 Teil 1 und 2, die parallel zur Montage oder nachträglich eingebaut werden. Hinzu kommen die Montage von Rauchwarnmeldern für private und gewerbliche Kunden, für die der Betrieb die Norm DIN 14676 nennt, Wartung und Service, ein Glasnotdienst mit Notverglasung, Türwächter und Vermietungen. Beratung, Montage und Wartung stehen jederzeit zur Verfügung, und die Sicherheit des Eigentums bildet den Kern der Arbeit. Das Einsatzgebiet liegt in Detmold und Umgebung. Garagen und Türen gehören zu den Montagearbeiten, und der Betrieb beschreibt sich als erfahrenes Team für Haus und Gebäude."
+ },
+ {
+  "slug": "e-richter-sicherheitstechnik-schluesselnotdienst-detmold",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "trace": {
+   "gewerblich_objektbetreuung": "Blitzschnelle Türöffnung plus moderne Sicherheitstechnik für Haus, Wohnung und Gewerbe"
+  },
+  "description": "Hinter dem Schlüsseldienst mit den Karos in Detmold steht E. Richter Sicherheitstechnik und Schlüsselnotdienst. Der Betrieb ist an 365 Tagen rund um die Uhr erreichbar, auch an Feiertagen, und öffnet Wohnungen, Häuser, Fahrzeuge vom Pkw bis zum Lkw, Boote, Tresore und Wertschutzschränke, in den meisten Fällen ohne Beschädigung. Für die Türöffnung nennt er einen Pauschalpreis einschließlich Steuer und Anfahrt. Bei Mehrfachverriegelungen oder Panzerriegeln spricht er den Mehraufwand vor Beginn an. Dazu kommen Beratung zum Einbruchschutz mit schriftlichem Konzept, Alarm- und Videotechnik, Schließanlagen und Sicherheitstechnik für Haus, Wohnung und Gewerbe. Schränke verschiedener Widerstandsklassen öffnet der Betrieb möglichst schonend, der Inhalt wird vertraulich behandelt. Er hat weitere Standorte und informiert auf seiner Seite über unseriöse Anbieter. Bezahlt werden kann ohne Bargeld, per Karte oder online."
+ },
+ {
+  "slug": "schluesseldienst-detmold-wilhelm-isaak-detmold",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Wilhelm Isaak betreibt in Detmold einen Schlüsseldienst, der Schlüssel nachmacht und Türen öffnet. Als kleine Dienstleistungen am Rande kommen der Wechsel von Uhrenbatterien und Näharbeiten hinzu. Der Betrieb führt damit ein kleines Servicegeschäft, bei dem Schlüsselarbeiten und Türöffnung an erster Stelle stehen und Alltagsreparaturen daneben angeboten werden. Der Betrieb sitzt in Detmold."
+ },
+ {
+  "slug": "schluesseldienst-schloss-aktiv-dinslaken",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Schlüsseldienst Schloss Aktiv in Dinslaken ist ein Schlüsselnotdienst mit 24-Stunden-Service. Er kommt nach eigener Angabe innerhalb von 10 bis 30 Minuten zum Einsatzort und öffnet zugefallene, zugezogene oder verschlossene Türen zerstörungsfrei in allen Stadtteilen. Weitere Leistungen sind die Öffnung von Autos und Tresoren, der Austausch defekter Schlösser und Profilzylinder, Schließanlagen, Einbruchschutz und Sicherheitstechnik. Der Betrieb sieht sich als Anlaufstelle bei Ausgesperrtsein, Schlüsselverlust und defektem Schloss und montiert fachgerecht moderne Schließsysteme für Türen und Fenster. Zum Preis der Türöffnung gibt es vorab Auskunft; der Betrieb bietet sie zum Festpreis an und nennt Anfahrtskosten und Zuschläge schon im Voraus. Er arbeitet mobil, bezeichnet seine Spezialisten als erfahren und die Ausrüstung als umfangreich und verweist auf eine eigene Preisliste. Mit Türöffnung, Schlosswechsel und Einbruchschutz deckt er die üblichen Notfälle rund um Haus und Wohnung ab."
+ },
+ {
+  "slug": "gaida-witzke-sicherheitstechnik-gmbh-dinslaken-dinslaken",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "trace": {
+   "festpreis_genannt": "Natürlich klären wir Sie bereits am Telefon und vor der Türöffnung über die anfallenden Kosten auf",
+   "gewerblich_objektbetreuung": "Moderne Sicherheitslösungen für Privatkunden und Unternehmen"
+  },
+  "description": "Das Handwerks- und Dienstleistungsgeschäft Gaida Sicherheitstechnik arbeitet seit über 50 Jahren in Dinslaken und ist auch in Gelsenkirchen tätig. Als Facherrichter für Sicherheitstechnik und Partner des Netzwerks Zuhause sicher betreut es Privatkunden und Unternehmen mit Schlüsselnotdienst, Schließanlagen bis zur Generalhauptschlüsselanlage, mechanisch und elektronisch, Haussicherheit, Sicherheitsfenstern, Alarmanlagen und Rauchmeldern. Schlüssel aller Art, auch Autoschlüssel mit Wegfahrsperre oder Fernbedienung, werden in den Filialen zeitnah angefertigt, Ersatzschlüssel für verschiedene Automarken ebenfalls. Der Betrieb öffnet und wartet Tresore, tauscht Schlösser, Zylinder und Beschläge aus und sichert Fenster, Türen und Glasflächen. Gravuren reichen von der Handgravur bis zur CNC-Gravur. Dazu kommen Garagentore und Insektenschutzgitter. Die Kosten nennt er schon beim ersten Kontakt und vor der Türöffnung. Der Betrieb sitzt in Bahnhofsnähe und stellt Zuverlässigkeit, Professionalität und regionale Nähe heraus."
+ },
+ {
+  "slug": "schroeter-markus-dinslaken",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "trace": {
+   "ladengeschaeft": "Unsere Werkstatt mit Büro finden Sie auf der Kleiststraße 39 in Dinslaken"
+  },
+  "description": "Die Tischlerei von Markus Schröter in Dinslaken arbeitet zugleich als Schlüsseldienst und besteht nach eigener Angabe seit mehr als 20 Jahren. Neben Möbeln, Innenausbau sowie Fenstern und Türen liefert und montiert der Betrieb Sicherheitsbeschläge, Schlösser und Schließzylinder, außerdem mechanische und elektronische Schließanlagen. Er berät zur Sicherung von Fenstern und Türen und führt Sicherheitstechnik von Burg-Wächter und ABUS, ebenso Tresore und Rauchmelder. Als 24-Stunden-Schlüsselnotdienst fährt er zu den Kunden und fertigt Schlüsselkopien auch bei ihnen zu Hause. Der Betrieb arbeitet präzise und sieht sich als Partner für Möbel, Schlösser, Innenausbau, Einbruchschutz sowie Fenster und Türen im Großraum Dinslaken. Die Werkstatt mit Büro liegt in Dinslaken, Besuche werden am besten abgestimmt, weil das Büro nicht immer besetzt ist. Die Tischler beraten außerdem zu Fenstern, Türen und Möbeln nach Wunsch."
+ },
+ {
+  "slug": "handwerkshofshop-puchalski-ug-dorsten",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Handwerkshofshop Puchalski UG mit Sitz in Dorsten ist ein Lebensmittelgeschäft mit Lotto-Annahme und Postdienstleistungen. Kunden können dort Lottoscheine abgeben und Postgeschäfte erledigen, zum Geschäft gehört außerdem ein Lieferangebot. Der Schwerpunkt liegt auf dem Einkauf des täglichen Bedarfs, der Betrieb tritt nicht in erster Linie als Schlüsseldienst auf. Er ist als Unternehmergesellschaft geführt."
+ },
+ {
+  "slug": "raiffeisen-hohe-mark-hamaland-eg-raiffeisen-markt-lembeck-mit-sb-tankstelle-dorsten",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Raiffeisen-Markt Lembeck mit SB-Tankstelle gehört zur Genossenschaft Raiffeisen Hohe Mark Hamaland eG und betreibt in Dorsten einen Markt für Haus und Hof. Das Sortiment umfasst Produkte für Heim- und Nutztiere, Reitsport, Berufs- und Freizeitbekleidung, Gartenbedarf und Pflanzen sowie Dekoration und Spielwaren. Regionale Lebensmittel und viele Getränke ergänzen es. Dazu kommen ein Verleihservice und ein Kommissionsgeschäft für Feiern. Die Genossenschaft stellt außerdem Futtermittel her und ist in Agrar und Pflanzenbau tätig. Als Schlüsseldienst für Türöffnungen tritt der Markt nicht auf."
+ },
+ {
+  "slug": "schluesselmuehle-schluesseldienst-dorsten",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die Schlüsselmühle ist ein Schlüsseldienst in Dorsten, der an 365 Tagen im Jahr rund um die Uhr arbeitet, auch an Feiertagen. Er öffnet ausgesperrte Türen ohne Schäden, hilft bei defekten Schlössern und Schließzylindern und öffnet Autos beschädigungsfrei. Für die Türöffnung nennt der Betrieb einen feststehenden Preis ohne versteckte Kosten. Auch Tresore öffnet er diskret und schonend, etwa wenn der Schlüssel verloren ist und wichtige Dokumente oder Wertgegenstände betroffen sind. Beim Einbruchschutz analysiert er Schwachstellen an Türen und Fenstern und empfiehlt Lösungen wie Panzerriegel, hochwertige Schließzylinder, Schließanlagen und Alarmanlagen. Die ausgebildeten Fachkräfte beraten dazu individuell und installieren die Technik. Der Betrieb nennt sich zuverlässig, schnell und transparent und sieht sich als regionalen Partner mit Fachwissen. Ein Blog und Antworten auf häufige Fragen gehören zum Auftritt."
+ },
+ {
+  "slug": "toom-baumarkt-eberswalde-eberswalde",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "trace": {
+   "ladengeschaeft": "Dein toom Baumarkt in 16227 Eberswalde, Eberswalder Straße 4. Öffnungszeiten, Services und alle aktuellen Angebote"
+  },
+  "description": "Der toom Baumarkt in Eberswalde ist ein Baumarkt mit Abteilungen für Bauen und Renovieren, Bad und Sanitär, Garten und Freizeit, Wohnen und Haushalt sowie Werkstatt und Maschinen. Dazu gehören Gartencenter, Farben und Innendekoration, Bodenbeläge, Holz, Baustoffe sowie Fenster, Türen und Vordächer. Messwerkzeuge, Handwerkzeuge, Reinigungsmaschinen und Elektrowerkzeuge führt der Markt ebenso wie Eisenwaren und Beschläge und Artikel für Haustechnik und Sicherheit. Zu den Services zählen Abholung im Markt, eine Lieferung am selben Tag, ein Handwerksservice, ein Entsorgungsservice und eine Finanzierung. Ein Online-Prospekt und eine Vorteilskarte ergänzen das Angebot. Ein Schlüsseldienst, der Türen öffnet, wird nicht beschrieben. Der Markt gehört zur toom Baumarkt GmbH und führt neben Wandfarben auch Lacke und Holzschutz sowie Bauzubehör für Renovierungen. Zur Auswahl gehören außerdem Bodenbeläge, Holz und Baustoffe für größere Umbauten."
+ },
+ {
+  "slug": "schluesseldienst-eberswalde-goeritz-sicherheitstechnik-eberswalde",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Göritz Sicherheitstechnik in Eberswalde verbindet mechanischen und elektronischen Einbruchschutz mit einem Notfall-Schlüsseldienst, der Türnotöffnungen und Aufsperrdienst rund um die Uhr leistet. Der Betrieb plant Schließanlagen mit Schließplan und Hierarchie vom Generalschlüssel bis zum Einzelschlüssel, rüstet Fenster und Türen nach und führt digitale Zutrittskontrolle per Chip oder App ein, für Eigenheime, Wohnanlagen, Pflegeheime, Büros und Unternehmen. Alarmanlagen, Videoüberwachung und Smart-Home-Technik gehören ebenfalls dazu. Schlüsselduplikate und Schließzylinder entstehen direkt vor Ort in der eigenen Manufaktur, auch Autoschlüssel gehören zum Angebot. Der Betrieb folgt dem Prinzip, erst mechanisch zu sichern und dann elektronisch zu überwachen, und beginnt mit einer Analyse vor Ort, weil jedes Gebäude anders ist. Beraten wird diskret und persönlich. Arbeitsgebiet sind Eberswalde und Bernau. Zum Auftritt gehören außerdem Wartung und Service, Referenzen und eine Beratung vor dem Einbau."
+ },
+ {
+  "slug": "bauschlosserei-witte-eberswalde",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die Bauschlosserei Witte in Eberswalde fertigt Zaun- und Toranlagen und übernimmt Reparaturaufträge sowie Stahlbau. Außerdem bietet der Betrieb einen Schlüsseldienst in und um Eberswalde an. Im Mittelpunkt stehen handwerkliche Metallarbeiten für Haus und Grundstück. Der Betrieb sitzt in Eberswalde und arbeitet auch für Kunden in der Umgebung. Es handelt sich um eine Schlosserei des Bauhandwerks."
+ },
+ {
+  "slug": "obi-markt-eisenhuettenstadt-eisenhuettenstadt",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "trace": {
+   "schluessel_nachmachen": "Für dich sofort angefertigt – direkt zum Mitnehmen",
+   "ladengeschaeft": "Dein OBI Markt Eisenhüttenstadt, Am Wiesengrund 1"
+  },
+  "description": "Zum Warenangebot des OBI Markts Eisenhüttenstadt zählen Bauen, Wohnen, Technik und Garten. Der Markt hat ein Gartencenter mit Gartenmöbeln, vermietet Geräte, Werkzeug und Anhänger und bietet Holzzuschnitt. Geplant werden Küche, Bad und Garten mit eigenen Planern. Größere Projekte wie Solaranlagen und Wärmepumpen begleitet der Markt mit Beratung und Montage, außerdem gibt es einen Containermietservice. Umtausch ist innerhalb von drei Monaten möglich. Schlüssel fertigt der Markt sofort an, sie können direkt mitgenommen werden. Türöffnungen und Schlosswechsel gehören nicht zu den beschriebenen Leistungen."
+ },
+ {
+  "slug": "sos-schluesseldienst-brose-eisenhuettenstadt",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "trace": {
+   "tueroeffnung": "Sie haben sich ausgesperrt? Wir öffnen im SOS Modus rund um die Uhr"
+  },
+  "description": "Der SOS Schlüsseldienst Brose arbeitet im Eisenhüttenstädter Ortsteil Fürstenberg und versteht sich als kompetenter Dienstleister für mechanische und elektronische Schließanlagen in der Region. Wer sich ausgesperrt hat, dem öffnet der Betrieb im SOS Modus rund um die Uhr die Tür. Für Haus und Eigenheim entwickelt er individuelle Lösungen zum Einbruchschutz. Beratung und Montage sollen dabei perfekt sein, so der Leitgedanke des Betriebs. Sein Motto lautet Sesam öffne dich, sein Leitsatz schnell, ordentlich, sicher. Damit deckt der Betrieb Zugang, Sicherung und Schließtechnik von der ersten Beratung bis zum Einbau bei einem Anbieter ab und richtet sich an Besitzer von Wohnhäusern in Eisenhüttenstadt und der näheren Umgebung. Die Firmenbeschreibung stellt den Betrieb als regionalen Ansprechpartner für Schließtechnik vor. Zum Angebot zählen die Öffnung ausgesperrter Türen, die Beratung zur Sicherung des Hauses und der Einbau der Technik."
+ },
+ {
+  "slug": "sag-sicherheitstechnik-eisenhuettenstadt",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "SAG Sicherheitstechnik in Eisenhüttenstadt ist ein Anbieter von Sicherheitstechnik rund um Alarmanlagen und Wachdienst. Die zugehörige Internetseite stellt die Lehmann Service GmbH vor, einen Fachbetrieb für Messstellentechnik, Rauchmelder, Dachrinnenreinigung mit Kamerainspektion und Immobilienbetreuung. Mehrere Einsatzgebiete und Standorte sind dort aufgeführt, als Ort ist zusätzlich Berlin hinterlegt. Referenzen zeigen ausgeführte Arbeiten."
+ }
+]

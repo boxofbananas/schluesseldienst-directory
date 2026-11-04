@@ -1,0 +1,816 @@
+[
+  {
+    "slug": "o-keys-pfungstadt",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Zwei Standorte in Pfungstadt und Griesheim führt O-Keys, ein unabhängiger, inhabergeführter Schlüsseldienst, der nach eigener Angabe seit 2000 besteht und zugleich Schuhe repariert. Der Betrieb öffnet zugefallene Türen, nach eigener Angabe in nahezu allen Fällen ohne Beschädigung, und hält Schließzylinder in Einzel- und Doppelausführung in allen Längen bereit. Bei Schließanlagen übernimmt er Beratung und Montage, auch die Modernisierung bestehender Anlagen. Autoschlüssel gehören ebenfalls dazu: Funkschlüssel, Transponderschlüssel und Keyless-Go-Schlüssel werden codiert und programmiert. Ersatzschlüssel für Haus, Briefkasten, Bad und Auto entstehen in der Filiale, wo außerdem Schlüsselzubehör vorrätig ist. Außerhalb der Ladenzeiten steht ein Schlüsselnotdienst bis 24 Uhr bereit, werktags wie an Sonn- und Feiertagen. Die Preise für die Türöffnung nennt der Betrieb offen und unterscheidet dabei zwischen Werktagen und Sonn- und Feiertagen. Die Arbeit gilt Wohn-, Gewerbe- und Autoschlössern."
+  },
+  {
+    "slug": "schluesseldienst-kst-pinneberg-inh-robert-schroeder-pinneberg",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "In Pinneberg führt Robert Schroeder den Schlüsseldienst KST mit eigenem Ladenlokal und einer Werkstatt, in der Schlüssel manuell oder CNC gestützt kopiert werden, auch Schließanlagenschlüssel. Das Angebot reicht vom Zylinderwechsel und neuen Türbeschlägen über Beratung zu Fenster- und Türsicherheit gegen Einbruch bis zur Planung, Montage und Reparatur von Schließanlagen. Für Hausverwaltungen misst der Betrieb Anlagen aus, baut sie aus und wieder ein, prüft und dokumentiert. Bei Notfällen wie einer zugefallenen Tür öffnet er die Tür und baut defekte Teile neu ein. Im Sortiment stehen Tresore, Wertschutzschränke und Geldkassetten von Rottner sowie Produkte von Abus, außerdem Schilder und Stempel. Das Ladenlokal steht für eine persönliche Beratung offen. Das Spektrum reicht vom Briefkastenschloss bis zur motorisch getriebenen Türverriegelung, und der Betrieb setzt ausschließlich auf Produkte namhafter Hersteller.",
+    "trace": {
+      "tueroeffnung": "Tür geöffnet, kaputte Teile wurden neu eingebaut und alles ging wieder",
+      "einbruchschutz": "gegen Einbrüche"
+    }
+  },
+  {
+    "slug": "obi-markt-muenchen-martinsried-planegg",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Als Baumarkt im Planegger Ortsteil Martinsried führt der OBI Markt ein breites Sortiment aus den Bereichen Bauen, Wohnen, Technik und Garten. Zu den Services am Markt gehört ein Schlüsseldienst, der Schlüssel sofort anfertigt, sodass sie direkt mitgenommen werden können. Daneben gibt es einen Container-Mietservice, Mietgeräte und Werkzeugverleih, Holzzuschnitt und Farbmischservice. Der Markt bietet außerdem Solaranlagen und Wärmepumpen mit Beratung und Montage sowie Terrassenüberdachungen nach Maß mit Montage an. Gekaufte Ware lässt sich innerhalb von drei Monaten umtauschen, und Geschenkkarten sind erhältlich.",
+    "trace": {
+      "schluessel_nachmachen": "Schlüsseldienst Für dich sofort angefertigt – direkt zum Mitnehmen",
+      "ladengeschaeft": "Dein OBI Markt München-Martinsried, Lena-Christ-Str. 54"
+    }
+  },
+  {
+    "slug": "schluesseldienst-gruber-plankstadt",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "true",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Als Familienunternehmen besteht Schlüsseldienst Gruber nach eigener Angabe seit 1998 und sitzt in Plankstadt. Von dort fährt der Betrieb Mannheim, Heidelberg, Schwetzingen, Oftersheim, Ketsch, Brühl, Eppelheim, Sandhausen, Ludwigshafen, Ilvesheim, Ladenburg, Schriesheim und Dossenheim an. Er ist rund um die Uhr erreichbar, auch an Sonn- und Feiertagen, und gibt Reaktionszeiten von wenigen Minuten bis zu einer guten halben Stunde an. Der Schwerpunkt liegt auf beschädigungsfreien Türöffnungen jeder Art mit professionellen Werkzeugen und Methoden, hinzu kommen Autoöffnungen, Schlosswechsel und Einbruchschutz. Die Türöffnung wird mit festem Preis angeboten, Anfahrtskosten fallen nicht an. Auch für Unternehmen aus der Region übernimmt der Betrieb Schlüsselnotdienste. Der Betrieb sieht sich als Ansprechpartner für Schlüsselprobleme jeder Art in Plankstadt und der Umgebung. Als Leitgedanken nennt der Betrieb Familienunternehmen seit 1998 und schnelle Hilfe.",
+    "trace": {
+      "gewerblich_objektbetreuung": "Auch für Unternehmen aus der Region übernehmen wir Schlüsselnotdienste"
+    }
+  },
+  {
+    "slug": "schlosserei-ralph-graeber-plochingen",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Die Schlosserei Gräber in Plochingen ist ein Metallbaubetrieb. Im Mittelpunkt stehen Arbeiten in Stahl und Edelstahl: Treppen, Geländer, Balkongeländer, Vordächer, Vergitterungen und Toranlagen. Der Betrieb plant, erstellt und montiert diese Anlagen selbst. Zum Leistungsumfang gehören außerdem Schließanlagen, die er als Fachhandelspartner verschiedener Hersteller plant, liefert und montiert. Bilder seiner Arbeiten zeigt er in einer Fotogalerie, und die Leistungen sind nach Bereichen von Treppen bis Schließanlagen gegliedert. Zu den Arbeiten zählen Planung, Erstellung und Montage, jeweils nach Kundenwunsch. Edelstahlarbeiten bilden einen eigenen Schwerpunkt."
+  },
+  {
+    "slug": "josef-gottlieb-handel-vertrieb-e-k-pocking",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Ein Fachgeschäft für Eisenwaren ist Josef Gottlieb in Pocking, mit Baubeschlägen, Spenglereibedarf, Heizungs- und Sanitärzubehör, Lüftungsfiltern, Werkzeug, Maschinen und Gartenzubehör im Sortiment. Dazu kommt ein Schlüsseldienst: Mit modernen Zylinder-Zieh-Methoden öffnet der Betrieb Türen. Bei Schließanlagen reicht das Angebot von mechanischen über elektronische bis zu mechatronischen Systemen, auch als Hybridlösung, für Wohnanlagen, Hotels und Eigenheime. Gearbeitet wird unter anderem mit Abloy, Simons Voss und Dormakaba. Für Sicherheitsschlüssel werden Nachbestellungen anhand der hinterlegten Sicherungskarte ausgeführt, mehr als 1000 Kunden vertrauen dem Betrieb diese Karte an. Geht ein Transponderschlüssel verloren, wird er deaktiviert, und die Schließanlage bleibt sicher. Außerdem bietet der Betrieb Briefkastenanlagen, einbruchsichere Kellertrennwände aus Stahl oder Holz sowie Tresore an. Kunden können das Geschäft besuchen. Das Geschäft setzt auf kompetente Beratung, Verlässlichkeit und Individualität."
+  },
+  {
+    "slug": "die-ter-ja-blon-ski-schlues-sel-und-schliess-tech-nik-dienst-leis-tungs-zen-trum-pommelsbrunn",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Seit 1987 führt Dieter Jablonski in Pommelsbrunn ein Dienstleistungszentrum rund um den Schlüssel. Angeboten werden Schlüsselkopien, Schilder, Gravuren, Schärfdienst, Uhrenbatterieservice, Stempel und eine Reinigungsannahmestelle. Das Fachgeschäft führt außerdem Schließtechnik, Schlösser, Beschläge und Schließanlagen. Seine Kategorie ist Schlüsseldienst, daneben nennt der Betrieb Gravur und Schleifdienst als weitere Tätigkeiten. So lässt sich vieles an einem Ort erledigen."
+  },
+  {
+    "slug": "sicherheitstechnik-schroeter-prenzlau-prenzlau",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Sicherheitstechnik und Metallbau verbindet das Unternehmen Schröter, dessen Hauptsitz in Greifswald liegt und das Niederlassungen in Stralsund und Prenzlau unterhält. Im Metallbau entstehen Briefkastenanlagen, Zäune und Tore, Fahrradgaragen, Treppen und Handläufe sowie Sonderkonstruktionen. In der Sicherheitstechnik plant, fertigt und betreut der Betrieb mechanische Schließanlagen, die er an Kundenwünsche und Zutrittsstrukturen anpasst, und liefert Schließzylinder für private Immobilien. Dazu kommen elektronische Zutrittssysteme mit branchenspezifischer Vergabe von Schließberechtigungen. Die Fachgeschäfte beraten zu Sicherheitsprodukten und erbringen Schlüsseldienstleistungen. Realisierte Projekte und Branchenlösungen zeigt der Betrieb als Referenzen. Ein Notöffnungs-Service für ausgesperrte Kunden steht rund um die Uhr zur Verfügung, und eine kostenlose, neutrale Beratung soll Betrug bei Notöffnungen vorbeugen. Der Betrieb sieht seine Stärke in der Kombination aus Fertigung und Sicherheitstechnik und beschreibt seinen Schwerpunkt von der Planung über die Herstellung bis zur Betreuung.",
+    "trace": {
+      "ladengeschaeft": "Niederlassung Prenzlau"
+    }
+  },
+  {
+    "slug": "darsser-service-jens-pagel-prerow",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Als Technikpartner auf dem Darß, in Zingst und auf dem Fischland tritt Jens Pagel mit seinem Betrieb Darßer Service in Prerow auf. Nach seiner Kategorie gehören Computerhandel, Computerberatung und Computerreparatur zum Geschäft, daneben Alarmanlagen, Sicherheitsausrüstung und Telekommunikationstechnik. Auch Schlüsseldienst führt der Betrieb unter seinen Tätigkeiten. Öffnungszeiten sind hinterlegt. Die Leistungen reichen damit von Computertechnik bis Sicherheitstechnik."
+  },
+  {
+    "slug": "obi-pressath-pressath",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Pressath hat einen OBI Baumarkt, der Bauen, Wohnen, Technik und Garten abdeckt. Am Markt gibt es einen Schlüsseldienst, bei dem Schlüssel sofort angefertigt und direkt mitgegeben werden. Weitere Services sind Mietgeräte und Werkzeugverleih, Mietanhänger, Lieferservice, Holzzuschnitt, Farbmischservice und Wertstoffrücknahme. Ein Gartencenter gehört zum Markt, und online helfen ein Badplaner und ein Gartenplaner bei der Planung. Gekaufte Ware kann umgetauscht werden, und Geschenkkarten sind erhältlich. Zusätzlich beantwortet der Markt häufig gestellte Fragen zu Beratung und Services. Für Profis gibt es ein eigenes Angebot, und Kunden können einen Termin vereinbaren.",
+    "trace": {
+      "schluessel_nachmachen": "Schlüsseldienst Für dich sofort angefertigt – direkt zum Mitnehmen"
+    }
+  },
+  {
+    "slug": "ghs-0-24-h-notdienst-georg-hilkersberger-sicherheitstechnik-prien-am-chiemsee",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Georg Hilkersberger leitet in Prien am Chiemsee den Priener Schlüsseldienst und GHS Sicherheitstechnik, einen ortsansässigen Handwerksbetrieb. Seit knapp 20 Jahren arbeitet er nach eigener Angabe mit den Gemeinden rund um Prien zusammen, dazu kommen Kliniken, Polizei, Zoll, Hausverwaltungen und private Kunden. Der Betrieb öffnet Türen, liefert und montiert Profil- und Schließzylinder sowie Einsteckschlösser und berät herstellerunabhängig zu mechanischen und digitalen Schließanlagen, die er auch installiert und im Wartungsvertrag betreut. Zur Schließanlagenverwaltung gehören der korrekte Stand der Anlage und die sachgemäße Lagerung der Schlüssel. Einbruchschutz gehört ebenfalls zum Angebot. Der Notdienst ist an 365 Tagen rund um die Uhr erreichbar. Türöffnungen werden mit festem Preis angeboten, der vorab genannt wird. Einsatzorte sind neben Prien auch Rosenheim, Traunstein, Wasserburg und Aschau. Hinzu kommt eine Annahmestelle.",
+    "trace": {
+      "elektronische_schliesssysteme": "Herstellerunabhängige Beratung von mechanischen oder digitalen Schließanlagen"
+    }
+  },
+  {
+    "slug": "multi-express-schuh-und-schluesseldienst-inh-t-ziske-pritzwalk",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Schuhe und Schlösser stehen bei Multi Express in Pritzwalk unter einem Dach, geführt von T. Ziske. Der Inhaber beschreibt sich als vertrauenswürdigen Ansprechpartner für alle Belange rund um Schuhe und Schlösser. Der Schlüsseldienst umfasst die Installation neuer Schlösser, die Reparatur bestehender Schlösser und die Optimierung von Schließanlagen. Auch neue Schlüssel werden angefertigt. Daneben betreibt der Betrieb eine Schuhmacherei mit erfahrenen Schuhmachern für Schuhreparaturen und Lederarbeiten. Zum Angebot gehören außerdem ein Stempeldienst und eine Schleiferei für höchste Präzision. Der Inhaber sieht seine Stärke darin, Sicherheitsfragen ebenso wie Schuhprobleme aus einer Hand zu lösen. Öffnungszeiten sind hinterlegt,. Das Angebot gliedert sich in Schlüsseldienst, Schuhreparaturen mit Lederarbeiten und weitere Dienstleistungen. Egal ob ein neues Schloss installiert, ein bestehendes repariert oder eine Anlage optimiert werden soll, der Inhaber kümmert sich selbst."
+  },
+  {
+    "slug": "hinreiner-sicherheitstechnik-inh-daniel-roessel-poessneck",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Sicherheitstechnik ist das Hauptgeschäft von Hinreiner-Sicherheitstechnik, einem Betrieb in Pößneck unter der Leitung von Daniel Rössel. Als Händler für Sicherheitstechnik geführt, trägt er zusätzlich die Kategorie Schlüsseldienst. Öffnungszeiten sind hinterlegt, sodass der Betrieb zu festen Zeiten erreichbar ist. Genauere Angaben zu einzelnen Leistungen liegen nicht vor. Rössel führt den Betrieb als Inhaber."
+  },
+  {
+    "slug": "schlosserei-schmitt-gmbh-puettlingen",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Als Metallwerkstatt arbeitet die Schlosserei Schmitt GmbH in Püttlingen. Der Betrieb ist ein Schlossereibetrieb, der Metallarbeiten ausführt, und führt daneben den Schlüsseldienst als zweite Kategorie. Eine Beschreibung der einzelnen Arbeiten liegt nicht vor, und die Öffnungszeiten sind nicht hinterlegt. Eine eigene Website führt der Betrieb nicht. Die Kategorie Metallwerkstatt steht dabei an erster Stelle."
+  },
+  {
+    "slug": "quedlinb-schluesseldienst-quedlinburg",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Volker Degen führt in Quedlinburg den Quedlinburger Schlüsseldienst, der sich als Schlüssel- und Schlossnotdienst versteht. Türöffnungen bietet er täglich zwischen 6 und 20 Uhr an, auch außerhalb der Ladenzeiten, über eine eigene Notdienst-Handynummer. Im Ladengeschäft, das wochentags von morgens bis in den Nachmittag geöffnet ist, erledigt der Betrieb weitere Arbeiten: elektronische und mechanische Schließanlagen jeder Größe, mechanische Sicherheitstechnik von A bis Z, die Restaurierung antiker Schlösser und Beschläge sowie Briefkastenanlagen und Tresore. Montagematerial bezieht er von Würth, außerdem fertigt er Namens- und Hinweisschilder an. Bei Schloss-Notdiensten kann es zu kurzfristigen Schließungen des Ladens kommen, was der Betrieb ausdrücklich anmerkt. Zum Angebot zählen damit klassische Schlüsseldienstarbeiten ebenso wie die Pflege historischer Schlösser, von der Restaurierung bis zur Montage neuer Sicherheitstechnik. Die Leistungen sind auf der Startseite aufgelistet.",
+    "trace": {
+      "elektronische_schliesssysteme": "elektronische und mechanische Schließanlagen jeder Größe"
+    }
+  },
+  {
+    "slug": "schuh-und-schluesseldienst-inh-marcel-huth-querfurt",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Schuhe, Schlüssel und Schliffe bündelt Marcel Huth in seinem Schuh- und Schlüsseldienst in Querfurt. Der Betrieb erstellt Schließanlagen und Gleichschließungen, frei oder codiert, und fertigt Schlüssel ebenfalls frei oder codiert an. Dazu kommen Schuhreparaturen jeder Art, Gravuren für Türschilder, Pokale, Briefkästen und Feuerzeuge sowie ein Schleifservice für Haushaltsmesser, Scheren und Kettensägen, auch mit Hartmetallketten. Notöffnungen führt der Betrieb in Querfurt und im Umkreis von zehn Kilometern aus."
+  },
+  {
+    "slug": "obi-radebeul-radebeul",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Radebeul besitzt einen OBI Markt an der Meißner Straße, einen Baumarkt mit breitem Sortiment für Bauen, Wohnen, Technik und Garten. Zu den Services zählt ein Schlüsseldienst, der Schlüssel sofort anfertigt, sodass sie gleich mitgenommen werden können. Der Markt vermietet Container, verleiht Mietgeräte und Werkzeuge, schneidet Holz zu und mischt Farben. Beratung und Montage bietet er für Solaranlagen, Wärmepumpen und Terrassenüberdachungen nach Maß an. Online helfen ein Badplaner und ein Gartenplaner, und ein Gartencenter gehört dazu. Eine Umtauschfrist von drei Monaten und Geschenkkarten gehören zum Serviceangebot.",
+    "trace": {
+      "schluessel_nachmachen": "Schlüsseldienst Für dich sofort angefertigt – direkt zum Mitnehmen",
+      "ladengeschaeft": "Dein OBI Markt Radebeul, Meißner Straße 415"
+    }
+  },
+  {
+    "slug": "smk-schliesszylinder-schliessanlagen-sicher-365-eu-radevormwald",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Als Online-Fachhändler für CES Schließanlagen, Schließzylinder, elektronische Zutrittskontrolle und Ersatzschlüssel tritt SMK mit seiner Marke Sicher-365 aus Radevormwald auf. Kunden planen ihre Schließanlage mit einem Konfigurator online, von der Gleichschließung im Einfamilienhaus bis zur Generalhauptschlüsselanlage, für Mehrfamilienhaus, Büro und Gewerbe. Das Sortiment umfasst Profilzylinder verschiedener Serien, Sicherheits- und Spezialzylinder mit optionalen Bohr- und Ziehschutzstufen nach DIN 18252 und EN 1303, Elektronikzylinder wie den CESentry sowie Smartlocks von tedee. Bestellt wird im Online-Shop mit persönlicher Fachberatung, auch der Kauf auf Rechnung ist möglich. Ersatzschlüssel lassen sich nachbestellen. Angesprochen sind Privatkunden, Unternehmen, Verwaltungen, Vermieter und Hausverwaltungen. Der Händler besteht nach eigener Angabe seit 2005, ein Ratgeber erklärt Schließanlagen, Zylinder und Sicherheitstechnik, und Downloads stehen bereit. Die Produkte stammen von CES und werden als Original-Systeme aus deutscher Fertigung geführt."
+  },
+  {
+    "slug": "sicherheitstechnik-foitzik-peter-foitzik-raesfeld",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Peter Foitzik hat im Juli 2017 sein Gewerbe für Alarm-, Schließ- und Sicherheitstechnik eröffnet und arbeitet von Raesfeld-Erle aus. Sein Schwerpunkt ist die Haussicherheitstechnik: Sicherheitstechnik gegen Einbrüche, Fenstersicherung und Einbruchschutz, dazu Beratung, Montage und Service. Er erklärt außerdem Rauchmelder als Lebensretter, ihre Montageorte, die gesetzlichen Vorschriften in Nordrhein-Westfalen und die Norm DIN 14676. Der Betrieb ist Partner im Netzwerk Zuhause Sicher, und ein Schlüsseldienst gehört zu seinen Angeboten. Der Betrieb nennt Lösungen in mehreren Bereichen der Haussicherheit und berät zu Fenstersicherung ebenso wie zu Rauchmeldern."
+  },
+  {
+    "slug": "sachverstaendiger-fuer-schliesssysteme-e-k-manfred-kraemer-rahden",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Manfred Krämer führt in Rahden ein Fachgeschäft für Schlüssel- und Sicherheitstechnik mit nach eigener Angabe über 40 Jahren Erfahrung. Neben dem Handel erstellt er Gutachten für Behörden und Versicherungen und öffnet Fahrzeuge, Gebäude und Tresore. Im Schlüsselnotdienst nennt er vorab, wann er vor Ort sein kann und was der Einsatz kostet. Tresorservice umfasst verlorene oder abgebrochene Schlüssel und vergessene Zahlenkombinationen, zudem werden Tresore verkauft. Autoschlüssel und Motorradschlüssel fertigt er nach und programmiert Fahrzeugschlüssel. Defekte Türschlösser und Zylinder nach einem Einbruch tauscht er aus. Er bildet sich laufend fort und besucht Seminare bei Tresor- und Schlossherstellern. Beiträge zu Seminaren, etwa einem König-Seminar in Wuppertal, und zum Tag des Einbruchschutzes begleiten sein Angebot, das auch auf Englisch vorliegt. Ein Bereich zu Mitgliedschaften und Fortbildung gehört ebenfalls zum Auftritt des Betriebs.",
+    "trace": {
+      "tueroeffnung": "Fachgerechte Öffnung von Fahrzeugen, Gebäuden und Tresoren aller Art",
+      "ladengeschaeft": "Mit einem Fachgeschäft vor Ort",
+      "festpreis_genannt": "Bei mir erfahren Sie immer vorab, in welchem Zeitraum ich bei Ihnen sein kann und noch wichtiger, was der Notdiensteinsatz für Sie kostet."
+    }
+  },
+  {
+    "slug": "h-w-schluesselnotdienst-u-steinpflege-rastatt",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Drei Arbeitsfelder vereint H&W in Rastatt: Schlüsselnotdienst, Steinreinigung und Hausmeisterservice. Hauptsitz ist Rastatt, eine Zweigstelle besteht in Gaggenau, und die Einsatzorte reichen bis Malsch, Gernsbach und Kuppenheim. Beim Schlüsseldienst hilft der Betrieb bei Aussperrungen, zugefallenen Türen und verlorenen oder abgebrochenen Schlüsseln. Er öffnet Türen möglichst zerstörungsfrei, wechselt Schlösser und tauscht Schließzylinder aus. Für den Notdienst gibt es eine eigene Notrufnummer. Die Preise für Türöffnungen stehen als feste Beträge in einer Preisübersicht, getrennt nach Schlüsseldienst, Steinreinigung und Hausmeisterservice. Die Steinpflege umfasst Stein-, Pflaster- und Terrassenreinigung, der Hausmeisterservice Objekt-, Garten- und Außenanlagenpflege sowie Winterdienst für private und gewerbliche Immobilien. Der Betrieb betont persönlichen Anspruch, saubere Ausführung und transparente Kommunikation. Als Leistungsversprechen nennt der Betrieb schnelle Hilfe, saubere Ausführung und transparente Preise."
+  },
+  {
+    "slug": "schluesseldienst-rastede-rastede",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "true",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Rasteder Schuh- und Schlüsselservice nennt sich der Betrieb in Rastede, der neben der Schuhreparatur einen Schlüsselnotdienst rund um die Uhr an sieben Tagen betreibt. Schlüssel werden in jeder Art nachgemacht. Zum Angebot zählen außerdem Sicherheitstechnik, Schließsysteme und Schließanlagen. Hinzu kommen Stempel, Gravuren, Pokale, Uhrenservice, Schliffe, Passbilder, Lederwaren und Näharbeiten. Gearbeitet wird im Laden oder im Außendienst, der Einsatzraum reicht von Rastede über Oldenburg bis Bremen. Der Betrieb stellt verlässliche Kostenvoranschläge in Aussicht und lässt die Terminwahl flexibel. Eine Galerie zeigt Arbeiten aus dem Betrieb, und ein Newsletter hält über Neuigkeiten auf dem Laufenden. Das Angebot richtet sich an Kunden, die Schuhe, Schlüssel und Kleinigkeiten wie Gürtel oder Stempel an einer Stelle erledigen wollen. Der Betrieb versteht sich als schneller Service in der Nähe."
+  },
+  {
+    "slug": "schlosserei-schluesseldienst-frank-venus-rathmannsdorf",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Metallbau und Bauschlosserei sind das Kerngeschäft von Frank Venus in Rathmannsdorf, einem Betrieb in der Region Elbsandsteingebirge nahe Dresden. Er plant, baut und montiert Komponenten und Projekte, darunter maßgeschneiderte Balkone und Terrassen, Arbeiten im Denkmalschutz wie für Kirchen und Industrieaufträge. Als gelernter Werkzeugmacher machte sich Frank Venus selbstständig und erweiterte das Spektrum später um einen Schlüsseldienst, die Lieferung und Montage von Schlössern und Schließanlagen sowie einen Montageservice. Kunden kommen aus Industrie, öffentlicher Verwaltung und dem gewerblichen Bereich. Der Montageservice reicht von fest verankerten Konstruktionen bis zu Arbeiten in der Höhe.",
+    "trace": {
+      "schlossaustausch": "die Lieferung und Montage von Schlössern und Schließanlagen",
+      "gewerblich_objektbetreuung": "aus der Industrie, der öffentlichen Verwaltung, im gewerblich"
+    }
+  },
+  {
+    "slug": "service-point-bekascho-schuhreparatur-und-schluesseldienst-raunheim",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Im Mainkaufzentrum in Raunheim sitzt Bekascho, ein Schumacherbetrieb mit Schlüsseldienst. Neben der Schuhreparatur nimmt er Lederwaren und Ledertaschen in Reparatur und übernimmt die Annahme für die Reinigung. Schlüssel für Fahrzeuge und Gebäude werden nachgemacht. Zum Angebot zählen außerdem Gravuren von Schildern, Pokalen und Schlüsselanhängern, Batterieverkauf und Batterieaustausch, Firmenstempel, eine Annahmestelle für Hermes-Sendungen sowie ein Schleifdienst für Messer und Scheren.",
+    "trace": {
+      "schluessel_nachmachen": "Nachmachen von Fahrzeugschlüsseln und Gebäudeschlüsseln",
+      "ladengeschaeft": "Schlüsseldienst im Mainkaufzentrum"
+    }
+  },
+  {
+    "slug": "steinhart-h-j-schluesseldienst-schliess-sicherheitstechnik-rednitzhembach-rednitzhembach",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Schließ- und Sicherheitstechnik betreibt H.J. Steinhart in Rednitzhembach als Schloss- und Schlüsseldienst. Der Betrieb arbeitet mit Schließanlagen, Schlössern, Zylindern und mechanischen Sicherheitsprodukten, führt Reparaturen aus und beseitigt Einbruchsspuren. Darüber hinaus bietet er Gebäudedienstleistungen, Facility Management und technische Objektbetreuung an. Das Spektrum reicht damit von der Schließtechnik bis zur Betreuung ganzer Gebäude."
+  },
+  {
+    "slug": "h-s-rees",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Herbst Sicherheit in Rees bietet umfangreiche sicherheitstechnische Einrichtungen und Artikel zum Selbstschutz an. Der Betrieb legt Wert auf persönliche und individuelle Beratung. Seine Kategorie ist Schlüsseldienst, ergänzt um die Rolle eines Anbieters für Sicherheitssysteme. Öffnungszeiten sind nicht hinterlegt. Damit richtet sich der Betrieb an Kunden, die Sicherheit in Haus und Alltag selbst umsetzen wollen."
+  },
+  {
+    "slug": "schluesseldienst-in-regen-handyzubehoer-reinigungsannahme-schuhreparaturen-sim-karten-gravuren-autoschluessel-regen",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Ein breites Dienstleistungsangebot bündelt dieser Betrieb in Regen: Schuh- und Schlüsseldienst, Annahme für die Textilreinigung, Gravuren und Stempel. Er nennt Notöffnungen, Schließanlagen und Sicherheitstechnik sowie Autoschlüssel mit Funk. Hinzu kommen Seniorenhandys, Handyzubehör, Handyreinigung und Sim-Karten für Mobiltelefone. Der Betrieb weist darauf hin, dass er nicht mehr im Kaufhaus Bauer zu finden ist."
+  },
+  {
+    "slug": "schluesseldienst-atze-regenstauf",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Für Regenstauf bietet Schlüsseldienst Atze einen Schlüsselnotdienst an, der nach eigener Angabe rund um die Uhr an sieben Tagen erreichbar ist. Der Betrieb hilft bei Schlüsselverlust und wenn jemand sich ausgesperrt hat, öffnet zugefallene und zugesperrte Türen, auch mit Zylinderwechsel, und tauscht Schlösser aus. Er führt eine Preisliste, die nach Tageszeit gestaffelt ist: Die Türöffnung kostet tagsüber weniger als nach 18 Uhr und nach 22 Uhr. Der Betrieb weist darauf hin, dass die Kosten je nach Situation variieren können. Er verspricht offene Kommunikation und keine versteckten Kosten. Als Monteur arbeitet das Team für Regenstauf in den Bereichen Schlossaustausch und Türöffnung. Anfragen gehen über ein Kontaktformular ein. Das Team nennt sich professionell und erfahren und steht bei Schlüsselverlust, Türöffnungen und Schlossproblemen zur Verfügung."
+  },
+  {
+    "slug": "schluesselnotdienst-d-parcours-rehlingen-siersburg",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "true",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Als regionaler Schlüsselnotdienst arbeitet D. Parcours von Rehlingen-Siersburg aus in den Landkreisen Saarlouis und Merzig-Wadern. Standardöffnungen führt der Betrieb zu festen Preisen aus, die Wartezeit liegt nach seiner Angabe bei etwa einer halben Stunde. Wird eine Öffnung aufwendiger, bespricht er mögliche Vorgehensweisen und zu erwartende Kosten vor Arbeitsbeginn mit dem Kunden. Eine Pauschale für An- und Abfahrt berechnet er, wenn keine Einigung zustande kommt oder der Schlüssel vor seiner Ankunft wieder auftaucht. Der Kunde erreicht ihn direkt über die Rufnummer.",
+    "trace": {
+      "tueroeffnung": "bei Standardöffnungen",
+      "anfahrtspauschale_genannt": "An-/Abfahrtspauschale"
+    }
+  },
+  {
+    "slug": "eiglsperger-hans-reichertsheim",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "true",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Hans Eiglsperger arbeitet in Reichertsheim als Schlüsseldienst und übernimmt zusätzlich Reparaturen und Notdienst für Fenster, Türen und Rollläden. Damit verbindet der Betrieb Schlüsseldienst und Handwerk am Haus. Öffnungszeiten sind hinterlegt, der Betrieb ist also zu festen Zeiten erreichbar. Ob Fenster, Tür oder Rollladen, der Betrieb deckt Reparatur und Notdienst am Gebäude ab."
+  },
+  {
+    "slug": "schluesseldienst-brinkmann-reinfeld-holstein",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Für den gesamten Kreis Stormarn hat sich Schlüsseldienst Brinkmann aus Reinfeld in Holstein auf schnelle Türöffnungen eingestellt. Das Team hilft, wenn jemand sich ausgesperrt hat oder der Schlüssel verloren gegangen ist, und ist nach eigener Angabe rund um die Uhr im Einsatz. Der Betrieb beschreibt sich als zuverlässig und professionell."
+  },
+  {
+    "slug": "raiffeisen-hohe-mark-hamaland-eg-raiffeisen-markt-reken-reken",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Der Raiffeisen-Markt in Reken gehört zur Genossenschaft Raiffeisen Hohe Mark Hamaland und führt Produkte für Haus und Hof, Heim- und Nutztiere, Reitsport, Berufs- und Freizeitkleidung sowie Gartenbedarf, Pflanzen, Floristik und Dekoration. Regionale Lebensmittel und Getränke ergänzen das Sortiment, ebenso Spielwaren. Ein Verleihservice und ein Kommissionsgeschäft versorgen Partys. Als Dienstleistungen bietet der Markt eine Annahmestelle für Hermes-Sendungen, Textilreinigung und einen Schlüsselservice an. Die Genossenschaft betreibt außerdem Tankstellen mit Bistros in Rhade und Reken, eine Futtermittelproduktion und Agrarhandel mit Pflanzenbau. Hauptsitz und Tochtergesellschaften gehören zur Unternehmensgruppe."
+  },
+  {
+    "slug": "schlosserei-und-metallfachhandel-peter-gieraths-remagen",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Schlosserei und Fachhandel verbindet die Peter Gieraths GmbH & Co. KG in Remagen. Im Fachhandel gibt es Eisenwaren, Werkzeuge, Maschinen, Material zum Bauen und Renovieren, Arbeitsschutz sowie Gas und Flüssiggas, außerdem eine Gerätevermietung. Die Produktgruppen sind nach Herstellern geordnet. Die Sicherheitstechnik umfasst Schloss und Riegel, Panzerriegel, Türschloss-Elektronik, Beschläge, Fenster- und Türsicherung, Rauch- und Warnmelder sowie Tresore, Geldkassetten und Schlüsselschränke. Dazu kommt die Schließtechnik als eigener Bereich. Das Geschäft hat feste Öffnungszeiten, werktags ganztags und samstags am Vormittag, die am letzten Wochenende des Monats kürzer ausfallen: freitags endet der Verkauf am Nachmittag, samstags bleibt der Betrieb geschlossen. Fragen zu Sortiment und Schlosserei beantwortet der Betrieb persönlich. Neben dem Fachhandel besteht die Schlosserei mit eigenem Leistungsspektrum, und eine Anfahrtsbeschreibung liegt vor. Die Öffnungszeiten gelten seit September 2023.",
+    "trace": {
+      "elektronische_schliesssysteme": "Türschloß-Elektronik",
+      "ladengeschaeft": "Öffnungszeiten Montag bis Freitag 07.30 bis 17.30 Uhr Samstag 08.00 bis 13.00 Uhr"
+    }
+  },
+  {
+    "slug": "schluesseldienst-remseck-tueroeffnung-sicherheitstechnik-remseck-am-neckar",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Türöffnung und Sicherheitstechnik bietet der Schlüsseldienst in Remseck am Neckar als rund um die Uhr erreichbarer Notdienst. Er öffnet Türen schnell und beschädigungsfrei, etwa bei Riegelbruch, wechselt Schlösser, öffnet Briefkästen und Tresore ohne Schäden und erstellt maßgeschneiderte Schließanlagen. Hinzu kommen Installation und Wartung elektrischer Türsysteme sowie Sicherheitsberatungen. Der Betrieb gibt an, dass der Preis einer Türöffnung von der Art des Schlosses und der Schwierigkeit der Öffnung abhängt, und arbeitet mit festen Preisen ohne versteckte Gebühren. Seine Techniker sind nach eigener Angabe in kurzer Zeit vor Ort. Privatkunden und Unternehmen zählen zur Kundschaft. Häufige Fragen, etwa zur Dauer bis zum Eintreffen, zu den Kosten einer Türöffnung und zum Schlosswechsel, beantwortet der Betrieb in einem eigenen Bereich. Anfragen sind über ein Kontaktformular möglich."
+  },
+  {
+    "slug": "gb-sicherheitstechnik-rheda-wiedenbrueck",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "true",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Mobil und stationär zugleich arbeitet GB Sicherheitstechnik in Rheda-Wiedenbrück, der frühere Service Shop Masching. Der Betrieb nennt sich einen exklusiven Schlüsseldienst, der rund um die Uhr an sieben Tagen erreichbar ist. Seine Sicherheitstechnik soll vor ungewolltem Zutritt schützen, und er führt diverse Markenprodukte mit Beratung vor Ort. Als Spezialität nennt er Markenschließanlagen und Gleichschließung. Auch Glasgravur und Schuhreparatur finden sich unter seinen Tätigkeiten.",
+    "trace": {
+      "notdienst_24h": "Exklusiver 24/7 mobiler und stationärer Schlüsseldienst"
+    }
+  },
+  {
+    "slug": "schluesselnotdienst-rheine-rheine",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Schuh- und Schlüsselarbeiten gehören bei diesem Betrieb in Rheine zusammen. Er nennt Schuhreparaturdienst, Schlüsseldienst aller Art, das Codieren von Autoschlüsseln und das Anfertigen von Sicherheitsschlüsseln mit Sicherungskarte. Dazu kommen Batteriewechsel bei Uhren, Näharbeiten und personalisierte Gravuren aller Art. Die Öffnungszeiten des Betriebs sind hinterlegt. Das Angebot verbindet Handwerk rund um Schuhe, Schlüssel und Uhren."
+  },
+  {
+    "slug": "schluessel-notdienst-pfalz-schreinerei-schmitt-rheinzabern",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "In der gesamten Pfalz ist der Schlüssel Notdienst Pfalz mit Sitz in Rheinzabern im Einsatz, mit Schwerpunkt Landau, Südpfalz und Südwestpfalz sowie Orten wie Germersheim, Wörth am Rhein und Maximiliansau. Der Betrieb ist rund um die Uhr an sieben Tagen erreichbar und gibt kurze Anfahrtszeiten an. Er öffnet Türen von Wohnungen, Häusern und Gewerbeobjekten schonend und beschädigungsfrei, wechselt defekte oder aufgebrochene Schlösser und berät zu mehr Einbruchschutz. Preise führt er auf einer eigenen Seite, ohne versteckte Kosten. Ein Depot-Service verwahrt auf Wunsch einen Ersatzschlüssel anonym und nummeriert im Tresor, der im Notfall abgerufen werden kann. Kunden bringen den Schlüssel vorbei oder der Betrieb holt ihn ab, zur Identifikation dienen ein Passwort und das Geburtsdatum. Das Depot läuft als Abo, das sich nach Rechnung des Betriebs schon beim ersten Einsatz lohnt.",
+    "trace": {
+      "festpreis_genannt": "Schlüsseldienst ab 89,00 € mehr unter Preise"
+    }
+  },
+  {
+    "slug": "gebrueder-fuerstenberg-gmbh-werkers-welt-rhinow-rhinow",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Werkers Welt Rhinow, geführt von der Gebrüder Fürstenberg GmbH, ist ein hagebaumarkt mit Sortiment von Bad und Sanitär über Bauen und Renovieren bis Garten, Heizen und Werkzeug. Der Markt bietet Aufbau von Gartenhäusern und Metallgartenhäusern, Markisenmontage, die Installation von Mährobotern, Ofenanschluss und Badsanierung an. Hinzu kommen Mietgeräteservice, Anhänger- und Transportervermietung, Holzzuschnitt, Farbmischservice, Gasflaschentausch, Schärfdienst und eine Stromtankstelle. Ersatzschlüssel lassen sich dort nachmachen. Außerdem gibt es Altgeräte- und Wertstoffrücknahme, Finanzierung, Heimwerkertipps, eine Handwerkersuche und Gutscheinkarten. Der Markt gehört zur hagebau-Gruppe und bietet einen Marktfinder und einen Newsletter."
+  }
+]
