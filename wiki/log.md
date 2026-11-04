@@ -361,3 +361,13 @@ Zahlen, was auf Freigabe wartet.
   (3) Vier Verhaltens-Drops identifiziert (Herzog/Mannheim, Kurt/Nürnberg, Schlüssel One/Erlangen+Fürth),
   warten auf Bestätigung + Vorgänge; Wiki `framework/conduct-exclusions.md`. Bericht:
   `berichte/2026-11-04-bewertungszahlen-kollision-ausschluesse.md`.
+
+- **2026-11-04 — Datenstand abgeschlossen + Gate 5 gestartet.** Vier Verhaltens-Drops angewandt
+  (`verhalten_betreiber`), Mannheim/Nürnberg/Erlangen/Fürth neu erzeugt (ohne die Betriebe,
+  zahlenfrei, alle behalten ihre Seite). 3.805 Einträge, 792 Stadtseiten, `check_city_copy` 792/792.
+  **Gate 5:** `npm run build` läuft durch (4634 Seiten), Rechtstexte erzeugen aus site.json,
+  Schriften selbst gehostet, Maps nur nach Klick, kein aggregateRating, Sitemap ohne noindex-Seiten,
+  featuredPreview=false. **Startsperren** (in `05-build-report.md`): (1) contact.formEndpoint fehlt
+  (PFLICHT), (2) Stripe-Links fehlen, (3) Ratgeber leer, (4) Anwaltsprüfung Rechtstexte + USt-IdNr./
+  Telefon offen, (5) fünf Schweizer Grenzorte noch im Datenstand (Entscheidung). Bericht:
+  `output/schluesseldienste-deutschland/05-build-report.md`.
