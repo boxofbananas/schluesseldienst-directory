@@ -72,7 +72,19 @@ Vier Punkte, die jede Seite dieses Wikis berühren:
 3. **Die Kategorie fängt fremde Gewerbe ein.** `locksmith` trifft in Deutschland auch
    Schuhmacher, Gravurbetriebe, Metallbauer und Baumärkte, dazu Kettenbetriebe und Callcenter
    ohne Ortsbezug. Gate 2 macht das sichtbar, der Mensch entscheidet in Gate 4
-   ([[listings-cleaning]]).
+   ([[listings-cleaning]]). Das Merkmal `schluesseldienst_kern` ist dabei nur ein Hinweis, **nicht
+   maßgeblich**: es lag im deutschen Lauf bei einem von sieben Grenzfällen falsch. Maßgeblich ist
+   der **Text** der Beschreibung. Ein Eintrag bleibt, wenn der Text das **Öffnen von Türen** zeigt
+   (Türöffnung, Türnotöffnung, ausgesperrt/Aussperrung, zerstörungsfreie Türöffnung), **oder** der
+   Betrieb sich **selbst als Schlüsseldienst bezeichnet** – im Firmennamen oder im Text –, **oder**
+   er einen Havarie-/Not-/Schlossnotdienst nennt, der sich nicht auf Tresore bezieht. Die
+   Selbstbezeichnung zählt, weil „Schlüsseldienst" im Deutschen die Aussage ist, Türen zu öffnen;
+   sie ist ein Beleg, kein Beiwerk. Sie zählt **nicht**, wenn der Text sie verneint oder abgrenzt
+   („kein Schlüsseldienst", „Türöffnungen gehören nicht zum Angebot", „ein Schlüsseldienst im Sinne
+   von Türöffnung ist das nicht"), und nicht, wenn sie sich auf einen Dritten bezieht (Verweis auf
+   den ADAC-Schlüsseldienst). Ausgeschlossen wird, wessen einziger Bezug zu Schlössern im **Verkauf
+   oder Einbau** liegt (Zylinder montieren, Schließanlagen planen, Zutrittskontrolle, Alarm, Video,
+   Brandmeldetechnik, Tresorhandel) – auch bei `kern=true` (Regel vom 2026-11-04).
 4. **Recht.** Impressum nach § 5 DDG, Datenschutzerklärung nach Art. 13 DSGVO, keine Karte
    und keine externe Schrift ohne Einwilligung ([[konventionen]], Recht). Das Wiki nennt die
    Pflichten; es ist keine Rechtsberatung, und ein Anwalt sollte die Endfassung prüfen.

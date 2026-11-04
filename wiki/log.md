@@ -332,3 +332,13 @@ Zahlen, was auf Freigabe wartet.
   sämtlich Verneinungen. `04-exclusions.csv` nun **595 Drops**. Sonnet für Stadttexte freigegeben,
   aber **noch nicht gestartet** — wartet auf Durchsicht der Divergenzen. Bericht:
   `berichte/2026-11-04-breite-kategorien-und-grenzorte.md`.
+
+- **2026-11-04 — Textregel ergänzt (Selbstbezeichnung) und neu angewandt.** Betreiber: Gruppe B (8)
+  bestätigt behalten; Gruppe A 12/17 bestätigt, 5 zu hart. Regel ergänzt: Selbstbezeichnung als
+  „Schlüsseldienst" (Name/Text) zählt als Beleg, ebenso Havarie-/Not-/Schlossnotdienst (nicht
+  Tresor); Ausnahme bei Verneinung/Abgrenzung/Drittbezug. Begründung im Wiki
+  (`directory-overview.md` Punkt 3): „Schlüsseldienst" ist im Deutschen die Aussage, Türen zu öffnen.
+  Ergänzte Regel per LLM auf alle 135 Ausschlüsse angewandt: **18 kommen zurück** (13 davon waren in
+  der Divergenzliste unsichtbar, kern=keine Angabe). 180-Bilanz 63/117. `04-exclusions.csv` 578.
+  Leipzig Herrmann gedroppt. B+M Halle = 5 echte Filialen, keine Dublette. Bericht:
+  `berichte/2026-11-04-textregel-ergaenzt-rueckkehrer.md`.
