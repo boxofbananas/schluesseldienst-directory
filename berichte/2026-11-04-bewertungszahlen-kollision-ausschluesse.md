@@ -41,8 +41,6 @@ an den Umschreib-Lauf an — minimal.
 
 **Genaue Einträge (zur Bestätigung vor dem Löschen — GATE B):**
 
-| Name | Ort | Slug |
-|---|---|---|
 | Name | Ort | Adresse | Telefon | Slug |
 |---|---|---|---|---|
 | Schlüsseldienst Herzog | Mannheim | Waldpforte 13, 68305 Mannheim | +49 621 43772508 | `schluesseldienst-herzog-mannheim` |
