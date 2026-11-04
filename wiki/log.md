@@ -307,3 +307,16 @@ Zahlen, was auf Freigabe wartet.
   eigenständige 1-Eintrag-Seiten** (66 Entfernung, 180 Einwohner, 14 beides), 475 gefaltet;
   Start-Sitemap ~2.225, Tranchen 260 + 675 dünne. **Gate 4 abgeschlossen.** Verifikation der
   `load.mjs`-Logik erfolgt mit `npm run build` in Gate 5. **Wartet auf:** Start von Gate 5.
+
+- **2026-11-04 — Stadttext-Probestapel (20 Städte, 2 Modelle) + Welle-1-Stichprobe.** Faktenblatt
+  mit 5 belegten Branchenfakten gefüllt (HWK/Handwerksordnung, Verbraucherzentrale, K-EINBRUCH,
+  Stiftung Warentest). 20 gemischte Städte je einmal auf **Sonnet** (2,94 $, 14,7 ct/Stadt, alle
+  bestanden) und **Haiku** (1,05 $, 5,3 ct) geschrieben. Größengewichtet auf 729 Seiten: Sonnet
+  ~86 $, Haiku ~30 $. **Unterscheidbarkeit:** Sonnet 0 fast-gleiche Sätze; Haiku 4 Schablonen über
+  12 der 20 Städte (ein Faktenblatt-Satz fast wörtlich, zwei Bewertungszeilen, ein Verzeichnis-
+  Meta-Satz). Herkunft: beide ~70–76 % stadteigene Wörter, nur ~5 % Faktenblatt. **`check_city_copy.py`
+  um einen Fast-gleich-Durchgang erweitert** (Jaccard ≥ 0,75, ≥3 Städte) – den alten Exakt-Vergleich
+  bestand Haiku trotz Schablonen. **Empfehlung: Stadttexte auf Sonnet.** Welle-1-Stichprobe aus den
+  breiten Kategorien bestätigt: `kern≠true` aus security/safe-Kategorien gehört per Gate-4-Ausschluss
+  heraus. Nebenfund: 9 Städte ohne Bundesland (ausländische Grenzorte, u. a. Basel mit 9 Einträgen).
+  Bericht: `berichte/2026-11-04-stadttext-probe.md`. **Wartet auf:** Entscheidungen des Betreibers.

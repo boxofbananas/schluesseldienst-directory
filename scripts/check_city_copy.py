@@ -21,6 +21,11 @@ Prüfungen je Stadt:
 Über die Städte hinweg:
   - kein Satz einer Einleitung oder FAQ-Antwort kommt in drei oder mehr Städten vor
     (Textbaustein mit getauschtem Stadtnamen)
+  - kein Satz ist in drei oder mehr Städten FAST gleich: teilt ein Satz (ab neun Wörtern,
+    Stadtname entfernt) mindestens 75 % seiner Wörter mit je einem Satz aus zwei weiteren
+    Städten, fällt er. Das trifft die schablonenhafte Wiederholung, die der Exakt-Vergleich
+    verfehlt (ein Faktenblatt-Satz oder eine Bewertungszeile mit getauschten Zahlen), und war
+    im Probelauf vom 04.11.2026 der Unterschied zwischen dem Gate-3-Modell und dem kleineren
   - kein Anfang (erste acht Wörter, Stadtname entfernt) wird von drei oder mehr Städten geteilt
   Gezählt wird über jede Antwortdatei in --copy plus den geprüften Stapel, damit ein mit --only
   geprüfter Stapel an den bereits geschriebenen gemessen wird. Berichtet werden nur die Städte des
@@ -163,6 +168,7 @@ def main():
     for s in expected - set(copy):
         if a.only or a.write: fails[s].append("nicht geschrieben")
     sent_seen, opener_seen, total_words = defaultdict(set), defaultdict(set), 0
+    sent_tokens = []   # (slug, frozenset(wörter)) je Satz ab neun Wörtern, für den Fast-gleich-Vergleich
 
     def tally(slug, block):
         """Die Sätze einer Stadt (Einleitung und FAQ-Antworten, ab neun Wörtern, Stadtname entfernt)
@@ -172,8 +178,10 @@ def main():
         name = lc.fold_text(names.get(slug, "\0"))
         body = "\n\n".join(intro) + "\n" + "\n".join(f.get("a", "") for f in faqs)
         for s in re.split(r"(?<=[.!?])\s+", body):
-            k = " ".join(re.sub(r"[^a-z0-9 ]", "", lc.fold_text(s).replace(name, "")).split())
-            if len(k.split()) >= 9: sent_seen[k].add(slug)
+            words = re.sub(r"[^a-z0-9 ]", " ", lc.fold_text(s).replace(name, "")).split()
+            if len(words) >= 9:
+                sent_seen[" ".join(words)].add(slug)
+                sent_tokens.append((slug, frozenset(words), " ".join(s.split())))
         if intro:
             k = " ".join(re.sub(r"[^a-z ]", "", lc.fold_text(intro[0]).replace(name, "")).split()[:8])
             opener_seen[k].add(slug)
@@ -224,6 +232,29 @@ def main():
                 fails[slug].append(f'{kind} wird mit {len(s) - 1} anderen Städten geteilt '
                                    f'({", ".join(sorted(o for o in s if o != slug))}, in {", ".join(where)}): "{k[:80]}"')
                 shared_batches |= {source[o] for o in s if o in source}
+
+    # Fast gleiche Sätze (Jaccard der Wortmengen >= 0,75): ein Satz fällt, wenn er in zwei
+    # weiteren Städten je einen Satz mit mindestens 75 % gemeinsamer Wörter hat (drei Städte
+    # zusammen). Trifft die Schablone, die der Exakt-Vergleich verfehlt. Schwelle am Probelauf
+    # vom 04.11.2026 kalibriert: Sonnet fiel bei 0,75 nicht, das kleinere Modell mit vierzehn
+    # Sätzen in zwölf Städten. Nur Sätze aus den geprüften Städten (copy) fallen durch; Sätze aus
+    # anderen Stapeln zählen als Vergleichsmenge mit.
+    NEAR = 0.75
+    for slug_i, ti, raw_i in sent_tokens:
+        if slug_i not in copy:
+            continue
+        others = set()
+        for slug_j, tj, _ in sent_tokens:
+            if slug_j == slug_i:
+                continue
+            u = ti | tj
+            if u and len(ti & tj) / len(u) >= NEAR:
+                others.add(slug_j)
+        if len(others) >= 2:
+            fails[slug_i].append(f'Satz ist in {len(others)} weiteren Städten fast gleich '
+                                 f'({", ".join(sorted(others))}): "{raw_i[:80]}" – umschreiben, '
+                                 f'damit diese Stadt eigenständig liest')
+            shared_batches |= {source[o] for o in others if o in source}
     print(f"Städte geschrieben: {len(copy)}, durchgefallen: {len(fails)}, Wörter der Einleitungen insgesamt: {total_words}"
           + (f" (geteilte Sätze und Anfänge mitgezählt über {len(others)} Städte aus den anderen Stapeln)" if others else ""))
     for s, e in sorted(fails.items())[:80]: print(f"DURCHGEFALLEN {s}: " + "; ".join(e))
