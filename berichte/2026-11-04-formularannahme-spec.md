@@ -76,4 +76,73 @@ Schätzung: ~ ein halber bis ein Build-Tag. Kein Formspree, kein dritter Verarbe
 
 ## Zu bestätigen
 Löschfrist **90 Tage** (oder 180)? Danach baue ich nach Welle 1.
+
+---
+
+# Nachtrag (2026-11-04) — vier Ergänzungen, ersetzt die flache 90-Tage-Frist oben
+
+## (1) Löschfrist gestaffelt nach Zweck
+- **Erteilte Garantie / bearbeitete Beanspruchung:** KV-Eintrag **sofort löschen**, sobald das
+  Ergebnis in der CSV steht (keine zweite Kopie ohne zweiten Zweck). Explizites `KV.delete` im
+  Pflegeablauf, in [[refresh-and-upkeep]] aufgenommen.
+- **Abgelehnt / unbeantwortet / abgebrochen:** **90 Tage**, technisch über `expirationTtl` beim
+  Schreiben (kein vergessbarer Aufräumlauf).
+- **Begründung (Wiki):** Nach einer Ablehnung trägt kein Zweck die längere Aufbewahrung fremder
+  Gewerbedaten, und der Garantie-Antrag enthält eine Unterschrift. 180 Tage wären nicht begründbar.
+
+## (2) Zwei Speicherorte, zwei zutreffende Fristen — meine Empfehlung: volle Mail + Postfachregel
+Die Benachrichtigungsmail enthält die vollständige Einsendung. Eine „90 Tage in KV"-Zusage wäre
+unzutreffend, solange dieselben Daten unbefristet im Postfach liegen. Regelung:
+- **Datenschutzerklärung nennt beide Orte:** Cloudflare KV (90 Tage bzw. sofort bei Abschluss)
+  **und** das E-Mail-Postfach des Verantwortlichen mit eigener Frist.
+- **Empfehlung: Variante (a) — volle Mail behalten, Postfachfrist per Regel.** Gründe: die volle
+  Mail ist die **Sicherung** von KV, trägt den **persönlichen Verkaufsanlass** und enthält bei
+  angenommenen Garantie-Anträgen die **unterschriebene Serviceversprechen-Zusage** (ein Beleg, den
+  der Betreiber zu Recht behält). Variante (b) (nur Formularart + KV-Schlüssel in der Mail) löste
+  den Konflikt, nähme aber Sicherung **und** Unterschriftsbeleg und zwänge, für jeden Lead KV zu
+  öffnen — schlechter für den Verkaufsanlass. Postfach-Frist: **abgelehnte/unbeantwortete
+  Einsendungsmails nach 90 Tagen löschen** (Filter/Label im Postfach, deckungsgleich mit KV);
+  **angenommene Garantie-Anträge** als Geschäftsbeleg für die Laufzeit der Garantie plus
+  gesetzliche Aufbewahrung behalten. **Abhängigkeit, die in der Erklärung ehrlich stehen muss:**
+  die Postfach-Frist wird durch eine einmalig eingerichtete Filterregel in Daniels Postfach
+  eingehalten — ohne sie wäre die Zusage unzutreffend.
+
+## (3) Wiedervorlage statt Totalverlust
+Beim Löschen bleibt **nur eine Wiedervorlage-Zeile**: Firmenname, Ort, Datum, Formularart,
+Ablehnungsgrund in Kurzform. **Kein Formularinhalt, keine Preise, keine Unterschrift.** Zweck:
+Nachfassen, wenn der Betrieb die fehlende Voraussetzung erfüllt.
+- **Ort (Empfehlung): eine Datei `output/<slug>/wiedervorlage.csv`** — außerhalb von `site/`,
+  per `.gitignore` aus dem Repo, nie in Site-Daten, nie in einen Build. Geschrieben **beim
+  manuellen Ablehnen** (Pflegeablauf), nicht von der Function. Besser als eine KV-Liste ohne
+  Ablauf, weil die Daten dann nicht unbefristet bei Cloudflare lägen und der Betreiber sie in der
+  Hand hat.
+- **Frist (Vorschlag): 12 Monate** — ein Jahr genügt, damit der Betrieb die fehlende
+  Voraussetzung erfüllen kann (Bewertungen sammeln, Festnetz einrichten) und der Betreiber einmal
+  nachfasst. Rechtsgrundlage Art. 6 Abs. 1 lit. f (B2B-Nachfassen).
+- Datenschutzerklärung nennt die Wiedervorlage als **eigene Verarbeitung** mit eigenem Zweck und
+  eigener Frist.
+- **Wiki-Regel (ausdrücklich):** Preise aus einem abgelehnten Antrag erscheinen **nie** auf einer
+  Eintragsseite. Ein ungeprüfter Preis liest sich als Zusage des Verzeichnisses und entwertet die
+  Festpreis-Garantie. Die drei Preise erscheinen ausschließlich mit erteilter Garantie, aus der CSV.
+
+## (4) Eigene Adresse, maschinelle Vorprüfung, keine automatische Erteilung
+- `contact.email` → **info@die-besten-schluesseldienste.de** (Cloudflare Email Routing auf Daniels
+  Postfach); die Function-Benachrichtigung geht an dieselbe verifizierte Zieladresse.
+  `publisher.email` bleibt **info@domholdinggmbh.de** (Impressum = Herausgeberin).
+- **Wiki ([[footprint-rules]]):** Antworten gehen nie von einer der eigenen
+  Schlüsseldienst-Domains (sichtbarer Zusammenhang); bis es ein sendefähiges Postfach gibt, wird
+  von der Holding-Adresse geantwortet.
+- **Neues Skript `scripts/pruefe_antrag.py`** (nach Welle 1): prüft maschinell, was prüfbar ist —
+  Impressum unter der angegebenen Domain erreichbar, Festnetz mit zur PLZ passender Ortsvorwahl,
+  alle drei Preise ausgefüllt und plausibel, Bewertungslage gegen „ab 5 Bewertungen Schnitt ≥ 4,0".
+  Ausgabe: eine Zeile je Voraussetzung (bestanden / offen / durchgefallen) **und** ausdrücklich,
+  was **nicht** maschinell prüfbar ist (Unterschrift, Callcenter-Weiterleitung, telefonische
+  Preisbestätigung). Ergebnis gehört in die Benachrichtigungsmail. **Die Function bleibt dumm**
+  (annehmen, speichern, melden), damit Regeländerungen kein Ausliefern brauchen.
+- **Wiki-Regel:** Die **Erteilung** der Festpreis-Garantie wird **nie** automatisiert; kein Skript
+  setzt `geprueft` ohne menschliche Entscheidung. Der Wert liegt in der telefonischen Bestätigung
+  der drei Preise.
+- **Für nach dem Start, in `06-launch.md` vormerken (nicht jetzt bauen):** ein Skript, das aus einer
+  angenommenen Einsendung die CSV-Zeile setzt; automatischer Neubau + Ausliefern bei CSV-Änderung;
+  Erinnerung an fällige Jahreserneuerungen 30 Tage vorher.
 </content>
