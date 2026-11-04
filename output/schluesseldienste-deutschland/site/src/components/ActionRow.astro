@@ -1,0 +1,15 @@
+---
+// Optionale Handlungsreihe auf der Startseite: Zeichen, Titel, eine Zeile, Link; eine Karte je echtem Ziel.
+// Wird nur gezeigt, wenn "actions" in site.json nicht leer ist. Die Zeichen sind SVG-Strings im
+// Zeichenstil des Gestaltungsvorbilds (gefüllt oder als Linie, eine Farbe), siehe
+// wiki/framework/design-seed.md.
+// Das HTML wird als String gebaut, weil set:html nicht in einem .map()-Ausdruck stehen kann.
+import { escapeHtml } from '../lib/load.mjs';
+const { actions = [] } = Astro.props;
+const html = actions.map((a) => `<a class="action" href="${escapeHtml(a.href)}">` +
+  (a.icon ? `<span class="icon" aria-hidden="true">${a.icon}</span>` : '') +
+  `<h3>${escapeHtml(a.title)}</h3><p>${escapeHtml(a.text)}</p>` +
+  (a.label ? `<span class="btn">${escapeHtml(a.label)}</span>` : '') +
+  `</a>`).join('\n');
+---
+{actions.length > 0 && <section class="actions" set:html={html}></section>}

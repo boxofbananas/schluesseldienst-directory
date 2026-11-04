@@ -1,0 +1,187 @@
+---
+// Eintragsseite: ein Betrieb, zwei Zustände (Grundeintrag / ausgebauter Eintrag).
+// wiki/framework/page-types.md. Die Karte lädt erst nach einem Klick (wiki/konventionen.md).
+import Base from '../../../../../layouts/Base.astro';
+import Breadcrumbs from '../../../../../components/Breadcrumbs.astro';
+import Rating from '../../../../../components/Rating.astro';
+import Garantie from '../../../../../components/Garantie.astro';
+import AttributeGrid from '../../../../../components/AttributeGrid.astro';
+import SocialLinks from '../../../../../components/SocialLinks.astro';
+import ClaimCta from '../../../../../components/ClaimCta.astro';
+import { loadDirectory, formatPhone, telHref, hoursToSpec, paragraphs, e164, businessType, fmtInt, fmtRating } from '../../../../../lib/load.mjs';
+export function getStaticPaths() {
+  const { listings } = loadDirectory();
+  return listings.map((l) => ({ params: { bundesland: l.regionSlug, stadt: l.citySlug, slug: l.slug }, props: { slug: l.slug } }));
+}
+const { slug } = Astro.props;
+const dir = loadDirectory();
+const { site, countryPath, buildDate, buildDateDe } = dir;
+const l = dir.listings.find((x) => x.slug === slug);
+const city = dir.cityBySlug[`${l.regionSlug}/${l.citySlug}`];
+const regionPath = `/verzeichnis/${l.regionSlug}/`;
+const base = `https://${site.domain}`;
+const title = `${l.name} | ${site.niche.singular} in ${l.city}`;
+const description = (l.description.split(/(?<=\.)\s/)[0] || `${l.name}, ${site.niche.singular} in ${l.city}, ${l.regionName}.`).slice(0, 160);
+const noindex = dir.noindexPaths.has(l.path);
+// Die Leistungen, die der Betrieb auf seiner eigenen Website bestätigt: H3 unter "Leistungen und
+// Angaben" und Offers im Schema.
+const services = l.attrs.filter((a) => a.value === 'true');
+const followed = l.optimized;
+// Die Leistungsseiten, auf denen dieser Betrieb steht, und die verwandten Einträge aus load.mjs.
+const servicePages = dir.services.filter((s) => services.some((a) => a.key === s.key));
+const relatedCity = l.related.length && l.related[0].citySlug !== l.citySlug ? l.related[0].city : l.city;
+const hoursSpec = l.hours.map((h) => { const s = hoursToSpec(h.hours); return s ? { '@type': 'OpeningHoursSpecification', dayOfWeek: `https://schema.org/${h.schemaDay}`, opens: s.opens, closes: s.closes } : null; }).filter(Boolean);
+const schema = [{
+  '@context': 'https://schema.org', '@type': businessType(site), '@id': base + l.path + '#business', name: l.name, url: l.website || base + l.path,
+  telephone: e164(l.phone),
+  address: { '@type': 'PostalAddress', streetAddress: l.areaService ? undefined : (l.street || undefined), addressLocality: l.city, addressRegion: l.regionName, postalCode: l.postalCode || undefined, addressCountry: 'DE' },
+  ...(l.lat && l.lng ? { geo: { '@type': 'GeoCoordinates', latitude: l.lat, longitude: l.lng } } : {}),
+  ...(hoursSpec.length ? { openingHoursSpecification: hoursSpec } : {}),
+  // Kein aggregateRating: die Bewertung auf der Seite ist die von Google, und Googles Regeln für
+  // Bewertungs-Auszüge erlauben keine Auszeichnung von Bewertungen, die anderswo erhoben wurden
+  // (wiki/seo/schema.md).
+  ...(l.photos.length ? { image: l.photos.map((pp) => base + pp) } : {}),
+  description: l.description || undefined,
+  ...(l.socials.length ? { sameAs: l.socials.map((s) => s.url) } : {}),
+  ...(services.length ? { makesOffer: services.map((a) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name: a.label, areaServed: { '@type': 'City', name: l.city } } })) } : {}),
+}, { '@context': 'https://schema.org', '@type': 'WebPage', '@id': base + l.path, url: base + l.path, name: title, inLanguage: 'de-DE', datePublished: site.launchDate, dateModified: buildDate, about: { '@id': base + l.path + '#business' } }];
+// Route über das Adressschema von Google Maps, ohne Schlüssel. Das ist ein gewöhnlicher Link und
+// lädt nichts nach; nicht gezeigt bei Betrieben ohne Anschrift.
+const directions = !l.areaService && l.lat && l.lng ? `https://www.google.com/maps/dir/?api=1&destination=${l.lat},${l.lng}` : '';
+const claimHref = `/eintrag-beanspruchen/?eintrag=${encodeURIComponent(l.slug)}&betrieb=${encodeURIComponent(l.name)}`;
+const disclaimer = site.disclaimer || `${site.brand} ist ein kostenloses Verzeichnis, zusammengestellt aus öffentlichen Quellen. Jeder aufgeführte Betrieb ist selbstständig, ein Eintrag ist keine Empfehlung. Das Schlüsseldienst-Handwerk ist in Deutschland kein zulassungspflichtiges Handwerk; es gibt weder eine Lizenz noch eine Meisterpflicht, die wir prüfen könnten. Lassen Sie sich Festpreis, Anfahrtspauschale und Zuschläge vor Arbeitsbeginn bestätigen.`;
+const mark = l.featured ? 'Premium-Platz' : l.bestOfRank ? `Top-Platzierung in ${l.city}, Platz ${l.bestOfRank}` : l.premium ? 'Premium-Eintrag' : '';
+const showMap = (l.optimized || l.preview) && l.mapLink && l.lat && l.lng;
+const mapSrc = showMap ? `https://www.google.com/maps?q=${l.lat},${l.lng}&output=embed&hl=de` : '';
+---
+<Base title={title} description={description} path={l.path} noindex={noindex} schema={schema}>
+  <Fragment slot="head">
+    <Breadcrumbs site={site} items={[{ name: 'Startseite', href: '/' }, { name: site.niche.title, href: countryPath }, { name: l.regionName, href: regionPath }, { name: l.city, href: city.path }, { name: l.name, href: l.path }]} />
+    {mark && <p class="mark">{mark}{l.claimed ? ' · Vom Inhaber bestätigt' : ''}</p>}
+    {!mark && l.claimed && <p class="mark">Vom Inhaber bestätigt</p>}
+    <h1>{l.name}</h1>
+    <Rating rating={l.rating} reviews={l.reviews} />
+    <Garantie listing={l} mode="card" />
+    <p class="meta">Eintrag in <a href={city.path}>{l.city}</a>, <a href={regionPath}>{l.regionName}</a></p>
+  </Fragment>
+
+  <div class="listing-layout">
+  <div class="listing-main">
+  {l.photos.length > 0 && <div class="photos">{l.photos.map((pp) => <img src={pp} alt={`${l.name}, ${site.niche.singular} in ${l.city}`} loading="lazy" width="400" height="300" />)}</div>}
+
+  <section class="prose about">
+    <h2>Über {l.name}</h2>
+    {l.description ? <div set:html={paragraphs(l.description.split(/\n+/))}></div> : <p>Noch keine Beschreibung. Wenn das Ihr Betrieb ist, beanspruchen Sie den Eintrag und sagen Sie Ihren Kunden, was Sie anbieten.</p>}
+    {l.reviewsTags && <p class="meta">Was Kunden hervorheben: {l.reviewsTags}</p>}
+  </section>
+
+  <section class="services">
+    <h2>Leistungen und Angaben</h2>
+    <AttributeGrid attrs={l.attrs} />
+    {servicePages.length > 0 && (
+      <>
+        <p class="meta svc-lead">In {site.country.name} vergleichen:</p>
+        <ul class="chips svc-links">{servicePages.map((s) => <li><a href={s.path}>{s.title}</a></li>)}</ul>
+      </>
+    )}
+  </section>
+
+  <div class="facts">
+    <div>
+      <h2>Kontakt</h2>
+      <ul>
+        {l.phone && <li><a href={telHref(l.phone)}>{formatPhone(l.phone)}</a></li>}
+        <li>{l.areaService ? `Betrieb ohne Ladengeschäft, im Einsatz in ${l.city}, ${l.regionName}` : l.address}</li>
+        {l.website && <li><a href={l.website} rel={followed ? 'noopener' : 'nofollow noopener'} target="_blank">Website</a></li>}
+        {l.mapLink && <li><a href={l.mapLink} rel="nofollow noopener" target="_blank">Bei Google Maps ansehen</a></li>}
+        {l.verifiedOnGoogle && <li class="meta">Eintrag bei Google bestätigt</li>}
+        {l.socials.length > 0 && <li><SocialLinks socials={l.socials} name={l.name} followed={followed} /></li>}
+      </ul>
+    </div>
+    {l.hours.length > 0 && (
+      <div class="hours">
+        <h2>Öffnungszeiten</h2>
+        <dl>{l.hours.map((h) => <div><dt>{h.day}</dt><dd>{h.hours}</dd></div>)}</dl>
+      </div>
+    )}
+  </div>
+
+  {l.related.length > 0 && (
+    <section class="related">
+      <h2>Weitere {site.niche.plural} in {relatedCity}</h2>
+      <ul class="more-list">{l.related.map((r) => <li><a href={r.path}>{r.name}</a>{r.reviews > 0 && <span class="rt"><i aria-hidden="true">★</i> {fmtRating(r.rating)} <small>({fmtInt(r.reviews)})</small></span>}</li>)}</ul>
+      <p class="meta"><a href={city.path}>Alle {city.count} {site.niche.plural} in {city.name}</a></p>
+    </section>
+  )}
+
+  <p class="disclaimer">Firmendaten und Bewertungen stammen aus öffentlichen Quellen und aus Google Maps, Stand {buildDateDe}. <a href="/kontakt/">Korrektur oder Löschung melden.</a> <a href={city.path}>Zurück zu den {site.niche.plural}n in {l.city}</a>.</p>
+  </div>
+
+  <aside class="listing-side">
+    {showMap && (
+      <div class="side-map" id="karte">
+        <div class="map-consent" id="karte-hinweis">
+          <p><strong>Karte von Google Maps</strong></p>
+          <p>Die Karte wird erst auf Ihren Klick geladen. Dabei werden Daten an Google übertragen, darunter Ihre IP-Adresse.</p>
+          <button class="btn" type="button" id="karte-laden">Karte von Google Maps laden</button>
+        </div>
+      </div>
+    )}
+    <div class="side-card">
+      <h2>Standort</h2>
+      <p>{l.areaService ? `Betrieb ohne Ladengeschäft. Im Einsatz in ${l.city}, ${l.regionName}.` : l.address}</p>
+      {directions && <a class="btn side-btn" href={directions} rel="nofollow noopener" target="_blank">Route planen</a>}
+      <ul class="side-links">
+        {l.phone && <li><a href={telHref(l.phone)}>{formatPhone(l.phone)}</a></li>}
+        {l.website && <li><a href={l.website} rel={followed ? 'noopener' : 'nofollow noopener'} target="_blank">Website</a></li>}
+        {l.mapLink && <li><a href={l.mapLink} rel="nofollow noopener" target="_blank">Bei Google Maps ansehen</a></li>}
+      </ul>
+    </div>
+    <div class="side-card garantie-card">
+      {!l.garantie && <h2>Festpreis-Garantie</h2>}
+      {l.garantie
+        ? <>
+            <Garantie listing={l} mode="full" />
+            <a class="btn side-btn" href="/festpreis-garantie/">So funktioniert die Garantie</a>
+          </>
+        : <>
+            <p>Dieser Betrieb hat noch keine Festpreis-Garantie hinterlegt. Betriebe mit Garantie nennen hier ihre Preise für Türöffnung und Anfahrt, bevor Sie anrufen, und garantieren, dass die Rechnung nicht höher ausfällt.</p>
+            <p class="meta">Inhaber: Die Garantie ist kostenlos und in wenigen Tagen geprüft.</p>
+            <a class="btn side-btn" href={`/festpreis-garantie/antrag/?eintrag=${encodeURIComponent(l.slug)}&betrieb=${encodeURIComponent(l.name)}`}>Festpreis-Garantie beantragen</a>
+          </>}
+    </div>
+    <div class="side-card claim">
+      <h2>Ist das Ihr Betrieb?</h2>
+      <p>Das Beanspruchen ist kostenlos. Angaben berichtigen, Bilder ergänzen und erfahren, welche Premium-Plätze in {l.city} frei sind.</p>
+      <a class="btn action side-btn" href={claimHref}>Diesen Eintrag beanspruchen</a>
+      <p class="meta"><a href="/premium/">Premium-Platz</a> oben auf der Seite {l.city}.</p>
+    </div>
+    <div class="side-card disclaimer-card">
+      <h2>Hinweis</h2>
+      <p>{disclaimer}</p>
+    </div>
+  </aside>
+  </div>
+  {showMap && (
+    <script is:inline define:vars={{ mapSrc, mapTitle: `Karte zu ${l.name}` }}>
+      // Erst der Klick lädt das iframe. Ohne Klick geht keine Anfrage an Google (wiki/konventionen.md).
+      (function () {
+        var btn = document.getElementById('karte-laden');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+          var box = document.getElementById('karte');
+          var frame = document.createElement('iframe');
+          frame.title = mapTitle;
+          frame.width = '100%';
+          frame.height = '240';
+          frame.style.border = '0';
+          frame.loading = 'lazy';
+          frame.referrerPolicy = 'no-referrer-when-downgrade';
+          frame.src = mapSrc;
+          box.innerHTML = '';
+          box.appendChild(frame);
+        });
+      })();
+    </script>
+  )}
+</Base>

@@ -1,0 +1,19 @@
+---
+// Eintragskarte: H3 Name (Link), Sterne und Anzahl, Garantie-Zeile, Stadt, drei Merkmale, Telefon, Platzmarke.
+import Rating from './Rating.astro';
+import Garantie from './Garantie.astro';
+import { topAttrs, formatPhone, telHref, isFeaturedIn } from '../lib/load.mjs';
+const { l, citySlug } = Astro.props;
+const featured = isFeaturedIn(l, citySlug || l.citySlug);
+const mark = featured ? 'Premium-Platz' : l.bestOfRank ? `Top-Platzierung in ${l.city}, Platz ${l.bestOfRank}` : l.premium ? 'Premium-Eintrag' : '';
+const chips = topAttrs(l);
+---
+<article class="card">
+  {mark && <span class="mark">{mark}</span>}
+  <h3><a href={l.path}>{l.name}</a></h3>
+  <Rating rating={l.rating} reviews={l.reviews} />
+  <Garantie listing={l} mode="card" />
+  <p class="meta">{l.areaService ? `Im Einsatz in ${l.city}` : `${l.street || l.address}, ${l.city}`}{l.foldedFrom && l.foldedFrom !== l.city ? ` (Sitz in ${l.foldedFrom})` : ''}</p>
+  {chips.length > 0 && <ul class="chips">{chips.map((a) => <li>{a.label}</li>)}</ul>}
+  {l.phone && <a class="phone" href={telHref(l.phone)}><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1L6.6 10.8z" fill="currentColor" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>{formatPhone(l.phone)}</a>}
+</article>

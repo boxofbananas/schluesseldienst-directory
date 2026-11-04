@@ -1,0 +1,24 @@
+---
+// Festpreis-Garantie: die Zeile fuer Eintragsseite und Karten (wiki/konventionen.md).
+// Mit Garantie: "Festpreis-Garantie <Jahr>" plus Tagespreis, Link auf /festpreis-garantie/.
+// Ohne Garantie: "Noch keine Festpreis-Garantie", Link auf den Antrag. Diese zweite Zeile ist
+// der Verkaufsanlass und darf nicht abgeschaltet werden; sie unterstellt dem Betrieb nichts.
+// mode="card" zeigt nur die kurze Zeile, mode="full" (Eintragsseite) den Preisblock.
+import { fmtEuro } from '../lib/load.mjs';
+const { listing, mode = 'card' } = Astro.props;
+const g = listing.garantie;
+const jahr = g && g.jahr ? ` ${g.jahr}` : '';
+---
+{g
+  ? (mode === 'full'
+    ? <div class="garantie ja voll">
+        <h2 class="garantie-kopf"><a href="/festpreis-garantie/">Festpreis-Garantie{jahr}</a></h2>
+        <dl class="garantie-preise">
+          <div><dt>Türöffnung tagsüber</dt><dd>{fmtEuro(g.tag)}</dd></div>
+          {g.nacht != null && <div><dt>Türöffnung nachts, am Wochenende</dt><dd>{fmtEuro(g.nacht)}</dd></div>}
+          {g.anfahrt != null && <div><dt>Anfahrt</dt><dd>{fmtEuro(g.anfahrt, { anfahrt: true })}</dd></div>}
+        </dl>
+        <p class="meta">Der Betrieb garantiert: Der hier genannte Preis ist der Preis auf der Rechnung. Was dahintersteht und wohin Sie sich bei einem Verstoß wenden, steht auf der Seite <a href="/festpreis-garantie/">Festpreis-Garantie</a>.</p>
+      </div>
+    : <p class="garantie ja"><a href="/festpreis-garantie/">Festpreis-Garantie{jahr}</a> <span class="garantie-ab">· Türöffnung ab {fmtEuro(g.tag)}</span></p>)
+  : <p class="garantie nein"><a href={`/festpreis-garantie/antrag/?eintrag=${encodeURIComponent(listing.slug)}&betrieb=${encodeURIComponent(listing.name)}`}>Noch keine Festpreis-Garantie</a></p>}

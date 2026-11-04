@@ -1,0 +1,65 @@
+---
+// Über uns: der Herausgeber im Mittelpunkt (wiki/framework/publisher-entity.md).
+// Der Herausgeber ist eine Gesellschaft, deshalb Organization statt Person im Schema.
+import Base from '../layouts/Base.astro';
+import { loadDirectory, paragraphs, fmtInt } from '../lib/load.mjs';
+const { site, listings, indexCities: cities, regions, buildDate, buildDateDe } = loadDirectory();
+const vetting = site.vetting && site.vetting.length ? site.vetting : null;
+const p = site.publisher;
+const base = `https://${site.domain}`;
+const title = `Über ${site.brand}`;
+const description = `${site.brand} wird von ${p.name} herausgegeben. Warum es dieses Verzeichnis gibt, wie die Einträge entstehen und wie Sie uns erreichen.`;
+const address = p.street && p.city ? { '@type': 'PostalAddress', streetAddress: p.street, postalCode: p.postalCode || undefined, addressLocality: p.city, addressCountry: 'DE' } : undefined;
+const schema = [
+  { '@context': 'https://schema.org', '@type': 'AboutPage', '@id': base + '/ueber-uns/', url: base + '/ueber-uns/', name: title, inLanguage: 'de-DE', datePublished: site.launchDate, dateModified: buildDate, mainEntity: { '@id': `${base}/#herausgeber` } },
+  { '@context': 'https://schema.org', '@type': 'Organization', '@id': `${base}/#herausgeber`, name: p.name, legalName: p.legalName || p.name, url: p.url || undefined, email: p.email || undefined,
+    address, image: p.image ? base + p.image : undefined, description: p.bio, sameAs: (p.sameAs || []).filter(Boolean),
+    // Der Herausgeber ist eine Gesellschaft, also Organization. Der Geschaeftsfuehrer kommt als
+    // Person dazu, weil ein Verzeichnis einen Menschen braucht, den man ansprechen kann
+    // (wiki/framework/publisher-entity.md).
+    founder: p.managingDirector ? { '@id': `${base}/#geschaeftsfuehrer` } : undefined,
+    owns: { '@type': 'Organization', '@id': `${base}/#publisher`, name: site.brand, url: base + '/' } },
+];
+if (p.managingDirector) {
+  schema.push({ '@context': 'https://schema.org', '@type': 'Person', '@id': `${base}/#geschaeftsfuehrer`, name: p.managingDirector,
+    jobTitle: 'Geschäftsführer', worksFor: { '@id': `${base}/#herausgeber` }, url: p.url || undefined, sameAs: (p.sameAs || []).filter(Boolean) });
+}
+// Der Abschnitt "Warum es dieses Verzeichnis gibt". In site.json unter "aboutWhy" pflegen.
+const why = site.aboutWhy && site.aboutWhy.length ? site.aboutWhy : [
+  `Wer einen ${site.niche.singular} braucht, sucht ihn unter Druck und greift zur ersten Nummer, die oben steht. Genau daran verdienen überregionale Vermittler, die den Auftrag an irgendeinen Monteur weitergeben und am Ende eine Summe verlangen, über die vorher niemand gesprochen hat.`,
+  `Dieses Verzeichnis sortiert die ${site.niche.plural} nach Bundesland und Stadt und zeigt zu jedem Betrieb das, worauf es vor dem Anruf ankommt: Anschrift, Telefonnummer, Bewertung bei Google und die Leistungen, die der Betrieb auf seiner eigenen Website nennt. Was nicht belegt ist, steht als „keine Angabe“ da und nicht als Vermutung.`,
+  `Wir sind kein Verband, keine Innung und keine amtliche Stelle. Wir sind ein Herausgeber, der öffentliche Daten ordnet und auf Antrag die Angaben einzelner Betriebe an Unterlagen und Website prüft. Was dabei geprüft wird und was nicht, steht vollständig auf der Seite <a href="/festpreis-garantie/">Festpreis-Garantie</a>.`,
+];
+---
+<Base title={title} description={description} path="/ueber-uns/" schema={schema}>
+  <Fragment slot="head">
+    <h1>Über {site.brand}</h1>
+  </Fragment>
+  <div class="publisher">
+    {p.image && <img src={p.image} alt={p.name} width="160" height="160" />}
+    <div class="prose">
+      <h2 style="margin-top:0">Herausgegeben von {p.name}</h2>
+      <p>{p.bio}</p>
+      {p.url && <p><a href={p.url} rel="me noopener">{p.url.replace(/^https?:\/\//, '')}</a></p>}
+      {p.managingDirector && (
+        <p>Verantwortlich ist {p.managingDirector}, Geschäftsführer der {p.legalName || p.name}
+          {p.city ? ` in ${p.city}` : ''}. Fragen zu einem Eintrag, zu einer Korrektur oder zur Festpreis-Garantie
+          beantworten wir unter <a href={`mailto:${site.contact.email}`}>{site.contact.email}</a>.</p>
+      )}
+      <p class="meta">Vollständige Angaben zum Herausgeber: <a href="/impressum/">Impressum</a>.</p>
+    </div>
+  </div>
+  {p.videoEmbed && <div class="prose" set:html={p.videoEmbed}></div>}
+  <section class="prose">
+    <h2>Warum es dieses Verzeichnis gibt</h2>
+    <div set:html={why.map((t) => `<p>${t}</p>`).join('\n')}></div>
+    <h2>Wie die Einträge entstehen</h2>
+    {vetting
+      ? <div set:html={paragraphs(vetting.slice(0, 2))}></div>
+      : <p>Jeder Eintrag beginnt bei öffentlichen Firmendaten und bei Google Maps. Aufgenommen wird, wer geöffnet hat, Bewertungen vorweist und dieses Handwerk als Hauptgeschäft betreibt. Doppelte Einträge werden zusammengeführt, geschlossene Betriebe entfernt.</p>}
+    <p>Derzeit sind das {fmtInt(listings.length)} {site.niche.plural} in {fmtInt(cities.length)} Städten und {regions.length} {regions.length === 1 ? 'Bundesland' : 'Bundesländern'}, zuletzt aktualisiert am {buildDateDe}.</p>
+    <p>Inhaber können ihren Eintrag kostenlos beanspruchen. Jede Beanspruchung wird von einem Menschen geprüft: ein echter örtlicher Betrieb, eine E-Mail-Adresse auf der eigenen Domain oder ein Anruf auf der Nummer aus dem Google-Eintrag. Bezahlte Platzierungen sind überall als Premium-Eintrag, Premium-Platz oder Top-Platzierung gekennzeichnet. Die Festpreis-Garantie ist nicht kaufbar; bezahlt wird nur Sichtbarkeit.</p>
+    <h2>Korrekturen und Löschungen</h2>
+    <p>Wenn ein Eintrag falsch ist oder Sie Ihren Betrieb entfernt haben möchten, <a href="/kontakt/">schreiben Sie uns</a>. Wir antworten innerhalb einer Woche und bauen das Verzeichnis mit der Änderung neu.</p>
+  </section>
+</Base>

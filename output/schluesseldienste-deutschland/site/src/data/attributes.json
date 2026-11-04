@@ -1,0 +1,131 @@
+[
+ {
+  "key": "schluesseldienst_kern",
+  "label": "Schlüsseldienst",
+  "faq": "Welche Betriebe in {city} arbeiten wirklich als Schlüsseldienst?",
+  "true_when": "nennt auf seiner eigenen Website das Öffnen oder Austauschen von Türen, Schlössern oder Schließzylindern als eigene Leistung; ein Betrieb, der nur Schlüssel an der Theke anfertigt oder ein anderes Gewerk beschreibt (Schuhreparatur, Gravur, Metallbau, Baumarkt, Kfz), ist false",
+  "pattern": "schl[üu]sseldienst|schluesseldienst|aufsperrdienst|schl[üu]sselnotdienst|schluesselnotdienst|t[üu]r[öo]ffnung|tueroeffnung|(?:t[üu]r(?:e|en)?|tuer(?:e|en)?) (?:[öo]ffnen|oeffnen)|(?:[öo]ffnen|oeffnen) (?:von |ihre |eine |die )*(?:t[üu]r(?:e|en)?|tuer(?:e|en)?)|aufsperren|schloss(?:austausch|wechsel|montage|[öo]ffnung)|zylinder(?:wechsel|austausch|tausch)",
+  "core": true
+ },
+ {
+  "key": "notdienst_24h",
+  "label": "24-Stunden-Notdienst",
+  "faq": "Welche {plural} in {city} haben einen Notdienst rund um die Uhr?",
+  "true_when": "gibt selbst eine Erreichbarkeit außerhalb der Ladenzeiten an: Notdienstnummer, „24 Stunden\", „rund um die Uhr\", nachts, am Wochenende oder an Feiertagen; Öffnungszeiten aus Google allein genügen nicht",
+  "pattern": "notdienst|notruf|notfall|24 ?(?:std|stunden|h)\\b|rund um die uhr|auch nachts|nachtdienst|wochenend|sonn- ?und ?feiertag|feiertags|jederzeit erreichbar|soforthilfe",
+  "service": {
+   "slug": "notdienst",
+   "title": "Schlüsselnotdienst rund um die Uhr",
+   "intro": []
+  }
+ },
+ {
+  "key": "tueroeffnung",
+  "label": "Türöffnung",
+  "faq": "Wer öffnet in {city} eine zugefallene oder verschlossene Tür?",
+  "true_when": "nennt das Öffnen zugefallener oder verschlossener Türen, Wohnungs- oder Haustüren als Leistung, auch als zerstörungsfreie Öffnung",
+  "pattern": "t[üu]r[öo]ffnung|tueroeffnung|(?:t[üu]r(?:e|en)?|tuer(?:e|en)?) (?:[öo]ffnen|oeffnen)|(?:[öo]ffnen|oeffnen) (?:von |ihre |eine |die )*(?:t[üu]r(?:e|en)?|tuer(?:e|en)?)|zugefallene? t[üu]r|verschlossene? t[üu]r|wohnungs[öo]ffnung|haust[üu]r[öo]ffnung|zerst[öo]rungsfrei(?:e|es)? [öo]ffn|aufsperren",
+  "service": {
+   "slug": "tueroeffnung",
+   "title": "Türöffnung",
+   "intro": []
+  }
+ },
+ {
+  "key": "schlossaustausch",
+  "label": "Schloss austauschen",
+  "faq": "Welche {plural} in {city} tauschen Schlösser und Zylinder aus?",
+  "true_when": "nennt den Austausch oder die Montage von Schlössern, Schließzylindern oder Beschlägen als Leistung; ein Betrieb, der nur Türen öffnet und über Austausch nichts sagt, bleibt not enough info",
+  "pattern": "schloss(?:austausch|wechsel|tausch|montage)|schl[öo]sser (?:tauschen|wechseln|austauschen|montieren)|zylinder(?:austausch|wechsel|tausch)|schlie[ßs]zylinder|profilzylinder|neue(?:r|s)? (?:schloss|zylinder)|beschl[äa]ge"
+ },
+ {
+  "key": "schliessanlagen",
+  "label": "Schließanlagen",
+  "faq": "Wer plant und montiert in {city} Schließanlagen?",
+  "true_when": "nennt Schließanlagen, Schließpläne, Generalhauptschlüssel- oder Zentralschließsysteme als eigene Leistung, geplant oder montiert",
+  "pattern": "schlie[ßs]anlage|schliessanlage|schlie[ßs]plan|schlie[ßs]system|generalhauptschl[üu]ssel|zentralschlie[ßs]|hauptschl[üu]sselsystem|gleichschlie[ßs]end",
+  "service": {
+   "slug": "schliessanlagen",
+   "title": "Schließanlagen",
+   "intro": []
+  }
+ },
+ {
+  "key": "einbruchschutz",
+  "label": "Einbruchschutz",
+  "faq": "Welche {plural} in {city} beraten zum Einbruchschutz?",
+  "true_when": "nennt Einbruchschutz, mechanische Sicherungstechnik oder eine Beratung dazu als Leistung, zum Beispiel Panzerriegel, Querriegel, Fenster- oder Türsicherung, Nachrüstung nach DIN 18104 oder eine Widerstandsklasse",
+  "pattern": "einbruchschutz|einbruchhemmend|einbruchsicher|aufbohrschutz|aufhebelsicher|sicherungstechnik|sicherheitstechnik|panzerriegel|querriegel|fenstersicherung|t[üu]rsicherung|zusatzschloss|nachr[üu]st|din ?18104|\\bwk ?[2-6]\\b|\\brc ?[2-6]\\b",
+  "service": {
+   "slug": "einbruchschutz",
+   "title": "Einbruchschutz und Sicherheitstechnik",
+   "intro": []
+  }
+ },
+ {
+  "key": "autoschluessel",
+  "label": "Autoschlüssel",
+  "faq": "Wer macht in {city} Autoschlüssel nach oder öffnet Fahrzeuge?",
+  "true_when": "nennt Autoschlüssel, Funkschlüssel, Transponder, Wegfahrsperren oder das Öffnen von Fahrzeugen als Leistung",
+  "pattern": "autoschl[üu]ssel|kfz[- ]?schl[üu]ssel|fahrzeugschl[üu]ssel|fahrzeug[öo]ffnung|auto[öo]ffnung|autoaufsperr|funkschl[üu]ssel|funkfernbedienung|wegfahrsperre|transponderschl[üu]ssel",
+  "service": {
+   "slug": "autoschluessel",
+   "title": "Autoschlüssel und Fahrzeugöffnung",
+   "intro": []
+  }
+ },
+ {
+  "key": "tresoroeffnung",
+  "label": "Tresoröffnung",
+  "faq": "Welche {plural} in {city} öffnen Tresore?",
+  "true_when": "nennt das Öffnen von Tresoren, Safes, Geldschränken oder Wertschutzschränken als Leistung, oder deren Wartung und Umstellung",
+  "pattern": "tresor|safe[- ]?[öo]ffnung|geldschrank|wertschutzschrank|panzerschrank|zahlenschloss[- ]?[öo]ffnung",
+  "service": {
+   "slug": "tresoroeffnung",
+   "title": "Tresoröffnung",
+   "intro": []
+  }
+ },
+ {
+  "key": "schluessel_nachmachen",
+  "label": "Schlüssel nachmachen",
+  "faq": "Wo kann man in {city} einen Schlüssel nachmachen lassen?",
+  "true_when": "nennt das Anfertigen, Kopieren oder Nachmachen von Schlüsseln als Leistung, auch für Sicherheitsschlüssel mit Sicherungskarte",
+  "pattern": "schl[üu]ssel (?:nachmachen|anfertigen|kopieren|fr[äa]sen)|schl[üu]sselkopie|schl[üu]sselanfertigung|nachschl[üu]ssel|ersatzschl[üu]ssel|schl[üu]sselrohling|sicherungskarte"
+ },
+ {
+  "key": "elektronische_schliesssysteme",
+  "label": "Elektronische Schließsysteme",
+  "faq": "Welche {plural} in {city} arbeiten mit elektronischen Schließsystemen?",
+  "true_when": "nennt elektronische Schließsysteme, Zutrittskontrolle, Transponder- oder Chipsysteme, Codeschlösser, Fingerprint- oder Motorschlösser als Leistung",
+  "pattern": "elektronisch(?:e|es|en) (?:schlie[ßs]|schloss|zylinder|zutritt)|zutrittskontrolle|zutrittssystem|transpondersystem|chipschl[üu]ssel|\\brfid\\b|codeschloss|zahlencode|fingerprint|fingerabdruck|motorschloss|smart ?lock|funkzylinder"
+ },
+ {
+  "key": "ladengeschaeft",
+  "label": "Ladengeschäft",
+  "faq": "Welche {plural} in {city} haben ein Ladengeschäft?",
+  "true_when": "nennt ein eigenes Ladengeschäft, eine Filiale oder eine Werkstatt, die Kunden aufsuchen können, mit Adresse oder Ladenöffnungszeiten; ein reiner Fahrdienst oder eine Notdienstnummer ist dafür nicht genug",
+  "pattern": "ladengesch[äa]ft|ladenlokal|unser laden|im laden|filiale|gesch[äa]ft in der|werkstatt in der|sie finden uns|besuchen sie uns|ladeng[öo]ffnungszeiten|vor ort im gesch[äa]ft"
+ },
+ {
+  "key": "festpreis_genannt",
+  "label": "Festpreis genannt",
+  "faq": "Welche {plural} in {city} nennen einen Festpreis vor Arbeitsbeginn?",
+  "true_when": "nennt auf der eigenen Website einen Festpreis, Pauschalpreis oder einen konkreten Betrag für eine Leistung, oder sagt zu, den Preis vor Arbeitsbeginn verbindlich zu nennen; „günstig\" oder „faire Preise\" ohne Betrag ist nicht genug",
+  "pattern": "festpreis|pauschalpreis|fixpreis|preis (?:vor|bei) (?:arbeitsbeginn|beginn|anfahrt)|verbindlicher? preis|preisliste|ab \\d{1,4} ?(?:€|eur\\b|euro)|\\d{1,4} ?(?:€|eur\\b|euro) (?:pro|je|f[üu]r)"
+ },
+ {
+  "key": "anfahrtspauschale_genannt",
+  "label": "Anfahrtspauschale genannt",
+  "faq": "Welche {plural} in {city} nennen ihre Anfahrtspauschale?",
+  "true_when": "nennt auf der eigenen Website eine Anfahrtspauschale, Anfahrtskosten, ein Wegegeld oder dass die Anfahrt kostenlos ist, jeweils als Betrag oder ausdrücklich als kostenlos",
+  "pattern": "anfahrtspauschale|anfahrtskosten|anfahrtsgeb[üu]hr|wegegeld|fahrtkosten|anfahrt (?:ab |kostet |inklusive|frei|kostenlos|\\d)|kostenlose anfahrt"
+ },
+ {
+  "key": "gewerblich_objektbetreuung",
+  "label": "Gewerbe und Objektbetreuung",
+  "faq": "Welche {plural} in {city} betreuen Gewerbe und Wohnanlagen?",
+  "true_when": "nennt Hausverwaltungen, Wohnanlagen, Gewerbekunden, Liegenschaften oder Wartungsverträge als Kundschaft oder Leistung",
+  "pattern": "hausverwaltung|objektbetreuung|objektbetreiber|wohnanlage|wohnungsbaugesellschaft|liegenschaft|gewerbekunden|gewerbliche kunden|firmenkunden|industriekunden|wartungsvertrag|rahmenvertrag|facility"
+ }
+]

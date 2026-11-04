@@ -1,0 +1,161 @@
+{
+  "brand": "Die besten Schlüsseldienste",
+  "domain": "die-besten-schluesseldienste.de",
+  "tagline": "Schlüsseldienste in Deutschland, die ihren Preis nennen, bevor sie kommen.",
+  "niche": {
+    "singular": "Schlüsseldienst",
+    "plural": "Schlüsseldienste",
+    "title": "Schlüsseldienste",
+    "mapsCategory": "locksmith",
+    "schemaType": "Locksmith"
+  },
+  "country": {
+    "name": "Deutschland",
+    "code": "DE"
+  },
+  "launchDate": "2026-11-03",
+  "publisher": {
+    "name": "DOM Holding GmbH",
+    "url": "https://domholdinggmbh.de",
+    "email": "info@domholdinggmbh.de",
+    "phone": "",
+    "image": "",
+    "bio": "Die DOM Holding GmbH mit Sitz in Schwaig bei Nürnberg gibt dieses Verzeichnis heraus. Wir tragen Firmendaten aus öffentlichen Quellen zusammen, ordnen sie nach Bundesland und Stadt und prüfen auf Antrag die Angaben einzelner Betriebe an Unterlagen und Website. Grundlage der Prüfung sind Selbstauskunft und Unterlagen, kein Test vor Ort.",
+    "legalName": "DOM Holding GmbH",
+    "street": "Anton-Bruckner-Straße 8",
+    "postalCode": "90571",
+    "city": "Schwaig bei Nürnberg",
+    "managingDirector": "Daniel Merz",
+    "register": "HRB 43586",
+    "registerCourt": "Amtsgericht Nürnberg",
+    "vatId": "",
+    "sameAs": [],
+    "videoEmbed": ""
+  },
+  "contact": {
+    "email": "info@domholdinggmbh.de",
+    "formEndpoint": "https://formspree.io/f/FORMULAR_ID"
+  },
+  "processors": {
+    "form": {
+      "name": "Formspree",
+      "company": "OFFEN_ANSCHRIFT_FORMULARDIENST",
+      "thirdCountry": true,
+      "_hinweis": "Firma und Anschrift wörtlich aus dem Impressum oder den AGB des Anbieters übernehmen, nicht aus dem Gedächtnis. Solange hier OFFEN_ steht, nennt die Datenschutzerklärung nur den Namen des Dienstes."
+    },
+    "payment": {
+      "name": "Stripe",
+      "company": "OFFEN_ANSCHRIFT_ZAHLUNGSDIENST",
+      "thirdCountry": true,
+      "_hinweis": "Ebenso: Firma und Anschrift aus den Unterlagen des Anbieters übernehmen. Erst ausfüllen, wenn die Zahlungslinks eingerichtet sind."
+    }
+  },
+  "analytics": false,
+  "tiers": {
+    "premium": {
+      "price": "97 € im Jahr",
+      "link": "STRIPE_LINK_PREMIUM"
+    },
+    "bestOf": {
+      "price": "250 € einmalig",
+      "link": "STRIPE_LINK_BESTOF"
+    },
+    "city": {
+      "price": "29 € im Monat",
+      "link": "STRIPE_LINK_CITY"
+    },
+    "county": {
+      "price": "",
+      "link": ""
+    },
+    "state": {
+      "price": "",
+      "link": ""
+    }
+  },
+  "design": {
+    "inspiredBy": "Die Gestaltungsmarken sind unverändert die der Vorlage (wiki/framework/master-template.md, festgelegt am 30.09.2026): Navy, Bernstein als Handlungsfarbe, Roboto Slab und Roboto.",
+    "bg": "#FFFFFF",
+    "surface": "#F5F6F8",
+    "text": "#325C68",
+    "heading": "#0B2545",
+    "headingWeight": 800,
+    "muted": "#4F6B74",
+    "accent": "#024B6D",
+    "accentText": "#FFFFFF",
+    "link": "#126665",
+    "action": "#F5A623",
+    "actionText": "#0B2545",
+    "band": "#0B2545",
+    "bandText": "#FFFFFF",
+    "headingFont": "\"Roboto Slab\", Georgia, serif",
+    "bodyFont": "\"Roboto\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+    "radius": "8px",
+    "buttonRadius": "8px",
+    "shadow": "0 2px 5px rgba(0,0,0,0.05), 0 1px 2px rgba(0,0,0,0.08)",
+    "logoText": "Die besten Schlüsseldienste",
+    "headerBg": "#0B2545",
+    "headerText": "#FFFFFF",
+    "bandSoft": "#C9D6E3",
+    "tint": "#E6F2F4",
+    "accent2": "#8FD8DC",
+    "bandOverlay": "rgba(11,37,69,0.78)",
+    "gold": "#F5B940"
+  },
+  "cityFloor": 2,
+  "maxCardsPerCity": 60,
+  "faq": [
+    {
+      "q": "Wie kommen die Betriebe in dieses Verzeichnis?",
+      "a": "Aus öffentlich zugänglichen Quellen. Wir führen Betriebe des Schlüsseldienst-Gewerbes, die geöffnet sind und öffentliche Bewertungen haben. Ein Eintrag ist kostenlos und entsteht ohne Zutun des Betriebs. Wer nicht geführt werden möchte, teilt uns das mit und wird entfernt."
+    },
+    {
+      "q": "Was bedeutet die Festpreis-Garantie?",
+      "a": "Dass der Betrieb seine drei Preise – Türöffnung tagsüber, Türöffnung nachts, Anfahrt – bei uns verbindlich genannt hat und garantiert, dass der genannte Preis der Preis auf der Rechnung ist. Wir haben vorher sechs nachlesbare Voraussetzungen geprüft: vollständiges Impressum, erreichbare Nummer, die drei Preise, mindestens zehn Google-Bewertungen bei einem Schnitt von mindestens 4,0, kein anonymes Callcenter und ein unterschriebenes Serviceversprechen. Grundlage sind Selbstauskunft und Unterlagen, kein Test vor Ort. Zahlen Sie mehr als garantiert, melden Sie es uns mit der Rechnung; dann wird die Garantie entzogen. Die Garantie ist für den Betrieb kostenlos und nicht käuflich."
+    },
+    {
+      "q": "Kostet ein Eintrag Geld?",
+      "a": "Nein. Der Eintrag ist kostenlos und bleibt kostenlos. Geld kostet nur Sichtbarkeit: ein hervorgehobener Eintrag, ein Platz oben auf einer Stadtseite, Bilder. Diese Plätze sind gekennzeichnet."
+    },
+    {
+      "q": "Was darf eine Türöffnung kosten?",
+      "a": "Das hängt von Schloss, Tageszeit und Anfahrt ab, deshalb nennen wir hier keine Zahl. Entscheidend ist, dass Ihnen der Preis genannt wird, bevor gearbeitet wird, und dass er dann gilt. Genau das garantieren die Betriebe mit unserer Festpreis-Garantie – ihre Preise stehen im Eintrag. Lassen Sie sich den Preis am Telefon nennen und fragen Sie ausdrücklich nach Zuschlägen für Anfahrt, Nacht und Wochenende."
+    },
+    {
+      "q": "Vermittelt dieses Verzeichnis Aufträge?",
+      "a": "Nein. Sie rufen den Betrieb direkt an. Wir nehmen keine Vermittlungsgebühr und verkaufen keine Anfragen weiter."
+    }
+  ],
+  "sortAttribute": "",
+  "foldMaxKm": 30,
+  "cityMinPopulation": 20000,
+  "cityFilter": false,
+  "vetting": [
+    "Die Einträge stammen aus öffentlich zugänglichen Quellen, vor allem aus Google Maps und den Websites der Betriebe selbst.",
+    "Wir entfernen Einträge ohne Bewertungen, dauerhaft geschlossene Betriebe und Mehrfacheinträge derselben Adresse.",
+    "Was ein Betrieb anbietet, lesen wir auf seiner eigenen Website nach. Wo sich etwas nicht belegen lässt, steht es nicht im Eintrag.",
+    "Die Festpreis-Garantie vergeben wir nur nach Antrag und Prüfung von sechs nachlesbaren Voraussetzungen. Betriebe mit Garantie nennen ihre Preise, bevor Sie anrufen. Sie ist kostenlos und nicht käuflich.",
+    "Bezahlte Plätze sind als bezahlt gekennzeichnet und verändern die Angaben zu einem Betrieb nicht.",
+    "Angaben können veraltet sein. Jeder Betrieb kann seinen Eintrag korrigieren oder entfernen lassen; eine E-Mail genügt."
+  ],
+  "countryIntro": [],
+  "regionIntro": {
+    "_hinweis": "Je Bundesland ein eigener Text: \"bayern\": [\"Absatz\", \"Absatz\"]. Gate 5 schreibt sie; ein gemeinsamer Text fuer alle Laender waere doppelter Inhalt."
+  },
+  "guide": [],
+  "aboutWhy": [
+    "Die besten Schlüsseldienste ist ein Branchenverzeichnis für ein Gewerbe, das ein Vertrauensproblem hat. Wer nachts vor einer zugefallenen Tür steht, sucht unter Druck und nimmt den ersten Treffer. Genau das nutzen einzelne Anbieter aus — mit Lockpreisen am Telefon und einer Rechnung vor Ort, die ein Vielfaches beträgt. Darunter leiden die Betriebe, die ordentlich arbeiten, am meisten, weil man sie vorher nicht von den anderen unterscheiden kann.",
+    "Dieses Verzeichnis führt deshalb erstens möglichst alle Betriebe, damit man überhaupt vergleichen kann, und zweitens die Festpreis-Garantie, die den Unterschied sichtbar macht, bevor man anruft: Betriebe mit Garantie nennen bei uns ihre Preise für Türöffnung und Anfahrt und garantieren, dass die Rechnung nicht höher ausfällt. Vorher prüfen wir, was man prüfen kann: Impressum, Erreichbarkeit, Bewertungen, und ob der Anruf beim Betrieb landet oder bei einer anonymen Vermittlung.",
+    "Zur Offenlegung, weil es dazugehört: Zum Unternehmen des Herausgebers gehören auch eigene Betriebe des Schlüsseldienst-Gewerbes. Diese sind in diesem Verzeichnis wie jeder andere Betrieb geführt — mit denselben Angaben, nach denselben Regeln sortiert, und bezahlte Plätze kosten für sie dasselbe wie für alle anderen."
+  ],
+  "heroPoints": [
+    "Festpreis-Garantie: Preise stehen im Eintrag, bevor Sie anrufen",
+    "Betriebe aus ganz Deutschland, nach Stadt sortiert",
+    "Kostenloser Eintrag, bezahlte Plätze sind gekennzeichnet"
+  ],
+  "footerAbout": "Die besten Schlüsseldienste ist ein privates Branchenverzeichnis der DOM Holding GmbH. Wir führen jeden Schlüsseldienst in Deutschland und machen sichtbar, wer sich vorab auf einen Festpreis festlegt. Wir sind keine Behörde, keine Kammer und kein Verband.",
+  "disclaimer": "Die Angaben auf dieser Seite stammen aus öffentlichen Quellen und sind kein Urteil über die Arbeit eines Betriebs. Bewertungen und Bewertungszahlen geben den Stand zum Zeitpunkt der letzten Aktualisierung wieder. Ein Eintrag ohne Festpreis-Garantie bedeutet nicht, dass der Betrieb die Voraussetzungen nicht erfüllen würde; die meisten haben noch keine beantragt.",
+  "featuredPreview": false,
+  "confirmedLabel": "geprüft",
+  "mailWorker": false
+}

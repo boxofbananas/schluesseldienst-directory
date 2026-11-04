@@ -1,0 +1,41 @@
+---
+// Premium-Band: durchlaufender dunkler Abschnitt, zentriert, mit den bezahlten Plätzen als Karten.
+// Mit site.featuredPreview füllt load.mjs unverkaufte Plätze mit den besten echten Einträgen (als
+// `preview` markiert, mit data-preview ausgegeben). Ohne das steht dort eine gestrichelte Karte
+// "Dieser Platz ist frei" mit Link auf /premium/. Der Hinweis auf die Kosten steht unter den Karten.
+// Eigenschaften: site, items (Einträge), place (Stadt-, Bundesland- oder Ländername), price, slots (3), title.
+import { topAttrs, fmtInt, fmtRating } from '../lib/load.mjs';
+const { site, items = [], place, price = '', slots = 3, title } = Astro.props;
+const heading = title || `Premium-Plätze: ${site.niche.plural} in ${place}`;
+const excerpt = (t, n = 28) => { const w = (t || '').split(/\s+/); return w.length > n ? w.slice(0, n).join(' ') + '…' : w.join(' '); };
+const shown = items.slice(0, slots);
+---
+<section class="bleed featured-band">
+  <h2>{heading}</h2>
+  <!-- copy:skip -->
+  <div class="biz-cards">
+    {shown.map((l) => (
+      <article class="biz-card featured" data-preview={l.featured ? undefined : '1'}>
+        <div class="top"><span><b class="badge">Premium</b>{l.city}</span><span class="rt"><i aria-hidden="true">★</i> {fmtRating(l.rating)} ({fmtInt(l.reviews)})</span></div>
+        <div class="body">
+          <h3><a href={l.path}>{l.name}</a></h3>
+          <p>{excerpt(l.description)}</p>
+          {topAttrs(l).length > 0 && <ul class="chips">{topAttrs(l).map((a) => <li>{a.label}</li>)}</ul>}
+          <a class="more" href={l.path}>Eintrag ansehen</a>
+        </div>
+      </article>
+    ))}
+    {shown.length < slots && (
+      <a class="biz-card featured open-slot" href="/premium/">
+        <span class="top"><span><b class="badge">Premium</b>{place}</span><span class="rt"><i aria-hidden="true">★</i> Ihre Bewertung</span></span>
+        <span class="body">
+          <strong>Dieser Platz ist frei</strong>
+          <span>Ihr Betrieb steht hier oben, über der nach Bewertung sortierten Liste{place !== site.country.name ? ` für ${place}` : ''}. Ein Betrieb je Stufe und Stadt. {price ? `Ab ${price}.` : ''}</span>
+          <span class="more">Premium-Platz buchen</span>
+        </span>
+      </a>
+    )}
+  </div>
+  <p class="band-foot"><a href="/premium/">Was ein Premium-Platz kostet</a>{price ? ` · ab ${price}` : ''}</p>
+  <!-- /copy:skip -->
+</section>

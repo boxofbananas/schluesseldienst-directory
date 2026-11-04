@@ -1,0 +1,209 @@
+---
+// Festpreis-Garantie: die Seite, auf die jede Garantie-Zeile im Eintrag verweist. Indexiert.
+// Die drei Teile der Garantie, die sechs Voraussetzungen und das Serviceversprechen muessen hier
+// nachlesbar stehen; ohne sie ist die Garantie angreifbar (wiki/konventionen.md,
+// wiki/framework/siegel-programm.md). Nichts hier abschwaechen, ohne die Pruefung selbst zu aendern.
+// Textgate: lint_copy.py --erlaube-rechtswoerter, weil diese Seite die Rechtslage erklaeren muss.
+import Base from '../../layouts/Base.astro';
+import { loadDirectory, fmtInt } from '../../lib/load.mjs';
+const { site, stats } = loadDirectory();
+const title = `Festpreis-Garantie: Schlüsseldienste, die ihren Preis vorher nennen | ${site.brand}`;
+const description = `Betriebe mit Festpreis-Garantie nennen ihren Preis für Türöffnung und Anfahrt, bevor Sie anrufen, und garantieren, dass die Rechnung nicht höher ausfällt. Was dahintersteht, wer prüft und was bei einem Verstoß passiert.`;
+---
+<Base title={title} description={description} path="/festpreis-garantie/">
+  <Fragment slot="head">
+    <h1>Festpreis-Garantie: der Preis steht, bevor jemand kommt</h1>
+  </Fragment>
+  <div class="prose">
+    <p>
+      Kurzfassung: Ein {site.niche.singular} mit Festpreis-Garantie nennt in seinem Eintrag drei
+      Preise – Türöffnung tagsüber, Türöffnung nachts und Anfahrt – und garantiert, dass der genannte
+      Preis der Preis auf der Rechnung ist. Wir prüfen die Voraussetzungen, veröffentlichen die
+      Preise und entziehen die Garantie, wenn ein Betrieb sie bricht. <strong>Die Garantie ist für den
+      Betrieb kostenlos und nicht kaufbar. Bezahlt wird bei uns nur Sichtbarkeit.</strong>
+    </p>
+
+    <h2>Das Problem, das die Garantie löst</h2>
+    <p>
+      Wer vor einer verschlossenen Tür steht, ruft die erste Nummer an und fragt nach dem Preis. Die
+      Antwort lautet oft „ab 49 Euro“, und auf der Rechnung stehen 400. Das ist der bekannteste Ärger
+      dieses Gewerbes, und er trifft die falschen: Die Betriebe, die einen Preis nennen und ihn halten,
+      stehen in derselben Trefferliste wie die, die das nicht tun, und man sieht den Unterschied vorher
+      nicht.
+    </p>
+    <p>
+      Die Festpreis-Garantie macht den Unterschied sichtbar, und zwar <strong>bevor</strong> Sie
+      anrufen. Nicht als Versprechen auf der Website des Betriebs, das jeder schreiben kann, sondern als
+      Zahl, die bei uns steht, die wir geprüft haben und die wir wegnehmen, wenn sie nicht gilt.
+    </p>
+
+    <h2>Die drei Teile der Garantie</h2>
+    <ol>
+      <li>
+        <strong>Der Preis steht im Eintrag.</strong> Jeder Betrieb mit Garantie veröffentlicht seine
+        drei Standardpreise: Türöffnung tagsüber, Türöffnung nachts (nachts, am Wochenende, an
+        Feiertagen) und die Anfahrt. Sie stehen in seinem Eintrag und auf der Stadtseite. Sie wissen also,
+        was es kostet, bevor Sie zum Telefon greifen.
+      </li>
+      <li>
+        <strong>Der Betrieb garantiert den Preis.</strong> Der genannte Preis ist der Preis auf der
+        Rechnung. Das ist eine Zusage des Betriebs an Sie, unterschrieben gegenüber uns. Zuschläge, die
+        nicht vorher ausdrücklich beziffert wurden, gibt es nicht.
+      </li>
+      <li>
+        <strong>Ein Verstoß hat Folgen.</strong> Zahlen Sie mehr als garantiert, melden Sie es uns mit
+        der Rechnung. Wir konfrontieren den Betrieb. Bleibt es dabei, entziehen wir die Garantie und
+        nehmen die Preise aus dem Eintrag. Wie Sie melden, steht unten.
+      </li>
+    </ol>
+
+    <h2>Was die Preise bedeuten</h2>
+    <ul>
+      <li>
+        <strong>Türöffnung tagsüber</strong>: eine zugefallene oder abgeschlossene Tür ohne Schaden
+        öffnen, werktags zu üblichen Zeiten. Ersatz eines Schlosses ist nicht enthalten und wird vorher
+        beziffert.
+      </li>
+      <li><strong>Türöffnung nachts</strong>: dieselbe Arbeit nachts, am Wochenende oder an Feiertagen.</li>
+      <li>
+        <strong>Anfahrt</strong>: die Pauschale für den Weg zu Ihnen. „Im Preis enthalten“ heißt, es
+        kommt nichts dazu.
+      </li>
+    </ul>
+    <p>
+      Der Betrieb legt diese Preise selbst fest. Wir machen keine Preisvorgabe und vergleichen die
+      Betriebe nicht nach dem Preis. Die Garantie sagt nicht, dass ein Betrieb günstig ist, sondern dass
+      der genannte Preis gilt.
+    </p>
+
+    <h2>Die sechs Voraussetzungen</h2>
+    <p>Ein Betrieb bekommt die Garantie, wenn alle sechs Punkte zutreffen:</p>
+    <ol>
+      <li>
+        <strong>Vollständiges Impressum</strong> auf der eigenen Website, mit Firma, Anschrift,
+        Vertretungsberechtigtem und Kontaktmöglichkeit.
+      </li>
+      <li>
+        <strong>Erreichbare Festnetznummer</strong>, die zum Betrieb gehört und deren Ortsvorwahl zur
+        angegebenen Anschrift passt. Eine reine Mobilnummer genügt dafür nicht.
+      </li>
+      <li>
+        <strong>Die drei Standardpreise verbindlich genannt</strong>: Türöffnung tagsüber, Türöffnung
+        nachts, Anfahrt.
+      </li>
+      <li><strong>Liegen mindestens fünf Google-Bewertungen vor, beträgt der Durchschnitt mindestens 4,0.</strong> Liegen weniger oder keine vor, entscheiden die übrigen Voraussetzungen.</li>
+      <li>
+        <strong>Kein Callcenter ohne Ortsbezug</strong>: Anrufe gehen an den Betrieb selbst oder an eine
+        Zentrale, die den Betrieb namentlich nennt, nicht an eine anonyme Vermittlung, die den Auftrag
+        weiterverkauft.
+      </li>
+      <li><strong>Unterschriebenes Serviceversprechen</strong> (siehe unten).</li>
+    </ol>
+
+    <h2>Das Serviceversprechen</h2>
+    <p>Wer die Garantie führt, sagt seinen Kunden vier Dinge zu:</p>
+    <ul>
+      <li><strong>Der genannte Preis ist der Rechnungspreis.</strong> Er wird vor Arbeitsbeginn bestätigt, und er gilt.</li>
+      <li>
+        <strong>Keine Zuschläge, die nicht vorher beziffert wurden.</strong> Material, Schlossersatz
+        oder Sonderfälle werden vorher genannt und mit Betrag bestätigt.
+      </li>
+      <li>
+        <strong>Rechnung mit vollständiger Firmenanschrift.</strong> Keine Barzahlung ohne Beleg, kein
+        Beleg ohne Anschrift.
+      </li>
+      <li>
+        <strong>Zerstörungsfreie Öffnung als Standard.</strong> Ein Schloss wird nur aufgebohrt, wenn es
+        anders nicht geht, und das wird vorher erklärt.
+      </li>
+    </ul>
+
+    <h2>Wer die Garantie gibt, und wer prüft</h2>
+    <p>
+      <strong>Die Garantie gibt der Betrieb</strong>, nicht wir. Er legt sich auf seine Preise fest und
+      unterschreibt das Serviceversprechen. Wir sind ein Verzeichnis: Wir prüfen die sechs
+      Voraussetzungen, veröffentlichen die Preise, nehmen Meldungen entgegen und entziehen die
+      Garantie, wenn sie gebrochen wird. Wir übernehmen keine Zahlung und keine Haftung für die Arbeit
+      des Betriebs.
+    </p>
+    <p>
+      Grundlage der Prüfung sind die <strong>Selbstauskunft des Betriebs</strong> im Antrag und unsere
+      <strong>Prüfung seiner Website und öffentlich zugänglicher Angaben</strong>: Wir sehen uns das
+      Impressum an, rufen die Nummer an, vergleichen die Preise mit der Website und sehen uns die
+      Bewertungen an. Wir führen <strong>keinen Test vor Ort</strong> durch: Wir bestellen keinen
+      Schlüsseldienst zu einer Tür und kontrollieren keine fremden Rechnungen. Wer etwas anderes
+      behauptet, behauptet zu viel.
+    </p>
+    <p>
+      Die Garantie trifft <strong>keine Aussage über Bekanntheit oder Bewertungsmenge</strong>. Ein
+      Betrieb ohne oder mit wenigen Google-Bewertungen kann sie führen, wenn er die übrigen
+      Voraussetzungen erfüllt. Sie bewertet Preissicherheit, nicht Reichweite.
+    </p>
+
+    <h2>Keine Lizenz, kein Meisterzwang</h2>
+    <p>
+      Zur Einordnung, weil es oft falsch dargestellt wird: Der {site.niche.singular} ist in Deutschland
+      kein zulassungspflichtiges Handwerk. Es gibt keine staatliche Lizenz, keine Meisterpflicht und
+      keine behördliche Zulassung, mit der ein Betrieb werben könnte. Wenn ein Anbieter mit
+      „lizenziert“, „staatlich zugelassen“ oder „amtlich zertifiziert“ wirbt, sagt das nichts aus.
+      Belegbar sind Gewerbeanmeldung, Handelsregistereintrag und freiwillige Mitgliedschaften – und
+      genau deshalb prüfen wir die Punkte, die man prüfen kann, und lassen den Betrieb den Preis
+      garantieren, den man nachprüfen kann.
+    </p>
+    <p>
+      Wir sind keine Behörde, keine Kammer und kein Verband. Dieses Verzeichnis wird von einem privaten
+      Unternehmen geführt; wer es betreibt, steht im <a href="/impressum/">Impressum</a>.
+    </p>
+
+    <h2>Gültigkeit, Erneuerung, Entzug</h2>
+    <ul>
+      <li>Die Garantie trägt die <strong>Jahreszahl</strong> der Prüfung und gilt <strong>ein Jahr</strong>.</li>
+      <li>
+        Zur Erneuerung bestätigt der Betrieb seine Preise und das Serviceversprechen; wir prüfen die
+        sechs Punkte erneut. Preisänderungen sind jederzeit möglich, gelten aber erst, wenn sie im
+        Eintrag stehen.
+      </li>
+      <li>
+        Wir <strong>entziehen</strong> die Garantie, wenn eine Voraussetzung wegfällt oder uns ein
+        belegter Verstoß erreicht – insbesondere eine Rechnung über dem garantierten Preis. Belegt heißt:
+        mit Rechnung oder nachvollziehbarer Schilderung.
+      </li>
+      <li>
+        Der Entzug wird nicht verhandelt. Wir fragen den Betrieb einmal, und wenn die Sache offenbleibt,
+        nehmen wir Garantie und Preise aus dem Eintrag.
+      </li>
+    </ul>
+
+    <h2>Was die Garantie kostet</h2>
+    <p>
+      Nichts. Prüfung, Garantie und der Nachweis zum Einbinden auf der eigenen Website sind kostenlos
+      und bleiben kostenlos. <strong>Die Garantie ist nicht kaufbar. Bezahlt wird nur Sichtbarkeit.</strong>
+    </p>
+    <p>
+      Kostenpflichtig ist bei uns ausschließlich <strong>Sichtbarkeit</strong>: ein hervorgehobener
+      Eintrag, ein Platz oben auf einer Stadtseite, Bilder im Eintrag. Diese Plätze sind als bezahlt
+      gekennzeichnet. Wer dafür zahlt, bekommt keine Garantie, und wer eine Garantie hat, bekommt dadurch
+      keinen besseren Platz. Wir halten das getrennt, weil eine käufliche Garantie wertlos wäre – auch
+      für die, die sie gekauft haben. Was Sichtbarkeit kostet, steht auf der Seite
+      {' '}<a href="/premium/">Premium</a>.
+    </p>
+
+    <h2>Für Betriebe: Garantie beantragen</h2>
+    <p>
+      Sie nennen Ihre drei Preise, geben das Serviceversprechen ab, und wir prüfen die sechs
+      Voraussetzungen – kostenlos, in wenigen Tagen. Danach stehen Ihre Preise in Ihrem Eintrag und auf
+      Ihrer Stadtseite, und Sie erhalten den Nachweis zum Einbinden auf Ihrer Website. Das ist der
+      Unterschied, den ein einzelner Betrieb nicht nachbauen kann: Ihr Preis steht öffentlich, vor dem
+      Anruf, bei einem Dritten, der ihn prüft.
+    </p>
+    <p><a class="btn" href="/festpreis-garantie/antrag/">Festpreis-Garantie beantragen</a></p>
+
+    <h2>Einen Verstoß melden</h2>
+    <p>
+      Haben Sie bei einem Betrieb mit Garantie mehr bezahlt als im Eintrag genannt? Schreiben Sie an
+      {' '}<a href={`mailto:${site.contact.email}`}>{site.contact.email}</a>. Nennen Sie den Betrieb,
+      das Datum und legen Sie die Rechnung bei. Wir gehen jedem Hinweis nach und melden uns bei Ihnen.
+      Die Garantie ist nur etwas wert, wenn sie auch wieder weggenommen wird.
+    </p>
+  </div>
+</Base>

@@ -1,0 +1,161 @@
+---
+// AGB: Teil A gilt fuer jeden Besucher, Teil B ist der Vertrag ueber bezahlte Plaetze (nur Unternehmer).
+// Preise stehen nicht hier, sondern in site.json -> tiers und auf /premium/, damit es nur eine Quelle gibt.
+import Base from '../layouts/Base.astro';
+import { loadDirectory } from '../lib/load.mjs';
+const { site, buildDateDe } = loadDirectory();
+---
+<Base title={`AGB | ${site.brand}`} description={`Nutzungsbedingungen für ${site.brand} und Bedingungen für bezahlte Einträge.`} path="/agb/" noindex={true}>
+  <Fragment slot="head">
+    <h1>Allgemeine Geschäftsbedingungen</h1>
+  </Fragment>
+  <div class="prose">
+    <p>Stand {buildDateDe}.</p>
+
+    <h2>Teil A — Nutzung des Verzeichnisses</h2>
+
+    <h3>A1 Gegenstand</h3>
+    <p>
+      {site.brand} ist ein privates Branchenverzeichnis, herausgegeben von {site.publisher.name}. Die
+      Einträge sind aus öffentlichen Quellen zusammengestellt und dienen der Information. Ein Eintrag ist
+      keine Empfehlung. Wir sind keine Behörde, keine Kammer und kein Verband.
+    </p>
+
+    <h3>A2 Keine Prüfung von Qualifikationen</h3>
+    <p>
+      Das Schlüsseldienst-Handwerk ist in Deutschland kein zulassungspflichtiges Handwerk; es gibt weder
+      eine Lizenz noch eine Meisterpflicht. {site.brand} prüft weder Versicherungsschutz noch die Qualität
+      der ausgeführten Arbeit. Lassen Sie sich Festpreis, Anfahrtspauschale und Zuschläge vor Arbeitsbeginn
+      bestätigen. Was die Festpreis-Garantie umfasst und was nicht, steht auf der Seite
+      {' '}<a href="/festpreis-garantie/">Festpreis-Garantie</a>.
+    </p>
+
+    <h3>A3 Bezahlte Platzierungen sind gekennzeichnet</h3>
+    <p>
+      Premium-Einträge, Premium-Plätze und Top-Platzierungen sind bezahlte Platzierungen und als solche
+      gekennzeichnet. Eine Zahlung verändert weder die Bewertung noch die Anzahl der Bewertungen eines
+      Betriebs; beide stammen aus öffentlichen Quellen. Die Festpreis-Garantie ist nicht kaufbar.
+    </p>
+
+    <h3>A4 Eintrag beanspruchen, Berichtigung, Löschung</h3>
+    <p>
+      Inhaber können ihren Eintrag über <a href="/eintrag-beanspruchen/">Eintrag beanspruchen</a> oder die
+      <a href="/kontakt/">Kontaktseite</a> beanspruchen, berichtigen oder löschen lassen. Eine Löschung
+      erfolgt ohne Angabe von Gründen. Wir behalten uns vor, einen Eintrag nach eigenem Ermessen zu
+      entfernen.
+    </p>
+
+    <h3>A5 Haftung</h3>
+    <p>
+      Für die Richtigkeit der aus öffentlichen Quellen übernommenen Angaben wird keine Gewähr übernommen.
+      Für Verträge, die Sie mit einem aufgeführten Betrieb schließen, haftet allein dieser Betrieb.
+    </p>
+
+    <h2>Teil B — Bedingungen für bezahlte Einträge und Werbeplätze</h2>
+    <p>
+      Teil B gilt für alle kostenpflichtigen Leistungen gegenüber Unternehmern im Sinne des § 14 BGB. Ein
+      Angebot an Verbraucher besteht nicht. Der kostenlose Grundeintrag und die kostenlose Festpreis-Garantie sind
+      nicht Gegenstand dieser Bedingungen; für sie besteht kein Vertragsverhältnis und kein Anspruch auf
+      Aufnahme, Fortbestand oder eine bestimmte Platzierung.
+    </p>
+
+    <h3>B1 Leistungen</h3>
+    <ul>
+      <li>
+        <strong>Premium-Eintrag:</strong> hervorgehobene Darstellung des Eintrags, Aufnahme von durch den
+        Kunden bereitgestellten Bildern, Verlinkung der Website und der Profile des Kunden ohne
+        Suchmaschinen-Einschränkung, Einbindung einer Karte, Angabe der Öffnungszeiten.
+      </li>
+      <li><strong>Stadt-Premium:</strong> zusätzlich ein hervorgehobener Platz im oberen Bereich einer Stadtseite.</li>
+      <li>
+        <strong>Top-Platzierung:</strong> einmalige, auf zwölf Monate befristete Festsetzung einer Position
+        in der Liste einer Stadtseite.
+      </li>
+    </ul>
+    <p>
+      Umfang und Preis ergeben sich aus der Seite <a href="/premium/">Premium</a> zum Zeitpunkt der Buchung.
+    </p>
+
+    <h3>B2 Vertragsschluss</h3>
+    <p>
+      Der Vertrag kommt zustande, wenn der Kunde eine Leistung über den bereitgestellten Zahlungsvorgang
+      bucht und der Anbieter die Buchung bestätigt oder die Leistung freischaltet. Der Anbieter kann eine
+      Buchung ohne Angabe von Gründen ablehnen, insbesondere wenn der Kunde nicht dem Gewerbe des
+      Verzeichnisses zuzurechnen ist oder die Angaben zum Betrieb unrichtig sind.
+    </p>
+
+    <h3>B3 Preise und Zahlung</h3>
+    <p>
+      Es gelten die auf der Seite „Premium“ angegebenen Preise, jeweils zuzüglich der gesetzlichen
+      Umsatzsteuer. Die Zahlung erfolgt über den angebotenen Zahlungsdienstleister. Laufende Leistungen
+      werden im Voraus für den jeweiligen Zeitraum abgerechnet.
+    </p>
+
+    <h3>B4 Laufzeit und Kündigung</h3>
+    <p>
+      Der Premium-Eintrag läuft zwölf Monate und verlängert sich um jeweils zwölf Monate, wenn er nicht mit
+      einer Frist von vier Wochen zum Ende der Laufzeit gekündigt wird. Stadt-Premium läuft monatlich und
+      kann zum Ende eines Abrechnungsmonats gekündigt werden. Die Top-Platzierung ist eine einmalige
+      Leistung ohne Verlängerung. Die Kündigung erfolgt in Textform an
+      {' '}<a href={`mailto:${site.contact.email}`}>{site.contact.email}</a>. Nach Ende der Laufzeit bleibt
+      der kostenlose Grundeintrag unverändert bestehen.
+    </p>
+
+    <h3>B5 Pflichten und Inhalte des Kunden</h3>
+    <p>
+      Der Kunde stellt sicher, dass die von ihm übermittelten Angaben richtig sind und dass er an
+      übermittelten Bildern und Texten die erforderlichen Rechte hat. Er räumt dem Anbieter das Recht ein,
+      diese Inhalte im Verzeichnis und in dessen Darstellung in Suchmaschinen zu verwenden, beschränkt auf
+      die Dauer des Vertrags. Der Anbieter kann Inhalte zurückweisen oder entfernen, die rechtswidrig sind,
+      erkennbar falsche Angaben enthalten oder gegen die Zusagen der Festpreis-Garantie verstoßen.
+    </p>
+
+    <h3>B6 Verfügbarkeit</h3>
+    <p>
+      Der Anbieter bemüht sich um einen durchgehenden Betrieb des Verzeichnisses, schuldet aber keine
+      bestimmte Verfügbarkeit, keine bestimmte Platzierung in Suchmaschinen, keine Besucherzahl und keine
+      Anzahl von Anfragen. Kurzzeitige Unterbrechungen für Wartung und Neuveröffentlichung sind keine
+      Minderleistung.
+    </p>
+
+    <h3>B7 Verhältnis zur Festpreis-Garantie</h3>
+    <p>
+      Die Festpreis-Garantie ist von den kostenpflichtigen Leistungen unabhängig. Sie wird nicht verkauft, nicht
+      mitgeliefert und nicht durch eine Buchung beeinflusst. Die Voraussetzungen und die Gründe für einen
+      Entzug ergeben sich aus der Seite <a href="/festpreis-garantie/">Festpreis-Garantie</a>. Der Entzug der
+      Garantie berührt eine gebuchte Leistung nicht und begründet keinen Anspruch auf Rückzahlung; umgekehrt
+      begründet eine gebuchte Leistung keinen Anspruch auf die Garantie.
+    </p>
+
+    <h3>B8 Je Stadt ein Platz je Stufe</h3>
+    <p>
+      Je Stadt wird eine Platzierung je Stufe vergeben. Ist die gewünschte Stufe in der Stadt des Kunden
+      bereits vergeben, kommt kein Vertrag zustande und eine geleistete Zahlung wird erstattet.
+    </p>
+
+    <h3>B9 Haftung</h3>
+    <p>
+      Der Anbieter haftet unbeschränkt für Vorsatz und grobe Fahrlässigkeit sowie bei Verletzung des
+      Lebens, des Körpers oder der Gesundheit. Bei einfacher Fahrlässigkeit haftet er nur für die
+      Verletzung einer wesentlichen Vertragspflicht und beschränkt auf den vorhersehbaren,
+      vertragstypischen Schaden, höchstens auf die für die betroffene Leistung im laufenden Vertragsjahr
+      gezahlte Vergütung. Eine Haftung für entgangenen Gewinn ist ausgeschlossen. Die Haftung nach dem
+      Produkthaftungsgesetz bleibt unberührt.
+    </p>
+
+    <h3>B10 Änderungen dieser Bedingungen</h3>
+    <p>
+      Der Anbieter kann diese Bedingungen mit Wirkung für künftige Vertragsjahre ändern. Er teilt die
+      Änderung mindestens sechs Wochen vor Beginn des neuen Vertragsjahres in Textform mit und weist dabei
+      auf das Widerspruchsrecht und die Frist hin. Widerspricht der Kunde nicht bis zum Beginn des neuen
+      Vertragsjahres, gelten die geänderten Bedingungen. Im Fall des Widerspruchs endet der Vertrag zum
+      Ende des laufenden Vertragsjahres.
+    </p>
+
+    <h3>B11 Schlussbestimmungen</h3>
+    <p>
+      Es gilt deutsches Recht. Gerichtsstand für Kaufleute ist der Sitz des Anbieters. Sollte eine
+      Bestimmung unwirksam sein, bleibt der übrige Vertrag wirksam.
+    </p>
+  </div>
+</Base>

@@ -1,0 +1,10 @@
+/* Webschriften, selbst gehostet über @fontsource (nie ein fremder Schriftanbieter, auch nicht Google).
+   Das Paar der Vorlage: Roboto Slab 800 für Überschriften, Roboto für den Text
+   (wiki/framework/master-template.md). Wenn Gate 4 ein anderes Paar aus einem Gestaltungsvorbild
+   ableitet, tauschen Sie diese Importe und die Pakete in package.json und prüfen Sie, dass das Paar
+   frei lizenziert ist (SIL OFL oder vergleichbar). Google Fonts werden nicht geladen
+   (wiki/konventionen.md). */
+@import "@fontsource/roboto/latin-400.css";
+@import "@fontsource/roboto/latin-500.css";
+@import "@fontsource/roboto/latin-700.css";
+@import "@fontsource/roboto-slab/latin-800.css";

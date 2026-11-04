@@ -1,0 +1,202 @@
+---
+// Datenschutzerklaerung nach Art. 13 und 14 DSGVO. Aus jeder Seite im Fussbereich verlinkt.
+// Art. 14 ist der Grund fuer den Abschnitt "Angaben zu den gefuehrten Betrieben": die Firmendaten
+// wurden nicht bei den Betroffenen erhoben, deshalb besteht eine eigene Informationspflicht.
+// Abschnitt 6 (Mail-Worker) gilt erst, wenn der Worker aus templates/worker laeuft; solange er nicht
+// laeuft, ist site.mailWorker false und der Abschnitt entfaellt.
+import Base from '../layouts/Base.astro';
+import { loadDirectory, istOffen } from '../lib/load.mjs';
+const { site, buildDateDe } = loadDirectory();
+const p = site.publisher;
+const anschrift = [p.street, [p.postalCode, p.city].filter(Boolean).join(' ')].filter(Boolean).join(', ');
+// Auftragsverarbeiter aus site.json. Wird einer nicht genutzt, wird sein Absatz nicht gedruckt:
+// eine Datenschutzerklaerung, die Technik beschreibt, die es nicht gibt, ist genauso falsch wie
+// eine, die Technik verschweigt. mailWorker=true heisst: die Formulare gehen an den eigenen
+// Worker (Ziffer 6), nicht an einen Formulardienst.
+// Ist die Anschrift eines Dienstes noch offen, wird nur sein Name genannt statt einer erfundenen
+// Anschrift. Eine falsche Anschrift in einer Datenschutzerklaerung ist schlimmer als eine fehlende.
+const firma = (x) => (x && !istOffen(x.company) ? x.company : null);
+const formProc = site.mailWorker ? null : (site.processors && site.processors.form);
+const payProc = site.processors && site.processors.payment;
+---
+<Base title={`Datenschutzerklärung | ${site.brand}`} description={`Wie ${site.brand} mit Daten umgeht.`} path="/datenschutz/" noindex={true}>
+  <Fragment slot="head">
+    <h1>Datenschutzerklärung</h1>
+  </Fragment>
+  <div class="prose">
+    <h2>1. Verantwortlicher</h2>
+    <p>
+      {p.legalName || p.name}, {anschrift}, Deutschland<br />
+      E-Mail: <a href={`mailto:${site.contact.email}`}>{site.contact.email}</a><br />
+      Geschäftsführer: {p.managingDirector}
+    </p>
+    <p>
+      Einen Datenschutzbeauftragten haben wir nicht bestellt, da die gesetzlichen Voraussetzungen dafür
+      nicht vorliegen. Die vollständigen Angaben zum Anbieter stehen im <a href="/impressum/">Impressum</a>.
+    </p>
+
+    <h2>2. Aufruf dieser Website</h2>
+    <p>
+      Beim Aufruf einer Seite überträgt Ihr Browser technisch notwendige Daten an unseren
+      Hosting-Dienstleister. Verarbeitet werden die gekürzte IP-Adresse, Datum und Uhrzeit des Zugriffs,
+      die aufgerufene Adresse, der übertragene Datenumfang, der Status der Auslieferung sowie Angaben zu
+      Browser und Betriebssystem.
+    </p>
+    <p>
+      Rechtsgrundlage ist Art. 6 Abs. 1 Buchstabe f DSGVO. Unser berechtigtes Interesse liegt im sicheren
+      und störungsfreien Betrieb der Website. Diese Daten werden ausschließlich zur Auslieferung und
+      Abwehr von Angriffen verwendet, nicht mit anderen Daten zusammengeführt und nach spätestens
+      30 Tagen gelöscht.
+    </p>
+    <p>
+      Diese Website setzt keine Cookies, die eine Einwilligung erfordern. Schriftarten werden von unserem
+      eigenen Server geladen, nicht von einem Anbieter aus dem Ausland.
+    </p>
+
+    <h2>3. Hosting</h2>
+    <p>
+      Diese Website wird bei Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, USA, betrieben
+      (Dienst „Cloudflare Pages“). Cloudflare verarbeitet die unter Ziffer 2 genannten Daten in unserem
+      Auftrag. Es besteht ein Vertrag über die Auftragsverarbeitung nach Art. 28 DSGVO. Für Übermittlungen
+      in die USA stützen wir uns auf die Standardvertragsklauseln der Europäischen Kommission nach Art. 46
+      Abs. 2 Buchstabe c DSGVO.
+    </p>
+    {site.analytics
+      ? (
+        <p>
+          Zur Messung der Besucherzahlen nutzen wir „Cloudflare Web Analytics“. Dieser Dienst arbeitet ohne
+          Cookies und ohne Erkennungsmerkmale einzelner Besucher; es werden keine Profile gebildet.
+          Rechtsgrundlage ist Art. 6 Abs. 1 Buchstabe f DSGVO; unser berechtigtes Interesse liegt in der
+          Auswertung der Reichweite dieser Website.
+        </p>
+      )
+      : <p>Eine Reichweitenmessung findet nicht statt. Es werden keine Besuchsprofile gebildet.</p>}
+
+    <h2>4. Kartendarstellung (Google Maps)</h2>
+    <p>
+      Auf Seiten einzelner Betriebe können Sie eine Karte von Google Maps nachladen. Die Karte wird
+      <strong>nicht</strong> automatisch geladen. Sie sehen zunächst eine Platzhalterfläche; erst wenn Sie
+      die Schaltfläche „Karte von Google Maps laden“ anklicken, wird eine Verbindung zu Google hergestellt.
+    </p>
+    <p>
+      Mit dem Klick willigen Sie in die Übermittlung ein. Dabei erhält Google Ihre IP-Adresse, die
+      aufgerufene Adresse und Angaben zu Ihrem Gerät. Anbieter ist Google Ireland Limited, Gordon House,
+      Barrow Street, Dublin 4, Irland; eine Übermittlung in die USA an Google LLC ist nicht ausgeschlossen.
+      Rechtsgrundlage ist Ihre Einwilligung nach Art. 6 Abs. 1 Buchstabe a DSGVO. Sie können die
+      Einwilligung jederzeit widerrufen, indem Sie die Seite ohne Laden der Karte neu aufrufen. Angaben zum
+      Datenschutz bei Google: <a href="https://policies.google.com/privacy" rel="nofollow noopener">policies.google.com/privacy</a>
+    </p>
+    <p>
+      Der Link „Route planen“ ist ein gewöhnlicher Verweis. Erst wenn Sie ihn anklicken, verlassen Sie
+      diese Website und es gilt die Datenschutzerklärung von Google.
+    </p>
+
+    <h2>5. Formulare</h2>
+    <p>
+      Über die Formulare „Eintrag beanspruchen“ und „Festpreis-Garantie beantragen“ können Sie uns Angaben
+      übermitteln. Verarbeitet werden die Angaben, die Sie dort eintragen, insbesondere Name des Betriebs,
+      Anschrift, Telefonnummer, Website, Name der Ansprechperson, E-Mail-Adresse und beim Garantie-Antrag die drei Preise, die nach der Prüfung veröffentlicht werden. Auf der Kontaktseite
+      gibt es kein Formular; dort steht nur unsere E-Mail-Adresse.
+    </p>
+    <p>
+      Rechtsgrundlage ist Art. 6 Abs. 1 Buchstabe b DSGVO, wenn Ihre Anfrage auf einen Vertrag gerichtet
+      ist, im Übrigen Art. 6 Abs. 1 Buchstabe f DSGVO mit unserem berechtigten Interesse an der
+      Beantwortung. Wir verwenden die Angaben, um Ihre Anfrage zu bearbeiten, Ihren Eintrag zu prüfen oder
+      zu ändern und mit Ihnen darüber zu sprechen. Wir speichern sie, solange die Anfrage bearbeitet wird,
+      und darüber hinaus so lange, wie wir gesetzlich zur Aufbewahrung verpflichtet sind.
+    </p>
+    {formProc && (
+      <p>
+        Die Zustellung der Formulare übernimmt {formProc.name}{firma(formProc) ? ` (${firma(formProc)})` : ''} als
+        Auftragsverarbeiter nach Art. 28 DSGVO. Die Angaben, die Sie in ein Formular eintragen, werden
+        dorthin übermittelt und von dort an uns weitergeleitet.
+        {formProc.thirdCountry ? ' Für die damit verbundene Übermittlung in ein Drittland stützen wir uns auf die Standardvertragsklauseln der Europäischen Kommission nach Art. 46 Abs. 2 Buchstabe c DSGVO.' : ''}
+      </p>
+    )}
+    {payProc && (
+      <p>
+        Buchen Sie einen kostenpflichtigen Platz, werden Sie zur Zahlung an {payProc.name}
+        {firma(payProc) ? `(${firma(payProc)}) ` : ''}weitergeleitet. Dort geben Sie Ihre Zahlungsdaten unmittelbar bei diesem
+        Anbieter ein; wir erhalten keine vollständigen Zahlungsdaten, sondern nur die Angaben, die zur
+        Zuordnung und Abrechnung Ihrer Buchung nötig sind. Rechtsgrundlage ist Art. 6 Abs. 1 Buchstabe b
+        DSGVO.
+        {payProc.thirdCountry ? ' Soweit dabei Daten in ein Drittland übermittelt werden, stützt sich der Anbieter auf die Standardvertragsklauseln der Europäischen Kommission.' : ''}
+      </p>
+    )}
+
+    {site.mailWorker && (
+      <>
+        <h2>6. E-Mail-Postfach</h2>
+        <p>
+          Schreiben Sie uns eine E-Mail, verarbeiten wir Ihre Adresse und den Inhalt Ihrer Nachricht, um
+          sie zu beantworten. Rechtsgrundlage ist Art. 6 Abs. 1 Buchstabe b oder f DSGVO.
+        </p>
+        <p>
+          Der Eingang wird technisch bei Cloudflare verarbeitet (Anbieter wie unter Ziffer 3). Zur
+          Vorsortierung und zum Entwurf einer Antwort setzen wir einen KI-Dienst der Anthropic PBC,
+          548 Market St, San Francisco, CA 94104, USA, ein. Dabei wird der Inhalt Ihrer Nachricht an diesen
+          Dienst übermittelt. Es besteht ein Vertrag über die Auftragsverarbeitung; die Übermittlung in die
+          USA stützt sich auf die Standardvertragsklauseln der Europäischen Kommission. Die Inhalte werden
+          dort nicht zum Training von Modellen verwendet. Eine Antwort versenden wir erst, nachdem ein
+          Mensch sie freigegeben hat.
+        </p>
+      </>
+    )}
+
+    <h2>{site.mailWorker ? '7' : '6'}. Angaben zu den geführten Betrieben</h2>
+    <p>
+      Dieses Verzeichnis enthält Angaben zu Betrieben des Schlüsseldienst-Gewerbes. Soweit es sich dabei um
+      Einzelunternehmen handelt, können diese Angaben personenbezogene Daten sein. Weil wir diese Daten
+      nicht bei Ihnen selbst erhoben haben, informieren wir nach Art. 14 DSGVO:
+    </p>
+    <ul>
+      <li>
+        <strong>Verarbeitete Daten:</strong> Name des Betriebs, Anschrift, Telefonnummer, Website,
+        Öffnungszeiten, Geschäftsart, Bewertung und Anzahl öffentlicher Bewertungen, öffentlich auffindbare
+        Profile in sozialen Netzwerken sowie eine von uns verfasste Beschreibung der angebotenen Leistungen.
+      </li>
+      <li>
+        <strong>Herkunft:</strong> öffentlich zugängliche Quellen, insbesondere Google Maps und die Website
+        des Betriebs selbst.
+      </li>
+      <li>
+        <strong>Zweck:</strong> Betrieb eines Branchenverzeichnisses, das Verbrauchern die Auswahl eines
+        Betriebs erleichtert, sowie die Vermarktung von Premium-Einträgen und Werbeplätzen.
+      </li>
+      <li>
+        <strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 Buchstabe f DSGVO. Unser berechtigtes Interesse
+        liegt im Betrieb des Verzeichnisses und in der wirtschaftlichen Verwertung; dem stehen bei
+        geschäftlichen Kontaktdaten, die der Betrieb selbst öffentlich bereitstellt, keine überwiegenden
+        Interessen entgegen.
+      </li>
+      <li><strong>Speicherdauer:</strong> solange der Eintrag geführt wird.</li>
+      <li>
+        <strong>Ihr Widerspruchsrecht:</strong> Sie können der Verarbeitung jederzeit nach Art. 21 DSGVO
+        widersprechen. Eine E-Mail an <a href={`mailto:${site.contact.email}`}>{site.contact.email}</a>
+        {' '}genügt; wir entfernen den Eintrag dann ohne weitere Prüfung.
+      </li>
+    </ul>
+
+    <h2>{site.mailWorker ? '8' : '7'}. Ihre Rechte</h2>
+    <p>
+      Sie haben das Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16), Löschung (Art. 17),
+      Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) und Widerspruch (Art. 21).
+      Eine erteilte Einwilligung können Sie jederzeit widerrufen; die Rechtmäßigkeit der bis dahin
+      erfolgten Verarbeitung bleibt davon unberührt.
+    </p>
+    <p>Wenden Sie sich dazu an <a href={`mailto:${site.contact.email}`}>{site.contact.email}</a>.</p>
+    <p>
+      Sie können sich außerdem bei einer Aufsichtsbehörde beschweren. Für uns zuständig ist das Bayerische
+      Landesamt für Datenschutzaufsicht, Promenade 18, 91522 Ansbach.
+    </p>
+
+    <h2>{site.mailWorker ? '9' : '8'}. Keine automatisierte Entscheidung im Einzelfall</h2>
+    <p>
+      Eine automatisierte Entscheidung oder ein Profiling nach Art. 22 DSGVO findet nicht statt.
+      Insbesondere entscheidet über die Vergabe der Festpreis-Garantie ein Mensch.
+    </p>
+
+    <h2>{site.mailWorker ? '10' : '9'}. Stand</h2>
+    <p>Stand dieser Erklärung: {buildDateDe}. Wir passen sie an, wenn sich die Verarbeitung ändert.</p>
+  </div>
+</Base>

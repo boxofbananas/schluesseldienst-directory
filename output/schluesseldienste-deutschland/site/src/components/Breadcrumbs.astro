@@ -1,0 +1,19 @@
+---
+// items: [{ name, href }] in der Reihenfolge, die aktuelle Seite zuletzt. Gibt auch BreadcrumbList aus.
+// Reihenfolge im Verzeichnis: Startseite / Schlüsseldienste / Bundesland / Stadt / Betrieb.
+import JsonLd from './JsonLd.astro';
+const { items, site } = Astro.props;
+const base = `https://${site.domain}`;
+const schema = {
+  '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+  itemListElement: items.map((it, i) => ({ '@type': 'ListItem', position: i + 1, name: it.name, item: base + it.href })),
+};
+---
+<nav class="crumbs" aria-label="Brotkrumenpfad">
+  <ol>
+    {items.map((it, i) => (
+      <li>{i < items.length - 1 ? <a href={it.href}>{it.name}</a> : <span aria-current="page">{it.name}</span>}</li>
+    ))}
+  </ol>
+</nav>
+<JsonLd data={schema} />

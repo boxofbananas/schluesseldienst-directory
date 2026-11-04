@@ -1,0 +1,61 @@
+---
+// Die Blätterseite des Verzeichnisses: das Suchfeld, alle Bundesländer, alle Städte von A bis Z und
+// danach jeder Eintrag nach Stadt mit seiner Bewertung. Sie ist der Verzeichniseintrag in der
+// Navigation und die Stufe im Brotkrumenpfad zwischen Startseite und Bundesland. noindex, follow:
+// die Ranking-Texte stehen auf der Startseite, diese Seite ist ein HTML-Inhaltsverzeichnis mit
+// Suchfeld, und ihre Links geben weiter Wert (wiki/framework/site-architecture.md).
+import Base from '../../layouts/Base.astro';
+import SearchForm from '../../components/SearchForm.astro';
+import { loadDirectory, fmtInt, fmtRating } from '../../lib/load.mjs';
+const { site, cities, regions, listings, countryPath, attributes } = loadDirectory();
+const byName = [...cities].sort((a, b) => a.name.localeCompare(b.name, 'de'));
+const cityGroups = byName.reduce((acc, c) => { const L = c.name[0].toUpperCase(); const g = acc.find((x) => x.letter === L); if (g) g.cities.push(c); else acc.push({ letter: L, cities: [c] }); return acc; }, []);
+const title = `${site.niche.title}: alle Bundesländer, Städte und Einträge | ${site.brand}`;
+const description = `Blättern Sie durch jeden ${site.niche.singular}, der auf ${site.brand} eingetragen ist, nach Bundesland und Stadt, oder suchen Sie nach Name und Leistung.`;
+---
+<Base title={title} description={description} path={countryPath} noindex={true} headTone="band">
+  <Fragment slot="head">
+    <div class="hero compact">
+      <h1>Alle <span class="hl">{site.niche.plural}</span> in {site.country.name}</h1>
+      <p class="lede">{fmtInt(listings.length)} Einträge in {fmtInt(cities.length)} Städten und {regions.length} {regions.length === 1 ? 'Bundesland' : 'Bundesländern'}. Suchen Sie nach Name oder Leistung, oder blättern Sie durch die Liste.</p>
+      <SearchForm site={site} attributes={attributes} />
+    </div>
+  </Fragment>
+
+  <section id="bundeslaender">
+    <h2>Bundesländer</h2>
+    <p class="meta">Jede Bundesland-Seite führt alle Städte des Landes auf, kleinere Orte unter „Kleinere Orte“.</p>
+    <!-- copy:skip -->
+    <ul class="city-grid">{regions.map((r) => <li><a href={r.path}><span class="name">{r.name}</span> <span class="n">{fmtInt(r.count)}</span></a></li>)}</ul>
+    <!-- /copy:skip -->
+  </section>
+
+  <section id="staedte">
+    <h2>Städte von A bis Z</h2>
+    <p class="meta">Orte ohne eigene Seite stehen bei der nächstgelegenen Stadt.</p>
+    <!-- copy:skip -->
+    <div class="city-groups">
+      {cityGroups.map((g) => (
+        <div class="city-group">
+          <p class="letter" aria-hidden="true">{g.letter}</p>
+          <ul class="city-pills">{g.cities.map((c) => <li><a href={c.path}>{c.name} <span class="n">{c.count}</span></a></li>)}</ul>
+        </div>
+      ))}
+    </div>
+    <!-- /copy:skip -->
+  </section>
+
+  <section id="eintraege">
+    <h2>Alle Einträge nach Stadt</h2>
+    <!-- copy:skip -->
+    <div class="all-listings">
+      {byName.map((c) => (
+        <div class="all-city">
+          <h3><a href={c.path}>{c.name}</a> <span class="n">{c.count}</span></h3>
+          <ul>{c.listings.map((l) => <li><a href={l.path}>{l.name}</a>{l.reviews > 0 && <span class="rt"><i aria-hidden="true">★</i> {fmtRating(l.rating)} <small>({fmtInt(l.reviews)})</small></span>}</li>)}</ul>
+        </div>
+      ))}
+    </div>
+    <!-- /copy:skip -->
+  </section>
+</Base>

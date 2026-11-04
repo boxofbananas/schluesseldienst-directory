@@ -1,0 +1,70 @@
+---
+// Startseite: die landesweite Antwort auf "Schlüsseldienst in Deutschland". Abschnitte nach
+// wiki/components/page-sections.md. Sie verlinkt alle Bundesländer und die 20 größten Städte.
+import Base from '../layouts/Base.astro';
+import Faq from '../components/Faq.astro';
+import SearchForm from '../components/SearchForm.astro';
+import DirectoryHub from '../components/DirectoryHub.astro';
+import { loadDirectory, paragraphs, fmtInt } from '../lib/load.mjs';
+const { site, indexCities: cities, regions, listings, stats, homeFeatured, countryPath, buildDate, attributes } = loadDirectory();
+const vetting = site.vetting && site.vetting.length ? site.vetting : null;
+// Die vier Schritte über dem Text zur Aufnahme. vettingSteps in site.json passend zum Text setzen.
+const vettingSteps = site.vettingSteps && site.vettingSteps.length ? site.vettingSteps : [
+  { title: 'Von den Daten ausgehen', text: 'Jeder Eintrag beginnt als öffentlicher Firmendatensatz bei Google Maps.' },
+  { title: 'Die echten Betriebe behalten', text: 'Geöffnete Betriebe mit mindestens einer Bewertung bleiben. Doppelte Einträge werden zusammengeführt.' },
+  { title: 'Die Website lesen', text: 'Die eigene Website sagt, ob ein Betrieb diese Arbeit macht. Wer sie macht, wird entsprechend gekennzeichnet.' },
+  { title: 'Sagen, was wir nicht wissen', text: 'Ohne Website zum Nachlesen steht am Eintrag „keine Angabe“, nie eine Vermutung.' },
+];
+// Kurze, zutreffende Aussagen unter den Schaltflächen im Kopf. In site.json gesetzt; leer wird nichts gezeigt.
+const heroPoints = site.heroPoints || [];
+const base = `https://${site.domain}`;
+const total = listings.length;
+const title = `${site.niche.title} in ${site.country.name} | ${site.brand}`;
+const description = `${fmtInt(total)} ${site.niche.plural} in ${fmtInt(cities.length)} Städten: Bewertungen, Leistungen und Telefonnummer. Geprüfte Betriebe sagen den Festpreis vor Arbeitsbeginn zu. Vergleichen, dann anrufen.`;
+// Der Ratgebertext auf der Startseite. In site.json unter "guide" als Absatzliste pflegen.
+const guide = site.guide && site.guide.length ? site.guide : [
+  `Ein Schlüsseldienst wird fast immer unter Zeitdruck gesucht: die Tür ist zu, der Schlüssel liegt innen. Genau deshalb lohnt der Blick auf die Stadtseite, bevor etwas passiert. Jede Stadtseite hier führt die eingetragenen ${site.niche.plural} mit Bewertung, Anzahl der Bewertungen, Anschrift und Telefonnummer auf.`,
+  'Vor der Beauftragung gehören drei Dinge geklärt, am Telefon und vor der Anfahrt: der Festpreis für eine zugefallene Tür, die Anfahrtspauschale und der Zuschlag für Abend, Nacht, Wochenende und Feiertag. Ein Betrieb, der dazu keine Zahl nennt, ist kein guter Ausgangspunkt.',
+  'Ebenso wichtig ist der Ortsbezug. Eine Anschrift in Ihrer Stadt, eine Festnetznummer mit der örtlichen Vorwahl und ein vollständiges Impressum auf der eigenen Website sprechen für einen ansässigen Betrieb. Eine überregionale Nummer, die in ein Callcenter führt, ist das Gegenteil davon.',
+  'Eine zugefallene Tür ohne verriegeltes Schloss lässt sich in der Regel zerstörungsfrei öffnen. Wer sofort das Schloss aufbohrt, obwohl die Tür nur zugefallen ist, verkauft eine Reparatur mit. Fragen Sie nach, was versucht wird, bevor etwas ersetzt wird.',
+  `Lassen Sie sich am Ende eine Rechnung mit vollständiger Firmenanschrift geben. Das Schlüsseldienst-Handwerk ist in Deutschland kein zulassungspflichtiges Handwerk: es gibt weder eine Lizenz noch eine Meisterpflicht. Belegbar sind Gewerbeanmeldung, Handelsregistereintrag und die Angaben, die ein Betrieb selbst macht. Welche Betriebe ihren Preis bei uns garantieren und was wir dafür prüfen, steht auf der Seite <a href="/festpreis-garantie/">Festpreis-Garantie</a>.`,
+];
+const schema = [
+  homeFeatured.some((l) => l.featured) ? { '@context': 'https://schema.org', '@type': 'ItemList', name: `Premium-Plätze: ${site.niche.plural} in ${site.country.name}`,
+    itemListElement: homeFeatured.filter((l) => l.featured).map((l, i) => ({ '@type': 'ListItem', position: i + 1, url: base + l.path, name: l.name })) } : null,
+  { '@context': 'https://schema.org', '@type': 'WebPage', '@id': base + '/', url: base + '/', name: title, inLanguage: 'de-DE', datePublished: site.launchDate, dateModified: buildDate },
+];
+---
+<Base title={title} description={description} path="/" schema={schema} headTone={site.design.band ? 'band' : 'tint'} headImage={site.design.heroImage || ''}>
+  <Fragment slot="head">
+    <div class="hero">
+      <h1>{site.niche.title} in {site.country.name}, <span class="hl">die ihren Preis vorher nennen</span></h1>
+      <p class="lede">Wer vor einer verschlossenen Tür steht, ruft die erste Nummer an und erfährt den Preis, wenn die Arbeit längst läuft. Hier sehen Sie vorher, welcher Betrieb sich auf einen Festpreis festlegt — und welcher nicht.</p>
+      <SearchForm site={site} attributes={attributes} />
+      {heroPoints.length > 0 && <ul class="hero-points">{heroPoints.map((pt) => <li>{pt}</li>)}</ul>}
+      <p class="hero-link"><a href="#ratgeber">Woran Sie einen guten {site.niche.singular} erkennen</a></p>
+    </div>
+  </Fragment>
+
+  <DirectoryHub site={site} cities={cities} listings={listings} stats={stats} homeFeatured={homeFeatured} countryPath={countryPath} />
+
+  <section class="bleed tinted vetting-band" id="aufnahme">
+    <h2>Wie die Einträge entstehen</h2>
+    <ol class="steps">
+      {vettingSteps.map((s, i) => <li><b>{i + 1}</b><h3>{s.title}</h3><p>{s.text}</p></li>)}
+    </ol>
+    <div class="prose vetting-text">
+    {vetting
+      ? <div set:html={paragraphs(vetting)}></div>
+      : <p>Jeder Eintrag beginnt bei öffentlichen Firmendaten und bei Google Maps. Aufgenommen wird, wer geöffnet hat, mindestens eine Bewertung vorweist und dieses Handwerk als Hauptgeschäft betreibt. Doppelte Einträge werden zusammengeführt.</p>}
+    <p>Inhaber können ihren <a href="/eintrag-beanspruchen/">Eintrag beanspruchen</a>, um Angaben zu berichtigen oder Bilder zu ergänzen. Jede Beanspruchung wird von einem Menschen geprüft. Wer zusätzlich die Festpreis-Garantie möchte, findet die Voraussetzungen unter <a href="/festpreis-garantie/">Festpreis-Garantie</a>. Herausgegeben von <a href="/ueber-uns/">{site.publisher.name}</a>.</p>
+    </div>
+  </section>
+
+  <section class="article" id="ratgeber">
+    <h2>Woran Sie einen guten {site.niche.singular} erkennen</h2>
+    <div set:html={guide.map((t) => `<p>${t}</p>`).join('\n')}></div>
+  </section>
+
+  <Faq items={site.faq || []} />
+</Base>
