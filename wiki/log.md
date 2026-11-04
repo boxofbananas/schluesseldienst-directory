@@ -342,3 +342,11 @@ Zahlen, was auf Freigabe wartet.
   der Divergenzliste unsichtbar, kern=keine Angabe). 180-Bilanz 63/117. `04-exclusions.csv` 578.
   Leipzig Herrmann gedroppt. B+M Halle = 5 echte Filialen, keine Dublette. Bericht:
   `berichte/2026-11-04-textregel-ergaenzt-rueckkehrer.md`.
+
+- **2026-11-04 — Stadttexte auf Sonnet erzeugt (792 Seiten).** Ausschlüsse (578) angewandt →
+  3.809 Einträge, 792 Stadtseiten; Oberzent unter Hessen. Sonnet-Hauptlauf 69,99 $, 8,9 ct/Stadt,
+  85 min, 111/112 im 1. Versuch; Nachläufe ~2,2 $; `city-copy.json` 792/792, 0 Durchfaller.
+  **Slug-Kollision behoben** (friedberg/halle/senden): `make_city_packets.py` schlüsselt jetzt nach
+  vollem `key`, vorhandene Pakete/Antworten umgeschlüsselt. **Near-Dup-Prüfung subquadratisch**
+  gemacht (invertierter Index/Prefix-Filter) und 16+1 Schablonen neu geschrieben.
+  Bericht: `berichte/2026-11-04-stadttexte-sonnet-fertig.md`.

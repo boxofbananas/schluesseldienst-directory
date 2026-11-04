@@ -67,15 +67,15 @@ def places_named(c, place_names):
 
 def render(c, labels, place_names, facts):
     lo, hi = band(c["count"])
-    L = [f"### {c['slug']}", f"city: {c['name']}"]
+    L = [f"### {c['key']}", f"city: {c['name']}"]
     if c.get("region"):
         L.append(f"bundesland: {c['region']}")
     L += [f"listings on this page: {c['count']}", f"intro band: {lo} to {hi} words"]
     if c.get("underFloor"):
         L.append("page type: small town with its own page (too far from a larger city to share one); 2 to 4 paragraphs, 2 to 6 FAQs")
-    if facts.get(c["slug"]):
+    if facts.get(c["key"]) or facts.get(c["slug"]):
         L.append("city facts (each with its source; use what is here, add nothing):")
-        L += [f"  - {x}" for x in facts[c["slug"]]]
+        L += [f"  - {x}" for x in (facts.get(c["key"]) or facts.get(c["slug"]))]
     counties = Counter(l["county"] for l in c["listings"] if l["county"])
     L.append("Kreise der Einträge (aus den Postleitzahlen): " + (", ".join(f"{k} {v}" for k, v in counties.most_common()) or "keine zugeordnet"))
     towns = Counter(l["basedIn"] for l in c["listings"] if l["basedIn"] and l["basedIn"] != c["name"])
@@ -134,7 +134,7 @@ def main():
             done |= set(json.load(open(p, encoding="utf-8")).keys())
         except Exception:
             pass
-    todo = [c for c in cities if c["slug"] not in done]
+    todo = [c for c in cities if c["key"] not in done]
     batches, cur, w = [], [], 0
     for c in todo:
         target = {120: 160, 250: 320, 380: 460, 500: 620}[band(c["count"])[0]] + 330
@@ -151,7 +151,7 @@ def main():
         name = f"batch-{i:02d}"
         with open(os.path.join(a.out, name + ".md"), "w", encoding="utf-8") as f:
             f.write(f"# {name}: {len(b)} Städte\n{header}\n\n" + "\n\n".join("\n".join(render(c, labels, place_names, facts)) for c in b) + "\n")
-        json.dump([c["slug"] for c in b], open(os.path.join(a.out, name + ".slugs.json"), "w"))
+        json.dump([c["key"] for c in b], open(os.path.join(a.out, name + ".slugs.json"), "w"))
     towns = sum(1 for c in cities if c.get("underFloor"))
     print(f"Seiten: {len(cities)} (davon {towns} Ortsseiten unter der Mindestzahl), schon geschrieben: {len(cities) - len(todo)}, "
           f"offen: {len(todo)} in {len(batches)} Stapeln")

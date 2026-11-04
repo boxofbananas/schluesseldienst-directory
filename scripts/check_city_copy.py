@@ -240,11 +240,28 @@ def main():
     # Sätzen in zwölf Städten. Nur Sätze aus den geprüften Städten (copy) fallen durch; Sätze aus
     # anderen Stapeln zählen als Vergleichsmenge mit.
     NEAR = 0.75
-    for slug_i, ti, raw_i in sent_tokens:
+    # Kandidaten über einen invertierten Index auf die seltensten Tokens je Satz, damit die
+    # Prüfung nicht jedes Satzpaar vergleicht (bei 800 Städten sonst zu langsam). Zwei Sätze mit
+    # Jaccard >= 0,75 unterscheiden sich in höchstens einem Viertel der Tokens des kleineren; legt
+    # man die (floor(0,25*n)+1) seltensten Tokens eines Satzes als Anker, teilt jeder solche
+    # Partner mindestens einen Anker (Schubfachschluss). Keine Treffer gehen verloren.
+    freq = Counter()
+    for _, ts, _ in sent_tokens:
+        for t in ts: freq[t] += 1
+    index = defaultdict(list)   # token -> [Index in sent_tokens]
+    anchors_of = []
+    for idx, (_, ts, _) in enumerate(sent_tokens):
+        n = len(ts)
+        rare = sorted(ts, key=lambda t: (freq[t], t))[: n // 4 + 1]
+        anchors_of.append(rare)
+        for t in rare: index[t].append(idx)
+    for i, (slug_i, ti, raw_i) in enumerate(sent_tokens):
         if slug_i not in copy:
             continue
+        cand = {j for t in anchors_of[i] for j in index[t]}
         others = set()
-        for slug_j, tj, _ in sent_tokens:
+        for j in cand:
+            slug_j, tj, _ = sent_tokens[j]
             if slug_j == slug_i:
                 continue
             u = ti | tj
