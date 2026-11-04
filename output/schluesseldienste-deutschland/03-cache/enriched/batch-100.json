@@ -1,0 +1,595 @@
+[
+ {
+  "slug": "kisling-gmbh-gruenstadt",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Als Fachgeschäft für Eisenwaren, Werkzeuge, Schließtechnik, Beschläge, Haushaltswaren und Geschenkartikel besteht die Kisling GmbH in Grünstadt seit über 130 Jahren und wird heute in vierter Generation geführt. Das Sortiment reicht von Elektro- und Handwerkzeugen über Forst- und Gartengeräte bis zu Propangas und technischen Gasen. Beschläge, Profilzylinder und Schließanlagen bekannter Hersteller gehören ebenfalls dazu. Bei den Schließsystemen unterscheidet der Betrieb mechanische, mechatronische und elektronische Lösungen und plant Schließanlagen, die festlegen, wer wann und wo Zutritt hat. Auch Systeme für die Zutrittskontrolle zählen dazu. Neben der Filiale im Grünstadter Industriegebiet, die auf über 800 Quadratmetern Material für Heim- und Handwerker bereithält, gibt es einen zweiten Standort in Frankenthal. Der Betrieb ist damit vor allem Händler und Planer von Schließtechnik und Eisenwaren. Ein Shop für Haushaltswaren ergänzt die Läden, und ein Handwerkerkatalog steht zur Verfügung."
+ },
+ {
+  "slug": "schulze-sicherheitsdienst-inh-michael-mayer-gruenstadt",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "false",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Seit über 20 Jahren arbeitet Schulze Sicherheitstechnik unter Inhaber Michael Mayer in Grünstadt und der Region. Der Betrieb verbindet Schlüsseldienst und Türöffnungen mit Sicherheitstechnik und einem Hausmeisterservice. Er berät zu Schließanlagen, installiert und wartet sie und baut Einbruchschutz ein, darunter Fenster- und Balkonsicherungen, Schutzbeschläge mit Ziehschutz, Einsteckschlösser und Türzylinder mit Sicherungskarte. Master-Key-Systeme für Mehrfamilienhäuser und Gewerbeobjekte, elektronische Schließsysteme sowie Ersatzschlüssel und Schlüsselreparatur zählen ebenfalls zum Angebot. Tresore, Waffenschränke und Briefkästen werden verkauft, außerdem fertigt der Betrieb Gravuren, Schilder, Stempel und Pokale an. Kundschaft sind Privathaushalte, Gewerbeimmobilien und kommunale Einrichtungen, für die auch Wartung, Instandhaltung und Objektbetreuung übernommen werden. Türöffnungen und der Schlüsselnotdienst laufen während der Geschäftszeiten von Montag bis Freitag. Der Hausmeisterservice umfasst regelmäßige Reinigung und Betreuung rund um das Objekt und richtet sich an Eigentümer und Verwalter.",
+  "trace": {
+   "ladengeschaeft": "während unserer Geschäftsöffnungszeiten Montag - Freitag 09:00 - 18:00"
+  }
+ },
+ {
+  "slug": "gotec-elektro-sicherheitstechnik-gruenstadt",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Gotec Elektro und Sicherheitstechnik sitzt in Grünstadt und plant, montiert und wartet Sicherheitstechnik und Elektrotechnik für Privat- und Gewerbekunden. Im Mittelpunkt stehen Alarmanlagen, kabelgebunden und per Funk, dazu Videoüberwachung, Brandmeldeanlagen, Zutrittskontrollsysteme und Perimeterschutz. Beim Thema Schließtechnik liegt der Schwerpunkt auf elektronischen Schließzylindern und elektronischen Schließanlagen, die der Betrieb plant, einbaut und konfiguriert. Hinzu kommen Elektroinstallation, Netzwerktechnik und intelligente Gebäudetechnik. Die Beratung beginnt mit einem kostenlosen Erstgespräch und einem Sicherheitscheck vor Ort und reicht bis zum Wartungsservice, bei dem sich Fehler und Schwachstellen früh erkennen lassen. Das Einsatzgebiet umfasst Grünstadt, Ludwigshafen, Frankenthal und die Umgebung. Der Betrieb ist damit ein Fachbetrieb für Alarm- und Zutrittstechnik und kein klassischer Schlüsseldienst. Der Service reicht vom Vor-Ort-Sicherheitscheck bis zur regelmäßigen Wartung, und Referenzen zeigen ausgeführte Projekte.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Ihre Sicherheitsexperten für Privat und Gewerbe"
+  }
+ },
+ {
+  "slug": "schuh-und-schluesseldienst-in-der-johannisstrasse-die-kleine-werkstatt-der-schluesselmacher-lederwaren-massanfertigung-goettingen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die kleine Werkstatt in Göttingen versteht sich als Schlüsselmacher und Uhren-Service und repariert nebenbei Schuhe, Handtaschen und Rucksäcke. Schlüssel, Schlösser und ganze Schließanlagen werden nach eigener Angabe in der Werkstatt erstellt. Ein weiteres Standbein sind Gravuren, die mit Diamant von Hand in unterschiedlichste Gegenstände gesetzt werden. Hinzu kommen Lederwaren in Maßanfertigung, Sattlerarbeiten und Uhrenreparaturen. Der Betrieb kombiniert damit Schuhmacher-, Leder- und Schlüsselhandwerk unter einem Dach.",
+  "trace": {
+   "schluessel_nachmachen": "DER Schlüsselmacher und Uhren-Service"
+  }
+ },
+ {
+  "slug": "wiese-schluessel-und-sicherheitssysteme-gmbh-goettingen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Wiese Schlüssel und Sicherheitssysteme zählt zu den ältesten Fachgeschäften für Schlüssel- und Schließsysteme in Göttingen und wird heute von Gerald Wiese geführt. Das Ladengeschäft in der Göttinger Innenstadt hat eine große Produktauswahl und eine eigene Werkstatt, in der Schließsysteme gefertigt werden. Das Angebot umfasst Schlüsselanfertigungen, mechanische und mechatronische Schließanlagen, etwa das KESO 8000 Omega2 mit Kopierschutz, sowie elektronische Zutrittskontrollen und Lösungen für Flucht- und Rettungswege. Zur mechanischen Absicherung zählen Türschlösser, Sicherheitsbeschläge, Sicherheitsschließbleche und Fenstergitter. Auch Tresore und Briefkästen sind im Programm. Beliefert werden private und gewerbliche Mieter, Hausverwaltungen, Wohnungsbaugesellschaften, Kliniken, Gerichte, Industriebetriebe und Architekten. Der Betrieb ist Mitglied im Fachverband interkey. Der Betrieb nennt sich Dienstleister für Schlüssel und Sicherheitssysteme und bietet Komplettlösungen an. Das KESO-System verbindet Mechanik und Elektronik und beruht auf einem Baukasten für die Zylinder. Beratung und Planung, Installation, Reparatur und Wartung gehören zum Leistungsumfang.",
+  "trace": {
+   "schluessel_nachmachen": "einschließlich Schlüssel­anfertigungen, Schließanlagen, elektronischen Zutritts­kontroll­systemen"
+  }
+ },
+ {
+  "slug": "kuehn-sicherheit-gmbh-goettingen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Seit 1972 plant und installiert die KÜHN Sicherheit GmbH in Göttingen Sicherheitstechnik, nach eigener Angabe herstellerunabhängig und mit Beratung vor Ort. Elektronisch reicht das Angebot von Einbruchmelde- und Alarmanlagen über Brandmeldeanlagen und Videoüberwachung bis zu Zutrittskontrollen und elektronischen Schließanlagen, die sich online verwalten lassen. Mechanisch kommen Schließanlagen, Tresore und Wertschutzschränke, Sicherheit für Türen und Fenster sowie Briefkastenanlagen hinzu. Eine Notruf- und Serviceleitstelle nimmt Alarme auf, daneben bietet der Betrieb Wach- und Sicherheitsdienste wie Pförtner-, Streifen- und Ordnerdienste an. Die Mitarbeiter sind rund um die Uhr persönlich erreichbar. Zur Kundschaft zählen Privatleute, Autohäuser, Tankstellen, Kaufhäuser und die öffentliche Hand. Sicherheitstechnik lässt sich außerdem online kaufen. Experten aus verschiedenen Bereichen der Sicherheitstechnik bringen ihr Fachwissen in die Planung ein, und auf Wunsch wird das Budget berücksichtigt."
+ },
+ {
+  "slug": "schluesseldienst-24h-gabriel-sicherheitstechnik-am-dreiecksplatz-guetersloh",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Gabriel Sicherheitstechnik ist ein familiengeführter Schlüsseldienst in Gütersloh, der seit über 20 Jahren am Ort arbeitet. Der Notdienst läuft rund um die Uhr, auch nachts, am Wochenende und an Feiertagen, und erreicht Kunden im ganzen Kreis von Rheda-Wiedenbrück bis Halle. Türen werden möglichst ohne Schäden geöffnet, Schlösser gewechselt und der Einbruchschutz für Fenster und Türen ausgebaut. Bleibt ein Schlüssel abgebrochen im Schloss stecken, entfernt der Betrieb ihn und tauscht das Schloss, wenn es nicht mehr sicher ist. Im Autoschlüssel-Service entstehen Ersatzschlüssel mit Transponder für fast alle gängigen Marken, Wegfahrsperren werden programmiert und defekte Schlüssel repariert. Tresore werden verkauft, gewartet und geöffnet. Für Wohnanlagen, Gewerbebetriebe und Praxen plant, liefert und montiert der Betrieb mechanische Schließanlagen. Die Preise nennt er vor Arbeitsbeginn. Ein Geschäft in der Stadt dient als Anlaufstelle.",
+  "trace": {
+   "ladengeschaeft": "unser Geschäft, das für viele Gütersloher schon lange ein Anlaufpunkt in der Not ist"
+  }
+ },
+ {
+  "slug": "schluesseldienst-easyopen-guetersloh",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüsseldienst EasyOpen ist in Gütersloh und Umgebung als Aufsperrdienst und Fachbetrieb für Sicherheitstechnik tätig. Der Notdienst ist täglich rund um die Uhr besetzt und öffnet zugefallene Türen, Wohnungstüren und Autotüren, nach eigener Angabe in den meisten Fällen ohne Schaden am Schloss. Wer einen Schlüssel verloren oder abgebrochen hat oder dessen Schloss defekt ist, wird vor Ort bedient. Der Betrieb montiert Schlösser, Zylinder- und Zusatzschlösser, baut bei Bedarf ein neues Schloss samt passenden Schlüsseln ein und fertigt Ersatzschlüssel aller Art an, auch für Gärtner, Blumengießer oder als Notfallkopie für Verwandte. Dazu zählen Autoschlüssel, und die verbauten Profilzylinder erlauben das Nachbestellen von Zylindern und Schlüsseln. Außerdem plant er Schließanlagen und berät zur Sicherung von Wohnung und Haus gegen Einbrecher. Gravuren gehören ebenso zum Angebot. Für Preise bietet er ein Formular an, über das ein Angebot angefordert wird."
+ },
+ {
+  "slug": "meesenburg-gmbh-sicherheit-service-in-guetersloh-guetersloh",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Der Standort der Meesenburg GmbH am Gütersloher Sandbrink ist auf Sicherheit und Service ausgerichtet. Das Angebot reicht von Schließanlagen und Schließzylinder-Systemen verschiedener Hersteller, darunter KESO, Dormakaba, Abus und BKS, über elektronische Zutrittskontrolle bis zu Einbruchschutz, Alarm und Videotechnik. Hinzu kommen Briefkastenanlagen, Tresore und Waffenschränke, Brandschutztüren, Sicherheitstüren, Garagentore und Industrietore sowie Fluchtwegtechnik, Tür- und Fensterautomation und Gebäudeautomation. Ersatzschlüssel und Nachbestellungen für Schließsysteme laufen über den Betrieb, Zylinderlängen lassen sich per Messkarte oder vor Ort ermitteln. Beratung, Ausstellung und Sofortservice finden am Standort statt. Das Angebot richtet sich an Fachbetriebe, Planer, Architekten, Hausverwaltungen, Hotels, Banken und weitere gewerbliche Kunden. Es gibt einen Sicherheits-Shop und einen Shop für Geschäftskunden, und Pflegespray für Schließzylinder steht im Sortiment. Zum Angebot zählen auch Terminabsprachen mit einem Techniker für den Einbau."
+ },
+ {
+  "slug": "fachgeschaeft-fuer-sicherheitstechnik-am-wandbild-inh-ronald-jirasek-halle",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Das Fachgeschäft Am Wandbild unter Inhaber Ronald Jirasek liegt mitten in Halle an der Saale und arbeitet als Schlüsseldienst und Anbieter von Sicherheitstechnik. Das Team vor Ort berät und findet nach eigener Angabe für jedes Problem eine Lösung. Verkauft und eingebaut werden Schließanlagen, Schließzylinder, Türbeschläge, Einbruchschutz, Briefkastenanlagen, Tresore, Schlüsselkästen und Geldkassetten. Auch Schlüsselkopien und Lösungen für den Denkmalschutz gehören zum Angebot, ebenso die digitale Schließtechnik. Zu den Referenzen zählt die Ausstattung von Mietobjekten einer halleschen Wohnungsgesellschaft mit Schließanlagen und Briefkastenanlagen. Daneben bietet der Betrieb Gravuren, Schilder, Pokale, Namensschilder und Hausnummern an, für die er Preise ausweist. Eine eigene Seite stellt das Team vor. Beratung, Verkauf und Einbauservice liegen in einer Hand. Zum Team gehören Herr Simmert und Herr Jirasek. Auch Schlüsselkästen und Geldkassetten stehen im Verkauf.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Ausstattung von Mietobjekten mit Schließanlagen"
+  }
+ },
+ {
+  "slug": "b-m-sicherheitstechnik-halle-gmbh-halle",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die B+M Sicherheitstechnik Halle GmbH ist ein Errichterunternehmen für elektronische Sicherheitssysteme mit Schwerpunkt Gebäudesicherheit und arbeitet nach eigener Angabe seit mehr als 30 Jahren. Zum Angebot zählen Überfall- und Einbruchmeldeanlagen, Brandmeldeanlagen, Videoüberwachung, Zutrittskontrolle, Datentechnik, Telekommunikationsanlagen sowie Rauch- und Wärmeabzugsanlagen. Dazu kommen Flucht- und Rettungswegpläne und Smart-Home-Lösungen. Bei den digitalen Schließanlagen ersetzen elektronische Zylinder die mechanischen Profilzylinder, und Transponder lösen die Schlüssel ab. Geht ein Transponder verloren, wird er gesperrt, ein Tausch aller Zylinder entfällt. Die Technik stammt vom Hersteller Telenot, bei Alarmanlagen und beim System Hiplex. Für Kunden steht ein Bereitschaftsdienst rund um die Uhr bereit, und es gibt Bedienungsanleitungen und Software für den Service. Der Betrieb bildet auch aus und ist mit weiteren B+M-Firmen an mehreren Niederlassungen vertreten."
+ },
+ {
+  "slug": "deppe-schluesselservice-halle",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Schlüsselservice von Deppe-Tore in Halle in Westfalen ergänzt das Geschäft mit Toren und Türen. Der Betrieb fertigt Ersatzschlüssel an, nach eigener Angabe auch Oldtimer-Schlüssel, tauscht Schließzylinder und Beschläge, plant und erweitert Schließanlagen und berät zum Einbruchschutz. Türöffnungen übernimmt er während der Geschäftszeiten. Hinzu kommen Prüfungs- und Wartungsarbeiten, Reparaturen und Instandsetzung rund um Tür- und Schlossanlagen. Bei größeren Vorhaben läuft der Ablauf vom Ausmessen vor Ort über Planung, Angebot und Bestellung bis zur Lieferung und Montage, ergänzt um Beratung im Forum."
+ },
+ {
+  "slug": "autoschluesseldienst-karadeniz-hamm",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Autoschlüsseldienst Karadeniz in Hamm hat sich auf Schlüssel für Fahrzeuge spezialisiert. Der Betrieb fertigt und programmiert Ersatzschlüssel für viele Fahrzeugmarken, ob als zusätzlicher Schlüssel, bei Verlust oder bei defekter Fernbedienung. Zu den Leistungen zählen Funkschlüssel, Keyless-Go-Schlüssel, Reparaturen sowie der Wechsel von Gehäuse und Batterie. Arbeiten mit moderner Technik sollen schnelle und präzise Ergebnisse bringen. Termine lassen sich online vereinbaren."
+ },
+ {
+  "slug": "a-p-schluesseldienst-hamm-hamm",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Der A&P Schlüsseldienst gehört zur A&P Fenster und Türen UG und arbeitet in Hamm und Umgebung. Nach eigener Angabe geschieht das ohne Callcenter und ohne Vermittler im Hintergrund. Die Notdienstnummer ist rund um die Uhr besetzt, auch an Wochenenden und Feiertagen, bei jedem Wetter. Der Betrieb übernimmt Türöffnungen bei zugefallenen und verschlossenen Wohnungs- und Haustüren, wechselt Schlösser, repariert Türen und konfiguriert Schließanlagen für Wohnhäuser und Mehrfamilienhäuser. Auch Firmen und Behörden zählen zur Kundschaft, ebenso Gerichtsvollzieher bei Wohnungsräumungen oder Büros mit klemmender Tür. Den Preis einer Türöffnung legt der Betrieb vorab fest, eine Preisliste mit Aufschlägen für Wochenenden und Nachtzeiten steht bereit. Die Mitarbeiter werden nach eigener Angabe regelmäßig fortgebildet und arbeiten mit moderner Technik. Der Betrieb sieht seine Stärke in der vertrauensvollen Zusammenarbeit mit den Kunden auf Augenhöhe.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Auch für Firmen und Behörden"
+  }
+ },
+ {
+  "slug": "meesenburg-gmbh-sicherheit-service-in-hamm-hamm",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "In Hamm liegt der Schwerpunkt der Meesenburg GmbH bei Tür- und Torsystemen: Garagentore und Garagentorantriebe, Haustüren, Brandschutztüren, Objekttüren, Industrietore, Industrie-Sektionaltore, Rolltore, Schnelllauftore, Feststellanlagen, Verladetechnik und Zufahrtskontrolle. Ein Torservice ergänzt die Planung, Lieferung, Montage und Wartung. Daneben bietet der Standort Sicherheitstechnik an: Schließanlagen und Schließzylinder-Systeme verschiedener Hersteller, elektronische Zutrittssysteme, Einbruchschutz, Alarm, Überwachungstechnik, Briefkastenanlagen sowie Tresore und Waffenschränke. Ersatzschlüssel und Nachbestellungen werden über den Betrieb abgewickelt. Beratung, Ausstellung und Sofortservice gehören zum Standort. Zur Kundschaft zählen Unternehmen, öffentliche Einrichtungen, Hausverwaltungen, Wohnanlagen, Hotels, Banken und Privatleute, die Eingangslösungen mit einem Konfigurator gestalten können. Hörmann-Produkte lassen sich über einen Konfigurator zusammenstellen. Der Standort bietet einen Rückrufwunsch an, und weitere Standorte des Unternehmens gibt es in anderen Städten. Die Unternehmensgruppe, zu der der Standort gehört, stellt auch ihr Team vor."
+ },
+ {
+  "slug": "schluesseldienst-tanriverdi-hattingen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüsseldienst Tanriverdi verbindet in Hattingen den Schlüsseldienst mit einer Werkstatt für Schuhe und Lederwaren. Der Kundenservice umfasst Tür- und Wohnungsöffnungen, den Schlüsselnotdienst, Einbruchschutz sowie Tür- und Fensterabsicherungen. Dazu kommen Schlösser und Schließzylinder, Zylinder- und Möbelschlüssel sowie Autoschlüssel mit Codierung. Der Notdienst ist rund um die Uhr erreichbar. Schuhreparaturen, Koffer- und Taschenreparaturen, Gravuren, Schilder, Stempel, Drucksachen und Folienschriften runden das Angebot ab. Filialen bestehen in Hattingen, Gelsenkirchen und Essen, und der Betrieb versteht sich als Dienstleistungsunternehmen, das Aufträge schnell, exakt und professionell bearbeitet. In Hattingen gelten feste Ladenöffnungszeiten, montags bis freitags vormittags und nachmittags mit einer Mittagspause und samstags am Vormittag. Zu den Angaben des Betriebs gehören auch Hinweise zur gesetzlichen Gewährleistung und zum Widerruf von Verträgen. Als Leitgedanke nennt der Betrieb, Qualität sei seine Stärke.",
+  "trace": {
+   "einbruchschutz": "Einbruchsschutz sowie Tür- und Fensterabsicherungen"
+  }
+ },
+ {
+  "slug": "schluesselnotdienst-rhein-ruhr-hattingen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Schlüsselnotdienst Rhein Ruhr hilft in Hattingen und Bochum bei Aussperrungen. Sein Einsatzgebiet reicht außerdem nach Linden, Weitmar, Stiepel, Witten, Wattenscheid, Gelsenkirchen, Sprockhövel, Wanne-Eickel und Herne. Der Betrieb öffnet verschlossene Türen ohne versteckte Kosten, verbaut Schließanlagen und berät zu Türen und Schlössern. Er arbeitet vorwiegend im Raum Hattingen und Bochum."
+ },
+ {
+  "slug": "schluesseldienst-hattingen-kilit-hattingen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Seit nach eigener Angabe 35 Jahren bietet Schlüsseldienst KiLiT in Hattingen Hilfe rund um Schloss und Schlüssel. Die Notöffnung ist rund um die Uhr erreichbar und kommt schnell vor Ort. Daneben liefert der Betrieb moderne Schließanlagen für Zuhause und Gewerbe, Beschläge und Schlösser von Markenherstellern. Schlüssel werden präzise nachgefertigt, und zwar in allen gängigen Arten.",
+  "trace": {
+   "tueroeffnung": "Notöffnung-24 h erreichbar, schnell vor Ort",
+   "schluessel_nachmachen": "Schlüssel-präzise Nachfertigung aller Art"
+  }
+ },
+ {
+  "slug": "schluesseldienst-stegert-hildesheim",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüsseldienst Stegert in Hildesheim beschreibt sich als regionaler Schlüssel- und Sicherheitsdienst. Der Notdienst für Türöffnungen ist täglich von sechs Uhr morgens bis Mitternacht im Einsatz, wenn jemand ausgesperrt ist, ein Schlüssel abbricht oder das Schloss klemmt, und öffnet nach eigener Angabe schadenfrei. Außerdem montiert und wartet der Betrieb mechanische Schlösser und Schließzylinder und liefert die dazu passende Sicherheitstechnik."
+ },
+ {
+  "slug": "langella-schluesseldienst-hildesheim",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "false",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Schlüsseldienst Langella arbeitet mobil in Hildesheim und im Umkreis von rund 50 Kilometern, einen Ladenverkauf gibt es nicht. Der Schlüsselnotdienst ist täglich von morgens bis abends erreichbar und öffnet zugefallene und abgeschlossene Türen möglichst materialschonend. Ist die Tür nur ins Schloss gefallen, gelingt das in den meisten Fällen ohne Beschädigung. Der Betrieb tauscht Schließzylinder und Schlösser aus und fertigt Nachschlüssel nach Absprache an. Für Schließanlagen übernimmt er Beratung, Lieferung und Montage und bestellt weitere Schlüssel oder Zylinder nach. Die Schlüssel werden samt Sicherungskarte übergeben. Das Angebot gilt für Ein- und Mehrfamilienhäuser, Hausverwaltungen, Büros, Praxen und Ladengeschäfte, auch beim Austausch bestehender Anlagen nach Schlüsselverlust. Der Ablauf ist kurz: Anruf, Anfahrt, Türöffnung, Rechnung. Der Inhaber stand früher mit einem Verkaufsstand auf Märkten."
+ },
+ {
+  "slug": "kuehn-sicherheit-gmbh-hildesheim",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die KÜHN Sicherheit GmbH in Hildesheim arbeitet seit 1972 an Sicherheitslösungen und berät nach eigener Angabe herstellerunabhängig und vor Ort beim Objekt. Das Angebot umfasst Alarm- und Brandmeldeanlagen, Videoüberwachung, Sicherheitskonzepte und digitale Schließanlagen mit Zutrittskontrolle und E-Zylindern. Mechanisch gehören Schließanlagen, Tresore und Wertschutzschränke, Sicherheit für Türen und Fenster sowie Briefkastenanlagen dazu. Ein Schlüsselnotdienst steht im Leistungsmenü, ebenso eine Notruf- und Serviceleitstelle mit Video- und Alarmaufschaltung und Wachdienste wie Pförtner-, Revier- und Ordnerdienste. Die Erreichbarkeit rund um die Uhr gehört zum Konzept. Zu den Auflagen, die der Betrieb begleitet, zählen baurechtliche Vorgaben. Die Beratung beginnt mit einer Begehung des Objekts, bei der Schwachstellen sichtbar werden, und endet mit einer Lösung, die nur in die notwendige Technik investiert. Die Arbeit begleitet der Betrieb von der ersten Beratung bis zur Übergabe der Anlage, und Kundenstimmen von Auftraggebern sind veröffentlicht."
+ },
+ {
+  "slug": "rau-gmbh-dirk-bauelemente-und-sonnenschutz-iserlohn",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Rau Bauelemente in Iserlohn verkauft und montiert seit über 30 Jahren Haustüren, Fenster, Garagentore, Terrassendächer, Markisen und Insektenschutz, mit ausführlicher Beratung, Aufmaß vor Ort und fachmännischer Montage. Haustüren und Fenster lassen sich online gestalten und konfigurieren. Haustüren gibt es auf Wunsch mit erhöhtem Einbruchschutz der Widerstandsklassen RC2 und RC3, mit besserer Wärmedämmung oder mit Fingerprintsystem. Im Showroom lassen sich Fenster und Türen ansehen. Zusätzlich betreibt der Betrieb einen Schlüsselnotdienst: Seine geschulten Monteure öffnen Haus-, Wohnungs- und Bürotüren möglichst beschädigungsfrei, auch am Wochenende, und wechseln Schlösser. Den Preis einer Türöffnung nennt der Betrieb im Voraus und weist keine überhöhten Notdienstzuschläge aus. Termine für Beratungen lassen sich vereinbaren. Zum Thema Förderung führt eine eigene Seite, und Referenzen zeigen ausgeführte Projekte. Der Betrieb stellt Zuverlässigkeit und hochwertige Handwerksarbeit in den Vordergrund und führt eigene Monteure."
+ },
+ {
+  "slug": "lienenkamp-gmbh-iserlohn",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Aus dem elterlichen Betrieb ist die Lienenkamp GmbH in Letmathe zum Fachgeschäft für Sicherheitstechnik, Schließanlagen und Lasergravuren geworden, das nach eigener Angabe seit über 50 Jahren besteht. Im Ladengeschäft entstehen Schlüsselkopien nach Muster oder Schloss sowie Ersatzschlüssel, dazu gibt es Schlösser namhafter Hersteller. Der Betrieb berät zum Einbruchschutz, plant Schließanlagen und montiert sie, für Privathaushalte wie für Unternehmen. Zum Sortiment gehören außerdem Gravuren nach Kundenwunsch, Schilder aus Metall oder Kunststoff, Stempel samt Zubehör, Geschenke, Pokale und Vereinsbedarf. Der Betrieb sieht sich als vielseitigen Partner, der Tradition fortführt und zugleich in moderne Technik investiert. Als Anliegen nennt er, Qualität zu liefern und Kunden zu Weiterempfehlungen zu bewegen. Die Beratung zur Sicherheitstechnik stützt sich auf Produkte namhafter Hersteller. Anfragen zu Schlüsseln, Gravuren und Beratung nimmt der Betrieb entgegen."
+ },
+ {
+  "slug": "uwe-thorsten-wiesebel-iserlohn",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Sicherheitstechnik Wiesebel mit Sitz in Iserlohn, nahe Hagen, plant, montiert und betreut Alarmanlagen für Privat- und Firmengebäude, auch für den Einbau im Neubau. Das Angebot umfasst ferner Videoüberwachung mit IP-Kameras, Alarmzentralen, Brandschutzanlagen und Zutrittskontrollsysteme. Bei Schließtechnik beschränkt sich der Betrieb auf elektronische Schließzylinder mit Chip-System. Beratung findet persönlich vor Ort statt, Montage und Abnahme der Anlagen übernimmt der Betrieb selbst. Alarmsysteme mit hohem Bedienkomfort sollen Häuser rund um die Uhr überwachen und vor ungebetenen Gästen schützen. Das Einsatzgebiet umfasst Iserlohn und Hagen. Inhaber ist Uwe Thorsten Wiesebel, der Wert auf Diskretion legt und sich als klimaneutralen Sicherheitsexperten bezeichnet. Videoüberwachungssysteme mit IP-Kameras werden professionell montiert und eingerichtet, und auch Feuermelder gehören zum Programm. Als Fachbetrieb für Alarmanlagen richtet er sich an Haushalte und Firmen in der Region."
+ },
+ {
+  "slug": "hoto-schuh-und-schluesseldienst-uerdingen-krefeld",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Hoto in Krefeld-Uerdingen arbeitet seit 2004 als Werkstatt für Schuhe, Leder und Schlüssel. Im Zentrum stehen Schuhreparaturen und handgefertigte Lederwaren in Maßanfertigung, die in vier Schritten von der Beratung über den Entwurf und die Fertigung in der Werkstatt bis zur persönlichen Übergabe mit Pflegehinweisen entstehen. Dazu kommen Näharbeiten, Stempel und Prägungen sowie Batteriewechsel und neue Armbänder für Uhren. Beim Schlüsseldienst beschränkt sich das Angebot auf das Nachmachen von Schlüsseln für Haus, Auto und Tresor, schnell und präzise. Kunden werden in der Werkstatt unverbindlich beraten und können sich die Möglichkeiten der Handwerkskunst zeigen lassen. Der Betrieb hebt Handarbeit und den Kreis der Stammkunden hervor. Neben dem Lederhandwerk bildet der Uhrenservice mit Batterie- und Armbandwechsel einen zweiten Schwerpunkt, und das Schlüsselnachmachen ist ein weiterer Teil des Angebots."
+ },
+ {
+  "slug": "schluesselnotdienst-von-happy-home-krefeld",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Schlüsselnotdienst von Happy Home in Krefeld ist rund um die Uhr im Einsatz, auch an Sonn- und Feiertagen. Die Monteure öffnen zugefallene Haus- und Wohnungstüren zerstörungsfrei und wechseln Schlösser. Die Preise nennt der Betrieb vorab. Sein Einsatzgebiet umfasst ganz Krefeld mit Uerdingen, Fischeln und Bockum sowie Willich und Tönisvorst."
+ },
+ {
+  "slug": "hoto-schuh-und-schluesseldienst-krefeld",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Name Hoto Schuh- und Schlüsseldienst in Krefeld führt zwei Handwerke zusammen, die Schuhreparatur und den Schlüsseldienst. Als Kategorie ist Schlüsseldienst hinterlegt, der Namensbestandteil Schuhdienst verweist zusätzlich auf Schuhreparaturen. Der Betrieb ist in Krefeld am Niederrhein ansässig, und Näheres zu den einzelnen Arbeiten rund um Schlüssel, Schlösser und Türen ist nicht beschrieben."
+ },
+ {
+  "slug": "schuh-und-schluesseldienst-rene-krahn-leverkusen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Seit über 60 Jahren und inzwischen in vierter Generation führt die Familie Krahn in Leverkusen einen Betrieb, der mit der Schuhreparatur begann und seine Arbeit im Lauf der Jahre um den Schlüsseldienst erweitert hat. Gelernte Schuhmacher reparieren Schuhe aller Art, eine Annahmestelle für Schuhreparaturen sowie Orthopädieschuhtechnik besteht zusätzlich in Langenfeld. Im Schlüsseldienst öffnet der Betrieb Türen, baut Schlösser ein und aus und fertigt Schließanlagen an. Schlüssel jeder Art entstehen auf modernen Maschinen, darunter Zylinder-, Briefkasten-, Möbel- und Autoschlüssel. Dazu kommen Stempel und Gravuren auf Schildern, Schmuck, Ringen, Besteck, Feuerzeugen, Kugelschreibern und Schlüsselanhängern. Das Geschäft hat feste Öffnungszeiten von Montag bis Samstag, samstags bis in den Nachmittag. Der Familienbetrieb betont, dass bei ihm nur richtige Schuhmacher arbeiten, und stellt Schlüssel, Stempel und Gravuren mit modernen Maschinen her.",
+  "trace": {
+   "schlossaustausch": "Türöffnungen Ein und Ausbau von Schlössern",
+   "schluessel_nachmachen": "Wir fertigen ihnen alle Schlüssel jeder Art an",
+   "ladengeschaeft": "Mo. - Fr. 10.00 Uhr - 18.00 Uhr"
+  }
+ }
+]

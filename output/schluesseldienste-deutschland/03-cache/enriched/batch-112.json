@@ -1,0 +1,629 @@
+[
+  {
+    "slug": "aufsperrdienst-huber-olching",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Der Aufsperrdienst Huber sitzt in Olching und fährt auch nach Fürstenfeldbruck, Dachau, München und Augsburg. Im Mittelpunkt steht das Öffnen verschlossener Türen: Der Betrieb setzt auf zerstörungsfreie Techniken und bekommt nach eigener Angabe in den meisten Fällen Haus- und Wohnungstüren ohne Schaden auf. Dazu gehören Hinweise darüber, was bei einer Türöffnung erlaubt ist und wie sie abläuft, außerdem eigene Seiten zu den Einsatzgebieten, darunter viele Münchner Stadtteile wie Pasing, Laim, Schwabing und Sendling, und zur Preisgestaltung. Zusätzlich installiert und wartet der Betrieb Rauchwarnmelder und Kohlenmonoxidwarnmelder und weist darauf hin, dass der Einbau in Bayern seit 2018 Pflicht ist. Er versteht sich als lokaler Partner mit moderner Technik und will mit dem schlechten Ruf klassischer Schlüsseldienste aufräumen. Der Betrieb legt Wert auf offene Beratung und führt die Preise für Türöffnungen auf einer eigenen Seite auf."
+  },
+  {
+    "slug": "schuhhaus-krimmert-ottersberg",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "false",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Schuhhaus Krimmert in Ottersberg verkauft Schuhe und repariert sie in der eigenen Werkstatt: neue Absätze und Sohlen, Fersenfutter, Klett- und Reißverschlüsse, Sohlenerhöhung, Weiten und Näharbeiten aller Art. Daneben kopiert das Haus Standardschlüssel, etwa von Abus, auf Basis eines Originalschlüssels. Das Öffnen von Türen gehört ausdrücklich nicht zum Angebot. Der Betrieb arbeitet damit als Schuhgeschäft mit Schlüsselkopierdienst und nicht als Schlüsseldienst im engeren Sinn.",
+    "trace": {
+      "schluessel_nachmachen": "Kopieren von Standard-Schlüsseln (z. B. ABUS etc.) auf Basis eines Originalschlüssels",
+      "ladengeschaeft": "Fachmännische Reparaturen in der eigenen Werkstatt"
+    }
+  },
+  {
+    "slug": "castineira-car-technology-paderborn",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Castiñeira Car Technology in Paderborn ist ein Elektronik-Labor für Fahrzeuge. Der Betrieb repariert Steuergeräte, programmiert und optimiert Motorsoftware, führt Diagnosen durch und sucht Fehler bei fast allen Automarken. Dazu kommt ein Autoschlüsseldienst: Autoschlüssel werden neu mit Programmierung angefertigt oder repariert, auch mit Transponder und für Keyless-Systeme, ebenso Motorradschlüssel. Schlüsselrohlinge und ein Schlüssel-Shop gehören zum Angebot, außerdem Reparaturen an Navigations- und Multimediageräten sowie an Zündschlössern bestimmter Mercedes-Modelle. Nach eigener Angabe besteht der Betrieb seit mehr als 25 Jahren und hat eine lange Vergangenheit im Motorsport. Reparaturaufträge nimmt er auch online entgegen. Zum Leistungsbild zählen Blue&Me Reparaturen, AGR- und DPF-Softwarelösungen und die Reparatur elektronischer Zündschloss- und Lenkschlosssteuerungen bei Mercedes. Gutscheine lassen sich verschenken. Kunden können einen Reparaturtermin vor Ort vereinbaren, und Reparaturaufträge nimmt der Betrieb auch als Formular entgegen."
+  },
+  {
+    "slug": "ad-sicherheitstechnik-papenburg",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "In Papenburg führt AD Sicherheitstechnik die Kategorie Schlüsselkopierdienst und nennt sich selbst den Schlüsseldienst für zuhause. Der Firmenname verweist auf Sicherheitstechnik als weiteres Arbeitsfeld, die Zeiten, zu denen der Betrieb erreichbar ist, sind hinterlegt. Mehr zu den einzelnen Arbeiten, die er ausführt, ist nicht festgehalten. Der Betrieb gibt an, Schlüsseldienst für den Privatbereich anzubieten."
+  },
+  {
+    "slug": "locksmiths-passauer-e-k-passau",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "true",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Der Passauer Schlüsseldienst e.K. arbeitet in Passau mit eigenem Geschäft und einem Aufsperr-Notdienst, bei dem die Anfahrt innerhalb der Stadt nichts kostet. Der Betrieb öffnet zugefallene Türen und Tore, hilft bei defekten Schlössern und nach Einbrüchen und fertigt im Geschäft auf Schlüsselfräsmaschinen aus großem Rohlingslager Kopien an. Schlüssel aus Schließanlagen bestellt er mit Sicherungskarte beim Hersteller, defekte Zylinder aus dem EVVA Eigenprofilsortiment setzt er instand. Das Angebot reicht von Einbruchschutz und Sicherheitstechnik, die eigenes Fachpersonal einbaut, über mechanische und selbst gefertigte Schließanlagen bis zu elektronischen Zutrittskontrollsystemen, deren Zylinder sich teils mit dem Smartphone bedienen lassen. Für Hausmeister, Reinigungskräfte und Monteure lassen sich Zutrittsrechte begrenzen. Tresore verkauft und baut der Betrieb ebenfalls ein. Außerdem erstellt der Betrieb Leistungsverzeichnisse und arbeitet mit Herstellersystemen wie Iseo und Wilka.",
+    "trace": {
+      "ladengeschaeft": "In unserem Geschäft fertigen wir schnell, zuverlässig und kompetent sämtliche gängigen Schlüssel."
+    }
+  },
+  {
+    "slug": "zaytek-schluesseldienst-petersberg",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "ZAYTEK Schlüsseldienst sitzt in Petersberg bei Fulda und fährt nach eigener Angabe bis in einen Umkreis von etwa 40 bis 50 Kilometern. Der Betrieb ist als 24/7 Notdienst erreichbar, auch abends, nachts, am Wochenende und an Feiertagen. Er öffnet zugefallene und verschlossene Türen von Wohnungen, Häusern und anderen Gebäuden sowie Autotüren, wobei die möglichst schonende Öffnung im Vordergrund steht. Außerdem tauscht er mechanische Schlösser und Schließzylinder aus und richtet Schließanlagen ein, mit denen sich mehrere Türen und unterschiedliche Zutrittsberechtigungen in einem System ordnen lassen. Den verbindlichen Preis für eine Türöffnung nennt der Betrieb vorab im Gespräch. Anfragen nimmt er über ein Formular, einen Nachrichtendienst und per Anruf entgegen. Zum Einsatzgebiet zählen neben Fulda und Petersberg unter anderem Künzell, Eichenzell, Neuhof, Schlüchtern und Bad Hersfeld."
+  },
+  {
+    "slug": "loka-sicherheitstechnik-gmbh-pirna-pirna",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "LoKa Sicherheitstechnik aus Pirna arbeitet in Pirna, Dresden und Sachsen und konzentriert sich auf mechanischen Einbruchschutz. Schwerpunkt ist die Nachrüstung: Pilzkopfverriegelungen an Fenstern und Mehrfachverriegelungen an Haus- und Wohnungseingangstüren, für die der Betrieb nach eigener Angabe Produkte von Herstellern wie Winkhaus, Abus, BKS und SimonsVoss einsetzt. Daneben bietet er Fenster- und Haustürsicherungen, Sicherheitstüren, Sicherheitsfenster und Sicherheitsverglasung an und wartet Fenster, Türen und Tore, darunter Roll-, Sektional-, Hallen- und Drehtore sowie Feststellanlagen. Schließzylinder und eine digitale Schließanlage ergänzen das Angebot, ebenso Rolltore, Wintergärten und Solarrollläden. Den Ablauf einer Umrüstung beschreibt der Betrieb Schritt für Schritt und nennt die Kosten je Fensterflügel offen. Erklärt wird auch, wie sicher eine Pilzkopfverriegelung ist, anhand eines Aufbruchtests mit Werkzeugen bis 30 Zentimeter Länge. Das Angebot gliedert sich in Einbruchschutz, Wartung und weitere Leistungen."
+  },
+  {
+    "slug": "mainz-sicherheitstechnik-co-gmbh-plettenberg",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "true",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Die Mainz Sicherheitstechnik & Co. GmbH führt in Plettenberg seit 1993 ein Fachgeschäft für die Sicherheit rund ums Haus. Im Angebot sind elektronische und mechanische Sicherheitstechnik und Bauelemente, daneben Pokale, Gravuren und Stempel. In den Ausstellungsräumen stehen Schautafeln zur Vorführung und viele Produkte bereit. Der Schlüsselnotdienst ist rund um die Uhr erreichbar.",
+    "trace": {
+      "ladengeschaeft": "In unseren Ausstellungsräumen finden Sie Schautafeln zu Vorführzwecken"
+    }
+  },
+  {
+    "slug": "b-m-sicherheitstechnik-halle-gmbh-polleben",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Der Eintrag in Polleben gehört zur B+M Sicherheitstechnik Halle GmbH, die Sicherheitstechnik für Gebäude baut: Einbruch- und Überfallmeldeanlagen, Brandmeldeanlagen, Videoüberwachung, Zutrittskontrolle, Datentechnik, Telekommunikation, Rauch- und Wärmeabzugsanlagen sowie Flucht- und Rettungswegpläne. Bei Alarmanlagen arbeitet sie mit Telenot. Seit mehr als 30 Jahren ist das Unternehmen in diesen Bereichen tätig und hält einen 24-Stunden-Bereitschaftsdienst vor. In der Schließtechnik setzt es auf digitale Schließanlagen: Mechanische Profilzylinder werden gegen elektronische Zylinder getauscht, die statt eines Schlüssels mit Transpondern arbeiten. Verlorene Transponder lassen sich sperren, ein Austausch aller Zylinder bei Schlüsselverlust entfällt damit. Die Elektronikzylinder können zusätzlich in eine Einbruchmeldeanlage eingebunden werden. Das Unternehmen bildet aus und bietet Smart-Home-Lösungen an. Zum Angebot zählen auch Service-Software und Bedienungsanleitungen für gelieferte Anlagen, und der Verbund umfasst weitere Niederlassungen und eigenständige B+M Firmen.",
+    "trace": {
+      "schluesseldienst_kern": "Hierzu müssen die mechanischen Profilzylinder gegen elektronische Zylinder ausgetauscht werden."
+    }
+  },
+  {
+    "slug": "ad-sicherheitsdienste-und-service-gmbh-pulheim",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Ad Sicherheitsdienste und Service in Pulheim führt als Kategorie Schlüsseldienst und beschreibt sich als Anbieter für alles rund um die Sicherheitstechnik. Im Vordergrund der eigenen Darstellung steht Überwachungstechnik: Kameras und Alarmanlagen, mit denen sich Diebstähle aufklären und Einbrüche früh bemerken lassen, wie sie in Läden und größeren Firmen üblich sind. Der Betrieb sieht diesen Teil als festen Bestandteil des Schlüsseldienstgeschäfts. Der Betrieb hält fest, dass ein Anbieter solcher Technik zunächst alles besichtigt und dann ein Konzept erstellt. Eigene Abschnitte widmet er Kameras und Alarmanlagen, und seine Beiträge kreisen um Sicherheitsdienst, Diebstähle und Alarmanlagen. Kameras hängen nach seiner Darstellung meistens in Ladengeschäften und größeren Firmen, damit Diebstähle bemerkt oder aufgeklärt werden können, und Alarmanlagen sollen Einbrüche frühzeitig sichtbar machen. Der Name des Betriebs führt Sicherheitsdienste und Service nebeneinander."
+  },
+  {
+    "slug": "walter-schoenecker-pyrbaum",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Walter Schönecker in Pyrbaum arbeitet als Anbieter von Tresortechnik. Der Betrieb öffnet Tresore fachgerecht und vermeidet dabei sichtbare Beschädigungen; er weist darauf hin, dass der Inhalt bei unsachgemäßer Öffnung Schaden nehmen kann. Geldschränke wartet er regelmäßig, damit ihre Funktion über Jahrzehnte erhalten bleibt, und repariert sie bei Bedarf. Tresore lassen sich bei ihm auf Elektronikschlösser umrüsten. Ersatz- und Zweitschlüssel für Tresore fertigt er an, weil sich so eine spätere Notöffnung vermeiden lässt. Zum Angebot gehören außerdem Beratung und Verkauf von Tresoren."
+  },
+  {
+    "slug": "andreas-aschenbrenner-solit-sonnen-lichtschutz-24-std-schluesselnotdienst-querfurt",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Andreas Aschenbrenner führt in Querfurt einen Betrieb für Sonnen- und Lichtschutz, der im Namen zugleich einen 24-Stunden-Schlüsselnotdienst nennt. Als weitere Tätigkeitsfelder sind Türen, Garagentore, Metallwaren, Fenstereinbau und Schlüsselkopierdienst hinterlegt. Der Schwerpunkt liegt nach dem Firmennamen beim Sonnen- und Lichtschutz, der Schlüsseldienst kommt hinzu. Das Angebot verbindet damit Bauelemente wie Türen, Tore und Fenster mit Schlüsselarbeiten."
+  },
+  {
+    "slug": "roberto-weigel-sicherheitstechnik-restaurierung-radebeul",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "false",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Die Sächsische Schloss- und Beschlagschmiede von Roberto Weigel in Radebeul verbindet Schlosserei, Schmiede und Metallrestaurierung mit einem modernen Schlüsseldienst. Schwerpunkt ist altes Handwerk: Der Betrieb restauriert und baut historische Schlösser, Beschläge und Schlüssel um, liefert historische Baustoffe und Eisenwaren und fertigt Stücke nach historischem Vorbild. Bei Tresoren öffnet er im Notfall auch historische Modelle, fertigt Tresorschlüssel unter anderem für Chubb und Bramah, repariert und montiert Tresorschlösser und restauriert und verkauft alte Tresore. In der Schließtechnik arbeitet er mit mechanischer Sicherheitstechnik: Schließzylinder, darunter Eigenprofile mit Sicherungskarte, Mehrfachverriegelungen und Schließanlagen, auch hierarchische für Krankenhäuser, Hotels und Wohnanlagen. Elektronische Schließsysteme und Alarmanlagen gehören ausdrücklich nicht zum Angebot. Der Betrieb hat ein Ladengeschäft in Radebeul. Für Schlüssel historischer Tresore greift er nach Möglichkeit auf historische Rohlinge zurück und ergänzt fehlende Rosetten, Schrauben oder Schlösser."
+  },
+  {
+    "slug": "alis-express-schuh-und-schluesseldienst-ramstein-miesenbach",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Alis Express in Ramstein-Miesenbach nennt im Namen Schuhdienst und Schlüsseldienst als seine beiden Arbeitsfelder und führt die Kategorie Schlüsselkopierdienst. Nach eigener Angabe besteht das Unternehmen seit über 30 Jahren. Öffnungszeiten sind hinterlegt. Das Unternehmen ist damit ein langjähriger Betrieb im Ort für Schuh- und Schlüsselarbeiten, und die Kategorie legt nahe, dass das Anfertigen von Schlüsseln zum Kern gehört."
+  },
+  {
+    "slug": "torsten-mix-sicherheitstechnik-rastede",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Torsten Mix Sicherheitstechnik arbeitet von Rastede aus in Oldenburg und im Ammerland. Torsten Mix hat sich vor mehr als fünfzehn Jahren auf die Sicherheitsbranche spezialisiert und zuvor für andere Unternehmen der Sicherheitstechnik gearbeitet. Das Angebot umfasst mechanische Fenster- und Türsicherungen, Pilzkopfverriegelungen, Alarmanlagen, Videoüberwachung, Schließanlagen und elektronische Schließzylinder, von der einfachen Anlage für Haustüren bis zu komplexen Lösungen. Dazu kommen Wartungsarbeiten an Türen, Fenstern, Rollläden, Schlössern und Beschlägen, Lieferung und Reparatur von Tresoren, Feuerlöscher und Rauchmelder, Sonnen- und Insektenschutz sowie Schlosser- und kleinere Tischlerarbeiten. Türen öffnet der Betrieb im Notfall rund um die Uhr. Kunden sind Privatleute und gewerbliche Auftraggeber, Beratung, Installation und Betreuung kommen aus einer Hand. Weiterbildung gehört nach eigener Angabe dazu, damit auch sehr spezielle Fragen beantwortet werden können."
+  },
+  {
+    "slug": "sicherheitstechnik-havelland-thie-gottschalk-gbr-rathenow",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Die Thie & Gottschalk GbR in Rathenow versteht sich nicht als klassischer Schlüsseldienst, sondern als Anbieter von Sicherheitstechnik für das Havelland. Das dreiköpfige Team arbeitet seit 1996 und bietet einen 24-Stunden-Service, auch am Wochenende und an Feiertagen. Es öffnet zugefallene Türen, entfernt abgebrochene Schlüssel meist ohne Austausch des Zylinders und öffnet nicht verschlossene Türen beschädigungsfrei. Schwerpunkt sind Schließanlagen, mechanisch und elektronisch, mit einem Eigenprofilsystem von EVVA. Dazu kommen Schlösser aller Art, Panikschlösser, Sicherheitsbeschläge aus Edelstahl, Aluminium und Schmiedeeisen, Briefkastenanlagen mit Klingel- und Sprechsystem, Alarm- und Überwachungstechnik, mechanische Hausabsicherung sowie Tresore und Wertschutzschränke zum Verkauf. Zu den Kunden zählen auch Verwaltungsobjekte. Das Ladengeschäft hat werktags feste Öffnungszeiten. Erklärt wird auch das Prinzip der Schließanlage im Mehrfamilienhaus: Jeder Bewohner öffnet mit seinem Schlüssel nur die Haustür und die eigene Wohnungstür.",
+    "trace": {
+      "elektronische_schliesssysteme": "Beratung Montage von Schließanlagen - mechanisch und elektronisch",
+      "gewerblich_objektbetreuung": "Ihr Verwaltungsobjekt sicher zu gestalten"
+    }
+  },
+  {
+    "slug": "haeusler-werkzeuge-gewerbepark-mariatal-ravensburg",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Häusler Werkzeuge in Ravensburg ist ein Groß- und Einzelhandel für Werkzeuge, Elektrowerkzeuge, Bauchemie, Verbindungs- und Befestigungstechnik, Beschläge, Eisenwaren, Betriebseinrichtung und Arbeitsschutz. Beliefert werden Industrie, Handwerks- und Landwirtschaftsbetriebe sowie Heimwerker und Privathaushalte, zum Teil über einen Onlineshop. Als Teil des Sortiments fertigt der Betrieb auf computergesteuerten Fräsmaschinen Schlüssel an, auch Bohrmuldenschlüssel, und plant und liefert Schließanlagen, unter anderem von ABUS und BRAVUS. Das Sortiment ist stark auf Holzbau und Hallenbau ausgerichtet. Das Ladengeschäft hat feste Öffnungszeiten am Vormittag. Zu den Marken zählen Milwaukee, Mafell, Felo, Mirka und Otto Chemie. Schleif- und schärfbare Werkzeuge nimmt der Betrieb zur Bearbeitung an, und Waren stehen auch außerhalb der Ladenzeiten zur Abholung bereit. Das Sortiment reicht von Holzverbindern bis zu Tellerkopfschrauben und Kreissägeblättern, und Ratgeberthemen behandeln etwa Klebstoffe und Dichtstoffe.",
+    "trace": {
+      "schluessel_nachmachen": "Mit wenig Zeitaufwand fertigen wir Ihre Schlüssel",
+      "gewerblich_objektbetreuung": "Industrie- Handwerks- und Landwirtschaftsbetriebe"
+    }
+  },
+  {
+    "slug": "wiedemann-sicherheitstechnik-gmbh-recklinghausen",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Die Wiedemann Sicherheitstechnik GmbH wurde am 7. April 1990 als Schlüsseldienst Wiedemann gegründet und hat ihren Sitz in Witten; der Schlüsselnotdienst fährt auch nach Bochum, Dortmund und Recklinghausen. Er ist rund um die Uhr erreichbar, nachts, am Wochenende und an Feiertagen, und öffnet Türen nach eigener Angabe ohne Beschädigung. Aus dem Schlüsseldienst und der Montage von Baubeschlägen und mechanischen Einbruchsicherungen wuchs ein Sicherheitsunternehmen mit Alarmanlagen, Videoüberwachung, Rollläden und Rollladenantrieben, Garagentorantrieben und Schließanlagen, darunter das System KESO. Fenster- und Türsicherungen, Briefkastenanlagen und Tresore sind im Sortiment. Kunden sind Privatpersonen sowie Hausverwaltungen, Firmen, Schulen und Behörden. Der Betrieb arbeitet an mehreren Standorten und bietet eine kostenlose Beratung mit technischem Außendienst. Das Unternehmen versteht sich als Sicherheitsunternehmen der Region und arbeitet nach eigener Angabe nur mit namhaften Herstellern.",
+    "trace": {
+      "ladengeschaeft": "Hauptstraße 21, 58452 Witten"
+    }
+  },
+  {
+    "slug": "stefan-riddermann-rees",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Schlüsseldienst Stefan Riddermann arbeitet in Rees mit Ladenlokal und Notdienst. Der Betrieb öffnet Haus- und Wohnungstüren und legt nach eigener Angabe Wert auf eine materialschonende Öffnungsweise. Im Laden entstehen Ersatzschlüssel, vom Zylinder- über Haustür- und Zimmerschlüssel bis zu Autoschlüsseln und Sicherheitsschlüsseln, gängige Schlüssel liefert er im Sofortdienst. Das Programm reicht von Schlossreparaturen und Einbruchabsicherungen über Schließanlagen und elektronische Zylinder von Abus bis zu Funk-Alarmsystemen, Tresoren von Burg-Wächter, Tresorschlüsseln und Kfz-Schlüsseln mit Transponder. Ein Sicherheitskonzept für das Zuhause stellt der Betrieb kostenlos nach dem Bedarf der Kunden auf. Die Preise bestätigt er im Vorfeld. Der Notdienst öffnet auch Wohnungstüren im Notfall, und der Betrieb berät zu allen klassischen Aufgaben rund um Schlüssel und Sicherheitstechnik mit jahrelanger Erfahrung. Kunden können auch persönlich im Ladenlokal vorbeikommen.",
+    "trace": {
+      "festpreis_genannt": "Faire und im Vorfeld bestätigte Preise"
+    }
+  },
+  {
+    "slug": "michael-jonas-sicherheitstechnik-reinfeld-holstein",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Michael Jonas Sicherheitstechnik ist ein Ladengeschäft in Reinfeld in Holstein mit Kundschaft in Stormarn. Schwerpunkte sind Alarmanlagen, Videoüberwachung, Schlüssel, Schlösser und Schließanlagen, mechanische und elektronische Schließzylinder, Einbruchschutz, Zutrittskontrolle und Sicherheitstechnik für Haus, Läden und Gewerbe; hinzu kommen Tresore, Briefkästen und Video-Gegensprechanlagen. Im Laden lassen sich Schlüssel nachmachen und Schlüssel und Türzylinder für Schließanlagen und Sperrschließungen bestellen, Schließzylinder und Schließanlagen entstehen zum Teil in der eigenen Werkstatt. Nach eigener Angabe ist der Betrieb im Errichternachweis für mechanische Sicherungseinrichtungen der Landespolizei Schleswig-Holstein aufgenommen und Mitglied der QSN Qualitätsgemeinschaft Sicherungstechnik Nord sowie des Netzwerks Zuhause sicher. Auch Geschäftskunden bedient er. Als Marken führt er unter anderem ABUS, EVVA, IKON, ASSA ABLOY, KESO, Burg Wächter, DoorBird und AJAX. Einbruchschutz versteht er als Vertrauenssache. Außerdem arbeitet er als Vertriebspartner führender Hersteller der Sicherheitstechnik in Reinfeld.",
+    "trace": {
+      "gewerblich_objektbetreuung": "Sicherheitstechnik, Schließzylinder und Schließanlagen B2B"
+    }
+  },
+  {
+    "slug": "schlosserei-und-schluesselnotdienst-edgar-raeuchle-schlosser-metallbaumeister-in-remseck-ludwigsburg-und-waiblingen-remseck-am-neckar",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "false",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Die Schlosserei Räuchle in Remseck am Neckar besteht seit 1954 und wird in zweiter Generation von Edgar Räuchle geführt. Neben Schlosserei und Metallbau, darunter Stahl- und Edelstahlarbeiten, betreibt er einen Schlüsselnotdienst an 365 Tagen rund um die Uhr, der von Remseck über Ludwigsburg, Waiblingen, Fellbach und Marbach bis Vaihingen an der Enz und Stuttgart reicht. Er öffnet zugefallene Türen, meist ohne Schaden an Tür und Schloss, kümmert sich um Notöffnungen von Schließanlagen, Geldkassetten und Tresoren und repariert, tauscht und modernisiert Schlösser und Schließanlagen, auch als Partner für Hausverwaltungen. Bei Schlössern verwendet er Markenprodukte. Nachfertigung von Schlüsseln und Schlüsselkopien lehnt der Betrieb ausdrücklich ab. Die Preise je Einsatzort und die Aufschläge für Nacht, Wochenende und Feiertage führt er in einer Preisliste.",
+    "trace": {
+      "schlossaustausch": "zur Reparatur, zum Austausch und Modernisieren von Schlössern und ganzen Schließanlagen"
+    }
+  },
+  {
+    "slug": "schluesseldienst-rinteln-rinteln",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "In Rinteln arbeitet der Schlüsseldienst Rinteln, der als Kategorie das Kopieren von Schlüsseln führt. Der Betrieb trägt Gewerbe und Ort im Namen und richtet sich damit an Kundschaft in der Stadt. Genauere Angaben zu seinen Arbeiten liegen kaum vor. Der Name macht Rinteln selbst zum Einsatzort, und die Kategorie Schlüsselkopierdienst verweist auf das Anfertigen von Schlüsseln als Kernleistung."
+  },
+  {
+    "slug": "bau-und-moebeltischlerei-temps-inh-markus-temps-ronnenberg",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Die Bau- und Möbeltischlerei Temps in Ronnenberg wird von Markus Temps geführt und blickt nach eigener Angabe auf mehr als 140 Jahre Geschichte zurück. Der Betrieb baut Möbel nach Maß, macht Innenausbau, bietet Montage- und Reparaturservice, modernisiert Treppen mit dem Dress-System und baut Terrassen. Als weiteres Feld ist Schlüsselkopierdienst hinterlegt, das Kerngeschäft ist jedoch Tischlerhandwerk und kein Schlüsseldienst."
+  },
+  {
+    "slug": "schluesseldienst-rosenheim-24h-aufsperrdienst-tuernotoeffnung-autooeffnung-rosenheim",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Der Schlüsseldienst Rosenheim 24h ist ein Schlüsselnotdienst für Rosenheim und Umgebung, rund um die Uhr erreichbar. Er übernimmt Türnotöffnungen und Autoöffnungen, wechselt Schlösser, tauscht Schließzylinder aus und führt Reparaturarbeiten aus. Nach eigener Angabe fährt er schnell an. Bezahlt werden kann mit Karte. Neben Türen und Autos zählen auch Reparaturarbeiten und Notfälle zum Aufgabenfeld."
+  },
+  {
+    "slug": "schluessel-kurth-gmbh-rostock",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Die Schlüssel-Kurth GmbH in Rostock verbindet Schlüsseldienst mit Sicherheitssystemen. Der Betrieb unterhält einen Schlüsselnotdienst und ein Ladengeschäft, in dem Schaumuster von Fenster- und Türsicherungen zum Ausprobieren ausliegen. Im Mittelpunkt stehen Schließanlagen, mechanisch, mechatronisch und elektronisch, vor allem die elektronischen Systeme IKON eCLIQ, CLIQ Go und VERSO CLIQ mit programmierbaren Schlüsseln und Elektronikzylindern. Dazu kommen Hotelschlösser, Zutrittskontrolle, Videoüberwachung, Funk-Alarmsysteme von Daitem, Fenster- und Türsicherungen nach DIN 18104, Tresore, Gravuren und Mechatronik. Die Lösungen richten sich an Einfamilienhäuser, Wohnanlagen, Produktionsstätten und öffentliche Gebäude. Der Betrieb nennt sich eine feste Größe in der Hansestadt. Mechanische Schließanlagen für Wohnhäuser, Villen, Kleingewerbe, Baustellen, Gärten und Carports samt deren Verwaltung gehören ebenso dazu. Verbaut werden Produkte von ABUS, Burg Wächter, IKON, Fuhr und Brundert. Der Betrieb berät vor Ort und setzt Projekte termingetreu um."
+  },
+  {
+    "slug": "alfa24-sicherheitstechnik-roedermark",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Alfa24 Sicherheitstechnik in Rödermark führt ein Fachgeschäft für Sicherheitstechnik mit eigenen Öffnungszeiten. Das Sortiment umfasst Alarmanlagen, Videoüberwachung, Fenster- und Türsicherungen, Schließanlagen, Schlüsseldienst und Tresore. Bei Schließanlagen bietet der Betrieb mechanische und elektronische Lösungen für Einfamilienhäuser, Wohnblöcke, Pflege- und Studentenwohnheime, Praxen, Büros und mittelständische Betriebe an, nach einer Sicherheitsanalyse der Räume. Auch Videoüberwachung für den privaten und öffentlichen Bereich plant und installiert er. Die Beratung steht nach eigener Angabe an erster Stelle, ein Beratungstermin ist kostenlos. Schließanlagen behalten nach seiner Darstellung den Überblick darüber, wer welchen Schlüssel zu welchem Raum hält, und ersparen dicke Schlüsselbunde. Das hilft etwa Notdiensten, die schnellen Zugang zu allen Räumen brauchen. Die Sicherheitsanalyse umfasst Privat- und Ferienwohnungen ebenso wie Büro, Ladengeschäft, Lager, Praxis und Labor. Eine Empfehlung für eine Alarm- und Sicherheitsanlage folgt erst nach dieser Analyse.",
+    "trace": {
+      "gewerblich_objektbetreuung": "Pflegeheimen, Altersheimen oder Studentenwohnheimen"
+    }
+  },
+  {
+    "slug": "paul-leinen-sicherheitstechnik-e-kfm-saarlouis",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Paul Leinen Sicherheitstechnik in Saarlouis bietet Schutz für Immobilien und Wertsachen vom Schlüssel bis zur elektronischen Schließanlage. Zum Angebot zählen Schließzylinder und Schlösser sowie Schließanlagen, auch aus eigener Fertigung, für Wohnimmobilien mit mehreren Parteien, Bürogebäude, Produktionsstätten und öffentliche Gebäude. Hinzu kommt mechanische Absicherung mit Fensterschlössern, Panzerriegeln, Kellerschachtsicherungen und Türspionen, außerdem Tresore und Briefkastenanlagen. Die Beratung übernehmen nach eigener Angabe Fachleute des Betriebs, die auch die gewünschten Arbeiten ausführen. Der Betrieb arbeitet in der Rechtsform e. Kfm., führt daneben eine Sparte unter dem Namen Paul Leinen Haushalt und lässt die gewünschten Arbeiten von eigenen Fachleuten ausführen. Die Beratung fällt ausführlich aus. Die Anlagen sollen Immobilien, Wertsachen und Hab und Gut schützen; die Palette reicht vom einfachen Schlüssel über mechanische Absicherung bis zu elektronischen Systemen.",
+    "trace": {
+      "gewerblich_objektbetreuung": "Bürogebäuden, Produktionsstätten und öffentlichen Gebäuden"
+    }
+  },
+  {
+    "slug": "b-m-sicherheitstechnik-halle-gmbh-sangerhausen",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Elektronische Schließ- und Zutrittskontrollsysteme gehören bei der B+M Sicherheitstechnik Halle GmbH in Sangerhausen zum Programm. Das Prinzip: Mechanische Profilzylinder weichen elektronischen Zylindern, bei denen Transponder den Öffnungsmechanismus schalten, mit einer Leseentfernung von bis zu vier Zentimetern. Geht ein Transponder verloren, wird er deaktiviert, der Wechsel aller Zylinder bei Verlust eines Generalschlüssels entfällt. Neben diesen Anlagen baut das Unternehmen Brandmelder, Videoüberwachung, Telekommunikations- und Datentechnik, Rauch- und Wärmeabzugsanlagen und Alarmsysteme von Telenot. Ein 24-Stunden-Bereitschaftsdienst gehört dazu, ebenso Ausbildung im eigenen Haus und Smart-Home-Lösungen. Die Schließtechnik steht neben Einbruchmelde-, Überfall- und Zutrittskontrollanlagen, Smart-Home-Lösungen und Flucht- und Rettungswegplänen. Elektronikzylinder lassen sich zusätzlich in eine Einbruchmeldeanlage einbinden. Das Unternehmen besteht seit mehr als 30 Jahren. Service-Software und Bedienungsanleitungen stehen für gelieferte Anlagen bereit, und eigenständige B+M Firmen gehören zum Verbund.",
+    "trace": {
+      "schluesseldienst_kern": "Hierzu müssen die mechanischen Profilzylinder gegen elektronische Zylinder ausgetauscht werden."
+    }
+  },
+  {
+    "slug": "sts-sicherheitstechnik-sankt-augustin",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "STS Sicherheitstechnik montiert seit Jahren Sicherheitsanlagen für Häuser und Wohnungen vom Keller bis zum Dach und arbeitet im Raum Bonn und Siegburg. Das Unternehmen sitzt nach eigener Angabe in Bonn, Sankt Augustin liegt im selben Einsatzraum. Bei Notöffnungen von Türen ist der Betrieb nach eigener Angabe schnellstmöglich und zu jeder Zeit im Einsatz. Als weitere Tätigkeitsfelder sind Schlüsselkopierdienst, Gebäudereinigung und Sicherheitsausrüstung hinterlegt. Die Montage erfolgt nach eigener Angabe fachgerecht im gesamten Bonner und Siegburger Raum und richtet sich an Privathaushalte.",
+    "trace": {
+      "schluesseldienst_kern": "Bei Notöffnungen von Türen sind wir schnellstens und zu jeder Zeit für Sie da.",
+      "notdienst_24h": "Bei Notöffnungen von Türen sind wir schnellstens und zu jeder Zeit für Sie da.",
+      "tueroeffnung": "Bei Notöffnungen von Türen sind wir schnellstens und zu jeder Zeit für Sie da."
+    }
+  }
+]

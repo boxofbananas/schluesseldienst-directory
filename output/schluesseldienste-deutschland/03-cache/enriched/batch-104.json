@@ -1,0 +1,668 @@
+[
+ {
+  "slug": "julia-teller-und-eduard-teller-compact-tresore-ohg-heilbronn",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Tresore stehen im Mittelpunkt dieses Fachbetriebs aus dem Raum Backnang bei Stuttgart, der Kunden in Baden-Württemberg betreut. Er verkauft Sicherheitstresore, Panikraumsysteme und Tresorräume und begleitet den Kauf von der Beratung über die Lieferung bis zur Montage mit Verankerung. Wartung und Prüfung von Tresoren, Notöffnungen, das Nachmachen von Tresorschlüsseln und die Entsorgung alter Geräte gehören ebenfalls zum Angebot. Bei den Tresoren geht es um Einbruchschutz mit Widerstandsgraden von 0 bis VI für Schmuck, Dokumente, Bargeld und Verträge. Nach eigener Angabe besteht der Betrieb seit 1981. Er berät Privatpersonen und Unternehmen, nach eigener Angabe deutschlandweit, und nimmt Termine für ein Beratungsgespräch an. Im Sortiment finden sich außerdem Sicherheitsschlösser, Sicherheitsschlüssel sowie Verpflegungs- und Vendingautomaten. Ein Shop für Tresore ergänzt das Angebot, ebenso Beiträge zur Frage, was ein Tresor wirklich bringt."
+ },
+ {
+  "slug": "schluesseldienst-reeh-herborn",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "In Herborn führt der Betrieb von Inhaber Reeh den Namen Schlüsseldienst und beschreibt sich selbst als freundlichen Schlüsseldienst vor Ort. Eingeordnet ist er als Dienst für Schlüsselkopien, also für das Anfertigen von Zweitschlüsseln. Die Öffnungszeiten sind hinterlegt, sodass sich der Betrieb zu festen Zeiten aufsuchen lässt. Der Auftritt ist auf die Stadt Herborn und das nähere Umfeld ausgerichtet."
+ },
+ {
+  "slug": "autoschluesseldienst-autohaus-sak-atr24-herborn",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Zum Autohaus Sak in Herborn gehört ein Autoschlüsseldienst, der Fahrzeugschlüssel codiert und fräst, nach eigener Angabe innerhalb von nur einer Stunde. Auch Notfallschlüssel für Fahrzeuge und Ersatz für verlorene Schlüssel zählen zu den genannten Leistungen. Der Betrieb ist breit aufgestellt und bietet Kfz-Gutachten, An- und Verkauf von Fahrzeugen, Kfz-Service mit Reifen und Autoglas, einen Abschleppdienst mit Pannenhilfe, die Vermietung von Fahrzeugen und Anhängern sowie Ersatzteile, Felgen und Tuning an. Eine Hebebühne mit Werkzeug und Stellplätze für Hobbyschrauber werden ebenfalls vermietet. Geschäftsstellen bestehen in Herborn und mit zwei Standorten in Dillenburg.",
+  "trace": {
+   "schluessel_nachmachen": "Auto Schlüssel Codieren & Fräsen",
+   "ladengeschaeft": "1.Geschäftsstelle Junostraße 8Herborn 35745"
+  }
+ },
+ {
+  "slug": "schluesseldienst-jungmann-heusweiler",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Heusweiler und das Köllertal sind das Einsatzgebiet dieses Schlüsseldienstes, der Schlüssel und Schließzylinder in der eigenen Werkstatt in wenigen Minuten anfertigt. Der Betrieb öffnet Türen, repariert defekte Schlösser und Beschläge vor Ort und montiert neue. Er liefert Schließanlagen und berät zu Einbruchschutz sowie zu mechanischen und elektronischen Schließsystemen, die er gemeinsam mit dem Hersteller SimonsVoss einrichtet. Dazu kommen Alarmanlagen, Videoüberwachung, Rauchmelder und Zutrittssysteme, Briefkästen, Tresore, Gravuren, Stempel und Schleifarbeiten. Inhaber Raphael Jungmann nennt als seine Fachbereiche Schlüsseldienst, Schließsysteme, Autoschlüssel und Gravuren, Mitarbeiter Heinz Dietz arbeitet im Schlüsseldienst sowie bei Kamera- und Sicherheitssystemen. Auch außerhalb der Öffnungszeiten ist der Betrieb telefonisch erreichbar. Beratung gibt es im Ladengeschäft oder direkt vor Ort, ein Shop mit Versand ergänzt das Angebot. Der Betrieb sitzt im Saarland.",
+  "trace": {
+   "notdienst_24h": "wir stehen auch außerhalb der Öffnungszeiten telefonisch für Sie zur Verfügung",
+   "schluessel_nachmachen": "Anfertigung von Schlüsseln"
+  }
+ },
+ {
+  "slug": "wambach-organisation-gmbh-ergonomie-im-buero-heusweiler",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Büroplanung, Akustikkonzepte, Lichtplanung, Schallkabinen und Bodenbeläge bilden das Hauptgeschäft dieser Firma in Heusweiler, zu der mobile Akustikwände sowie Tisch- und Wandabsorber gehören. Als eigener Unternehmenszweig kommt die Sicherheit hinzu, der Ursprung des Hauses liegt nach eigener Angabe im Bereich der Tresore. Angeboten werden Schlüssel- und Einwurftresore, Wertschutzschränke und Feuerschutztresore aller Klassen und Sicherheitsstufen. Der Service reicht von der Wartung über die Aufstellung vor Ort bis zu Schlosstausch, Reparaturen und Notöffnungen sowie der Prüfung von Elektronikschlössern und Feuerschutzkontrollen. Auch der Austausch und die Nachrüstung von Schließsystemen gehören dazu. Das Angebot richtet sich an Privat- und Gewerbekunden. Als Beispiele für ausgeführte Büroprojekte zeigt der Betrieb ein Bürgeramt, ein Bürgermeisterbüro, Meetingräume und Sozialräume mit Akustiklösungen. Ein Shop und eine Aktionsseite ergänzen den Auftritt, und Prüfungen und Wartung betreffen auch gewerblich genutzte Tresore."
+ },
+ {
+  "slug": "schluessel-froehlich-inh-dirk-froehlich-ilmenau",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Seit der Gründung 1990 arbeitet dieser kleine Betrieb in Ilmenau mit Lieferung, Montage und Wartung von Sicherheitstechnik und befasst sich vor allem mit hochwertigen Schließzylindern und Schließanlagen. Er plant, liefert und montiert Schließanlagen für gewerbliche und private Zwecke, auch im Eigenprofil und mit Zylindern samt Sicherungskarte. Zur Auswahl stehen Profilzylinder von EVVA, elektronische Modulzylinder und elektronische Hotelkartensysteme. Die Zylinder bieten nach Angabe des Betriebs Aufbohr- und Abtastschutz. Das Sortiment umfasst außerdem Schlösser, Beschläge, Briefkästen, Tresore und Kassetten, Tür- und Fenstersicherungen, Fahrradschlösser, Türöffner und Türschließer. Im Ladengeschäft in Ilmenau berät der Betrieb zu diesen Produkten. Ein Shop und eine Referenzseite mit ausgeführten Anlagen ergänzen den Auftritt, und der Inhaber Dirk Fröhlich ist im Namen des Betriebs genannt. Das Angebot gilt für Privat- wie Firmenkunden.",
+  "trace": {
+   "elektronische_schliesssysteme": "elektronische Modulzylinder und elektronische Hotelkartensysteme",
+   "gewerblich_objektbetreuung": "Ob gewerblich oder privat"
+  }
+ },
+ {
+  "slug": "dieter-entzian-schluesseldienst-ilmenau-ilmenau",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Dieter Entzian führt in Ilmenau einen Schlüsseldienst, der unter dem Namen Schlüsseldienst Entzian seit 2001 im Netz auftritt. Der Betrieb gehört zu den Anbietern für Schlüsselkopien in der Stadt und arbeitet an Werktagen mit festen Zeiten am Vormittag und am Nachmittag, unterbrochen von einer Mittagspause. Am Freitag endet der Betrieb später als an den anderen Tagen. Der Inhaber ist namentlich genannt, die Stadt Ilmenau steht im Titel des Auftritts, und der Betrieb tritt als persönlich geführter Einzelbetrieb auf. Das Angebot richtet sich an Kunden in Ilmenau."
+ },
+ {
+  "slug": "schluesseldienst-am-holzmarkt-ingolstadt",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Zugleich Notdienst und Fachgeschäft für Schließ- und Sicherheitstechnik ist dieser Betrieb in Ingolstadt. Er öffnet zugefallene und verschlossene Türen möglichst ohne Beschädigung, auch nachts, sonntags und an Feiertagen mit bevorzugter Anfahrt. Die Preise für die Türöffnung staffelt er nach Zeitraum und nennt sie vorab; der Nachtzeitraum liegt täglich zwischen 22 und 6 Uhr. Im Ladengeschäft zeigen Mustertüren und Musterwände komplette Lösungen für Einbruchschutz, Zutrittskontrolle und Videoüberwachung. Zum Angebot zählen Planung und Installation mechanischer und elektronischer Schließanlagen, Einsteckschlösser, Mehrfachverriegelungen, Türbeschläge und Sicherheitsbeschläge samt Systemzubehör. Schlüssel entstehen nach Muster, und Zylinder samt Schlüssel lassen sich gegen Vorlage der Sicherungskarte nachbestellen. Privat- und Geschäftskunden werden mit fachgerechter Montage bedient. Das Fachgeschäft führt Schließanlagen, Einbruchschutz, Tresore und moderne Sicherheitstechnik und lässt Kunden die Lösungen direkt im Einbauzustand ansehen.",
+  "trace": {
+   "ladengeschaeft": "In unserem Fachgeschäft präsentieren wir Ihnen nicht nur einzelne Produkte"
+  }
+ },
+ {
+  "slug": "mister-speed-schuh-und-schluesselservice-in-ingolstadt-ingolstadt",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "false",
+   "tueroeffnung": "false",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Mister Speed in Ingolstadt ist ein Schuh- und Schlüsselservice. Der Betrieb repariert Schuhe aller Art, tauscht Reißverschlüsse und bearbeitet Reiterstiefel und Motorradstiefel. Dazu kommen Schlüsselservice, Gravuren, Schleifservice, Stempelservice und der Wechsel von Uhrbatterien. Im Verkauf führt er Lederwaren wie Gürtel, Geldbörsen und Taschen sowie Schuhpflegemittel und Schuhspanner. Einen Schlüsselnotdienst gibt es nicht, Türen vor Ort öffnet der Betrieb nicht.",
+  "trace": {
+   "schluessel_nachmachen": "Schlüsselservice, Gravuren, Schleifservice"
+  }
+ },
+ {
+  "slug": "schluesselnotdienst-brauer-jena",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Schlüsselnotdienst Brauer ist in Jena und Umgebung unterwegs und wird vom Inhaber persönlich geführt, der auf seiner Seite in der ersten Person auftritt. Zu den Leistungen zählen Notöffnungen, Reparaturen und der Einbau von Schließsystemen aller Art. Für dringende Fälle gibt es eine eigene Notdienstnummer, neben der allgemeinen Rufnummer des Betriebs. Nach eigener Angabe bringt der Inhaber Erfahrung in dieser Branche mit und arbeitet schnell. Eingeordnet ist der Betrieb als Notdienst für Schlüssel, und feste Öffnungszeiten sind angegeben. Der Auftritt richtet sich an Menschen in Jena, die kurzfristig Hilfe an Tür und Schloss brauchen. Als Einsatzgebiet nennt der Betrieb Jena und Umgebung. Die Arbeit reicht von der Notöffnung einer verschlossenen Tür bis zur Reparatur eines defekten Schlosses und zum Einbau neuer Schließsysteme.",
+  "trace": {
+   "tueroeffnung": "Zur Dienstleistungen gehören Notöffnungen, Reparaturen und Einbau von Schließsystemen aller Art",
+   "schlossaustausch": "Reparaturen und Einbau von Schließsystemen aller Art"
+  }
+ },
+ {
+  "slug": "telegant-gmbh-co-kg-jena",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Als Systemhaus für Kommunikations-, Sicherheits- und Netzwerktechnik besteht die TELEGANT GmbH & Co. KG in Jena nach eigener Angabe seit 1996. Der Betrieb vertreibt und montiert Telekommunikationssysteme sowie Sicherheitstechnik von Herstellern wie Avaya, Mobotix, Unify und SimonsVoss, konzipiert und betreut komplexe Anlagen und entwickelt eigene Software wie Contelio und Syntelio. Zu den Sicherheitsprodukten zählen Türsprechstellen, schlüsselloser Zugang, Zutrittskontrolle per PIN-Code oder Transponder und elektronische Schließzylinder. Daneben gibt es DECT-Telefone, Systemtelefone und Konferenztelefone. Mit Schlüsseldienst im engeren Sinn hat das Geschäft nichts zu tun, es liegt im Bereich der Gebäude- und Netzwerktechnik. Für die Montage kommen Techniker zum Kunden vor Ort, und im Shop sind passende Schließzylinder erhältlich. Zu den Themen der Website zählen Lösungen für Contelio, Mobotix und Avaya sowie Partnerschaften, und der Betrieb nennt Auszeichnungen."
+ },
+ {
+  "slug": "lock4safe-gmbh-kleve",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Tresorschlösser sind das Spezialgebiet der Lock4Safe GmbH in Kleve. Der Betrieb rüstet Tresore auf smarte elektronische Schlösser um, liefert mechanische Schlüsselschlösser und Zahlenkombinationsschlösser und übernimmt den Tresorservice mit Wartung und Notöffnung. Dazu entwickelt er Bargeldkonzepte und Sicherheitskonzepte, die Überfälle, Einbruch und internen Diebstahl als häufigste Verlustursachen am Tresor angehen. Mit dem Cash-Room-Master bietet er ein elektronisches Tresorschloss mit IP-Anbindung für den Einzelhandel. Umrüstungen werden tagesgenau geplant und mit einer Schulung der tresorverantwortlichen Mitarbeiter abgeschlossen. Der Betrieb stellt sich als Ansprechpartner für Tresorsicherheit aus einer Hand vor und deckt Beratung, Konzept, Schlossumrüstung und Service ab. Mitarbeiterschutz ist ein eigener Themenbereich. Zu den Kunden zählen Industrieunternehmen, Groß- und Einzelhandel, Banken und der private Sektor. Eine Umrüstung von Waffenschrank-Schlössern wird ebenfalls genannt. Der Auftritt liegt auf Deutsch und Englisch vor.",
+  "trace": {
+   "schlossaustausch": "Tresorschloss umrüsten",
+   "gewerblich_objektbetreuung": "Industrieunternehmen, den Großhandel, Einzelhandel und Banken"
+  }
+ },
+ {
+  "slug": "schluesseldienst-kleve-emmerich-am-rhein-24-7-kleve",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Rund um die Uhr im Einsatz ist dieser Schlüsseldienst für Kleve und Emmerich am Rhein, nach eigener Angabe auch in Goch, Rees, Xanten und Wesel. Er öffnet Türen nach einer Aussperrung, bei vergessenem, verlorenem oder abgebrochenem Schlüssel und bei blockierenden Schlüsseln. Defekte Zylinder, Schlösser und Beschläge tauscht der Betrieb aus. Die Preise nennt er nach eigener Angabe gleich bei der Anfrage.",
+  "trace": {
+   "notdienst_24h": "24/7 für sie im Einsatz"
+  }
+ },
+ {
+  "slug": "schluesseldienst-roman-konstanz",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Seit 2003 arbeitet Schlüsseldienst Roman nach eigener Angabe in Konstanz. Der Betrieb nennt einen Notdienst rund um die Uhr, der Tag und Nacht erreichbar ist. Eingeordnet ist er als Dienst für Schlüsselkopien, daneben treten feste Öffnungszeiten für den normalen Betrieb auf. Der Name steht für einen persönlich geführten Schlüsseldienst im Stadtgebiet von Konstanz am Bodensee."
+ },
+ {
+  "slug": "boehler-reparaturen-service-schluesseldienst-in-konstanz-konstanz",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Reparaturen und ein Schlüsseldienst gehören bei Andreas Böhler in Konstanz zusammen. Zugefallene Türen öffnet der Betrieb zerstörungsfrei und ist dafür über eine eigene Notrufnummer erreichbar. Daneben führt er Reparaturen aus, liefert Sicherheitsschlösser und übernimmt Beratung und Planung. Eingeordnet ist er als Dienst für Schlüsselkopien und Reparaturen. Der Name verbindet zwei Bereiche, Reparaturen und Service einerseits, Schlüsseldienst in Konstanz andererseits. Der Betrieb stellt sich als Spezialist für Reparaturen, Sicherheitsschlösser, Notöffnungen sowie Beratung und Planung vor. Unter dem Namen Böhler Service tritt er in Konstanz auf, mit Schlüsseldienst und Notöffnungen als sichtbaren Schwerpunkten. Die Öffnung zugefallener Türen ohne Zerstörung steht dabei an erster Stelle. Als Ansprechpartner tritt der Inhaber Andreas Böhler auf, der den Betrieb in Konstanz persönlich führt und unter dem Namen Böhler Service auftritt."
+ },
+ {
+  "slug": "a-p-schluesseldienst-langenhagen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "false",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Mobil und rund um die Uhr arbeitet A&P Schlüsseldienst für Langenhagen, Hannover, Garbsen, Wedemark, Isernhagen und Burgwedel. Der Betrieb öffnet Haus-, Wohnungs-, Keller- und Nebentüren möglichst beschädigungsfrei, hilft bei verschlossenen Fahrzeugen und montiert, tauscht oder repariert Schlösser und Profilzylinder. Er plant und montiert Schließanlagen für Privatkunden, Unternehmen, Hausverwaltungen und öffentliche Einrichtungen. Hinzu kommen Beratung zum Einbruchschutz, die Sicherung beschädigter Türen und Fenster nach einem Einbruch als Soforthilfe sowie Unterstützung bei Tresoren und Wertschutzschränken. Betreut werden auch Gewerbebetriebe, Büros, Praxen und Kanzleien. Der Schlüsselnotdienst ist täglich, auch an Wochenenden und Feiertagen, erreichbar. Ein Kundenempfang am Firmensitz besteht nicht, der Betrieb kommt zum Einsatzort. Diskrete Hilfe nach Einbruchschäden und beschädigungsarme Öffnung stehen nach eigener Angabe im Vordergrund, dazu mobile Lösungen für Schlüssel, Schlösser und Sicherheitstechnik."
+ },
+ {
+  "slug": "dp-elektronik-gmbh-langenhagen",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Elektronische Sicherheitstechnik für Unternehmen und öffentliche Einrichtungen ist das Geschäft der dP elektronik GmbH, die ihren Sitz im Raum Hannover hat und über 40 Jahre Erfahrung nennt. Der Betrieb installiert, wartet und repariert Zutrittskontrollsysteme, Zeiterfassung, Besuchermanagement, Schrankenanlagen, Rettungswegtechnik und digitale Schließanlagen, darunter die Systeme iLOQ und eCLIQ. Kunden sind Energieversorger, Stadtwerke, Logistiker, Filialbetriebe, die Immobilien- und Wohnungswirtschaft, Industrie, Banken und Versicherungen. Ein Support-Team hilft per Anruf und per Fernzugriff. Zur Software gehört IQ MultiAccess für Zutritt und Zeit. Elektronische und mechatronische Türbeschläge und Schließzylinder für Innen- und Außentüren sind in großer Auswahl lieferbar. Mechanische Schlüsseldienste gehören nicht zum Angebot, die Arbeit liegt bei Zutritts- und Zeitlösungen. Der Betrieb pflegt einen Blog mit Fachbeiträgen und lädt zu Veranstaltungen ein. Die Beratung beginnt mit einem Erstgespräch."
+ },
+ {
+  "slug": "service-shop-im-ostfriesland-center-multi-sued-leer-ostfriesland",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Im Einkaufszentrum Multi Ostfriesland-Center in Leer verbindet Walter Göwert Schuhreparatur mit Schlüsseldienst. Er hält Schlüsselrohlinge in großer Zahl vorrätig, fertigt Zweitschlüssel nach Vorlage des Originals an, auch für Oldtimer, und gibt sie sofort mit. Im Ladengeschäft verkauft er Schlösser und DOM-Schließzylinder, tauscht Schlösser und liefert Schließanlagen und Gleichschließungen, für die er Angebote erstellt. Daneben bietet der Betrieb Stempel, Gravuren bis zu einer Größe von 30 mal 30 Zentimetern, Schilder und Türschilder an. Zur Schuhseite gehören wendegenähte Schuhe, Qualitäts-Schuhzubehör und Furnituren sowie historische Schuh- und Lederarbeiten nach alten Vorlagen. Außerdem verweist der Betrieb auf einen Decoramic Shop mit großer Auswahl und führt Original Buckles. Schließanlagen liefert er komplett oder einzeln, auch als Aufstockung alter Anlagen nach neuester Technik, schon ab einem Stück."
+ },
+ {
+  "slug": "sandersfeld-sicherheitstechnik-gmbh-leer-ostfriesland",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Als regionales Familienunternehmen mit nahezu 40 Jahren Erfahrung baut die Sandersfeld Sicherheitstechnik GmbH in Leer vor allem elektronische Sicherheit auf: Alarmanlagen, Videoüberwachung, Einbruch- und Brandmeldeanlagen, Zutrittskontrolle und Zeiterfassung für Gewerbe und Industrie. Dazu kommen Rauch-Wärme-Abzugsanlagen, Anlagen für Windenergie, IT-, Netzwerk- und Telekommunikationstechnik sowie ein Hausnotruf unter dem Stichwort Sicherheit im Alter. Kern des Angebots ist eine eigene, rund um die Uhr besetzte Europa-Leitstelle. Für Ausgesperrte in Ostfriesland leistet der Betrieb Notöffnungen und nennt seinen Preis dafür offen. Hinzu kommen mechanische Sicherheit für das Zuhause und schlüsselloser Zutritt per Transponder oder Fingerabdruck. Das Haus ist Mutterunternehmen einer Gruppe und stellt Vertrauen und Kollegialität in den Vordergrund. Mit der Notöffnung für Ostfriesland wendet sich der Betrieb an Menschen, die ihren Haustürschlüssel verloren haben oder deren Schlüssel von innen in der Tür steckt.",
+  "trace": {
+   "tueroeffnung": "Notöffnung für Ostfriesland",
+   "gewerblich_objektbetreuung": "Sicherheit für Gewerbe und Industrie"
+  }
+ },
+ {
+  "slug": "mafabo-gmbh-leinefelde",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Dienstleistungen aus einer Hand bietet die Mafabo GmbH aus Leinefelde-Worbis im Eichsfeld: Umzüge und Entrümpelungen, Containerdienst, Zaunbau, Mäharbeiten und Heckenpflege, Baumfällungen, Formschnitte und Wurzelpflege. Auch Elektroinstallationen und die Entsorgung von Abfall sind unter den genannten Tätigkeiten. Ein Hausmeisterservice sorgt für Ordnung und Werterhalt von Gebäuden und wird als Teil der Objektbetreuung beschrieben. Der Fachschlüsseldienst öffnet zugefallene Türen und Türen nach einem verlorenen Schlüssel professionell und ohne unnötige Beschädigung. Nach eigener Angabe führt der Betrieb alle Arbeiten rund um Haus, Hof und Garten termingerecht und mit Sorgfalt aus, vom Haushalt bis zur Immobilie. Notdienst und Hausmeisterservice bilden einen eigenen Bereich. Anfragen nimmt der Betrieb telefonisch und per Formular entgegen. Die Firma sitzt im Eichsfeld und bietet ihre Leistungen für Privathaushalte wie für Objekte an, von der Gartenpflege bis zur Räumung von Immobilien."
+ },
+ {
+  "slug": "schuh-u-schluesseldienst-bornemann-leinefelde",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Ralf Bornemann führt in Leinefelde einen Schuh- und Schlüsseldienst, der aus einer Schuhreparatur hervorgegangen ist. Nach und nach kamen das Schleifen von Messern und Scheren, Gravuren, Pokale, Stempel und Lederwaren hinzu. Beim Schlüsseldienst fertigt er Nachschlüssel an und liefert Schlösser und Schließanlagen, mechanisch wie elektronisch, mit Einbau nach Terminabsprache. Türen und Fahrzeuge öffnet er im Notfall und ist dafür über eine eigene Notöffnungsnummer erreichbar. Die Reparaturen gelten für Schuhe und Lederwaren in einem Geschäft in der Stadtmitte von Leinefelde-Worbis. Der Betrieb ist außerdem telefonisch, per Fax oder auf dem Postweg erreichbar. Zum Geschäft gehört ebenfalls eine Lottoannahme. Die Anfänge liegen in einer Schuhreparatur, die später zum Schuh- und Schlüsseldienst erweitert wurde. Kunden kommen mit Schuhen, Schlüsseln, stumpfen Messern und der Frage nach einem kompletten Schließsystem ins Geschäft.",
+  "trace": {
+   "notdienst_24h": "NOTÖFFNUNG: +49 171 64 30 95 9",
+   "tueroeffnung": "Notöffnung von Türen und Auto",
+   "schlossaustausch": "Schlosseinbau nach Terminabsprache",
+   "autoschluessel": "Notöffnung von Türen und Auto",
+   "ladengeschaeft": "Schuh- und Schlüsseldienst Ralf Bornemann, Leinefelde Haus Mitte, Bahnhofstraße 10-14"
+  }
+ },
+ {
+  "slug": "schluesselmaxx-lippstadt",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Rund um die Uhr an sieben Tagen erreichbar ist SchlüsselMaxx in Lippstadt, nach eigener Angabe an 365 Tagen im Jahr und mit einer Ankunftszeit von 15 bis 35 Minuten. Der Betrieb öffnet Türen, Fahrzeuge und Tresore beschädigungsfrei, wechselt Schlösser und Schließzylinder, plant und montiert Schließanlagen und sichert Türen mit Zusatzkastenschloss und Panzerriegel. Schlüssel fertigt er auch für Autos an. Den Preis legt der Betrieb vor Einsatzbeginn fest, im Stadtgebiet fallen keine Anfahrtskosten an. Das Ladengeschäft in Lippstadt öffnet montags bis freitags am Vormittag und Nachmittag und samstags bis zum frühen Nachmittag. Dort gibt es Schlüsselanfertigungen sofort sowie Beratung zu Sicherheitsschlössern und Reparaturen. Das Einsatzgebiet reicht bis in die Ortsteile rund um die Stadt, und neben Wohnungen und Autos öffnet der Betrieb auch Briefkästen."
+ },
+ {
+  "slug": "k-krabel-schlosserei-lippstadt",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Eine Schlosserei in Lippstadt ist K. Krabel mit Schwerpunkt auf Bauschlosserei und Metallbau. Der Betrieb montiert Normbauteile, liefert und montiert Schließanlagen und nennt außerdem Schlüsseldienst unter seinen Leistungen. Feste Öffnungszeiten sind angegeben. Das Spektrum reicht damit von Arbeiten am Bau und am Metall bis zur Schließtechnik für Gebäude. Das Angebot umfasst damit Metallarbeiten und Schlosserarbeiten."
+ },
+ {
+  "slug": "sicherheitstechnik-schliessanlagen-notoeffnungen-juergen-kasner-loehne",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Seit 1994 bietet Jürgen Kasner in Löhne Sicherheitstechnik an. Er übernimmt Notöffnungen, beseitigt Einbruchschäden und sichert Häuser, Firmen und Großobjekte ab. Weitere Arbeiten sind Schließanlagen im Eigenprofil, der Umbau von Türen zu Fluchttüren, elektronische Türschlösser und ein biometrischer Fingerscan, der Türen per Fingerabdruck öffnet. Im Programm stehen außerdem Tresore mit Aufstellung und Befestigung, Briefkastenanlagen für Mietobjekte, Videoüberwachung, Torantriebe und Sonderanfertigungen. Beratung vor Ort erfolgt nach Absprache.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Absicherung von Haus - Firmen und Großobjekte"
+  }
+ },
+ {
+  "slug": "jesse-bauelemente-sicherheitstechnik-loehne",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Zwei Standbeine hat Jesse Bauelemente & Sicherheitstechnik in Löhne. Im Bereich Bauelemente liefert und montiert der Betrieb Fenster, Türen, Wintergärten, Vordächer, Markisen, Torantriebe, Feuerschutztüren und Rolltore. Im Bereich Sicherheitstechnik öffnet er ausgesperrten Kunden die Tür ohne Schäden, verkauft Schließanlagen und führt Reparaturen rund ums Haus aus. Als Leistungen der Sicherheitstechnik nennt er außerdem Schlösser und Beschläge, Schutzgitter und Tresore. Die Anfahrt ist kostenlos. Für Notöffnungen gibt es eine eigene Rufnummer, das Gebiet umfasst Löhne, Herford, Bünde, Enger, Bad Oeynhausen und Vlotho. Unverbindliche Angebote für Bauelemente sind möglich. Zu den Marken, mit denen der Betrieb arbeitet, zählt Königsberger. Die Seite spricht Ausgesperrte direkt an und nennt Öffnungen ohne Schäden. Auch Reparaturen rund ums Haus zählen zu den Leistungen, und Kunden können unverbindlich ein Angebot einholen."
+ },
+ {
+  "slug": "haus-fuer-sicherheit-eric-henss-lueneburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Als Full-Servicedienstleister für Sicherheitstechnik in Lüneburg und Umgebung nennt sich das Haus für Sicherheit, geführt von Eric Henß, mit über 36 Jahren Erfahrung. Das Angebot reicht von Alarmanlagen und Videoüberwachung über mechanischen Einbruchschutz mit Fenster- und Türensicherungen bis zu mechanischen und digitalen Schließanlagen mit elektronischen Zylindern. Besonderen Wert legt der Betrieb auf die fachgerechte Montage. Ergänzend gibt es Briefkastenanlagen, Schlösser und Beschläge sowie Tresore. Zum Kundenkreis zählen Privatkunden und gewerbliche Kunden wie Autohäuser, Tankstellen, Kaufhäuser und die öffentliche Hand. Genannt werden Schließsysteme von Herstellern wie BKS, DOM, EVVA, KESO, ISEO, IKON und WINKHAUS. Wer welche Türen öffnen darf, regelt nach Angabe des Betriebs ein Schließplan, und digitale Anlagen schützen vor unbefugtem Kopieren von Schlüsseln. Beratung gibt es vor Ort und nach Terminvereinbarung."
+ },
+ {
+  "slug": "sentect-sicherheit-kommunikation-lueneburg",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Sicherheitstechnik und Kommunikation für Unternehmen liefert SENTECT von Standorten in Hamburg und Lüneburg aus und nennt über zehn Jahre Erfahrung. Der Betrieb plant, installiert und wartet Einbruchmeldeanlagen, Brandmeldeanlagen, Videoüberwachung, Zutrittskontrolle, IT-Sicherheit und Telekommunikationstechnik. Zur Zutrittskontrolle gehören Schließsysteme, elektronische Schließzylinder und Transponder. Branchenlösungen gibt es für Groß- und Einzelhandel, Lebensmittelhandel, Apotheken, Praxen, Kanzleien, Transport und Logistik, Bürogebäude, Hausverwaltungen und Privatkunden. Architekten und Planungsbüros unterstützt der Betrieb bei Neubau und Sanierung. Zur Videoüberwachung zählen Außen- und Innenanwendungen mit Personenerkennung und Kennzeichenerkennung. Eine Tür zu öffnen oder ein Schloss zu tauschen gehört nicht zu den Leistungen, die Arbeit liegt in der Gebäude- und Objektsicherung. Als Schwerpunkte nennt der Betrieb Einbruchmeldeanlage, Videoüberwachung, Zutrittskontrolle und IT-Sicherheit sowie Service und Support für Planer. Der Betrieb arbeitet mit Planung, Installation und Wartung."
+ },
+ {
+  "slug": "auto-notdienst-24-7-luenen-luenen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Pannenhilfe für Autofahrer in Lünen leistet der Auto Notdienst 24/7 nach eigener Angabe rund um die Uhr. Zum Angebot zählen Starthilfe, die Öffnung von Fahrzeugtüren und die Lieferung von Benzin im Notfall. Der Betrieb ist als Notdienst für Schlüsselprobleme am Fahrzeug eingeordnet und arbeitet als Roadside Assistance für Fahrzeuge im Stadtgebiet.",
+  "trace": {
+   "autoschluessel": "Auto Türöffnung"
+  }
+ },
+ {
+  "slug": "schluesseldienst-lehmann-luenen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Seit 1998 besteht der Schlüsseldienst Lehmann in Lünen nach eigener Angabe. Der Betrieb ist als Schlüsseldienst geführt und nennt feste Öffnungszeiten, zu denen er erreichbar ist. Eine eigene Website hat er nicht, der Auftritt beschränkt sich auf den Namen des Inhabers und den Hinweis auf die lange Tätigkeit in der Stadt Lünen und ihrer Umgebung."
+ },
+ {
+  "slug": "schuhladen-und-schuhmacherei-diederichs-magdeburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Am Hasselbachplatz in Magdeburg führt die Familie Diederichs seit 1932 eine Schuhmacherei mit angeschlossenem Schuhladen, inzwischen in dritter Generation. Der Betrieb legt nach eigener Angabe Wert auf Qualität und natürliche Materialien. Er repariert Schuhe und Lederartikel, passt Schuhe individuell an, etwa durch Längungen, Weitungen und Erhöhungen, und versorgt Kunden mit Fußbeschwerden als Fachgeschäft. Ein einfacher Schlüsseldienst erweitert das Angebot. Im August 1990 eröffnete die Familie im Hauptbahnhof eine Außenfiliale für schnelle Reparaturen. Eine alte gerettete Maschine und eine betagte Kasse sind im heutigen Ladenlokal noch in Gebrauch."
+ },
+ {
+  "slug": "allroundservice-schroeder-magdeburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Allroundservice Schröder in Magdeburg ist ein Handwerks- und Hausmeisterbetrieb für Arbeiten rund ums Haus. Der Inhaber übernimmt Hausmeisterarbeiten, Gebäudeinstandhaltung, Reparaturen und Wartung, dazu Gartenarbeiten, Silikonarbeiten, Haushaltsauflösungen und Entrümpelungen. Als Notdienste nennt er neben Schlüsseldienst auch verstopfte Abflüsse und kaputte Dachrinnen. Auch Privatkunden mit normalem Budget zählen zur Kundschaft. Eingeordnet ist der Betrieb zugleich als Notdienst für Schlüsselprobleme."
+ }
+]

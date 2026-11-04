@@ -1,0 +1,866 @@
+[
+ {
+  "slug": "schloss-schluesseldienst-chojne-strausberg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Türöffnung, Schlüsselkopien und Reparaturen sind die Arbeiten, die Schloss-&Schlüsseldienst Chojne in Strausberg anbietet. Der Betrieb kommt für Einsätze zum Kunden vor Ort und nimmt Terminwünsche auch online entgegen. Eingeordnet ist er als Schlüsselkopierdienst. Das Angebot deckt den Alltag rund um Tür und Schlüssel ab, vom Zweitschlüssel bis zur verschlossenen Tür."
+ },
+ {
+  "slug": "schluesselservice-telmo-strausberg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüsselservice TELMO in Strausberg fertigt Schlüsselkopien für freie Profile von Wohnungstüren, Haustüren und Briefkästen verschiedener Anbieter. Im Sortiment stehen außerdem ABUS Schließzylinder und Vorhangschlösser. Der Betrieb ist als Schlüsselkopierdienst eingeordnet und bedient Kunden zu hinterlegten Öffnungszeiten. Das Angebot richtet sich an alle, die einen Zweitschlüssel für Wohnung, Haus oder Briefkasten brauchen."
+ },
+ {
+  "slug": "schuh-und-schluesseldienst-im-marktkauf-stuhr-stuhr",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Schuh und Schlüsseldienst im Marktkauf Stuhr arbeitet nach seinem Namen innerhalb des Marktkauf-Markts in Stuhr. Eingeordnet ist er als Schlüsselkopierdienst, mit Schuhreparatur als zweitem Standbein. Der Name verbindet beides: Schlüsselanfertigung am Einkaufsort und Reparaturen rund um den Schuh. Beide Gewerke gehören zum Alltagsgeschäft eines Ladens innerhalb eines Einkaufsmarkts. Öffnungszeiten sind hinterlegt."
+ },
+ {
+  "slug": "schuh-und-schluesseldienst-stuhr-stuhr",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüssel nachmachen, Schuhreparatur und Lederware sind die drei Angebote, die Schuh und Schlüsseldienst Stuhr nennt. Der Betrieb arbeitet in Stuhr als Schlüsselkopierdienst mit angeschlossener Schuhmacherei und stellt seine Arbeit als schnell dar. Das Angebot deckt den Alltag rund um Schlüssel, Schuhe und Lederware ab und ist auf schnelle Erledigung am Tresen ausgelegt. Öffnungszeiten sind hinterlegt.",
+  "trace": {
+   "schluessel_nachmachen": "schnelles nachmachen von Schlüssel"
+  }
+ },
+ {
+  "slug": "wiederoder-schlosserei-und-metallbau-stuttgart-vaihingen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Wiederoder Schlosserei und Metallbau arbeitet in Stuttgart-Vaihingen als Familienunternehmen in vierter Generation und nennt sich seit über 100 Jahren am Ort. Neben Metallbau und Türen und Fenstern aus Aluminium führt der Betrieb einen Schlüsseldienst. Dazu zählen Notöffnungen, Schließanlagen, Briefkastenanlagen, Schaukastenanlagen und Schlösser jeder Art. Auch Einbruchsicherung und Sicherheitstechnik für private und gewerbliche Kunden gehören zum Angebot, ob eine Immobilie neu gesichert oder eine bestehende Anlage überprüft werden soll. Die Arbeit richtet sich nach den Vorstellungen der Kunden. Der Betrieb ist nach eigener Angabe das ganze Jahr erreichbar und schnell vor Ort, wenn jemand in einer Notsituation steckt. Außerdem bildet die Schlosserei selbst aus. Qualität bis ins Detail, Zufriedenheit und Teamgeist nennt der Betrieb als Leitgedanken. Die Schlosserei pflegt eine eigene Rubrik für Referenzen und Produkte.",
+  "trace": {
+   "tueroeffnung": "Notöffnungen",
+   "gewerblich_objektbetreuung": "im privaten und gewerblichen Bereich"
+  }
+ },
+ {
+  "slug": "hds-sicherheitssysteme-stuttgart-stuttgart-vaihingen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "HDS Sicherheitssysteme betreibt in Stuttgart-Vaihingen ein Ladengeschäft und arbeitet nach eigener Angabe seit 1998 unter Inhaber Stefan Haas. Der Schlüsseldienst nimmt rund um die Uhr an 365 Tagen Notrufe für Türöffnungen an, von Stuttgart und Esslingen bis Böblingen, Sindelfingen, Leonberg und Göppingen. Im Fachgeschäft gibt es Schlüssel, Nachfertigungen und Schließtechnik, Schließanlagen werden geplant und montiert. Zu den Einbruchsicherungen zählen Schutzbeschläge, Sicherheitsschlösser, Sicherheitstüren, Tür- und Fenstersicherungen und Fluchtwegsicherungen, dazu kommen Alarmanlagen und Videoüberwachung. Tresore, Türschließer und Türöffner stehen ebenfalls im Programm. Feuer- und Brandschutztechnik ist ein weiteres Fachgebiet. Anruf, An- und Abfahrt bezeichnet der Betrieb als kostenlos. Zur Sicherheitstechnik kam der Inhaber nach einem Einbruch in seiner Wohnung im Jahr 1995. Er bezeichnet sein Unternehmen als freundlichen Partner für alle sicherheitsrelevanten Themen und nennt eigene Notrufnummern für mehrere Einsatzgebiete.",
+  "trace": {
+   "schluessel_nachmachen": "Schlüsselnachfertigungen",
+   "anfahrtspauschale_genannt": "Anruf, An und Abfahrt kostenlos"
+  }
+ },
+ {
+  "slug": "a-l-rolladen-fensterbauer-troisdorf-troisdorf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Rollläden, Fenster, Türen, Markisen und Garagentore sind das Kerngeschäft von A.L. Rolladen Fensterbauer in Troisdorf, einem Familienbetrieb, der nach eigener Angabe seit Jahrzehnten besteht und im gesamten Rhein-Sieg-Kreis bis Bonn unterwegs ist. Als zweites Feld führt er einen Schlüsseldienst mit Sicherheitstechnik. Der Betrieb öffnet verschlossene Türen ohne Schäden, tauscht Schlösser und Profilzylinder, montiert Schließanlagen und Panzerriegel und sichert Türen und Fenster ab. Genannt werden außerdem Schlüssel für Fahrzeuge mit Wegfahrsperre, Tresore und elektronische Schlösser. Nach eigener Angabe ist er rund um die Uhr erreichbar. Für die Türöffnung nennt er den Preis vorab und bestätigt ihn bei Ankunft noch einmal. Das Geschäft besteht aus zwei Standorten in Troisdorf. Angebote und Aufmaß für Fenster und Rollläden erstellt der Betrieb innerhalb von 24 Stunden.",
+  "trace": {
+   "elektronische_schliesssysteme": "auch elektronische Schlösser",
+   "ladengeschaeft": "Geschäft: Louis-Mannstaedt-Straße 19"
+  }
+ },
+ {
+  "slug": "trosecurity-sicherheitstechnik-troisdorf",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "TROSECURITY in Troisdorf plant, installiert und betreut Sicherheitstechnik für den Rhein-Sieg-Kreis. Das Angebot umfasst Alarmanlagen und Einbruchmeldesysteme, Videoüberwachung mit Kamerasystemen, elektronische Zutrittskontrolle mit digitalen Schließzylindern sowie Karten- und Codesystemen und Brandwarn- und Branderkennungssysteme. Betreut werden Privat- und Gewerbekunden, unter anderem in Siegburg, Sankt Augustin und Niederkassel. Einzelne Seiten widmen sich Einbruchschutz für Familien, Brandwarnanlagen für Kitas und Tagespflege, Videoüberwachung von Spielotheken und Bewegungsmeldern für Sparkassen. Der Betrieb grenzt sich als Fachfirma für Sicherheitstechnik von Elektrikern ab, die nebenbei Alarmanlagen anbieten. Ein klassischer Schlüsseldienst ist er nicht; sein Gewerk ist die Sicherheitstechnik. Zum Team gehört Thomas Engels, der als Sicherheitstechniker auch Kenntnisse in Robotik und Automatisierung mitbringt. Für Alarm-, Video- und Zutrittssysteme führt der Betrieb Hersteller wie Lupus, Jablotron, Paradox, Hikvision, Ajax, Axis, Dallmeier, ABUS TECTIQ und Salto Space."
+ },
+ {
+  "slug": "alarm-und-sicherheitstechnik-lohrer-gmbh-weinheim",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Die Alarm- und Sicherheitstechnik Lohrer GmbH in Weinheim berät, plant und installiert Alarmanlagen und Sicherheitstechnik in der Metropolregion Rhein-Neckar und deutschlandweit. Zum Angebot zählen Einbruchmeldetechnik, Netzwerk-Videotechnik, Fluchtwegsicherung, elektronische Schließ- und Zutrittskontrollsysteme, mechanische Sicherung und Schließanlagen. Referenzen nennt das Unternehmen aus Industrie und Handel, Gesundheitswesen, Bildung und Forschung sowie Kunst und Kultur. Für Wartungskunden mit Instandhaltungsvertrag gibt es einen 24-Stunden-Bereitschaftsdienst, außerdem einen Service- und Störungsdienst sowie eine Notruf- und Serviceleitstelle. Zum Dienstleistungsspektrum gehören ferner die Administration von Zutrittskontrollsystemen sowie Tele- und Fernservice. Das Haus arbeitet nach eigener Angabe seit fünf Jahrzehnten und setzte früh auf elektronische Schließsysteme und Netzwerk-Videotechnik. Es bildet selbst aus, unterstützt vor Ort die Tanzsportabteilung der TSG Badenia und zeigt sich auf Fachmessen wie der Security Essen. Das Haus sitzt in Weinheim.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Instandhaltungsvertrag"
+  }
+ },
+ {
+  "slug": "schuh-schluesseldienst-polat-weinheim",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schuhreparaturen, Schlüsselanfertigung und Batteriewechsel für Uhren: Das ist das Angebot von Schuh&Schlüsseldienst Polat in Weinheim. Der Betrieb nennt sich Fachmann für Schuhreparaturen und ist als Schuhmacherei eingetragen, der Schlüsselkopierdienst läuft als zweite Kategorie. Der Schwerpunkt liegt auf Handwerk rund um Schuhe, Schlüssel und Uhren, Türöffnungen und Schließtechnik gehören nicht dazu. Öffnungszeiten sind hinterlegt."
+ },
+ {
+  "slug": "hoffmann-meisterbetrieb-fuer-fenster-rollladen-garagentore-wesseling",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Fenster, Türen, Tore und Rollläden bilden das Programm von Hoffmann in Wesseling, dazu kommt Sicherheitstechnik für Köln, Bonn und Düsseldorf. Der Betrieb arbeitet nach eigener Angabe seit 30 Jahren in der Sicherheitstechnik und bietet Verkauf und Beratung ebenso wie Reparatur und Wartung. Repariert werden Rollläden, Jalousien, Fenster, Tore und Türen, bei Fenstern auch Beschläge. Einbruchschutz, etwa Fenstersicherung mit Pilzkopfverriegelung, gehört zum Angebot. Ein regionaler Notdienst von Wesseling aus ist eingerichtet. Zu den Türen im Sortiment zählen Haustüren, Wohnungstüren und Zimmertüren, zu den Torsystemen Sektionaltore, Schwingtore, Schiebetore und Rolltore. Außerdem nennt der Betrieb Torantriebe, Garagentore, Industrietore, Markisen, Fliegengitter, Geländer und Glaserei. Rollläden stellt er als Schutz und Ersparnis heraus, Sicherheitstechnik als Frage des Vertrauens. Der Betrieb bietet Verkauf und Beratung sowie Termine für Beratungsgespräche an."
+ },
+ {
+  "slug": "mister-licht-24-std-schluesseldienst-schluessel-notdienst-stempel-gravur-schuhreparatur-wesseling",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Mister Licht arbeitet als Schlüsseldienst in Wesseling, dem Hauptstandort, und fährt nach Bornheim, Brühl, Köln-Rodenkirchen, Köln-Süd und Bonn, jeweils mit kurzer Anfahrt. Der Notdienst ist rund um die Uhr erreichbar, auch nachts und am Wochenende. Zugefallene Türen öffnet der Betrieb ohne Beschädigung und nennt den Preis vor jedem Einsatz. Zum Angebot gehören außerdem Schlosswechsel und Zylinder jeder Art, Schutzbeschläge mit Zylinderabdeckung, Schließzylinder mit Kopierschutz für Schlüssel, Einbruchschutz mit Aufbohr-, Pick- und Ziehschutz sowie Schließanlagen. Für die Sicherheitstechnik gibt es eine Vor-Ort-Beratung. Daneben führt der Betrieb Stempel und Schilder für Praxen im Programm, kümmert sich um Notausgangstüren und begleitet Versicherungsschäden nach einem Einbruch. Ein verbindlicher Preis steht vor Beginn größerer Arbeiten fest, etwa beim Umbau der Türsicherung. Kundenstimmen auf der Seite berichten von schnellem Eintreffen, einer Türöffnung binnen weniger Sekunden und Einsätzen auch sonntags früh am Morgen."
+ },
+ {
+  "slug": "ags-sicherheitstechnik-willich",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Seit 1995 führt Andreas Gerlach in Willich das Sicherheitsfachgeschäft AGS-Sicherheitstechnik. Der Schlüsseldienst öffnet Türen und Kraftfahrzeuge Tag und Nacht, auch sonntags und feiertags, und beseitigt Einbruchschäden. Der Betrieb fertigt auf elektronischen Fräsmaschinen Schlüssel für Zylinderschlösser, Schließanlagen, Autos und Tresore. Gleichschließende Sicherheitsschlösser und Schließanlagen, mechanisch wie elektronisch, werden geplant, gefertigt und eingebaut. Dazu kommen mechanische Einbruchsicherungen, Reparaturen von Mehrfachverriegelungen an Haus- und Terrassentüren, Alarmanlagen, Tresore, Geldkassetten und Wertbehältnisse, Briefkastenanlagen sowie Gravur- und Schilderservice mit Pokalen. Als Selbstmontagepartner von KESO vertreibt er Schließsysteme dieses Herstellers und führt Produkte von ASSA ABLOY. Sicherheitskonzepte für Privathäuser und Gewerbeobjekte entstehen von der Planung bis zur Montage, nachträgliche Einbruchsicherungen an Fenstern und Türen richten sich nach den Vorgaben des VdS. Die Preise werden vorab bestätigt. Eine Herstellerübersicht führt die Partner des Betriebs auf.",
+  "trace": {
+   "schlossaustausch": "gleichschliessende Sicherheitsschlösser werden geplant, gefertigt und eingebaut",
+   "schluessel_nachmachen": "Schlüsselservice nach Muster, Schlüsselcode oder Schloss",
+   "elektronische_schliesssysteme": "Schließanlagen, mechanisch und elektronisch",
+   "festpreis_genannt": "faire und im Vorfeld bestätigte P",
+   "gewerblich_objektbetreuung": "Privathäuser und Gewerbeobjekte"
+  }
+ },
+ {
+  "slug": "k-k-automatiktueren-willich",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "K&K Automatiktüren in Willich ist ein herstellerunabhängiger Anbieter für automatische Eingangssysteme am Niederrhein, im Ruhrgebiet und in NRW. Das eigene Serviceteam übernimmt Neubau, Umbau, Modernisierung, Wartung und Reparatur von Automatiktüren. Weitere Produkte sind Vereinzelungsanlagen, Schrankenanlagen, Brandschutztüren, Fluchtwegsicherungen und elektronische Schließzylinder für Büros, Wohnanlagen und industrielle Anwendungen. Modernisierungen reichen von der Nachrüstung moderner Antriebssysteme bis zur Integration von Zugangskontrollen. Elektronische Türbeschläge gibt es als Halbgarnitur zum Nachrüsten an Brand- und Rauchschutztüren oder beidseitig elektronisch. Ein Notfallservice ist rund um die Uhr erreichbar, auch nachts. Der Betrieb gibt über 20 Jahre Erfahrung und mehr als 1.000 installierte Anlagen an und führt einen Online-Shop. Sein Gewerk sind automatische Türsysteme, nicht das Öffnen verschlossener Wohnungstüren. Schrankenanlagen steuern Fahrzeugströme, Vereinzelungsanlagen die Ströme von Personen."
+ },
+ {
+  "slug": "schluesseldienst-saager-wilsdruff",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "In Wilsdruff tritt Schlüsseldienst Saager als klassischer Schlüsseldienst auf und nennt im Seitentitel Schlüsseldienst und Türöffnung. Der Inhaber stellt den Betrieb unter das Motto regional und sächsisch. Arbeiten erledigt er bei den Kunden vor Ort, Termine gibt es nach Vereinbarung und auch online. Öffnungszeiten sind hinterlegt. Die Seite hat eine Rubrik für Hilfe im Notfall und eine zweite für Kundenstimmen. Die Seite ist knapp gehalten und konzentriert sich auf das Wesentliche. Eine Startseite genügt dem Betrieb, um sein Angebot und seinen Kontakt zu zeigen."
+ },
+ {
+  "slug": "kablitz-schliesstechnik-wilsdruff",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Kablitz Schließtechnik in Wilsdruff bietet Schlüsseldienst und Schlüsselnotdienst an. Der Betrieb plant, baut und betreut Schließanlagen, repariert und ersetzt Türschlösser und Mehrfachverriegelungen und arbeitet an Tür-Schließ- und Öffnungstechnik. Öffnungszeiten sind hinterlegt. Damit reicht das Angebot vom Notdienst bis zur Planung einer ganzen Schließanlage, auch die Betreuung bestehender Anlagen gehört dazu.",
+  "trace": {
+   "schlossaustausch": "Reparatur und Ersetzen von"
+  }
+ },
+ {
+  "slug": "stahl-kraehe-gmbh-werkzeug-maschinenhandel-zweibruecken",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Stahl & Krähe ist ein Werkzeug- und Maschinenhandel in Zweibrücken mit Ladengeschäft, Öffnungszeiten und einem virtuellen Rundgang. Das Sortiment umfasst Werkzeuge, Maschinen, Arbeitsschutz und Arbeitsbekleidung, technischen Handel, Befestigungstechnik, Werkstatt- und Betriebseinrichtung sowie Industriebedarf. Als eigener Fachbereich stehen Schließanlagen und Schließtechnik daneben, für Schließanlagen und Schlüsseldienst nennt der Betrieb die Hersteller BKS und ABUS. Es gibt einen Online-Shop mit Bestelllisten, Warenkörben und Schnellerfassung für Handwerksbetriebe. Eine Anfahrtsskizze und die Kontaktdaten der GmbH stehen auf der Kontaktseite. Der Betrieb nennt Werkzeuge, Maschinen und Arbeitsschutz als Kern seines Angebots für das Handwerk.",
+  "trace": {
+   "ladengeschaeft": "Virtueller Rundgang"
+  }
+ },
+ {
+  "slug": "michael-kuby-e-k-zweibruecken",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Michael Kuby e.K. in Zweibrücken ist ein Familienbetrieb seit 1902 und vor allem Anbieter von Gastronomie- und Fleischereibedarf: Gewürze aus aller Welt, Pökelsalze, Därme, Einkochzubehör und Propangas für Privatkunden und Unternehmen. Dazu kommen Kühl-Eis und Eiswürfel, ein Vermietservice für Geschirr, Tischdecken und Geräte wie Spülmaschine, Kaffeemaschine und Wärmebehälter, eine Schleiferei für Messer und andere Schneidwerkzeuge sowie Kundendienst und Reparatur von Gastronomie- und Fleischereimaschinen. Ein Beschaffungsservice kümmert sich um Großaufträge und Spezialteile, im Ladenverkauf und Gewürzverkauf kaufen Kunden direkt im Geschäft. Beim Schlüsseldienst geht es um Ersatzschlüssel, die sofort direkt im Laden angefertigt werden, und um Hilfe bei verlorenen oder defekten Schlüsseln. Außerdem berät der Betrieb zu Sicherheitssystemen. Auch Messer, Sägeblätter und Kuttermesser werden vom Betrieb geschliffen, und für Großaufträge beschafft er Spezialteile."
+ },
+ {
+  "slug": "schuh-und-schluesseldienst-claudi-zwickau",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "In Zwickau führt Schuh- und Schlüsseldienst Claudi neben der Hauptkategorie Schlüsselkopierdienst eine Reihe weiterer Kategorien: Schuhreparatur, Gravur, Kopierladen, Werbeartikel und individuell bedruckte T-Shirts. Der Betrieb bietet Leistungen vor Ort an, und seine Öffnungszeiten sind hinterlegt. Der Name verbindet Schuhwerk und Schlüssel, die Kategorien ergänzen beides um Druck- und Gravurarbeiten, vom Kopieren bis zum Bedrucken."
+ },
+ {
+  "slug": "schloss-und-schluesseldienst-muetze-zwickau",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Schloß- und Schlüsseldienst Mütze in Zwickau arbeitet nach eigener Angabe seit vielen Jahren im Bereich Sicherheitstechnik. Das Angebot reicht von Schlüsselanfertigung und Schließanlagenmontage über Notöffnungen und Türöffnungen bis zu Sicherheitsbeschlägen, Briefkastenanlagen und Zutrittskontrollsystemen. Außerdem verkauft der Betrieb Tresore und Überwachungskameras. Persönliche Beratung gehört zum Angebot. Öffnungszeiten sind hinterlegt. Der Betrieb sitzt in Zwickau.",
+  "trace": {
+   "elektronische_schliesssysteme": "Zutrittskontrollsysteme"
+  }
+ },
+ {
+  "slug": "multi-express-schuh-und-schluesseldienst-innenstadt-aalen",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Multi Express Schuh und Schlüsseldienst Innenstadt bündelt in Aalen mehrere Handwerke: Schuh- und Taschenreparatur, Kopien von Schlüsseln und Autoschlüsseln sowie Gravurdienst. Eingeordnet ist er als Schlüsselkopierdienst mit Nebenkategorien wie Stempelladen und Uhrenreparatur. Leistungen vor Ort sind möglich, Öffnungszeiten sind hinterlegt. Mit Türöffnungen oder Schließanlagen hat das Angebot nichts zu tun.",
+  "trace": {
+   "schluessel_nachmachen": "Schlüssel und Autoschlüssel Kopien"
+  }
+ },
+ {
+  "slug": "sgw-sicherheit-aerzen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "SGW-Sicherheit in Aerzen gehört zur SGW Technik GmbH und bietet Sicherheitstechnik aus einer Hand, vom örtlichen Privatkunden bis zur bundesweiten Betreuung von Filialisten. Zu den Kunden zählen Behörden und Organisationen sowie Autohäuser, Tankstellen und der Einzelhandel. Der Schwerpunkt liegt auf Schließanlagen und Zutrittskontrolle: mechanisch vom Einzelzylinder für eine Wohnung bis zur Anlage mit über 1000 Zylindern, dazu elektronische und mechatronische Zylinder, einzeln mit Handyzugriff oder vernetzt. Weitere Felder sind Videoüberwachung, Alarmanlagen sowie Flucht- und Rettungswegtechnik. Mechanische und mechatronische Absicherung ergänzt das Programm. Das Unternehmen ist seit zehn Jahren Mitglied im BHE Bundesverband Sicherheitstechnik und war auf der Interschutz 2026 vertreten. Die Arbeit reicht von Beratung und Planung bis zur Übergabe der Anlage. Lösungen nach Schema F gibt es nach Angabe des Betriebs nicht, und die Mitarbeiter bilden sich kontinuierlich weiter."
+ },
+ {
+  "slug": "schuh-schluesseldienst-ahrensburg-ahrensburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Ahrensburg ist der Sitz von Schuh- & Schlüsseldienst Ahrensburg, der als Schuhmacherei eingetragen ist und als Nebenkategorien Notschlüsseldienst, Schlüsselkopierdienst, Gravur, Stempel, Näherei und Schleifservice führt. Der Betrieb stellt sich mit einem Dreiklang aus Schnelligkeit, Verlässlichkeit und Nachhaltigkeit vor. Leistungen vor Ort sind möglich, Öffnungszeiten sind hinterlegt. Der Schwerpunkt liegt auf Reparatur und Kleinarbeiten rund um Schuh und Schlüssel."
+ },
+ {
+  "slug": "m-kiel-schluesselnotdienst-aichach",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "M. Kiel Schlüsselnotdienst in Aichach verbindet Schlüsseldienst mit Schuhmacherhandwerk. Das Angebot umfasst Spezial-Schlüsselservice, Schuhreparaturen, Maßschuhanfertigung, Stempel, das Schleifen von Messern und Scheren sowie Leder- und Sattlerarbeiten. Eingeordnet ist der Betrieb als Notschlüsseldienst, Öffnungszeiten sind hinterlegt. Der Name stellt den Notdienst voran, die Aufzählung zeigt aber vor allem Handwerk rund um Leder und Schuhe."
+ },
+ {
+  "slug": "maxi-service-schuh-schluesseldienst-albstadt",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Maxi Service in Albstadt verbindet Schuhreparatur mit einem Schlüsseldienst. Der Betrieb nennt über 30 Jahre Erfahrung in beidem. Zum Angebot gehören Schuhreparaturen, Lederwaren und Koffer, Gravuren, Uhrenservice, Passfotos, Schliff und Stempel. Die Lederwaren umfassen Taschen, Geldbörsen, Gürtel und Accessoires. Der Schlüsseldienst hat einen Notdienst rund um die Uhr für Ausgesperrte und bei Schlüsselverlust. Schlüsselduplikate gibt es für Briefkasten, Haustür, Auto, Möbel und Schließanlagen, auch mit Sicherungskarte, außerdem farbige Schlüssel und Schlüssel mit Motiven. Eine neue Schließanlage nennt der Betrieb ebenfalls. In der Filiale in Albstadt werden Kunden vor Ort beraten, zur Filiale gibt es eine Wegbeschreibung. Der Betrieb sieht seine Stärke in der Verbindung von handwerklicher Tradition und modernem Service. Verschiedene Stempelvarianten stehen zur Auswahl. Passfotos und Stempel ergänzen das Angebot im Geschäft.",
+  "trace": {
+   "tueroeffnung": "Ob Sie ausgesperrt sind"
+  }
+ },
+ {
+  "slug": "schluesseldienst-altena-enz-helmut-goess-altena",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Helmut Göss arbeitet seit 1997 als Schlüsseldienst in Altena und Umgebung und führt dabei eine Einbruchnotdienstzentrale. Ein Notdienst steht 24 Stunden bereit und ist für Ausgesperrte schnell vor Ort. Neben dem Notdienst bietet er eine kostenlose Beratung zur Sicherheit im Zuhause an, etwa zu Fenstersicherung und Türverriegelungen. Genannt werden außerdem Einbruchschutz, Schließanlagen, Türöffnungen, das Nachmachen von Schlüsseln und Tresorarbeiten. Der Anruf bei der Notdienstnummer ist nach Angabe des Betriebs kostenlos. Der Betrieb tritt unter dem Namen des Inhabers auf und schreibt in der Ich-Form über seine Arbeit. Angebote lassen sich über ein Formular anfordern. Als Vorteile nennt er den 24-Stunden-Notdienst und schnelles Eintreffen vor Ort, Wissenswertes zur Sicherheit stellt er auf einer eigenen Seite bereit. Beratung und Notdienst gehören bei ihm zusammen."
+ },
+ {
+  "slug": "schluessel-grafe-anklam",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Schlüssel Grafe in Anklam ist seit 1991 ein Fachgeschäft für Sicherheitstechnik mit eigenem Schlüsseldienst. Notfallöffnungen von Türen sind rund um die Uhr möglich, Anrufe werden weitergeleitet. Dazu kommen Schlosswechsel und Schlossreparatur, Schlüsselnachmachen, Tresoröffnung, Beratung und Installation einbruchsicherer Schlösser sowie Schließanlagen für größere Gebäude wie Bürokomplexe oder Wohnanlagen. Mechanische wie elektronische Schließsysteme werden bedient, ebenso Alarmanlagen, Türöffner und Briefkastenanlagen. Einbau, Beratung und Reparaturen vor Ort laufen nach Terminabsprache. Neben der Sicherheitstechnik betreibt das Geschäft eine Schuhreparatur und führt Stempel und Schilder aller Art. Der Betrieb sieht seine Aufgabe darin, Wohnung, Haus und Werte seiner Kunden zu schützen, und stellt Vertrauen und partnerschaftliches Handeln in den Mittelpunkt. Eigene Seiten gibt es zur Firmengeschichte und zu Referenzen. Briefkastenanlagen schützen nach Angabe des Betriebs Post vor Diebstahl und Wetter, besonders in Mehrfamilienhäusern.",
+  "trace": {
+   "ladengeschaeft": "Einbau, Beratungen und Reparaturen vor Ort nach Terminabsprache"
+  }
+ },
+ {
+  "slug": "schloss-und-schluesseldienst-hoeber-annaberg-buchholz",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schloss- und Schlüsseldienst Höber hat sein Geschäft in Annaberg-Buchholz im Stadtteil Buchholz. Das Angebot dreht sich um Schloss- und Schließanlagen, mechanische Reparaturen und den Verkauf zugehöriger Artikel. Die Leistungsliste nennt Schlüssel und Schlösser aller Art, Beschläge, Schließanlagen, Tresore und Briefkästen, daneben Pokale, Sport- und Ehrenpreise sowie Schilder und Gravuren aller Art. Kunden besuchen den Laden zu festen Öffnungszeiten, eine Anfahrtsbeschreibung liegt vor. Eingeordnet ist der Betrieb als Schlüsselkopierdienst mit einer Metallwerkstatt als Nebenkategorie. Mit Schlüsseln, Schlössern, Beschlägen und Tresoren deckt das Geschäft den klassischen Bedarf eines Schlüsselgeschäfts ab, mit Schildern und Gravuren zugleich Arbeiten des Gravierens. Pokale und Ehrenpreise gehören ebenfalls zum Sortiment. Die Seite führt Öffnungszeiten, Anfahrt und Links aus der Region auf. Das Geschäft arbeitet damit als klassischer Laden im Stadtteil und bietet neben Schlüssel- und Schlossarbeiten auch Gravurarbeiten an.",
+  "trace": {
+   "ladengeschaeft": "Unser Geschäft befindet sich in Annaberg-Buchholz"
+  }
+ },
+ {
+  "slug": "schnuersenkel-schuh-und-schluesseldienst-aschersleben",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schnürsenkel Schuh- und Schlüsseldienst in Aschersleben setzt auf Schuhreparaturen und Schlüsselkopien. Daneben handelt der Betrieb mit Zubehör rund um Schuhe, mit Sicherheitstechnik sowie mit Türschlössern, Vorhangschlössern und Fahrradschlössern. Über einen eBay-Shop verkauft er außerdem Klemmbausteinsets und Holzspielzeug. Leistungen vor Ort sind möglich, Terminanfragen laufen online, Öffnungszeiten sind hinterlegt. Das Geschäft verbindet Handwerk mit Handel und Online-Verkauf."
+ },
+ {
+  "slug": "a-k-schluesselnotdienst-aspach",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "A. K. Schlüsselnotdienst aus Aspach versorgt die Region, wenn jemand vor einer verschlossenen Tür steht. Der Betreiber ist nach eigener Angabe 24 Stunden am Tag erreichbar und in der Regel in unter 30 Minuten vor Ort. Bei den Preisen orientiert er sich am Unternehmerverband Metall Baden-Württemberg. Der Betrieb nimmt auch Terminanfragen online an und arbeitet beim Kunden vor Ort.",
+  "trace": {
+   "tueroeffnung": "schon steht man vor verschlossener Tür"
+  }
+ },
+ {
+  "slug": "schluesseldienst-knut-poeggeler-attendorn",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "false",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "false",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Türen öffnen, und zwar zu jeder Zeit und möglichst ohne Beschädigungen: Darauf beschränkt sich Knut Pöggeler in Attendorn. Das Angebot ist eng umrissen, denn Schlüssel werden weder kopiert noch hergestellt, und Autos öffnet der Betrieb nicht. Er ist als Notschlüsseldienst eingeordnet, Öffnungszeiten sind hinterlegt, und Einsätze finden beim Kunden vor Ort statt.",
+  "trace": {
+   "notdienst_24h": "Wir öffnen Ihre Türen zu jeder Zeit"
+  }
+ },
+ {
+  "slug": "sicherheitsfachgeschaeft-ute-seidel-24h-schluesseldienst-auerbach-vogtland",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Ute Seidel führt in Auerbach im Vogtland ein Sicherheitsfachgeschäft, das sich im Namen als 24-Stunden-Schlüsseldienst bezeichnet. Eingeordnet ist der Betrieb als Schlüsselkopierdienst, Öffnungszeiten sind hinterlegt. Der Name verbindet Sicherheitsfachgeschäft und Schlüsseldienst unter einer Inhaberin. Als Kategorie ist Schlüsselkopierdienst gewählt, der Name betont dagegen den Dienst rund um die Uhr. Der Standort liegt im Vogtland."
+ },
+ {
+  "slug": "compact-tresore-tresorverkauf-stuttgart-backnang",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Compact Tresore in Backnang bei Stuttgart ist ein Familienunternehmen und nennt sich Tresor-Spezialist, tätig seit 1981. Verkauft und beraten werden Sicherheitstresore, Wertschutztresore, Panikraumsysteme und Tresorräume für Privat- und Gewerbekunden, auch deutschlandweit. Zu den Dienstleistungen zählen Beratung, Lieferung, Montage und Verankerung, Wartung und Prüfung, das Nachmachen von Tresorschlüsseln sowie Notöffnung und Entsorgung. Das Programm führt Tresore nach Widerstandsgraden von 0 bis VI und beschreibt elektronische Tresorschlösser mit Zahlencode. Dazu kommen Sicherheitsschlösser und Sicherheitsschlüssel. Die Beratung berücksichtigt den Einsatzbereich und die Anforderungen der Versicherung. Termine lassen sich buchen. Das Haus liefert diskret und neutral verpackt, plant die Aufstellung vorab und verankert den Tresor am Ort. Neben Wandtresoren und Tresorräumen führt es Verpflegungs- und Vending-Automaten, eine Manufaktur namens LEVEL und Goldtresore. Zu den Zielgruppen zählen Unternehmen wie Privatkunden."
+ },
+ {
+  "slug": "schluesseldienst-b-b-bad-brueckenau",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "In Bad Brückenau und Umgebung arbeitet Schlüsseldienst B&B mit einem Notdienst rund um die Uhr. Der Betrieb gibt an, in 15 bis 35 Minuten vor Ort zu sein. Verschlossene Türen öffnet er schnell und ohne Beschädigung, defekte oder unsichere Schlösser tauscht er aus, statt Risiken einzugehen. Ist der Autoschlüssel im Fahrzeug eingeschlossen, verloren gegangen oder funktioniert das Schloss nicht mehr richtig, öffnet der Betrieb auch Autotüren. Er ist als Notschlüsseldienst eingeordnet, Öffnungszeiten sind hinterlegt. Der Notdienst läuft den ganzen Tag, die Anreise erfolgt in kurzer Zeit, und die Türöffnung geht nach Angabe des Betriebs in aller Regel ohne Schaden vonstatten. Die Seite stellt Team, Leistungen und eine Galerie vor. Defekte Schlösser sollen nach Angabe des Betriebs lieber fachgerecht getauscht als riskiert werden."
+ },
+ {
+  "slug": "tresor-schloss-notoeffnung-bad-essen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Tresor Schloss Notöffnung in Bad Essen konzentriert sich ganz auf Tresore: Notöffnung von Tresoren, Safes und Wertschutzschränken, Wartung, Reparatur und Umrüstung, Einbau und Ausbau sowie Ersatzschlüssel. Auch Tresorräume, Mietfachanlagen, Tresortüren, Transport und Entsorgung gehören dazu. Der Service steht rund um die Uhr bereit. Eingeordnet ist der Betrieb als Notschlüsseldienst, Öffnungszeiten sind hinterlegt.",
+  "trace": {
+   "notdienst_24h": "24/7 Service für Tresore"
+  }
+ },
+ {
+  "slug": "schluesseldienst-uhrig-bad-hersfeld",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "In Bad Hersfeld führt Schlüsseldienst Uhrig als Hauptkategorie Schlüsselkopierdienst. Öffnungszeiten sind hinterlegt, sodass der Laden zu festen Zeiten besucht werden kann. Der Betrieb trägt den Schlüsseldienst im Namen, der Familienname Uhrig steht für den Inhaber. Die Kategorie nennt das Kopieren von Schlüsseln als Kern der Arbeit, und der Name betont zusätzlich den Schlüsseldienst als Dienstleistung."
+ },
+ {
+  "slug": "schluesseldienst-und-sicherheitstechnik-sonntag-bad-honnef",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüsseldienst und Sicherheitstechnik Sonntag arbeitet seit 1979 in Bad Honnef und im Umland bis Rheinbreitbach, Unkel, Linz, Bonn und St. Augustin. Im Notfall öffnet der Betrieb Haus- und Wohnungstüren fachgerecht, ein Schlüsselnotdienst ist über die Notrufnummer erreichbar. Bei Verlust fertigt er präzise Schlüsselkopien im Ladenlokal an. Als Sicherheitstechniker plant, liefert und montiert er Schließanlagen, Einbruchschutzschlösser, Alarmanlagen und Briefkastensysteme. Der Betrieb ist damit zugleich Fachgeschäft für Schließtechnik und Notdienst für zugefallene Türen. Die Sicherheitstechnik umfasst Planung, Lieferung und fachgerechte Montage. Aus organisatorischen Gründen ist das Ladenlokal nicht immer besetzt, in den Sommerferien bleibt es geschlossen. Zum Einsatzgebiet gehören neben Bad Honnef auch Rheinbreitbach-Unkel und Linz. Die Kopien entstehen vor Ort im Geschäft, Notöffnungen führt der Betrieb bei Bedarf beim Kunden durch. Zur Sicherheitstechnik zählen außerdem Briefkastensysteme.",
+  "trace": {
+   "tueroeffnung": "öffnen wir im Notfall Haus- und Wohnungstüren",
+   "schlossaustausch": "fachgerechte Montage von Schließanlagen, Einbruchschutzschlössern"
+  }
+ },
+ {
+  "slug": "abbus-schluesseldienst-inh-ulian-kume-bad-orb",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "ABBUS Schlüsseldienst von Ulian Kume in Bad Orb ist Tag und Nacht an sieben Tagen die Woche vor Ort erreichbar und öffnet Haus-, Zimmer- und Autotüren möglichst beschädigungsfrei. Das Einsatzgebiet ist der Main-Kinzig-Kreis. Der Betrieb montiert Beschläge, Zylinder, Schließanlagen und Schlösser, plant und setzt Einbruchschutz um und nennt langjährige Erfahrung in der Schließtechnik. Zu seinen Kunden zählt er Hausverwaltungen.",
+  "trace": {
+   "tueroeffnung": "öffnen möglichst beschädigungsfrei Ihre Haus-, Zimmer- oder Autotür",
+   "einbruchschutz": "Einbruch- schutz, Planung und Umsetzung",
+   "autoschluessel": "Haus-, Zimmer- oder Autotür"
+  }
+ },
+ {
+  "slug": "segeberger-schuh-service-bad-segeberg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schuhreparatur steht beim Segeberger Schuh Service in Bad Segeberg an erster Stelle. Daneben nennt der Betrieb Schlüsseldienst und Schlüsselspezialist sowie Schilder aus Edelstahl, Messing, Kunststoff und Plexiglas und einen Stempel-Schnellservice. Eingeordnet ist er als Schuhmacherei, mit Schlösserhandel und Stempelladen als Nebenkategorien. Öffnungszeiten sind hinterlegt. Neben dem Handwerk am Schuh stehen damit Schilder und Stempel als zweites Standbein."
+ },
+ {
+  "slug": "schuh-und-schluesseldienst-bad-toelz-bad-toelz",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Tölzer Schuh & Schlüsseldienst in Bad Tölz bietet Schuhreparatur, Furnituren, Gravurservice, Uhrenservice sowie das Schleifen von Messern und Scheren an. Dazu kommt ein 24-Stunden-Schlüsselnotdienst. Eingeordnet ist der Betrieb als Notschlüsseldienst, Öffnungszeiten sind hinterlegt. Das Spektrum verbindet Schuhmacher- und Feinwerkhandwerk mit der Schlüsselnothilfe. Schuhreparatur und Furnituren bilden das Handwerk, Gravur- und Uhrenservice ergänzen es."
+ }
+]
