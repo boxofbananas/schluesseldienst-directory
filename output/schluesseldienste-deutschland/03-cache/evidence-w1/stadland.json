@@ -1,0 +1,26 @@
+[
+ {
+  "slug": "schluesseldienst-stephan-pawellek-hausmeisterservice-ug-stadland",
+  "name": "Schlüsseldienst Stephan Pawellek Hausmeisterservice UG",
+  "city": "Stadland",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "",
+  "rating": "4.3",
+  "reviews": "6",
+  "stars_1_to_5": [
+   "1",
+   "0",
+   "0",
+   "0",
+   "5"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "service_options: ['has_onsite_services']",
+   "planning: ['requires_appointments']",
+   "service_options: ['offers_online_appointments']"
+  ],
+  "maps_description": "Türnotöffnungen 24/7\nMontage von Fenster und Türen",
+  "site_status": "no website"
+ }
+]

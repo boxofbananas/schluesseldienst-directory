@@ -1,0 +1,26 @@
+[
+ {
+  "slug": "dietrich-schluesseldienst-wolfenbuettel-wolfenbuettel",
+  "name": "Dietrich Schlüsseldienst Wolfenbüttel",
+  "city": "Wolfenbüttel",
+  "maps_type": "Emergency locksmith service",
+  "maps_subtypes": "",
+  "rating": "5",
+  "reviews": "3",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "3"
+  ],
+  "has_hours": false,
+  "maps_about": [
+   "service_options: ['has_onsite_services']",
+   "accessibility: ['has_wheelchair_accessible_seating', 'has_wheelchair_accessible_restroom']",
+   "parking: ['has_parking_lot_free']"
+  ],
+  "maps_description": "Dietrich Schlüsseldienst in Wolfenbüttel bietet Ihnen schnelle und zuverlässige Schlüsseldienstleistungen rund um die Uhr. Von beschädigungsfreien Türöffnungen, Schlosswechseln und modernen Schließanlagen bis hin zu umfassendem Einbruchschutz – wir sind Ihr kompetenter Ansprechpartner für Sicherheitstechnik. Zusätzlich bieten wir Schlüsselservice, Kopien von Autoschlüsseln, Schlüsseldublikationen, Schuh- und Lederreparaturen, Gravur- und Fotogravurdienste sowie Batterie- und Uhrenservice. Mit jahrelanger Erfahrung und fairen, transparenten Preisen stehen wir Ihnen jederzeit zur Verfügung. Vertrauen Sie auf unsere Expertise für Ihre Sicherheit!",
+  "site_status": "http 503"
+ }
+]

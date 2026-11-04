@@ -1,0 +1,102 @@
+[
+ {
+  "slug": "flessner-sicherheitsdienst-schluesselnotdienst-pfungstadt",
+  "name": "Fleßner Sicherheitsdienst & Schlüsselnotdienst",
+  "city": "Pfungstadt",
+  "maps_type": "Security service",
+  "maps_subtypes": "Closed circuit television, Emergency locksmith service, Fire protection service, Locks supplier",
+  "rating": "4.9",
+  "reviews": "50",
+  "stars_1_to_5": [
+   "1",
+   "0",
+   "0",
+   "1",
+   "48"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "service_options: ['has_onsite_services']",
+   "parking: ['has_parking_street_free']",
+   "accessibility: ['has_wheelchair_accessible_seating', 'has_wheelchair_accessible_restroom']"
+  ],
+  "maps_description": "Der Fleßner Sicherheitsdienst & Schlüsselnotdienst steht seit über 15 Jahren für professionelle Sicherheit und schnelle Hilfe. Wir bieten zuverlässigen Objektschutz, Baustellenbewachung, Veranstaltungsschutz sowie Streifendienst für Unternehmen, öffentliche Einrichtungen und Privatkunden.\n\n24h Schlüsselnotdienst in Darmstadt, Groß-Gerau, Riedstadt und Umgebung.\n\nSchnelle Türöffnungen ohne Beschädigung, transparente Preise und seriöser Service.\nFleßner Schlüsselnotdienst und Sicherheitsdienst steht seit 2011 für Zuverlässigkeit und faire Arbeit im Rhein Main Gebiet.\n\nSicherheitsdienst, Schlüsselnotdienst und Brandschutzdienst. Jetzt anrufen und schnelle Hilfe vor Ort erhalten.",
+  "site_status": "ok but empty (script-rendered or parked)",
+  "site_title": "Fleßner Sicherheitsdienst & Schlüsselnotdienst Pfungstadt",
+  "site_meta": "Fleßner Sicherheitsdienst & Schlüsselnotdienst in Pfungstadt: Objektschutz, Bewachung und Schlüsselnotdienst 24/7. Nach §34a GewO qualifiziert, seit 2011.",
+  "site_headings": [],
+  "site_menu": [],
+  "pages_read": [
+   "https://flessner-sicherheitsdienst.de/"
+  ],
+  "quotes": {}
+ },
+ {
+  "slug": "tresorbau-balkmann-pfungstadt",
+  "name": "Tresorbau Balkmann",
+  "city": "Pfungstadt",
+  "maps_type": "Safe & vault shop",
+  "maps_subtypes": "Safety equipment supplier",
+  "rating": "4",
+  "reviews": "4",
+  "stars_1_to_5": [
+   "1",
+   "0",
+   "0",
+   "0",
+   "3"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "service_options: ['has_curbside_pickup', 'has_delivery', 'has_in_store_pickup', 'has_in_store_shopping']",
+   "accessibility: ['has_wheelchair_accessible_parking', 'has_wheelchair_accessible_entrance']",
+   "payments: ['pay_debit_card', 'pay_mobile_nfc']",
+   "parking: ['has_parking_lot_free']"
+  ],
+  "maps_description": "Egal, ob ein Waffentresor, Geschäftstresor oder ein Deposittresor benötigt wird, wir sorgen dafür, dass Sie den Tresor erhalten, der Ihren Anforderungen und Bedürfnissen in vollem Umfang gerecht wird. Seit mehr als 15 Jahren sind wir weit über die Bundesgrenzen hinaus Ihr zuverlässiger Dienstleister und Servicepartner für Tresore und Sicherheitseinrichtungen aller Art. Zu unseren Serviceleistungen gehören auch professionelle Tresoröffnungen sowie bedarfsgerechte Umbauten und Reparaturen von Tresoren aller führenden Hersteller. Zusätzlich übernehmen wir die fachgerechte Entsorgung ausgedienter Tresore.",
+  "site_status": "ok",
+  "site_title": "Hochwertige Tresore aller Art | Tresorbau Balkmann",
+  "site_meta": "Entdecken Sie jetzt unsere sicherheitszertifizierten Qualitätstresore! Geschäftstresor, Schlüsselschrank, Waffentresore....",
+  "site_headings": [
+   "Immer auf der sicheren Seite – vielseitiger Service"
+  ],
+  "site_menu": [
+   "Tel.: 0615783333",
+   "Mail",
+   "Menü",
+   "Suchen",
+   "Mein Konto",
+   "Warenkorb 0 0,00 € *",
+   "Home",
+   "Service",
+   "Tresore",
+   "Zur Kategorie Service",
+   "mehr erfahren",
+   "Zur Kategorie Tresore",
+   "BTM-Tresore",
+   "Schubladentresor",
+   "Deposittresore",
+   "Einmauertresore",
+   "Feuerschutztresore",
+   "Geschäftstresore",
+   "Möbeleinsatztresore",
+   "Schlüsseltresore",
+   "Tresortüren",
+   "Waffentresore",
+   "Lagerware",
+   "Wertschutztresore"
+  ],
+  "pages_read": [
+   "https://www.balkmann-tresore.de/",
+   "https://www.balkmann-tresore.de/service/",
+   "https://www.balkmann-tresore.de/tresore/",
+   "https://www.balkmann-tresore.de/tresore/btm-tresore/"
+  ],
+  "quotes": {
+   "tresoroeffnung": [
+    "Wir sind aber nicht nur der richtige Ansprechpartner wenn Sie einen neuen Tresor kaufen möchten. Zu unseren Serviceleistungen gehören auch professionelle Tresoröffnungen sowie bedarfsgerecht",
+    "viceleistungen gehören auch professionelle Tresoröffnungen sowie bedarfsgerechte Umbauten und Reparaturen von Tresoren aller führenden Hersteller. Zusätzlich übernehmen wir den fachgerechten Transport und auch Entsorgung ausge"
+   ]
+  }
+ }
+]

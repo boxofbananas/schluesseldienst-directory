@@ -1,0 +1,72 @@
+[
+ {
+  "slug": "fix-service-point-wetzlar",
+  "name": "Fix Service Point",
+  "city": "Wetzlar",
+  "maps_type": "Shoe repair shop",
+  "maps_subtypes": "Engraver, Gift shop, Key duplication service",
+  "rating": "3.7",
+  "reviews": "27",
+  "stars_1_to_5": [
+   "5",
+   "0",
+   "4",
+   "6",
+   "12"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "accessibility: ['has_wheelchair_accessible_parking', 'has_wheelchair_accessible_entrance']"
+  ],
+  "maps_description": "",
+  "site_status": "ok",
+  "site_title": "Fix Service Point - Im Forum Wetzlar | Schuhreparatur und Schlüsseldienst",
+  "site_meta": "",
+  "site_headings": [
+   "Wir sind für Sie da!",
+   "Schuhreparatur und Schlüsseldienst",
+   "AKTUELLES",
+   "LEISTUNGEN",
+   "Schuhreparatur",
+   "Schlüsselservice",
+   "GRAVUREN",
+   "Batteriewechsel",
+   "Tassendruck",
+   "WEITERE LEISTUNGEN",
+   "WIR BIETEN",
+   "SCHUHREPARATUR",
+   "SCHLÜSSELDIENST",
+   "SCHEREN SCHÄRFEN"
+  ],
+  "site_menu": [
+   "LEISTUNGEN",
+   "ÜBER UNS",
+   "SERVICE",
+   "KONTAKT",
+   "IHR WEG ZU UNS",
+   "06441 870 58 13",
+   "DATENSCHUTZERKLÄRUNG",
+   "IMPRESSUM",
+   "COOKIE RICHTLINIE (EU)"
+  ],
+  "pages_read": [
+   "https://fixservicepoint.de/",
+   "https://fixservicepoint.de/ueber-uns",
+   "https://fixservicepoint.de/"
+  ],
+  "quotes": {
+   "schluesseldienst_kern": [
+    "diversen Einkaufszentren mit dem Standort in Deutschland. Unsere langjährige Erfahrung im Bereich „Schuh- und Schlüsseldienst“ gewährleistet unseren deutschlandweiten Ausbau unserer – jeweils meistens rechtlich voneinander unabhängigen",
+    "LEISTUNGEN ÜBER UNS SERVICE KONTAKT Seite wählen Wir sind für Sie da! Schuhreparatur und Schlüsseldienst IHR WEG ZU UNS AKTUELLES Neuer Service für Sie: Ihr Bild und Text auf der Tasse Bedruckte Kaffeetassen im Ex"
+   ],
+   "autoschluessel": [
+    "el im Sofort Service mit Ihrem Logo erhalten Sie ebenfalls bei uns. Wir wechseln Ihre Batterien für Uhren und Autoschlüssel. Einfach vorbeikommen und beraten lassen. Wir bedrucken Tassen mit einem coolen Spruch oder einem Text. Sofor",
+    "uf Zippo Feuerzeugen, Schlüsselanhänger, Anhänger, etc. Gravuren auf z.B. Kugelschreiber, ID-Tags u.v.m. NEU: Autoschlüssel Gehäusewechsel Liebesschlösser inkl. eingravierten Namen, Datum (z.B. Kennenlerntag, Verlobungstag, Hochzeits"
+   ],
+   "schluessel_nachmachen": [
+    "s in guten Händen. Wir reparieren diese fachgerecht in Absprache mit Ihnen. Wir fertigen Ihnen Ihre Zweit und Ersatzschlüssel an. Fragen Sie uns einfach. Wir gravieren verschiedene Geschenkartikel, Feuerzeuge, u.v.m. im Sofort-Service.",
+    ". Wir reparieren diese fachgerecht in Absprache mit Ihnen. Schlüsselservice Wir fertigen Ihnen Ihre Zweit und Ersatzschlüssel an. Fragen Sie uns einfach. GRAVUREN Wir gravieren verschiedene Geschenkartikel, Feuerzeuge, u.v.m. im Sofort"
+   ]
+  }
+ }
+]

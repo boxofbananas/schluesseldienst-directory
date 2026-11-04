@@ -1,0 +1,26 @@
+[
+ {
+  "slug": "sce-vertrieb-engelskirchen",
+  "name": "SCE Vertrieb",
+  "city": "Engelskirchen",
+  "maps_type": "Safety equipment supplier",
+  "maps_subtypes": "Emergency locksmith service, Animal feed store, Gardener, Janitorial service, Key duplication service, Landscaper, Tack shop",
+  "rating": "5",
+  "reviews": "4",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "4"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "service_options: ['has_onsite_services']",
+   "accessibility: ['has_wheelchair_accessible_parking']",
+   "payments: ['pay_debit_card']"
+  ],
+  "maps_description": "Wir sind Ihr zuverlässiger Partner für professionelle Umlagenpflege, Gartenarbeiten und umfassenden Hausmeisterservice. Ob Grünflächenpflege, Instandhaltung oder Objektbetreuung – wir sorgen für Werterhalt und ein gepflegtes Erscheinungsbild Ihrer Immobilie.\n\nZusätzlich bieten wir einen schnellen und kompetenten Schlüsseldienst sowie die Planung und Installation mechanischer und elektronischer Schließanlagen für Privat- und Geschäftskunden.\n\nErgänzend handeln wir mit hochwertigen Waren, insbesondere Pferdefutter und ausgewählten Reitsportartikeln. Qualität, Zuverlässigkeit und Kundenzufriedenheit stehen bei uns an erster Stelle.",
+  "site_status": "no website"
+ }
+]

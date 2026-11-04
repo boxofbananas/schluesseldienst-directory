@@ -1,0 +1,289 @@
+[
+ {
+  "slug": "b-s-werk-kiel",
+  "name": "B&S Werk",
+  "city": "Kiel",
+  "maps_type": "Clothing alteration service",
+  "maps_subtypes": "Custom t-shirt store, Engraver, Key duplication service, Screen printer, Shoe repair shop",
+  "rating": "4.9",
+  "reviews": "287",
+  "stars_1_to_5": [
+   "4",
+   "0",
+   "0",
+   "8",
+   "275"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "service_options: ['has_onsite_services']",
+   "accessibility: ['has_wheelchair_accessible_parking', 'has_wheelchair_accessible_entrance']",
+   "service_options: ['offers_online_appointments']"
+  ],
+  "maps_description": "Wir bieten Ihnen Schuh- und Schlüsseldienst, T-Shirt-, Sublimations- und Tassen-Druck sowie Autobeschriftungen im Citti Park in Kiel.",
+  "site_status": "ok",
+  "site_title": "BS-Werk | Ihr Allrounder im Citti Park Kiel",
+  "site_meta": "Vielfältiger Service im Citti Park in Kiel ✓Änderungsschneider ✓ Schlüsseldienst ✓ Druckservice",
+  "site_headings": [
+   "B&S-Werk",
+   "Geschenke mit Herz – Entdecken Sie unseren neuen Online-Shop!",
+   "Schneiderservice im Citti Park Kiel",
+   "Tassendruck im Citti Park Kiel",
+   "Ersatzschlüssel und Schlüsselanfertigung",
+   "Überzeugende Qualität und Kundenzufriedenheit",
+   "100% Qualität",
+   "Schnelle Ablieferung",
+   "Über uns",
+   "Unser Team"
+  ],
+  "site_menu": [
+   "Home",
+   "Über uns",
+   "Kontakt",
+   "Online-Shop",
+   "Jetzt Gestalten!",
+   "Vereinbaren Sie jetzt einen Termin!",
+   "Jetzt Konfigurieren!",
+   "Startseite",
+   "Impressum",
+   "Datenschutzerklärung",
+   "Cookie-Richtlinie (EU)",
+   "Moonstar-IT",
+   "Optionen verwalten",
+   "Dienste verwalten",
+   "Lese mehr über diese Zwecke",
+   "Einstellungen ansehen",
+   "{title}"
+  ],
+  "pages_read": [
+   "https://www.bs-werk.de/",
+   "https://www.bs-werk.de/ueber-uns/"
+  ],
+  "quotes": {
+   "schluesseldienst_kern": [
+    "Schuh- und Schlüsseldienst, T-Shirt-, Sublimations- und Tassen-Druck im Citti Park in Kiel Bringen Sie Ihren einzigartigen Stil zum Aus",
+    "hochwertigen Sublimationsdruck, was eine leuchtende Farbwiedergabe in hervorragender Qualität garantiert. Als Schlüsseldienst in Kiel sind wir darauf spezialisiert Schlüssel professionell anzufertigen. Dabei achten wir stets darauf mit"
+   ],
+   "schluessel_nachmachen": [
+    "legen wir ebenfalls besonders großen Wert auf eine rasche und diskrete Abwicklung. Für die Anfertigung eines Ersatzschlüssels kommen Sie uns in unserem Geschäftslokal im Citti Park in Kiel besuchen. Seit 2006 führen wir unseren Laden",
+    "ir innerhalb von Minuten anfertigen. Wir bieten zusätzlich einen Schlüsseldienst in der wir in kürzester Zeit Ersatzschlüssel für Sie anfertigen. Bei Fragen stehen wir Ihnen telefonisch, per Email und natürlich auch persönlich zur Verf"
+   ]
+  }
+ },
+ {
+  "slug": "schuhmacherei-und-schluesseldienst-duezenli-kiel",
+  "name": "Schuhmacherei und Schlüsseldienst Düzenli",
+  "city": "Kiel",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "",
+  "rating": "4.9",
+  "reviews": "86",
+  "stars_1_to_5": [
+   "2",
+   "0",
+   "0",
+   "1",
+   "83"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "service_options: ['has_onsite_services']"
+  ],
+  "maps_description": "Herzlich willkommen, Ihrem zuverlässigen Partner für Schuhreparatur und Schlüsseldienst in Kiel und Umgebung.\n\nMit langjähriger Erfahrung und Fachkenntnissen sind wir spezialisiert auf Schlüsseldienstleistungen, insbesondere im Bereich Autoschlüssel. Unsere Expertise ermöglicht es uns, Ihnen schnelle und effiziente Lösungen für sämtliche Schlüsselprobleme zu bieten.\n\nDarüber hinaus bieten wir professionelle Schuhreparaturen an, um Ihre geliebten Schuhe wieder in Topform zu bringen. Egal ob Absatzreparatur, Sohlenwechsel oder Lederpflege - unsere erfahrenen Schuhmacher kümmern sich mit Sorgfalt um Ihre Schuhe.\nWir bieten einen professionellen Schlüsseldienst 24/7, sowohl in unserem Laden als auch vor Ort bei Ihnen.",
+  "site_status": "no website"
+ },
+ {
+  "slug": "schluesselzentrale-makowski-kiel",
+  "name": "Schlüsselzentrale Makowski",
+  "city": "Kiel",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "",
+  "rating": "4",
+  "reviews": "51",
+  "stars_1_to_5": [
+   "12",
+   "0",
+   "0",
+   "5",
+   "34"
+  ],
+  "has_hours": false,
+  "maps_about": [],
+  "maps_description": "Wir sind seit 1903 Ihre Adresse in der Vorstadt Kiel, wenn es um Sicherheit für Ihr Zuhause sowie Serviceleistungen rund um Schlüssel und Schloss geht. Dazu gehören Sicherheitsbeschläge, Schließanlagen, Schlösser, Nachschlüssel, Briefkastenanlagen sowie unser Türöffnungsdienst. Umfangreiche und kompetente Beratung, gerade zum Thema Sicherheit, ist für uns selbstverständlich.",
+  "site_status": "http 503"
+ },
+ {
+  "slug": "schluesseldienst-schubert-kiel",
+  "name": "Schlüsseldienst Schubert",
+  "city": "Kiel",
+  "maps_type": "Emergency locksmith service",
+  "maps_subtypes": "",
+  "rating": "5",
+  "reviews": "4",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "4"
+  ],
+  "has_hours": true,
+  "maps_about": [],
+  "maps_description": "Schlüsseldienst Schubert ist der Schlüsselnotdienst für Kiel und Umgebung, rund um die Uhr erreichbar, auch nachts, sonntags und an Feiertagen.\n\nDen Festpreis hören Sie am Telefon, bevor wir losfahren, und genau der steht auf der Rechnung. Eine zugefallene Tür öffnen wir in der Regel zerstörungsfrei, ab 99 Euro. Ist die Tür verschlossen, ist das Ziehen des Zylinders im Preis enthalten und wird nicht doppelt berechnet.\n\nIm Kieler Stadtgebiet ist die Anfahrt im Festpreis enthalten. Wir sind in den Kieler Stadtteilen unterwegs, von Gaarden über Wik und Holtenau bis Elmschenhagen, sowie in Kronshagen, Altenholz und Schwentinental.\n\nSie sprechen direkt mit dem Betrieb, der auch vor Ihrer Tür steht. Kein Callcenter, keine Vermittlung.",
+  "site_status": "ok",
+  "site_title": "Schlüsseldienst Kiel - 24h Notdienst und Türöffnung",
+  "site_meta": "Schlüsseldienst Kiel: Notfall-Türöffnung ab 99 €, rund um die Uhr erreichbar. Festpreis am Telefon, Anfahrt im Stadtgebiet inklusive.",
+  "site_headings": [
+   "Ausgesperrt in Kiel?Wir kriegen das auf.",
+   "Festpreis vor der Anfahrt",
+   "Anfahrt in Kiel inklusive",
+   "Meist ohne Beschädigung",
+   "Quittung auf Papier",
+   "Leistungen",
+   "Türöffnung",
+   "Nach dem Einbruch",
+   "Schloss & Zylinder",
+   "Einbruchschutz",
+   "Schließanlagen",
+   "Tresor & Möbel",
+   "Preise",
+   "Klarer Preis, keine Doppelberechnung"
+  ],
+  "site_menu": [
+   "Zum Inhalt springen",
+   "Leistungen",
+   "Preise",
+   "Ablauf",
+   "Einsatzgebiet",
+   "Fragen",
+   "Kontakt",
+   "0157 542 389 62",
+   "Per WhatsApp schreiben",
+   "info@schluesseldienst-schubert.de",
+   "Datenschutzerklärung",
+   "WhatsApp",
+   "Impressum",
+   "Datenschutz"
+  ],
+  "pages_read": [
+   "https://schluesseldienst-schubert.de/"
+  ],
+  "quotes": {
+   "schluesseldienst_kern": [
+    "LeistungenPreiseAblaufEinsatzgebietFragenKontakt0157 542 389 62Per WhatsApp schreiben Notfall-Türöffnung in Kiel und Umgebung, meist in 20 bis 30 Minuten. Ohne Schaden und zum Festpreis, den Sie vorher am Telefon h",
+    "ie bekommen am Telefon ein ehrliches Zeitfenster statt einer Zahl, die gut klingt. Eine ins Schloss gefallene Tür öffnen wir fast immer zerstörungsfrei. Bei einer abgeschlossenen oder mehrfach verriegelten Tür lässt sich ein Schad"
+   ],
+   "notdienst_24h": [
+    "LeistungenPreiseAblaufEinsatzgebietFragenKontakt0157 542 389 62Per WhatsApp schreiben Notfall-Türöffnung in Kiel und Umgebung, meist in 20 bis 30 Minuten. Ohne Schaden und zum Festpreis, den Sie vorher a",
+    "anderen. Wir nennen ihn am Telefon, bevor wir losfahren, und er steht so auf der Rechnung. Abend-, Nacht- und Wochenendpreise stehen in der Tabelle, die Anfahrt außerhalb Kiels ebenfalls. Einen Zuschlag fürs Stockwerk oder für We"
+   ],
+   "tueroeffnung": [
+    "LeistungenPreiseAblaufEinsatzgebietFragenKontakt0157 542 389 62Per WhatsApp schreiben Notfall-Türöffnung in Kiel und Umgebung, meist in 20 bis 30 Minuten. Ohne Schaden und zum Festpreis, den Sie vorher am Telefon h",
+    "Anfahrt. Außerhalb steht sie nach Kilometern in der Preisliste, sie wird nicht hinterher aufgeschlagen. Eine zugefallene Tür geht in aller Regel zerstörungsfrei auf. Muss doch etwas ersetzt werden, sagen wir das vor dem ersten Handgri"
+   ],
+   "schlossaustausch": [
+    "t das Ziehen des Zylinders bereits im genannten Öffnungspreis enthalten. Sonderzylinder, spezielle Sicherheitsbeschläge oder außergewöhnlicher Mehraufwand werden vor Beginn abgestimmt. Standard-Schließzylinder ab 39 € inkl. 3 Sch",
+    "ittelt. Sie sprechen mit dem Betrieb, der auch vor Ihrer Tür steht. Für alles, was keine Minuten kostet, also Zylinderwechsel, Einbruchschutz oder eine Schließanlage. Sie stehen vor der Tür? Dann bitte anrufen."
+   ],
+   "schliessanlagen": [
+    "auch vor Ihrer Tür steht. Für alles, was keine Minuten kostet, also Zylinderwechsel, Einbruchschutz oder eine Schließanlage. Sie stehen vor der Tür? Dann bitte anrufen.",
+    "n Tür und Fenster auf einen Stand, der diese Minuten kostet. Zusatzschlösser Schutzbeschläge Fenstersicherung Schließanlagen Ein Schlüssel für mehrere Türen, saubere Berechtigungen, dokumentierte Ausgabe. Für Mehrfamilienhäuser, Prax"
+   ],
+   "einbruchschutz": [
+    "hen mit dem Betrieb, der auch vor Ihrer Tür steht. Für alles, was keine Minuten kostet, also Zylinderwechsel, Einbruchschutz oder eine Schließanlage. Sie stehen vor der Tür? Dann bitte anrufen.",
+    "n Zylinder direkt beim Termin, Material auf Wunsch vor Ort. Zylinderwechsel Schloss defekt Schlüssel verloren Einbruchschutz Die meisten Einbrüche scheitern an wenigen Minuten Widerstand. Wir bringen Tür und Fenster auf einen Stand, d"
+   ],
+   "tresoroeffnung": [
+    "chloss vergessen oder Schlüssel weg. Wir öffnen, wenn Sie die Berechtigung nachweisen können, häufig ohne den Tresor zu zerstören. Die vollständige Liste, mit den Zuschlägen und nicht ohne sie. Was hier nicht steht, steht auch",
+    "Ausgabe. Für Mehrfamilienhäuser, Praxen und Gewerbeobjekte. Planung & Aufbau Erweiterung Schlüsselverwaltung Tresor & Möbel Zahlenschloss vergessen oder Schlüssel weg. Wir öffnen, wenn Sie die Berechtigung nachweisen können,"
+   ],
+   "festpreis_genannt": [
+    "WhatsApp schreiben Notfall-Türöffnung in Kiel und Umgebung, meist in 20 bis 30 Minuten. Ohne Schaden und zum Festpreis, den Sie vorher am Telefon hören. Sie sprechen direkt mit Finn Schubert, kein Callcenter und keine Vermittlun",
+    "ört haben. Innerhalb des Stadtgebiets berechnen wir keine Anfahrt. Außerhalb steht sie nach Kilometern in der Preisliste, sie wird nicht hinterher aufgeschlagen. Eine zugefallene Tür geht in aller Regel zerstörungsfrei auf. Muss d"
+   ]
+  }
+ },
+ {
+  "slug": "draht-werner-automatik-gmbh-kiel",
+  "name": "Draht-Werner Automatik GmbH",
+  "city": "Kiel",
+  "maps_type": "Security system supplier",
+  "maps_subtypes": "",
+  "rating": "",
+  "reviews": "0",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "0"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "accessibility: ['has_wheelchair_accessible_parking']"
+  ],
+  "maps_description": "",
+  "site_status": "ok",
+  "site_title": "DRAHT-WERNER Automatik GmbH",
+  "site_meta": "Automatiktüren, Torantriebe für Schiebetore und Drehtore, Schrankenanlagen, Brandschutz- und Rauchschutztüren, Feststellanlagen von DRAHT-WERNER Automatik.",
+  "site_headings": [
+   "Automatische Schiebetüren und Drehtürantriebe",
+   "Torantriebssysteme für Schiebetore und Drehtore",
+   "Schrankenanlagen, Drehkreuze und Vereinzelungsanlagen",
+   "Automatische Verkehrspoller und Kettenbarrieren",
+   "Automatische Industrietore",
+   "Automatische Garagentorantriebe",
+   "Automatische Rauchschutztüren, Brandschutztüren und Feststellanlagen",
+   "Dynamische Leuchtanzeigen und Parkhaustransparente",
+   "DRAHT-WERNER Automatik GmbH – Ihr Partner für Automatiktüren und Tore",
+   "Automatiktüren und Antriebe",
+   "automatische Torantriebe",
+   "Zutrittssysteme",
+   "Poller & Kettenbarrieren",
+   "Industrietore"
+  ],
+  "site_menu": [
+   "Impressum",
+   "Datenschutzerklärung",
+   "Stellenangebote",
+   "Galerie",
+   "info(at)automatik-draht-werner.de",
+   "© OpenStreetMap",
+   "Optionen verwalten",
+   "Dienste verwalten",
+   "Lese mehr über diese Zwecke",
+   "Einstellungen anzeigen",
+   "{title}"
+  ],
+  "pages_read": [
+   "https://automatik-draht-werner.de/",
+   "https://automatik-draht-werner.de/automatiktueren/"
+  ],
+  "quotes": {
+   "notdienst_24h": [
+    "nst sind Sie zudem immer auf der sicheren Seite, wenn es zu Ausfällen kommen sollten – sieben Tage die Woche, 24 Stunden am Tag. Komfortabler Zugang für Ladengeschäfte, Apotheken, Tankstellen, Bürogebäude, Krankenhäuser, Pflegehei",
+    "nst sind Sie zudem immer auf der sicheren Seite, wenn es zu Ausfällen kommen sollten – sieben Tage die Woche, 24 Stunden am Tag. Automatiktüren Automatische Schiebetüren Komfortabler Zugang für Ladengeschäfte, Apotheken, Tankstell"
+   ],
+   "einbruchschutz": [
+    "n wir in unseren Projekten auf das Know-How unserer Schwesterunternehmen in der Metallverarbeitung und in der Sicherheitstechnik zurück greifen. Dies stellt einen hohen Mehrwert für unsere Kunden dar, weil wir hierdurch geschlossene Leist",
+    "ern und Pflegeheimen. Mit sichtbarer und nicht sichtbarer Antriebstechnik für barrierefreien Zugang. Auch zum Nachrüsten in öffentlichen Gebäuden, Pflegeheimen und Privatwohnungen. Für Gebäudetypen mit hoher Personenfrequenz wie"
+   ],
+   "autoschluessel": [
+    "Antriebe für Garagen-Sektionaltore, Schwingtore, Garagen-Rolltore und Sammelgaragentore. Mit viel Zubehör wie Funkfernbedienungen und modernen elektronischen Steuerungen mit Smartphone-Apps. Modernste Rauchschutztüren nach DIN 18095 RS-1",
+    "Antriebe für Garagen-Sektionaltore, Schwingtore, Garagen-Rolltore und Sammelgaragentore. Mit viel Zubehör wie Funkfernbedienungen und modernen elektronischen Steuerungen mit Smartphone-Apps. Automatische Rauchschutztüren, Brandschutztüre"
+   ],
+   "elektronische_schliesssysteme": [
+    "n der Parkraumabsicherung mit Verkehrspoller, Kettenbarrieren und Schrankenanlagen. Hinzu kommen automatische Zutrittssysteme mit Drehkreuzen und Drehsperren bis hin zu Brandschutzsystemen mit automatischen Rauchschutz- und Brandschut",
+    "en Zufahrtssteuerung von privaten Grundstücken und gewerblich genutzten Flächen … DRAHT-WERNER Automatik GmbH Zutrittssysteme Elektrische oder hydraulische Schrankenanlagen sind wirkungsvolle Instrumente der Zufahrtskontrolle privater"
+   ],
+   "ladengeschaeft": [
+    "eite, wenn es zu Ausfällen kommen sollten – sieben Tage die Woche, 24 Stunden am Tag. Komfortabler Zugang für Ladengeschäfte, Apotheken, Tankstellen, Bürogebäude, Krankenhäuser, Pflegeheime und Veranstaltungszentren. Automatische Tel",
+    "betür – Automatiktüren schaffen Komfort und Sicherheit beim Zugang zu öffentlichen Gebäuden und Bürogebäuden, Ladengeschäften und Einkaufszentren oder Krankenhäusern und Pflegeheimen. Mit sichtbarer und nicht sichtbarer Antriebstechn"
+   ],
+   "gewerblich_objektbetreuung": [
+    "enz wie Flughäfen, Terminals, Bahnhöfe, Kliniken, Einkaufszentren, Multiplexe und Messe- und Kongresszentren. Wartungsvertrag – Prüfung und Störungsdienst automatischer Anlagen – DRAHT-WERNER Automatik DRAHT-WERNER Automatik GmbH betr",
+    "Terminals, Bahnhöfe, Kliniken, Einkaufszentren, Multiplexe und Messe- und Kongresszentren. Prüfung & Wartung Wartungsvertrag – Prüfung und Störungsdienst automatischer Anlagen – DRAHT-WERNER Automatik DRAHT-WERNER Gruppe: Stark im Ver"
+   ]
+  }
+ }
+]

@@ -1,0 +1,28 @@
+[
+ {
+  "slug": "schuh-schluesseldienst-ahrensburg-ahrensburg",
+  "name": "Schuh- & Schlüsseldienst Ahrensburg",
+  "city": "Ahrensburg",
+  "maps_type": "Shoe repair shop",
+  "maps_subtypes": "Emergency locksmith service, Engraver, Key duplication service, Rubber stamp store, Sewing shop, Sharpening service",
+  "rating": "5",
+  "reviews": "359",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "13",
+   "346"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "service_options: ['has_onsite_services']",
+   "accessibility: ['has_wheelchair_accessible_entrance', 'has_wheelchair_accessible_seating']",
+   "amenities: ['has_restroom_unisex']",
+   "crowd: ['welcomes_lgbtq', 'is_transgender_safespace']",
+   "parking: ['has_parking_street_paid']"
+  ],
+  "maps_description": "SCHNELL-ZUVERLÄSSIG-NACHHALTIG",
+  "site_status": "no website"
+ }
+]

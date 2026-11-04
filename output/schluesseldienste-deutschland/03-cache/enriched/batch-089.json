@@ -1,0 +1,813 @@
+[
+ {
+  "slug": "schluesseldienst-hinz-berlin",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Schlüsseldienst Hinz sitzt in Berlin und plant und montiert Schließanlagen für private und gewerbliche Kunden, von der Planung bis zur Endmontage und auf allen Sicherheitsniveaus. Hinzu kommen mechanische Fenstersicherungen für Fenster und Terrassentüren sowie Türsicherungen, die der Betrieb liefert und einbaut. Außerdem fertigt und montiert er individuelle Briefkastenanlagen und liefert Einzelbriefkästen. Bei Tresoren berät er zu Möbeltresoren, Wertschutzschränken und feuersicheren Modellen, vom Zuhause bis zum Arbeitszimmer. Auch das Nachmachen von Schlüsseln gehört zum Angebot, ebenso Elektromechanik für die Sicherheit. Nach eigener Angabe ist der Betrieb seit 1957 im Einsatz, mit mehr als fünfzig Jahren Erfahrung, und verweist auf eine Firmenchronik, die sich über mehr als sechs Jahrzehnte erstreckt. Der Auftritt richtet sich an Privathaushalte ebenso wie an Geschäftskunden. Die Beratung für Privat und Geschäft reicht von der Haustür über die Fenster bis zum Tresor im Arbeitszimmer.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Sicherheitsmaßnahmen für Privat und Geschäft"
+  }
+ },
+ {
+  "slug": "schuhreparatur-und-schluesseldienst-shoe-repair-key-service-berlin",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schuhreparatur und Schlüsselservice unter einem Dach: Der Berliner Betrieb setzt Schuhe instand und bietet daneben einen Schlüsseldienst an. Zum Spektrum gehören außerdem Gravuren und Sattlerarbeiten. Der zweisprachige Name auf Deutsch und Englisch zeigt, dass der Betrieb auch englischsprachige Kundschaft im Blick hat. Schwerpunkt ist das Schuhhandwerk, ergänzt um den Schlüsselbereich und weitere kleine Handwerksleistungen, die sich aus dem Ladenalltag ergeben."
+ },
+ {
+  "slug": "rehbein-sicherheitstechnik-berlin",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Seit 1890 ist Rehbein Sicherheitstechnik in Berlin etabliert und auf Sicherheitstechnik spezialisiert. Der Betrieb unterhält drei Filialen, darunter Standorte in Friedenau und Westend, und jede Filiale führt einen Schlüsseldienst. Für Notfälle gibt es einen Schlüsselnotdienst für Berlin, der rund um die Uhr besetzt ist. In den Geschäften wird der Bedarf analysiert, es werden Produkte gezeigt, und die Beratung reicht von vorbeugendem Einbruchschutz über Zutrittskonzepte bis zu Schließsystemen und komplexer Gebäudesicherheit."
+ },
+ {
+  "slug": "spooxe-lockpicking-tools-berlin",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Spooxe ist ein Onlineshop für Lockpicking-Werkzeug aus Berlin und nach eigener Angabe seit 2011 für die Locksport-Community da. Im Sortiment stehen Lockpick-Sets, einzelne Picks in mehreren Stärken, Spannwerkzeuge, Werkzeuge für Bohrmulden und Drehscheiben, Taschen und ein akkubetriebener Elektro-Pick. Die Kundschaft reicht von Einsteigern über Geocacher bis zu Schlüsseldiensten, die das Werkzeug einsetzen. Zusätzlich gibt es Anleitungen und eine Fragenseite zu Dimple-Werkzeugen. Der Betrieb verkauft Werkzeug und Zubehör; Türöffnungen oder Schlossarbeiten bei Kunden gehören nicht zum Angebot. Abholungen im Berliner Geschäft sind nur nach vorheriger Anmeldung per E-Mail möglich."
+ },
+ {
+  "slug": "videoueberwachung-berlin-videotuersprechanlagen-berlin",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Video-Türsprechanlagen, Gegensprechanlagen und Klingelanlagen für Berlin und Brandenburg sind das Geschäft dieses Betriebs. Er arbeitet mit Anlagen von Herstellern wie Siedle, Gira, Ritto und Samsung und installiert sie in 2-Draht-Technik oder als Funklösung. Zur Arbeit gehören Sicherheitsberatung, Planung und Installation sowie eine Kaufberatung zu Kamera, Schutzklasse und der Frage, ob ein Komplett-Set oder Einzelkomponenten sinnvoller sind. Erklärt werden auch Aufbau und Funktion moderner Anlagen, bei denen Besucher vor dem Öffnen per Bild und Ton identifiziert werden. Gearbeitet wird für Privatkunden ebenso wie für Gewerbe, vom Einfamilienhaus bis zum größeren Objekt. Mit Schlüsseldienst im Sinne von Türöffnung oder Schlosswechsel hat das Angebot nichts zu tun, es geht um Sprechtechnik an der Haustür. Weitere Themen sind Türsprechanlagen mit Türöffner, Türvideoanlagen, Wechselsprechanlagen, Klingeltableaus und die Nachrüstung einer drahtgebundenen Anlage bei einer Renovierung des Hausflurs.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Ob privat oder gewerblich"
+  }
+ },
+ {
+  "slug": "schluesseldienst-frenky-berlin",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Frenky arbeitet in Berlin als Schlüsselnotdienst. Der Betrieb beschreibt sein Angebot knapp als Öffnungen und Reparaturen jeglicher Art und führt damit Arbeiten rund um Schlösser und verschlossene Zugänge aus. Es handelt sich um einen kleinen Einzelbetrieb mit eigenem Namen, der sich auf Einsätze im Stadtgebiet konzentriert und seine Leistungen in diesem einen Satz zusammenfasst."
+ },
+ {
+  "slug": "eduard-nebengauz-schuh-schluesseldienst-berlin",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Eduard Nebengauz führt in Berlin einen Betrieb, der Handwerk rund um Schuh und Schlüssel verbindet. Das Angebot umfasst Schuhreparaturen, Schlüsseldienst, Stempel sowie Schilder und Gravuren. Der Betrieb ist damit ein klassischer Kiezladen für kleine Dinge des Alltags, bei dem sich Reparatur, Schlüsselanfertigung und Beschriftung an einem Ort erledigen lassen. Der Name des Inhabers steht im Firmennamen, was auf einen persönlich geführten Laden hinweist."
+ },
+ {
+  "slug": "schluesseldienst-tueroeffnung-becker-berlin",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Becker bietet in Berlin Schlüsseldienst rund um Reparatur und Türöffnung an. Zu den genannten Leistungen zählen Türöffnung, Schlosswechsel und Sicherheitsberatung. Der Betrieb versteht sich als Ansprechpartner für Menschen, die vor einer verschlossenen Tür stehen oder ein defektes Schloss ersetzen lassen wollen, und führt die Arbeiten bei den Kunden vor Ort im Stadtgebiet aus."
+ },
+ {
+  "slug": "philipp-schluesseldienst-sicherheitstechnik-berlin",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Philipp ist ein Einzel- und Großhandel in Berlin-Wittenau, gegründet 1945 und inzwischen in der zweiten Generation geführt. Das Sortiment reicht von Haushaltswaren und Elektrokleingeräten über Gartenbedarf und Gartentechnik bis zu Eisenwaren und Werkzeugen, dazu kommt ein STIHL-Shop. Der Schlüsseldienst wurde ausgelagert und zog in die ersten Verkaufsräume des Hauses, in denen alles begann. Er führt Schlüssel, Schlösser und Zylinder, Schließanlagen, Haussicherheit, Briefkastenanlagen, Tresore und Brandschutz. Bei der mechanischen Sicherheit richtet er sich an Privathaushalte und gewerbliche Objekte und rät bei Bedarf zu einem hochwertigeren Zylinder oder zu Nachrüstprodukten an geeigneten Stellen, um Gelegenheitseinbrecher abzuschrecken. Das Unternehmen betont Stillstand als Rückschritt, legt Wert auf Service und zeigt Kundenstimmen sowie eine Chronik seiner Erweiterungen und Umzüge. Referenzen und Dienstleistungen sind eigene Bereiche, und das Unternehmen führt Haushaltswaren sowie Elektrowerkzeuge neben der Sicherheitstechnik.",
+  "trace": {
+   "ladengeschaeft": "zieht in die ersten Verkaufsräume",
+   "gewerblich_objektbetreuung": "gewerbliche Objekte"
+  }
+ },
+ {
+  "slug": "blitz-schluesselnotdienst-berlin",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Blitz Schlüsselnotdienst hilft in Berlin bei zugefallenen oder verschlossenen Türen und bei defekten Schlössern. Der Betrieb nimmt Türnotöffnungen vor, wechselt Schlösser, tauscht Schließzylinder aus und repariert Schäden nach Einbrüchen. Dazu rüstet er Sicherheitstechnik wie Querriegel und zusätzliche Türsicherungen nach. Der Betrieb legt eigenen Angaben nach Wert auf saubere Arbeit, klare Preise und eine kurze Anfahrt."
+ },
+ {
+  "slug": "taurus-sicherheitstechnik-deutschland-gmbh-berlin",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "TAURUS Sicherheitstechnik Deutschland GmbH gehört zu einem Sicherheitstechnik-Unternehmen aus Wien, das in Österreich und Deutschland arbeitet. Das Angebot umfasst Alarmanlagen, Videoüberwachung, Sprechanlagen, Schutznebel und Zutrittssysteme, jeweils mit Montage und Wartung. Bei den Zutrittssystemen stehen elektronische Türschlösser im Mittelpunkt, die sich per Zahlencode, Chip, NFC, RFID, Biometrie oder Smartphone öffnen lassen, dazu Schleusen und Vereinzelungsanlagen sowie Systeme von Herstellern wie iLOQ. Die Kundschaft sind Privathaushalte, Bürogebäude, Bildungseinrichtungen, Wohnanlagen und Gewerbeobjekte, von der Beratung über die Montage bis zur Wartung. Als Referenz nennt der Betrieb unter anderem die Ausstattung eines schnell wachsenden Unternehmens mit Zutrittssystemen und Videoüberwachung. Alarmanlagen gibt es von Telenot, Jablotron und ACRE, dazu Kennzeichenerkennung und Perimeterschutz. Das Unternehmen sieht sich als Premiumanbieter und beschreibt seine Lösungen als hochmodern. Genannt werden außerdem Lieferverfolgung und Parking-Management als Teil des Spektrums."
+ },
+ {
+  "slug": "kms-schluesselnotdienst-lichterfelde-tueroeffnung-berlin-berlin",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "KMS Schlüsselnotdienst arbeitet in Berlin mit Schwerpunkt Lichterfelde und hilft, wenn jemand ausgesperrt ist, den Schlüssel verloren hat oder nach einem Einbruch das Schloss ersetzt werden muss. Bei Türöffnungen geht der Betrieb beschädigungsfrei vor. Beim Schlosswechsel bietet er eine breite Auswahl hochwertiger Schlösser an und berät zu weiteren Sicherheitsmaßnahmen, die das Zuhause wieder absichern. Der Betrieb stellt sich als erfahrenes Team vor, das auf die persönlichen Anforderungen der Kunden eingeht, und beschreibt die Großstadt Berlin als Ort, an dem ein vertrauenswürdiger Schlüsseldienst besonders wichtig ist. Auf seiner Seite führt er mehrere Standorte im Stadtgebiet auf, außerdem sind ein eigener Bereich zu den Standorten und die Kontaktmöglichkeiten angelegt. Jede Hilfe läuft über einen direkten Anruf beim Team. Der Betrieb berät, welches Schlossmodell am besten zu den Bedürfnissen passt, und hilft damit nicht nur im Notfall, sondern auch bei der Planung eines sicheren Zuhauses."
+ },
+ {
+  "slug": "spree-schluesseldienst-berlin",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Im Spree Center in Berlin betreibt dieser Betrieb Schuhservice und Schlüsseldienst unter einem Dach. Er ist als Schlüsselnotdienst eingeordnet und sitzt in einem Einkaufszentrum, wo Laufkundschaft Schlüssel und Schuhe in einem Gang erledigen kann. Die Leistungen beschreibt der Betrieb knapp mit den drei Stichworten Spree, Schuhe und Schlüsseldienst. Es handelt sich um einen kleinen Betrieb mit eigenem Namen im Bezirk."
+ },
+ {
+  "slug": "schluesseldienst-topy-tueroeffnung-berlin",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Topy arbeitet in Berlin als Schlüsselnotdienst mit vier genannten Leistungen: Türöffnung, Einbruchschutz und Schlosswechsel neben dem Notdienst selbst. Der Betrieb öffnet verschlossene Türen, tauscht Schlösser aus und sichert Türen gegen Einbruch. Damit deckt er die typischen Anlässe ab, wegen denen Menschen einen Schlüsseldienst rufen: Aussperrung, defektes Schloss und der Wunsch nach besserem Schutz."
+ },
+ {
+  "slug": "baki-schluesseldienst-berlin",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Seit 2008 führt der Inhaber von BAKI in Berlin ein Ladengeschäft für Schuhe, Schlüssel und Schlösser, also seit mehr als fünfzehn Jahren. Er verbindet traditionelles Handwerk mit modernem Service. Die Leistungen gliedern sich in Schlüsseldienst und Sicherheitstechnik, Schuh- und Lederreparaturen sowie einen 24-Stunden-Notdienst. Wer einen Ersatzschlüssel braucht, Schuhe wieder tragbar machen lassen will oder ausgesperrt ist, findet im Betrieb die passende Lösung."
+ },
+ {
+  "slug": "schmidt-schluesseldienst-tueroeffnung-berlin",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schmidt Schlüsseldienst und Türöffnung ist ein Berliner Schlüsselnotdienst, der unter schlichtem Namen auftritt und sich mit Türöffnung im Firmennamen ausdrücklich dem Thema ausgesperrter Kunden widmet. Weitere Angaben zu einzelnen Leistungen macht der Betrieb nicht. Es handelt sich um einen kleinen Berliner Anbieter, der als Schlüsseldienst geführt wird und unter dem Familiennamen des Inhabers auftritt."
+ },
+ {
+  "slug": "richter-schluesselnotdienst-berlin-berlin",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Richter Schlüsselnotdienst Berlin leistet schnelle Hilfe im Notfall und öffnet Türen beschädigungsfrei. Der Betrieb ist nach eigener Angabe rund um die Uhr erreichbar und legt Wert auf feste Preise ohne versteckte Kosten, die vorab feststehen. Er tritt unter dem Leitsatz schnell, fair und immer da auf und richtet sich an Menschen, die in Berlin ausgesperrt sind oder dringend Hilfe an einer Tür brauchen."
+ },
+ {
+  "slug": "schluesseldienst-und-tueroeffnung-nolli-berlin",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Nolli bietet in Berlin Schlüsseldienst und Türöffnung an und beschreibt sich dazu zweisprachig auf Deutsch und Englisch, mit den Stichworten Locksmith Berlin und Door opening. Die Türöffnung steht im Mittelpunkt des Angebots. Der Betrieb ist ein kleiner Anbieter im Berliner Stadtgebiet, der unter dem Namen des Inhabers auftritt und sich an Menschen richtet, die eine verschlossene Tür geöffnet haben wollen."
+ },
+ {
+  "slug": "becker-sicherheitstechnik-berlin-gmbh-berlin",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die Michael Becker Sicherheitstechnik GmbH sitzt in Bad Langensalza in Thüringen, unterhält einen weiteren Standort in Mühlhausen und arbeitet auch in Berlin. Nach eigener Angabe steht sie seit 1990 im Dienst der Sicherheit und blickt auf 35 Jahre Erfahrung zurück. Das Angebot umfasst Brandmeldesysteme, Gefahrenmeldesysteme, Einbruchmeldeanlagen, Rettungswegtechnik, Patientenrufanlagen, Zutrittskontrollen, Videoüberwachung sowie Flucht- und Rettungspläne, die nach internationalen Standards erstellt werden, und die Dokumentation zum Brandschutz. Ein 24-Stunden-Notdienst ist eingerichtet, und die Mitarbeitenden sind oft auch nachts und an Wochenenden im Einsatz. Dazu gibt es einen Bereich Schlüsseldienst-Systeme. Der Betrieb führt Referenzen, Partner, eine Chronik und Beiträge zum eigenen Engagement auf. Das Einsatzgebiet zwischen Thüringen und Berlin ist weit gefasst. Zum Team gehören Auszubildende, und der Betrieb nennt Freundlichkeit, Pünktlichkeit und Qualität als oberste Ziele. Zusätzlich zeigt die Seite einen Imagefilm und aktuelle Neuigkeiten."
+ },
+ {
+  "slug": "die-tuerprofis-berlin",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die Türprofis vermitteln in Berlin Schlüsseldienst und Schlüsselnachmachen in der Nähe und verweisen auf Experten in allen Berliner Bezirken. Genannte Anlässe sind eine Türöffnung, ein abgebrochener Schlüssel, ein defektes Türschloss und der Ersatzschlüssel für Wohnung, Auto oder Briefkasten. Eine interaktive Servicekarte soll den nächstgelegenen Schlüsseldienst anzeigen. Der Auftritt richtet sich an Menschen, die schnell einen Schlüsselnotdienst oder eine Schlüsselkopie im eigenen Bezirk suchen."
+ },
+ {
+  "slug": "first-sicherheitstechnikhandel-e-k-berlin",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "first.sicherheitstechnikhandel e.K. in Berlin-Wilmersdorf verkauft und installiert Sicherheitstechnik für Berlin und Brandenburg und tritt zugleich als Schlüsseldienst in Berlin auf. Der Schwerpunkt liegt auf Schließanlagen für Berlin und Brandenburg, dazu kommen Schlüsselzubehör, Briefkastenanlagen und Türbeschläge, jeweils im Verkauf und mit Installation. Ersatzschlüssel gehören ebenso zum Angebot wie Einbruchschutz, Tresore, Schlüsselschränke und Raumbeschilderung, auf Wunsch montiert der Betrieb vor Ort in den Räumen der Kunden. Er arbeitet mit Herstellern wie ABUS, Burgwächter, Dorma, IKON und Geze zusammen und führt auf seiner Seite Referenzen und Partner auf. Beratung und Ausführung sämtlicher Arbeiten liegen in einer Hand, vom ersten Gespräch bis zur Montage der gewählten Anlage. Der Hauptauftritt wirbt mit dem Satz, die richtigen Leute auszusperren, und stellt Schließanlagen in den Vordergrund. Die Seite nennt Anfahrt, Referenzen und Partner als eigene Bereiche."
+ },
+ {
+  "slug": "udo-schluesseldienst-berlin",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "UDO Schlüsseldienst bietet Türöffnung und Schlosswechsel an und beschreibt sich als schnell, fair und immer da, rund um die Uhr erreichbar. Als Einsatzgebiet nennt der Betrieb auf seiner Seite Nordrhein-Westfalen und nicht Berlin, obwohl der Eintrag in Berlin geführt wird. Im Mittelpunkt steht der Schlüsselnotdienst für verschlossene Türen und defekte Schlösser."
+ },
+ {
+  "slug": "schluesselchef-berlin",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "SchlüsselChef ist ein Berliner Schlüsseldienst, der rund um die Uhr an sieben Tagen der Woche im Einsatz ist. Das Team hilft bei zugefallenen Türen, verlorenen Schlüsseln und Notfällen und arbeitet nach eigener Angabe sauber und möglichst beschädigungsfrei. Kurze Anfahrtszeiten sollen dafür sorgen, dass Kunden rasch wieder Zugang zu ihrer Wohnung erhalten. Der Betrieb stellt ein erfahrenes Team in den Vordergrund und setzt auf schnelle Erreichbarkeit."
+ },
+ {
+  "slug": "tueroeffnung-berlin-24-berlin",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Türöffnung Berlin 24 öffnet Wohnungs-, Haus- und Bürotüren in ganz Berlin, meist ohne Schäden, und hilft bei Schlüsselverlust und zugefallenen Türen. Ein 24-Stunden-Schlüsselnotdienst ist eingerichtet. Neben der Türöffnung nimmt der Betrieb Schlosswechsel und Schlossreparaturen vor, tauscht defekte Schlösser aus, repariert beschädigte Schließsysteme und berät zu Einbruchschutz für Wohnungen, Häuser, Büros, Geschäfte und Gewerbeobjekte. Der Service deckt alle Bezirke ab, genannt werden unter anderem Mitte, Kreuzberg, Charlottenburg, Neukölln, Wilmersdorf, Steglitz, Zehlendorf und Prenzlauer Berg. Nach eigener Angabe ist der Betrieb innerhalb von 30 Minuten vor Ort und nennt vorab, was der Einsatz kostet. Die Techniker verfügen über Fachwissen in Türöffnung, Schließtechnik und Sicherheitstechnik und bilden sich fort. Der Betrieb stellt sich als vertrauenswürdiges Expertenteam für Türöffnungen vor, das Wert auf schnelle Reaktion legt, und beschreibt Anrufe ohne Wartezeit.",
+  "trace": {
+   "festpreis_genannt": "Sie wissen vorher, was es kostet",
+   "gewerblich_objektbetreuung": "Büros, Geschäfte und Gewerbeobjekte in Berlin"
+  }
+ },
+ {
+  "slug": "wisotzki-sicherheitstechnik-berlin",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "false",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "WISOTZKI Sicherheitstechnik in Berlin bedient Berlin, Potsdam und Brandenburg und stellt klar, dass der Betrieb kein Schlüsseldienst ist und keine Not-Türöffnungen anbietet. Sein Geschäft sind Alarmanlagen, Videoüberwachung, Brandschutz, Feuerlöscher, Schutznebel und Zutrittskontrolle mit Beratung, Planung und Wartung. Bei Alarmanlagen arbeitet er mit Systemen von Telenot und Jablotron und schaltet sie auf Wunsch auf einen Wachdienst auf. Dazu kommt mechanische Sicherheit: Schließzylinder und Schließanlagen von ABUS, maßgeschneiderte mechanische Schließsysteme, elektronische Schließanlagen, Schlüsseltresore und Schlösser für Türen und Briefkästen, mit Montage. Ein Onlineshop für Feuerlöscher gehört ebenfalls zum Angebot. Zur Kundschaft zählen Wohnungsbaugesellschaften, Bundesministerien, öffentliche Institutionen, Gewerbe und Privathaushalte. Persönliche Beratung erfolgt nach Terminvereinbarung. Zusätzlich gibt es einen Wachdienst für Berlin, Erste-Hilfe-Artikel und Medizinprodukte im Sortiment und einen Blog zu Alarmanlagen und Brandschutz."
+ },
+ {
+  "slug": "schluesselnotdienst-berlin-mitte-berlin",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Als Schlüsselnotdienst für den Berliner Bezirk Mitte ist dieser Betrieb eingeordnet. Der Name verweist auf einen Einsatz im Zentrum der Stadt und auf Notfälle rund um Schlüssel und Türen, etwa verlorene Schlüssel oder zugefallene Wohnungstüren. Der Betrieb gehört zu den Schlüsseldiensten, die ihr Einsatzgebiet schon im Namen auf einen Stadtteil festlegen und damit vor allem Anwohner und Beschäftigte im Zentrum ansprechen."
+ },
+ {
+  "slug": "pauschal-schluesseldienst-schoeneberg-berlin",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Pauschal Schlüsseldienst Schöneberg arbeitet nach eigener Angabe seit 2020 als Schlüsselnotdienst in Berlin und ist rund um die Uhr an sieben Tagen erreichbar. Die Monteure öffnen Wohnungstüren zerstörungsfrei und tauschen Zylinder aus, wenn eine Öffnung ohne Schaden nicht möglich ist. Nach Einbrüchen montiert der Betrieb Zusatzschlösser. Das Angebot umfasst außerdem Einbruchschutz, Schließanlagen, elektronische Schlösser und Zutrittskontrolle für Gewerbeobjekte sowie Autoöffnungen. Der Preis für die Arbeit wird vor der Anfahrt genannt, versteckte Kosten schließt der Betrieb aus. Als durchschnittliche Anfahrtszeit gibt er rund zwanzig Minuten an, Soforthilfe soll innerhalb von fünfzehn bis dreißig Minuten möglich sein. Die Monteure sind ortskundig, und der Betrieb sieht sich als lokalen Anbieter im Bezirk. Zusätzlich beantwortet der Betrieb Fragen zum Ablauf und erwähnt neben der Türöffnung die Installation von Zusatzschlössern nach einem Einbruch.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Gewerbeobjekte in Berlin"
+  }
+ },
+ {
+  "slug": "autoschluessel-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Autoschlüssel+ in Hamburg-Wandsbek ist auf Schlüssel für Auto, Motorrad und Boot spezialisiert. Der Betrieb fertigt Schlüssel mit Transponder und Fernbedienung an, programmiert sie, repariert abgenutzte Tasten und Gehäuse und stellt Schlüssel nach einem kompletten Verlust wieder her. Dazu kommen Schlüssel für Motorräder, Roller, Yachten und Landmaschinen sowie für Fahrzeuge mit und ohne Wegfahrsperre. Auch Haus-, Briefkasten- und Tresorschlüssel werden angefertigt, nach Schloss oder nach Code. Defekte Schlüsselgehäuse, Batterien und Schlüsselschäfte lassen sich ersetzen. Preise nennt der Betrieb auf einer eigenen Seite und gibt vorab Auskunft, auch zu Anfahrtskosten und möglichen Zuschlägen. Termine sind nötig, und der Betrieb zeigt seine Arbeit in einer Fotogalerie. Der Inhaber tritt unter dem Namen Schlüsseldienst S. Shved auf. Das Einsatzgebiet ist Hamburg und Umgebung, und der Betrieb beschreibt sich als vollständiger Anbieter für Dienstleistungen rund um den Schlüssel. Im Mittelpunkt stehen Fahrzeuge, die Arbeit für Haus und Briefkasten ergänzt das."
+ },
+ {
+  "slug": "schuhmacher-gagik-hamburg-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Vor seiner Schuhmacherausbildung war Gagik Khachatryan Profiboxer, heute führt er in Hamburg seit mehr als zwanzig Jahren am selben Standort eine Schuhmacherwerkstatt. Im Mittelpunkt stehen Schuhreparaturen, daneben das Kopieren von Schlüsseln, der Schlossverkauf, Schleifarbeiten, ein Stempelservice und viele Kleinreparaturen etwa an Taschen und Rucksäcken. Zum Laden gehören Pflegematerialien, eingehende Beratung und Tipps zur Schuhpflege, verarbeitet werden nach Angabe des Inhabers ausschließlich erstklassige Materialien. Eine Kundenstimme im Gästebuch lobt neben dem Schuhhandwerk auch den Schlüsseldienst, der mehrfach aus der Not geholfen habe, und sie erzählt von einem weiten Anfahrtsweg, der sich lohne.",
+  "trace": {
+   "schluessel_nachmachen": "das Kopieren von Schlüsseln",
+   "ladengeschaeft": "Seit über 20 Jahren, an diesem Standort"
+  }
+ },
+ {
+  "slug": "w-siego-sicherheitstechnik-schluesseldienst-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "false",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Siego ist ein Fachgeschäft für Schlüssel, Schlösser und Schließtechnik in Hamburg-Altona, nach eigener Angabe seit 1965 am Markt. Im Laden werden Wohnungs-, Haustür-, Briefkasten-, Tresor- und Spezialschlüssel kopiert, auch Schließanlagenschlüssel und größere Stückzahlen. Der Betrieb führt Profilzylinder von ABUS, CES und KESO, mechanisch und elektronisch, wechselt Zylinder und montiert Schließzylinder, Schließanlagen und Schlossreparaturen auch beim Kunden. Für Einbruchschutz gibt es Panzerriegel, Zusatzschlösser und Fenstersicherungen. Schließanlagen plant der Betrieb für Einfamilienhäuser, Mehrfamilienhäuser, Gewerbe und öffentliche Gebäude und hilft Hausverwaltungen bei Verlust oder defektem Zylinder. Er erklärt Mieterrechte rund um Schlüssel und Schließanlagen und bietet eine kostenlose Erstberatung im Geschäft oder vor Ort. Einen klassischen Notdienst bietet er nicht an; die Stärke liegt in Fachgeschäft, Montagen und Reparaturen. Zum Angebot der Seite gehören ein Kalkulator für Schließanlagen, ein Einbruchschutz-Check und Antworten auf häufige Fragen rund um Schlüssel, Zylinder und Mietrecht."
+ },
+ {
+  "slug": "7s-hamburg-schneiderei-schluesseldienst-schuhreparatur-stickerei-u-v-m-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Hamburger Betrieb 7S ist zuerst eine Schneiderei und ändert und repariert Kleidung, Textilien und Gepäck. Dazu kommt ein Stickereiservice. Außerdem versteht er sich als Schlüsseldienst und Schlüsselnotdienst und betreibt einen Schuh-Reparaturservice, der auf Wunsch auch Konfektionsschuhe anbietet. Die Mischung aus Textil-, Schuh- und Schlüsselhandwerk macht ihn zu einer Anlaufstelle für viele kleine Alltagsreparaturen an einem Ort, bei der Kunden ohne Termin vorbeikommen und sich vor Ort beraten lassen."
+ },
+ {
+  "slug": "meinalarm24-gmbh-alarmanlagen-fuer-haus-gewerbe-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "MeinAlarm24 GmbH plant, installiert und wartet elektronische Sicherheitstechnik für Privat- und Gewerbekunden. Das Produktspektrum umfasst Alarmanlagen für Häuser und Firmen, Videoüberwachung, Brandmelde- und Brandwarnanlagen, Nebelkanonen, Einlasskontrollsysteme und Smart-Home-Lösungen europäischer Hersteller. Zu den elektronischen Schließanlagen gehören RFID-Chips, Smartphone-App, Verwaltungssoftware, Schließpläne und individuelle Benutzerprofile, über die sich Zutritte zeitlich steuern lassen. Die Installation übernehmen eigene Sicherheitstechniker, in der Regel innerhalb von sieben Tagen vom ersten Kontakt bis zur Inbetriebnahme. Ein Wartungsvertrag hält die Alarmanlage langfristig funktionsfähig. Bei Alarm wird eine Notrufleitstelle benachrichtigt, die ständig besetzt ist. Der Betrieb bietet außerdem Ratgeber, einen Einbruchsatlas und einen Preisrechner für die Planung an. Die Seite führt Hausbesitzer, Firmen und Eigentümer verschiedener Immobilien in wenigen Schritten zur passenden Lösung und beantwortet häufige Fragen, etwa ob Sicherheitstechnik eine hohe Investition ist und ob sichtbare Technik Einbrecher anlockt. Als Besonderheit nennt der Betrieb Sicherheitsservices und Fieber-Kameras im Sortiment."
+ },
+ {
+  "slug": "hoffmeister-sicherheitstechnik-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "false",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Hoffmeister Sicherheitstechnik in Hamburg-Volksdorf besteht nach eigener Angabe seit 1937 und arbeitet als Fachgeschäft mit Beratung, Planung, Montage und Wartung. Das Angebot umfasst Schlüssel, Schlösser und Schutzbeschläge für jede Tür, mechanischen Einbruchschutz, Schließanlagen und Tresore. Türöffnungen führt der Betrieb ausschließlich zu seinen Öffnungszeiten durch, eine Rufnummer dafür ist angegeben. Daneben fertigt er Gravuren und Schilder, individuell und präzise. Kunden besuchen das Ladengeschäft direkt im Stadtteil, wo Verschluss- und Beschlagtechnik, Zylinder und Produkte für mechanischen Einbruchschutz zu sehen sind. Der Betrieb beschreibt sich als spezialisiertes Fachunternehmen für Sicherheitssysteme, das Einbruchschutz, Alarmanlagen und Schließtechnik plant, installiert und betreut, und nennt Versicherungsschutz durch fachgerechte Montage als Vorteil. Das Fachgeschäft führt Produkte rund um Verschluss- und Beschlagtechnik, dazu eine Auswahl an Schlüsseln und Zylindern. Beratung, Planung, Montage und Wartung folgen aufeinander, von der ersten Idee bis zur fertigen Anlage, und die Leistungen sind in einer Übersicht zusammengefasst."
+ },
+ {
+  "slug": "hamburger-stahltresor-gmbh-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Hamburger Stahltresor ist ein Tresorfachgeschäft in der Hamburger Innenstadt, das als Familienbetrieb von der dritten Generation der Familie Hartmann geführt wird. Verkauft werden Wertschutztresore, Brandschutztresore, Möbeltresore, Wand- und Bodentresore, Waffenschränke, Schlüsseltresore, Deposit- und Einwurftresore, Dokumentenschränke, Hotelsafes und Tresorraumtüren, auch gebraucht und im Onlineshop mit Versand. Der Tresorservice umfasst Notöffnungen bei Schlüsselverlust, den Wechsel des Schlosses, das Montieren eines neuen Elektronikschlosses, Reparaturen nach Einbruchversuchen, Schweißarbeiten, Entsorgung sowie Anlieferung und Aufstellung über Treppen. Der Betrieb erklärt Widerstandsgrade und gesetzliche Auflagen, etwa für Waffenschränke, und zeigt Videos zu Transport und Notöffnung. Das Team berät zu Wertsachen, Schmuck und Geld im privaten und gewerblichen Einsatz. Der Betrieb nennt sich Fachbetrieb für Tresore und Safes mit geschultem Personal und liefert versandkostenfrei, mit oder ohne Aufstellservice. Produktempfehlungen sind nach Kategorien geordnet."
+ },
+ {
+  "slug": "schuhmacherei-happy-heels-schluesseldienst-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Happy Heels ist eine Hamburger Schuhmacherei, die neben der Schuhreparatur auch einen Schlüsseldienst führt. Der Schwerpunkt liegt auf dem Schuhhandwerk, das im Namen vorne steht, der Schlüsselservice kommt als zweites Standbein hinzu und umfasst das Kopieren von Schlüsseln. Es handelt sich um einen kleinen Laden, in dem Schuhe und Schlüssel am selben Tresen bearbeitet werden."
+ },
+ {
+  "slug": "schluesselnotdienst-fred-borchardt-ehem-lohmann-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Fred Borchardt Sicherheitstechnik, früher unter dem Namen Lohmann bekannt, ist seit 1992 ein Hamburger Fachbetrieb für Schließ- und Sicherheitstechnik mit fester Adresse und direktem Ansprechpartner, ohne Vermittlungszentrale. Der Betrieb öffnet Türen, wobei zugefallene Türen oft schonend geöffnet werden, tauscht und repariert Schließzylinder, Einsteckschlösser und Schutzbeschläge und plant Schließanlagen. Beim mechanischen Einbruchschutz liefert und montiert er Panzerriegel, Kastenriegelschlösser und Mehrfachverriegelungen von Herstellern wie KFV, Siegenia, Fuhr, Winkhaus und IKON. Er installiert außerdem Türschließer und E-Öffner. Kunden sind Privatleute, Versicherungen, Behörden, Firmen und Hausverwaltungen, auch im Umland. Bei Notfällen schließt der Betrieb kurzfristig das Geschäft. Der Auftritt ist mehrsprachig, und es entstehen eigene Seiten für Hamburger Stadtteile. Auf der Seite stehen außerdem Hinweise vor dem Einsatz, etwa dass sich zugefallene Türen oft schonend öffnen lassen, während bei verriegelten Türen oder besonderen Sicherungen eine Beschädigung nicht auszuschließen ist.",
+  "trace": {
+   "ladengeschaeft": "mit fester Anschrift"
+  }
+ },
+ {
+  "slug": "express-schluesseldienst-schuhreparatur-uhrenservice-gravur-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Dieser Hamburger Schlüsseldienst sitzt in Fuhlsbüttel und versorgt auch Langenhorn, Alsterdorf und Ohlsdorf. Er öffnet Türen zerstörungsfrei und ohne Bohren, tauscht Schlösser aus und sichert Türen nach einem Einbruch notfalls provisorisch. Zum Einbruchschutz gehören Sicherheitsschlösser, Türriegel und Querriegelschlösser für Türen und Fenster, mit Beratung vor Ort. Auch Tresore, Briefkästen und Kellerabteile öffnet der Betrieb. Der Notdienst läuft nach eigener Angabe an sieben Tagen rund um die Uhr, auch nachts und an Feiertagen, und der Betrieb ist in rund zwanzig bis dreißig Minuten vor Ort. Den verbindlichen Preis nennt er vor Arbeitsbeginn, im Hamburger Stadtgebiet fällt keine Anfahrtspauschale an. Die Rechnung gibt es vor Ort, Kartenzahlung ist möglich. Callcenter-Weitervermittlung schließt er aus. Der Ablauf ist in vier Schritten beschrieben: Anruf, Kostenvoranschlag, Anfahrt und geöffnete Tür. Kunden aus Fuhlsbüttel kommen auf der Seite mit Erfahrungen zu Wort.",
+  "trace": {
+   "schlossaustausch": "tauschen das Schloss aus"
+  }
+ },
+ {
+  "slug": "schuhmacher-fachbetrieb-juergen-stahl-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Jürgen Stahl führt in Hamburg einen Schuhmacher-Fachbetrieb, der Schuhreparatur jeglicher Art mit einem Schlüsselservice verbindet. Der Betrieb nennt sich Schuhreparatur und Schlüsseldienst und bietet zusätzlich einen Stempelservice an. Die Arbeit am Schuh steht im Vordergrund, der Schlüsselservice ergänzt sie am selben Standort. Die Seite zeigt Arbeiten in einer Bildergalerie, bietet eine Startseite, einen Bereich zum Betrieb und einen Kontaktbereich. Es handelt sich um ein kleines Handwerksgeschäft im Stadtgebiet, das mehrere Dienste an einem Ort zusammenführt. Beide Leistungen erscheinen auf der Seite als eigene Bereiche, daneben ein Bereich mit Arbeitsbeispielen in Bildern."
+ },
+ {
+  "slug": "schluesseldienst-bahnhof-altona-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Im Altonaer Bahnhof betreibt dieser Betrieb einen Schlüssel- und Schuhdienst. Beim Schlüssel werden Kopien mit moderner Technik in Sekundenschnelle gefertigt, ein großes Lager an Rohlingen ist vorhanden. Dazu kommen Notöffnungen in und um Hamburg, nach eigener Angabe rund um die Uhr, bei denen der Betrieb den Preis als Festpreis nennt. Die Fachberatung betrifft Sicherheitstechnik für Privathäuser und Firmengebäude: Planung von Sicherheitskonzepten, Projektierung von Sicherheitssystemen und Angebote, dann Fertigung von Schließanlagen in Eigenprofilen und gleichschließenden Zylindern in Normalprofilen, samt Montage und Wartung. Außerdem gibt es einen Schuhdienst mit Reparaturen sowie Laser- und CNC-Gravuren auf vielen Materialien. Der Betrieb ist am Bahnhof direkt zu finden und auch telefonisch erreichbar. Die Notdienstnummer steht in der Kopfzeile, daneben der Hinweis auf Festpreise für den Einsatz. Das Lager an Rohlingen ist groß, und für Schlüsselkopien ist der Betrieb direkt im Bahnhof erreichbar.",
+  "trace": {
+   "tueroeffnung": "Notöffnungen in und um Hamburg",
+   "gewerblich_objektbetreuung": "Privathaus oder Firmengebäude"
+  }
+ }
+]

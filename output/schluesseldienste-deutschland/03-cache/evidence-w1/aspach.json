@@ -1,0 +1,25 @@
+[
+ {
+  "slug": "a-k-schluesselnotdienst-aspach",
+  "name": "A. K. Schlüsselnotdienst",
+  "city": "Aspach",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "",
+  "rating": "5",
+  "reviews": "87",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "87"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "service_options: ['offers_online_appointments', 'has_onsite_services']",
+   "accessibility: ['has_wheelchair_accessible_seating', 'has_wheelchair_accessible_restroom']"
+  ],
+  "maps_description": "Ein kleiner unachtsamer Moment genügt, schon steht man vor verschlossener Tür. Manchmal ist man nicht einmal selber Schuld, da die Mechanik oder das Material nachgibt.\nWas tun in solch einer Notsituation?\nGenau für solche Fälle bin ich zur Stelle.\n\nA. K. Schlüsselnotdienst aus Aspach für die Region.\n\nIch bin 24 Stunden am Tag für Sie erreichbar und in der Regel in unter 30 min bei Ihnen vor Ort.\nBei den Preisen richte ich mich nach dem Unternehmerverband Metall Baden-Württemberg.",
+  "site_status": "http 500"
+ }
+]

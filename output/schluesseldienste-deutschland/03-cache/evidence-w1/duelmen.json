@@ -1,0 +1,45 @@
+[
+ {
+  "slug": "schluesseldienst-duelmen-cora-style-duelmen",
+  "name": "Schlüsseldienst Dülmen CoRa Style",
+  "city": "Dülmen",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "Costume jewelry shop, Fashion accessories store, Women's clothing store",
+  "rating": "5",
+  "reviews": "13",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "13"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "from_the_business: ['is_owned_by_women']",
+   "service_options: ['offers_online_appointments', 'has_onsite_services']"
+  ],
+  "maps_description": "Im Januar 2014 eröffnet meine Frau Ihre Boutique an der Münsterstraße 30, mit Schwerpunkt auf selbst erstellten Perlenschmuck.\nAuf Nachfrage vieler Kunden erweiterte Sie noch Ihr Angebot über Textilien, Handtaschen, Modeschmuck, Schals, Tücher und viele andere schöne Sachen.\nIm Januar 2015 begann noch zusätzlich der Service rund ums Schloss, wie das Kopieren von Schlüssel, der Verkauf von Schließzylinder, Schlösser und das erstellen und verbauen von Schließanlagen.\nIm Oktober 2016 erhielten wir noch zusätzlich, nach erfolgtem Lehrgang, das Zertifikat zum Tür öffnen.\nDieses setzen wir bis zum heutigen Tag erfolgreich um, und konnten schon vielen Kunden, durch preiswertes und unbeschädigtes Tür öffnen, helfen.",
+  "site_status": "no website"
+ },
+ {
+  "slug": "schluesseldienst-schluesselnotdienst-duelmen-duelmen",
+  "name": "Schlüsseldienst & Schlüsselnotdienst Dülmen",
+  "city": "Dülmen",
+  "maps_type": "Locksmith",
+  "maps_subtypes": "",
+  "rating": "",
+  "reviews": "0",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "0"
+  ],
+  "has_hours": true,
+  "maps_about": [],
+  "maps_description": "",
+  "site_status": "no website"
+ }
+]

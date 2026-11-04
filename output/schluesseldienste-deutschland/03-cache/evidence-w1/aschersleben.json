@@ -1,0 +1,27 @@
+[
+ {
+  "slug": "schnuersenkel-schuh-und-schluesseldienst-aschersleben",
+  "name": "Schnürsenkel Schuh- und Schlüsseldienst",
+  "city": "Aschersleben",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "Shoe repair shop",
+  "rating": "5",
+  "reviews": "7",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "7"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "from_the_business: ['is_owned_by_women']",
+   "service_options: ['has_onsite_services']",
+   "amenities: ['has_restroom_unisex']",
+   "service_options: ['offers_online_appointments']"
+  ],
+  "maps_description": "Wir sind ein Dienstleistungsunternehmen mit den Schwerpunkten Schuhreparaturen, Schlüssel kopieren sowie Handel mit allem rund um Ihre Schuhe, Sicherheitstechnik, Schlösser für Türen, Vorhangschlösser und Fahrradschlösser. Außerdem betreiben wir einen eBay Shop Namens tila-multishop wo wir Klemmbausteinsets sowie Holzspielzeug verkaufen.",
+  "site_status": "http 503"
+ }
+]

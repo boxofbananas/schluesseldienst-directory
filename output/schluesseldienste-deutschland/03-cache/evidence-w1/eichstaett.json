@@ -1,0 +1,46 @@
+[
+ {
+  "slug": "schuh-und-schluesseldienst-uhrenservice-textilreinigung-eichstaett",
+  "name": "Schuh- und Schlüsseldienst Uhrenservice Textilreinigung",
+  "city": "Eichstätt",
+  "maps_type": "Shoe repair shop",
+  "maps_subtypes": "Clothing alteration service, Key duplication service, Leather cleaning service",
+  "rating": "3.9",
+  "reviews": "12",
+  "stars_1_to_5": [
+   "3",
+   "0",
+   "0",
+   "1",
+   "8"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "accessibility: ['has_wheelchair_accessible_parking']"
+  ],
+  "maps_description": "Liebe Kunden,\nschon seit 2001 führe ich dieses Unternehmen und es macht mir viel Spaß meine Kunden zu begeistern. Ich freue mich sehr euch bei mir im Laden begrüßen zu dürfen.\nEuer Schuster und Co",
+  "site_status": "no website"
+ },
+ {
+  "slug": "schluessel-liebold-eichstaett",
+  "name": "Schlüssel Liebold",
+  "city": "Eichstätt",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "",
+  "rating": "4.1",
+  "reviews": "9",
+  "stars_1_to_5": [
+   "1",
+   "1",
+   "0",
+   "1",
+   "6"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "parking: ['has_parking_street_free', 'has_parking_lot_free']"
+  ],
+  "maps_description": "Schließanlagen, Schlüsseldienst",
+  "site_status": "no website"
+ }
+]

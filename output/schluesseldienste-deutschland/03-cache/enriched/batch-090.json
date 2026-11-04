@@ -1,0 +1,633 @@
+[
+ {
+  "slug": "tresorservice-diederichsen-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "trace": {
+   "schluesseldienst_kern": "tauschen bei Bedarf auch Schlösser aus",
+   "gewerblich_objektbetreuung": "für Unternehmen, Privatpersonen und öffentliche Einrichtungen"
+  },
+  "description": "Tresorservice Diederichsen in Hamburg konzentriert sich ganz auf Tresore und Wertschutzschränke. Der Betrieb öffnet Tresore aller bekannten Marken, bis hin zu Antiktresoren, Waffenschränken und großen Panzerkammern, und arbeitet dabei beschädigungsarm; auch mechanische Zahlenkombinationsschlösser werden zerstörungsfrei geöffnet. Dazu kommen Ersatzschlüssel auch für seltene oder antike Modelle, der Austausch von Tresorschlössern, Reparatur, Wartung und die Umrüstung auf ein neues Schließsystem. Ersatztresore werden verliehen, außerdem übernimmt der Betrieb Transport und Entsorgung von Tresoren. Er ist rund um die Uhr erreichbar, auch an Sonn- und Feiertagen, und arbeitet für Unternehmen, Privatpersonen und öffentliche Einrichtungen in Hamburg, Norddeutschland und bundesweit. Einen festen Preis nennt er vorab, nachdem er den Fall anhand von Fotos und eines Telefonats eingeschätzt hat. Der Inhaber wurde für eine Fernsehdokumentation über den Alltag eines Tresoröffners begleitet, und der Betrieb veranstaltet Seminare."
+ },
+ {
+  "slug": "schuh-schluesseldienst-steilshoop-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Im Hamburger Stadtteil Steilshoop verbindet dieser Betrieb ein Schuhmachergeschäft mit Schlüsselarbeiten. Das Angebot beginnt bei Schlüsseln und Batterien und reicht bis zum Schlüsselnotdienst; dazu kommen Schuhreparatur, Verkauf, Gravuren, Sicherheitstechnik, Einbruchschutz und Schlüsseldienst. Der Betrieb verweist auf jahrelange Erfahrung und nimmt Termine online an. Daneben sind Uhrmacherarbeiten und der Handel mit Sicherheitsausrüstung Teil des Geschäfts."
+ },
+ {
+  "slug": "schuhreparatur-schluesseldienst-smolarz-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Hamburger Betrieb Schuhreparatur & Schlüsseldienst Smolarz ist in erster Linie eine Schuhmacherei. Neben der Reparatur von Schuhen bietet er einen Schuhputzservice an und fertigt Schlüssel an. Das Angebot dreht sich damit um Schuhe in jeder Form, vom Reparieren bis zum Auffrischen, und um Schlüssel. Der Name verbindet beide Arbeitsfelder unter einem Dach. Die Öffnungszeiten des Ladens sind hinterlegt."
+ },
+ {
+  "slug": "almas-industries-ag-niederlassung-hamburg-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Die Hamburger Niederlassung der Almas Industries AG liefert Sicherheitstechnik für Unternehmen, vor allem Zutrittskontrolle per Fingerabdruck, Gesichtserkennung oder RFID, daneben Einbruchmeldeanlagen, Videoüberwachung, Zeiterfassung samt Abwesenheitsplanung und Perimeterschutz für Außenbereiche. Die Leistungen reichen von Sicherheitsberatung und Projektierung bis zu Installation und Service. Das Unternehmen unterstützt Firmen seit 2004 und ist in mehreren Ländern vertreten; für Branchen wie Apotheken, Fitnessstudios, Pflegedienste und Autohäuser gibt es eigene Lösungen, ebenso für Logistikunternehmen und einen Eishockey-Club. Eine Notruf- und Serviceleitstelle ist rund um die Uhr besetzt und reagiert auf Alarmsignale. Ein Schlüsseldienst im Sinne von Türöffnung oder Schlosswechsel gehört nicht zum Angebot; Türöffnung bedeutet hier automatische Tor- und Türöffnungssysteme. Biometrische Lesegeräte werden vom Unternehmen selbst hergestellt, und eine eigene Software unterstützt Zeiterfassung und Auswertung; Kunden berichten in Interviews über ihre Erfahrungen.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Sicherheitstechnik für Unternehmen"
+  }
+ },
+ {
+  "slug": "bofferding-gmbh-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "BOFFERDING GmbH in Hamburg liefert und montiert Sicherheitstechnik für Privathaushalte, Wohnungsunternehmen, Gebäudeverwaltungen, das Gesundheitswesen, öffentliche Einrichtungen sowie Träger und Investoren. Das Angebot umfasst Einbruchschutz und Alarmsysteme, elektronische Schließsysteme und Schließanlagen, Zutrittskontrolle, Türtechnik, automatische Türantriebe, motorische Verriegelungen, Briefkastenanlagen und Fluchtwegsicherung. Zu den Dienstleistungen zählen Beratung, Planung und Projektierung, Montage und Installation sowie Wartung und Instandsetzung; eine Spezialwerkstatt gehört ebenfalls dazu. Auch Planer, Ausschreibende, Verarbeiter und Handwerker werden bedient, und Referenzen lassen sich anfordern. Elektronische Schließzylinder für zuhause gibt es über einen Onlineshop, etwa als Starterset mit Tisch-Programmiergerät und Doppelzylinder. Der Betrieb blickt auf mehr als 75 Jahre Arbeit mit Sicherheitstechnik zurück. Besondere Themen sind Komfort und Einbruchschutz im Mehrfamilienhaus für Mieter und Vermieter, Türen ohne Schwellen und mit automatischem Antrieb und die Verwaltung von Schlüsseln in Wohnanlagen über Schließanlagen für Mehrfamilienhäuser."
+ },
+ {
+  "slug": "schmielau-brandes-gmbh-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Seit 1912 ist Schmielau & Brandes in Hamburg zuhause, im Stadtteil Rahlstedt, als Unternehmen für Schließ- und Sicherheitstechnik. Das Sortiment umfasst mechanische und elektronische Lösungen rund ums Gebäude: Schließzylinder und Schließsysteme, darunter das KESO-System 8000 Omega 2, ein Flaggschiff aus der Schweiz mit technischem Schlüsselkopierschutz und hohem Bohr- und Ziehschutz, digitale Schließsysteme von Simons Voss, Schließanlagen für private Wohngebäude und Gewerbeobjekte sowie Zutrittskontrolle und Haussicherung. Hinzu kommen Tresore von Rottner mit geprüften Sicherheitsschlössern der Klasse A oder B und Feuerfalz. Der Betrieb arbeitet eng mit Fachhandelspartnern aus Schlossereien und Tischlereien zusammen. Auf der Seite stehen Hersteller-Informationen, Downloads und Videos zu den Systemen bereit. Die Seite erklärt, dass ein KESO-Zylinder des Typs K8000 nicht dem anderen gleicht und welcher Zylinder für welchen Bereich passt, und verweist auf Beratung und weitere Informationen zu den Systemen."
+ },
+ {
+  "slug": "m-e-service-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "M.E. Service in Hamburg bietet Schlüsseldienst, Uhrservice, Gravur und diverse Lederreparaturen an. Als Hauptkategorie steht das Nachmachen von Schlüsseln, als Nebenleistungen sind Graveur, Lederreparatur und Uhrenreparatur genannt. Zum Leistungsprofil gehören damit Gravuren, Uhrenreparaturen und Lederarbeiten neben dem Schlüsseldienst. Der Name steht für ein Spektrum an Kleinarbeiten rund um Schlüssel, Uhren und Leder. Öffnungszeiten sind hinterlegt."
+ },
+ {
+  "slug": "schuh-und-schluesseldienst-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schuh und Schlüsseldienst ist ein Betrieb in Hamburg, dessen Name zwei Arbeitsfelder verbindet: Schuhwerk und Schlüssel. Seine Hauptkategorie ist der Schlüsselnachbau, also das Anfertigen und Kopieren von Schlüsseln. Der Name stellt Schuh und Schlüsseldienst gleichberechtigt nebeneinander. Der Laden hat feste Öffnungszeiten und arbeitet im Hamburger Stadtgebiet für Kunden aus der Umgebung."
+ },
+ {
+  "slug": "nuri-schuh-und-schluesseldienst-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Nuri Schuh und Schlüsseldienst in Hamburg repariert Schuhe und bietet daneben Schlüsselarbeiten an: Schlüsselkopien, Türöffnungen und einen Schlüsselnotdienst. Außerdem verkauft und berät der Betrieb zu Sicherheitseinrichtungen. Die Aufzählung beginnt mit der Schuhreparatur und führt dann Schlüsselnotdienst, Schlüsselkopien, Türöffnungen sowie Verkauf und Beratung auf. Damit deckt der Betrieb Handwerk am Schuh und am Schloss in einem Geschäft ab. Öffnungszeiten sind hinterlegt."
+ },
+ {
+  "slug": "schuhmacherei-schluesseldienst-multi-express-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Im Tibarg Center in Hamburg arbeitet die Schuhmacherei & Schlüsseldienst Multi-Express, die sich selbst als Schuh und Schlüsseldienst beschreibt. Hauptkategorie ist die Schuhreparatur; hinzu kommen Gravuren und das Anfertigen von Schlüsseln. Das Geschäft ist als Laden im Center angesiedelt, wo Schuhmacherarbeit und Schlüsselservice nebeneinander angeboten werden. Die Verbindung von Schuhmacherhandwerk und Schlüsselservice gibt dem Betrieb seinen Namen. Öffnungszeiten des Geschäfts sind hinterlegt."
+ },
+ {
+  "slug": "gfs-sicherheitstechnik-gmbh-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "GfS Sicherheitstechnik aus Hamburg entwickelt, fertigt und vertreibt seit mehr als 40 Jahren Fluchtwegsicherungssysteme und türentechnische Komponenten. Im Programm sind EH-Türwächter, Schwenk-Türwächter, Flügelwächter, Fensterwächter, Terminals, Fluchttürhauben, Schlüsseldepots und Tagalarm, außerdem Brandschutz-Komponenten, Großflächentaster, Schlüsseltaster und Schalter, Schutzabdeckungen, Kabelübergänge, Zutrittskontrolle und Zutrittssteuerung sowie Ersatzteile. Die Produkte sichern Notausgänge: Im Notfall lässt sich die Tür mit einem Handgriff öffnen, während ein Alarmsignal auf unbefugte Benutzung aufmerksam macht. Der Betrieb ist Hersteller von Sicherheitstechnik für Notausgänge und kein Schlüsseldienst. Produktberater, Katalog, Produktvideos, Systemlösungen und Unterlagen für Montage und Ausschreibung ergänzen das Angebot, und eine internationale Seite wendet sich an Kunden im Ausland. Die Auswahl reicht von einfachen Lösungen bis zu Türüberwachungsanlagen; der Fensterwächter arbeitet batteriebetrieben ohne Elektroinstallation und lässt sich leicht nachrüsten; auch Fluchttürhauben und ein Smart-Terminal gehören zum Programm."
+ },
+ {
+  "slug": "ast-alstertaler-sicherheitstechnik-gmbh-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "trace": {
+   "schluesseldienst_kern": "können wir einen passenden gleichschließenden Zylinder installieren",
+   "gewerblich_objektbetreuung": "Wir entwickeln Konzepte für Privat und Gewerbe und setzen diese um"
+  },
+  "description": "Seit 1991 sichert die ast Alstertaler Sicherheitstechnik GmbH in Hamburg Privathäuser, Geschäfte, Arztpraxen, Büros und Gewerbeobjekte gegen Einbruch und Brand. Der Schwerpunkt liegt auf Alarmanlagen von Ajax, funkbasiert oder verkabelt, und von Telenot für Gewerbe, auf Videoüberwachung, Brandschutz mit Rauchmeldern und Brandmeldeanlagen sowie Zutrittskontrolle mit Sprechanlagen, Türöffnern, Motorschlössern und elektronischen Schließzylindern. Dazu kommt mechanischer Schutz für Fenster und Türen: Fensterschutz, Türschutz, Panzerriegel, Schließzylinder und Zusatzsicherungen, auch von ABUS. Soll ein Panzerriegel mit dem normalen Haustürschlüssel zu öffnen sein, installiert der Betrieb einen passenden gleichschließenden Zylinder; KESO-Zylinder liefert er auch als Schließanlage. Die Konzepte gelten für Privat und Gewerbe. Die Seite nennt auch den Zusammenhang mit der Initiative K-EINBRUCH und einem Merkblatt für Einbruch- und Überfallmeldeanlagen des Landeskriminalamtes Hamburg; zum Sortiment gehören zudem Ajax-Videoüberwachung und Brandwarntechnik."
+ },
+ {
+  "slug": "duenker-sicherheitstechnik-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Dünker Sicherheitstechnik in Hamburg arbeitet seit 1984 für Privat- und Gewerbekunden und hat ein Ladengeschäft in Fuhlsbüttel. Das Angebot reicht von der Türöffnung bei Aussperrungen über maßgeschneiderte Schließanlagen, Zutrittskontrolle und mechanischen Einbruchschutz bis zu Briefkastenanlagen, Tür- und Torantrieben, Fluchtwegsicherung und Rauchmeldern. Für Fenster gibt es mechanische Sicherungen und nachrüstbare Pilzkopfzapfenbeschläge. Schlüssel werden computergesteuert angefertigt, nach Muster oder Nummer; Nachbestellungen ab Werk laufen mit Sicherungskarte, und die Karten wie auch Schlüssel lagern in geschützten Räumen. Der Betrieb pflegt einen Biffar-Service, führt Beschläge und Schließtechnik mehrerer Hersteller, darunter Hoppe, CES, KFV-Siegenia, GU-BKS, DOM, KABA und Simons Voss, und hat einen Notdienst. Beratung und Installation von Tresoren gehören ebenfalls dazu. Die Geschichte des Hauses ist über Stationen in den Jahren 1984, 1988 und 2008 beschrieben, und eine Galerie sowie eine Partnerseite zeigen Arbeiten und Hersteller."
+ },
+ {
+  "slug": "carl-luedemann-e-k-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Carl Lüdemann e.K. in Hamburg ist ein Traditionsbetrieb für Tresore, dessen Geschichte nach eigener Angabe bis ins Jahr 1800 zurückreicht. Das Geschäft verkauft neue und gebrauchte Tresore sowie Waffenschränke, liefert und transportiert sie an den Wunschort und kümmert sich um Reparaturen, Notöffnungen, Entsorgung und Schlüsselanfertigung; Safes lassen sich nachträglich auf elektronische Schlösser umrüsten. Zu den Aufgaben zählen außerdem Querriegel an Wohnungs- und Haustüren. Für Schlüssel steht eine moderne Schlüsselfräsmaschine mit Laserabtastung bereit. Der Betrieb ist Mitglied beim norddeutschen Metallgewerbeverband und der Metallinnung und Gründungsmitglied der Landesfachgruppe Schließ- und Sicherungstechnik Hamburg. Zu den Kunden zählen Behörden, Gewerbe, Banken, Handelsketten und Privatpersonen, auch im Umland wie Bad Oldesloe, Lübeck, Norderstedt und Pinneberg. Eine Beratung vor Ort ist möglich. Die Seiten behandeln Tresor, Tresorentsorgung, Tresoröffnung, Tresorreparatur und Tresorschlüssel jeweils für Hamburg.",
+  "trace": {
+   "ladengeschaeft": "Bei uns finden Sie neue und gebrauchte Tresore",
+   "gewerblich_objektbetreuung": "Öffnungen von Sicherheitseinrichtungen für Behörden, Gewerbe und Privat"
+  }
+ },
+ {
+  "slug": "schluessel-zentrum-lamade-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "trace": {
+   "schluesseldienst_kern": "Türöffnungen Faire, beschädigungsfreie Öffnung im Notfall"
+  },
+  "description": "Das Schlüssel-Zentrum Lamade ist ein Betrieb für Sicherheitstechnik in der Hamburger Innenstadt. Zu den Leistungen zählen mechanische Schließsysteme als robuste Lösung für die Türsicherung, elektronische Schließsysteme mit flexibler Zutrittskontrolle, Alarmanlagen für Zuhause und Unternehmen sowie Videoüberwachung mit moderner Kameratechnik. Außerdem arbeitet der Betrieb als Schlüsseldienst und hilft bei Schlüsselverlust oder Defekt. Türöffnungen im Notfall führt er beschädigungsfrei aus, bei Tag und bei Nacht. Alarmanlagen und Videoüberwachung sind nach seiner Darstellung rund um die Uhr im Einsatz. Die Leistungsübersicht führt Schlüsseldienst, Türöffnungen, Alarmanlagen, Videoüberwachung und beide Arten von Schließsystemen auf; erreichbar ist der Betrieb telefonisch und per E-Mail. Das Angebot verbindet damit klassische Schlüsselarbeit mit Technik für Gebäude und Betriebe. Die Beschreibung stellt die Mischung aus Schloss- und Elektroniktechnik in den Mittelpunkt und richtet sich an Haushalte wie an Firmen."
+ },
+ {
+  "slug": "koren-danny-sicherheitstechnik-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Koren Danny Sicherheitstechnik in Hamburg-Rahlstedt vertreibt Sicherheitsprodukte der Marke MUL-T-LOCK. Im Mittelpunkt stehen der Sicherheitszylinder mit Bohr-, Kern- und Abtastschutz, der sich an bestehende Mul-T-Lock-Schließungen angleichen lässt und einen Zylindertausch erlaubt, sowie Vorhängeschlossgehäuse und Mehrfach-Türverriegelungen, die nach allen vier Türseiten schließen. Diese Verriegelungen dienen als Haupt- oder Zusatzschloss in verschiedenen Ausführungen, und der Verriegelungsvorgang ist geometrisch. Eine eigene Produktlinie sichert Container, Kfz und Lkw: Zusatzschlösser für Fahrerkabine, Gepäck- und Laderaum, elektronische Systeme mit GPS und Mobilfunk sowie Warnungssysteme und Wegfahrsperren für Fahrzeuge, die mehrere Sicherheitsniveaus bieten. Die Seite ist knapp gehalten und führt neben dem Produktangebot nur Angaben über den Betrieb und den Kontakt. Der Sicherheitszylinder bietet neben dem Kern- und Abtastschutz einen Bohrschutz. Die Produkte richten sich an Betreiber von Containern, Fahrzeugen und Gebäuden, die zusätzliche Sicherung brauchen."
+ },
+ {
+  "slug": "karl-mayer-schluesseldienst-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Karl-Mayer schlüsseldienst ist als Schlüsselnotdienst für Hamburg tätig und gehört nach seiner Kategorie zu den Notdiensten rund um Schlüssel und Schlösser. Der Betrieb gibt an, ein zuverlässiger Schlüsselnotdienst in der Stadt zu sein. Der Name stellt den Schlüsseldienst in den Mittelpunkt des Angebots. Öffnungszeiten sind hinterlegt. Die Stadt Hamburg ist sein Arbeitsort."
+ },
+ {
+  "slug": "sicherheit-design-frank-doehner-baubeschlaege-gmbh-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Sicherheit & Design Frank Döhner Baubeschläge GmbH wurde im April 1986 in Hamburg-Niendorf gegründet und sitzt heute in Barmbek-Süd. Das Unternehmen versteht sich als Handels-, Handwerks- und Dienstleistungsbetrieb der mechanischen Sicherheitstechnik und der Elektroniksysteme für Schließ-, Alarm-, Video-, Zeiterfassungs-, Zutrittskontroll- und Rettungsweg-Technik. Eigene Schlosser, Tischler und Elektroniker decken das Angebot ab. In der Ausstellung im Ladengeschäft stehen Einbruchschutz für Fenster und Türen, Schlösser, Design-Beschläge, Briefkästen sowie Tür-, Fenster- und Möbelgriffe. Schlüssel fertigt der Betrieb nach Legitimation mit Sicherungskarte und hält Türzylinder-Rohlinge bereit. Schließanlagen, Fluchtwegsicherung und Feststellanlagen gehören zum Programm. Ein Schlossnotdienst steht zu den Geschäftszeiten bereit, außerhalb nach Vereinbarung. Kunden sind Architekten, Bauherren, Hausverwaltungen, Handwerker und Privatpersonen. Zu den Einsatzgebieten gehören außerdem Drehflügelantriebe, Gegensprechanlagen, Videoüberwachung und Alarmanlagen, und ein Verkaufsraum liegt auf dem Hinterhof."
+ },
+ {
+  "slug": "sentect-sicherheit-kommunikation-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "SENTECT Sicherheit & Kommunikation arbeitet von Standorten in Hamburg und Lüneburg aus und plant, installiert und wartet Sicherheitssysteme für Unternehmen: Einbruchmeldeanlagen, Brandmeldeanlagen, Videoüberwachung mit Personen- und Kennzeichenerkennung, Zutrittskontrolle und IT-Sicherheit. Es gibt Lösungen für Groß- und Einzelhandel, Apotheken, Praxen, Kanzleien, Transport und Logistik sowie für Hausverwaltungen, Vermieter und Privatkunden, dazu Unterstützung für Architekten und Planungsbüros. Die Zutrittskontrolle reicht von elektromagnetischen Schließzylindern bis zu personalisierten Transpondern und Code-Schlüsseln und umfasst Türsysteme, Beschläge, Türschließer, Zeiterfassung und Hotelschließsysteme. Zum Service zählen die Schulung der Mitarbeiter und die Wartung. Betreuung rund um die Uhr gehört zum Angebot. Das Unternehmen kann auf mehr als zehn Jahre Erfahrung verweisen und ist ein Anbieter von Sicherheits- und Kommunikationstechnik, kein klassischer Schlüsseldienst. Mit Personenerkennung, Außen- und Innenanwendung der Videotechnik sowie einem Konzept für Lebensmitteleinzelhandel, Apotheken, Ladengeschäfte und Bürogebäude richtet sich das Angebot an gewerbliche Auftraggeber."
+ },
+ {
+  "slug": "krl-mayer-schluesseldienst-wandsbek-hamburg",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Krl-Mayer schlüsseldienst & Wandsbek bietet einen Schlüsselnotdienst im Hamburger Stadtteil Wandsbek an und gehört nach seiner Kategorie zu den Notdiensten rund um Schlüssel und Schlösser. Der Betrieb gibt an, ein zuverlässiger Schlüsselnotdienst zu sein. Der Name nennt Stadtteil und Gewerk zugleich. Öffnungszeiten sind hinterlegt. Die Stadt Hamburg ist sein Arbeitsort, der Stadtteil Wandsbek sein Einsatzgebiet."
+ },
+ {
+  "slug": "service-punkt-schluesseldienst-koeln",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Service Punkt Schlüsseldienst arbeitet in Köln und Umgebung und hilft bei Aussperrung, Schlüsselverlust und defekten Schlössern; Techniker sind rund um die Uhr verfügbar und kommen zum Zuhause oder zum Auto. Das Leistungsspektrum umfasst Türöffnung ohne Beschädigung, Autoöffnung nach versehentlicher Verriegelung, Türschlösser und Einsteckschlösser, Sicherheitsschlüssel, Schlüsselkopien und Autoschlüssel sowie elektronische Sicherheitslösungen. Termine lassen sich online vereinbaren, und ein Vor-Ort-Service gehört zum Angebot. Zusätzlich führt der Betrieb Schuhreparatur, Uhrenservice, Gravur, Stempel, Schleifservice und Taschenreparatur. Für die Filiale gelten feste Öffnungszeiten von Montag bis Samstag, der Notdienst läuft an sieben Tagen die Woche. Den Preis für die Türöffnung nennt der Betrieb vorab als Pauschale einschließlich Anfahrt und Mehrwertsteuer. Der Betrieb stellt sich als Schlüsseldienst für Köln vor und arbeitet nach eigener Angabe zerstörungsfrei; erfahrene Techniker übernehmen die Einsätze, und bei einer Türöffnung kommen moderne Ausrüstung und Fachkenntnis zum Einsatz.",
+  "trace": {
+   "schlossaustausch": "defektes Schloss ersetzen",
+   "elektronische_schliesssysteme": "Elektronische Sicherheit"
+  }
+ },
+ {
+  "slug": "krs-schuh-und-schluesseldienst-koeln-suelz-koeln",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Seit 27 Jahren arbeitet KRS Schuh und Schlüsseldienst in Köln-Sülz. Der Hauptzweig ist die Schuhreparatur; dazu kommen Gravuren, Stempel, Näharbeiten, Uhrenreparatur und das Anfertigen von Schlüsseln. Das Geschäft führt nach seinen Kategorien auch eine Nähstube und einen Stempelladen. Der Betrieb sagt von sich, er freue sich, jeden weiteren Tag für seine Kundschaft da zu sein."
+ },
+ {
+  "slug": "schuhstar-schuhmacher-schluesseldienst-wdr-koeln",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schuhstar Schuhmacher Schlüsseldienst WDR in Köln repariert Schuhe, von Designer-Pumps bis zu rahmengenähten Modellen. Umfärbungen und Schaftänderungen sind möglich, Marken wie Louboutin, Jimmy Choo und Red Wing sowie die Reparatur von Dr. Martens zählen zum Standard. Als weitere Tätigkeiten sind Lederwaren, Schuhputz und der Verkauf von Schuhen genannt, außerdem das Anfertigen von Schlüsseln."
+ },
+ {
+  "slug": "schluesseldienst-schuh-schluesseldienst-service-punkt-inhaber-hasan-ercan-oezguer-koeln",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "In Köln-Dellbrück repariert ein kleiner Laden Schuhe und macht Schlüssel nach; die meisten Kunden kommen wegen der Schuhe. Daneben arbeitet er als Schlüsseldienst: Er fräst Nachschlüssel im Laden und sucht auch für komplizierte Typen den passenden Rohling heraus, tauscht Schließzylinder und richtet Schließanlagen samt Plan ein. Zugefallene Türen öffnet er rund um die Uhr, auch nachts und am Wochenende, und nennt dafür einen festen Preis; bei beschädigten Schlössern wird erst vor Ort geschaut. Schließzylinder, Einsteckschlösser, Vorhängeschlösser und Fahrradschlösser hat der Betrieb vorrätig. Hinzu kommen Gravuren im Sofortdienst, etwa für Klingelschilder, Stempel, Uhrenreparaturen mit Batterie- und Armbandwechsel, Lederarbeiten und Gürtel nach Maß. Reparaturpreise nennt der Betrieb vor Arbeitsbeginn. Den Laden gibt es seit 2018. Auftraggeber geben Schuhe heute ab und holen sie am nächsten Tag wieder ab. Der Betrieb nimmt nicht jeden Auftrag an und nennt das vorab, und neben der Sicherheitstechnik führt er Pflegemittel und Zubehör für Schuhe."
+ },
+ {
+  "slug": "mr-lox-schluesseldienst-koeln",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "mr. Lox Schlüsseldienst arbeitet in Köln als Notdienst rund um die Uhr, mit Einsätzen in Innenstadt, Rodenkirchen, Lindenthal, Ehrenfeld, Nippes und weiteren Stadtteilen. Der Betrieb öffnet Türen nach eigener Angabe in aller Regel zerstörungsfrei, außerdem Autos und Tresore, und wechselt Schlösser samt Schließzylinder. Werkzeugkoffer, gängige Ersatzteile und ausgewählte Sicherheitsprodukte sind im Fahrzeug dabei, damit Türöffnung oder Schlosswechsel direkt erledigt werden. Dazu kommen Reparaturen an Türen und Fenstern, Beratung zum Einbruchschutz mit Panzerriegeln, Mehrfachverriegelungen, Fenstersicherungen und Pilzkopfverriegelung sowie mechanische und mechatronische Schließanlagen, im Notdienst wie nach Terminvereinbarung. Der Betrieb nennt feste Preise für Einsätze in ganz Köln. Ein Fernsehteam des WDR hat die Monteure bei einer Beratung und Montage begleitet. Zum Auftritt gehören Hinweise auf Empfehlungen von Verbraucherschutzseiten und eine Unterstützung der Gewerkschaft der Polizei; die Monteure sind nach eigener Angabe binnen kurzer Zeit am Einsatzort."
+ },
+ {
+  "slug": "freiberger-schloss-schluesseldienst-koeln-suelz-koeln",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Das Fachgeschäft Ch. A. Freiberger Sicherheitssysteme in Köln-Sülz besteht nach eigener Angabe seit 1904 und hat einen weiteren Standort in Hürth. Es arbeitet als Schlüsseldienst und Anbieter von Sicherheitssystemen, mit Schlüsselnotdienst und Aufsperrdienst rund um die Uhr. Der Betrieb tauscht Haustürschlösser, Mehrfachverriegelungen, Türschließer und Türöffner aus, montiert Alarmanlagen und Zutrittskontrolle und macht Haustür-, Briefkasten- und KESO-Schlüssel nach. Schwerpunkt sind Schließanlagen: Schließplankonzepte, gleichschließende Zylinder, Zentral-, Hauptschlüssel- und Generalhauptschlüsselanlagen, bei Bedarf selbst gefertigt und vor Ort eingebaut, kleine Anlagen binnen 24 Stunden. Im Sortiment stehen KESO- und SimonsVoss-Zylinder, Zusatzsicherungen, Schutzbeschläge, Tresore und Schlüsselzubehör wie Pflegespray. Als Partner führt der Betrieb unter anderem Systeme von EVVA, AssaRuko und BKS. Beratungstermine finden vor Ort statt. Der Betrieb versteht sich als serviceorientiertes Fachhandelsgeschäft für Sicherheitstechnik, dessen Sortiment vom Briefkasten bis zur digitalen Zutrittskontrolle reicht und das Schlüssel aller Art anfertigt.",
+  "trace": {
+   "tueroeffnung": "Unser Schlüsselnotdienst & Aufsperrdienst sind 24/7 für Sie da"
+  }
+ },
+ {
+  "slug": "db-coding-autoschluesseldienst-motorsteuergeraeten-bcm-bsi-klonen-leistungsoptimierung-koeln",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "DB Coding in Köln ist auf Autoschlüssel und Fahrzeugelektronik spezialisiert. Der Betrieb erstellt und codiert Ersatzschlüssel auch bei Totalverlust, kümmert sich um Defekte an der Wegfahrsperre und um ausgefallene Tastenfelder alter Schlüssel und klont Steuergeräte wie BCM, BSI, Mercedes ELV und EZS sowie BMW CAS und FEM, einschließlich Lesen und Schreiben der ISN. Mercedes-Software für ELV und EZS bildet einen eigenen Schwerpunkt. Auch Leistungsoptimierung und Software für AGR, DPF und AdBlue stehen im Angebot, und ein File Service arbeitet für Kunden weltweit. Ein Schlüsselnotdienst wird rund um die Uhr genannt. Besuche sind nur nach einem Termin möglich, den der Betrieb telefonisch oder per Messenger vergibt. Auf der Seite stehen Autoschlüssel und der Klonen Service als eigene Bereiche, dazu eine Kontaktseite; ein IT-Dienstleistungsangebot rund um das Klonen von Steuergeräten ergänzt das Profil."
+ },
+ {
+  "slug": "ric-s-schusterlampe-koeln",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Ric's Schusterlampe in Köln ist ein Schuhmacherbetrieb. Das Angebot umfasst vier Arbeitsfelder: Schuhreparaturen, Koffer- und Taschenreparaturen sowie einen Schlüsseldienst, wobei auch das Anfertigen von Schlüsseln dazugehört. Der Name verweist auf die klassische Schusterwerkstatt, in der Schuhe, Leder und Schlüssel am selben Ort bearbeitet werden. Öffnungszeiten sind hinterlegt. Als Nebenleistung ist das Anfertigen von Schlüsseln eingetragen."
+ },
+ {
+  "slug": "mister-second-schluesseldienst-koeln",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Mister Second arbeitet als Schlüsseldienst und Autoschlüssel-Betrieb im Raum Köln-Porz, nach eigener Angabe ausschließlich mit eigenem Team und ohne externe Partner. Zum Angebot zählen Türöffnungen, der Austausch defekter Haus- und Zylinderschlösser, Sicherheitsnachrüstungen, Nachschlüssel für Haus, Tor und Briefkasten sowie einfache Schließanlagen für Mehrfamilienhäuser und Gewerbeobjekte; Einbau, Austausch und Instandsetzung übernimmt der Betrieb selbst. Bei Autoschlüsseln erstellt und codiert er Ersatz für nahezu alle Fahrzeugmodelle, mit oder ohne Fernbedienung, und repariert beschädigte Schlüssel. Daneben gibt es Gravuren und Chip-Tuning. Die Abläufe sind klar geregelt: Anfrage, Prüfung der Machbarkeit, Planung, Ausführung und Übergabe. Termine lassen sich online vereinbaren. Neben dem klassischen Türschlüssel kümmert sich der Betrieb um Standardschlösser und um Autoschlüssel mit oder ohne Wegfahrsperre; seine Einsatzgebiete liegen in Köln-Porz und Umgebung.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Auch Schließanlagen für Mehrfamilienhäuser oder Gewerbeobjekte setzen wir fachgerecht um"
+  }
+ },
+ {
+  "slug": "almas-industries-ag-niederlassung-koeln-koeln",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Sicherheitstechnik für Unternehmen bietet die Kölner Niederlassung der Almas Industries AG: biometrische und elektronische Zutrittskontrolle mit Fingerabdruck, Gesichtserkennung, RFID-Chip oder Zutrittskarte, Einbruchmeldeanlagen, Videoüberwachung, Zeiterfassung und Perimeterschutz im Außenbereich. Dazu zählen ein Überwachungsturm für Flächen ohne Infrastruktur, Radarschutz, Totmannschalter, Notfallsäulen und ein Defibrillator. Bei Alarm spricht eine Live-Ansprache per Lautsprecher mögliche Täter an. Das Vorgehen folgt drei Schritten: Sicherheitsberatung, Projektierung, Installation und Service. Seit 2004 betreut das Unternehmen Firmen, darunter Apotheken, Fitnessstudios, Pflegedienste, Autohäuser und Logistikbetriebe. Eine Serviceleitstelle ist rund um die Uhr besetzt und alarmiert bei Alarmsignalen. Als Schlüsseldienst arbeitet der Betrieb nicht; Türöffnung meint hier automatische Tor- und Türöffnungssysteme. Zu den Referenzen zählen Lösungen für ein Logistikunternehmen und einen Eishockey-Club, und Kunden berichten in Interviews über ihre Erfahrungen mit der Installation und dem Service.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Sicherheitstechnik für Unternehmen"
+  }
+ }
+]

@@ -1,0 +1,46 @@
+[
+ {
+  "slug": "city-schuh-und-schluesseldienst-brueggen",
+  "name": "City Schuh- und Schlüsseldienst",
+  "city": "Brüggen",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "",
+  "rating": "3.9",
+  "reviews": "29",
+  "stars_1_to_5": [
+   "7",
+   "0",
+   "1",
+   "2",
+   "19"
+  ],
+  "has_hours": true,
+  "maps_about": [],
+  "maps_description": "Der City Schuh- und Schlüsseldienst in Brüggen bietet in dem, in der Fußgängerzone gelegenem, Ladenlokal eine große Auswahl an Lederprodukten und fertigt Schlüssel aller Art an.",
+  "site_status": "no website"
+ },
+ {
+  "slug": "denis-hausmeisterservice-schluesselnotdienst-brueggen",
+  "name": "Denis-Hausmeisterservice - Schlüsselnotdienst",
+  "city": "Brüggen",
+  "maps_type": "Janitorial service",
+  "maps_subtypes": "Emergency locksmith service",
+  "rating": "5",
+  "reviews": "7",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "7"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "service_options: ['offers_online_estimates', 'has_onsite_services']",
+   "crowd: ['welcomes_lgbtq', 'is_transgender_safespace']",
+   "service_options: ['offers_online_appointments']"
+  ],
+  "maps_description": "🏠 Hausmeisterservice & Objektbetreuung\n•Objektkontrollen und regelmäßige Objektbetreuung\n* Kontrolle von Gemeinschafts- und Außenbereichen\n* BMZ-Betreuung / Sichtkontrollen nach Vorgabe\n* Schließ- und Kontrolldienste\n* Schlüsselverwaltung und Objektübergaben\n🧹 Reinigungsarbeiten\n* Hausflur- und Treppenhausreinigung\n* Reinigung von Kellergängen und Gemeinschaftsräumen\n* Eingangsbereich- und Unterhaltsreinigung\n* Fenster- und Glasreinigung\n* Reinigung von Türen, Handläufen und sonstigen Flächen\n🌳 Garten- & Außenanlagenpflege\n* Rasenmähen\n* Hecken- und Strauchschnitt\n* Beetpflege\n* Unkrautentfernung\n* Laubarbeiten\n* Pflege von Wegen, Höfen und Außenanlagen\n24 Std Schlüsselnotdienst\nUnd noch vieles mehr",
+  "site_status": "no website"
+ }
+]

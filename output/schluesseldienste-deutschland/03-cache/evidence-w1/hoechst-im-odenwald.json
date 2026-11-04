@@ -1,0 +1,75 @@
+[
+ {
+  "slug": "westphal-profi-baufachmarkt-e-k-hoechst-im-odenwald",
+  "name": "Westphal Profi Baufachmarkt e.K.",
+  "city": "Höchst im Odenwald",
+  "maps_type": "Hardware store",
+  "maps_subtypes": "Key duplication service, Repair service",
+  "rating": "4.6",
+  "reviews": "390",
+  "stars_1_to_5": [
+   "6",
+   "9",
+   "19",
+   "72",
+   "284"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "service_options: ['has_delivery', 'has_in_store_pickup', 'has_in_store_shopping', 'has_delivery_same_day']",
+   "accessibility: ['has_wheelchair_accessible_parking', 'has_wheelchair_accessible_entrance']",
+   "offerings: ['has_service_assembly', 'has_service_repair']",
+   "planning: ['quick_visit']",
+   "recycling: ['has_recycling_batteries', 'has_recycling_light_bulbs']",
+   "payments: ['pay_credit_card', 'pay_debit_card', 'pay_mobile_nfc']",
+   "parking: ['has_parking_lot_free']"
+  ],
+  "maps_description": "Höchster Baumarkt – Alles für Ihr Projekt. Alles an einem Ort.\n\nOb Renovieren, Reparieren oder neu gestalten – im Höchster Baumarkt finden Sie hochwertige Baustoffe, moderne Farben & Lacke, professionellen Malerbedarf sowie ein großes Sortiment an Werkzeugen. Von Holz- und Trockenbau über Sanitär- und Elektroartikel bis hin zu Gartenbedarf sind wir bestens aufgestellt.\n\nUnsere hauseigene Werkstatt und der Reparaturservice unterstützen Sie schnell und zuverlässig. Auch beim Thema Sicherheit sind wir für Sie da – mit unserem praktischen Schlüsseldienst. Für Tierfreunde bieten wir zudem eine Auswahl an Tiernahrung.\n\nPersönliche Beratung, starke Qualität und echte Vielfalt – der Höchster Baumarkt ist Ihr zuverlässiger Partner für jedes Projekt.",
+  "site_status": "ok",
+  "site_title": "Westphal Baumarkt - Der Online Store",
+  "site_meta": "",
+  "site_headings": [
+   "Neu im Sortiment",
+   "Noch kein Konto bei uns?",
+   "Werkstatt & Maschinen (1961)",
+   "Kerbl Zurrgurt einteilig 5 m mit Klemmschloß 400 kg"
+  ],
+  "site_menu": [
+   "vergleichen",
+   "0 | 0,- €",
+   "W West Boxx®",
+   "Auto",
+   "Bauen",
+   "Elektro",
+   "Farben",
+   "Freizeit",
+   "Garten",
+   "Haushalt",
+   "Werkstatt & Maschinen",
+   "Sale %",
+   "Service",
+   "ARROW Nietmutternzange RNT1",
+   "Kerbl Leiterngurt paarweise 1m",
+   "Clou Holzpaste Nr 4 60g (Buche)",
+   "EUFLOR Pinienrinde 15-25 mm 60 L",
+   "AL-KO Elektrorasenmäher 34.4 E Comfort",
+   "Mellerud Küchen Entfetter 0,5l",
+   "Gardena Gartenschere PremiumCut Flex",
+   "Keeeper Papierkorb 11,5 Liter (Graphit)",
+   "Rinti Sensible Lamm/Reis 400 g",
+   "Rinti Sensible Huhn/Karotte 400 g",
+   "Versandkosten"
+  ],
+  "pages_read": [
+   "https://www.baumarkt-hoechst.de/",
+   "https://www.baumarkt-hoechst.de/werkstatt-maschinen/",
+   "https://www.baumarkt-hoechst.de/service/",
+   "https://www.baumarkt-hoechst.de/product/kerbl-zurrgurt-einteilig-5-m-mit-klemmschloss-400-kg-100038766/"
+  ],
+  "quotes": {
+   "schluesseldienst_kern": [
+    "nverkauf Hol- & Bringservice Kontakt LED-Wand Werbung Lieferservice Mähroboterservice Odenwald Engel Rückgabe Schlüsseldienst Werkstattservice WestphalAPP Wintereinlagerung Mähroboter Zaunbau Informationen Das sind wir Batteriegesetz"
+   ]
+  }
+ }
+]

@@ -1,0 +1,81 @@
+[
+ {
+  "slug": "boessinger-tresore-osnabrueck",
+  "name": "BÖSSINGER TRESORE",
+  "city": "Osnabrück",
+  "maps_type": "Safe & vault shop",
+  "maps_subtypes": "",
+  "rating": "5",
+  "reviews": "11",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "11"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "accessibility: ['has_wheelchair_accessible_parking']"
+  ],
+  "maps_description": "Tresoröffnung inkl. Notöffnung\nTresorersatzschlüssel\nTresorersatzteile\nTresorwartung\nTresorreparatur",
+  "site_status": "http 503"
+ },
+ {
+  "slug": "mosler-safe-osnabrueck",
+  "name": "Mosler Safe",
+  "city": "Osnabrück",
+  "maps_type": "Safe & vault shop",
+  "maps_subtypes": "",
+  "rating": "5",
+  "reviews": "1",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "1"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "accessibility: ['has_wheelchair_accessible_parking']"
+  ],
+  "maps_description": "",
+  "site_status": "ok",
+  "site_title": "The Mosler Safe Company | The Mosler Safe Company",
+  "site_meta": "Tresore und Tresorservice – Mosler Safe bietet alles aus einer Hand",
+  "site_headings": [
+   "Über uns"
+  ],
+  "site_menu": [
+   "Produkte",
+   "Wertschutzschränke",
+   "Möbel/Wandtresore",
+   "Deposit-Tresore",
+   "Feuerschutztresore",
+   "Waffenschränke",
+   "Bankenspezifische Lösungen",
+   "Service",
+   "Tresorentsorgung",
+   "Tresorersatzschlüssel",
+   "Tresoröffnungen",
+   "Tresorreparatur",
+   "Tresortransport",
+   "Tresorwartung",
+   "Impressum",
+   "Datenschutzerklärung"
+  ],
+  "pages_read": [
+   "http://www.mosler-safe.de/"
+  ],
+  "quotes": {
+   "tresoroeffnung": [
+    "eingeschränkt. Mosler Safe mit Firmensitz in Osnabrück ist seit 2012 Experte für Wertschutzschränke, Deposit-Tresore, Möbel- und Wandtresore, Waffenschränke sowie Feuerschutztresore für die private und gewerbliche Nutzung. Au",
+    "r weiterempfehlen. Denn bei Mosler Safe geht der Service weit über die Beratung, Planung und Installation von Tresoren hinaus. Auch nach dem Kauf können Sie auf unser Know-how und unsere Unterstützung zählen. Zu unseren Servic"
+   ],
+   "schluessel_nachmachen": [
+    "it-Tresore Feuerschutztresore Waffenschränke Bankenspezifische Lösungen Service Tresorentsorgung Tresorersatzschlüssel Tresoröffnungen Tresorreparatur Tresortransport Tresorwartung Über uns Tresore und Tresorservice – Mosle"
+   ]
+  }
+ }
+]

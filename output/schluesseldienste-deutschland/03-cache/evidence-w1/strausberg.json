@@ -1,0 +1,50 @@
+[
+ {
+  "slug": "schloss-schluesseldienst-chojne-strausberg",
+  "name": "Schloss-&Schlüsseldienst Chojne",
+  "city": "Strausberg",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "",
+  "rating": "4.8",
+  "reviews": "15",
+  "stars_1_to_5": [
+   "0",
+   "1",
+   "0",
+   "0",
+   "14"
+  ],
+  "has_hours": false,
+  "maps_about": [
+   "service_options: ['has_onsite_services']",
+   "service_options: ['offers_online_appointments']"
+  ],
+  "maps_description": "Türöffnung Schlüssel kopieren Reparatur",
+  "site_status": "no website"
+ },
+ {
+  "slug": "schluesselservice-telmo-strausberg",
+  "name": "Schlüsselservice TELMO",
+  "city": "Strausberg",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "",
+  "rating": "4",
+  "reviews": "1",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "1",
+   "0"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "service_options: ['offers_online_appointments']",
+   "accessibility: ['has_wheelchair_accessible_entrance']",
+   "parking: ['has_parking_street_free', 'has_parking_lot_free', 'has_onsite_parking']",
+   "service_options: ['has_onsite_services']"
+  ],
+  "maps_description": "Schlüsselkopien freier Profile von Wohnungen, Haustüren und Briefkasten verschiedenster Anbieter.\nABUS Schliesszylinder und Vorhangschlösser.",
+  "site_status": "http 503"
+ }
+]

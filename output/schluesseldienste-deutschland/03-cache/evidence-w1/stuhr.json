@@ -1,0 +1,42 @@
+[
+ {
+  "slug": "schuh-und-schluesseldienst-im-marktkauf-stuhr-stuhr",
+  "name": "Schuh und Schlüsseldienst im Marktkauf Stuhr",
+  "city": "Stuhr",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "Shoe repair shop",
+  "rating": "4.9",
+  "reviews": "60",
+  "stars_1_to_5": [
+   "1",
+   "0",
+   "0",
+   "0",
+   "59"
+  ],
+  "has_hours": true,
+  "maps_about": [],
+  "maps_description": "",
+  "site_status": "no website"
+ },
+ {
+  "slug": "schuh-und-schluesseldienst-stuhr-stuhr",
+  "name": "Schuh und Schlüsseldienst Stuhr",
+  "city": "Stuhr",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "Shoe repair shop",
+  "rating": "5",
+  "reviews": "4",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "4"
+  ],
+  "has_hours": true,
+  "maps_about": [],
+  "maps_description": "Guten Tag,\nwir bieten Ihnen schnelles nachmachen von Schlüssel, Schuhreparatur und Lederware, für einen angemessenen Preis an.",
+  "site_status": "no website"
+ }
+]

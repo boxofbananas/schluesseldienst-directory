@@ -1,0 +1,54 @@
+[
+ {
+  "slug": "tresorservice-allgaier-illertissen",
+  "name": "Tresorservice Allgaier",
+  "city": "Illertissen",
+  "maps_type": "Safe & vault shop",
+  "maps_subtypes": "",
+  "rating": "3",
+  "reviews": "2",
+  "stars_1_to_5": [
+   "1",
+   "0",
+   "0",
+   "0",
+   "1"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "accessibility: ['has_wheelchair_accessible_parking']"
+  ],
+  "maps_description": "",
+  "site_status": "ok",
+  "site_title": "Tresorservice Allgaier",
+  "site_meta": "",
+  "site_headings": [
+   "Herzlich Willkommen!",
+   "Service",
+   "Tresor-Shop"
+  ],
+  "site_menu": [
+   "☰",
+   "Home",
+   "Über uns",
+   "Service",
+   "Tresor-Shop",
+   "Kontakt",
+   "Impressum",
+   "07303 90 19 678",
+   "0151 11 2222 73",
+   "allgaier@tresor-allgaier.de"
+  ],
+  "pages_read": [
+   "http://www.tresor-allgaier.de/",
+   "http://www.tresor-allgaier.de/index.php?page=service",
+   "http://www.tresor-allgaier.de/index.php?page=tresore"
+  ],
+  "quotes": {
+   "tresoroeffnung": [
+    "Kontakt zum Fachmann genießen können. Reparaturen an der Schlossanlage in den Bereichen Wertschutzschränken, Tresoranlagen, Kunden-Mietfachtresore, Geldautomaten und Tagestresore. Fachgerechte Öffnung von Kundenschließfächern",
+    "dem Markt verfügbar sind. Wir bieten Ihnen individuelle und kostengünstige Lösungen um in die Jahre gekommene Tresorräume, gerade im Kundenbereich, zu sanieren. Gerne erstellen wir Ihnen ein individuelles Angebot. Jedes mechan"
+   ]
+  }
+ }
+]

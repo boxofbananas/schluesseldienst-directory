@@ -1,0 +1,65 @@
+[
+ {
+  "slug": "mr-keko-schuhreparatur-schluesseldienst-sicherheitstechnik-delmenhorst",
+  "name": "*MR.KEKO* Schuhreparatur, Schlüsseldienst & Sicherheitstechnik",
+  "city": "Delmenhorst",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "Safety equipment supplier, Shoe repair shop",
+  "rating": "4.6",
+  "reviews": "62",
+  "stars_1_to_5": [
+   "4",
+   "2",
+   "0",
+   "1",
+   "55"
+  ],
+  "has_hours": true,
+  "maps_about": [],
+  "maps_description": "",
+  "site_status": "no website"
+ },
+ {
+  "slug": "a-b-z-schuh-schluesseldienst-im-kaufland-delmenhorst",
+  "name": "A.b.Z Schuh & Schlüsseldienst im Kaufland",
+  "city": "Delmenhorst",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "",
+  "rating": "4.8",
+  "reviews": "16",
+  "stars_1_to_5": [
+   "1",
+   "0",
+   "0",
+   "0",
+   "15"
+  ],
+  "has_hours": true,
+  "maps_about": [],
+  "maps_description": "Seit 2012 befinden wir uns an unserem Standort im Reinersweg 2 in Delmenhorst und konnten seitdem viele Kunden von unserer Arbeit die wir mit Leidenschaft verfolgen überzeugen.\n\nUns ist es wichtig, dass Sie als Kunde zufrieden sind. Deshalb nehmen wir uns gerne Zeit und beraten Sie über mögliche Reparaturen, Services und Artikel.\n\nBei der Reparatur zählen Präzision und Erfahrung. Wir verwenden ausschließlich hochwertige Ersatzteile und Materialien, damit Sie möglichst lange etwas von Ihren liebsten Stücken haben.\nInsgesamt bieten wir ein breitgefächertes Angebot über Reparaturen und Services an.\n\nBei Fragen, sprechen Sie uns einfach an. Wir beraten Sie sehr gerne.\n\nViele Grüße, Ihr\nA.b.Z Schuh- & Schlüsseldienst-Team",
+  "site_status": "no website"
+ },
+ {
+  "slug": "city-service-schuh-schluesseldienst-delmenhorst",
+  "name": "City Service Schuh Schlüsseldienst",
+  "city": "Delmenhorst",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "",
+  "rating": "5",
+  "reviews": "2",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "2"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "service_options: ['has_onsite_services']",
+   "service_options: ['offers_online_appointments']"
+  ],
+  "maps_description": "City Service\n- Schlüsseldienst\n- Uhr Reparatur\n- Schneider\n- Schuh Reparatur\n- Taschen Reparatur\n- Gravur\n\nSchlüsseldienst\n- Haus zylinde schlussel\n- Zimmer schlussel\n- Auto schlussel\n- Briefkasten schlussel\nUhr Reparatur\n- Batteri welchsel\n- Armband welchsel",
+  "site_status": "no website"
+ }
+]

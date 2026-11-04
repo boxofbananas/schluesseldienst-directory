@@ -1,0 +1,67 @@
+[
+ {
+  "slug": "schluesseldienst-saager-wilsdruff",
+  "name": "Schlüsseldienst Saager",
+  "city": "Wilsdruff",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "",
+  "rating": "4.9",
+  "reviews": "36",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "1",
+   "0",
+   "35"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "service_options: ['has_onsite_services']",
+   "planning: ['requires_appointments']",
+   "service_options: ['offers_online_appointments']"
+  ],
+  "maps_description": "Klassischer Schlüsseldienst mit fairen Preisen.",
+  "site_status": "ok",
+  "site_title": "Schlüsseldienst und Türöffnung",
+  "site_meta": "",
+  "site_headings": [
+   "Startseite"
+  ],
+  "site_menu": [
+   "Zum Inhalt springen",
+   "Sie brauchen Hilfe?",
+   "Jetzt ist’s passiert!",
+   "Bewertungen",
+   "Datenschutz",
+   "Impressum"
+  ],
+  "pages_read": [
+   "https://xn--tr-auf-dienst-wob.de/"
+  ],
+  "quotes": {
+   "schluesseldienst_kern": [
+    "orwahl stimmt. Getreu meinem Motto: „regional, fair, sächsisch“ 035204 / 29110 oder 0172 / 57 75 857 info.schluesseldienst@web.de Copyright © tür-auf-dienst.de Datenschutz Impressum"
+   ]
+  }
+ },
+ {
+  "slug": "kablitz-schliesstechnik-wilsdruff",
+  "name": "Kablitz Schließtechnik",
+  "city": "Wilsdruff",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "",
+  "rating": "",
+  "reviews": "0",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "0"
+  ],
+  "has_hours": true,
+  "maps_about": [],
+  "maps_description": "- Schlüsseldienst\n- Schlüsselnotdienst\n- Planung , Bau und Betreuung\nvon Schließanlage\n- Reparatur und Ersetzen von\nTürschlössern bzw.\nMehrfachverriegelung\n- Tür-schließ und\nöffnungstechnik",
+  "site_status": "no website"
+ }
+]

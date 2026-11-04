@@ -1,0 +1,93 @@
+[
+ {
+  "slug": "emsdettener-builders-merchant-store-ebm-emsdetten",
+  "name": "Emsdettener builders' merchant store EBM",
+  "city": "Emsdetten",
+  "maps_type": "Hardware store",
+  "maps_subtypes": "Building materials supplier, Garden, Key duplication service, Natural stone supplier, Stone supplier, Trailer rental service, Woodworking supply store",
+  "rating": "4.6",
+  "reviews": "129",
+  "stars_1_to_5": [
+   "5",
+   "2",
+   "4",
+   "23",
+   "95"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "service_options: ['has_delivery']",
+   "accessibility: ['has_wheelchair_accessible_parking', 'has_wheelchair_accessible_entrance']",
+   "planning: ['quick_visit']",
+   "recycling: ['has_recycling_batteries', 'has_recycling_light_bulbs']",
+   "payments: ['pay_credit_card', 'pay_debit_card', 'pay_mobile_nfc']"
+  ],
+  "maps_description": "",
+  "site_status": "ok",
+  "site_title": "EBM Winter: EBM Winter",
+  "site_meta": "",
+  "site_headings": [
+   "Unsere Standorte",
+   "Bad & Sanitär",
+   "Farben",
+   "Bodenbeläge",
+   "Gartenmöbel",
+   "Gartenwerkzeuge",
+   "Elektro",
+   "Werkzeuge",
+   "Pflanzenschutz",
+   "Aktuelle News",
+   "Regionaler Onlineshop",
+   "Tipps & Tricks",
+   "Türen",
+   "Alles zur Installation"
+  ],
+  "site_menu": [
+   "Startseite",
+   "Onlineshop",
+   "Sortimente",
+   "Wohnen",
+   "Laminat- und Vinylbodenabteilung",
+   "Farben & Tapeten",
+   "Bad & Sanitär",
+   "Türen",
+   "Deko",
+   "Haushalt",
+   "Lampen",
+   "Elektro-Installation",
+   "Garten",
+   "Holz im Garten",
+   "Gartenwerkzeuge",
+   "Pflanzgefäße",
+   "Saisonblumen & Pflanzen",
+   "Pflanzenschutz",
+   "Steine im Garten",
+   "Wasser im Garten",
+   "Werkzeuge",
+   "Elektro",
+   "Eisenwaren & Kleinteile",
+   "Holz"
+  ],
+  "pages_read": [
+   "https://ebm-baufachmarkt.de/",
+   "https://ebm-baufachmarkt.de/sortimente/wohnen/tueren",
+   "https://ebm-baufachmarkt.de/sortimente/wohnen/elektro-installation",
+   "https://ebm-baufachmarkt.de/service/serviceleistungen/serviceleistungen"
+  ],
+  "quotes": {
+   "schluesseldienst_kern": [
+    "roblem. Von uns bekommen Sie für diesen Fall kostenlos einen Anhänger für den Transport zu Ihnen nach Hause. Schlüsseldienst Ersatzschlüssel im „Handumdrehen“! Sie bringen uns das Original und in der Regel können Sie ihren neuen Schlü"
+   ],
+   "notdienst_24h": [
+    "anzen brauchen halten wir für Sie bereit! Aktuelle News Keine Nachrichten verfügbar. Regionaler Onlineshop 24 Stunden am Tag bequem online einkaufen Zum Shop Tipps & Tricks Deine Werkstatt – dein Projektbereich Wann Hundekle"
+   ],
+   "schluessel_nachmachen": [
+    "Problem. Von uns bekommen Sie für diesen Fall kostenlos einen Anhänger für den Transport zu Ihnen nach Hause. Ersatzschlüssel im „Handumdrehen“! Sie bringen uns das Original und in der Regel können Sie ihren neuen Schlüssel sofort wied",
+    "bekommen Sie für diesen Fall kostenlos einen Anhänger für den Transport zu Ihnen nach Hause. Schlüsseldienst Ersatzschlüssel im „Handumdrehen“! Sie bringen uns das Original und in der Regel können Sie ihren neuen Schlüssel sofort wied"
+   ],
+   "ladengeschaeft": [
+    "oppen! Kennen Sie schon unsere Tipps? Jetzt stöbern! So finden Sie uns Anfahrt Mehr Infos Unsere Standorte Filiale Emsdetten Spatzenweg 4 48282 Emsdetten Tel.: 0 25 72 / 96 06 6 - 0 Fax: 0 25 72 / 96 06 6 - 25 info(at)eb"
+   ]
+  }
+ }
+]

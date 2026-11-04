@@ -1,0 +1,98 @@
+[
+ {
+  "slug": "schluesseldienst-schuhreparatur-andreas-buenz-bordesholm",
+  "name": "Schlüsseldienst & Schuhreparatur Andreas Bünz",
+  "city": "Bordesholm",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "Shoe repair shop",
+  "rating": "5",
+  "reviews": "75",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "2",
+   "73"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "service_options: ['offers_online_appointments', 'has_onsite_services']",
+   "parking: ['has_parking_garage_free', 'has_parking_street_free', 'has_parking_lot_free', 'has_onsite_parking']",
+   "accessibility: ['has_hearing_loop', 'has_wheelchair_accessible_parking', 'has_wheelchair_accessible_entrance', 'has_wheelchair_accessible_seating', 'has_wheelchair_accessible_restroom']"
+  ],
+  "maps_description": "",
+  "site_status": "no website"
+ },
+ {
+  "slug": "tresor-baumann-gmbh-bordesholm",
+  "name": "Tresor Baumann GmbH",
+  "city": "Bordesholm",
+  "maps_type": "Safe & vault shop",
+  "maps_subtypes": "Safety equipment supplier, Security system supplier",
+  "rating": "5",
+  "reviews": "8",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "8"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "service_options: ['has_delivery']",
+   "accessibility: ['has_wheelchair_accessible_parking', 'has_wheelchair_accessible_entrance']",
+   "planning: ['quick_visit']"
+  ],
+  "maps_description": "Herzlich Willkommen bei Tresor Baumann, Ihrem Spezialist für Wert- und Feuerschutzschränke. Bereits seit 1897 fertigen wir hochwertige Lösungen für ganz individuelle Sicherheitsbedürfnisse und sind Ansprechpartner für alle Themen rund um Sicherheit und Tresore. In unserer Ausstellung in Bordesholm erwarten Sie sowohl Neu- als auch Gebrauchtmodelle und eine kompetente sowie fachgerechte Beratung. Wir sind Ansprechpartner für Privat, Gewerbe, Handel, Kreditinstitute und Behörden und fertigen individuell nach Ihren Wünschen. Darüber hinaus zählen auch die Notöffnung, Reparatur und Wartung zu unserem umfangreichen Leistungsangebot. Besuchen Sie uns in unserer Ausstellung oder kontaktieren Sie uns telefonisch – wir freuen uns auf Sie!",
+  "site_status": "ok",
+  "site_title": "Tresore und Wertschutzschränke kaufen | Tresor Baumman | Tresor Baumann",
+  "site_meta": "Tresor Baumann GmbH bietet als Spezialist für Wert- und Feuerschutzschränke seit 1897 maßgeschneiderte Lösungen an. Jetzt beraten lassen!",
+  "site_headings": [
+   "Beratung zur Produktauswahl",
+   "Widerrufsrecht - Dienstleistung"
+  ],
+  "site_menu": [
+   "Kontakt",
+   "Downloads",
+   "Info-Center",
+   "Tresor-Kaufberatung",
+   "Versand und Zahlungsbedingungen",
+   "Widerrufsrecht - Waren",
+   "Widerrufsrecht - Dienstleistung",
+   "Widerrufsformular / Rückgabe",
+   "Anfahrt",
+   "Partner",
+   "AGB",
+   "Impressum",
+   "Datenschutz",
+   "Händler-Login",
+   "Menü",
+   "Suchen",
+   "Mein Konto",
+   "Menü schließen",
+   "Anmelden",
+   "registrieren",
+   "Übersicht",
+   "Persönliche Daten",
+   "Adressen",
+   "Zahlungsarten"
+  ],
+  "pages_read": [
+   "https://tresor-baumann.de/",
+   "https://tresor-baumann.de/tresor-beratung",
+   "https://tresor-baumann.de/widerrufsrecht-dienstleistung",
+   "https://tresor-baumann.de/anfahrt"
+  ],
+  "quotes": {
+   "autoschluessel": [
+    "bstahlsicher und zuverlässig vor dem unberechtigen Zugriff .... mehr erfahren Wenn Sie die Türschlüssel und Fahrzeugschlüssel Ihres Unternehmens sicher verschließen möchten, finden Sie bei uns Schlüsseltresore , Schlüsselkästen , Schlü",
+    "chlüssel-Sicherheitsschränke Schlüssel-Wertschutzschränke Schlüsseltresore Wenn Sie die Türschlüssel und Fahrzeugschlüssel Ihres Unternehmens sicher verschließen möchten, finden Sie bei uns Schlüsseltresore , Schlüsselkästen , Schlü"
+   ],
+   "tresoroeffnung": [
+    "> 104 [attribute1] => 2 [attribute2] => [attribute3] => [attribute4] => [attribute5] => [attribute6] => ) 1 Tresor Baumann bietet Ihnen hochwertige Wertschutztresore verschiedener Sicherheitsklassen und für unterschiedliche",
+    "dungsbereiche an. Alle von uns ausgewählten Modelle sind geprüft und zertifiziert . Die Kategorie \" Wertschutztresore... mehr erfahren Eine oft gesuchter Tresortyp sind die feuerfesten Tresore . Kein Wunder, denn natürlich m"
+   ]
+  }
+ }
+]

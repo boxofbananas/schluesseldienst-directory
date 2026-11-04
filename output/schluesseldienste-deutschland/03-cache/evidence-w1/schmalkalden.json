@@ -1,0 +1,24 @@
+[
+ {
+  "slug": "sicherheitstechnik-nothnagel-schmalkalden",
+  "name": "Sicherheitstechnik Nothnagel",
+  "city": "Schmalkalden",
+  "maps_type": "Safety equipment supplier",
+  "maps_subtypes": "Key duplication service, Security system supplier",
+  "rating": "5",
+  "reviews": "9",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "9"
+  ],
+  "has_hours": false,
+  "maps_about": [
+   "accessibility: ['has_wheelchair_accessible_parking']"
+  ],
+  "maps_description": "Als Spezialisten f.Türöffnungen, Schließanlagen und Sicherheitstechnik bieten wir Ihnen unseren Service auch für Überwachungsanlagen, Schließtechnik bis hin zum professionellen Notöffnungsdienst an.",
+  "site_status": "http 503"
+ }
+]

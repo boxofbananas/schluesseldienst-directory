@@ -1,0 +1,25 @@
+[
+ {
+  "slug": "winsec-sicherheitsdienst-service-gmbh-monheim-am-rhein",
+  "name": "WinSec Sicherheitsdienst & Service GmbH",
+  "city": "Monheim am Rhein",
+  "maps_type": "Security service",
+  "maps_subtypes": "Cleaners, Emergency locksmith service, Janitorial service",
+  "rating": "5",
+  "reviews": "1",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "1"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "parking: ['has_parking_garage_free', 'has_parking_street_free', 'has_parking_lot_free', 'has_onsite_parking']",
+   "service_options: ['has_onsite_services']"
+  ],
+  "maps_description": "Sicherheitsdienst, Gebäudereinigung, Schlüsseldienst",
+  "site_status": "http 503"
+ }
+]

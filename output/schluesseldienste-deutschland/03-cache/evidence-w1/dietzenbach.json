@@ -1,0 +1,30 @@
+[
+ {
+  "slug": "schuhmacherei-und-schluesseldienst-vella-dietzenbach",
+  "name": "Schuhmacherei und Schlüsseldienst Vella",
+  "city": "Dietzenbach",
+  "maps_type": "Shoe repair shop",
+  "maps_subtypes": "Key duplication service",
+  "rating": "4.9",
+  "reviews": "75",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "1",
+   "3",
+   "71"
+  ],
+  "has_hours": true,
+  "maps_about": [],
+  "maps_description": "",
+  "site_status": "ok but empty (script-rendered or parked)",
+  "site_title": "Schuhmacherei Vella",
+  "site_meta": "Web site created using create-react-app",
+  "site_headings": [],
+  "site_menu": [],
+  "pages_read": [
+   "https://www.schuhmacherei-vella.de/"
+  ],
+  "quotes": {}
+ }
+]

@@ -1,0 +1,56 @@
+[
+ {
+  "slug": "schuh-und-schluesseldienst-claudi-zwickau",
+  "name": "Schuh- und Schlüsseldienst Claudi",
+  "city": "Zwickau",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "Copy shop, Custom t-shirt store, Engraver, Promotional products supplier, Shoe repair shop",
+  "rating": "4.5",
+  "reviews": "49",
+  "stars_1_to_5": [
+   "5",
+   "1",
+   "0",
+   "0",
+   "43"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "service_options: ['has_onsite_services']"
+  ],
+  "maps_description": "",
+  "site_status": "no website"
+ },
+ {
+  "slug": "schloss-und-schluesseldienst-muetze-zwickau",
+  "name": "Schloß- und Schlüsseldienst Mütze",
+  "city": "Zwickau",
+  "maps_type": "Security system supplier",
+  "maps_subtypes": "",
+  "rating": "4.1",
+  "reviews": "24",
+  "stars_1_to_5": [
+   "5",
+   "0",
+   "0",
+   "2",
+   "17"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "accessibility: ['has_wheelchair_accessible_parking', 'has_wheelchair_accessible_entrance']"
+  ],
+  "maps_description": "Der Schloß- und Schlüsseldienst Mütze in Zwickau bietet seit vielen Jahren umfassende Dienstleistungen im Bereich Sicherheitstechnik. Wir sind Ihr Ansprechpartner für Schlüsselanfertigung, Schließanlagenmontage und Notöffnungen. Unser Sortiment umfasst auch Sicherheitsbeschläge, Briefkastenanlagen und Zutrittskontrollsysteme. Als zuverlässiger Schlüsseldienst sorgen wir für Ihre individuelle Sicherheit, egal ob bei Türöffnungen oder dem Kauf von Tresoren und Überwachungskameras. Vertrauen Sie auf unsere Expertise und kontaktieren Sie uns gerne für eine persönliche Beratung.",
+  "site_status": "ok",
+  "site_title": "STRATO - Domain reserved",
+  "site_meta": "",
+  "site_headings": [],
+  "site_menu": [
+   "Powered by STRATO"
+  ],
+  "pages_read": [
+   "http://www.schluesseldienst-muetze.de/"
+  ],
+  "quotes": {}
+ }
+]

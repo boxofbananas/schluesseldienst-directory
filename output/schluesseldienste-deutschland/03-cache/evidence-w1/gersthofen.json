@@ -1,0 +1,64 @@
+[
+ {
+  "slug": "schalk-im-edeka-gersthofen",
+  "name": "Schalk im Edeka",
+  "city": "Gersthofen",
+  "maps_type": "Tobacco shop",
+  "maps_subtypes": "Key duplication service, Lottery shop, Magazine store, Package locker",
+  "rating": "4.2",
+  "reviews": "12",
+  "stars_1_to_5": [
+   "2",
+   "0",
+   "0",
+   "2",
+   "8"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "service_options: ['has_in_store_shopping', 'has_onsite_services']",
+   "accessibility: ['has_wheelchair_accessible_parking', 'has_wheelchair_accessible_entrance']",
+   "planning: ['quick_visit']",
+   "payments: ['pay_credit_card', 'pay_debit_card', 'pay_mobile_nfc']",
+   "parking: ['has_parking_lot_free', 'has_onsite_parking']",
+   "service_options: ['has_delivery']",
+   "accessibility: ['has_wheelchair_accessible_restroom']"
+  ],
+  "maps_description": "In unserem Tabak- und Zeitschriftengeschäft finden Sie eine vielfältige Auswahl an hochwertigen Tabakprodukten und aktuellen Zeitschriften.",
+  "site_status": "ok",
+  "site_title": "Schalk im Edeka",
+  "site_meta": "Lotto - Tabak - Presse - Papeterie - Schlüsseldienst - Hermes-Paketshop - GLS-Paketshop - LMF",
+  "site_headings": [
+   "."
+  ],
+  "site_menu": [
+   "Home",
+   "Lotto",
+   "Tabak",
+   "Presse",
+   "Papeterie",
+   "Schlüsseldienst",
+   "Hermes",
+   "Hermes-Paketshop",
+   "GLS-Paketshop",
+   "Öffnungszeiten",
+   "Unser Team",
+   "Impressum",
+   "Datenschutzerklärung",
+   "Facebook",
+   "X",
+   "RSS",
+   "Elegant Themes",
+   "WordPress"
+  ],
+  "pages_read": [
+   "https://www.schalk-im-edeka.de/",
+   "https://www.schalk-im-edeka.de/oeffnungszeiten/"
+  ],
+  "quotes": {
+   "schluesseldienst_kern": [
+    "Home Lotto Tabak Presse Papeterie Schlüsseldienst Hermes Seite wählen . Lotto Wir sind eine offizielle Annahmestelle von Lotto Bayern. Tabak Wir führen ein b"
+   ]
+  }
+ }
+]

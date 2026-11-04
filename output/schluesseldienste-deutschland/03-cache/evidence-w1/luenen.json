@@ -1,0 +1,42 @@
+[
+ {
+  "slug": "auto-notdienst-24-7-luenen-luenen",
+  "name": "Auto Notdienst 24/7 Lünen",
+  "city": "Lünen",
+  "maps_type": "Emergency locksmith service",
+  "maps_subtypes": "",
+  "rating": "5",
+  "reviews": "2",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "2"
+  ],
+  "has_hours": false,
+  "maps_about": [],
+  "maps_description": "• Pannenhilfe Auto\n• Auto Starthilfe\n• Auto Türöffnung\n• Notfall Benzin Liefe\n\nRoadside assistance 24/7",
+  "site_status": "no website"
+ },
+ {
+  "slug": "schluesseldienst-lehmann-luenen",
+  "name": "Schlüsseldienst lehmann",
+  "city": "Lünen",
+  "maps_type": "Locksmith",
+  "maps_subtypes": "",
+  "rating": "",
+  "reviews": "0",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "0"
+  ],
+  "has_hours": true,
+  "maps_about": [],
+  "maps_description": "Seit 1998",
+  "site_status": "no website"
+ }
+]

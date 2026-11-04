@@ -1,0 +1,27 @@
+[
+ {
+  "slug": "schluesseldienst-knut-poeggeler-attendorn",
+  "name": "Schlüsseldienst Knut Pöggeler",
+  "city": "Attendorn",
+  "maps_type": "Emergency locksmith service",
+  "maps_subtypes": "",
+  "rating": "4.8",
+  "reviews": "12",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "1",
+   "1",
+   "10"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "from_the_business: ['is_owned_by_women']",
+   "service_options: ['has_onsite_services']",
+   "parking: ['has_parking_street_free', 'has_parking_lot_free', 'has_onsite_parking', 'has_parking_lot_paid']",
+   "accessibility: ['has_hearing_loop', 'has_wheelchair_accessible_seating', 'has_wheelchair_accessible_restroom']"
+  ],
+  "maps_description": "Wir öffnen Ihre Türen zu jeder Zeit möglichst ohne Beschädigungen.\nKeine Schlüssel kopieren oder herstellen.\nKeine Öffnung von Autos",
+  "site_status": "no website"
+ }
+]

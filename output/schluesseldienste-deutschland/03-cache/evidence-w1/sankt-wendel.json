@@ -1,0 +1,48 @@
+[
+ {
+  "slug": "schleiferei-ballardini-sankt-wendel",
+  "name": "Schleiferei Ballardini",
+  "city": "Sankt Wendel",
+  "maps_type": "Knife store",
+  "maps_subtypes": "Key duplication service, Saw sharpening service",
+  "rating": "5",
+  "reviews": "79",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "1",
+   "78"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "accessibility: ['has_wheelchair_accessible_parking', 'has_wheelchair_accessible_entrance']",
+   "planning: ['quick_visit']",
+   "payments: ['pay_credit_card', 'pay_debit_card']",
+   "parking: ['has_parking_street_free', 'has_parking_lot_free']"
+  ],
+  "maps_description": "",
+  "site_status": "ok",
+  "site_title": "Ballardini | Home",
+  "site_meta": "",
+  "site_headings": [],
+  "site_menu": [
+   "Home",
+   "Schleifservice",
+   "Kontakt",
+   "Impressum",
+   "Aktuell",
+   "Datenschutzerklärung"
+  ],
+  "pages_read": [
+   "https://ballardini.de/",
+   "https://ballardini.de/ballardini--schleifservice.html"
+  ],
+  "quotes": {
+   "schluesseldienst_kern": [
+    "ballardini | Stahlwaren Schleiferei Schlüsseldienst | Mia-Münster-Str. 2 | 66606 St. Wendel | Telefon/Fax 0 68 51 - 7 09 30 Hochwertige Schneidwaren sollten zum",
+    "& Samstags 9:00 - 12:00 aktuelle Bearbeitungszeit: 1 Werktag plus Versand ballardini | Stahlwaren Schleiferei Schlüsseldienst | Mia-Münster-Str. 2 | 66606 St. Wendel | Telefon/Fax 0 68 51 - 7 09 30 Datenschutzerklärung Home Schleifserv"
+   ]
+  }
+ }
+]

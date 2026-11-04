@@ -1,0 +1,36 @@
+[
+ {
+  "slug": "schluesselnotdienst-bautzen-bautzen",
+  "name": "Schlüsselnotdienst Bautzen",
+  "city": "Bautzen",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "",
+  "rating": "4.9",
+  "reviews": "42",
+  "stars_1_to_5": [
+   "0",
+   "1",
+   "1",
+   "0",
+   "40"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "service_options: ['has_onsite_services']",
+   "crowd: ['welcomes_lgbtq', 'is_transgender_safespace']",
+   "parking: ['has_onsite_parking']",
+   "service_options: ['offers_online_appointments']",
+   "accessibility: ['has_hearing_loop', 'has_wheelchair_accessible_seating', 'has_wheelchair_accessible_restroom']"
+  ],
+  "maps_description": "24/7 Schlüsselnotdienst -Türnotöffnung",
+  "site_status": "ok but empty (script-rendered or parked)",
+  "site_title": "Paul Seidler – Ihr Fachhändler für Werkzeuge und Industriebedarf in Bautzen",
+  "site_meta": "Paul Seidler in Bautzen – Fachhandel für Werkzeuge, Industriebedarf, Arbeitsschutz und Betriebseinrichtung seit 1878. 800 m² Ausstellungsfläche, kompetente Beratung, 24/7 Schlüsselnotdienst.",
+  "site_headings": [],
+  "site_menu": [],
+  "pages_read": [
+   "https://www.paul-seidler.de/"
+  ],
+  "quotes": {}
+ }
+]

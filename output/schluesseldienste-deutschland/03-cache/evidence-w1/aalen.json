@@ -1,0 +1,24 @@
+[
+ {
+  "slug": "multi-express-schuh-und-schluesseldienst-innenstadt-aalen",
+  "name": "Multi Express Schuh und Schlüsseldienst Innenstadt",
+  "city": "Aalen",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "Engraver, Rubber stamp store, Shoe repair shop, Watch repair service",
+  "rating": "4.1",
+  "reviews": "9",
+  "stars_1_to_5": [
+   "1",
+   "1",
+   "0",
+   "1",
+   "6"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "service_options: ['has_onsite_services']"
+  ],
+  "maps_description": "Schuhreperatur aller Art\nTaschenreperatur\nSchlüssel und Autoschlüssel Kopien\nGravurdienst",
+  "site_status": "no website"
+ }
+]

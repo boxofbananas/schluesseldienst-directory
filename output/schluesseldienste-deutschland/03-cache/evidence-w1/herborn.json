@@ -1,0 +1,98 @@
+[
+ {
+  "slug": "schluesseldienst-reeh-herborn",
+  "name": "Schlüsseldienst Reeh",
+  "city": "Herborn",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "",
+  "rating": "4",
+  "reviews": "8",
+  "stars_1_to_5": [
+   "2",
+   "0",
+   "0",
+   "0",
+   "6"
+  ],
+  "has_hours": true,
+  "maps_about": [],
+  "maps_description": "Ihr freundlicher Schlüsseldienst vor Ort",
+  "site_status": "no website"
+ },
+ {
+  "slug": "autoschluesseldienst-autohaus-sak-atr24-herborn",
+  "name": "Autoschlüsseldienst (Autohaus Sak) ATR24",
+  "city": "Herborn",
+  "maps_type": "Locksmith",
+  "maps_subtypes": "",
+  "rating": "",
+  "reviews": "0",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "0"
+  ],
+  "has_hours": true,
+  "maps_about": [],
+  "maps_description": "Autoschlüssel , Nofallschlüsseldienst für Fahrzeuge , Autoschlüssel Codierung , Schlüssel Verloren",
+  "site_status": "ok",
+  "site_title": "Startseite",
+  "site_meta": "Autohaus Sak\nRund ums Auto\nGutachten/Autohandel/KFZ Service/Abschleppdienst/Autoteile/Reifen/Fahrzeugvermietung/Autoschlüssel",
+  "site_headings": [
+   "STANDORTE",
+   "1.Geschäftsstelle Junostraße 8Herborn 35745",
+   "2.GeschäftsstelleSchillerstraße 2 35683 Dillenburg",
+   "3.GeschäftsstelleOranienstraße 8Dillenburg 35683",
+   "DIENSTLEISTUNGEN",
+   "GUTACHTENKFZ GutachtenInnerhalb 24Std.Vor Ort Möglich",
+   "AUTOHANDELAuto An & VerkaufFahrzeug Vermittlung Kunden Aufträge",
+   "DIENSTLEISTUNGKFZ Service Reifen Service Autoglas Service",
+   "ABSCHLEPPDIENST Auto Transport Pannenhilfe Notfall Service 24Std",
+   "VERMIETUNGAuto Vermietung Anhänger VermietungAb 25.00€",
+   "MIET MICH !!!Hebebühne & WerkzeugeAuto Stellplätze Auto Hobby Werkstatt",
+   "SCHLÜSSEL SERVICEAuto Schlüssel Codieren & Fräsen innerhalb nur in 1 Stunde",
+   "TUNINGLeistungssteigerung CodierungenVmax Aufhebung",
+   "FELGENAlufelgen Stahlfelgen Komplettrad"
+  ],
+  "site_menu": [
+   "Startseite",
+   "Kfz Gutachten",
+   "Autohandel",
+   "Fahrzeugvermietung",
+   "Kfz Ersatzteile",
+   "Reifen",
+   "Felgen",
+   "Dienstleistung",
+   "Kontakt",
+   "Impressum",
+   "Datenschutzerklärung",
+   "AGB",
+   "Telefon: 02771 88 099 88",
+   "Whatsapp: 0163 333 5472",
+   "Zum Standort",
+   "GUTACHTEN",
+   "AUTOHANDEL",
+   "DIENSTLEISTUNG",
+   "ABSCHLEPPDIENST",
+   "VERMIE",
+   "VERMIETUNG",
+   "MIET MICH",
+   "SCHLÜSSELDIENST",
+   "TUNING"
+  ],
+  "pages_read": [
+   "https://www.atr-24.de/",
+   "https://www.atr-24.de/dienstleistung"
+  ],
+  "quotes": {
+   "schluesseldienst_kern": [
+    "Auto Hobby Werkstatt MIET MICH SCHLÜSSEL SERVICE Auto Schlüssel Codieren & Fräsen innerhalb nur in 1 Stunde SCHLÜSSELDIENST TUNING Leistungssteigerung Codierungen Vmax Aufhebung TUNING KFZ-ERSATZTEILE Autoteile Orginale Ersatzteile"
+   ],
+   "notdienst_24h": [
+    "chäftsstelle Oranienstraße 8 Dillenburg 35683 Zum Standort DIENSTLEISTUNGEN GUTACHTEN KFZ Gutachten Innerhalb 24Std. Vor Ort Möglich GUTACHTEN AUTOHANDEL Auto An & Verkauf Fahrzeug Vermittlung Kunden Aufträge AUTOHANDEL DIEN"
+   ]
+  }
+ }
+]

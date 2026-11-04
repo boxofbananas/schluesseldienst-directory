@@ -1,0 +1,22 @@
+[
+ {
+  "slug": "segeberger-schuh-service-bad-segeberg",
+  "name": "Segeberger Schuh Service",
+  "city": "Bad Segeberg",
+  "maps_type": "Shoe repair shop",
+  "maps_subtypes": "Locks supplier, Rubber stamp store, Sign shop",
+  "rating": "4.4",
+  "reviews": "43",
+  "stars_1_to_5": [
+   "4",
+   "2",
+   "0",
+   "3",
+   "34"
+  ],
+  "has_hours": true,
+  "maps_about": [],
+  "maps_description": "Schuhreparatur Meisterbetrieb\nSchlüsseldienst/Schlüsselspezialist\nWir fertigen Schilder in großer Auswahl,\nwie Edelstahl, Messing, Kunststoff und Plexiglas.\nStempel Schnellservice nach Ihren Wünschen",
+  "site_status": "http 503"
+ }
+]

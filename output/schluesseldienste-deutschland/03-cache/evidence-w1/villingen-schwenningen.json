@@ -1,0 +1,25 @@
+[
+ {
+  "slug": "multiservice-steinke-villingen-schwenningen",
+  "name": "Multiservice Steinke",
+  "city": "Villingen-Schwenningen",
+  "maps_type": "Shoe repair shop",
+  "maps_subtypes": "Key duplication service",
+  "rating": "5",
+  "reviews": "1",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "1"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "accessibility: ['has_wheelchair_accessible_parking']",
+   "parking: ['has_parking_lot_free']"
+  ],
+  "maps_description": "Schuh und Schlüsseldienst",
+  "site_status": "no website"
+ }
+]

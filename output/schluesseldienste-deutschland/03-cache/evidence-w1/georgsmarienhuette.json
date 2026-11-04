@@ -1,0 +1,28 @@
+[
+ {
+  "slug": "repafix-georgsmarienhuette",
+  "name": "Repafix",
+  "city": "Georgsmarienhütte",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "",
+  "rating": "4.6",
+  "reviews": "9",
+  "stars_1_to_5": [
+   "1",
+   "0",
+   "0",
+   "0",
+   "8"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "service_options: ['has_onsite_services']",
+   "accessibility: ['has_wheelchair_accessible_parking', 'has_wheelchair_accessible_entrance', 'has_wheelchair_accessible_seating']",
+   "parking: ['has_parking_lot_free', 'has_onsite_parking']",
+   "service_options: ['offers_online_appointments']",
+   "accessibility: ['has_hearing_loop']"
+  ],
+  "maps_description": "Ihr kompetenter Schlüsseldienst für Fahrzeug- und Haustürschlüssel, Sicherheitsschlüssel, Schließzylinder und Vorhängeschlösser. Zusätzlich bieten wir Gravuren für Pokale, Medaillen und Türschilder, Batteriewechsel für Armbanduhren sowie fachgerechten Schuhservice inklusive Sohlen- und Absatzreparaturen.",
+  "site_status": "no website"
+ }
+]

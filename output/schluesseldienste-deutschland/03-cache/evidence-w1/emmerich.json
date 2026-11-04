@@ -1,0 +1,65 @@
+[
+ {
+  "slug": "schluesseldienst-emmerich-emmerich",
+  "name": "Schlüsseldienst Emmerich",
+  "city": "Emmerich",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "",
+  "rating": "",
+  "reviews": "0",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "0"
+  ],
+  "has_hours": false,
+  "maps_about": [
+   "service_options: ['offers_online_appointments', 'has_onsite_services']",
+   "amenities: ['has_restroom_unisex']"
+  ],
+  "maps_description": "Sie haben ihr Schlüssel verloren rufen die an wir öffnen ihn die Tür",
+  "site_status": "no website"
+ },
+ {
+  "slug": "schluesseldienst-emmerich-emmerich-46446",
+  "name": "Schlüsseldienst Emmerich",
+  "city": "Emmerich",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "",
+  "rating": "",
+  "reviews": "0",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "0"
+  ],
+  "has_hours": true,
+  "maps_about": [],
+  "maps_description": "",
+  "site_status": "no website"
+ },
+ {
+  "slug": "schluesseldienst-koenig-emmerich",
+  "name": "Schlüsseldienst König",
+  "city": "Emmerich",
+  "maps_type": "Locksmith",
+  "maps_subtypes": "",
+  "rating": "",
+  "reviews": "0",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "0"
+  ],
+  "has_hours": false,
+  "maps_about": [],
+  "maps_description": "Ihr zuverlässiger Schlüsseldienst für Türöffnung und Schlosswechsel.\nWir sind schnell vor Ort und helfen zuverlässig bei zugefallene und abgeschlossene Türen oder verlorenen Schlüsseln.\n\nUnsere Arbeiten erfolgen fachgerecht und in den meisten Fällen ohne Schäden.\n24h erreichbar, transparente Preise und professionelle Service.",
+  "site_status": "no website"
+ }
+]

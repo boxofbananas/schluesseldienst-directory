@@ -1,0 +1,25 @@
+[
+ {
+  "slug": "ruppiner-schluesseldienst-neuruppin",
+  "name": "Ruppiner Schlüsseldienst",
+  "city": "Neuruppin",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "Emergency locksmith service",
+  "rating": "4.7",
+  "reviews": "13",
+  "stars_1_to_5": [
+   "1",
+   "0",
+   "0",
+   "0",
+   "12"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "accessibility: ['has_wheelchair_accessible_seating']",
+   "accessibility: ['has_wheelchair_accessible_restroom']"
+  ],
+  "maps_description": "24H Türöffnungen\nNotdienst Tag & Nacht\n\nLaden Öffnungszeiten :\n\nMontag - Freitag\n08:30-16:00 Uhr",
+  "site_status": "http 503"
+ }
+]

@@ -1,0 +1,291 @@
+[
+ {
+  "slug": "kisling-gmbh-gruenstadt",
+  "name": "Kisling GmbH",
+  "city": "Grünstadt",
+  "maps_type": "Tool store",
+  "maps_subtypes": "Garden machinery supplier, Iron ware dealer, Key duplication service",
+  "rating": "4.7",
+  "reviews": "84",
+  "stars_1_to_5": [
+   "0",
+   "1",
+   "4",
+   "12",
+   "67"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "service_options: ['has_delivery', 'has_in_store_pickup', 'has_in_store_shopping']",
+   "accessibility: ['has_wheelchair_accessible_parking', 'has_wheelchair_accessible_entrance']",
+   "planning: ['quick_visit']",
+   "recycling: ['has_recycling_batteries']",
+   "payments: ['pay_credit_card', 'pay_debit_card', 'pay_mobile_nfc']",
+   "parking: ['has_parking_lot_free', 'has_onsite_parking']"
+  ],
+  "maps_description": "Wir sind ein familiengeführtes Unternehmen mit einer über 130-jährigen Tradition. Unseren Kunden bieten wir ein hochwertiges, nachhaltiges Sortiment für die Bereiche Werkzeuge | Beschläge und Schließanlagen | Eisenwaren | Gartengeräte. Für Duch als Heim- oder Handwerker haben wir ein abgerundetes Sortiment vom Metabo Akkuschrauber bis zur WIHA Zange. Über 20000 Artikel sind in unseren Geschäft sofort verfügbar oder innerhalb kurzer Zeit lieferbar.\nIm Sortiment führen wir starke Marken wie Milwaukee, Festool, Metabo, Husqvarna, Wiha, SPAX, BKS, Wilka oder EVVA. Hier ist sicherlich für jeden etwas zu finden.",
+  "site_status": "ok",
+  "site_title": "Willkommen - Kisling GmbH",
+  "site_meta": "Schön, daß Sie zu uns gefunden haben Informieren Sie sich hier gerne über unsere verschiedenen Geschäftsfelder. In unseren Geschäften Frankenthal und Grünstadt bieten wir Ihnen…",
+  "site_headings": [
+   "Schön, daß Sie zu uns gefunden haben",
+   "Mechanische Schließsysteme",
+   "Mechatronische Schließsysteme",
+   "Elektronische Schließsysteme"
+  ],
+  "site_menu": [
+   "Zum Inhalt springen",
+   "Menü Schließen",
+   "Über Uns",
+   "Alltag",
+   "DubbeKind",
+   "Glanzstücke",
+   "Shop der Haushaltswaren",
+   "Tischkultur",
+   "Beschläge & Schlösser",
+   "Eisenwaren",
+   "Elektrowerkzeuge",
+   "Forst & Garten",
+   "Garten & Bewässerung",
+   "Technische Gase (nur in GR)",
+   "Propangas",
+   "Handwerkzeuge",
+   "Schließanlagen",
+   "Schließzylinder",
+   "Stahl",
+   "in Frankenthal",
+   "in Grünstadt",
+   "Handwerkerkatalog",
+   "News",
+   "FAQ"
+  ],
+  "pages_read": [
+   "https://www.kisling.de/",
+   "https://www.kisling.de/ueber-uns/",
+   "https://www.kisling.de/schliessanlagen/",
+   "https://www.kisling.de/tuerzylinder/"
+  ],
+  "quotes": {
+   "schlossaustausch": [
+    "KEE, METABO. Handwerkzeuge von RUKO, KNIPEX, WIHA , Schrauben von SPAX, Klebstoffe von PATTEX, UHU und PONAL. Beschläge und Profilzylinder sowie Schließanlagen von BKS, EVVA, WINKHAUS, WILKA. Verbrauchsmaterialien für alle Gewerk",
+    "u dürfen. Kisling ist ein in 4. Generation geführtes Fachgeschäft für Eisenwaren, Werkzeuge, Schließtechnik, Beschläge, Haushaltswaren, Glas+Porzellan und Geschenkartikel. Wir sind stolz auf über 130 Jahre Erfahrung und werden n"
+   ],
+   "schliessanlagen": [
+    ", KNIPEX, WIHA , Schrauben von SPAX, Klebstoffe von PATTEX, UHU und PONAL. Beschläge und Profilzylinder sowie Schließanlagen von BKS, EVVA, WINKHAUS, WILKA. Verbrauchsmaterialien für alle Gewerke wie Schlosser, Schreiner, Installateu",
+    "n Herausforderungen und nehmen sich Ihrer Wünsche und Probleme gerne an. Für alles gibt es eine Lösung. Eine Schließanlage definiert, wer, wo, wann Zutritt hat. Wir haben nicht nur bei der Planung von Schließanlagen umfassendes Know"
+   ],
+   "elektronische_schliesssysteme": [
+    "nfacht die Organisation, erleichtert den Schlüsselbund und spart auch noch Kosten. Wir unterscheiden zwischen elektronischen Schließanlagen und mechanischen Schließanlagen sowie kombinierten Systemen. Sie wollen vorab einen eigenen Schließpl",
+    "eine Lösung, die Ihren Mitarbeitern oder Ihnen einfach, verständlich und sicher den Zutritt ermöglicht? Die elektronischen Schließsysteme bieten Sicherheit und Flexibilität für jede Objektgröße. Die Systeme für smarte Zutrittskontrolle biet"
+   ],
+   "ladengeschaeft": [
+    "ebe, Sorgfalt und Professionalität ausgewählt, so daß bestimmt für jeden was dabei ist. Grünstadt ist unsere Filiale im Industriegebiet Grünstadt Hier finden sie auf über 800 qm alles für Heim-und Handwerker. Wir haben fast"
+   ]
+  }
+ },
+ {
+  "slug": "schulze-sicherheitsdienst-inh-michael-mayer-gruenstadt",
+  "name": "Schulze Sicherheitsdienst Inh. Michael Mayer",
+  "city": "Grünstadt",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "Security guard service, Security system supplier",
+  "rating": "4.9",
+  "reviews": "76",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "4",
+   "72"
+  ],
+  "has_hours": true,
+  "maps_about": [],
+  "maps_description": "SCHULZE Sicherheitstechnik - \"Rundumschutz für Ihr Haus\"",
+  "site_status": "ok",
+  "site_title": "Schulz Sicherheitsdienst & HSM Hausmeisterservice",
+  "site_meta": "Schließanlagen, Einbruchschutz, Objektbetreuung und Schlüsselnotdienst in Grünstadt",
+  "site_headings": [
+   "Schlüsseldienst, Sicherheit & Service",
+   "Sicherheitstechnik",
+   "Hausmeisterservice",
+   "Produkte",
+   "Türöffnungen / Schlüsselnotdienst",
+   "Beratung bis Umsetzung",
+   "Schlüsseldienst | Einbruchsschutz | Fachberatung",
+   "Schließanlagen & Schlüsseldienst",
+   "Einbruchschutz",
+   "Einbruchschutz, Schließanlagen, Fenstersicherung",
+   "Schließanlagen",
+   "Balkon-/Fenstersicherungen",
+   "Schlüsseldienst & Produkte"
+  ],
+  "site_menu": [
+   "06359 83899",
+   "06359 9616884",
+   "Home",
+   "Sicherheitstechnik",
+   "Schließanlagen & Einbruchschutz",
+   "Produkte & Partner",
+   "Förderungen",
+   "Hausmeisterservice",
+   "Jobs",
+   "Kontakt",
+   "Impressum",
+   "Datenschutz",
+   "mehr Informationen",
+   "info@schulze-gruenstadt.de",
+   "01728734574",
+   "mayer-gruenstadt@t-online.de",
+   "Datenschutzhinweise",
+   "ausführliche Infos",
+   "mögliche Maßnahmen",
+   "zu den Produkten",
+   "im Geschäft",
+   "bei uns vorbei",
+   "Kontaktieren Sie uns",
+   "beraten"
+  ],
+  "pages_read": [
+   "https://www.schulze-gruenstadt.de/",
+   "https://www.schulze-gruenstadt.de/sicherheitstechnik",
+   "https://www.schulze-gruenstadt.de/sicherheitstechnik/schliessanlagen-einbruchschutz",
+   "https://www.schulze-gruenstadt.de/sicherheitstechnik/produkte-partner"
+  ],
+  "quotes": {
+   "schluesseldienst_kern": [
+    "Ihrem zuverlässigen Partner für Sicherheitstechnik, Schlüsseldienst, Türöffnungen und umfassende Hausmeisterdienste seit über 20 Jahren in Grünstadt und der Region. Sicherheitst",
+    ". Gerne personalisieren wir auch Pokale, Schilder und andere Gegenstände mit Gravuren. mehr Informationen Ob Schlüsseldienst-Notfall, neue Schließanlage oder komplette Sicherheitslösung bei Schulze Sicherheitstechnik bekommen Sie alle"
+   ],
+   "notdienst_24h": [
+    "isieren wir auch Pokale, Schilder und andere Gegenstände mit Gravuren. mehr Informationen Ob Schlüsseldienst-Notfall, neue Schließanlage oder komplette Sicherheitslösung bei Schulze Sicherheitstechnik bekommen Sie alles aus ei",
+    "en wir auch Pokale, Schilder und andere Gegenstände mit Gravuren. mehr Informationen Türöffnungen / Schlüsselnotdienst während unserer Geschäftsöffnungszeiten Montag - Freitag 09:00 - 18:00 06359 83899 Zuverlässig. Kompete"
+   ],
+   "tueroeffnung": [
+    "Ihrem zuverlässigen Partner für Sicherheitstechnik, Schlüsseldienst, Türöffnungen und umfassende Hausmeisterdienste seit über 20 Jahren in Grünstadt und der Region. Sicherheitstechnik Hausm",
+    "z Schlüsseldienst, Sicherheit & Service Ihrem zuverlässigen Partner für Sicherheitstechnik, Schlüsseldienst, Türöffnungen und umfassende Hausmeisterdienste seit über 20 Jahren in Grünstadt und der Region. Sicherheitstechnik Hausm"
+   ],
+   "schlossaustausch": [
+    "ng jeder Eingangstür sind geprüfte Sicherheitsschließbleche mit Mauerankern, stabile Einsteckschlösser, Schutzbeschläge mit Ziehschutz, sowie Türzylinder mit Sicherungskarte. Mechanische Schließsysteme sorgen in Gebäuden und öffe",
+    "ist seit dem 30.07.2017 neu geregelt. Wir sagen Ihnen was die Norm DIN/EN 1143-1 genau aussagt. Sicherheitsbeschläge Türbeschläge, Fensterverriegelungen, Sicherheitsbeschläge Gravuren Professionelle Gravurdienstleistungen fü"
+   ],
+   "schliessanlagen": [
+    "rservice Bei uns erhalten Sie Sicherheitstechnik auf höchstem Niveau: Beratung, Installation und Wartung von Schließanlagen und Einbruchschutzsystemen direkt aus einer Hand. mehr Informationen Der Hausmeister rund um Ihr Objekt von",
+    "ch Pokale, Schilder und andere Gegenstände mit Gravuren. mehr Informationen Ob Schlüsseldienst-Notfall, neue Schließanlage oder komplette Sicherheitslösung bei Schulze Sicherheitstechnik bekommen Sie alles aus einer Hand. Sie möchte"
+   ],
+   "einbruchschutz": [
+    "Ihrem zuverlässigen Partner für Sicherheitstechnik, Schlüsseldienst, Türöffnungen und umfassende Hausmeisterdienste seit über 20 Jahren in Grünstadt und der Reg",
+    "rhalten Sie Sicherheitstechnik auf höchstem Niveau: Beratung, Installation und Wartung von Schließanlagen und Einbruchschutzsystemen direkt aus einer Hand. mehr Informationen Der Hausmeister rund um Ihr Objekt von regelmäßigen Reinig"
+   ],
+   "tresoroeffnung": [
+    ", Zylinder und Schließsysteme Schließanlagen Master-Key-Systeme für Gewerbeobjekte und Mehrfamilienhäuser Tresore Sichere Aufbewahrung für Dokumente, Schmuck und Wertgegenstände Waffenschränke Das deutsche Waffengesetz i",
+    "er Türen & Fensterverriegelungen Alarmanlagen & Überwachungssysteme mögliche Maßnahmen Produkte Briefkästen Tresore Waffensschränke Stempel, Schilder, Pokale u. v. m. zu den Produkten Fachberatung Wir sind ihr verlässlicher"
+   ],
+   "schluessel_nachmachen": [
+    "hließbleche mit Mauerankern, stabile Einsteckschlösser, Schutzbeschläge mit Ziehschutz, sowie Türzylinder mit Sicherungskarte. Mechanische Schließsysteme sorgen in Gebäuden und öffentlichen Einrichtungen für Sicherheit und hohen Schlie",
+    "arbeiten mit führenden Herstellern zusammen, um Ihnen beste Qualität zu garantieren. Schlüssel & Schlösser Ersatzschlüssel, Sicherheitsschlösser, Zylinder und Schließsysteme Schließanlagen Master-Key-Systeme für Gewerbeobjekte und"
+   ],
+   "elektronische_schliesssysteme": [
+    "| Einbruchsschutz | Fachberatung Schließanlagen & Schlüsseldienst Master-Key-Systeme für Mehrfamilienhäuser Elektronische Schließsysteme Notfall-Schlüsseldienst Schlüsselreparatur & Ersatzkopien ausführliche Infos Einbruchschutz Sicherhe"
+   ],
+   "gewerblich_objektbetreuung": [
+    "die Wartung und Instandhaltung. Wir sind der Spezialist für professionelle Sicherheitslösungen und komplette Objektbetreuung, ob für Privathaushalte, Gewerbeimmobilien oder kommunale Einrichtungen. Professionelle Sicherheitstechnik u",
+    "die Wartung und Instandhaltung. Wir sind der Spezialist für professionelle Sicherheitslösungen und komplette Objektbetreuung, ob für Privathaushalte, Gewerbeimmobilien oder kommunale Einrichtungen. Schulze Sicherheitstechnik Bitzenst"
+   ]
+  }
+ },
+ {
+  "slug": "gotec-elektro-sicherheitstechnik-gruenstadt",
+  "name": "Gotec Elektro&Sicherheitstechnik",
+  "city": "Grünstadt",
+  "maps_type": "Security system supplier",
+  "maps_subtypes": "",
+  "rating": "4.6",
+  "reviews": "11",
+  "stars_1_to_5": [
+   "1",
+   "0",
+   "0",
+   "0",
+   "10"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "accessibility: ['has_wheelchair_accessible_parking']"
+  ],
+  "maps_description": "Gotec Elektro&Sicherheitstechnik ist Ihr kompetenter Partner für die Planung, Montage und Service von Sicherheitstechnik und Elektrotechnik aus Grünstadt. Bei uns erhalten Sie individuelle Beratung, professionelle Projektierung, Installation und Konfiguration von modernen und hochwertigen Produkten der Sicherheitstechnik, wie Einbruchmeldeanlagen, Videoüberwachungssystemen oder Brandmeldeanlagen.",
+  "site_status": "ok",
+  "site_title": "Gotec Sicherheitstechnik & Alarmanlagen Grünstadt",
+  "site_meta": "Alarmanlagen und Sicherheitstechnik aus Grünstadt Ihre Sicherheitsexperten für Privat und Gewerbe Wir sind Ihr kompetenter Partner für die Planung, Montage und Service von Sicherheitstechnik und Elektrotechnik aus Grünstadt. Bei uns erhalten Sie individuelle Beratung, professionelle",
+  "site_headings": [
+   "Alarmanlagen und Sicherheitstechnik aus Grünstadt",
+   "Ihre Sicherheitsexperten für Privat und Gewerbe",
+   "Von der kostenlosen Erstberatung bis zur Wartung",
+   "Sicherheitstechnik für Grünstadt, Ludwigshafen, Frankenthal und Umgebung",
+   "Rundum-Sorglos-Service",
+   "Vor-Ort-Sicherheitscheck",
+   "Bequemer Wartungsservice",
+   "kostenlose Fachberatung",
+   "Jetzt kostenlosen Beratungstermin vereinbaren",
+   "Gotec Sicherheitstechnik",
+   "Elektrotechnik Grünstadt",
+   "Elektroinstallation vom Profi",
+   "Elektrotechnik und Elektroinstallation",
+   "Intelligente Gebäudetechnik"
+  ],
+  "site_menu": [
+   "Zum Inhalt springen",
+   "Home",
+   "Leistungen",
+   "Alarmanlagen",
+   "Funk-Alarmanlagen",
+   "Kabelgebundene Alarmanlagen",
+   "Videoüberwachung",
+   "Brandmeldeanlagen",
+   "Zutrittskontrollsysteme",
+   "Perimeterschutz",
+   "Service",
+   "Referenzen",
+   "Kontakt",
+   "📞 06359 9170709",
+   "Jetzt Kontakt aufnehmen",
+   "Zum Kontaktformular",
+   "Elektronische Schließzylinder",
+   "info@gotec-sicherheit.de",
+   "06359 9170709",
+   "Impressum",
+   "Datenschutz",
+   "Einstellungen",
+   "Datenschutzerklärung",
+   "Zurück"
+  ],
+  "pages_read": [
+   "https://www.gotec-sicherheit.de/",
+   "https://www.gotec-sicherheit.de/elektroinstallation",
+   "https://www.gotec-sicherheit.de/elektronische-schliesszylinder"
+  ],
+  "quotes": {
+   "schluesseldienst_kern": [
+    "ktronische Schließzylinder bieten Ihnen die Möglichkeit, Ihr Smartphone oder eine spezielle Fernbedienung zur Türöffnung zu verwenden. 4. Protokollierung: Mit elektronischen Schließzylindern haben Sie stets im Blick, wer wann die"
+   ],
+   "tueroeffnung": [
+    "ktronische Schließzylinder bieten Ihnen die Möglichkeit, Ihr Smartphone oder eine spezielle Fernbedienung zur Türöffnung zu verwenden. 4. Protokollierung: Mit elektronischen Schließzylindern haben Sie stets im Blick, wer wann die"
+   ],
+   "schlossaustausch": [
+    "cherheit an oberster Stelle steht, sind herkömmliche Schließsysteme oft nicht mehr ausreichend. Elektronische Schließzylinder und elektronische Schließanlagen sind die Antwort auf die steigenden Anforderungen an Sicherheit, Komfort und",
+    "ologie zugänglich zu machen. Von einer kostenlosen Erstberatung bis zum professionellen Einbau elektronischer Schließzylinder. Elektronische Schließzylinder bieten eine Vielzahl von Vorteilen im Vergleich zu herkömmlichen Schlössern."
+   ],
+   "schliessanlagen": [
+    "hnik in Grünstadt und Umgebung. In einer Welt, in der Sicherheit an oberster Stelle steht, sind herkömmliche Schließsysteme oft nicht mehr ausreichend. Elektronische Schließzylinder und elektronische Schließanlagen sind die Antwort",
+    "nsere Priorität! Wir beraten Sie umfassend vor Ort zu allen Fragen rund um elektronische Schließzylinder und Schließanlagen. Gemeinsam planen wir ein individuelles Überwachungkonzept. Die fachgerechte Installation, Konfiguration un"
+   ],
+   "einbruchschutz": [
+    "Wir sind Ihr kompetenter Partner für die Planung, Montage und Service von Sicherheitstechnik und Elektrotechnik aus Grünstadt. Bei uns erhalten Sie individuelle Beratung, professionelle Projektierung, I",
+    "sich mögliche Fehler und Schwachstellen im System frühzeitig erkennen und beheben – Sicherheit zu jeder Zeit. Sicherheitstechnik für Grünstadt, Ludwigshafen, Frankenthal und Umgebung Mit unserem Firmensitz in Grünstadt sind wir ganz in I"
+   ],
+   "elektronische_schliesssysteme": [
+    "Elektrotechnik bieten wir clevere Lösungen für intelligente Gebäudetechnik, Netzwerktechnik und elektronisch Zutrittssysteme. Wir beraten Sie fachgerecht per E-Mail, Telefon oder persönlich vor Ort, zu allen Fragen zum Thema Elektro",
+    "elt, in der Sicherheit an oberster Stelle steht, sind herkömmliche Schließsysteme oft nicht mehr ausreichend. Elektronische Schließzylinder und elektronische Schließanlagen sind die Antwort auf die steigenden Anforderungen an Sicherheit, Kom"
+   ]
+  }
+ }
+]

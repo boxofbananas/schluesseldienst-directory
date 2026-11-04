@@ -1,0 +1,22 @@
+[
+ {
+  "slug": "schluesseldienst-abc-goch",
+  "name": "Schlüsseldienst ABC",
+  "city": "Goch",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "",
+  "rating": "5",
+  "reviews": "1",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "1"
+  ],
+  "has_hours": false,
+  "maps_about": [],
+  "maps_description": "",
+  "site_status": "no website"
+ }
+]

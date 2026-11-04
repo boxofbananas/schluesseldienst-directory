@@ -1,0 +1,25 @@
+[
+ {
+  "slug": "schluesselfienst-wulf-wuelfrath",
+  "name": "Schlüsselfienst Wulf",
+  "city": "Wülfrath",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "",
+  "rating": "",
+  "reviews": "0",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "0"
+  ],
+  "has_hours": false,
+  "maps_about": [
+   "planning: ['requires_appointments']",
+   "parking: ['has_parking_street_free', 'has_parking_lot_free']"
+  ],
+  "maps_description": "Türöffnung Schlosswechsel Autoöffnung",
+  "site_status": "no website"
+ }
+]

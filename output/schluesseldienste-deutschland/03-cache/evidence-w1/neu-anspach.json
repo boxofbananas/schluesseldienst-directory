@@ -1,0 +1,26 @@
+[
+ {
+  "slug": "multi-express-neu-anspach",
+  "name": "Multi Express",
+  "city": "Neu-Anspach",
+  "maps_type": "Locksmith",
+  "maps_subtypes": "",
+  "rating": "",
+  "reviews": "0",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "0"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "service_options: ['has_onsite_services']",
+   "accessibility: ['has_wheelchair_accessible_entrance', 'has_wheelchair_accessible_seating']",
+   "parking: ['has_parking_lot_free']"
+  ],
+  "maps_description": "Wir sind Ihr kompetenter Ansprechpartner für Uhrmacherei, orthopädische Schuhmacherei und Schlüsseldienst. Unsere Leistungen umfassen die Reparatur und Wartung von Uhren, die individuelle Anfertigung und Anpassung orthopädischer Schuhe sowie Schlüsselanfertigung und verschiedene Schlüsseldienstleistungen. Mit fachlicher Kompetenz, sorgfältiger Handarbeit und persönlicher Beratung bieten wir zuverlässigen Service und hochwertige Lösungen für unsere Kunden.",
+  "site_status": "no website"
+ }
+]

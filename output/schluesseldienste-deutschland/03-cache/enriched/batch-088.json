@@ -1,0 +1,515 @@
+[
+  {
+    "slug": "jack-s-schluesseldienst-sicherheitstechnik-berlin",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Sicherheitstechnik und Schlüsseldienst unter einem Dach: Der Betrieb arbeitet nach eigener Angabe seit 1985 und unterhält zwei Standorte in Neukölln und Schöneberg. Das Angebot reicht von Türnotöffnungen und Schlossmontagen über Zusatzschlösser, Stangenschlösser, Panzerquerriegel und Fenstersicherungen bis zur Planung, Berechnung und Montage von Schließanlagen. Für Fahrzeuge gibt es Ersatz-, Zusatz- und Sonderschlüssel, Autoschlüssel mit Transponder-Technik sowie deren Programmierung und Reparatur. Dazu kommen Alarm- und Videoanlagen, Zutrittskontrolle, Briefkastenanlagen, Türschließer und Schutzbeschläge. Auch Instandsetzungen nach Einbrüchen und die Wartung bestehender Schließmechanismen gehören dazu. Der Notdienst ist rund um die Uhr erreichbar und fährt in alle Berliner Bezirke. Im Schlüsseldienstgeschäft werden zudem Nachschlüssel angefertigt. Als Kundschaft nennt der Betrieb Behörden, Immobiliengesellschaften, Hausverwaltungen, Gewerbe und Pflegedienste sowie Privatkunden. Klingel- und Türsprechanlagen sowie Reparaturarbeiten stehen ebenso auf dem Programm."
+  },
+  {
+    "slug": "fahrradstation-berlin",
+    "attributes": {
+      "schluesseldienst_kern": "false",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Rund ums Fahrrad dreht sich bei der Fahrradstation in Berlin alles, nach eigener Angabe seit 1992. Der Betrieb verkauft neue und gebrauchte Fahrräder und E-Bikes, vermietet und least Räder und bucht Radtouren und Events. Eine Werkstatt repariert Räder am selben Tag, und eine Flottenwartung kommt zu Firmenkunden. Mit einem Schlüsseldienst hat das Angebot nichts zu tun, Schlüsselkopien sind höchstens ein Randbereich. Das Geschäft hat Öffnungszeiten von Dienstag bis Samstag und ist derzeit an einem vorübergehenden Standort in Kreuzberg untergebracht. Zum Programm gehören außerdem Gutscheine, Versicherungen und Zubehör für den sicheren Transport von Gepäck."
+  },
+  {
+    "slug": "i-love-shoes-berlin",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Eine kleine Kiez-Werkstatt am Kottbusser Tor in Kreuzberg, die sich in erster Linie der Schuhreparatur widmet: Sohlen, Absätze, Schuhspanner, Einlegesohlen und Schnürsenkel gehören zum Sortiment. Der Inhaber Ibrahim führt den Betrieb nach eigener Angabe seit rund 30 Jahren, über ihn wurde in mehreren Zeitungen, Online-Medien und Fernsehbeiträgen berichtet. Montags bleibt das Geschäft geschlossen, damit die Arbeit an den Schuhen ungestört bleibt. Daneben fertigt die Werkstatt Schlüsselkopien an, etwa von Hausschlüsseln, Durchsteckschlüsseln, Chubbschlüsseln, Buntbartschlüsseln, Doppelbartschlüsseln und Tresorschlüsseln. Auch Schlösser und Zylinder stehen als eigener Menüpunkt im Angebot. Das Haus versteht sich als Schuhmacherei mit angeschlossenem Schlüsselservice, wer Schuhe bringt, wird direkt vor Ort beraten. Die Schuhreparatur ist dabei die Hauptarbeit, der Schlüsselservice kommt mit Schlüsselkopien in verschiedenen Bauarten hinzu. Kunden können mit ihren Schuhen ohne Anmeldung vorbeikommen.",
+    "trace": {
+      "ladengeschaeft": "bleibt unser Geschäft montags geschlossen"
+    }
+  },
+  {
+    "slug": "keskin-schluesseldienst-berlin",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Auf Autoschlüssel und Autofunkschlüssel hat sich Keskin im Berliner Wedding spezialisiert. Das Team repariert, programmiert und codiert Schlüssel für Autos und Motorräder, ersetzt verlorene Exemplare und fertigt Nachschlüssel für zahlreiche Hersteller, von Audi bis Mercedes. Für historische Fahrzeuge werden ebenfalls Schlüssel angefertigt. Nach eigener Angabe ist der Betrieb seit 2005 als Spezialist für Schließanlagen in Berlin tätig, die für kleine und große Objekte geplant werden. Hinzu kommen Hilfe bei Schlüsselbruch und Schlüsselverlust, ausgesperrten Türen und die Beratung zur Sicherheit von Haustür, Keller, Briefkasten und Fenstern sowie zum Einbruchschutz. Ein Schlüsselnotdienst arbeitet bei Tag und Nacht. Auf der Seite stehen konkrete Beträge für Leistungen rund um Autoschlüssel, vom Batteriewechsel bis zur Autotüröffnung. Aufgeführt sind Leistungen zu Autoschlüsseln, Funkfernbedienungen und Kartenschlüsseln für mehrere Automarken, darunter Renault und Mercedes."
+  },
+  {
+    "slug": "av-service-schluesseldienst-und-mehr-berlin",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Wenn eine Tür zugefallen ist oder der Schlüssel von innen steckt, rückt AV Service in Berlin mit dem passenden Werkzeug aus. Die Monteure öffnen verschlossene Türen und führen Notöffnungen bei verlorenem Schlüssel durch. Außerdem prüfen sie, ob ein defektes Schloss repariert werden kann oder ersetzt werden sollte, und wechseln dann Schlösser, Schließzylinder und weitere Bauteile aus. Abgebrochene Schlüssel werden aus dem Zylinder entfernt, nach Einbruchschäden sichert der Betrieb die Tür notdürftig ab. Der Service läuft rund um die Uhr, an sieben Tagen in der Woche. Die Türöffnung wird zum Festpreis angeboten, was der Betrieb ausdrücklich als Leistung hervorhebt. Die erfahrenen Monteure bringen nach eigener Angabe das passende Werkzeug mit, und Anfragen nimmt der Betrieb über ein Kontaktformular entgegen. Zur Auswahl stehen die Leistungen Schlosswechsel, Schlossreparatur und Notöffnung."
+  },
+  {
+    "slug": "mr-express-schluesseldienst-schuhreparaturen-berlin",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Schuhreparatur und Schlüsselanfertigung unter einem Dach, im Berliner Wedding: Mr Express bietet beides nach eigener Angabe seit über 15 Jahren an. Nachdem die frühere Filiale in einem Einkaufszentrum mit der Schließung des dortigen Marktes wegfiel, wurde in der Müllerstraße ein neues Ladengeschäft eröffnet. Dort entstehen Zylinderschlüssel, Schließanlagenschlüssel, Sicherheitsschlüssel mit Sicherungskarte, Bohrmuldenschlüssel, Buntbartschlüssel, Chubbschlüssel, Kerfinschlüssel, Möbelschlüssel und Schlüssel für Fahrradschlösser. Moderne Maschinen sollen die Reklamationsquote niedrig halten. Zum Sortiment zählen außerdem Zubehör wie Vorhängeschlösser, Fahrradschlösser, Schlüsselanhänger und Schuhpflegeprodukte. Auf der Seite werden die Schuhreparatur, der Schlüsseldienst und das Zubehör als drei Bereiche geführt. Zur Schuhreparatur gehören Einlegesohlen, Schnürsenkel und Pflegeprodukte, und im Geschäft wird persönlich und unverbindlich beraten. Die Seite bewirbt außerdem einen Gutschein für Schlüsselkopien, und die Öffnungszeiten des Geschäfts sind auf einer eigenen Unterseite zu finden."
+  },
+  {
+    "slug": "sas-schluesseldienst-berlin",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "true",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Rund um die Uhr, auch an Wochenenden und Feiertagen, ist SAS Schlüsseldienst in Berlin im Einsatz, mit Schwerpunkt Charlottenburg. Im Mittelpunkt steht die beschädigungsfreie Türöffnung bei zugefallener oder abgeschlossener Tür, in der Regel mit moderner Technik und nach eigener Angabe in rund einer halben Stunde vor Ort. Der Betrieb tauscht Schließzylinder und Schlösser aus, beseitigt Einbruchschäden und installiert Sicherheitstechnik. Weitere Seiten beschreiben die Öffnung von Autos und von Tresoren. Für größere Sicherheitsinstallationen oder einen langfristigen Wartungsvertrag nennt der Betrieb individuelle Nachlässe. Die Preise für Türöffnungen und Zylinder stehen als Übersicht auf der Seite und werden als transparent bezeichnet. Die Techniker öffnen nach eigener Angabe jedes Tür- und Schließsystem, zu Hause wie im Büro, und bringen dafür geschultes Personal und moderne Werkzeuge mit."
+  },
+  {
+    "slug": "picobello-berlin",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "true",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Picobello verbindet Handwerke, die zunächst nichts miteinander zu tun haben: Schuhreparatur, Näharbeiten an Taschen und Stiefeln, Stempel, Gravuren und Schilder sowie einen Schlüsseldienst mit Notdienst. Nach eigener Angabe besteht der Betrieb seit über 30 Jahren und arbeitet in zwei Filialen. Der Schlüsseldienst deckt alle Berliner Stadtteile ab und ist rund um die Uhr erreichbar. Er öffnet Türen, tauscht Schlösser aus, bringt Einbruchsicherungen und Fensterabsicherungen an und beseitigt Einbruchschäden. Vor jeder Türöffnung gibt es ein Preisangebot, das erst mit der Zustimmung zur Öffnung fällig wird. Die Anfahrt wird mit einem festen Betrag berechnet, der berlinweit gilt, und für einzelne Bezirke gibt es Aufschläge. Der Betrieb spricht von einem Preisversprechen und in vielen Fällen von zehn bis dreißig Minuten bis zum Eintreffen."
+  },
+  {
+    "slug": "jack-s-schluesseldienst-sicherheitstechnik-berlin-12043",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Direkt an einem U-Bahnhof in Neukölln liegt dieser Standort eines Berliner Betriebs für Sicherheitstechnik. Spezialisiert ist er auf die Programmierung von Autoschlüsseln, auf Schlüsselsonderprofile und auf die Absicherung von Türen rund ums Haus und im Gewerbe. Zum Angebot zählen Türnotöffnungen, Reparaturen und Schlossmontagen, die nach Angabe des Betriebs auch nachts übernommen werden, außerdem Zusatzschlösser, Stangenschlösser, Querriegel und Fenstersicherungen. Schließanlagen werden geplant, berechnet und montiert, bestehende Anlagen gewartet. Der Betrieb fertigt Ersatz- und Sonderschlüssel für Haus, Wohnung und Büro an, liefert Alarm- und Videoanlagen und richtet Zutrittskontrollen ein. Zur Kundschaft zählen Behörden, Hausverwaltungen, Gewerbebetriebe und Privatleute. Das Unternehmen besteht nach eigener Angabe seit 1985. Klingel- und Türsprechanlagen, Türschließer und Schutzbeschläge liefert und montiert der Betrieb ebenfalls. Ein Notdienst ist rund um die Uhr erreichbar."
+  },
+  {
+    "slug": "schuhreparatur-schluesseldienst-aenderungsschneiderei-berlin",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Drei Handwerke im Namen: Dieser Berliner Betrieb führt Schuhreparatur, Schlüsseldienst und Änderungsschneiderei zusammen. Seine Hauptkategorie ist die Schuhreparatur, als weitere Bereiche sind eine Änderungsschneiderei, eine Reinigung und die Schlüsselvervielfältigung eingetragen. Welche Arbeiten am Schlüssel und an Schlössern im Einzelnen ausgeführt werden, geht aus den Angaben nicht hervor. Die Öffnungszeiten sind hinterlegt."
+  },
+  {
+    "slug": "redzi-s-schluesseldienst-berlin",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "In Neukölln sitzt Redzi's Schlüsseldienst, der Türöffnungen bei Wohnungs-, Haus- und Bürotüren übernimmt und dabei auf schadensarme Technik setzt. Der Notdienst läuft rund um die Uhr, auch an Sonn- und Feiertagen, und erreicht Kunden im Stadtgebiet nach eigener Angabe innerhalb von 15 bis 30 Minuten. Fahrzeuge werden geöffnet, Autoschlüssel samt Funkfernbedienung und Transponder repariert, ersetzt oder neu gefertigt. Weitere Leistungen sind der Schlosswechsel und der Austausch von Schließzylindern, die Montage von Sicherheitstüren und die Beratung zur Sicherheitstechnik. Im Geschäft werden zu festen Zeiten Schlüssel aller Art angefertigt, dazu kommen Gravuren und der Batteriewechsel an Schlüsseln. Der Betrieb gibt an, vor Auftragserteilung einen Kostenvoranschlag zu nennen und mit Festpreisen zu arbeiten. Eigene Seiten beschreiben die Einsätze in Neukölln, Kreuzberg und Tempelhof, und der Betrieb führt außerdem einen Blog.",
+    "trace": {
+      "ladengeschaeft": "Regulärer Schlüsselservice (Montag bis Samstag, 09:30-18:00 Uhr)"
+    }
+  },
+  {
+    "slug": "daehne-sicherheitstechnik-berlin",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "true",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Im Osten Berlins, mit Sitz in Hellersdorf, arbeitet DÄHNE Sicherheitstechnik als Fachgeschäft und Schlüsselnotdienst. Der Einsatzbereich umfasst Marzahn, Hellersdorf, Kaulsdorf, Biesdorf, Köpenick und Mahlsdorf sowie die Umgebung. Die Türnotöffnung läuft an 365 Tagen rund um die Uhr, ohne Callcenter, mit direktem Kontakt zu einem Bereitschaftsmonteur, der nach eigener Angabe im Normalfall binnen einer halben Stunde vor Ort ist. Geöffnet wird so schadenfrei wie möglich. Im Geschäft gibt es einbruchhemmende Produkte wie Zusatzschlösser, Kastenzusatzschlösser und Panzerriegel, die der Betrieb auch anbringt. Außerdem werden Schlüssel nachgemacht, genehmigungspflichtige Schlüssel nur nach Terminvereinbarung. Feste Ladenöffnungszeiten sind im Tagesgeschäft nicht zugesichert. Für Türnotöffnungen und weitere Arbeiten nennt der Betrieb verbindliche Preise nach Absprache. Als ortsansässiger Fachhändler berät der Betrieb von der Auswahl bis zur Montage und übernimmt Lieferung und Einbau, darunter Produkte der Marke ABUS."
+  },
+  {
+    "slug": "service-time-schuh-schluesseldienst-adenauer-platz-berlin",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Im U-Bahnhof Adenauerplatz in Charlottenburg liegt Service Time, ein Schuh- und Schlüsselservice mit Ladenlokal, das ohne Termin besucht werden kann. Der Betrieb repariert Schuhe und Sneaker, pflegt sie und fertigt Schlüssel an, auch Sicherheitsschlüssel und spezielle Formen. Er baut neue Schließzylinder und Sicherheitsschlösser ein und montiert Querriegel und Panzerriegel, die eine Tür von beiden Seiten gegen gewaltsames Aufbrechen sichern. Beratung zu Sicherheitsschließanlagen für zu Hause wird ebenfalls angeboten. Dazu kommen Gravuren, Stempel, Batteriewechsel und Schleifarbeiten. Die Inhaberin oder der Inhaber arbeitet persönlich in der Filiale und setzt Anliegen passend zum Bedarf um. Ein Sofortdienst soll Zeit sparen, wenn etwas gleich vor Ort erledigt werden kann. Auf der Seite steht außerdem ein Serviceversprechen, und Anfragen sind über ein Formular möglich. Die Leistungen reichen von der Sneaker-Reparatur bis zum Gravieren."
+  },
+  {
+    "slug": "multi-express-aenderungsschneiderei-schluesseldienst-und-schuster-berlin",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Sieben Handwerke an einem Tresen: Multi Express im Einkaufszentrum Eastgate in Marzahn führt Schlüsseldienst, Änderungsschneiderei, Schuhreparatur, Schleifen, Gravieren, Stempelservice und Reinigung zusammen. Der Gedanke dahinter ist, dass Kunden Erledigungen nicht an fünf Orten erledigen müssen. Beim Schlüsseldienst werden Wohnungs-, Haustür-, Auto- und Sicherheitsschlüssel meist in wenigen Minuten nachgemacht, ebenso Schlüssel für Schließanlagen, Briefkästen und Spezialschlüssel. Den passenden Rohling hat der Laden nach eigener Angabe fast immer vorrätig. Bei der Schneiderei geht es um Änderungen wie Kürzen und Enger- oder Weitermachen, bei Stempeln und Gravuren unter anderem um Klingel-, Briefkasten- und Firmenschilder. Das Geschäft hat tägliche Öffnungszeiten von Montag bis Samstag. Fragen zu Schlüssel, Änderung oder Reparatur werden nach eigener Angabe meist noch am selben Tag beantwortet, und kurze Besuche ohne Anmeldung sind ausdrücklich erwünscht."
+  },
+  {
+    "slug": "schuhservice-schluesseldienst-aman-berlin",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Aman in Berlin kombiniert einen Schuhservice mit einem Schlüsseldienst. Als Hauptkategorie steht die Schuhreparatur, hinzu kommen der Schlüsselservice und eine Sattlerei. Im Mittelpunkt der Beschreibung steht die Schlüsselkopie, zweisprachig auf Deutsch und Englisch beworben: Wohnungsschlüssel, Anlagenschlüssel, Sicherheitsschlüssel, Briefkastenschlüssel und Autoschlüssel werden genannt, dazu ein schneller Service. Weitere Arbeiten am Schloss gehen aus den Angaben nicht hervor."
+  },
+  {
+    "slug": "schustar-schuh-und-schluesseldienst-gravuren-berlin",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "SchuStar, ein Schuh- und Schlüsseldienst mit Gravurarbeiten im Berliner Süden, ist umgezogen: Aus dem U-Bahnhof an der Schloßstraße ging es in neue Räume im Erdgeschoss, nur wenige Meter vom alten Laden entfernt. Als Hauptkategorie steht die Schuhreparatur, als weitere Bereiche sind die Gravur und die Schlüsselvervielfältigung eingetragen. Welche Schlüssel und Schlösser im Einzelnen bearbeitet werden, bleibt offen."
+  },
+  {
+    "slug": "meesenburg-gmbh-sicherheit-service-in-berlin-berlin",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Als Standort der Meesenburg GmbH für Sicherheit und Service plant und installiert dieser Betrieb in Berlin Schließanlagen, elektronische Zutrittskontrollsysteme und Sicherheitstüren. Zum Programm gehören außerdem Videoüberwachung, Einbruchschutz und Alarmtechnik, Tresore und Waffenschränke, Briefkastenanlagen, Brandschutztüren sowie Fluchtwegtechnik. Ergänzt wird das Angebot durch einen Schlüsseldienst für Privatkunden, Unternehmen und öffentliche Einrichtungen. Für Schließzylinder mehrerer Systemhersteller können Ersatzschlüssel nachbestellt werden, die Baulänge eines Profilzylinders lässt sich vor Ort ermitteln. Die Angebote richten sich an Fachbetriebe, Planer, Architekten und gewerbliche Kunden, genannt werden unter anderem Hausverwaltungen, Wohnanlagen, Hotels und Banken. Am Standort im Bezirk Friedrichshain-Kreuzberg gibt es Beratung, Ausstellung und Sofortservices. Das Unternehmen betreibt außerdem einen Onlineshop für Sicherheitstechnik, einen Shop für Geschäftskunden und einen Konfigurator für Schließzylinder. Ein Rückrufwunsch lässt sich über die Seite hinterlegen."
+  },
+  {
+    "slug": "kaiser-schluesselnotdienst-berlin-berlin",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Kaiser Schlüsselnotdienst ist in ganz Berlin unterwegs und mit Standorten in fünf Bezirken vertreten, was nach Angabe des Betriebs zu kurzen Anfahrtswegen führt. Der Dienst ist rund um die Uhr besetzt. Wer sich ausgesperrt hat, bekommt die Tür geöffnet, bei defektem Schloss wechselt der Betrieb das Schloss oder repariert es. Nach einem Einbruch beseitigt er entstandene Schäden. Die Seite ordnet sich als Notdienst für Türöffnungen, Schlosswechsel und Reparaturen ein und nennt die einzelnen Standorte auf einer eigenen Unterseite. Als Maps-Kategorie ist der Notdienst eines Schlüsseldienstes hinterlegt. Das Angebot konzentriert sich damit auf den Einsatz bei akuten Problemen an Türen und Schlössern im Stadtgebiet. Die Seite stellt unter der Frage nach den Gründen für die Wahl des Dienstes die Vorteile zusammen und listet die Bezirke der Standorte auf."
+  },
+  {
+    "slug": "schuhe-schluesseldienst-berlin",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "not enough info",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Schuhe und Schlüssel in einem Laden, so tritt dieser Berliner Betrieb auf. Als Hauptkategorie ist die Schuhreparatur eingetragen, als weiterer Bereich die Schlüsselvervielfältigung. Der Betrieb kommt auch zu den Kunden, und die Öffnungszeiten sind hinterlegt. Welche Arbeiten am Schlüssel oder an Schlössern übernommen werden, lässt sich den Angaben nicht entnehmen."
+  },
+  {
+    "slug": "meier-schluesseldienst-charlottenburg-berlin",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Gegenüber vom Rathaus Charlottenburg sitzt Meier-Schlüsseldienst, dessen Hauptkategorie die Schlüsselvervielfältigung ist. Der Betrieb fertigt Schlüssel an und bietet mechanische Sicherheitstechnik für ein sicheres Zuhause an, genannt werden Querriegel und Stangenschlösser. Die Öffnungszeiten sind hinterlegt, und Besuche vor Ort gehören zum Service. Welche weiteren Leistungen dazugehören, etwa Türöffnungen oder Schlossaustausch, geht aus den Angaben nicht hervor."
+  },
+  {
+    "slug": "ax-system-inh-axel-fleischer-berlin",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "true",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "AX System unter Inhaber Axel Fleischer ist ein Schlüsseldienst in Spandau, dessen Hauptkategorie die Schlüsselvervielfältigung ist. Beschrieben werden Schließanlagen, Schlösser, Schließsysteme, Autoschlüssel sowie Fenstersicherungen und deren Montage. Der Betrieb nimmt Terminanfragen online entgegen und kommt auch zu den Kunden. Das Themenspektrum reicht damit von mechanischen Schlössern bis zur Sicherungstechnik an Fenstern."
+  },
+  {
+    "slug": "fas-marko-boettcher-edwin-kemnitz-gbr-berlin",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "not enough info",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Eine Schlosserei mit Fachgeschäft für Schließ- und Sicherheitstechnik, seit 1991 in Berlin-Mitte: FAS führt Ladengeschäft und Werkstatt am selben Ort. Die Mitarbeiter öffnen zugezogene oder zugeschlossene Türen, montieren Schlösser, Türzylinder und Schließanlagen und fertigen Schlüsselkopien, auch sofort. Zylinderlängen werden nach Kundenwunsch vor Ort mit vorgefertigten Zylindern angepasst. Beschädigte Türen und Fenster werden repariert, nach Einbrüchen entstandene Schäden beseitigt. Für den Einbruchschutz montiert der Betrieb Panzerriegel, Stangenschlösser und Türspione. Die Zylinder, Schlüssel und Schließanlagen sind nach Angabe des Betriebs reparierbar, umstiftbar und wiederverwendbar. Historische Schlösser werden restauriert, für antike Türen entstehen passende Schlüssel. Zusätzlich gibt es Stahl- und Schweißarbeiten sowie Metallbau. Im Geschäft lassen sich Schlüsselkopien machen oder neue Schlösser zum Selbsteinbau erwerben, und beraten wird zu geeigneten Sicherungsmaßnahmen. Hinter der GbR stehen die beiden Inhaber Marko Böttcher und Edwin Kemnitz."
+  },
+  {
+    "slug": "key36-schluesseldienst-kreuzberg-berlin",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "not enough info"
+    },
+    "description": "Im Wrangelkiez in Kreuzberg führt eine Familie Key36 als Kleinunternehmen mit nach eigener Angabe zwanzig Jahren Erfahrung. Der Betrieb versteht sich als Spezialist für Schlüssel und Schlösser und betreibt einen Schlüsselnotdienst, der bei verschlossener Wohnungstür Tag und Nacht ausrückt. Zum Angebot zählen Türschlösser aller Art, der Austausch und die Reparatur von Schlössern, der Einbau von Schließanlagen, Zylinder, Fensterschlösser, Stangenschlösser und Querriegelschlösser sowie die Anfertigung von Schlüsseln, etwa Hausschlüsseln, Bundbartschlüsseln und Postkastenschlüsseln. Im Laden werden außerdem Schuhe und Taschen repariert, und er dient als Abgabestelle für Sendungen von GLS und DPD. Verkauft werden Produkte wie Türzylinder, Bügelschlösser und Zusatzschlösser eines bekannten Herstellers. Repariert werden Sohlen, Absätze, Reißverschlüsse und Futter, und Termine lassen sich online buchen. Der Schwerpunkt liegt auf der Nachbarschaft im Wrangelkiez.",
+    "trace": {
+      "tueroeffnung": "Wohnungstür verschlossen, ausgesperrt?",
+      "ladengeschaeft": "Hier finden Sie uns: Wrangelstraße 65"
+    }
+  },
+  {
+    "slug": "experte-sicherheit-sicherheitstechnik-vom-experten-christoph-glanz-e-k-berlin",
+    "attributes": {
+      "schluesseldienst_kern": "not enough info",
+      "notdienst_24h": "true",
+      "tueroeffnung": "not enough info",
+      "schlossaustausch": "not enough info",
+      "schliessanlagen": "not enough info",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "not enough info",
+      "elektronische_schliesssysteme": "true",
+      "ladengeschaeft": "not enough info",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Ein junges Unternehmen für Sicherheitstechnik mit Hauptsitz in Berlin und Niederlassungen in Salzgitter und Halberstadt. Im Kerngeschäft stehen mechanische Sicherheitstechnik wie Schließzylinder, Zusatzschlösser, Sicherheitsbeschläge, Panzerriegel und Türketten sowie elektronische Technik wie Einbruchmeldeanlagen, Videoüberwachung und Zutrittssysteme mit PIN-Eingabe oder Fingerabdruck. Hinzu kommen Brandschutz, Rauchwarnmelder, Zaun- und Torsysteme, Tresore und Briefkästen. Eine Notruf- und Serviceleitstelle sowie ein Wach- und Sicherheitsdienst mit Patrouillen für Liegenschaften ergänzen das Angebot, außerdem Hausmeisterdienste. Tätig ist der Betrieb in Berlin, Hamburg und Salzgitter, auf Wunsch deutschlandweit. Der Service wird als rund um die Uhr verfügbar beschrieben. Beratung, Installation, Wartung und Planung gehören zum Leistungsspektrum, dazu Videotürme und Alarmtürme, Referenzen, Downloads und ein Shop. Der Betrieb nennt sich ein Unternehmen mit Leidenschaft für neue Herausforderungen und setzt auf partnerschaftliche Zusammenarbeit mit seinen Kunden."
+  },
+  {
+    "slug": "frank-seilz-schluesseldienst-schlosserei-berlin",
+    "attributes": {
+      "schluesseldienst_kern": "true",
+      "notdienst_24h": "true",
+      "tueroeffnung": "true",
+      "schlossaustausch": "true",
+      "schliessanlagen": "true",
+      "einbruchschutz": "true",
+      "autoschluessel": "not enough info",
+      "tresoroeffnung": "not enough info",
+      "schluessel_nachmachen": "true",
+      "elektronische_schliesssysteme": "not enough info",
+      "ladengeschaeft": "true",
+      "festpreis_genannt": "not enough info",
+      "anfahrtspauschale_genannt": "not enough info",
+      "gewerblich_objektbetreuung": "true"
+    },
+    "description": "Gegründet am 1. November 1989, hat sich Frank Seilz in Lichtenberg zu einem Sicherheitsfachgeschäft entwickelt. 1992 wurde ein Ladengeschäft für Sicherheitstechnik eröffnet, später zog der Betrieb in größere Geschäftsräume. Nach eigener Angabe ist er Innungsmitglied und in der Handwerksrolle eingetragen. Im Angebot stehen Notdienst und Notöffnungen rund um die Uhr, der Verkauf und die Montage von Schlössern und Sicherheitssystemen sowie die Betreuung und Verwaltung von Schließanlagen. Hinzu kommen Schlüsselanfertigung, Sicherheitsberatung und Einbruchschutz mit zusätzlicher Sicherung von Türen, Fenstern und Balkontüren, Lieferung und Montage von Tresoren, Fenstergitter, Schweißarbeiten und die Restaurierung alter Schlösser. Als Kunden nennt der Betrieb Wohnungsbaugesellschaften, Bezirksämter, Schulen, Vereine, Hausverwaltungen und Unternehmen. Gearbeitet wird auch an Türschließern, Fenstergittern und Fußabtretern sowie an der Sicherung von Wasseranschlüssen gegen Messing-Diebstahl.",
+    "trace": {
+      "tueroeffnung": "Notdienst und Notöffnungen 24/7"
+    }
+  }
+]

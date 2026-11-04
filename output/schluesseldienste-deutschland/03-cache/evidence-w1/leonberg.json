@@ -1,0 +1,26 @@
+[
+ {
+  "slug": "24h-schluesseldienst-autoschluesseldienst-kouria-leonberg",
+  "name": "24h Schlüsseldienst & Autoschlüsseldienst Kouria",
+  "city": "Leonberg",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "",
+  "rating": "4.6",
+  "reviews": "38",
+  "stars_1_to_5": [
+   "3",
+   "0",
+   "0",
+   "2",
+   "33"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "accessibility: ['has_wheelchair_accessible_seating']",
+   "crowd: ['welcomes_lgbtq', 'is_transgender_safespace']",
+   "accessibility: ['has_wheelchair_accessible_restroom']"
+  ],
+  "maps_description": "",
+  "site_status": "no website"
+ }
+]

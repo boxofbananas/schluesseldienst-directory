@@ -1,0 +1,71 @@
+[
+ {
+  "slug": "schluesseldienst-roman-konstanz",
+  "name": "Schlüsseldienst Roman",
+  "city": "Konstanz",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "",
+  "rating": "4.5",
+  "reviews": "27",
+  "stars_1_to_5": [
+   "3",
+   "0",
+   "0",
+   "2",
+   "22"
+  ],
+  "has_hours": true,
+  "maps_about": [],
+  "maps_description": "Schlüsseldienst, seit 2003 in Konstanz, 24h Notdienst",
+  "site_status": "no website"
+ },
+ {
+  "slug": "boehler-reparaturen-service-schluesseldienst-in-konstanz-konstanz",
+  "name": "Böhler Reparaturen + Service | Schlüsseldienst in Konstanz",
+  "city": "Konstanz",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "Repair service",
+  "rating": "5",
+  "reviews": "5",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "5"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "service_options: ['has_onsite_services']"
+  ],
+  "maps_description": "Herzlich Willkommen bei Böhler Reparaturen + Service in Konstanz.\nIhr Spezialist für Reparaturen, Sicherheitsschlösser, Notöffnungen sowie Beratung und Planung. Wir öffnen zugefallene Türen zerstörungsfrei!",
+  "site_status": "ok",
+  "site_title": "Böhler Service in Konstanz - Reparaturen, Schlüsseldienst, Notöffnungen",
+  "site_meta": "Böhler Service in Konstanz - Reparaturen, Schlüsseldienst, Notöffnungen",
+  "site_headings": [
+   "Reparaturen + Service",
+   "Schlüsseldienst",
+   "Leistungen"
+  ],
+  "site_menu": [
+   "kontakt@boehler-service.de",
+   "www.boehler-service.de",
+   "Impressum",
+   "Datenschutz"
+  ],
+  "pages_read": [
+   "https://www.boehler-service.de/"
+  ],
+  "quotes": {
+   "schluesseldienst_kern": [
+    "﻿ Reparaturen + Service Schlüsseldienst Wir öffnen zugefallene Türen zerstörungsfrei! Notruf: 0170 76 46 400 Andreas Böhler Schützenstraße 42"
+   ],
+   "notdienst_24h": [
+    "﻿ Reparaturen + Service Schlüsseldienst Wir öffnen zugefallene Türen zerstörungsfrei! Notruf: 0170 76 46 400 Andreas Böhler Schützenstraße 42 78462 Konstanz Telefon: 07531 3027808 Fax: 07531 30278"
+   ],
+   "tueroeffnung": [
+    "﻿ Reparaturen + Service Schlüsseldienst Wir öffnen zugefallene Türen zerstörungsfrei! Notruf: 0170 76 46 400 Andreas Böhler Schützenstraße 42 78462 Konstanz Telefon: 0753"
+   ]
+  }
+ }
+]

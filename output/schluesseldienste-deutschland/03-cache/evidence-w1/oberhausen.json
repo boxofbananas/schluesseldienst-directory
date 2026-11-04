@@ -1,0 +1,42 @@
+[
+ {
+  "slug": "stick-schuh-und-schluesseldienst-oberhausen",
+  "name": "Stick Schuh- und Schlüsseldienst",
+  "city": "Oberhausen",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "Shoe repair shop",
+  "rating": "4.6",
+  "reviews": "28",
+  "stars_1_to_5": [
+   "2",
+   "0",
+   "1",
+   "0",
+   "25"
+  ],
+  "has_hours": true,
+  "maps_about": [],
+  "maps_description": "Wir sind ein Schuh- und Schlüsseldienst und helfen Ihnen gerne. Sprechen Sie uns einfach an: entweder per Telefon oder persönlich vor Ort.",
+  "site_status": "no website"
+ },
+ {
+  "slug": "mr-lox-schluesseldienst-oberhausen-oberhausen",
+  "name": "mr. Lox Schlüsseldienst Oberhausen",
+  "city": "Oberhausen",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "",
+  "rating": "3.7",
+  "reviews": "6",
+  "stars_1_to_5": [
+   "2",
+   "0",
+   "0",
+   "0",
+   "4"
+  ],
+  "has_hours": false,
+  "maps_about": [],
+  "maps_description": "Unser lokaler und mobiler Schlüsseldienst bietet schnelle und zuverlässige Hilfe bei Türöffnungen, Schlosswechseln und Sicherheitsberatungen. Wir sind rund um die Uhr erreichbar und garantieren kurze Anfahrtszeiten sowie professionelle Lösungen für Ihre Sicherheitsbedürfnisse. Ob Schlüsselnotfall oder individuelle Beratung – wir sind Ihr vertrauensvoller Partner vor Ort.",
+  "site_status": "http 503"
+ }
+]

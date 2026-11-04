@@ -1,0 +1,27 @@
+[
+ {
+  "slug": "schuhhaus-krimmert-ottersberg",
+  "name": "Schuhhaus Krimmert",
+  "city": "Ottersberg",
+  "maps_type": "Shoe store",
+  "maps_subtypes": "Key duplication service, Shoe repair shop",
+  "rating": "4.8",
+  "reviews": "36",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "1",
+   "4",
+   "31"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "service_options: ['has_curbside_pickup', 'has_in_store_pickup', 'has_in_store_shopping']",
+   "accessibility: ['has_wheelchair_accessible_parking', 'has_wheelchair_accessible_entrance']",
+   "planning: ['quick_visit']",
+   "service_options: ['has_delivery']"
+  ],
+  "maps_description": "Schuhhaus Krimmert, Ottersberg - Schuhe zum Wohlfühlen und mehr...\nFachmännische Reparaturen in der eigenen Werkstatt: ob ein neuer Absatz oder neue Sohlen, ein defektes Fersenfutter oder Klett- bzw. Reißverschlüsse, Sohlenerhöhung, Weiten sowie Näharbeiten aller Art.\nSchlüsseldienst bedeutet bei uns das Kopieren von Standard-Schlüsseln (z. B. ABUS etc.) auf Basis eines Originalschlüssels. Das Öffnen von Türen gehört nicht zu unseren Dienstleistungen.",
+  "site_status": "no website"
+ }
+]

@@ -1,0 +1,25 @@
+[
+ {
+  "slug": "schuh-schluesseldienst-st-toenis-toenisvorst",
+  "name": "Schuh & Schlüsseldienst St. Tönis",
+  "city": "Tönisvorst",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "Shoe repair shop",
+  "rating": "5",
+  "reviews": "51",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "1",
+   "0",
+   "50"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "service_options: ['has_onsite_services']",
+   "service_options: ['offers_online_appointments']"
+  ],
+  "maps_description": "",
+  "site_status": "no website"
+ }
+]

@@ -1,0 +1,26 @@
+[
+ {
+  "slug": "bayrakli-schuh-schluesseldienst-fellbach-fellbach",
+  "name": "BAYRAKLI Schuh-& Schlüsseldienst Fellbach",
+  "city": "Fellbach",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "Shoe repair shop",
+  "rating": "4.7",
+  "reviews": "13",
+  "stars_1_to_5": [
+   "1",
+   "0",
+   "0",
+   "0",
+   "12"
+  ],
+  "has_hours": true,
+  "maps_about": [
+   "service_options: ['has_onsite_services']",
+   "accessibility: ['has_wheelchair_accessible_entrance']",
+   "service_options: ['offers_online_appointments']"
+  ],
+  "maps_description": "",
+  "site_status": "no website"
+ }
+]

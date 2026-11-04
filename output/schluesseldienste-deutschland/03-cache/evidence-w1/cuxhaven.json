@@ -1,0 +1,74 @@
+[
+ {
+  "slug": "schluesseldienst-und-schaedlingsbekaempfung-koester-s-u-s-koester-cuxhaven",
+  "name": "Schlüsseldienst und Schädlingsbekämpfung Köster / S. u. S. Köster",
+  "city": "Cuxhaven",
+  "maps_type": "Key duplication service",
+  "maps_subtypes": "Pest control service",
+  "rating": "5",
+  "reviews": "11",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "11"
+  ],
+  "has_hours": true,
+  "maps_about": [],
+  "maps_description": "",
+  "site_status": "ok",
+  "site_title": "SuS Köster – Schädlingsbekämpfung und Schlüsseldienst",
+  "site_meta": "",
+  "site_headings": [
+   "Startseite",
+   "Schädlingsbekämpfung",
+   "Schlüsseldienst"
+  ],
+  "site_menu": [
+   "Zum Inhalt springen",
+   "Schädlingsbekämpfung",
+   "Schlüsseldienst",
+   "Kontaktieren Sie Uns",
+   "Impressum",
+   "Datenschutzerklärung",
+   "Startseite",
+   "Kundenlogin",
+   "Mehr Informationen",
+   "+49 (0) 4721 / 666 58 01",
+   "info@sus-koester.de",
+   "SuS Köster",
+   "Nach oben ↑ Nach oben ↑"
+  ],
+  "pages_read": [
+   "https://sus-koester.de/"
+  ],
+  "quotes": {
+   "schluesseldienst_kern": [
+    "Zum Inhalt springen SuS Köster Schädlingsbekämpfung und Schlüsseldienst Menü Schädlingsbekämpfung Schlüsseldienst Kontaktieren Sie Uns Menü Menü schließen Impressum Datenschut"
+   ]
+  }
+ },
+ {
+  "slug": "tor-tuertechnik-schluesseldienst-cuxhaven",
+  "name": "Tor & Türtechnik - Schlüsseldienst",
+  "city": "Cuxhaven",
+  "maps_type": "Metal workshop",
+  "maps_subtypes": "Locksmith",
+  "rating": "",
+  "reviews": "0",
+  "stars_1_to_5": [
+   "0",
+   "0",
+   "0",
+   "0",
+   "0"
+  ],
+  "has_hours": false,
+  "maps_about": [
+   "accessibility: ['has_wheelchair_accessible_parking']"
+  ],
+  "maps_description": "",
+  "site_status": "no website"
+ }
+]
