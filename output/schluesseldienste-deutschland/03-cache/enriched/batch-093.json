@@ -1,0 +1,764 @@
+[
+ {
+  "slug": "gsd-gebaeudeservice-schluesseldienst-duesseldorf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Gebäudeservice und Schlüsselnotdienst laufen bei diesem Düsseldorfer Betrieb unter einem Dach. Den größeren Teil macht die Reinigung aus: Unterhalts-, Bau-, Glas-, Grund-, Stein- und Treppenhausreinigung sowie Hausmeisterservice für Büros, Praxen, Wohnanlagen, Hotels, Schulen, Lagerhallen und Produktionsstätten. Reinigungszeiten für Filialen lassen sich morgens, abends oder am Wochenende festlegen, und ein festes Team lernt das Objekt kennen. Daneben führt der Betrieb einen Bereich Sicherheitstechnik mit Schließanlagen, Schließzylindern, Schlössern, Türdrückern und Beschlägen. Zum Einbruchschutz gehört die Beratung bei Bauplanung und Nachrüstung, etwa bei der Sicherung von Fenstern und Türen. Ausgesperrten Kunden hilft der Schlüsselnotdienst beim Öffnen der Tür. Das Einsatzgebiet ist Düsseldorf mit Umgebung. Wer Reinigung anfragt, erhält nach einer Analyse ein Angebot samt Reinigungsplan. Das Unternehmen nennt sich Service Partner und stellt Qualitätsorientierung in den Vordergrund.",
+  "trace": {
+   "tueroeffnung": "Tür professionell geöffnet"
+  }
+ },
+ {
+  "slug": "gebaeudeservice-schluesseldienst-altstadt-gmbh-duesseldorf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Seit 1982 betreut die GSA GmbH in Düsseldorf Gebäude und deren Sicherheitstechnik. Das Spektrum reicht von Hausmeisterservice, Reinigung, Gartenpflege und Winterdienst bis zur Wartung von Brandschutztüren und Feststellanlagen. In der Schließtechnik plant und montiert der Betrieb mechanische und elektronische Schließanlagen, vom Panzerriegelschloss bis zum Sicherheitszylinder. Zugefallene oder verschlossene Türen öffnet er für Privatkunden und Unternehmen, wenn möglich ohne Schaden am Schloss, und defekte Schließzylinder tauscht er direkt vor Ort. Der Notdienst ist rund um die Uhr erreichbar, auch nachts, am Wochenende und an Feiertagen. Im Showroom werden Zylinder, Beschläge und elektronische Zutrittskontrolle vorgestellt. Zur Kundschaft zählen Hausverwaltungen, Verwalter von Eigentümergemeinschaften, Unternehmen und Privathaushalte. Die Schließanlagen werden in allen Düsseldorfer Stadtteilen und im Umland montiert. Für Anlagen verschiedener Hersteller wie EVVA, Winkhaus, Wilka, Kaba und Abus stehen Formulare für Maßerfassung und Ersatzsicherungskarten bereit.",
+  "trace": {
+   "ladengeschaeft": "In unserem Showroom"
+  }
+ },
+ {
+  "slug": "schluesseldienst-antonio-fatibene-duesseldorf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Antonio Fatibene führt in Düsseldorf einen Schlüsseldienst mit Ladenlokal, der im Raum Düsseldorf tätig ist. Öffnungen im Notdienst sind an jedem Tag möglich. Im Laden gibt es Schlüssel aller Art, Schließanlagen, Schlösser und Zylinder, außerdem Einbruchschutz, Türbeschläge, Tresore, Fenstersicherungen und Briefkastenanlagen. Dazu kommen Stempel, Schilder, Klingelschilder und Gravuren. Das Angebot im Laden reicht vom einzelnen Schlüssel bis zur Fenstersicherung.",
+  "trace": {
+   "schluessel_nachmachen": "Schlüssel aller Art"
+  }
+ },
+ {
+  "slug": "heinrich-golumbeck-sicherheitstechnik-duesseldorf",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Heinrich Golumbeck Sicherheitstechnik arbeitet in Düsseldorf als Fachbetrieb mit langjähriger Erfahrung im Bereich Sicherheitstechnik. Das Angebot beginnt bei der Beratung, geht über die Planung und reicht bis zur Umsetzung der Haus- und Wohnungsabsicherung. Zusätzlich führt der Betrieb einen Schlüsseldienst. Als Gewerk ist die Schlüsselanfertigung genannt, und Öffnungszeiten sind hinterlegt. Die langjährige Erfahrung stellt der Betrieb in den Vordergrund."
+ },
+ {
+  "slug": "schluesseldienst-duesseldorf-j-metzger-duesseldorf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "true",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "In der Landeshauptstadt ansässig, bietet dieser Düsseldorfer Schlüsseldienst Leistungen rund um Schlüssel, Schlösser und Schließzylinder an. Er öffnet zugefallene und verschlossene Türen, auch Fahrzeuge, und zwar nach eigener Angabe ohne Schaden. Bei Bedarf öffnet er außerdem Tresore und Schranktüren. Hinzu kommen Schließanlagen, Ersatzschlüssel für Haustüren, Wohnungstüren, Briefkästen und Garagen sowie Beratung zu Einbruchschutz und Sicherheitstechnik. Der Türöffnungs-Notdienst läuft Tag und Nacht an sieben Tagen in der Woche. Die Kosten nennt der Betrieb vor jeder Türöffnung, und im Notdienst berechnet er keine Anfahrt. Das Team arbeitet ohne zwischengeschaltete Drittanbieter und bezeichnet den Betrieb als alteingesessen. Die Einsatzgebiete umfassen neben Düsseldorf auch Neuss, Krefeld, Hilden, Ratingen und Mettmann. Als Richtwert für das Eintreffen nennt der Betrieb 10 bis 40 Minuten. Der Betrieb sitzt in Düsseldorf und fährt das gesamte Stadtgebiet an."
+ },
+ {
+  "slug": "hos-hausmeisterservice-duesseldorf-duesseldorf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Als Hausmeisterservice in Düsseldorf aufgestellt, bietet HOS zusätzlich einen Schlüsselnotdienst für Türöffnungen aller Art an, vor allem im Stadtteil Oberkassel. Der Notdienst ist rund um die Uhr an allen Tagen des Jahres erreichbar, und der Betrieb ist in der Regel binnen 10 bis 30 Minuten vor Ort. Die Kosten für einfache Türöffnungen nennt er vorab. Gearbeitet wird nach eigener Angabe sauber und mit professionellem Werkzeug. Daneben deckt der Betrieb Gartenarbeiten, Hausreinigung und Fensterreinigung ab. Termine und Kostenvoranschläge lassen sich online anfragen."
+ },
+ {
+  "slug": "schluesseldienst-bisercic-duesseldorf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Im Düsseldorfer Stadtteil Flingern führt Bisercic einen Fachhandel für Sicherheitstechnik, der zugleich als Schlüsseldienst arbeitet. Das Angebot umfasst Türöffnungen, kurzfristigen Schlosswechsel, Reparaturen an Schlössern, Fenstern und Türen sowie Montage und Wartung von Türschließern und Türöffnern. Beratung zur Sicherheit für Eigenheim und Objekt gehört dazu, verbaut werden nach eigener Angabe Markenprodukte bekannter Hersteller. Eine Hotline ist Tag und Nacht erreichbar. Neben dem Schlüsseldienst gibt es einen Schuster, Reparaturen, Hausmeisterservice, Gebäudereinigung und Winterdienst. Als Ziel nennt der Betrieb den Erhalt von Objekten durch Reinigung, Pflege und Reparatur. Der Laden ist mit mehreren Straßenbahnlinien zu erreichen. Die Sicherheitstechnik wird an die Bedürfnisse der Kunden angepasst, und bei Bedarf leistet der Betrieb sofort Hilfe. Der Betrieb arbeitet in Düsseldorf Flingern und führt dort sein Ladenlokal.",
+  "trace": {
+   "ladengeschaeft": "kompetenter, serviceorientierter Fachhandel für Sicherheitstechnik in Düsseldorf-Flingern"
+  }
+ },
+ {
+  "slug": "schluesseldienst-duesseldorf",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Unter dem schlichten Namen Schlüsseldienst arbeitet in Düsseldorf ein Betrieb, der dem Gewerk nach Schlüssel anfertigt. Öffnungszeiten sind hinterlegt. Die wenigen Angaben lassen offen, welche Arbeiten darüber hinaus ausgeführt werden, etwa Türöffnungen oder der Austausch von Zylindern. Der Eintrag trägt keinen Zusatz, der auf einen bestimmten Stadtteil oder eine Spezialisierung hinweist."
+ },
+ {
+  "slug": "elias-schluesseldienst-duesseldorf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Elias Schlüsseldienst übernimmt im Raum Düsseldorf Türöffnungen ohne Beschädigung, Autoöffnungen und Schlosswechsel. Ein Schlüsselnotdienst ist 24 Stunden erreichbar, und der Betrieb ist in der Regel innerhalb von 10 bis 30 Minuten vor Ort. Das Einsatzgebiet umfasst Düsseldorf, Hilden, Erkrath, Mettmann, Ratingen, Neuss und Meerbusch. Gedacht ist das Angebot für Kunden, die vor einer verschlossenen Tür stehen oder ihren Schlüssel verloren haben."
+ },
+ {
+  "slug": "duesseldorfer-schluesseldient-duesseldorf",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Gegründet 1948 in Düsseldorf, zählt der Düsseldorfer Schlüsseldienst Költerhoff GmbH nach eigener Angabe zu den ältesten Betrieben seiner Art in der Stadt. 1976 übernahm der Mitarbeiter Kurt Hopf das Geschäft und führte es weiter. Im Laden gibt es Schlüssel aller Art, Schließanlagen in eigener Fertigung, elektronische Schlüsselfertigung, Sicherheitsschlösser und Beschläge, Türschließer, Schlüsselschränke und Briefkastenanlagen. Ausgebildete Monteure arbeiten vor Ort mit Profil- und Elektronikzylindern, Panzerriegeln, Fenstersicherungen, Müllschachtabdeckungen, Absperrpollern und Stahltüren. Der Betrieb versteht sich als Fachbetrieb für Riegel und Verschlusstechnik und allgemeine Haustechnik. Das Geschäft liegt zu Fuß fünf Minuten vom Hauptbahnhof entfernt, ist werktags geöffnet und schließt freitags am Nachmittag, samstags bleibt es zu. Die Firmengeschichte reicht damit über 75 Jahre zurück, die Schließanlagen entstehen in eigener Fertigung. Der Betrieb firmiert als GmbH.",
+  "trace": {
+   "schluessel_nachmachen": "Schlüssel aller Art",
+   "elektronische_schliesssysteme": "Elektronikzylinder"
+  }
+ },
+ {
+  "slug": "mf-tuer-und-schliesstechnik-frankfurt-am-main",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "MF Tür- und Schließtechnik sitzt in Frankfurt Nieder-Eschbach und arbeitet als Schlüsseldienst aus Frankfurt für Frankfurt. Der Betrieb öffnet zugefallene Türen, eingeschnappte Schlösser und Schließsysteme, entfernt abgebrochene oder feststeckende Schlüssel und tauscht Schließzylinder und Beschläge. Hinzu kommen Nottür- und Fensteröffnungen, auch für Behörden und Ämter, die Reparatur von Einbruchschäden sowie die Wartung von Zylindern, Schlosskästen und Mehrfachverriegelungen. Schließanlagen plant, erstellt, verwaltet und wartet er, außerdem installiert er Einbruchschutz. Der Notdienst ist 24 Stunden täglich an allen Tagen des Jahres erreichbar, in der Regel ist der Betrieb in 30 Minuten vor Ort. Die Kosten für Türöffnungen sind vorab einsehbar, und vor Arbeitsbeginn klärt der Betrieb über alle anfallenden Kosten auf. Fachgerechte Arbeit mit Spezialwerkzeug steht dabei im Mittelpunkt, ebenso der Anspruch, Kunden vor überhöhten Forderungen unseriöser Anbieter zu bewahren."
+ },
+ {
+  "slug": "schluesselnotdienst-best-service-frankfurt-am-main",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "false",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Im Stadtteil Sachsenhausen sitzt der Schlüsselnotdienst Best-Service, der in Frankfurt am Main rund um die Uhr erreichbar ist. Das Angebot umfasst Türöffnung, Schloss- und Zylinderwechsel, die Reparatur von Einbruchschäden, Tresoröffnung und Autotüröffnung. Einsätze sind in allen 46 Frankfurter Stadtteilen möglich; Einsatzmöglichkeit und Anfahrt klärt der Betrieb telefonisch, Filialen gibt es nicht. Für zugefallene Türen veröffentlicht er eine Preisliste mit Anfahrt innerhalb Frankfurts, bei verriegelten Türen kommt ein Aufschlag je nach Aufwand hinzu. Den Gesamtpreis nennt der Betrieb vor der Beauftragung. Der Ablauf besteht aus drei Schritten: Situation schildern, Preis und Einsatz klären, Hilfe vor Ort. Ersatzteile, Schlosswechsel, Tresor- und Autotüröffnungen sowie Reparaturen werden gesondert abgestimmt, für sie veröffentlicht der Betrieb keine Pauschalpreise. Als Einsatzgebiet nennt er Frankfurt am Main von der Altstadt bis Zeilsheim.",
+  "trace": {
+   "autoschluessel": "Autotüröffnung"
+  }
+ },
+ {
+  "slug": "faber-ruehl-gebaeude-und-sicherheitstechnik-frankfurt-am-main",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Faber & Rühl ist ein Fachgeschäft für Sicherheitstechnik in Frankfurt am Main mit über 40 Jahren Erfahrung. Der Betrieb plant und installiert Sicherheitssysteme für Privat- und Unternehmenskunden: Schlösser und Schließzylinder, Schließanlagen, Tresore, Briefkastenanlagen, Alarmanlagen, mechanischen Einbruchschutz und elektronische Zutrittskontrollen, darunter eCLIQ-Systeme. Bei Türen und Fenstern empfiehlt er Zusatzsicherungen wie Bändersicherungen, Schutzbeschläge mit Zylinderabdeckung und Querriegel sowie Schließzylinder mit Anbohrschutz. Ersatzschlüssel für Anlagen mit Sicherungskarte lassen sich nur mit entsprechender Legitimation nachbestellen. Neben dem Fachgeschäft vor Ort gibt es einen Online-Shop, und Termine für eine Beratung lassen sich vereinbaren. Die Zylinder gibt es in verschiedenen Sicherheitsstufen, vom einfachen Profil bis zum geschützten Profil mit Sicherungskarte. Zu den Herstellern im Programm zählen Assa Abloy und Wertheim. Als Anspruch nennt der Betrieb ein individuelles Sicherheitskonzept, das gemeinsam mit dem Kunden ausgearbeitet und dauerhaft betreut wird.",
+  "trace": {
+   "ladengeschaeft": "Fachgeschäft vor Ort",
+   "gewerblich_objektbetreuung": "ebenso zu, wie auf den Unternehmensbereich"
+  }
+ },
+ {
+  "slug": "schlappenflicker-schuh-und-schluesseldienst-und-kiosk-frankfurt-am-main",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "In Frankfurt Höchst bietet der Schlappenflicker seit rund 15 Jahren einen Schuh- und Schlüsseldienst an, verbunden mit einem Kiosk. Das Hauptgewerk ist die Schuhreparatur, daneben gehört ein Schlüsseldienst zum Angebot. Öffnungszeiten sind hinterlegt. Welche Schlüsselarbeiten im Einzelnen dazugehören, lassen die knappen Angaben offen. Der Kiosk ergänzt die beiden Dienste um Waren des täglichen Bedarfs."
+ },
+ {
+  "slug": "mkey-autoschluesseldienst-frankfurt-frankfurt-am-main",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Seit 2023 arbeitet mkey in Frankfurt am Main als Autoschlüsseldienst. Der Betrieb fertigt Ersatzschlüssel für Fahrzeuge verschiedener Marken an, kodiert und programmiert sie, repariert beschädigte Schlüssel und tauscht Akkus und Batterien, etwa bei Mini- und Ford-Modellen. Zum Fräsen gehören Notfallschlüssel sowie Rohlinge nach Muster oder nach Bild. Eine Neuanfertigung dauert in der Regel etwa 30 Minuten, einige Modelle brauchen länger. Reparaturen sind vor Ort und per Post möglich. Für Anfertigungen werden Fahrzeugschein und Personalausweis benötigt. Der Schwerpunkt liegt auf dem Fahrzeugschlüssel, nicht auf Türen und Schlössern von Gebäuden. Der Betrieb stützt sich auf Erfahrung aus der Branche Schuh- und Schlüsseldienst. Programmierung, Kodierung, Reparatur und Fräsung nennt der Betrieb als Kern seines Angebots für diverse Marken und Modelle. Die Anfertigung erfolgt für Modelle aus dem Ford- und Mini-Umfeld ebenso wie für andere Marken."
+ },
+ {
+  "slug": "schuhreparatur-und-schluesseldienst-broder-frankfurt-am-main",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schuhreparatur und Schlüsseldienst Broder arbeitet in Frankfurt am Main und führt beide Handwerke im Firmennamen. Die Schuhreparatur steht an erster Stelle, der Schlüsseldienst gehört gleichberechtigt dazu. Der Betrieb ist unter der Rubrik Schuhreparatur geführt, mit der Schlüsselanfertigung als zweitem Standbein. Öffnungszeiten sind hinterlegt. Wer Schuhe richten lassen will, findet hier dieselbe Adresse wie für Schlüsselarbeiten."
+ },
+ {
+  "slug": "b-v-s-gmbh-frankfurt-am-main",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Die B.V.S GmbH bietet im Rhein-Main-Gebiet einen Notdienst für Zugang und Objektsicherung, mit Sitz in Frankfurt. Türnotöffnungen und Notschließungen übernimmt der Betrieb rund um die Uhr; er öffnet Türen konventionell oder hydraulisch, auch wenn sie zugefallen, verriegelt oder blockiert sind, und sichert nach Einbruch oder Vandalismus beschädigte Zugänge, auch mit Notverglasung. Dazu kommen Fenster- und Scheibensicherung sowie mechanische Sicherheitstechnik mit Beschlägen, Sicherheitszylindern und zusätzlichen Verriegelungen. Schließanlagen für Gewerbe, Hausverwaltungen und öffentliche Einrichtungen von Bund, Ländern und Kommunen entwickelt der Betrieb mit Systemen von KESO, Biffar, Wilka und Zeiss Ikon und tritt dabei als autorisierter Wilka-Partner auf. Für Hausverwaltungen arbeitet er mit festen Kontaktwegen und dokumentiert die Einsätze. Der Betrieb nennt sich einen spezialisierten Notdienst und arbeitet im gesamten Rhein-Main-Gebiet."
+ },
+ {
+  "slug": "roedelheimer-schluesseldienst-schreinerei-selig-pigot-gmbh-frankfurt-am-main",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Seit 1933 verbindet dieser Betrieb in Frankfurt Rödelheim Schreinerei und Schlüsseldienst. Als Schreinerei ist er mit Möbelreparatur, Glaserarbeiten, Fenstern, Türen und Arbeitsplatten befasst, dazu kommen Denkmalpflege und Schlüsselanfertigung. Das Spektrum an handwerklichen Leistungen reicht von der kleinen Reparatur bis zum größeren Auftrag. Öffnungszeiten sind hinterlegt, und Abrechnungen sind per Karte möglich."
+ },
+ {
+  "slug": "ek-schluesseldienst-frankfurt-am-main",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "EK-Schlüsseldienst in Frankfurt am Main verbindet mehrere kleine Handwerke an einem Ort: Schlüsseldienst, Gravur, Schuhreparatur und Batteriewechsel. Der Betrieb ist als Schlüsselanfertigung geführt, mit angrenzenden Leistungen wie Stempeln und Uhrenreparatur. Termine lassen sich online vereinbaren, und Öffnungszeiten sind hinterlegt. Wer Schlüssel nachmachen lassen oder Schuhe reparieren will, bekommt beides unter einem Dach."
+ },
+ {
+  "slug": "schluesseldienst-city-de-frankfurt-am-main",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Seit 2018 ist der Inhaber von Schlüsseldienst-City im Schlüsseldienst tätig. In Frankfurt am Main öffnet der Betrieb zugefallene und verschlossene Türen, wechselt Schlösser und Zylinder, hilft bei verlorenen, abgebrochenen oder defekten Schlüsseln und unterstützt beim Einbruchschutz, dazu kommt eine Sicherheitsberatung. Der Schlüsselnotdienst ist rund um die Uhr erreichbar, auch nachts, am Wochenende und an Feiertagen. Für zugefallene Türen veröffentlicht der Betrieb Preise nach Uhrzeit, die Anfahrt innerhalb Frankfurts ist darin enthalten. Zuerst lässt er sich das Problem kurz schildern, und vor Beginn der Arbeiten informiert er über die voraussichtlichen Kosten. Bei beschädigten Schlössern oder aufwendigeren Arbeiten richten sich die Kosten nach dem Aufwand. Der Betrieb stellt schnelle Hilfe und transparente Kosten heraus, die Einsätze erfolgen im Stadtgebiet. Der Betrieb nennt Türöffnungen bei zugefallenen Türen an erste Stelle seines Angebots."
+ },
+ {
+  "slug": "schuhmacherei-schluesseldienst-alexander-frankfurt-am-main",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Seit 1949 besteht diese Schuhmacherei in Frankfurt am Main an ihrem Standort, und der heutige Inhaber ist bereits der dritte Eigentümer. Unter dem Namen Schuhmacherei & Schlüsseldienst Alexander gehört neben der Schuhreparatur auch ein Schlüsseldienst zum Angebot. Die Schuhmacherei steht dabei im Vordergrund. Öffnungszeiten sind hinterlegt. Der Betrieb zählt damit zu den alteingesessenen Läden des Gewerks in der Stadt."
+ },
+ {
+  "slug": "schluesseldienst-lukas-frankfurt-am-main",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "true",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Schlüsseldienst Lukas ist ein mobiler Notdienst im Rhein-Main-Gebiet. Inhaber Lukas Abraham kommt nach eigener Angabe selbst zum Einsatz, ohne Callcenter und ohne Subunternehmer. Bei einer zugefallenen Tür ist der Betrieb in der Regel in 20 bis 30 Minuten vor Ort und öffnet schadenfrei, meist ohne Bohren. Weitere Arbeiten sind Schlosswechsel und Zylindertausch, Schließanlagen mit Sicherungskarte, die Nachrüstung von Türen und Fenstern mit Querriegeln, Bändern und Pilzkopfverriegelung sowie die Öffnung von Autos und Tresoren. Autoschlüssel fertigt der Betrieb markenübergreifend an und lernt sie an die Wegfahrsperre an. Der Notdienst ist rund um die Uhr an sieben Tagen erreichbar und deckt Frankfurt, Offenbach, Bad Homburg, Mainz und Wiesbaden ab. Den Preis nennt der Betrieb vor Arbeitsbeginn. Eine Werkstatt dient der Nachfertigung von Schlüsseln. Der Betrieb grenzt sich von Vermittlern ab, die Aufträge weiterverkaufen."
+ },
+ {
+  "slug": "bretz-hufer-gebaeudesystemtechnik-gmbh-frankfurt-frankfurt-am-main",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Bretz & Hufer ist ein inhabergeführtes Unternehmen für Gebäudesystemtechnik mit Standorten in Frankfurt, Aschaffenburg, Sulzbach und Hanau. Das Gewerk liegt in der Elektro- und Sicherheitstechnik, nicht im klassischen Schlüsseldienst. Der Betrieb installiert, wartet und repariert Brandmeldeanlagen, Rauch- und Wärmeabzugsanlagen, Sprachalarmierung, BOS-Gebäudefunk, Einbruchmeldeanlagen, Videoüberwachung und Zutrittskontrollsysteme, dazu digitale Schließzylinder. Im baulichen Brandschutz ist er nach eigener Angabe seit 1979 tätig, und das Unternehmen beruft sich auf eine Geschichte von über 95 Jahren. Kunden sind kommunale Auftraggeber, Industrie, Banken, Versicherungen, Hausverwaltungen, Schulen und Privatleute. Für Wartungsvertragskunden steht ein Notdienst für Rauch- und Wärmeabzug sowie Brandmeldeanlagen an 365 Tagen im Jahr rund um die Uhr bereit. Elektroinstallation und E-Check gehören zum Grundangebot, ergänzt um Wartung, Montage und einen 24-Stunden-Service. Die Montage übernehmen Fachkräfte mit abgeschlossener Ausbildung im Elektrobereich."
+ },
+ {
+  "slug": "schluesseldienst-roedelheim-frankfurt-am-main",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Im Frankfurter Stadtteil Rödelheim ist ein Schlüsseldienst ansässig, der unter dem Namen Schlüsseldienst Rödelheim geführt wird. Dem Gewerk nach arbeitet er als Schlüsselnotdienst, also im Bereich der Hilfe bei verschlossenen Türen. Öffnungszeiten sind hinterlegt. Eine eigene Beschreibung des Betriebs mit einzelnen Leistungen liegt nicht vor. Der Name verweist auf den Stadtteil als Einsatzort."
+ },
+ {
+  "slug": "24-7-schluesseldienst-frankfurt-am-main",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "true",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Betrieb 24/7 Schlüsseldienst arbeitet in Frankfurt am Main und nennt Schlüsseldienst und Notdienst als sein Angebot. Schon der Name stellt die Erreichbarkeit zu jeder Tageszeit in den Vordergrund. Öffnungszeiten sind hinterlegt. Als Gewerk ist der Schlüsselnotdienst angegeben, also die Hilfe bei zugefallenen oder verschlossenen Türen. Der Stadtname im Titel zeigt das Einsatzgebiet Frankfurt am Main an."
+ },
+ {
+  "slug": "gogoofy-frankfurt-am-main",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "GoGoofy in Frankfurt am Main ist keine Werkstatt, sondern eine digitale Plattform für Dienstleistungen. Über App und Website lassen sich Handwerker, Schlüsseldienst, Friseur, Fotograf, Reinigung oder Umzug buchen, Preise vergleichen und Zahlungen abwickeln. Der Betrieb vermittelt Aufträge an Dienstleister aus vielen Gewerken, darunter Klima, Kfz, Elektro und Umzug. Die Plattform steht auf Deutsch, Englisch, Französisch und Niederländisch zur Verfügung, weitere Sprachen sind angekündigt."
+ },
+ {
+  "slug": "kurt-schluesseldienst-und-sicherheitscenter-in-bremen-mitte-bremen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Kurt Schlüsseldienst und Sicherheitscenter hat seinen Hauptstandort in Bremen Mitte und fährt alle Bezirke an. Der Schlüsseldienst öffnet Türen nach eigener Angabe möglichst zerstörungsfrei und ohne zwischengeschaltetes Callcenter, mit Tarifen für Standard-, Abend-, Nacht- und Wochenend-Türöffnungen. Ist die Öffnung nicht schadenfrei möglich, baut er Schließzylinder, Einsteckschlösser und Beschläge deutscher Hersteller direkt ein. Das Sicherheitscenter bietet Schließanlagensysteme, Mehrfachverriegelungen, Briefkasten- und Klingelanlagen, Alarmanlagen, Fenstersicherung, Zutrittskontrolle und Videoüberwachung, unter anderem mit Produkten von ABUS und Burg-Wächter. Autoschlüssel werden nachgemacht, Ersatzschlüssel angefertigt. Der Betrieb ist auch außerhalb der Geschäftszeiten, am Wochenende und an Feiertagen erreichbar. Die Preise für Türöffnungen stehen ausgewiesen auf einer eigenen Preisseite. Das Sicherheitscenter berät im persönlichen Gespräch zur Planung und Installation, etwa bei Druckzylindern, Schlossreparaturen und der Konfiguration von Schließanlagen."
+ },
+ {
+  "slug": "service-punkt-schluesseldienst-autoschluessel-bremen",
+  "attributes": {
+   "schluesseldienst_kern": "false",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Der Service Punkt in Bremen versteht sich als Anlaufstelle für Schlüssel, Uhren, Schuhe, Gravuren und Stempel. Der Betrieb fertigt Haus- und Sicherheitsschlüssel an, programmiert Autoschlüssel mit Wegfahrsperre und Fernbedienung für nahezu alle Fabrikate und graviert nach Wunsch. Im Uhrenservice wechselt er Batterien und Armbänder, oft sofort zum Mitnehmen. Sein Schwerpunkt liegt auf Schlüsselanfertigung und Kleinhandwerk im Laden. Kunden kommen direkt vorbei, und Termine lassen sich auch online vereinbaren. Schuhservice und Stempelarbeiten gehören ebenfalls zum Angebot, als Leitgedanken nennt der Betrieb schnell, präzise und zuverlässig.",
+  "trace": {
+   "schluessel_nachmachen": "wir fertigen Ihre Schlüssel schnell und präzise an",
+   "ladengeschaeft": "Wir freuen uns auf Ihren Besuch!"
+  }
+ },
+ {
+  "slug": "sicherheitsfachgeschaeft-paetsch-gmbh-co-kg-bremen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Das Sicherheitsfachgeschäft Pätsch in Bremen berät zur Sicherheitstechnik im Haus und im Betrieb, wahlweise im Haus des Kunden oder im Geschäft. Der Notdienst für Türöffnungen steht rund um die Uhr zur Verfügung. Im Programm sind mechanische und elektronische Schließanlagen, bei denen Transponder, Chipkarten, Fingerabdruckleser und Funksteuerungen vorkommen, außerdem Zusatzsicherungen für Fenster und Türen, Schutzbeschläge, die Nachrüstung bestehender Außentüren, Alarmanlagen, Rauchmelder, Tresore sowie Klingel- und Briefkastenanlagen. Mit spezieller Schließtechnik und Sonderverglasung werden Türen einbruchhemmend ausgestattet. Bei Schließanlagen erklärt der Betrieb, dass sie aus mehreren Profilzylindern mit unterschiedlichen Berechtigungen bestehen. Bei Außentüren stattet der Betrieb auf Wunsch Zusatzverstärkungen aus. Wer Haustüren nicht erneuern will, bekommt innen oder aufliegend montierte Zusatzsicherungen. Das Programm gliedert sich in Sicherheitstechnik, Fenster und Türen sowie Schließ- und Öffnungssysteme.",
+  "trace": {
+   "ladengeschaeft": "einen unverbindlichen Termin in Ihrem oder unserem Haus vereinbaren"
+  }
+ },
+ {
+  "slug": "pekro-schuh-und-schluesseldienst-bremen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Seit 1977 ist Pekro in Bremen Neustadt mit Schuhreparatur und Schlüsseldienst unterwegs. Der Laden fertigt Schlüssel an und bietet für Absatzreparaturen und Schlüsselanfertigungen einen Sofortdienst, dazu kommen sämtliche Schuhreparaturen von Sohlen bis Absätzen. Daneben übernimmt der Betrieb Notfall-Türöffnungen in Bremen und Umgebung und verspricht dafür eine Preisabsprache vorab. Zur Anfahrt gibt der Betrieb an, meistens schnell vor Ort zu sein und keine hohen Anfahrtskosten zu haben. Ersatzschlüssel, neue Sohlen und kurze Wartezeiten sind das, was der Laden im Alltag ausmacht. Kunden können direkt im Geschäft in der Neustadt vorbeikommen oder telefonisch anfragen. Neben der Werkstatt beschäftigt sich der Betrieb mit Fragen rund um den Schlüsselnotdienst und nennt Kriterien, an denen sich seriöse Anbieter erkennen lassen. Das Ladengeschäft in der Neustadt ist für Laufkundschaft geöffnet."
+ },
+ {
+  "slug": "nas-schuh-schluesseldienst-bremen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Nas Schuh- & Schlüsseldienst in Bremen verbindet Schuhreparatur mit einem Schlüsseldienst. Notöffnungen übernimmt der Betrieb rund um die Uhr und nennt dafür feste Sätze, die sich nach der Tageszeit unterscheiden: Ab dem frühen Abend gilt ein anderer Satz als tagsüber. Der Betrieb arbeitet vor Ort bei den Kunden. Öffnungszeiten sind hinterlegt.",
+  "trace": {
+   "tueroeffnung": "Notöffnungen rund um die Uhr zum Festpreis."
+  }
+ },
+ {
+  "slug": "andreas-sicherheitstechnik-schluesseldienst-gmbh-bremen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Die Andreas Sicherheitstechnik & Schlüsseldienst GmbH in Bremen blickt auf über 30 Jahre Erfahrung zurück. Der Betrieb ist täglich rund um die Uhr für Türöffnungen und als Schlüsselnotdienst erreichbar und bietet Einbruchschutz sowie Sicherheitstechnik an. Zum Gewerk zählen außerdem die Schlüsselanfertigung und der Handel mit Sicherheitsausrüstung. Öffnungszeiten sind hinterlegt. Die Preise nennt der Betrieb nach eigener Aussage transparent."
+ },
+ {
+  "slug": "schuh-schluesseldienst-alex-kern-bremen-bremen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Kerns Schuh&Schlüsseldienst in Bremen fertigt Schlüsselkopien im Sofortdienst an. Außerdem gehören Schließanlagen, Schuhreparaturen, Gravuren und der Wechsel von Uhrenbatterien zum Angebot. Termine lassen sich online vereinbaren, und Öffnungszeiten sind hinterlegt. Der Schwerpunkt liegt auf einem Laden mit kleinen Handwerksleistungen. Auch Einsätze vor Ort gehören dazu. Das Angebot reicht vom Schlüssel bis zur Uhrenbatterie."
+ },
+ {
+  "slug": "ph-sicherheitstechniken-bremen",
+  "attributes": {
+   "schluesseldienst_kern": "true",
+   "notdienst_24h": "true",
+   "tueroeffnung": "true",
+   "schlossaustausch": "true",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "true",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "true",
+   "festpreis_genannt": "true",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Seit 1988 versorgt PH Sicherheitstechniken Bremen und Umgebung mit Schlössern, Schlüsseln und Sicherheitstechnik. Seit Anfang 2016 führt Sigrid Heczendorfer den Betrieb und koordiniert Schließanlagen, Sicherheitstechnik und die Einsätze. Zu den Kernaufgaben zählen Türöffnungen sowie die Sicherung von Haus, Wohnung und Grundstück und von Privat-, Verwaltungs- und Gewerbeanlagen. Die Notöffnung ist zu jeder Tages- und Nachtzeit möglich, auch bei defekter Schließanlage, und für Noteinsätze gelten nach eigener Angabe Fixpreise. In der Werkstatt werden Schlüssel verschiedener Art angefertigt, vom Zimmertürschlüssel über Chubb bis zum Autoschlüssel mit elektronischer Wegfahrsperre. Fenstersicherungen, Briefkästen und Tresore namhafter Hersteller gehören zum Sortiment, die Beratung findet auch vor Ort statt. Die Qualifizierungsnachweise zeigt der Betrieb auf einer eigenen Seite, dazu kommen Hinweise, wie sich Kunden vor unseriösen Firmen schützen können.",
+  "trace": {
+   "schlossaustausch": "Schlüssel, Schlösser & Schließanlagen",
+   "schluessel_nachmachen": "einen präzise verarbeiteten Schlüssel für Ihre Zwecke",
+   "ladengeschaeft": "Hier finden Sie uns"
+  }
+ },
+ {
+  "slug": "perfekt-schluesseldienst-groepelingen-bremen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "not enough info",
+   "einbruchschutz": "not enough info",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "true",
+   "elektronische_schliesssysteme": "not enough info",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "not enough info"
+  },
+  "description": "Perfekt schlüsseldienst in Bremen Gröpelingen kombiniert die Anfertigung von Schlüsseln mit einer Änderungsschneiderei sowie einem Verkauf von Geschenkartikeln und Schmuck für Damen und Herren. Der Betrieb verweist auf mehrjährige Erfahrung bei Schlüsselanfertigungen. Der Laden bündelt mehrere Alltagsdienste unter einem Dach. Öffnungszeiten sind hinterlegt. Damit richtet sich der Laden an Kunden, die Schlüssel, Änderungen an Kleidung und kleine Geschenke an einer Stelle erledigen wollen."
+ },
+ {
+  "slug": "hermann-kuenneke-gmbh-bremen",
+  "attributes": {
+   "schluesseldienst_kern": "not enough info",
+   "notdienst_24h": "not enough info",
+   "tueroeffnung": "not enough info",
+   "schlossaustausch": "not enough info",
+   "schliessanlagen": "true",
+   "einbruchschutz": "true",
+   "autoschluessel": "not enough info",
+   "tresoroeffnung": "not enough info",
+   "schluessel_nachmachen": "not enough info",
+   "elektronische_schliesssysteme": "true",
+   "ladengeschaeft": "not enough info",
+   "festpreis_genannt": "not enough info",
+   "anfahrtspauschale_genannt": "not enough info",
+   "gewerblich_objektbetreuung": "true"
+  },
+  "description": "Die Hermann Künneke GmbH steht in Bremen seit 1926 für Beschläge, Schließanlagen, Briefkästen und Zutrittskontrolle, inzwischen in der dritten Generation. Kunden sind Privathaushalte, Bürohäuser und Industriebauten. Das Programm gliedert sich in Beschläge, Schlösser, Schließanlagen, Zutrittskontrolle, Briefkästen, Fluraccessoires und Wegeleitsysteme; dazu kommen Schließzylinder und Informationen zu den Herstellern. Bei Schließanlagen erklärt der Betrieb, wie mehrere Schließzylinder in funktionalem Zusammenhang stehen. Zum Einbruchschutz stellt er Fragen, an denen sich die Sicherheit eines Objekts prüfen lässt, etwa nach Sicherheitsschlössern an Fenstern und Türen, nach einer Sicherungskarte oder nach überstehenden Schließzylindern, und berät zu elektronischen und mechanischen Schließsystemen. Termine gibt es nach Vereinbarung. Der Betrieb zeigt Kundenprojekte als Referenzen und beschreibt sich als kompetent, stilvoll und sicher. Die Beratung richtet sich an Auftraggeber, die Privatobjekte ebenso wie Gewerbebauten ausstatten.",
+  "trace": {
+   "einbruchschutz": "Einbruchsschutz und Komfort für Ihr Objekt",
+   "gewerblich_objektbetreuung": "Privathaushalte, Bürohäuser und Industriebauten"
+  }
+ }
+]

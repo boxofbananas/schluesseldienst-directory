@@ -17,7 +17,10 @@
    "anfahrtspauschale_genannt": "not enough info",
    "gewerblich_objektbetreuung": "true"
   },
-  "description": "Aus dem klassischen Schlüsseldienst hat sich die Strahl Schliesstechnik GmbH in München zu einem Anbieter für Sicherheitstechnik entwickelt. Das Angebot reicht von Schlüsseln, Schlössern und Beschlägen über Schließanlagen und Tresore bis zu Zutrittskontrolle, Brandschutz und Fluchtwegsicherung. Ein eigener Bereich widmet sich dem Einbruchschutz, etwa mit Querriegeln zur Türsicherung und Sicherungen für Fenster. Der Betrieb plant und montiert Sicherheitskonzepte für Wohnungen und Firmen und liefert auf Wunsch elektronische Zutrittskontrolle sowie mechatronische Schließzylinder. Im Ladengeschäft werden Ersatzschlüssel angefertigt, auch für Garagen, Briefkästen, Möbel und Tresore. Briefkastenanlagen gehören ebenfalls zum Sortiment. Motorschlösser kommen vor allem im Objektbereich zum Einsatz, und zu den Auftraggebern zählen nach eigener Angabe namhafte Unternehmen. Zusätzlich erscheinen fortlaufend Fachbeiträge zu Schließsystemen, Zeiterfassung und Einbruchschutz für Fenster."
+  "description": "Aus dem klassischen Schlüsseldienst hat sich die Strahl Schliesstechnik GmbH in München zu einem Anbieter für Sicherheitstechnik entwickelt. Das Angebot reicht von Schlüsseln, Schlössern und Beschlägen über Schließanlagen und Tresore bis zu Zutrittskontrolle, Brandschutz und Fluchtwegsicherung. Ein eigener Bereich widmet sich dem Einbruchschutz, etwa mit Querriegeln zur Türsicherung und Sicherungen für Fenster. Der Betrieb plant und montiert Sicherheitskonzepte für Wohnungen und Firmen und liefert auf Wunsch elektronische Zutrittskontrolle sowie mechatronische Schließzylinder. Im Ladengeschäft werden Ersatzschlüssel angefertigt, auch für Garagen, Briefkästen, Möbel und Tresore. Briefkastenanlagen gehören ebenfalls zum Sortiment. Motorschlösser kommen vor allem im Objektbereich zum Einsatz, und zu den Auftraggebern zählen nach eigener Angabe namhafte Unternehmen. Zusätzlich erscheinen fortlaufend Fachbeiträge zu Schließsystemen, Zeiterfassung und Einbruchschutz für Fenster. Geschultes Personal begleitet Planung und Montage.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Ihr Zuhause oder Ihre Firma"
+  }
  },
  {
   "slug": "carrera-s-dhl-paketshop-schluesseldienst-muenchen",
@@ -37,7 +40,7 @@
    "anfahrtspauschale_genannt": "not enough info",
    "gewerblich_objektbetreuung": "not enough info"
   },
-  "description": "Carrera's ist in München ein Paketshop mit angeschlossenem Schlüsseldienst. Neben dem Versand von Paketen deuten die hinterlegten Kategorien auf Schlüsselkopien, Schuhreparatur und Lederreparatur hin, außerdem auf Änderungsschneiderei, Uhrenreparatur und den Ankauf von Gold. Der Betrieb verbindet damit mehrere kleine Dienstleistungen an einer Adresse. Genauere Angaben zu den einzelnen Arbeiten liegen nicht vor."
+  "description": "Carrera's ist in München eine Annahmestelle für DHL-Sendungen mit angeschlossenem Schlüsseldienst. Zum Umfeld des Betriebs gehören nach seinen Kategorien Schlüsselkopien, Schuhreparatur und Lederreparatur, außerdem Änderungsschneiderei, Uhrenreparatur und der Ankauf von Gold. Der Betrieb verbindet damit mehrere kleine Dienstleistungen an einer Adresse. Genauere Angaben zu den einzelnen Arbeiten liegen nicht vor."
  },
  {
   "slug": "facility-service-hero-hikmat-kheiri-agha-inh-muenchen",
@@ -57,7 +60,7 @@
    "anfahrtspauschale_genannt": "not enough info",
    "gewerblich_objektbetreuung": "not enough info"
   },
-  "description": "Facility Service Hero ist ein Hausmeister und Handwerkerservice für Haushalt und Büro in München, geführt von Hikmat Kheiri Agha. Gebucht werden Montage, Handwerkerleistungen, Malerarbeiten, Sanitär, Elektro und IT, Entsorgung und Schlosserarbeiten zum Wunschtermin. Der Ablauf ist festgelegt: eine unverbindliche Serviceanfrage, ein Angebot innerhalb von 24 Stunden, die Bestätigung per Mail, die Ausführung und zuletzt die Rechnung. Für jedes Gewerk nennt der Betrieb Startpreise vorab. Nach der Maps-Kategorie gehören außerdem Notöffnungen, Entrümpelung, Umzugs- und Lagerleistungen sowie die Betreuung von Immobilien zum Umfeld des Betriebs. Ein Schlüsseldienst im engeren Sinn ist daraus nicht erkennbar."
+  "description": "Facility Service Hero ist ein Hausmeister und Handwerkerservice für Haushalt und Büro in München, geführt von Hikmat Kheiri Agha. Gebucht werden Montage, Handwerkerleistungen, Malerarbeiten, Sanitär, Elektro und IT, Entsorgung und Schlosserarbeiten zum Wunschtermin. Der Ablauf ist festgelegt: eine unverbindliche Serviceanfrage, ein Angebot innerhalb von 24 Stunden, die Bestätigung per Mail, die Ausführung und zuletzt die Rechnung. Für jedes Gewerk nennt der Betrieb Startpreise vorab. Nach der Maps-Kategorie gehören außerdem Notöffnungen, Entrümpelung, Umzugs- und Lagerleistungen sowie die Betreuung von Immobilien zum Umfeld des Betriebs. Ein Schlüsseldienst im engeren Sinn ist daraus nicht erkennbar. Den Termin wählt die Kundschaft selbst, bezahlt wird bequem per Rechnung, und Kundenstimmen veröffentlicht der Betrieb auf seiner Seite. Er sorgt nach eigener Angabe für den Werterhalt von Immobilien und arbeitet mit zuverlässigen Experten am Wunschtermin."
  },
  {
   "slug": "ssg-service-muenchen",
@@ -77,7 +80,7 @@
    "anfahrtspauschale_genannt": "not enough info",
    "gewerblich_objektbetreuung": "not enough info"
   },
-  "description": "SSG Service ist ein Schuh- und Schlüsseldienst im Olympia-Einkaufszentrum in München. Die Filiale repariert Schuhe, klebt, näht und weitet sie, und führt Schuhpflege, Zubehör und kleine Lederwaren. Schlüssel werden im Sofortdienst kopiert, das Sortiment reicht von Wohnungs- und Briefkastenschlüsseln bis zu Möbel- und Fahrradschlüsseln. Dazu kommen Gravuren für Türschilder, Hausschilder und Klingelschilder, Stempel, Uhrenreparatur und Schleifarbeiten an Messern und Scheren. Verkauft werden außerdem Vorhängeschlösser, Fahrradschlösser, Zylinderschlösser und Briefkastenschlösser. Türöffnungen oder Schlosswechsel bei Kunden vor Ort nennt der Betrieb nicht, die Arbeit findet im Geschäft statt."
+  "description": "SSG Service ist ein Schuh- und Schlüsseldienst im Olympia-Einkaufszentrum in München. Die Filiale repariert Schuhe, klebt, näht und weitet sie, und führt Schuhpflege, Zubehör und kleine Lederwaren. Schlüssel werden im Sofortdienst kopiert, das Sortiment reicht von Wohnungs- und Briefkastenschlüsseln bis zu Möbel- und Fahrradschlüsseln. Dazu kommen Gravuren für Türschilder, Hausschilder und Klingelschilder, Stempel, Uhrenreparatur und Schleifarbeiten an Messern und Scheren. Verkauft werden außerdem Vorhängeschlösser, Fahrradschlösser, Zylinderschlösser und Briefkastenschlösser. Türöffnungen oder Schlosswechsel bei Kunden vor Ort nennt der Betrieb nicht, die Arbeit findet im Geschäft statt. Beim Schlüsselkopieren steht eine große Auswahl an Rohlingen für Wohnungs-, Anlagen- und Zimmertürschlüssel bereit. Das Einkaufszentrum führt Öffnungszeiten, Anfahrtshinweise und einen Lageplan, und das Geschäft gehört zu dessen Läden mit Service für den Alltag. Kunden finden dort Schuhe, Schlüssel und Gravuren an einem Ort."
  },
  {
   "slug": "schluesseldienst-schureparatur-azemi-muenchen",
@@ -97,7 +100,11 @@
    "anfahrtspauschale_genannt": "not enough info",
    "gewerblich_objektbetreuung": "not enough info"
   },
-  "description": "Schlüsseldienst und Schuhreparatur Azemi in München verbindet Handwerk rund um Schuhe mit einem Aufsperrdienst. Das Geschäft repariert Schuhe, Taschen und Reißverschlüsse, tauscht Uhrenbatterien und Armbänder, graviert, fertigt Namensschilder und Stempel an und schleift Messer. Dazu verkauft es Opinel-Messer und Kindermesser. Beim Schlüsseldienst stehen Autoschlüssel-Duplikate, Briefkastenschlüssel und Briefkastenschlösser im Angebot. Kunden können das Geschäft aufsuchen oder den Betrieb für Auskünfte kontaktieren."
+  "description": "Schlüsseldienst und Schuhreparatur Azemi in München verbindet Handwerk rund um Schuhe mit einem Aufsperrdienst. Das Geschäft repariert Schuhe, Taschen und Reißverschlüsse, tauscht Uhrenbatterien und Armbänder, graviert, fertigt Namensschilder und Stempel an und schleift Messer. Dazu verkauft es Opinel-Messer und Kindermesser. Beim Schlüsseldienst stehen Autoschlüssel-Duplikate, Briefkastenschlüssel und Briefkastenschlösser im Angebot. Kunden können das Geschäft aufsuchen oder den Betrieb für Auskünfte kontaktieren.",
+  "trace": {
+   "tueroeffnung": "Aufsperrdienst",
+   "schluessel_nachmachen": "Autoschlüssel Duplikate"
+  }
  },
  {
   "slug": "uwe-neumann-schluesseldienst-fensterreparaturen-muenchen",
@@ -117,7 +124,10 @@
    "anfahrtspauschale_genannt": "not enough info",
    "gewerblich_objektbetreuung": "not enough info"
   },
-  "description": "Seit mehr als drei Jahrzehnten führt dieses Münchner Geschäft die Aufgaben eines modernen Schlüsseldienstes aus. Gegründet von J. Neumann, ging es nach zehn Jahren an H. Welzhofer und wird seit dem 01.04.2004 von U. Neumann geleitet. Das Leistungsfeld umfasst Türöffnung, Schließanlagen und Einbruchschutz, etwa das Nachrüsten von Haus- und Wohnungstüren mit Querriegelschloss oder Panzerriegel. Der Betrieb arbeitet mit Schließanlagen aller führenden Zylinderhersteller, bestellt Sonderprofilschlüssel und fertigt in der Werkstatt auch alte Schlüssel und Sonderwünsche an. Hinzu kommen Fensterreparatur, Türreparatur, Rollladenreparatur, Briefkastenanlagen und Gravur. Türöffnungen bietet er nur zu den normalen Geschäftszeiten an und nennt dafür Festpreise ohne böse Überraschungen."
+  "description": "Seit mehr als drei Jahrzehnten führt dieses Münchner Geschäft die Aufgaben eines modernen Schlüsseldienstes aus. Gegründet von J. Neumann, ging es nach zehn Jahren an H. Welzhofer und wird seit April 2004 von U. Neumann geleitet. Das Leistungsfeld umfasst Türöffnung, Schließanlagen und Einbruchschutz, etwa das Nachrüsten von Haus- und Wohnungstüren mit Querriegelschloss oder Panzerriegel. Der Betrieb arbeitet mit Schließanlagen aller führenden Zylinderhersteller, bestellt Sonderprofilschlüssel und fertigt in der Werkstatt auch alte Schlüssel und Sonderwünsche an. Hinzu kommen Fensterreparatur, Türreparatur, Rollladenreparatur, Briefkastenanlagen und Gravur. Türöffnungen bietet er nur zu den normalen Geschäftszeiten an und nennt dafür Festpreise ohne böse Überraschungen. Für Fenster übernimmt der Betrieb die Wartung der Beschläge, und beim Einbruchschutz bevorzugt er mechanische Systeme. Rollladengurt und Gurtwickler wechselt er ebenso wie Welle und Halter und rüstet neue Rollläden aus Aluminium oder Kunststoff nach.",
+  "trace": {
+   "schluessel_nachmachen": "In unserer Werkstatt können wir auch sehr alte Schlüssel"
+  }
  },
  {
   "slug": "schuh-und-schluesseldienst-khawari-in-schwabing-muenchen",
@@ -157,7 +167,7 @@
    "anfahrtspauschale_genannt": "not enough info",
    "gewerblich_objektbetreuung": "true"
   },
-  "description": "Peter Gmeinwieser führt in München-Sendling ein Fachgeschäft für Sicherheitstechnik und Schlüsseldienst, das nach eigener Angabe seit über 70 Jahren besteht und in der vierten Generation geführt wird. Das Leistungsspektrum reicht von der klassischen Türöffnung bis zu Schließanlagen, auf die sich der Betrieb spezialisiert hat. Dazu kommen Briefkastenanlagen, Namensschilder und Tresorsysteme, die er für Privathaushalte und für gewerbliche Kunden berät und verkauft. Das Angebot gliedert sich in Schlüsseldienst und Schließanlagen, Briefkasten- und Namensschildsysteme sowie Tresorsysteme und Sicherheit. Individuelle Lösungen für die Sicherheit stehen im Mittelpunkt."
+  "description": "Peter Gmeinwieser führt in München-Sendling ein Fachgeschäft für Sicherheitstechnik und Schlüsseldienst, das nach eigener Angabe seit über 70 Jahren besteht und in der vierten Generation geführt wird. Das Leistungsspektrum reicht von der klassischen Türöffnung bis zu Schließanlagen, auf die sich der Betrieb spezialisiert hat. Dazu kommen Briefkastenanlagen, Namensschilder und Tresorsysteme, die er für Privathaushalte und für gewerbliche Kunden berät und verkauft. Das Angebot gliedert sich in Schlüsseldienst und Schließanlagen, Briefkasten- und Namensschildsysteme sowie Tresorsysteme und Sicherheit. Individuelle Lösungen für die Sicherheit stehen im Mittelpunkt. Tresore führt das Geschäft in einer breiten Palette für den privaten und gewerblichen Gebrauch, und Briefkasten- und Namensschildsysteme ergänzen das Angebot. Tradition und moderne Technologien verbindet der Betrieb nach eigener Angabe als Familienunternehmen mit Beratung für höchste Sicherheit."
  },
  {
   "slug": "schuh-schluessel-gravur-stempel-uhren-service-muenchen",
@@ -177,7 +187,7 @@
    "anfahrtspauschale_genannt": "not enough info",
    "gewerblich_objektbetreuung": "not enough info"
   },
-  "description": "Unter diesem Namen läuft in München ein Geschäft für Schuhe, Schlüssel, Gravuren, Stempel und Uhren. Es sitzt in einem Einkaufszentrum und führt dort die Arbeiten eines Schuh- und Schlüsseldienstes aus. Dazu zählen Schuhreparaturen mit Kleben, Nähen und Fersenleder, das Kopieren von Schlüsseln im Sofortdienst sowie Gravuren für Türschilder, Hausschilder und Briefkastenschilder. Außerdem repariert der Betrieb Uhren, fertigt Stempel an und schärft Messer und Scheren. Im Sortiment stehen Schuhpflege, Zubehör, kleine Lederwaren und Vorhängeschlösser. Ein Öffnungsdienst für Türen wird nicht genannt."
+  "description": "Unter diesem Namen läuft in München ein Geschäft für Schuhe, Schlüssel, Gravuren, Stempel und Uhren. Es sitzt in einem Einkaufszentrum und führt dort die Arbeiten eines Schuh- und Schlüsseldienstes aus. Dazu zählen Schuhreparaturen mit Kleben, Nähen und Fersenleder, das Kopieren von Schlüsseln im Sofortdienst sowie Gravuren für Türschilder, Hausschilder und Briefkastenschilder. Außerdem repariert der Betrieb Uhren, fertigt Stempel an und schärft Messer und Scheren. Im Sortiment stehen Schuhpflege, Zubehör, kleine Lederwaren und Vorhängeschlösser. Der Betrieb verkauft zudem Zylinderschlösser und Briefkastenschlösser und berät zu Schuhpflege und Schutzprodukten. Das Einkaufszentrum, in dem das Geschäft liegt, ist mit öffentlichen Verkehrsmitteln, Elektrofahrzeugen und dem Auto erreichbar und führt einen Lageplan. Das Geschäft gehört zu den Läden mit Service für den Alltag, in denen Uhren, Stempel und Schilder ebenso erledigt werden wie Schuhe."
  },
  {
   "slug": "maz-aufsperrdienst-hero-muenchen",
@@ -197,7 +207,7 @@
    "anfahrtspauschale_genannt": "not enough info",
    "gewerblich_objektbetreuung": "not enough info"
   },
-  "description": "Der M A Z Aufsperrdienst arbeitet für München und den Großraum und ist nach eigener Angabe seit über 20 Jahren im Geschäft. Er öffnet Türen zerstörungsfrei mit der Picking-Methode, ohne Zylinder, Schloss oder Beschläge zu beschädigen, und spart so zusätzliche Materialkosten. Eine Notrufnummer steht rund um die Uhr bereit, auch für Einsätze in Stadtteilen wie Schwabing, Giesing, Laim, Sendling und Pasing. Neben Nottüröffnungen behebt der Betrieb Einbruchschäden, öffnet Tresore auf Anfrage und berät kostenlos zu Einbruchschutz und zur Absicherung von Ein- und Mehrfamilienhäusern. Eingesetzt sind qualifizierte Monteure."
+  "description": "Der M A Z Aufsperrdienst arbeitet für München und den Großraum und ist nach eigener Angabe seit über 20 Jahren im Geschäft. Er öffnet Türen zerstörungsfrei mit der Picking-Methode, ohne Zylinder, Schloss oder Beschläge zu beschädigen, und spart so zusätzliche Materialkosten. Eine Notrufnummer steht rund um die Uhr bereit, auch für Einsätze in Stadtteilen wie Schwabing, Giesing, Laim, Sendling und Pasing. Neben Nottüröffnungen behebt der Betrieb Einbruchschäden, öffnet Tresore auf Anfrage und berät kostenlos zu Einbruchschutz und zur Absicherung von Ein- und Mehrfamilienhäusern. Eingesetzt sind qualifizierte Monteure. Weitere Einsatzgebiete sind Bogenhausen, Haidhausen, Maxvorstadt, Neuperlach, Ramersdorf und Trudering, ebenso Orte im Umland wie Ottobrunn. Die Monteure sind nach Angabe des Betriebs immer einsatzbereit und beenden Notlagen schnell, und die Kosten sollen so gering wie möglich bleiben."
  },
  {
   "slug": "aufsperrdienst-huber-muenchen",
@@ -217,7 +227,7 @@
    "anfahrtspauschale_genannt": "not enough info",
    "gewerblich_objektbetreuung": "not enough info"
   },
-  "description": "Der Aufsperrdienst Huber öffnet Türen in München, Fürstenfeldbruck, Dachau und Augsburg so oft wie möglich zerstörungsfrei. Mit einer Vielzahl von Techniken bleiben Haustüren meist unbeschädigt, auch wenn ein Schlüssel abgebrochen ist. Der Betrieb beschreibt sich als zuverlässig, fair und transparent und listet Einsatzgebiete in Stadtteilen wie Pasing, Laim, Großhadern, Nymphenburg, Sendling, Schwabing, Moosach und Aubing. Eine eigene Seite widmet sich den Preisen für Türöffnungen. Daneben installiert und wartet er Rauchwarnmelder und Kohlenmonoxidwarnmelder, deren Einbau in Bayern seit 2018 Pflicht ist."
+  "description": "Der Aufsperrdienst Huber öffnet Türen in München, Fürstenfeldbruck, Dachau und Augsburg so oft wie möglich zerstörungsfrei. Mit einer Vielzahl von Techniken bleiben Haustüren meist unbeschädigt, auch wenn ein Schlüssel abgebrochen ist. Der Betrieb legt Wert auf Zuverlässigkeit und listet Einsatzgebiete in Stadtteilen wie Pasing, Laim, Großhadern, Nymphenburg, Sendling, Schwabing, Moosach und Aubing. Eine eigene Seite widmet sich den Preisen für Türöffnungen. Daneben installiert und wartet er Rauchwarnmelder und Kohlenmonoxidwarnmelder, deren Einbau in Bayern seit 2018 Pflicht ist. Bricht ein Schlüssel ab, hilft selbst ein bei Nachbarn hinterlegter Ersatzschlüssel nicht weiter; solche Härtefälle löst der Betrieb nach eigener Angabe oft noch ohne Schäden. Eine Übersicht erklärt zudem, was Betroffene vor einem Einsatz selbst tun dürfen. Außerdem pflegt der Betrieb eigene Seiten für Rauchmelder, ihre Installation und ihre Wartung."
  },
  {
   "slug": "dr-heindl-tresore-muenchen-muenchen",
@@ -237,7 +247,7 @@
    "anfahrtspauschale_genannt": "not enough info",
    "gewerblich_objektbetreuung": "not enough info"
   },
-  "description": "Dr. Heindl Tresore in München führt Tresore und Wertschutzschränke aller Sicherheitsstufen. Das Angebot umfasst Waffentresore, Datenträgertresore, Möbeltresore, Einwurftresore, Hoteltresore, Tresorräume und Tresorraumtüren sowie Uhrentresore mit Uhrenbewegern in mehreren Modellreihen. Gebrauchte Modelle sind ebenfalls im Programm. Ein eigenes Lieferteam bringt den Tresor diskret zum Kunden. Beratungen finden nach vorheriger Terminvereinbarung statt, kostenlos und für den privaten wie den gewerblichen Bereich. Der Betrieb nennt zudem Serviceleistungen rund um den Tresor, die deutschlandweit angeboten werden."
+  "description": "Dr. Heindl Tresore in München führt Tresore und Wertschutzschränke aller Sicherheitsstufen. Das Angebot umfasst Waffentresore, Datenträgertresore, Möbeltresore, Einwurftresore, Hoteltresore, Tresorräume und Tresorraumtüren sowie Uhrentresore mit Uhrenbewegern in mehreren Modellreihen. Gebrauchte Modelle sind ebenfalls im Programm. Ein eigenes Lieferteam bringt den Tresor diskret zum Kunden. Beratungen finden nach vorheriger Terminvereinbarung statt, kostenlos und für den privaten wie den gewerblichen Bereich. Der Betrieb nennt zudem Serviceleistungen rund um den Tresor, die deutschlandweit angeboten werden. Zum Programm gehören Tresore in Einbruchschutz- und Feuerschutzklassen, eine Übersicht der Sicherheitsstufen, ein Tresortest und Hinweise zur Herstellung. Besondere Modelle sind möglich, etwa mit Beschlägen in Schwarz hochglänzend, vergoldet oder verchromt und mit Komplettbelederung innen und außen. Tresorraum-Projekte mit speziellen Tresorraumtüren setzt der Betrieb ebenfalls um. Das Team ist für Fragen telefonisch zu den bekannten Öffnungszeiten erreichbar."
  },
  {
   "slug": "audio-sicherheit-elektronik-gmbh-muenchen",
@@ -257,7 +267,10 @@
    "anfahrtspauschale_genannt": "not enough info",
    "gewerblich_objektbetreuung": "true"
   },
-  "description": "Die Audio-Sicherheit-Elektronik GmbH, kurz ASE, plant, installiert und wartet in München, Starnberg und ganz Bayern Sicherheitstechnik. Im Mittelpunkt stehen Alarmanlagen, Einbruchmeldeanlagen, Brandmeldeanlagen und Videoüberwachung für Privatkunden, Unternehmen und öffentliche Einrichtungen, mit Systemen von Telenot und ABI. Ergänzend gehören Zutrittskontrollen, elektronische Schließsysteme und mechanischer Einbruchschutz zum Angebot. Der Betrieb arbeitet nach eigener Angabe seit rund 30 Jahren und unterhält zwei Büros, in München und in Starnberg. Von der Beratung über die Installation bis zur Wartung kommt alles aus einer Hand. Ein klassischer Türöffnungsdienst ist nicht Teil der genannten Leistungen."
+  "description": "Die Audio-Sicherheit-Elektronik GmbH, kurz ASE, plant, installiert und wartet in München, Starnberg und ganz Bayern Sicherheitstechnik. Im Mittelpunkt stehen Alarmanlagen, Einbruchmeldeanlagen, Brandmeldeanlagen und Videoüberwachung für Privatkunden, Unternehmen und öffentliche Einrichtungen, mit Systemen von Telenot und ABI. Ergänzend gehören Zutrittskontrollen, elektronische Schließsysteme und mechanischer Einbruchschutz zum Angebot. Der Betrieb arbeitet nach eigener Angabe seit rund 30 Jahren und unterhält zwei Büros, in München und in Starnberg. Beratung, Installation und Wartung liegen beim selben Betrieb. Ein klassischer Türöffnungsdienst ist nicht Teil der genannten Leistungen. Auf der Seite stellt er Funkalarmanlagen, Videoverifikation und elektronische Schließzylinder vor, etwa Lösungen, mit denen sich Alarmanlagen und Türen mit nur einem Element bedienen lassen. Das Unternehmen nennt sich Errichterbetrieb für Alarm- und Sicherheitstechnik. Neben Technik für Einbruch und Brand zählen auch Zutrittssteuerung und Netzwerktechnik zu den Themen.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Privatkunden, Unternehmen und öffentliche Einrichtungen"
+  }
  },
  {
   "slug": "gkm-security-gmbh-muenchen",
@@ -277,7 +290,7 @@
    "anfahrtspauschale_genannt": "not enough info",
    "gewerblich_objektbetreuung": "not enough info"
   },
-  "description": "GKM Security ist ein Münchner Sicherheitsunternehmen mit Schwerpunkt auf Anlagen für Gebäude. Zum Programm gehören Videoüberwachung, Brandmeldeanlagen, Zutrittskontrolle, Einbruchmeldeanlagen und Alarmverfolgung. Außerdem plant der Betrieb Schließanlagen, mechanisch wie elektronisch, und bietet Schlüsselverwaltung an. Mit durchdachten Schließanlagen lässt sich die Verwendung illegal angefertigter Schlüssel und die Manipulation von Schließzylindern vermeiden, so der Betrieb. Seine Seite führt außerdem eine Referenzliste mit Partnern und Kunden."
+  "description": "GKM Security ist ein Münchner Sicherheitsunternehmen mit Schwerpunkt auf Anlagen für Gebäude. Zum Programm gehören Videoüberwachung, Brandmeldeanlagen, Zutrittskontrolle, Einbruchmeldeanlagen und Alarmverfolgung. Außerdem plant der Betrieb Schließanlagen, mechanisch wie elektronisch, und bietet Schlüsselverwaltung an. Mit durchdachten Schließanlagen lässt sich die Verwendung illegal angefertigter Schlüssel und die Manipulation von Schließzylindern vermeiden, so der Betrieb. Seine Seite führt außerdem eine Referenzliste mit Partnern und Kunden. Der Betrieb stellt Schließkomfort und Schutz in den Mittelpunkt, und seine Leistungen sind in Rubriken wie Planung und Schlüsselverwaltung gegliedert."
  },
  {
   "slug": "cosmossecurity-muenchen",
@@ -297,12 +310,12 @@
    "anfahrtspauschale_genannt": "not enough info",
    "gewerblich_objektbetreuung": "not enough info"
   },
-  "description": "CosmosSecurity gehört zur Cosmos Consulting Group in München und verbindet IT-Sicherheit mit Gebäudesicherheit. Das Angebot umfasst Firewall und Proxy, Monitoring, Videoüberwachung, Alarmanlagen, SmartHome-Integration und Disaster Recovery. Im Bereich Zutrittskontrolle liefert der Betrieb digitale Schließanlagen mit vernetzten Zylindern, deren Berechtigungen sich per Software verwalten lassen. Die Zylinder folgen dem Profilmaß für Standard-Profilzylinder, laufen bis zu zehn Jahre mit einer Batterie und lassen sich ohne zusätzliche Verkabelung ins Netzwerk einbinden. Ein Schlüsseldienst für Türöffnungen ist das nicht, die Arbeit liegt bei Planung und Technik."
+  "description": "CosmosSecurity gehört zur Cosmos Consulting Group in München und verbindet IT-Sicherheit mit Gebäudesicherheit. Das Angebot umfasst Firewall und Proxy, Monitoring, Videoüberwachung, Alarmanlagen, SmartHome-Integration und Disaster Recovery. Im Bereich Zutrittskontrolle liefert der Betrieb digitale Schließanlagen mit vernetzten Zylindern, deren Berechtigungen sich per Software verwalten lassen. Die Zylinder folgen dem Profilmaß für Standard-Profilzylinder, laufen bis zu zehn Jahre mit einer Batterie und lassen sich ohne zusätzliche Verkabelung ins Netzwerk einbinden. Ein Schlüsseldienst für Türöffnungen ist das nicht, die Arbeit liegt bei Planung und Technik. Das Unternehmen gehört zu einer Gruppe mit eigenen Bereichen für IT-Systeme, Software, Weiterbildung, Design und Managed IT. Zu den Zylindern gehören ein Netzwerkknauf zur Vernetzung über TCP/IP und eine Software zur Programmierung der Schließanlagen; Zutrittsrechte lassen sich bis zu sechs Monate im Voraus planen. Beratungstermine werden unverbindlich vereinbart."
  },
  {
   "slug": "gropp-w-gmbh-muenchen",
   "attributes": {
-   "schluesseldienst_kern": "true",
+   "schluesseldienst_kern": "not enough info",
    "notdienst_24h": "not enough info",
    "tueroeffnung": "not enough info",
    "schlossaustausch": "true",
@@ -317,7 +330,7 @@
    "anfahrtspauschale_genannt": "not enough info",
    "gewerblich_objektbetreuung": "not enough info"
   },
-  "description": "Die Wilhelm Gropp GmbH besteht nach eigener Angabe seit 1896 in München. Sie arbeitet an mechanischen und elektronischen Systemen für Türen: Schlösser, Panikschlösser und Beschläge, Schließzylinder, Türschließer sowie Feststellanlagen an Brand- und Rauchabschnitten. Hinzu kommen Schließanlagen, Zutrittskontrollsysteme, Fluchttürsteuerungen, elektrische Türöffner, Schleusenfunktionen und automatische Tür- und Torantriebe. Für Abnahmeprüfungen von Feststellanlagen stellt der Betrieb Sachkundennachweise aus. Die Seite führt Partner und Kunden getrennt auf."
+  "description": "Die Wilhelm Gropp GmbH besteht nach eigener Angabe seit 1896 in München. Der Betrieb arbeitet an mechanischen und elektronischen Systemen für Türen: Schlösser, Panikschlösser und Beschläge, Schließzylinder, Türschließer sowie Feststellanlagen an Brand- und Rauchabschnitten. Hinzu kommen Schließanlagen, Zutrittskontrollsysteme, Fluchttürsteuerungen, elektrische Türöffner, Schleusenfunktionen und automatische Tür- und Torantriebe. Der Schwerpunkt liegt auf Türtechnik, bei der Schließen, Zutritt, Flucht und Brandschutz zusammenspielen. Elektronische und mechanische Systeme verbindet er an derselben Tür. Für Abnahmeprüfungen von Feststellanlagen stellt er Sachkundennachweise aus. Die Seite führt Partner und Kunden getrennt auf. Zu den Themen zählen außerdem Panikschlösser an Fluchtwegen und die Abnahme von Feststellanlagen, bei denen Brand- und Rauchabschnitte gesichert bleiben müssen. Mechanische Systeme an Türen und elektronische Schließsysteme stehen auf der Seite gleichrangig nebeneinander, und Partner des Betriebs sind dort gesondert aufgeführt."
  },
  {
   "slug": "arnold-schluesseldienst-duesseldorf",
@@ -337,7 +350,7 @@
    "anfahrtspauschale_genannt": "true",
    "gewerblich_objektbetreuung": "true"
   },
-  "description": "Im Düsseldorfer Stadtteil Bilk arbeitet der Schlüsseldienst von Meister Arnold rund um die Uhr, auch an Wochenenden und Feiertagen. Er öffnet Türen, Autos und Garagen beschädigungsfrei, entfernt abgebrochene Schlüssel, berät zum Schlosswechsel und öffnet Tresore. Ersatzschlüssel fertigt er für Haus, Auto, Garage und Tresor an, und auch am Autoschlüssel kümmert er sich um defekte Elektronik. Seine Festpreise ohne versteckte Kosten nennt er vorab, und Anfahrt sowie Zuschläge etwa für Doppelfalztüren legt eine eigene Preisübersicht offen. Daneben übernimmt der Betrieb Entrümpelungen und Haushaltsauflösungen für Hausverwaltungen, Wohnungsbaugenossenschaften und private Eigentümer. Das Geschäft verbindet Schlüsseldienst mit Schuhreparatur und Gravuren."
+  "description": "Im Düsseldorfer Stadtteil Bilk arbeitet der Schlüsseldienst von Meister Arnold rund um die Uhr, auch an Wochenenden und Feiertagen. Er öffnet Türen, Autos und Garagen beschädigungsfrei, entfernt abgebrochene Schlüssel, berät zum Schlosswechsel und öffnet Tresore. Ersatzschlüssel fertigt er für Haus, Auto, Garage und Tresor an, und auch am Autoschlüssel kümmert er sich um defekte Elektronik. Seine Festpreise ohne versteckte Kosten nennt er vorab, und Anfahrt sowie Zuschläge etwa für Doppelfalztüren legt eine eigene Preisübersicht offen. Daneben übernimmt der Betrieb Entrümpelungen und Haushaltsauflösungen für Hausverwaltungen, Wohnungsbaugenossenschaften und private Eigentümer. Das Geschäft verbindet Schlüsseldienst mit Schuhreparatur und Gravuren. Fahrzeuge aller Marken und Modelle öffnet er auch dann, wenn sie mit elektronischen Schließsystemen ausgestattet sind, ohne Kratzer. Der Preis hängt davon ab, ob die Tür nur zugefallen oder abgeschlossen ist, und wird vorab mitgeteilt. Fragen zur Tür- und Autoöffnung beantwortet der Betrieb in einer eigenen Übersicht, außerdem führt er einen Blog."
  },
  {
   "slug": "schluesseldienst-quick-step-gmbh-duesseldorf",
@@ -357,7 +370,7 @@
    "anfahrtspauschale_genannt": "not enough info",
    "gewerblich_objektbetreuung": "not enough info"
   },
-  "description": "Seit über 25 Jahren bietet die Quick-Step GmbH in Düsseldorf persönlichen Service im Bereich Schlüsseldienst. Der Notdienst ist rund um die Uhr erreichbar und öffnet zugefallene oder ins Schloss gefallene Türen beschädigungsarm. Dazu tauscht der Betrieb Schlosszylinder vor Ort, montiert Schutzbeschläge und verstärkte Schließbleche, richtet Schließanlagen mit individuell codierten Schlüsseln ein und rüstet Haustür- und Innentürschlösser nach. Sicherheitszylinder werden mit Sicherungskarte zur Nachbestellung geliefert. Ein eigener Autoschlüsseldienst kümmert sich um Elektronikprobleme und defekte Schlüssel. Briefkastenschlösser werden ausgetauscht und repariert, und Schilder, Stempel und Gravuren fertigt der Betrieb ebenfalls an. Preise nennt er auf seiner Seite vorab."
+  "description": "Seit über 25 Jahren bietet die Quick-Step GmbH in Düsseldorf persönlichen Service im Bereich Schlüsseldienst. Der Notdienst ist rund um die Uhr erreichbar und öffnet zugefallene oder ins Schloss gefallene Türen beschädigungsarm. Dazu tauscht der Betrieb Schlosszylinder vor Ort, montiert Schutzbeschläge und verstärkte Schließbleche, richtet Schließanlagen mit individuell codierten Schlüsseln ein und rüstet Haustür- und Innentürschlösser nach. Sicherheitszylinder werden mit Sicherungskarte zur Nachbestellung geliefert. Ein eigener Autoschlüsseldienst kümmert sich um Elektronikprobleme und defekte Schlüssel. Briefkastenschlösser werden ausgetauscht und repariert, und Schilder, Stempel und Gravuren fertigt der Betrieb ebenfalls an. Preise nennt er auf seiner Seite vorab. Gegen Aufhebeln schützen verstärkte Schließbleche und Schutzbeschläge mit Aufbohr- und Abreißschutz. Der Betrieb beschreibt sich als lokalen Ansprechpartner, der nach eigener Angabe in Minuten vor Ort ist, und berät zusätzlich zur Sicherheit im Zuhause."
  },
  {
   "slug": "schuh-schluessel-express-duesseldorf",
@@ -377,7 +390,7 @@
    "anfahrtspauschale_genannt": "true",
    "gewerblich_objektbetreuung": "not enough info"
   },
-  "description": "Schuh und Schlüssel Express sitzt in Düsseldorf-Flingern und ist dort seit 2017 ansässig; die Firmengeschichte begann 2011 in Bielefeld. Das Ladenlokal verbindet Schuhreparatur, Lederservice, Gravuren, Schilder, Stempel und Uhrenservice mit einem Schlüsseldienst. Der Schlüsselnotdienst läuft täglich bis in den späten Abend und als 24-Stunden-Notdienst, mit zerstörungsfreien Türöffnungen zum Festpreis, ohne Anfahrtskosten und ohne nicht abgesprochene Aufschläge. Beraten wird zu Einbruchschutz, Schließanlagen und Panzerriegelschlössern, und der Betrieb plant, kalkuliert und führt Schließanlagen auch selbst aus. Notöffnungen, Schlüsselanfertigungen und der Austausch von Schlössern gehören zum Alltag. Die Mitarbeitenden werden nach eigener Angabe laufend geschult."
+  "description": "Schuh und Schlüssel Express sitzt in Düsseldorf-Flingern und ist dort seit 2017 ansässig; die Firmengeschichte begann 2011 in Bielefeld. Das Ladenlokal verbindet Schuhreparatur, Lederservice, Gravuren, Schilder, Stempel und Uhrenservice mit einem Schlüsseldienst. Der Schlüsselnotdienst läuft täglich bis in den späten Abend und als 24-Stunden-Notdienst, mit zerstörungsfreien Türöffnungen zum Festpreis, ohne Anfahrtskosten und ohne nicht abgesprochene Aufschläge. Beraten wird zu Einbruchschutz, Schließanlagen und Panzerriegelschlössern, und der Betrieb plant, kalkuliert und führt Schließanlagen auch selbst aus. Notöffnungen, Schlüsselanfertigungen und der Austausch von Schlössern gehören zum Alltag. Die Mitarbeitenden werden nach eigener Angabe laufend geschult. Der Standort liegt nahe an Supermarkt, Bank und Cafés. Für Wochenenden und Feiertage nennt der Betrieb einen Zuschlag, und für Schlüssel von Schließanlagen etwa in Kindergärten und Behörden gilt eine gesonderte Regelung. Hauptschlüsselanlagen erklärt er am Beispiel von Schulen und Hotels."
  },
  {
   "slug": "schluesseldienst-kevin-gentz-duesseldorf-duesseldorf",
@@ -397,7 +410,10 @@
    "anfahrtspauschale_genannt": "not enough info",
    "gewerblich_objektbetreuung": "not enough info"
   },
-  "description": "Der Schlüsseldienst Gentz im Norden von Düsseldorf-Flingern wird seit 2022 von Sohn Kevin Gentz weitergeführt. Der Notdienst ist täglich rund um die Uhr erreichbar, auch in Neuss, Dormagen, Ratingen, Mettmann und Erkrath, und öffnet die meisten Schlösser zerstörungsfrei. Zur Auswahl stehen außerdem Schlüsselanfertigungen für Schlösser jeder Art, auch ältere, Schließanlagen, mechanische und elektronische Sicherungstechnik, Fenster und Türen, Brandschutz sowie Brief- und Klingelanlagen. Tresore, Stahlschränke und Wertbehältnisse in allen Sicherheitsstufen gibt es ebenfalls. Neben der Düsseldorfer Filiale unterhält der Betrieb einen Standort in Langenfeld, von dem aus Kunden in Monheim, Hilden und Ratingen bedient werden."
+  "description": "Der Schlüsseldienst Gentz im Norden von Düsseldorf-Flingern wird seit 2022 von Sohn Kevin Gentz weitergeführt. Der Notdienst ist täglich rund um die Uhr erreichbar, auch in Neuss, Dormagen, Ratingen, Mettmann und Erkrath, und öffnet die meisten Schlösser zerstörungsfrei. Zur Auswahl stehen außerdem Schlüsselanfertigungen für Schlösser jeder Art, auch ältere, Schließanlagen, mechanische und elektronische Sicherungstechnik, Fenster und Türen, Brandschutz sowie Brief- und Klingelanlagen. Tresore, Stahlschränke und Wertbehältnisse in allen Sicherheitsstufen gibt es ebenfalls. Neben der Düsseldorfer Filiale unterhält der Betrieb einen Standort in Langenfeld, von dem aus Kunden in Monheim, Hilden und Ratingen bedient werden. Bei Defekten an Schlössern, die mit einer elektronikgesteuerten Schließanlage verbunden sind oder sich mit Chipkarte öffnen lassen, hilft der Betrieb kurzfristig. Schlüssel für Schließanlagen gehen nur an legitimierte Auftraggeber, und die Beratung gilt privaten wie gewerblichen Kunden.",
+  "trace": {
+   "elektronische_schliesssysteme": "Schlösser, die mit einer Chipkarte zu öffnen sind"
+  }
  },
  {
   "slug": "schluesseldienst-lippke-duesseldorf",
@@ -417,7 +433,10 @@
    "anfahrtspauschale_genannt": "true",
    "gewerblich_objektbetreuung": "true"
   },
-  "description": "Der Schlüsseldienst Lippke in Düsseldorf arbeitet nach eigener Angabe seit über 50 Jahren und ist an 365 Tagen rund um die Uhr erreichbar. Er öffnet Türen, Autos und Tresore, tauscht Zylinder, verbaut Panzerriegel und plant maßgeschneiderte Schließanlagen. Unter dem Namen Einbruch-Schutz-Center berät er zu Sicherheitstechnik und Einbruchschutz, etwa mit Alarmanlagen und Videoüberwachung, für Zuhause und Geschäftsgebäude. Schlüssel und Zylinder werden angefertigt, und das Fachgeschäft in Düsseldorf ist für Besucher offen. Für Türöffnungen nennt der Betrieb Festpreise ohne versteckte Kosten, gestaffelt in drei Tarife, und legt Fahrkosten sowie Zusatzkosten offen. Ein Besitznachweis wird verlangt."
+  "description": "Der Schlüsseldienst Lippke in Düsseldorf arbeitet nach eigener Angabe seit über 50 Jahren und ist an 365 Tagen rund um die Uhr erreichbar. Er öffnet Türen, Autos und Tresore, tauscht Zylinder, verbaut Panzerriegel und plant maßgeschneiderte Schließanlagen. Unter dem Namen Einbruch-Schutz-Center berät er zu Sicherheitstechnik und Einbruchschutz, etwa mit Alarmanlagen und Videoüberwachung, für Zuhause und Geschäftsgebäude. Schlüssel und Zylinder werden angefertigt, und das Fachgeschäft in Düsseldorf ist für Besucher offen. Für Türöffnungen nennt der Betrieb Festpreise ohne versteckte Kosten, gestaffelt in drei Tarife, und legt Fahrkosten sowie Zusatzkosten offen. Ein Besitznachweis wird verlangt. Eine kostenlose Sicherheitsberatung gilt dem Betrieb als wichtiger erster Schritt, bevor Schlösser repariert oder veraltete Schließsysteme durch modernere ersetzt werden. Ein mobiler Schlüsseldienst fährt zum Einsatzort, und die Einzugsgebiete sind auf einer eigenen Seite aufgeführt.",
+  "trace": {
+   "gewerblich_objektbetreuung": "Zuhause oder Geschäftsgebäude"
+  }
  },
  {
   "slug": "keymasters24-schluesseldienst-duesseldorf",
@@ -437,7 +456,7 @@
    "anfahrtspauschale_genannt": "not enough info",
    "gewerblich_objektbetreuung": "true"
   },
-  "description": "Keymasters24 in Düsseldorf ist mehr als ein klassischer Schlüsseldienst. Das Ladenlokal führt Schlüsselanfertigungen aller Art, Autoschlüssel mit Codierung, Schuhreparaturen, Lederarbeiten, Gravuren, individuelle Stempel und einen Uhrenservice. Der Notdienst öffnet zugefallene Türen und Türen mit abgebrochenem Schlüssel ohne Beschädigungen, an sieben Tagen die Woche rund um die Uhr, auch an Feiertagen. Der Betrieb berät zu Einbruchschutz und montiert Schutzbeschläge, Zusatzschlösser und Panzerriegel. Für Privatkunden, Firmen und Hausverwaltungen plant und installiert er Schließsysteme. Verkauft werden zudem Produkte rund um Schuhe und Schlüssel."
+  "description": "Keymasters24 in Düsseldorf ist mehr als ein klassischer Schlüsseldienst. Das Ladenlokal führt Schlüsselanfertigungen aller Art, Autoschlüssel mit Codierung, Schuhreparaturen, Lederarbeiten, Gravuren, individuelle Stempel und einen Uhrenservice. Der Notdienst öffnet zugefallene Türen und Türen mit abgebrochenem Schlüssel ohne Beschädigungen, an sieben Tagen die Woche rund um die Uhr, auch an Feiertagen. Der Betrieb berät zu Einbruchschutz und montiert Schutzbeschläge, Zusatzschlösser und Panzerriegel. Für Privatkunden, Firmen und Hausverwaltungen plant und installiert er Schließsysteme. Verkauft werden zudem Produkte rund um Schuhe und Schlüssel. Persönliche Beratung steht im Ladenlokal im Mittelpunkt, und der Betrieb betont ehrliches Handwerk, schnellen Service und die Mischung aus langjähriger Erfahrung und handwerklichem Können. Autoschlüssel programmiert er direkt vor Ort oder im Geschäft, bei Bedarf auch als Codierung für Ersatzschlüssel."
  },
  {
   "slug": "shalis-schluesseldienst-duesseldorf",
@@ -457,7 +476,11 @@
    "anfahrtspauschale_genannt": "not enough info",
    "gewerblich_objektbetreuung": "not enough info"
   },
-  "description": "Shalis Schlüsseldienst arbeitet seit 1999 in Düsseldorf und ist mit einem Notdienst rund um die Uhr erreichbar. Um schnell zu reagieren, hält der Betrieb viele Türschlösser und Schließanlagen auf Lager, tauscht Schlösser aus oder installiert sie neu und öffnet Türen nach eigener Aussage fast immer schadenfrei. Er bietet außerdem das Aufbohren von Türen, die Öffnung von Fensterriegeln und Querriegeln sowie von Tresoren an, wobei zuvor die Einzelheiten zum Tresor besprochen werden. Schlüssel werden nachgemacht, und zu jedem Auftrag stellt der Betrieb eine Rechnung aus."
+  "description": "Shalis Schlüsseldienst arbeitet seit 1999 in Düsseldorf und ist mit einem Notdienst rund um die Uhr erreichbar. Um schnell zu reagieren, hält der Betrieb viele Türschlösser und Schließanlagen auf Lager, tauscht Schlösser aus oder installiert sie neu und öffnet Türen nach eigener Aussage fast immer schadenfrei. Er bietet außerdem das Aufbohren von Türen, die Öffnung von Fensterriegeln und Querriegeln sowie von Tresoren an, wobei zuvor die Einzelheiten zum Tresor besprochen werden. Schlüssel werden nachgemacht, und zu jedem Auftrag stellt der Betrieb eine Rechnung aus. Verschlossene Türen sind nach Angabe des Betriebs kein Problem, fast alle Schlösser lassen sich öffnen, und vorab berät er gern. Kunden vertrauen ihm nach eigener Aussage seit vielen Jahren. Die Preise bezeichnet er als transparent. Der Betrieb sitzt in Düsseldorf und bedient die Stadt.",
+  "trace": {
+   "schlossaustausch": "tauschen oder installieren neu",
+   "schluessel_nachmachen": "machen Schlüssel nach seit 1999"
+  }
  },
  {
   "slug": "schluesseldienst-pempelfort-duesseldorf",
@@ -477,7 +500,7 @@
    "anfahrtspauschale_genannt": "not enough info",
    "gewerblich_objektbetreuung": "not enough info"
   },
-  "description": "Der Schlüsseldienst Pempelfort in Düsseldorf arbeitet als Notdienst an jedem Tag und zu jeder Uhrzeit, ohne Rücksicht auf Feiertage und Wochenenden. Jeder Fachmann ist einem Bezirk zugewiesen, die Ankunftszeit liegt gewöhnlich bei einer Viertelstunde bis zwanzig Minuten. Hauptleistung ist die Türöffnung ohne Schäden zu Fixpreisen, dazu der Wechsel von Schlössern und Zylindern, die Reparatur nach Einbruchschäden und die Öffnung von Tresoren. Der Betrieb fertigt Schlüssel und Schließanlagen an, repariert und codiert Autoschlüssel neu, graviert Schilder und Schmuck und übernimmt Lederarbeiten. Im Verkauf stehen Schlüsselanhänger, Fahrradschlösser, Batterien und Tresore. Preise werden vor Arbeitsbeginn besprochen."
+  "description": "Der Schlüsseldienst Pempelfort in Düsseldorf arbeitet als Notdienst an jedem Tag und zu jeder Uhrzeit, ohne Rücksicht auf Feiertage und Wochenenden. Jeder Fachmann ist einem Bezirk zugewiesen, die Ankunftszeit liegt gewöhnlich bei einer Viertelstunde bis zwanzig Minuten. Hauptleistung ist die Türöffnung ohne Schäden zu Fixpreisen, dazu der Wechsel von Schlössern und Zylindern, die Reparatur nach Einbruchschäden und die Öffnung von Tresoren. Der Betrieb fertigt Schlüssel und Schließanlagen an, repariert und codiert Autoschlüssel neu, graviert Schilder und Schmuck und übernimmt Lederarbeiten. Im Verkauf stehen Schlüsselanhänger, Fahrradschlösser, Batterien und Tresore. Preise werden vor Arbeitsbeginn besprochen. Jahrelang bringt der Betrieb nach eigener Angabe Menschen zügig und sicher wieder in ihre vier Wände. Ein Anruf vorab verpflichtet zu nichts: Der Fachmann schaut sich die Lage vor Ort genau an, nennt Vorgehen und Preise und beginnt erst nach Zustimmung mit der Arbeit."
  },
  {
   "slug": "schuh-und-schluesseldienst-g-kalkhake-duesseldorf",
@@ -497,7 +520,7 @@
    "anfahrtspauschale_genannt": "not enough info",
    "gewerblich_objektbetreuung": "not enough info"
   },
-  "description": "Schuh und Schlüsseldienst G. Kalkhake liegt in Düsseldorf-Derendorf. Nach der Maps-Kategorie ist der Betrieb eine Schuhreparatur, die auch Schlüssel kopiert und graviert. Öffnungszeiten sind nicht hinterlegt, und die wenigen Angaben lassen offen, welche Arbeiten im Einzelnen ausgeführt werden."
+  "description": "Schuh und Schlüsseldienst G. Kalkhake liegt in Düsseldorf-Derendorf und ist dort ein Geschäft rund um Schuhe und Schlüssel. Der Betrieb repariert Schuhe, kopiert Schlüssel und graviert; als Maps-Kategorie steht Schuhreparatur, als weitere Tätigkeiten Gravur und Schlüsselkopie. Öffnungszeiten sind nicht hinterlegt, und das Geschäft ist ein Anlaufpunkt im Stadtteil für kleine Reparaturen und Schlüsselkopien."
  },
  {
   "slug": "express-service-schuh-schluesseldienst-duesseldorf",
@@ -517,7 +540,7 @@
    "anfahrtspauschale_genannt": "not enough info",
    "gewerblich_objektbetreuung": "not enough info"
   },
-  "description": "Express Service Schuh und Schlüsseldienst sitzt im Rewe Center in Düsseldorf und fertigt dort nach eigener Angabe seit 2004 Schlüsselkopien aller Art an, bis hin zu Spezialschlüsseln, Anlagenschlüsseln und Gebäudeschlüsseln. Hinzu kommen Schuhreparaturen, Uhrenservice und Gravurarbeiten, außerdem Schilder, Namensschilder und Trophäen. Das Geschäft hat montags bis freitags und samstags geöffnet. Türöffnungen oder der Austausch von Schlössern vor Ort werden nicht genannt, der Schwerpunkt liegt auf der Arbeit im Geschäft."
+  "description": "Express Service Schuh und Schlüsseldienst sitzt im Rewe Center in Düsseldorf und fertigt dort nach eigener Angabe seit 2004 Schlüsselkopien aller Art an. Spezialschlüssel wie Keso, Anlagenschlüssel und Gebäudeschlüssel kopiert er ebenso wie Hausschlüssel, schnell und präzise. Hinzu kommen Schuhreparaturen, Uhrenservice und Gravurarbeiten, außerdem Schilder, Namensschilder und Trophäen. Das Geschäft hat montags bis freitags und samstags geöffnet. Der Schwerpunkt liegt auf der Arbeit im Geschäft. Die Kopien gelten Haus und Wohnung ebenso wie Sonderfällen, und das Geschäft verspricht Service sofort und persönlich vor Ort."
  },
  {
   "slug": "schluesselnotdienst24-com-duesseldorf",
@@ -537,7 +560,11 @@
    "anfahrtspauschale_genannt": "not enough info",
    "gewerblich_objektbetreuung": "not enough info"
   },
-  "description": "Schlüsselnotdienst24.com ist ein Düsseldorfer Notdienst, der Tag und Nacht in Bereitschaft steht. Das Einsatzgebiet reicht von Düsseldorf über Neuss, Hilden, Duisburg und Erkrath bis ins Umland von Köln, insgesamt bis etwa 50 Kilometer rund um Düsseldorf. Zu den Leistungen zählen Türöffnung, das Erneuern von Zylinderschlössern und das Kopieren von Schlüsseln. Erreichbar ist der Betrieb mobil, und er berät persönlich."
+  "description": "Schlüsselnotdienst24.com ist ein Düsseldorfer Notdienst, der Tag und Nacht in Bereitschaft steht. Das Einsatzgebiet reicht von Düsseldorf über Neuss, Hilden, Duisburg und Erkrath bis ins Umland von Köln, insgesamt bis etwa 50 Kilometer rund um Düsseldorf. Zu den Leistungen zählen Türöffnung, das Erneuern von Zylinderschlössern und das Kopieren von Schlüsseln. Erreichbar ist der Betrieb mobil, und er berät persönlich. Die Erreichbarkeit rund um die Uhr gilt auch für Einsätze außerhalb der Stadt, sofern sie im Einsatzgebiet liegen. Der Betrieb nennt sich Schlüsselnotdienst Deutschland und arbeitet mobil.",
+  "trace": {
+   "schlossaustausch": "Silinderschlosserneuern",
+   "schluessel_nachmachen": "Schlüselkopieren"
+  }
  },
  {
   "slug": "holthausener-schuh-und-schluesseldienst-duesseldorf",
@@ -557,6 +584,6 @@
    "anfahrtspauschale_genannt": "not enough info",
    "gewerblich_objektbetreuung": "not enough info"
   },
-  "description": "Der Holthausener Schuh und Schlüsseldienst ist in Düsseldorf-Holthausen seit mehr als 20 Jahren aktiv. Nach seiner Maps-Kategorie fertigt er Schlüssel an und repariert Schuhe. Genauere Angaben zu einzelnen Arbeiten liegen nicht vor."
+  "description": "Der Holthausener Schuh und Schlüsseldienst ist in Düsseldorf-Holthausen als Schuh- und Schlüsseldienst aktiv, nach eigener Angabe seit mehr als 20 Jahren. Nach seiner Maps-Kategorie fertigt er Schlüssel an, als weitere Kategorie steht Schuhreparatur. Genauere Angaben zu einzelnen Arbeiten liegen nicht vor. Öffnungszeiten sind hinterlegt, und der Betrieb arbeitet im Stadtteil als Schuh- und Schlüsselgeschäft."
  }
 ]

@@ -76,6 +76,17 @@ das wäre eine eigene, ausdrückliche Entscheidung, kein stiller Einbau.
   sie brauchen Daniels Stripe-Konto und die dort erzeugten Zahlungslinks. Die Function ändert
   daran nichts; Stripe ist unabhängig.
 
+## Auftragsverarbeiter-Anschriften (erledigt/offen, 2026-11-04)
+- **Zahlungsdienst Stripe – gefüllt.** `processors.payment.company` =
+  „Stripe Payments Europe, Limited, One Wilton Park, Wilton Place, Dublin 2, D02 FX04, Irland".
+  Quelle: Stripe Legal-Process-Guide (EWR-Vertragspartei), bestätigt über LEI/irisches CRO
+  (Reg.-Nr. 513174), Abrufdatum 04.11.2026. In `05-fact-sheet.md` belegt. `thirdCountry` bleibt
+  `true` (Weiterübermittlung an Stripe, Inc./USA unter Standardvertragsklauseln).
+- **Formulardienst – bleibt offen.** Formsprees Unterlagen nennen keine Anschrift, Datenbanken
+  widersprechen sich (Austin vs. Seattle); es wird nichts eingetragen, `processors.form.company`
+  bleibt `OFFEN_`. Entfällt vollständig, wenn die Formularannahme auf die unten beschriebene
+  Cloudflare Pages Function umgestellt wird (dann ist Cloudflare der einzige Verarbeiter).
+
 ## Entscheidung, die ansteht
 Function-Weg (empfohlen) oder doch Formspree zum Start? Und für die Prüfseite: Dashboard-KV-Browser
 (keine Bauarbeit) oder eine passwortgeschützte Prüfseite (wenig Bauarbeit)?
