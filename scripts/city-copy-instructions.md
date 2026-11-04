@@ -75,35 +75,44 @@ tauschen Zylinder, zwei planen Schließanlagen für Hausverwaltungen"), mit Name
   zeigt die erste Hälfte über den Eintragskarten und die zweite darunter, die erste Hälfte soll
   also einordnen, die zweite darf ins Einzelne gehen.
 - **Erster Absatz:** enthält die Branchenbezeichnung aus der Zeile `directory:` und den Stadtnamen.
-- **Keine Zahl, die sich aus der Eintragsmenge ergibt.** Nie „ein Betrieb ist eingetragen", „drei
-  Schlüsseldienste", „mehrere Anbieter" o. ä.: diese Zahl veraltet beim nächsten Datenlauf und
-  widerspricht dann der Liste darunter. Die Seite zeigt die Betriebe selbst; der Text beschreibt
-  das Gewerk am Ort, nicht wie viele gerade gelistet sind. (Betriebe in der Umgebung werden auf der
-  Seite als eigener Abschnitt mit Entfernung gezeigt, nicht im Fließtext gezählt.)
+- **Keine aus den Daten stammende Zahl im Fließtext — harte Regel.** Nichts, was sich bei einer
+  Auffrischung aus der CSV ändert, gehört in den Text: **kein Bewertungsschnitt** („4,9", „5,0"),
+  **keine Zahl der Bewertungen** („aus 485", „485 Bewertungen", „von 43 Kunden"), **keine Zahl der
+  Einträge oder Betriebe je Stadt** („drei Schlüsseldienste", „mehrere Anbieter", „ein Betrieb ist
+  eingetragen"), **keine Entfernung in Kilometern**. Diese Zahlen stehen auf der **Eintragskarte**
+  und auf der Seite selbst; sie werden bei jedem Datenlauf aktuell gesetzt, und ein in den Text
+  geschriebener Wert widerspricht dann der Karte. Der Text beschreibt das Gewerk am Ort, nicht den
+  Datenstand. Erlaubt und erwünscht sind **qualitative Rangaussagen ohne Ziffer** („die größte
+  Bewertungsbasis auf dieser Seite", „die meisten Stimmen", „ein durchweg hoch bewerteter Betrieb",
+  „seit Jahren dasselbe Ladengeschäft"). Erlaubt bleiben Zahlen, die ein Betrieb **selbst** nennt und
+  die sich nicht aus unseren Daten ergeben: Gründungsjahre („seit 1991"), Normen („DIN EN 1627",
+  „RC 2"), Hausnummern. (Betriebe in der Umgebung zeigt die Seite als eigenen Abschnitt mit
+  Entfernung, nicht im Fließtext.)
 - **Was hinein soll:** siehe „Wovon der Text handelt".
   Die Arbeiten, die das Gewerk hier schwerpunktmäßig übernimmt, als Beschreibung. Wo die Betriebe
   hier arbeiten. Die Orte, die sich die Seite teilen, und der Landkreis. Die ein oder zwei Betriebe,
-  deren Bewertungsgeschichte heraussticht, mit Bewertung und Anzahl. Was die Stadtfakten hergeben,
-  mit ihrem Nutzen für den Leser.
+  deren Bewertungsgeschichte heraussticht, **qualitativ** benannt („die größte Bewertungsbasis hier",
+  „durchweg stark bewertet") — ohne Ziffer. Was die Stadtfakten hergeben, mit ihrem Nutzen für den Leser.
 - **Führen Sie mit dem, was diesen Ort ausmacht.** Eine Stadt, in der fast jeder Betrieb auch zwei
   Landkreise weiter fährt; eine Stadt, in der das Gewerk überwiegend eine Art Arbeit macht; eine
   Stadt mit einem Ladengeschäft und sonst nur Notdiensten. Finden Sie das und beginnen damit. Keine
   zwei Städte Ihres Stapels beginnen gleich oder teilen einen Satz, und kein Satz darf den Austausch
   des Stadtnamens überleben.
 - **Beschreiben, nicht empfehlen.** Sagen Sie nie, wen man beauftragen soll, und nennen Sie keinen
-  Betrieb den besten, führenden, ersten oder empfehlenswerten. Nennen Sie Bewertung und Anzahl und
-  lassen den Leser urteilen. Eine 5,0 aus 3 Bewertungen ist nicht dasselbe wie eine 4,6 aus 300;
-  sagen Sie das, wo es darauf ankommt.
+  Betrieb den besten, führenden, ersten oder empfehlenswerten. Unterscheiden Sie eine breite
+  Bewertungsbasis von einer dünnen **in Worten** („wenige Stimmen, deshalb wenig aussagekräftig" statt
+  einer Zahl) und lassen den Leser urteilen. Die Ziffern dazu stehen auf der Eintragskarte.
 - **Fakten als Tatsache, nie die Quelle nennen.** „Schlüsseldienst Müller öffnet Türen in Mannheim
   und fährt auch nach Ludwigshafen", nicht „Schlüsseldienst Müller gibt auf seiner Website an, dass
   er". Kein „laut Website", „den Angaben zufolge", „die Seite nennt", kein „bei Google Maps". Die
   Seite selbst sagt, woher die Daten kommen.
 - **Über Unbekanntes nichts sagen.** Gab die Website eines Betriebs wenig her oder war sie nicht
-  lesbar, lassen Sie diesen Betrieb aus dem Text oder nennen ihn nur mit Bewertung und Anzahl. Die
+  lesbar, lassen Sie diesen Betrieb aus dem Text oder nennen ihn nur dem Namen und der Stadt nach. Die
   Eintragskarte trägt „keine Angabe", der Text nicht.
-- **Zahlen:** jede Zahl muss im Paket der Stadt oder auf dem Faktenblatt stehen. Verwenden Sie
-  Anzahlen („9 der 24"). Rechnen Sie keine Prozente, Mittelwerte oder Summen selbst aus. Keine
-  Prozentangaben.
+- **Zahlen:** keine aus den Daten stammende Zahl (siehe die harte Regel oben) — keine
+  Bewertungsschnitte, Bewertungszahlen, Eintrags-/Betriebszahlen je Stadt, keine Kilometer, keine
+  Prozente, keine selbst gerechneten Mittelwerte oder Summen. Jede andere Zahl muss im Paket der
+  Stadt oder auf dem Faktenblatt stehen.
 - **Keine Preise.** Keine Eurobeträge, keine Spannen, keine Stundensätze, keine
   Anfahrtspauschalen, auch keine Zeitangaben, wie lange eine Arbeit dauert. Einzige Ausnahme: ein
   Betrieb nennt einen Preis selbst auf seiner Website und das Paket führt ihn; dann steht er als
@@ -115,8 +124,9 @@ tauschen Zylinder, zwei planen Schließanlagen für Hausverwaltungen"), mit Name
 - **Der Leser ist Kunde, nicht Techniker.** Kein Wort darüber, wie das Verzeichnis gebaut ist oder
   wie es mit Suchmaschinen umgeht. Kein „zum Zeitpunkt der Erhebung", kein „Fehler", kein „nicht
   gefunden", kein „noindex", kein „Paket", kein „Attribut".
-- **Schlechte Bewertungen:** Zahlen nennen und aufhören. Charakterisieren Sie keinen Betrieb darüber
-  hinaus.
+- **Schlechte Bewertungen:** nicht charakterisieren und keine Ziffer nennen. Lassen Sie einen schwach
+  bewerteten Betrieb entweder aus dem Text oder nennen ihn neutral dem Namen nach; die Bewertung steht
+  auf seiner Karte.
 - **Wie die Seite sortiert ist**, wird nie erwähnt.
 
 ## Die FAQ

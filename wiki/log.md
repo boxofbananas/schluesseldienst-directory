@@ -350,3 +350,14 @@ Zahlen, was auf Freigabe wartet.
   vollem `key`, vorhandene Pakete/Antworten umgeschlüsselt. **Near-Dup-Prüfung subquadratisch**
   gemacht (invertierter Index/Prefix-Filter) und 16+1 Schablonen neu geschrieben.
   Bericht: `berichte/2026-11-04-stadttexte-sonnet-fertig.md`.
+
+- **2026-11-04 — Bewertungszahlen, Slug-Audit, Verhaltens-Ausschlüsse (Analyse + Härtung).**
+  (1) 775/792 Stadttexte nennen datenstämmige Zahlen im Fließtext. Harte Regel in
+  `city-copy-instructions.md` ergänzt (keine Bewertungsschnitte/-zahlen, Eintragszahlen je Stadt,
+  km; qualitative Rangaussagen erlaubt), widersprüchliche Stellen umgeschrieben; Prüfung in
+  `check_city_copy.py` ergänzt (meldet 775 durchgefallen). Gezielter Umschreib-Lauf wartet auf
+  Freigabe (~5–12 $, Probe zuerst). (1c) Nur 4 Eintragsbeschreibungen mit Zahl, alle DataForSEO.
+  (2) Slug-Audit: Eintrags-Slugs eindeutig; Stadtebene per vollem `key` behoben; keine zweite Stelle.
+  (3) Vier Verhaltens-Drops identifiziert (Herzog/Mannheim, Kurt/Nürnberg, Schlüssel One/Erlangen+Fürth),
+  warten auf Bestätigung + Vorgänge; Wiki `framework/conduct-exclusions.md`. Bericht:
+  `berichte/2026-11-04-bewertungszahlen-kollision-ausschluesse.md`.

@@ -214,6 +214,23 @@ def main():
         if "€" in everything or "$" in everything or re.search(r"\beuro\b", everything, re.I):
             fails[slug].append("Preisangabe; Stadttexte nennen keine Preise (nur ein Betrieb, der seinen Preis selbst nennt, "
                                "und dann als dessen Angabe)")
+        # Keine aus den Daten stammende Zahl im Fließtext: Bewertungsschnitt, Zahl der Bewertungen,
+        # Eintrags-/Betriebszahl je Stadt, Entfernung in km. Sie ändern sich bei jeder Auffrischung
+        # aus der CSV und widersprechen dann der Eintragskarte. Gründungsjahre, Normen (DIN, RC) und
+        # Hausnummern bleiben erlaubt. (Regel vom 2026-11-04.)
+        DATA_NUM = re.compile(
+            r"\b[0-5][.,]\d\b"                                      # Bewertungsschnitt 4,9 / 5,0
+            r"|\b\d+\s*(?:Bewertung|Rezension|Sterne?|Stimmen)"     # 485 Bewertungen / 12 Sterne
+            r"|\b\d+\s*[Mm]al\s+bewert"                             # 36 Mal bewertet
+            r"|\b\d+\s*Kunden\b"                                    # 43 Kunden (… bewertet)
+            r"|\b\d+\s*(?:km|Kilometer)\b"                          # 12 km
+            r"|\b\d+\s*(?:Schlüsseldienst|Betrieb|Anbieter|Eintr)\w*",  # 3 Schlüsseldienste
+            re.I)
+        dn = next((s.strip() for s in re.split(r"(?<=[.!?])\s+", everything) if DATA_NUM.search(s)), None)
+        if dn:
+            fails[slug].append('Datenzahl im Fließtext (Bewertungsschnitt, Zahl der Bewertungen, '
+                               'Eintragszahl je Stadt oder km) – gehört auf die Eintragskarte, nicht in den Text; '
+                               f'qualitativ umschreiben ohne Ziffer: "{dn[:80]}"')
         inside = sorted({m.group(0) for m in INTERNAL.finditer(lc.fold_text(everything))})
         if inside:
             fails[slug].append(f"interne Formulierung, die ein Kunde nicht lesen soll: {inside} (schreiben Sie, was der Betrieb "

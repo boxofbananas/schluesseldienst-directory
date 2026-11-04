@@ -45,6 +45,9 @@ Zeile ergänzen und `log.md` fortschreiben.
   je Stadt höchstens ein eigener Betrieb auf einem bezahlten Platz, eigenes Cloudflare-Konto,
   kein Google Analytics und keine Search Console, und Merz Sicherheit in Mannheim als normaler
   Vorgang zum öffentlichen Preis.
+- [conduct-exclusions](framework/conduct-exclusions.md): wann ein Betrieb wegen belegten
+  Fehlverhaltens ausgeschlossen wird (Warnung, Presse/Gericht, Bewertungsmuster, eigene Kenntnis
+  des Betreibers), der Grund wird wahrheitsgemäß eingetragen, Maßstab gilt für alle gleich.
 - [monetization-slots](framework/monetization-slots.md): die Stufen mit Europreisen, die
   Landkreis- und Bundesland-Stufe als später zu aktivieren, die zwei Türen (beanspruchen und
   Festpreis-Garantie beantragen), die beiden Eintragszustände, der Garantie-Nachweis als HTML
