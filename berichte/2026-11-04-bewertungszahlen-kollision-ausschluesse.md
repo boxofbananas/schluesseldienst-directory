@@ -87,3 +87,20 @@ Vorwürfe gegen namentlich genannte Dritte gehören nicht in eine versionierte D
   auf Sonnet gestartet, Schätzung **~$35–45**. Endkosten im Nachtrag.
 - **(B) wartet nur noch auf dein „Ja"** zu den vier Slugs oben (kein Vorgang nötig). Danach: droppen
   (`reason=verhalten_betreiber`) → die vier Städte neu + Textstellen glätten → prüfen → `city-copy.json`.
+
+---
+## Nachtrag (A erledigt): Umschreib-Lauf durch
+Alle **792 Stadttexte sind jetzt zahlenfrei**, `city-copy.json` neu geschrieben, Prüfung 0
+durchgefallen, 0 Rest-Datenzahlen. Ablauf und Kosten:
+- Neuer `rewrite`-Modus (liest die vorhandene Antwort, nicht das Paket). Kosten auf claude -p
+  **~33 $** (gemessen: leichte Stadt 2,7 ct, schwere ~14 ct) — im Rahmen der Schätzung (~35–45 $).
+- **Zwischenfall:** mitten im Lauf hat sich die `claude`-Binärdatei selbst aktualisiert (19:59),
+  wodurch rund 82 Stapel-Starts abbrachen. Die betroffenen **76 Städte** wurden danach über
+  Subagenten im Harness umgeschrieben (zuverlässiger als die abgewürgten Hintergrundläufe).
+- Dabei fing die neue Near-Dup-Prüfung erwartungsgemäß **neue** qualitative Floskeln
+  („auf breiter Basis sehr gut bewertet") und Dubletten aus den früheren Mini-Batches; beide
+  aufgelöst, 9 Reste von Hand geglättet (Wortuntergrenze, „erstklassig", Floskeln).
+
+**Noch offen aus (1c):** die **4** Eintragsbeschreibungen mit Zahl (alle DataForSEO) werden mit
+dem Gate-B-Rebuild (nach den Drops) in `03-listings-enriched.csv` bereinigt und fließen dann in
+`listings.csv`.
