@@ -67,21 +67,6 @@ Einträge, in der Reihenfolge der Seite:
      Notiz: Ein breites Dienstleistungsangebot bündelt dieser Betrieb in Regen: Schuh- und Schlüsseldienst, Annahme für die Textilreinigung, Gravuren und Stempel. Er nennt Notöffnungen, Schließanlagen und Sicherheitstechnik sowie Autoschlüssel mit Funk. Hinzu kommen Seniorenhandys, Handyzubehör,
        Handyreinigung und Sim-Karten für Mobiltelefone.
 
-### x/riehen
-city: Riehen
-listings on this page: 1
-intro band: 120 to 800 words
-page type: small town with its own page (too far from a larger city to share one); 2 to 4 paragraphs, 2 to 6 FAQs
-Kreise der Einträge (aus den Postleitzahlen): keine zugeordnet
-Google-Bewertungen aller Einträge zusammen: 0; Durchschnitt: 0.0
-wozu das örtliche Gewerbe neigt (Einträge, die es auf ihrer eigenen Website angeben): 
-Nachbarstädte mit eigener Seite: Weil am Rhein 3, Lörrach 5, Zell im Wiesental 5, Laufenburg 5, Freiburg im Breisgau 14
-Einträge, in der Reihenfolge der Seite:
-  1. bammerlin - consulting | 0.0 aus 0 Bewertungen
-     ja: nichts angegeben
-     Notiz: Michael Bammerlin aus Riehen ist der Gründer von bammerlin – consulting, einem Beratungsunternehmen, das auf betriebswirtschaftliche, organisatorische und sicherheitstechnische Dienstleistungen spezialisiert ist. Das Unternehmen bietet maßgeschneiderte Lösungen in den Bereichen
-       Brandschutz, Arbeitssicherheit Gebäudesicherheit und Organisation an. Darüber hinaus werden individuelle Coachings sowie Seminare und Schulun
-
 ### nordrhein-westfalen/roesrath
 city: Rösrath
 bundesland: Nordrhein-Westfalen

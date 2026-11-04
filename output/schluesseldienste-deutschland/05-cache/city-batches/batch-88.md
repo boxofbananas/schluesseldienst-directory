@@ -37,20 +37,6 @@ Einträge, in der Reihenfolge der Seite:
      ja: Schlüsseldienst, 24-Stunden-Notdienst, Türöffnung, Schloss austauschen
      Notiz: Lukas Buschwa führt in Wipperfürth einen Hausmeisterservice, der zugleich als Schlüsseldienst arbeitet. Bei Ausgesperrten öffnet er Türen, wenn möglich beschädigungsfrei, und hilft bei verlorenen oder abgebrochenen Schlüsseln. Er wechselt Schlösser und tauscht Schließzylinder aus.
 
-### x/allschwil
-city: Allschwil
-listings on this page: 1
-intro band: 120 to 800 words
-page type: small town with its own page (too far from a larger city to share one); 2 to 4 paragraphs, 2 to 6 FAQs
-Kreise der Einträge (aus den Postleitzahlen): keine zugeordnet
-Google-Bewertungen aller Einträge zusammen: 7; Durchschnitt: 5.0
-wozu das örtliche Gewerbe neigt (Einträge, die es auf ihrer eigenen Website angeben): 
-Nachbarstädte mit eigener Seite: Weil am Rhein 3, Lörrach 5, Zell im Wiesental 5, Laufenburg 5, Freiburg im Breisgau 14
-Einträge, in der Reihenfolge der Seite:
-  1. schluessel24basel | 5.0 aus 7 Bewertungen
-     ja: nichts angegeben
-     Notiz: Sie haben sich ausgesperrt? Der Schlüssel ist verloren oder das Schloss defekt? Kein Problem – wir sind rund um die Uhr für Sie da!
-
 ### nordrhein-westfalen/altena
 city: Altena
 bundesland: Nordrhein-Westfalen
@@ -96,19 +82,6 @@ Einträge, in der Reihenfolge der Seite:
      ja: nichts angegeben
      Notiz: Wir wollen, dass Ihr Projekt ein Erfolg wird Kommen Sie vorbei, wir beraten Sie gerne! Wenn Sie ein neues Projekt planen, sind Internet oder Prospekte als erste Informationsquellen oft ausreichend. Doch irgendwann sollte ein Projekt auch ausführlicher besprochen werden, dafür bietet sich
        der persönliche Kontakt an.
-
-### x/arlesheim
-city: Arlesheim
-listings on this page: 1
-intro band: 120 to 800 words
-page type: small town with its own page (too far from a larger city to share one); 2 to 4 paragraphs, 2 to 6 FAQs
-Kreise der Einträge (aus den Postleitzahlen): keine zugeordnet
-Google-Bewertungen aller Einträge zusammen: 0; Durchschnitt: 0.0
-wozu das örtliche Gewerbe neigt (Einträge, die es auf ihrer eigenen Website angeben): 
-Nachbarstädte mit eigener Seite: Weil am Rhein 3, Lörrach 5, Zell im Wiesental 5, Laufenburg 5, Freiburg im Breisgau 14
-Einträge, in der Reihenfolge der Seite:
-  1. Schlosserei Cazzato | 0.0 aus 0 Bewertungen
-     ja: nichts angegeben
 
 ### nordrhein-westfalen/arnsberg
 city: Arnsberg

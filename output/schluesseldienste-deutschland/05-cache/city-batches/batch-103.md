@@ -112,19 +112,6 @@ Einträge, in der Reihenfolge der Seite:
      ja: nichts angegeben
      Notiz: Die S. Bayer Sicherheitstechnik GmbH in Obertshausen versteht sich als Schlüsseldienst mit Notdienst rund um die Uhr. Bei einem Notfall oder einer Türöffnung ist der Betrieb jederzeit erreichbar, und schon im Firmennamen steht der 24-Stunden-Notdienst.
 
-### x/oberwil
-city: Oberwil
-listings on this page: 1
-intro band: 120 to 800 words
-page type: small town with its own page (too far from a larger city to share one); 2 to 4 paragraphs, 2 to 6 FAQs
-Kreise der Einträge (aus den Postleitzahlen): keine zugeordnet
-Google-Bewertungen aller Einträge zusammen: 0; Durchschnitt: 0.0
-wozu das örtliche Gewerbe neigt (Einträge, die es auf ihrer eigenen Website angeben): 
-Nachbarstädte mit eigener Seite: Weil am Rhein 3, Lörrach 5, Zell im Wiesental 5, Laufenburg 5, Freiburg im Breisgau 14
-Einträge, in der Reihenfolge der Seite:
-  1. Bebbi Metallbau AG | 0.0 aus 0 Bewertungen
-     ja: nichts angegeben
-
 ### nordrhein-westfalen/oelde
 city: Oelde
 bundesland: Nordrhein-Westfalen

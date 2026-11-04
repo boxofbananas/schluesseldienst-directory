@@ -48,19 +48,6 @@ Einträge, in der Reihenfolge der Seite:
      ja: nichts angegeben
      Notiz: Schlüsseldienst Schuhreparaturen aller Art Lasergravur Batteriewechsel Armbanduhren Stempelsofortdienst Türöffnung Fotogravuren auf diverse Anhänger und Feuerzeuge Ring innen und außen Gravur
 
-### x/siegershausen
-city: Siegershausen
-listings on this page: 1
-intro band: 120 to 800 words
-page type: small town with its own page (too far from a larger city to share one); 2 to 4 paragraphs, 2 to 6 FAQs
-Kreise der Einträge (aus den Postleitzahlen): keine zugeordnet
-Google-Bewertungen aller Einträge zusammen: 1; Durchschnitt: 5.0
-wozu das örtliche Gewerbe neigt (Einträge, die es auf ihrer eigenen Website angeben): 
-Nachbarstädte mit eigener Seite: Konstanz 6, Uhldingen-Mühlhofen 2, Friedrichshafen 4, Bodman-Ludwigshafen 3, Singen 6
-Einträge, in der Reihenfolge der Seite:
-  1. Herzog & Co. AG Siegershausen | 5.0 aus 1 Bewertungen
-     ja: nichts angegeben
-
 ### baden-wuerttemberg/sindelfingen
 city: Sindelfingen
 bundesland: Baden-Württemberg

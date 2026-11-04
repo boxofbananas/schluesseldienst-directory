@@ -33,16 +33,10 @@
     "videoEmbed": ""
   },
   "contact": {
-    "email": "info@domholdinggmbh.de",
-    "formEndpoint": "https://formspree.io/f/FORMULAR_ID"
+    "email": "info@die-besten-schluesseldienste.de",
+    "formEndpoint": "/api/claim"
   },
   "processors": {
-    "form": {
-      "name": "Formspree",
-      "company": "OFFEN_ANSCHRIFT_FORMULARDIENST",
-      "thirdCountry": true,
-      "_hinweis": "Firma und Anschrift wörtlich aus dem Impressum oder den AGB des Anbieters übernehmen, nicht aus dem Gedächtnis. Solange hier OFFEN_ steht, nennt die Datenschutzerklärung nur den Namen des Dienstes."
-    },
     "payment": {
       "name": "Stripe",
       "company": "Stripe Payments Europe, Limited, One Wilton Park, Wilton Place, Dublin 2, D02 FX04, Irland",

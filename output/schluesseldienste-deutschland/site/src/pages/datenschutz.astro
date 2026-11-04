@@ -105,14 +105,28 @@ const payProc = site.processors && site.processors.payment;
       zu ändern und mit Ihnen darüber zu sprechen. Wir speichern sie, solange die Anfrage bearbeitet wird,
       und darüber hinaus so lange, wie wir gesetzlich zur Aufbewahrung verpflichtet sind.
     </p>
-    {formProc && (
-      <p>
-        Die Zustellung der Formulare übernimmt {formProc.name}{firma(formProc) ? ` (${firma(formProc)})` : ''} als
-        Auftragsverarbeiter nach Art. 28 DSGVO. Die Angaben, die Sie in ein Formular eintragen, werden
-        dorthin übermittelt und von dort an uns weitergeleitet.
-        {formProc.thirdCountry ? ' Für die damit verbundene Übermittlung in ein Drittland stützen wir uns auf die Standardvertragsklauseln der Europäischen Kommission nach Art. 46 Abs. 2 Buchstabe c DSGVO.' : ''}
-      </p>
-    )}
+    <p>
+      Wir nehmen die Formulare ohne einen gesonderten Formulardienst entgegen. Ihre Einsendung wird
+      bei unserem Hoster Cloudflare in einem Schlüssel-Werte-Speicher (Cloudflare KV) abgelegt;
+      ein weiterer Auftragsverarbeiter ist dafür nicht beteiligt. Abgelehnte oder unbeantwortete
+      Einsendungen werden dort nach 90 Tagen automatisch gelöscht. Führt eine Einsendung zu einer
+      Änderung Ihres Eintrags, löschen wir den dortigen Datensatz, sobald das Ergebnis in unseren
+      Verzeichnisdaten steht.
+    </p>
+    <p>
+      Jede Einsendung erhalten wir zusätzlich als E-Mail an unsere eigene Adresse, zugestellt über
+      Cloudflare Email Routing an eine von uns verifizierte Adresse und damit ohne einen weiteren
+      Dienstleister. Unbeantwortete oder abgelehnte Einsendungen löschen wir aus diesem Postfach
+      ebenfalls nach 90 Tagen; angenommene Garantie-Anträge bewahren wir als Geschäftsbeleg für die
+      Laufzeit der Garantie und die gesetzliche Aufbewahrungsfrist auf.
+    </p>
+    <p>
+      Lehnen wir eine Einsendung ab, behalten wir außerhalb dieser Website eine kurze
+      Wiedervorlage-Notiz (Firmenname, Ort, Datum, Art des Formulars und der Grund der Ablehnung in
+      Kurzform; kein Formularinhalt, keine Preise, keine Unterschrift), um nachzufassen, wenn die
+      fehlende Voraussetzung später erfüllt ist. Rechtsgrundlage ist Art. 6 Abs. 1 Buchstabe f DSGVO;
+      wir löschen diese Notiz nach zwölf Monaten.
+    </p>
     {payProc && (
       <p>
         Buchen Sie einen kostenpflichtigen Platz, werden Sie zur Zahlung an {payProc.name}

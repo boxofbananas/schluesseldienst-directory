@@ -1,0 +1,24 @@
+# Cloudflare Pages Konfiguration für die Formularannahme (functions/api/claim.ts).
+# Die beiden Bindungen richtet Daniel in seinem Cloudflare-Konto ein; die IDs/Adressen hier
+# ersetzen oder im Pages-Dashboard unter Settings → Functions → Bindings setzen.
+# Siehe 05-build-report.md, Abschnitt „Was Daniels Cloudflare-Konto braucht".
+name = "schluesseldienste-deutschland"
+compatibility_date = "2026-11-04"
+pages_build_output_dir = "dist"
+
+# KV-Namespace für die Einsendungen. Anlegen:  npx wrangler kv namespace create EINSENDUNGEN
+# Dann die ausgegebene id hier eintragen (oder im Dashboard als KV-Binding "EINSENDUNGEN" binden).
+[[kv_namespaces]]
+binding = "EINSENDUNGEN"
+id = "OFFEN_KV_NAMESPACE_ID"
+
+# send_email-Binding (Cloudflare Email Routing). Die Zieladresse muss in Email Routing als
+# "Destination address" verifiziert sein; Versand ist nur an diese verifizierte Adresse erlaubt.
+[[send_email]]
+name = "SEB"
+destination_address = "info@die-besten-schluesseldienste.de"
+
+# Verifizierte Absende-/Zieladresse; können im Dashboard als Variablen überschrieben werden.
+[vars]
+NOTIFY_FROM = "formular@die-besten-schluesseldienste.de"
+NOTIFY_TO = "info@die-besten-schluesseldienste.de"
