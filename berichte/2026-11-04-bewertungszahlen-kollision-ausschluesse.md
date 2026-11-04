@@ -18,12 +18,11 @@ Karte auf derselben Seite beim nächsten Lauf die aktuelle Zahl zeigt.
 - `scripts/check_city_copy.py`: neue Prüfung, die an solchen Zahlen scheitert. Verifiziert: meldet
   jetzt **775 Städte durchgefallen** mit der genauen Fundstelle; keine Fehlalarme auf Jahre/Normen.
 
-**Noch nicht ausgeführt — Freigabe + Kosten (GATE A):** Nicht alles neu erzeugen. Geplant ist ein
-**gezielter Umschreib-Lauf**: je Stadt den vorhandenen Text lesen und nur die Zahl-Sätze neu
-schreiben (Aussage behalten, Ziffer weg). Weil nur der Text gelesen wird (nicht die großen Pakete),
-kostet das etwa **ein Zehntel einer Vollerzeugung — Schätzung ~5–12 $ auf Sonnet**. Ich würde das
-mit **einem Probestapel (~0,60 $)** genau einmessen, bevor der Rest läuft, und dir die
-Probe-Ergebnisse zeigen. Freigabe?
+**Freigegeben und gestartet (GATE A):** gezielter **Umschreib-Lauf** über den neuen `rewrite`-Modus
+von `run_batches.py` — er liest die vorhandene Antwort, nicht das Paket, und schreibt nur die
+gemeldeten Zahl-Sätze um (Aussage behalten, Ziffer weg). Zwei Probestapel gemessen: leichte
+Kleinstadt-Seite **2,7 ct/Stadt**, schwerer Großstadt-Stapel ~14 ct (mit Retry). Gewichtet über die
+775 (weit überwiegend kleine Orte) **~$35–45**. Endkosten im Nachtrag unten.
 
 ## (1c) Eintragsbeschreibungen — Entwarnung
 Nur **4 von 2.963** Eintragsbeschreibungen nennen eine Datenzahl, **alle aus DataForSEO, keine aus
@@ -44,13 +43,20 @@ an den Umschreib-Lauf an — minimal.
 
 | Name | Ort | Slug |
 |---|---|---|
-| Schlüsseldienst Herzog | Mannheim | `schluesseldienst-herzog-mannheim` |
-| Schlüsseldienst Nürnberg \| Kurt Schlüsseldienst | Nürnberg | `schluesseldienst-nuernberg-kurt-schluesseldienst-nuernberg` |
-| Schlüssel One | Erlangen | `schluessel-one-erlangen` |
-| Schlüssel One | Fürth | `schluessel-one-fuerth` |
+| Name | Ort | Adresse | Telefon | Slug |
+|---|---|---|---|---|
+| Schlüsseldienst Herzog | Mannheim | Waldpforte 13, 68305 Mannheim | +49 621 43772508 | `schluesseldienst-herzog-mannheim` |
+| Schlüsseldienst Nürnberg \| Kurt Schlüsseldienst | Nürnberg | Neustädter Str. 142, 90431 Nürnberg | +49 173 6582728 | `schluesseldienst-nuernberg-kurt-schluesseldienst-nuernberg` |
+| Schlüssel One | Erlangen | Friedrichstraße 27, 91054 Erlangen | +49 9131 9334333 | `schluessel-one-erlangen` |
+| Schlüssel One | Fürth | Schwabacher Str. 138, 90763 Fürth | +49 911 99967428 | `schluessel-one-fuerth` |
 
-Nicht betroffen (gleicher Name, andere Betriebe, bleiben): Herzog Car Key (Leimen), Schlüsseldienst
-Kurt (Kempten), Kurt Schlüsseldienst (Bremen), Kurt Erdal (Wedel) u. a. — alles verschiedene Firmen.
+**Verwechslungsprüfung (du wolltest es genau):**
+- **„Kurt" im Namen, alle Städte:** 11 Einträge, aber nur **einer in Nürnberg** — der Ziel-Betrieb.
+  Die übrigen liegen in Wedel, Berlin (2×), Kempten, Bornheim, Großkarolinenfeld, Siegsdorf, Bremen,
+  Rostock, Seiffen — **andere Firmen, bleiben alle**.
+- **In Nürnberg** gibt es außerdem „Sos Schluesseldienst" und „Turbo-Schlüsseldienst Nürnberg" —
+  **andere Namen, andere Nummern, bleiben** (sie teilen nur den Nürnberg-Stadttext mit dem Ziel).
+- **„Schlüssel One", alle Städte:** existiert **nur** in Erlangen und Fürth. Keine weitere Stadt.
 
 **Textstellen, die nach dem Drop neu geschrieben werden (GATE B, Teil 2):**
 - **Mannheim:** 4 Stellen mit Herzog, darunter „Die größte Bewertungsbasis hat Schlüsseldienst
@@ -64,18 +70,20 @@ Kurt (Kempten), Kurt Schlüsseldienst (Bremen), Kurt Erdal (Wedel) u. a. — all
 Diese vier Städte werden nach dem Drop ohnehin voll neu erzeugt (Paket ändert sich), was zugleich
 die Bewertungszahlen aus (1) dort erledigt.
 
-**Grund in `04-exclusions.csv`** wird wahrheitsgemäß eingetragen (dokumentiertes Fehlverhalten
-gegenüber dem Betreiber), nie als „fremdes Gewerbe" getarnt. Welcher genaue Wortlaut je Betrieb? Ich
-schlage vor: „dokumentiertes Fehlverhalten gegenüber dem Betreiber (…)". Sag mir die konkreten
-Vorgänge, dann trage ich sie knapp und wahr ein.
+**Grund in `04-exclusions.csv`:** gemäß deiner Korrektur steht in der Spalte `reason` **nur das
+Kürzel `verhalten_betreiber`** — keine Schilderung des Vorgangs, nicht in der CSV, nicht in diesem
+Bericht, nicht im Wiki. Das Kürzel verweist auf den Maßstab; die Belege bleiben beim Betreiber
+außerhalb des Repositorys. Ich brauche also **keine** Vorgangsbeschreibung von dir — nur das „Ja" zu
+den vier Slugs.
 
 **Maßstab festgehalten:** neue Wiki-Seite `framework/conduct-exclusions.md` — wann ein Betrieb wegen
 Verhaltens ausgeschlossen wird (Warnung, Presse/Gericht, Bewertungsmuster mit Preisstreit,
-dokumentierte eigene Kenntnis), Grund immer wahrheitsgemäß, Maßstab für alle gleich. Begründung
-aufgenommen: eigene belegbare Kenntnis wiegt schwerer als die Google-Bewertung.
+dokumentierte eigene Kenntnis), der Grund steht nur als Kürzel, Maßstab für alle gleich. Begründung
+aufgenommen: eigene belegbare Kenntnis wiegt schwerer als die Google-Bewertung; und schriftliche
+Vorwürfe gegen namentlich genannte Dritte gehören nicht in eine versionierte Datei.
 
-## Zusammengefasst wartet auf dich
-- **GATE A:** Freigabe des gezielten Umschreib-Laufs (~5–12 $, Probe zuerst).
-- **GATE B:** Bestätigung der vier Slugs zum Drop **und** die konkreten Vorgänge für den
-  Ausschlussgrund.
-Danach: droppen → vier Städte neu + Umschreib-Lauf → prüfen (0 Datenzahlen) → `city-copy.json`.
+## Stand und was auf dich wartet
+- **(A) läuft:** Probe gemessen (leichte Stadt **2,7 ct**, schwere ~9–14 ct); voller Umschreib-Lauf
+  auf Sonnet gestartet, Schätzung **~$35–45**. Endkosten im Nachtrag.
+- **(B) wartet nur noch auf dein „Ja"** zu den vier Slugs oben (kein Vorgang nötig). Danach: droppen
+  (`reason=verhalten_betreiber`) → die vier Städte neu + Textstellen glätten → prüfen → `city-copy.json`.

@@ -44,9 +44,15 @@ weiß.
 ## Wie der Ausschluss ausgeführt wird
 
 - Der Betrieb kommt nach `output/<slug>/04-exclusions.csv` mit `action=drop`.
-- Der **Grund wird wahrheitsgemäß** eingetragen (z. B. „dokumentiertes Fehlverhalten gegenüber dem
-  Betreiber: Erpressungsversuch, Vorgang vom …"). **Nie** wird ein Verhaltensausschluss als „fremdes
-  Gewerbe" oder „keine Türöffnung" getarnt — die Ausschlussgründe bleiben ehrlich und prüfbar.
+- In die Spalte `reason` kommt **ausschließlich das Kürzel `verhalten_betreiber`**, das auf diesen
+  Maßstab verweist. **Keine Schilderung des Vorgangs** — nicht in der CSV, nicht in Berichten, nicht
+  im Wiki. Der Grund bleibt damit ehrlich (er behauptet kein fremdes Gewerbe und keine fehlende
+  Türöffnung) und zugleich frei von schriftlichen Vorwürfen gegen einen namentlich genannten Dritten.
+- **Warum nur ein Kürzel:** `04-exclusions.csv` liegt im Git-Repository; was dort, in einem Bericht
+  oder im Wiki steht, bleibt dauerhaft in der Versionsgeschichte. Die **Belege liegen beim Betreiber
+  außerhalb des Repositorys**. Eine schriftliche Schilderung von Betrug, Nötigung oder Sabotage gegen
+  einen mit Namen genannten Betrieb gehört nicht in eine versionierte Datei; das Kürzel trägt die
+  Entscheidung, der Beleg bleibt beim Betreiber.
 - Danach werden alle **Stadttexte** geprüft, in denen der Betrieb vorkommt, und die betroffenen
   Stellen neu geschrieben, ohne Lücke oder Bruch. Auch **Nachbarstädte** werden geprüft, weil ein
   Betrieb dort als Arbeitsgebiet genannt sein kann.
