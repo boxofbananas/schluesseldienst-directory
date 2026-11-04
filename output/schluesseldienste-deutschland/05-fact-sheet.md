@@ -102,3 +102,49 @@ Pflicht jedes Schlüsseldienstes.
   `service-bw.de/zufi/leistungen/987`. **Abrufdatum 04.11.2026. Status: belegt.** Handelsregister
   nicht pauschal als Pflicht formulieren.
 </content>
+
+---
+
+## Ratgeberseiten (Gate 5, Punkt 7)
+
+Fünf Ratgeberseiten, geschrieben am 04.11.2026 aus den im Regelwerk zugelassenen Quellen
+(Verbraucherzentrale, Stiftung Warentest, Polizeiliche Kriminalprävention / k-einbruch.de,
+Handwerkskammer, kommunale Notrufseite). Keine anderen Schlüsseldienst-Websites, keine Branchenbücher,
+keine Presseportale. Jede Quelle mit Abrufdatum; alle als **belegt** eingestuft. Seite „Unseriöse
+Schlüsseldienste erkennen" nennt bewusst keinen einzelnen Betrieb.
+
+### /ratgeber/was-kostet-ein-schluesseldienst/ — Was kostet ein Schlüsseldienst?
+- Verbraucherzentrale: https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/abzocke/schluesseldienste-so-schuetzen-sie-sich-vor-ueberzogen-hohen-rechnungen-6687 (Abruf 2026-11-04)
+- Verbraucherzentrale: https://www.verbraucherzentrale.de/infothek/schluesseldienste (Abruf 2026-11-04)
+- Stiftung Warentest: https://www.test.de/Schluesseldienst-Abzocke-So-wehren-Sie-sich-gegen-teure-Tueroeffner-5154674-0/ (Abruf 2026-11-04)
+- Stiftung Warentest: https://www.test.de/Schluesseldienste-im-Test-Pfusch-Abzocke-und-ein-naheliegender-Geheimtipp-1152279-0/ (Abruf 2026-11-04)
+- Verbraucherzentrale: https://www.verbraucherzentrale.de/wissen/geld-versicherungen/weitere-versicherungen/generalschluessel-verloren-drohende-kosten-bis-zum-preis-eines-kleinwagens-10679 (Abruf 2026-11-04)
+- Zentralverband des Deutschen Handwerks (Handwerksordnung): https://www.zdh.de/daten-und-fakten/handwerksordnung/ (Abruf 2026-11-04)
+
+### /ratgeber/ausgesperrt-was-tun/ — Ausgesperrt: Was Sie jetzt tun sollten
+- Verbraucherzentrale: https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/abzocke/schluesseldienste-so-schuetzen-sie-sich-vor-ueberzogen-hohen-rechnungen-6687 (Abruf 2026-11-04)
+- Verbraucherzentrale: https://www.verbraucherzentrale.de/infothek/schluesseldienste (Abruf 2026-11-04)
+- Stiftung Warentest: https://www.test.de/Schluesseldienst-Abzocke-So-wehren-Sie-sich-gegen-teure-Tueroeffner-5154674-0/ (Abruf 2026-11-04)
+- Stadt München (Notrufseite): https://stadt.muenchen.de/infos/notruf.html (Abruf 2026-11-04)
+- Polizeiliche Kriminalprävention: https://www.polizei-beratung.de/themen-und-tipps/einbruch/technische-sicherheit/ (Abruf 2026-11-04)
+
+### /ratgeber/unserioese-schluesseldienste-erkennen/ — Unseriöse Schlüsseldienste erkennen
+- Verbraucherzentrale: https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/abzocke/schluesseldienste-so-schuetzen-sie-sich-vor-ueberzogen-hohen-rechnungen-6687 (Abruf 2026-11-04)
+- Verbraucherzentrale Niedersachsen: https://www.verbraucherzentrale-niedersachsen.de/themen/handwerker-notdienste/so-vermeiden-sie-aerger-unserioesen-schluesselnotdiensten (Abruf 2026-11-04)
+- Stiftung Warentest: https://www.test.de/Schluesseldienst-Abzocke-So-wehren-Sie-sich-gegen-teure-Tueroeffner-5154674-0/ (Abruf 2026-11-04)
+- Handwerkskammer Rhein-Main: https://www.hwk-rhein-main.de/downloads/Beratung/Rechtsberatung/Schl%C3%BCsselnotdienste.pdf (Abruf 2026-11-04)
+- Polizeiliche Kriminalprävention: https://www.polizei-dein-partner.de/themen/diebstahl-betrug/detailansicht-diebstahl-betrug/artikel/unserioese-schluesseldienste.html (Abruf 2026-11-04)
+
+### /ratgeber/schloss-austauschen/ — Schloss austauschen: Anlässe, Ablauf, Kosten
+- Stiftung Warentest: https://www.test.de/Test-Tuerschloesser-und-Schliesszylinder-5243517-5243523/ (Abruf 2026-11-04)
+- Stiftung Warentest: https://www.test.de/Schluesseldienst-Abzocke-So-wehren-Sie-sich-gegen-teure-Tueroeffner-5154674-0/ (Abruf 2026-11-04)
+- Stiftung Warentest: https://www.test.de/Schluesseldienste-im-Test-Pfusch-Abzocke-und-ein-naheliegender-Geheimtipp-1152279-5520609/ (Abruf 2026-11-04)
+- Verbraucherzentrale: https://www.verbraucherzentrale.de/infothek/schluesseldienste (Abruf 2026-11-04)
+- Verbraucherzentrale: https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/abzocke/schluesseldienste-so-schuetzen-sie-sich-vor-ueberzogen-hohen-rechnungen-6687 (Abruf 2026-11-04)
+- Polizeiliche Kriminalprävention (k-einbruch.de): http://www.k-einbruch.de/tueren (Abruf 2026-11-04)
+
+### /ratgeber/tueren-nachruesten-einbruchschutz/ — Türen nachrüsten: Einbruchschutz ohne Umbau
+- Polizeiliche Kriminalprävention der Länder und des Bundes: https://www.polizei-beratung.de/themen-und-tipps/einbruch/technische-sicherheit/ (Abruf 2026-11-04)
+- K-EINBRUCH (Polizeiliche Kriminalprävention): https://www.k-einbruch.de/sicherheitstipps/tueren/ (Abruf 2026-11-04)
+- K-EINBRUCH (Polizeiliche Kriminalprävention): https://www.k-einbruch.de/sicherheitstipps/fenster/ (Abruf 2026-11-04)
+- K-EINBRUCH (Polizeiliche Kriminalprävention, zur KfW-Förderung): https://www.k-einbruch.de/sicherheitstipps/foerderung/ (Abruf 2026-11-04)

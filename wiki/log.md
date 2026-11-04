@@ -371,3 +371,15 @@ Zahlen, was auf Freigabe wartet.
   (PFLICHT), (2) Stripe-Links fehlen, (3) Ratgeber leer, (4) Anwaltsprüfung Rechtstexte + USt-IdNr./
   Telefon offen, (5) fünf Schweizer Grenzorte noch im Datenstand (Entscheidung). Bericht:
   `output/schluesseldienste-deutschland/05-build-report.md`.
+
+- **2026-11-04 (Nachtlauf):** Autonomer Lauf, sieben Punkte erledigt. Grenzorte: 5 Schweizer Orte
+  (Allschwil, Arlesheim, Oberwil, Riehen, Siegershausen) gedroppt, kein weiterer Auslandsort übrig
+  → 3.800 Einträge / 787 Stadtseiten. Impressum: USt-IdNr. und Telefon als bewusst leer entschieden
+  (kein Blocker mehr). Formularannahme als Cloudflare Pages Function gebaut (`/api/claim`), PFLICHT-
+  Sperre weg; Cloudflare-Bindungen (KV `EINSENDUNGEN`, `send_email` `SEB`) bleiben als Betreiber-
+  Klicks offen. Linkcheck: 0 gebrochene/leere interne Links, keine noindex-Verlinkung. Screenshots:
+  12 Seiten × 1440/390 px unter `berichte/screenshots/`. Textgate: Startseite, Bundesländer,
+  „Über uns" bestanden; Stadttexte 787/787. **Fünf Ratgeberseiten** aus den zugelassenen Quellen
+  geschrieben (nicht mit der seo-content-engine-Skill, da deren SERP-Basis die Quellenregel
+  verletzt), alle durch `lint_copy.py --erlaube-rechtswoerter`; 0 $ externe Kosten. Berichte:
+  `berichte/2026-11-04-morgenbericht.md`, `output/schluesseldienste-deutschland/05-build-report.md`.
