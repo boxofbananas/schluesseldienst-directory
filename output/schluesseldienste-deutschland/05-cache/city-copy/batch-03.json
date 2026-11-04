@@ -1,166 +1,134 @@
 {
-  "sachsen/leipzig": {
-    "intro": [
-      "Schlüsseldienste in Leipzig sind zu einem guten Teil Schlossereien und Metallbauer, die neben der Werkstattarbeit auch Türen öffnen. Die Schlosserei Ingo Wiedemann führt das bis auf den Gründungstag zurück, den 1. Juli 1919. Heute verbindet der Betrieb Schlosserei und Schlüsseldienst, baut Schließanlagen im Werks- und Eigenprofil und übernimmt Türnotöffnungen während der Öffnungszeiten. Die MWB Metallbau-Walter-Blumentritt GbR führt seit 2007 ein Sicherheitsfachgeschäft mit Metallbau und hält einen Bereitschaftsdienst für die Notöffnung von Türen bereit.",
-      "Ähnlich gebaut sind weitere Betriebe der Stadt. Die Sicherheitstechnik + Metallbau Korff GmbH arbeitet familiengeführt in zweiter Generation in zwei Sparten: Der Schlüsseldienst ist dort eine Spezialisierung neben dem Metallbau, der individuell angefertigte Bauschlosserprodukte liefert. Die Schlosserei Dick im Leipziger Süden fertigt und repariert im Metallbau und in der Bauschlosserei, führt Schweißarbeiten aus und öffnet Türen im Notdienst; dazu liegen nur wenige Bewertungen vor. Robert Landmesser richtet sich auf Metallbau, Stahlbau und Sicherheitstechnik aus, mit Schließanlagen, Einbruchschutz und elektronischen Schließsystemen für Gewerbe und Objekte.",
-      "Daneben gibt es in Leipzig die Betriebe, die vom Notdienst her kommen. Der Leipziger Schlüsseldienst Inh. S. Seiler arbeitet seit über 20 Jahren von einem eigenen Ladengeschäft aus, ohne Callcenter, mit einer Festnetznummer, hinter der immer jemand erreichbar ist. Er öffnet Türen zerstörungsfrei, tauscht Schlösser nach einem Einbruch oder Schlüsselverlust und ist rund um die Uhr im Einsatz. Seine Bewertungsbasis ist sehr breit und durchweg stark. Seiler's Schlüsseldienst führt Sven Seiler seit 2010, mit dem Schwerpunkt auf Tür- und Autoöffnung. Geöffnet werden Wohnungs-, Haus- und Garagentüren sowie Fahrzeuge unter anderem von VW, Audi, Seat, Skoda, BMW und Mercedes, und Autoschlüssel mit Wegfahrsperre und Fernbedienung werden kopiert.",
-      "Eine sehr breite Bewertungsbasis ist etwas anderes als die wenigen Stimmen, auf die sich der Schlüsseldienst Leipzig Star stützt, der Türöffnung und einen Notdienst führt. Beide Zahlen gehören neben den Namen gelesen. Der Schlüsseldienst City ist in ganz Leipzig in Bereitschaft, tagsüber, nachts und am Wochenende, und öffnet neben Wohnungen auch Autos, Garagen, Briefkästen, Tresore, Geldkassetten und Fahrradschlösser. Krzysztof Lewandowski arbeitet als mobiler Einzelbetrieb auf Deutsch und Polnisch, öffnet Wohnungs- und Haustüren, tauscht Zylinder und öffnet Autos ohne Beschädigung.",
-      "Wer ein Geschäft vor Ort sucht, findet es in mehreren Stadtteilen. Im Leipziger Stadtteil Leutzsch führt der Schlüssel- & Schlossdienst Fiebig ein Geschäft für Schlösser und Schließtechnik. Der Betrieb war vorher viele Jahre als Schlüsseldienst in Leipzig unterwegs, berät heute zu neuen Türschlössern und Schließzylindern, baut sie ein und wartet Schließanlagen samt Schließplänen. Die Fa. Schlüsselloch M.Klaus & J.Wagner GbR Schlüsseldienst öffnet montags bis donnerstags vormittags und nachmittags mit Mittagspause, freitags nur vormittags. Sie öffnet Türen, fertigt Schlüssel nach und liefert Zusatzschlösser, Schließanlagen und Briefkästen. Das Servicecenter Hartmann besteht seit 1993, steht mit der Schuhreparatur im Mittelpunkt und fertigt daneben Schlüssel an, darunter Schließanlagenschlüssel.",
-      "Größere Sicherheitstechnik liefern die LSS Leipzig GmbH und Schleicher Sicherheitssysteme. LSS bringt mehr als 30 Jahre Erfahrung in Schlüssel- und Sicherheitstechnik mit, teils noch aus DDR-Zeiten, ist an sieben Tagen rund um die Uhr zu erreichen und baut Sicherheitsschlösser, Beschläge und Zutrittskontrollsysteme ein. Schleicher wurde 1990 in Leipzig gegründet, ist vom Schlüsselnotdienst zum Errichter für Sicherheitstechnik geworden und plant, installiert und wartet mechanische und elektronische Schließanlagen für Privat- und Gewerbeobjekte.",
-      "Nach außen reicht die Seite nur ein Stück. In Markranstädt sitzt die Bauschlossserei Sven Bernschein, in Burghausen der Schuh und Schlüsseldienst Stefan Rothaug, der Autoschlüssel und Schlüsselkopien anbietet und ein Ladengeschäft führt, und in Schkeuditz die Meesenburg GmbH - Sicherheit & Service in Schkeuditz. Schkeuditz taucht außerdem mehrfach als Arbeitsgebiet von Leipziger Betrieben auf. Eigene Seiten haben die Nachbarstädte Markkleeberg, Delitzsch, Kitzscher, Eilenburg und Merseburg."
-    ],
-    "faqs": [
-      {
-        "q": "Welche Leipziger Betriebe öffnen auch Autos?",
-        "a": "Seiler's Schlüsseldienst öffnet Fahrzeuge unter anderem von VW, Audi, Seat, Skoda, BMW und Mercedes und kopiert Autoschlüssel mit Wegfahrsperre und Fernbedienung. Krzysztof Lewandowski öffnet Autos ohne Beschädigung. Der Schlüsseldienst City öffnet neben Wohnungen auch Autos, Garagen und Tresore."
-      },
-      {
-        "q": "Wer hat in Leipzig ein Geschäft, in das ich kommen kann?",
-        "a": "Der Leipziger Schlüsseldienst Inh. S. Seiler arbeitet von einem eigenen Ladengeschäft aus. Der Schlüssel- & Schlossdienst Fiebig sitzt in Leutzsch und baut Schlösser und Zylinder ein. Bei der Fa. Schlüsselloch M.Klaus & J.Wagner GbR Schlüsseldienst gelten feste Öffnungszeiten, freitags nur vormittags."
-      },
-      {
-        "q": "Wer plant in Leipzig Schließanlagen für Gewerbe und Objekte?",
-        "a": "Schleicher Sicherheitssysteme plant, installiert und wartet mechanische und elektronische Schließanlagen für Privat- und Gewerbeobjekte. Die LSS Leipzig GmbH liefert Schließanlagen und baut Zutrittskontrollsysteme ein. Robert Landmesser verbindet Metallbau mit Sicherheitstechnik für Industrie, Gewerbe und Privatkunden."
-      },
-      {
-        "q": "Gibt es in Leipzig Betriebe, die Metallbau und Türöffnung verbinden?",
-        "a": "Ja. Die Sicherheitstechnik + Metallbau Korff GmbH führt den Schlüsseldienst als Sparte neben dem Metallbau. Die MWB Metallbau-Walter-Blumentritt GbR hält zusätzlich einen Bereitschaftsdienst für Notöffnungen bereit. Die Schlosserei Ingo Wiedemann bietet Türnotöffnungen während der Öffnungszeiten an."
-      },
-      {
-        "q": "Welche Nachbarorte von Leipzig haben eine eigene Seite?",
-        "a": "Eigene Seiten haben Markkleeberg, Delitzsch, Kitzscher, Eilenburg und Merseburg. Betriebe aus Markranstädt, Burghausen und Schkeuditz stehen dagegen auf der Leipziger Seite, weil sie sich diese Seite teilen."
-      }
-    ]
-  },
-  "bayern/nuernberg": {
-    "intro": [
-      "Wer in Nürnberg einen Schlüsseldienst braucht, landet meist bei einem Betrieb, der Nürnberg, Fürth und Erlangen als ein einziges Einsatzgebiet versteht. Schlüsseldienste dieser Art sind hier die Regel. Der Schlüsseldienst Nürnberg von Kurt arbeitet seit 2012 in allen drei Städten, der Turbo-Schlüsseldienst Nürnberg ebenso, und die Monteure von Sos Schluesseldienst sind in Nürnberg, Fürth und Erlangen stationiert. Fürth und Erlangen gehören damit zu den Orten, die Betriebe auf ihren Websites am häufigsten als Arbeitsgebiet nennen.",
-      "Der Kreis reicht weiter, je nach Betrieb. Schlüsseldienst Dietrich, ein Familienbetrieb seit 1994, arbeitet in Nürnberg, Fürth, Erlangen, Schwabach und im übrigen Franken. FTS-Schlüsseldienst nennt Nürnberg, Fürth, Erlangen, Schwabach und Roth. Der Schlüsseldoktor ist seit 1996 in Nürnberg, Fürth, Erlangen, Stein, Zirndorf und Umgebung unterwegs. ARS Schlüsseldienst Nürnberg zählt Zirndorf, Stein, Schwabach, Wendelstein, Feucht, Lauf an der Pegnitz, Altdorf, Heroldsberg und Eckental auf. Der Falke Schlsseldienst deckt Nürnberg, Fürth, Erlangen und über 190 weitere Orte in Mittel- und Westmittelfranken ab.",
-      "Die Arbeit selbst ist bei den Notdiensten ähnlich, im Detail aber verschieden. Kurt öffnet Türen an 365 Tagen rund um die Uhr, möglichst ohne Schaden, dazu Fahrzeuge, Garagen, Tresore und Briefkästen. Der Schlüsseldoktor öffnet Wohnungs-, Haus-, Keller- und Zimmertüren und Garagentore, auch nach verlorenem, abgebrochenem oder vergessenem Schlüssel. Dietrich öffnet vom Altbau bis zur Sicherheitstür, auch in Mehrfamilienhäusern und Gewerbegebäuden. Blitz Schlüsseldienst kommt außerdem zu Einsätzen nach einem Einbruch und tauscht Zylinder und Türschlösser. Der Falke Schlsseldienst öffnet Tresore, auch nach vergessenem Code, jeweils gegen Nachweis von Eigentum und Berechtigung.",
-      "Ein eigener Schwerpunkt ist der Autoschlüssel. Schlüssel Sheriff Schlüsseldienst kopiert und programmiert Transponder, fertigt Innenbahn- und Außenbahnschlüssel und öffnet Fahrzeuge vieler Hersteller, auch US-amerikanischer und japanischer Modelle. RAZIFAZI ist ein Fachgeschäft in der Innenstadt für Haus-, Wohnungs-, Briefkasten-, Sicherheits- und Autoschlüssel; Transponder und Funkfernbedienungen werden dort codiert und programmiert. Der Autoschlüssel Experte in Nürnberg macht Fahrzeugschlüssel für alle Marken nach, auch wenn sämtliche Schlüssel verloren sind, und codiert vor Ort.",
-      "Bei Schließanlagen und Einbruchschutz treten die Fachgeschäfte hervor. Schlüsseldienst Weber GbR arbeitet seit 1986 und versteht sich als Schließanlagenfachhändler, der Anlagen berät, verkauft, montiert und wartet, mechanisch wie elektronisch. Globus Schlüsseldienst® Nürnberg hat einen festen Standort in Gostenhof, tauscht Zylinder, repariert Mehrfachverriegelungen und plant Schließanlagen mit programmierbaren Berechtigungen. Die ellerwald GmbH führt seit 70 Jahren in dritter Generation ein Fachgeschäft mit Schlössern, Zylindern, Tresoren und Briefkästen und einen Montagedienst für private und gewerbliche Objekte. Die Meusel & Beck GmbH ist seit 1901 im Baubeschlag und in der Gebäudesicherheit tätig.",
-      "Dazu kommen Betriebe, die ein anderes Handwerk mitführen. Masterfix Schuh- und Schlüsseldienst ist ein Schuhmacher, der Schlüssel kopiert und auch beim Kunden vor Ort arbeitet. Die Schlosserei Schelter in Mögeldorf besteht seit 1887, wird in fünfter Generation geführt und fertigt Fenstergitter, Geländer, Zäune und Tore. Auf der Nürnberger Seite stehen außerdem Betriebe, die sich die Seite mit den Nachbarstädten Stein bei Nürnberg, Fürth, Schwabach, Lauf an der Pegnitz und Erlangen teilen; diese Orte haben eigene Seiten. Wie gut ein Betrieb bewertet ist und wie viele Stimmen dahinterstehen, zeigt die jeweilige Eintragskarte; im Text bleibt es bei dem, was die Betriebe selbst über ihre Arbeit sagen. Wer nachts oder am Wochenende Hilfe braucht, ruft am besten mehrere Nummern an und lässt sich Anfahrt und Preis vorab nennen."
-    ],
-    "faqs": [
-      {
-        "q": "Welche Nürnberger Notdienste fahren auch nach Fürth und Erlangen?",
-        "a": "Der Schlüsseldienst Nürnberg von Kurt, der Turbo-Schlüsseldienst Nürnberg und Sos Schluesseldienst arbeiten in Nürnberg, Fürth und Erlangen. Sos Schluesseldienst hat Monteure in allen drei Städten stationiert. FTS-Schlüsseldienst fährt zusätzlich nach Schwabach und Roth."
-      },
-      {
-        "q": "Wer macht in Nürnberg Autoschlüssel nach und codiert Transponder?",
-        "a": "Schlüssel Sheriff Schlüsseldienst kopiert und programmiert Transponder. RAZIFAZI in der Innenstadt programmiert Transponder und Funkfernbedienungen. Der Autoschlüssel Experte in Nürnberg macht Fahrzeugschlüssel für alle Marken nach und codiert auch vor Ort."
-      },
-      {
-        "q": "Wer öffnet in Nürnberg einen Tresor, dessen Code vergessen wurde?",
-        "a": "Der Falke Schlsseldienst öffnet Tresore auch nach vergessenem Code, jeweils gegen Nachweis von Eigentum und Berechtigung. Kurt Schlüsseldienst und Blitz Schlüsseldienst öffnen ebenfalls Tresore. Wer den Tresor vorher sichern will, findet bei der Dr. Heindl Tresore GmbH & Co. KG ein Tresorgeschäft in der Stadt."
-      },
-      {
-        "q": "Wer in Nürnberg plant Schließanlagen für ein Mehrfamilienhaus?",
-        "a": "Schlüsseldienst Weber GbR berät, verkauft, montiert und wartet Schließanlagen. Globus Schlüsseldienst® Nürnberg plant mechanische und elektronische Anlagen mit programmierbaren Berechtigungen. Schlüsseldienst Dietrich plant und installiert Schließanlagen für Mehrfamilienhäuser."
-      },
-      {
-        "q": "Welche Orte rund um Nürnberg haben eine eigene Seite?",
-        "a": "Eigene Seiten haben Stein bei Nürnberg, Fürth, Schwabach, Lauf an der Pegnitz und Erlangen. Betriebe, die diese Orte bedienen, sind auf den jeweiligen Seiten zu finden."
-      }
-    ]
-  },
-  "nordrhein-westfalen/dortmund": {
-    "intro": [
-      "Schlüsseldienste in Dortmund sitzen oft in den Stadtteilen und führen neben dem Schlüssel ein zweites Handwerk. Das Geschäft in Hörde verbindet den Schlüsseldienst & Schuhexpress BERZ mit einer Schuhwerkstatt, in der auch Messer und Scheren geschliffen werden. Der Schlüsseldienst öffnet Wohnungen, Häuser, Keller, Garagen und Autos möglichst zerstörungsfrei und wechselt Zylinder und Schlösser. In Huckarde liegt die Huckarder Schuhmacherei & Schlüsseldienst, die in erster Linie Schuhmacher ist und Schlüsselarbeiten im selben Geschäft führt.",
-      "Weitere Stadtteilbetriebe: In Aplerbeck betreibt die Key & Shoes UG von Wilfried Mintel den Aplerbecker Schlüsseldienst, einen Schlüsselnotdienst bei verlorenen Schlüsseln und zugefallenen Türen. Der Schuh- und Schlüsseldienst Glücksschlüssel, geführt als Schlüsseldienst GKS Dortmund, kopiert Schlüssel, graviert Schilder, verkauft Türzylinder und montiert Panzerriegel und Schließanlagen. Der Service Punkt Schuh- und Schlüsseldienst gehört zu einem Verbund mit Standorten auch in Köln, Berlin und Bonn, liegt am Westenhellweg und fährt in die Innenstadt, nach Hörde und Hombruch bis nach Aplerbeck, Mengede, Eving und Lütgendortmund.",
-      "Mobil und rein auf den Notdienst ausgerichtet sind andere. Doormen ist ein Schlüsselnotdienst ohne Ladengeschäft, der ausschließlich beim Kunden arbeitet, Haus- und Wohnungstüren, gekippte Fenster und Autotüren möglichst schonend öffnet und Schäden nach Einbrüchen repariert. Relex arbeitet als Haus- und Autoschlüsseldienst an sieben Tagen die Woche rund um die Uhr, wechselt Schlösser und Schließzylinder, montiert Schließanlagen und beseitigt Einbruchschäden. Zwilling Schlüsseldienst Dortmund öffnet Türen in Dortmund und Umgebung an 365 Tagen, Emma Schlüsseldienst Dortmund kümmert sich im gesamten Stadtgebiet um Türöffnungen und berät zu Einbruchschutz und vernetzten Schließsystemen.",
-      "Vom Firmensitz in Schüren und Aplerbeck aus fährt der Schlüsseldienst Nowowiejski alle Dortmunder Stadtteile und das nahe Lünen an. Der Notdienst läuft 24 Stunden an 365 Tagen, daneben tauscht der Betrieb Schließzylinder und berät zu Schließanlagen für Wohnungen, Mehrfamilienhäuser und Gewerbe. Der Schlüsseldienst Artelt in Hörde besteht seit 1985 als Familienunternehmen. Er öffnet Türen, repariert Zylinder und Schlösser und sichert Wohnungs-, Haus-, Keller- und Terrassentüren sowie Fenster.",
-      "Ein zweiter Teil des Dortmunder Marktes arbeitet für Gewerbe, Verwaltungen und Einrichtungen. Weckbacher Sicherheitssysteme plant und montiert Schließanlagen und Zutrittskonzepte, analog wie digital, für Gewerbe und Industrie, die öffentliche Hand, Messen, das Gesundheitswesen, den Bildungsbereich und Finanzdienstleister. Pinger Sicherheitstechnik ist auf elektronische Schließsysteme und Zutrittskontrolle ausgerichtet, vom biometrischen System bis zur mechatronischen Schließanlage, für Praxen, Kanzleien, Schulen, Krankenhäuser und Hotels. Die B&C Sicherheitstechnik GmbH versorgt Privatkunden und Gewerbe im gesamten Ruhrgebiet mit Alarmanlagen, Videoüberwachung, mechanischem Einbruchschutz und Schließtechnik.",
-      "Sicherheitstechnik August ist aus einer Eisenwarenhandlung gewachsen und verbindet nach mehr als vierzig Jahren in zwei Geschäften Schlüsseldienst, Eisenwaren, Alarmanlagen, Tresore und Briefkästen. protecIQ hat sich auf Autoschlüssel, Schließzylinder und Tresore ausgerichtet, programmiert und repariert Autoschlüssel und verkauft mechanische und elektronische Zylinder über einen eigenen Webshop.",
-      "Wer die Grenzen der Seite sucht: Betriebe der Seite nennen als Arbeitsgebiet unter anderem Witten, Lünen, Kamen, Waltrop, Castrop-Rauxel, Recklinghausen und Bochum. Eigene Seiten haben die Nachbarstädte Schwerte, Witten, Castrop-Rauxel, Lünen und Herdecke. Die Bewertungslage der genannten Betriebe finden Sie auf den Eintragskarten; im Text steht nur, was die Betriebe über ihr Angebot angeben. Vor einem Einsatz lohnt der kurze Anruf, bei dem Sie Anfahrt und Preis der Türöffnung nennen lassen."
-    ],
-    "faqs": [
-      {
-        "q": "Welcher Dortmunder Schlüsseldienst arbeitet ohne Ladengeschäft direkt beim Kunden?",
-        "a": "Doormen ist ein Schlüsselnotdienst ohne Ladengeschäft, der ausschließlich beim Kunden arbeitet. Er öffnet Haus- und Wohnungstüren, gekippte Fenster und Autotüren möglichst schonend, wechselt Schlösser und repariert Schäden nach einem Einbruch."
-      },
-      {
-        "q": "Wer in Dortmund verbindet Schlüsseldienst und Schuhreparatur?",
-        "a": "In Hörde der Schlüsseldienst & Schuhexpress BERZ, in Huckarde die Huckarder Schuhmacherei & Schlüsseldienst, in Aplerbeck die Key & Shoes UG mit dem Aplerbecker Schlüsseldienst. Der Service Punkt Schuh- und Schlüsseldienst liegt am Westenhellweg."
-      },
-      {
-        "q": "Wer richtet in Dortmund Zutrittskontrolle für Verwaltungen und Schulen ein?",
-        "a": "Weckbacher Sicherheitssysteme plant Schließanlagen und Zutrittskonzepte für Gewerbe, öffentliche Hand, Gesundheitswesen und Bildungsbereich. Pinger Sicherheitstechnik ist auf elektronische Schließsysteme spezialisiert und rüstet Schulen, Krankenhäuser und Hotels aus."
-      },
-      {
-        "q": "Wer macht Autoschlüssel in Dortmund?",
-        "a": "Relex arbeitet als Haus- und Autoschlüsseldienst und öffnet Autotüren beschädigungsfrei. protecIQ programmiert und repariert Autoschlüssel, tauscht Gehäuse und fräst neue Schlüsselbärte. Der Schuh- & Schlüsseldienst Goldschlüssel führt Autoschlüssel aller Hersteller."
-      },
-      {
-        "q": "Welche Städte um Dortmund haben eine eigene Seite?",
-        "a": "Eigene Seiten haben Schwerte, Witten, Castrop-Rauxel, Lünen und Herdecke. Der Schlüsseldienst Nowowiejski fährt von Dortmund aus auch das nahe Lünen an."
-      }
-    ]
-  },
-  "nordrhein-westfalen/duisburg": {
-    "intro": [
-      "In Duisburg gehört der Autoschlüssel zum Kern der Schlüsseldienste. Autoschlüssel.de ist aus einem klassischen Schuh- und Schlüsseldienst zu einem Spezialisten für Fahrzeugschlüssel geworden: Der Betrieb fertigt Schlüssel für nahezu alle Marken, auch mit Wegfahrsperre samt Codierung, und kopiert Fahrzeugschlüssel samt Fernbedienung. Ein Servicefahrzeug mit großem Ersatzteillager erlaubt es, Autoschlüssel vor Ort zu schneiden und zu programmieren. EC Autoschlüssel Mobiler Service fährt in Duisburg, Köln und im übrigen Nordrhein-Westfalen zum Kunden, codiert, programmiert und lernt Schlüssel an, auch bei Keyless-Go-Modellen.",
-      "Der Alltag der Haustüren ist an die Stadtteile gebunden. Die Schloss-Ambulanz führt Gebietsseiten für Walsum, Hamborn, Marxloh, Meiderich, Beeck, Laar und weitere Bezirke. Der Betrieb wurde 2021 gegründet, das Team bringt schon viele Jahre Erfahrung als Schlüsseldienst mit. Schlüsseldienst D.H.E 24Std Duisburg hat Gebietsseiten von Neudorf über Stadtmitte, Beeck und Rheinhausen bis Walsum und fährt auch nach Dinslaken und Moers. Schlüsseldienst Schloss Aktiv rückt in allen Stadtteilen aus und öffnet Wohnungs-, Haus-, Feuerschutz- und Doppelfalztüren zerstörungsfrei, dazu Autos und Tresore.",
-      "Läden gibt es verstreut. Im Forum führt der Schlüsseldienst Meisterwerk ein Ladengeschäft, in dem Schlüsselanfertigung, Schuhreparatur, Uhrenservice, Gravuren und Stempel unter einem Dach liegen. Eine Profilfräsmaschine und ein großer Bestand an Rohlingen erlauben es, Wohnungs-, Briefkasten-, Fahrrad- und Sicherheitsschlüssel sofort nachzufertigen. In Neumühl liegt der 24/7 Schlüsselnotdienst Duisburg Neumühl an der Einkaufsstraße; er verbindet Schuhreparatur mit Schlüsseldienst und bietet über die Festnetznummer des Geschäfts einen Notdienst rund um die Uhr. Schlüsseldienst Aljamal sitzt in Friemersheim im Stadtteil Rheinhausen, führt dort ein Ladenlokal und bietet Türöffnungen, Schlosswechsel und Schlüsselkopien. Die Kaeppke OHG in Wanheimerort führt Schlösser samt Beschlägen und wechselt Schließzylinder.",
-      "Wohin die Betriebe fahren, ist verschieden. Gürler arbeitet in Duisburg und bedient auch Mülheim, Oberhausen und Dinslaken. Für Unternehmen, Hausverwaltungen, Schulen und Behörden liefert der Betrieb Schließanlagen, mechanisch und elektronisch, und verwaltet bestehende Anlagen. ADAT Schlüsseldienst gibt einen Notdienst an, der weit in die Umgebung reicht. Lenz Sicherheitstechnik verbindet Schlüsseldienst mit Sicherheits- und Alarmtechnik und fährt neben Duisburg auch Moers, Homberg, Essen, Meiderich, Walsum, Wedau und Laar an. Zebra Schlüsseldienst Duisburg öffnet Wohnungs- und Haustüren, Briefkästen, Autos und Tresore und berät zu Einbruchschutz.",
-      "Die Tresoröffnung gehört in Duisburg zum Angebot mehrerer Notdienste, etwa bei Schloss Aktiv, Schloss-Ambulanz, D.H.E, Zebra, ADAT und Lenz. Elektronische Schließsysteme bieten unter anderem Schloss-Ambulanz, ADAT, Kaeppke und die Walter Kluth GmbH. Die KLUTH security berät, verkauft und montiert im Ladengeschäft Schlösser und Schließsysteme für Wohnungen und Gewerbeobjekte, darunter elektronische Zylinder, die sich meist ohne Türumbau einsetzen lassen.",
-      "Eine Reihe von Duisburger Betrieben führt Schuh und Schlüssel zusammen: der Schuh- und Schlüsseldienst Gürsel Yalcin im Einkaufszentrum, Hoto am Sonnenwall mit Türöffnungen rund um die Uhr, SIECO und der Schuh- und Schlüsseldienst Kepez. Wer sich beim Kauf eines Zylinders beraten lassen möchte, findet dafür andere Betriebe der Seite.",
-      "Die Nachbarstädte mit eigener Seite sind Oberhausen, Moers, Mülheim an der Ruhr, Dinslaken und Bottrop. Diese Orte zählen viele Duisburger Betriebe zugleich zu ihrem Arbeitsgebiet. Wie die Betriebe bewertet werden, steht auf den Eintragskarten. Vor jedem Einsatz sollten Sie Anfahrt und Preis am Telefon klären."
-    ],
-    "faqs": [
-      {
-        "q": "Wer macht in Duisburg Autoschlüssel vor Ort?",
-        "a": "Autoschlüssel.de schneidet und programmiert Autoschlüssel direkt vor Ort, ein Servicefahrzeug mit Ersatzteillager macht das möglich. EC Autoschlüssel Mobiler Service fährt in Duisburg, Köln und im übrigen Nordrhein-Westfalen zum Kunden."
-      },
-      {
-        "q": "Welche Stadtteile bedienen die Duisburger Notdienste?",
-        "a": "Die Schloss-Ambulanz führt Seiten für Walsum, Hamborn, Marxloh, Meiderich, Beeck und Laar. Schlüsseldienst D.H.E 24Std Duisburg nennt Neudorf, Stadtmitte, Beeck, Rheinhausen und Walsum. Schloss Aktiv rückt in allen Stadtteilen aus."
-      },
-      {
-        "q": "Wer richtet Schließanlagen für Hausverwaltungen in Duisburg ein?",
-        "a": "Gürler liefert Schließanlagen für Unternehmen, Hausverwaltungen, Schulen und Behörden, mechanisch und elektronisch, und verwaltet bestehende Anlagen. Die Schloss-Ambulanz und die KLUTH security bieten ebenfalls Schließsysteme an."
-      },
-      {
-        "q": "Welcher Duisburger Betrieb hat sein Geschäft im Forum?",
-        "a": "Der Schlüsseldienst Meisterwerk Duisburg Forum führt dort ein Ladengeschäft mit Schlüsselanfertigung, Schuhreparatur, Uhrenservice, Gravuren und Stempeln. Er fertigt Wohnungs-, Briefkasten-, Fahrrad- und Sicherheitsschlüssel sofort nach."
-      },
-      {
-        "q": "Fahren Duisburger Schlüsseldienste auch nach Moers oder Dinslaken?",
-        "a": "Ja. D.H.E fährt nach Dinslaken und Moers, Lenz Sicherheitstechnik nach Moers, Gürler nach Mülheim, Oberhausen und Dinslaken. Oberhausen, Moers, Mülheim an der Ruhr, Dinslaken und Bottrop haben eigene Seiten."
-      }
-    ]
-  },
-  "hessen/kassel": {
-    "intro": [
-      "Rund um Kassel sitzt ein auffallender Teil der Schlüsseldienste nicht in der Stadt, sondern im Umland. Auf der Seite stehen Betriebe aus Fuldabrück, Edermünde, Vellmar, Melsungen, Hessisch Lichtenau, Helsa, Espenau, Spangenberg, Niestetal und Kaufungen. Wer einen Schlüsseldienst in Kassel sucht, bekommt es also zugleich mit Betrieben der Region Nordhessen zu tun. Besonders das Tresorgewerbe sitzt draußen: Eisenbach Tresore in Fuldabrück, Melsmetall Tresor in Edermünde und die Garant-Tresorfabrik in Spangenberg.",
-      "Für die Notöffnung spielt die Reichweite die größere Rolle. Der Schlüsselnotdienst von Adam Haustechnik arbeitet rund um die Uhr in Kassel, Baunatal, Niestetal, Calden und im weiteren Umland. Der Betrieb verbindet Schlüsseldienst mit Rohr- und Kanalreinigung, Gebäudereinigung und vermitteltem Sanitärservice, öffnet Türen, Autos und Tresore und wechselt Schlösser. Kassel Schlüsseldienst fährt neben Kassel nach Baunatal, Vellmar, Hofgeismar, Wolfhagen und Bad Wildungen und ist rund um die Uhr erreichbar. Schlüsseldienst Sippel in Espenau arbeitet im näheren Umkreis von Kassel und im Landkreis.",
-      "DENO ist ein Eisenwarenhändler mit Sicherheitstechnik und betreibt einen Schlüsselnotdienst für Kassel und Vellmar. Der Geschäftsführer hat sich früh auf Schließtechnik spezialisiert, vom Türzylinder über Schließanlagen bis zu Einsteckschlössern. Die Firma KOCH KG Eisenwaren + Haushaltswaren besteht seit 1902 in der Kasseler Südstadt, ein Ladengeschäft mit Haushaltswaren- und Eisenwarenabteilung. Die Schlüsselmanufaktur Nordhessen ist ein reiner Werkstattbetrieb ohne Ladenlokal, für Autoschlüssel nachmachen, programmieren und reparieren; Besuche sind nur nach Terminvereinbarung möglich.",
-      "Auch Schuh und Schlüssel liegen in Kassel nah beieinander. Der Schuh&Schlüsselservice Inh. Oender Karaaslan teilt sich einen Betrieb zwischen Aufsperrdienst und Schuhservice: Er öffnet verschlossene Türen möglichst schadensfrei, wechselt Schlösser und Schließzylinder und berät, wie sich Wohnung oder Haus besser gegen Einbruch sichern lassen. Der Schuhservice & Schlüsseldienst Kassel fertigt Schlüssel an. Der Schuh- und Schlüsseldienst Scharifi ist vor allem eine Schuhmacherei mit stufenlosem Zugang. In Melsungen führt AC-Tech Services seit 2011 den Schlüsseldienst gemeinsam mit einer Schuhmacherei, mit Türöffnungen, Notdienst, Zylindern und Autoschlüsseln samt Wegfahrsperre. In Vellmar sitzt der Kotil Schuh- und Schlüssel Dienst.",
-      "Ein weiterer Zweig verbindet das Metallgewerbe mit der Notöffnung. Die Schlosserei Siemon ist vor allem ein Metallbaubetrieb für Balkone, Geländer, Gitter, Zäune und Tore, daneben fahren Monteure aus Kassel zu verschlossenen oder beschädigten Türen. Bei Patrick Löber in Niestetal reicht das Angebot vom Notdienst bis zum Schlosswechsel und zum Einbruchschutz.",
-      "Für Schließanlagen steht in Kassel die ASSKO Sicherheitstechnik, geführt von Wilfried Koch als eingetragener Kaufmann. Sie liefert mechanische und mechatronische Zylinder, Schlüssel, Beschläge und ganze Schließanlagen samt Verwaltungssoftware, für Gewerbe wie Privat. Eine Anlage für ein Gebäude lässt sich damit in Nordhessen planen, ohne dass ein Betrieb von weit her anreisen muss.",
-      "Eigene Seiten haben die Nachbarstädte Bad Wildungen, Bad Arolsen, Rosdorf, Göttingen und Eschwege. Betriebe aus Baunatal, Vellmar, Niestetal, Melsungen und Espenau nennen Kassel als Einsatzgebiet oder sitzen im Umland der Stadt. Die Bewertungen der einzelnen Betriebe stehen auf den Eintragskarten und lassen sich dort direkt vergleichen; sie unterscheiden sich spürbar, und manche Betriebe stützen sich nur auf wenige Stimmen. Wer in Kassel eine Tür öffnen lassen will, fragt am Telefon nach Anfahrt, Tagespreis und Nachtzuschlag und vergleicht mehrere Angebote, sofern die Lage es zulässt. Bei Schuhmachereien und Eisenwarenläden mit Schlüsselservice lohnt vorab die Frage, ob sie überhaupt Türen öffnen oder nur Schlüssel nachmachen."
-    ],
-    "faqs": [
-      {
-        "q": "Welche Kasseler Notdienste fahren bis in den Landkreis und nach Baunatal?",
-        "a": "Adam Haustechnik fährt nach Baunatal, Niestetal und Calden und im weiteren Umland. Kassel Schlüsseldienst fährt nach Baunatal, Vellmar, Hofgeismar, Wolfhagen und Bad Wildungen. Schlüsseldienst Sippel arbeitet im näheren Umkreis von Kassel und im Landkreis."
-      },
-      {
-        "q": "Wer verkauft in der Region Kassel Tresore?",
-        "a": "Eisenbach Tresore in Fuldabrück, Melsmetall Tresor in Edermünde und die Garant-Tresorfabrik in Spangenberg sitzen im Umland. Tresore öffnen außerdem Adam Haustechnik, Kassel Schlüsseldienst und DENO."
-      },
-      {
-        "q": "Wer in Kassel macht Autoschlüssel nach und programmiert sie?",
-        "a": "Die Schlüsselmanufaktur Nordhessen ist ein Werkstattbetrieb für Autoschlüssel und arbeitet nur nach Terminvereinbarung. AC-Tech Services in Melsungen liefert Autoschlüssel samt Wegfahrsperre und Fernbedienung. Kassel Schlüsseldienst und Adam Haustechnik führen Autoschlüssel ebenfalls."
-      },
-      {
-        "q": "Gibt es in Kassel einen Eisenwarenhändler mit Schlüsselnotdienst?",
-        "a": "Ja, DENO verbindet einen Schlüsselnotdienst für Kassel und Vellmar mit einem Fachgeschäft für Eisenwaren und Sicherheitstechnik. Die KOCH KG Eisenwaren + Haushaltswaren führt in der Südstadt ein Ladengeschäft mit Eisenwaren- und Haushaltswarenabteilung."
-      },
-      {
-        "q": "Welche Orte um Kassel haben eine eigene Seite?",
-        "a": "Eigene Seiten haben Bad Wildungen, Bad Arolsen, Rosdorf, Göttingen und Eschwege. Die Betriebe aus Fuldabrück, Edermünde, Vellmar, Melsungen, Helsa, Espenau, Niestetal und Kaufungen stehen auf der Kasseler Seite."
-      }
-    ]
-  }
+ "sachsen/leipzig": {
+  "intro": [
+   "Schlüsseldienste in Leipzig sind zu einem guten Teil Schlossereien und Metallbauer, die neben der Werkstattarbeit auch Türen öffnen. Die Schlosserei Ingo Wiedemann führt das bis auf den Gründungstag zurück, den 1. Juli 1919. Heute verbindet der Betrieb Schlosserei und Schlüsseldienst, baut Schließanlagen im Werks- und Eigenprofil und übernimmt Türnotöffnungen während der Öffnungszeiten. Die MWB Metallbau-Walter-Blumentritt GbR führt seit 2007 ein Sicherheitsfachgeschäft mit Metallbau und hält einen Bereitschaftsdienst für die Notöffnung von Türen bereit.",
+   "Ähnlich gebaut sind weitere Betriebe der Stadt. Die Sicherheitstechnik + Metallbau Korff GmbH arbeitet familiengeführt in zweiter Generation in zwei Sparten: Der Schlüsseldienst ist dort eine Spezialisierung neben dem Metallbau, der individuell angefertigte Bauschlosserprodukte liefert. Die Schlosserei Dick im Leipziger Süden fertigt und repariert im Metallbau und in der Bauschlosserei, führt Schweißarbeiten aus und öffnet Türen im Notdienst; dazu liegen nur wenige Bewertungen vor. Robert Landmesser richtet sich auf Metallbau, Stahlbau und Sicherheitstechnik aus, mit Schließanlagen, Einbruchschutz und elektronischen Schließsystemen für Gewerbe und Objekte.",
+   "Daneben gibt es in Leipzig die Betriebe, die vom Notdienst her kommen. Der Leipziger Schlüsseldienst Inh. S. Seiler arbeitet seit über 20 Jahren von einem eigenen Ladengeschäft aus, ohne Callcenter, mit einer Festnetznummer, hinter der immer jemand erreichbar ist. Er öffnet Türen zerstörungsfrei, tauscht Schlösser nach einem Einbruch oder Schlüsselverlust und ist rund um die Uhr im Einsatz. Seine Bewertungsbasis ist sehr breit und durchweg stark. Seiler's Schlüsseldienst führt Sven Seiler seit 2010, mit dem Schwerpunkt auf Tür- und Autoöffnung. Geöffnet werden Wohnungs-, Haus- und Garagentüren sowie Fahrzeuge unter anderem von VW, Audi, Seat, Skoda, BMW und Mercedes, und Autoschlüssel mit Wegfahrsperre und Fernbedienung werden kopiert.",
+   "Eine sehr breite Bewertungsbasis ist etwas anderes als die wenigen Stimmen, auf die sich der Schlüsseldienst Leipzig Star stützt, der Türöffnung und einen Notdienst führt. Beide Zahlen gehören neben den Namen gelesen. Der Schlüsseldienst City ist in ganz Leipzig in Bereitschaft, tagsüber, nachts und am Wochenende, und öffnet neben Wohnungen auch Autos, Garagen, Briefkästen, Tresore, Geldkassetten und Fahrradschlösser. Krzysztof Lewandowski arbeitet als mobiler Einzelbetrieb auf Deutsch und Polnisch, öffnet Wohnungs- und Haustüren, tauscht Zylinder und öffnet Autos ohne Beschädigung.",
+   "Wer ein Geschäft vor Ort sucht, findet es in mehreren Stadtteilen. Im Leipziger Stadtteil Leutzsch führt der Schlüssel- & Schlossdienst Fiebig ein Geschäft für Schlösser und Schließtechnik. Der Betrieb war vorher viele Jahre als Schlüsseldienst in Leipzig unterwegs, berät heute zu neuen Türschlössern und Schließzylindern, baut sie ein und wartet Schließanlagen samt Schließplänen. Die Fa. Schlüsselloch M.Klaus & J.Wagner GbR Schlüsseldienst öffnet montags bis donnerstags vormittags und nachmittags mit Mittagspause, freitags nur vormittags. Sie öffnet Türen, fertigt Schlüssel nach und liefert Zusatzschlösser, Schließanlagen und Briefkästen. Das Servicecenter Hartmann besteht seit 1993, steht mit der Schuhreparatur im Mittelpunkt und fertigt daneben Schlüssel an, darunter Schließanlagenschlüssel.",
+   "Größere Sicherheitstechnik liefern die LSS Leipzig GmbH und Schleicher Sicherheitssysteme. LSS bringt mehr als 30 Jahre Erfahrung in Schlüssel- und Sicherheitstechnik mit, teils noch aus DDR-Zeiten, ist an sieben Tagen rund um die Uhr zu erreichen und baut Sicherheitsschlösser, Beschläge und Zutrittskontrollsysteme ein. Schleicher wurde 1990 in Leipzig gegründet, ist vom Schlüsselnotdienst zum Errichter für Sicherheitstechnik geworden und plant, installiert und wartet mechanische und elektronische Schließanlagen für Privat- und Gewerbeobjekte.",
+   "Nach außen reicht die Seite nur ein Stück. In Markranstädt sitzt die Bauschlossserei Sven Bernschein, in Burghausen der Schuh und Schlüsseldienst Stefan Rothaug, der Autoschlüssel und Schlüsselkopien anbietet und ein Ladengeschäft führt, und in Schkeuditz die Meesenburg GmbH - Sicherheit & Service in Schkeuditz. Schkeuditz taucht außerdem mehrfach als Arbeitsgebiet von Leipziger Betrieben auf. Eigene Seiten haben die Nachbarstädte Markkleeberg, Delitzsch, Kitzscher, Eilenburg und Merseburg."
+  ],
+  "faqs": [
+   {
+    "q": "Welche Leipziger Betriebe öffnen auch Autos?",
+    "a": "Seiler's Schlüsseldienst öffnet Fahrzeuge unter anderem von VW, Audi, Seat, Skoda, BMW und Mercedes und kopiert Autoschlüssel mit Wegfahrsperre und Fernbedienung. Krzysztof Lewandowski öffnet Autos ohne Beschädigung. Der Schlüsseldienst City öffnet neben Wohnungen auch Autos, Garagen und Tresore."
+   },
+   {
+    "q": "Wer hat in Leipzig ein Geschäft, in das ich kommen kann?",
+    "a": "Der Leipziger Schlüsseldienst Inh. S. Seiler arbeitet von einem eigenen Ladengeschäft aus. Der Schlüssel- & Schlossdienst Fiebig sitzt in Leutzsch und baut Schlösser und Zylinder ein. Bei der Fa. Schlüsselloch M.Klaus & J.Wagner GbR Schlüsseldienst gelten feste Öffnungszeiten, freitags nur vormittags."
+   },
+   {
+    "q": "Wer plant in Leipzig Schließanlagen für Gewerbe und Objekte?",
+    "a": "Schleicher Sicherheitssysteme plant, installiert und wartet mechanische und elektronische Schließanlagen für Privat- und Gewerbeobjekte. Die LSS Leipzig GmbH liefert Schließanlagen und baut Zutrittskontrollsysteme ein. Robert Landmesser verbindet Metallbau mit Sicherheitstechnik für Industrie, Gewerbe und Privatkunden."
+   },
+   {
+    "q": "Gibt es in Leipzig Betriebe, die Metallbau und Türöffnung verbinden?",
+    "a": "Ja. Die Sicherheitstechnik + Metallbau Korff GmbH führt den Schlüsseldienst als Sparte neben dem Metallbau. Die MWB Metallbau-Walter-Blumentritt GbR hält zusätzlich einen Bereitschaftsdienst für Notöffnungen bereit. Die Schlosserei Ingo Wiedemann bietet Türnotöffnungen während der Öffnungszeiten an."
+   },
+   {
+    "q": "Welche Nachbarorte von Leipzig haben eine eigene Seite?",
+    "a": "Eigene Seiten haben Markkleeberg, Delitzsch, Kitzscher, Eilenburg und Merseburg. Betriebe aus Markranstädt, Burghausen und Schkeuditz stehen dagegen auf der Leipziger Seite, weil sie sich diese Seite teilen."
+   }
+  ]
+ },
+ "nordrhein-westfalen/dortmund": {
+  "intro": [
+   "Schlüsseldienste in Dortmund sitzen oft in den Stadtteilen und führen neben dem Schlüssel ein zweites Handwerk. Das Geschäft in Hörde verbindet den Schlüsseldienst & Schuhexpress BERZ mit einer Schuhwerkstatt, in der auch Messer und Scheren geschliffen werden. Der Schlüsseldienst öffnet Wohnungen, Häuser, Keller, Garagen und Autos möglichst zerstörungsfrei und wechselt Zylinder und Schlösser. In Huckarde liegt die Huckarder Schuhmacherei & Schlüsseldienst, die in erster Linie Schuhmacher ist und Schlüsselarbeiten im selben Geschäft führt.",
+   "Weitere Stadtteilbetriebe: In Aplerbeck betreibt die Key & Shoes UG von Wilfried Mintel den Aplerbecker Schlüsseldienst, einen Schlüsselnotdienst bei verlorenen Schlüsseln und zugefallenen Türen. Der Schuh- und Schlüsseldienst Glücksschlüssel, geführt als Schlüsseldienst GKS Dortmund, kopiert Schlüssel, graviert Schilder, verkauft Türzylinder und montiert Panzerriegel und Schließanlagen. Der Service Punkt Schuh- und Schlüsseldienst gehört zu einem Verbund mit Standorten auch in Köln, Berlin und Bonn, liegt am Westenhellweg und fährt in die Innenstadt, nach Hörde und Hombruch bis nach Aplerbeck, Mengede, Eving und Lütgendortmund.",
+   "Mobil und rein auf den Notdienst ausgerichtet sind andere. Doormen ist ein Schlüsselnotdienst ohne Ladengeschäft, der ausschließlich beim Kunden arbeitet, Haus- und Wohnungstüren, gekippte Fenster und Autotüren möglichst schonend öffnet und Schäden nach Einbrüchen repariert. Relex arbeitet als Haus- und Autoschlüsseldienst an sieben Tagen die Woche rund um die Uhr, wechselt Schlösser und Schließzylinder, montiert Schließanlagen und beseitigt Einbruchschäden. Zwilling Schlüsseldienst Dortmund öffnet Türen in Dortmund und Umgebung an 365 Tagen, Emma Schlüsseldienst Dortmund kümmert sich im gesamten Stadtgebiet um Türöffnungen und berät zu Einbruchschutz und vernetzten Schließsystemen.",
+   "Vom Firmensitz in Schüren und Aplerbeck aus fährt der Schlüsseldienst Nowowiejski alle Dortmunder Stadtteile und das nahe Lünen an. Der Notdienst läuft 24 Stunden an 365 Tagen, daneben tauscht der Betrieb Schließzylinder und berät zu Schließanlagen für Wohnungen, Mehrfamilienhäuser und Gewerbe. Der Schlüsseldienst Artelt in Hörde besteht seit 1985 als Familienunternehmen. Er öffnet Türen, repariert Zylinder und Schlösser und sichert Wohnungs-, Haus-, Keller- und Terrassentüren sowie Fenster.",
+   "Ein zweiter Teil des Dortmunder Marktes arbeitet für Gewerbe, Verwaltungen und Einrichtungen. Weckbacher Sicherheitssysteme plant und montiert Schließanlagen und Zutrittskonzepte, analog wie digital, für Gewerbe und Industrie, die öffentliche Hand, Messen, das Gesundheitswesen, den Bildungsbereich und Finanzdienstleister. Pinger Sicherheitstechnik ist auf elektronische Schließsysteme und Zutrittskontrolle ausgerichtet, vom biometrischen System bis zur mechatronischen Schließanlage, für Praxen, Kanzleien, Schulen, Krankenhäuser und Hotels. Die B&C Sicherheitstechnik GmbH versorgt Privatkunden und Gewerbe im gesamten Ruhrgebiet mit Alarmanlagen, Videoüberwachung, mechanischem Einbruchschutz und Schließtechnik.",
+   "Sicherheitstechnik August ist aus einer Eisenwarenhandlung gewachsen und verbindet nach mehr als vierzig Jahren in zwei Geschäften Schlüsseldienst, Eisenwaren, Alarmanlagen, Tresore und Briefkästen. protecIQ hat sich auf Autoschlüssel, Schließzylinder und Tresore ausgerichtet, programmiert und repariert Autoschlüssel und verkauft mechanische und elektronische Zylinder über einen eigenen Webshop.",
+   "Wer die Grenzen der Seite sucht: Betriebe der Seite nennen als Arbeitsgebiet unter anderem Witten, Lünen, Kamen, Waltrop, Castrop-Rauxel, Recklinghausen und Bochum. Eigene Seiten haben die Nachbarstädte Schwerte, Witten, Castrop-Rauxel, Lünen und Herdecke. Die Bewertungslage der genannten Betriebe finden Sie auf den Eintragskarten; im Text steht nur, was die Betriebe über ihr Angebot angeben. Vor einem Einsatz lohnt der kurze Anruf, bei dem Sie Anfahrt und Preis der Türöffnung nennen lassen."
+  ],
+  "faqs": [
+   {
+    "q": "Welcher Dortmunder Schlüsseldienst arbeitet ohne Ladengeschäft direkt beim Kunden?",
+    "a": "Doormen ist ein Schlüsselnotdienst ohne Ladengeschäft, der ausschließlich beim Kunden arbeitet. Er öffnet Haus- und Wohnungstüren, gekippte Fenster und Autotüren möglichst schonend, wechselt Schlösser und repariert Schäden nach einem Einbruch."
+   },
+   {
+    "q": "Wer in Dortmund verbindet Schlüsseldienst und Schuhreparatur?",
+    "a": "In Hörde der Schlüsseldienst & Schuhexpress BERZ, in Huckarde die Huckarder Schuhmacherei & Schlüsseldienst, in Aplerbeck die Key & Shoes UG mit dem Aplerbecker Schlüsseldienst. Der Service Punkt Schuh- und Schlüsseldienst liegt am Westenhellweg."
+   },
+   {
+    "q": "Wer richtet in Dortmund Zutrittskontrolle für Verwaltungen und Schulen ein?",
+    "a": "Weckbacher Sicherheitssysteme plant Schließanlagen und Zutrittskonzepte für Gewerbe, öffentliche Hand, Gesundheitswesen und Bildungsbereich. Pinger Sicherheitstechnik ist auf elektronische Schließsysteme spezialisiert und rüstet Schulen, Krankenhäuser und Hotels aus."
+   },
+   {
+    "q": "Wer macht Autoschlüssel in Dortmund?",
+    "a": "Relex arbeitet als Haus- und Autoschlüsseldienst und öffnet Autotüren beschädigungsfrei. protecIQ programmiert und repariert Autoschlüssel, tauscht Gehäuse und fräst neue Schlüsselbärte. Der Schuh- & Schlüsseldienst Goldschlüssel führt Autoschlüssel aller Hersteller."
+   },
+   {
+    "q": "Welche Städte um Dortmund haben eine eigene Seite?",
+    "a": "Eigene Seiten haben Schwerte, Witten, Castrop-Rauxel, Lünen und Herdecke. Der Schlüsseldienst Nowowiejski fährt von Dortmund aus auch das nahe Lünen an."
+   }
+  ]
+ },
+ "nordrhein-westfalen/duisburg": {
+  "intro": [
+   "In Duisburg gehört der Autoschlüssel zum Kern der Schlüsseldienste. Autoschlüssel.de ist aus einem klassischen Schuh- und Schlüsseldienst zu einem Spezialisten für Fahrzeugschlüssel geworden: Der Betrieb fertigt Schlüssel für nahezu alle Marken, auch mit Wegfahrsperre samt Codierung, und kopiert Fahrzeugschlüssel samt Fernbedienung. Ein Servicefahrzeug mit großem Ersatzteillager erlaubt es, Autoschlüssel vor Ort zu schneiden und zu programmieren. EC Autoschlüssel Mobiler Service fährt in Duisburg, Köln und im übrigen Nordrhein-Westfalen zum Kunden, codiert, programmiert und lernt Schlüssel an, auch bei Keyless-Go-Modellen.",
+   "Der Alltag der Haustüren ist an die Stadtteile gebunden. Die Schloss-Ambulanz führt Gebietsseiten für Walsum, Hamborn, Marxloh, Meiderich, Beeck, Laar und weitere Bezirke. Der Betrieb wurde 2021 gegründet, das Team bringt schon viele Jahre Erfahrung als Schlüsseldienst mit. Schlüsseldienst D.H.E 24Std Duisburg hat Gebietsseiten von Neudorf über Stadtmitte, Beeck und Rheinhausen bis Walsum und fährt auch nach Dinslaken und Moers. Schlüsseldienst Schloss Aktiv rückt in allen Stadtteilen aus und öffnet Wohnungs-, Haus-, Feuerschutz- und Doppelfalztüren zerstörungsfrei, dazu Autos und Tresore.",
+   "Läden gibt es verstreut. Im Forum führt der Schlüsseldienst Meisterwerk ein Ladengeschäft, in dem Schlüsselanfertigung, Schuhreparatur, Uhrenservice, Gravuren und Stempel unter einem Dach liegen. Eine Profilfräsmaschine und ein großer Bestand an Rohlingen erlauben es, Wohnungs-, Briefkasten-, Fahrrad- und Sicherheitsschlüssel sofort nachzufertigen. In Neumühl liegt der 24/7 Schlüsselnotdienst Duisburg Neumühl an der Einkaufsstraße; er verbindet Schuhreparatur mit Schlüsseldienst und bietet über die Festnetznummer des Geschäfts einen Notdienst rund um die Uhr. Schlüsseldienst Aljamal sitzt in Friemersheim im Stadtteil Rheinhausen, führt dort ein Ladenlokal und bietet Türöffnungen, Schlosswechsel und Schlüsselkopien. Die Kaeppke OHG in Wanheimerort führt Schlösser samt Beschlägen und wechselt Schließzylinder.",
+   "Wohin die Betriebe fahren, ist verschieden. Gürler arbeitet in Duisburg und bedient auch Mülheim, Oberhausen und Dinslaken. Für Unternehmen, Hausverwaltungen, Schulen und Behörden liefert der Betrieb Schließanlagen, mechanisch und elektronisch, und verwaltet bestehende Anlagen. ADAT Schlüsseldienst gibt einen Notdienst an, der weit in die Umgebung reicht. Lenz Sicherheitstechnik verbindet Schlüsseldienst mit Sicherheits- und Alarmtechnik und fährt neben Duisburg auch Moers, Homberg, Essen, Meiderich, Walsum, Wedau und Laar an. Zebra Schlüsseldienst Duisburg öffnet Wohnungs- und Haustüren, Briefkästen, Autos und Tresore und berät zu Einbruchschutz.",
+   "Die Tresoröffnung gehört in Duisburg zum Angebot mehrerer Notdienste, etwa bei Schloss Aktiv, Schloss-Ambulanz, D.H.E, Zebra, ADAT und Lenz. Elektronische Schließsysteme bieten unter anderem Schloss-Ambulanz, ADAT, Kaeppke und die Walter Kluth GmbH. Die KLUTH security berät, verkauft und montiert im Ladengeschäft Schlösser und Schließsysteme für Wohnungen und Gewerbeobjekte, darunter elektronische Zylinder, die sich meist ohne Türumbau einsetzen lassen.",
+   "Eine Reihe von Duisburger Betrieben führt Schuh und Schlüssel zusammen: der Schuh- und Schlüsseldienst Gürsel Yalcin im Einkaufszentrum, Hoto am Sonnenwall mit Türöffnungen rund um die Uhr, SIECO und der Schuh- und Schlüsseldienst Kepez. Wer sich beim Kauf eines Zylinders beraten lassen möchte, findet dafür andere Betriebe der Seite.",
+   "Die Nachbarstädte mit eigener Seite sind Oberhausen, Moers, Mülheim an der Ruhr, Dinslaken und Bottrop. Diese Orte zählen viele Duisburger Betriebe zugleich zu ihrem Arbeitsgebiet. Wie die Betriebe bewertet werden, steht auf den Eintragskarten. Vor jedem Einsatz sollten Sie Anfahrt und Preis am Telefon klären."
+  ],
+  "faqs": [
+   {
+    "q": "Wer macht in Duisburg Autoschlüssel vor Ort?",
+    "a": "Autoschlüssel.de schneidet und programmiert Autoschlüssel direkt vor Ort, ein Servicefahrzeug mit Ersatzteillager macht das möglich. EC Autoschlüssel Mobiler Service fährt in Duisburg, Köln und im übrigen Nordrhein-Westfalen zum Kunden."
+   },
+   {
+    "q": "Welche Stadtteile bedienen die Duisburger Notdienste?",
+    "a": "Die Schloss-Ambulanz führt Seiten für Walsum, Hamborn, Marxloh, Meiderich, Beeck und Laar. Schlüsseldienst D.H.E 24Std Duisburg nennt Neudorf, Stadtmitte, Beeck, Rheinhausen und Walsum. Schloss Aktiv rückt in allen Stadtteilen aus."
+   },
+   {
+    "q": "Wer richtet Schließanlagen für Hausverwaltungen in Duisburg ein?",
+    "a": "Gürler liefert Schließanlagen für Unternehmen, Hausverwaltungen, Schulen und Behörden, mechanisch und elektronisch, und verwaltet bestehende Anlagen. Die Schloss-Ambulanz und die KLUTH security bieten ebenfalls Schließsysteme an."
+   },
+   {
+    "q": "Welcher Duisburger Betrieb hat sein Geschäft im Forum?",
+    "a": "Der Schlüsseldienst Meisterwerk Duisburg Forum führt dort ein Ladengeschäft mit Schlüsselanfertigung, Schuhreparatur, Uhrenservice, Gravuren und Stempeln. Er fertigt Wohnungs-, Briefkasten-, Fahrrad- und Sicherheitsschlüssel sofort nach."
+   },
+   {
+    "q": "Fahren Duisburger Schlüsseldienste auch nach Moers oder Dinslaken?",
+    "a": "Ja. D.H.E fährt nach Dinslaken und Moers, Lenz Sicherheitstechnik nach Moers, Gürler nach Mülheim, Oberhausen und Dinslaken. Oberhausen, Moers, Mülheim an der Ruhr, Dinslaken und Bottrop haben eigene Seiten."
+   }
+  ]
+ },
+ "hessen/kassel": {
+  "intro": [
+   "Rund um Kassel sitzt ein auffallender Teil der Schlüsseldienste nicht in der Stadt, sondern im Umland. Auf der Seite stehen Betriebe aus Fuldabrück, Edermünde, Vellmar, Melsungen, Hessisch Lichtenau, Helsa, Espenau, Spangenberg, Niestetal und Kaufungen. Wer einen Schlüsseldienst in Kassel sucht, bekommt es also zugleich mit Betrieben der Region Nordhessen zu tun. Besonders das Tresorgewerbe sitzt draußen: Eisenbach Tresore in Fuldabrück, Melsmetall Tresor in Edermünde und die Garant-Tresorfabrik in Spangenberg.",
+   "Für die Notöffnung spielt die Reichweite die größere Rolle. Der Schlüsselnotdienst von Adam Haustechnik arbeitet rund um die Uhr in Kassel, Baunatal, Niestetal, Calden und im weiteren Umland. Der Betrieb verbindet Schlüsseldienst mit Rohr- und Kanalreinigung, Gebäudereinigung und vermitteltem Sanitärservice, öffnet Türen, Autos und Tresore und wechselt Schlösser. Kassel Schlüsseldienst fährt neben Kassel nach Baunatal, Vellmar, Hofgeismar, Wolfhagen und Bad Wildungen und ist rund um die Uhr erreichbar. Schlüsseldienst Sippel in Espenau arbeitet im näheren Umkreis von Kassel und im Landkreis.",
+   "DENO ist ein Eisenwarenhändler mit Sicherheitstechnik und betreibt einen Schlüsselnotdienst für Kassel und Vellmar. Der Geschäftsführer hat sich früh auf Schließtechnik spezialisiert, vom Türzylinder über Schließanlagen bis zu Einsteckschlössern. Die Firma KOCH KG Eisenwaren + Haushaltswaren besteht seit 1902 in der Kasseler Südstadt, ein Ladengeschäft mit Haushaltswaren- und Eisenwarenabteilung. Die Schlüsselmanufaktur Nordhessen ist ein reiner Werkstattbetrieb ohne Ladenlokal, für Autoschlüssel nachmachen, programmieren und reparieren; Besuche sind nur nach Terminvereinbarung möglich.",
+   "Auch Schuh und Schlüssel liegen in Kassel nah beieinander. Der Schuh&Schlüsselservice Inh. Oender Karaaslan teilt sich einen Betrieb zwischen Aufsperrdienst und Schuhservice: Er öffnet verschlossene Türen möglichst schadensfrei, wechselt Schlösser und Schließzylinder und berät, wie sich Wohnung oder Haus besser gegen Einbruch sichern lassen. Der Schuhservice & Schlüsseldienst Kassel fertigt Schlüssel an. Der Schuh- und Schlüsseldienst Scharifi ist vor allem eine Schuhmacherei mit stufenlosem Zugang. In Melsungen führt AC-Tech Services seit 2011 den Schlüsseldienst gemeinsam mit einer Schuhmacherei, mit Türöffnungen, Notdienst, Zylindern und Autoschlüsseln samt Wegfahrsperre. In Vellmar sitzt der Kotil Schuh- und Schlüssel Dienst.",
+   "Ein weiterer Zweig verbindet das Metallgewerbe mit der Notöffnung. Die Schlosserei Siemon ist vor allem ein Metallbaubetrieb für Balkone, Geländer, Gitter, Zäune und Tore, daneben fahren Monteure aus Kassel zu verschlossenen oder beschädigten Türen. Bei Patrick Löber in Niestetal reicht das Angebot vom Notdienst bis zum Schlosswechsel und zum Einbruchschutz.",
+   "Für Schließanlagen steht in Kassel die ASSKO Sicherheitstechnik, geführt von Wilfried Koch als eingetragener Kaufmann. Sie liefert mechanische und mechatronische Zylinder, Schlüssel, Beschläge und ganze Schließanlagen samt Verwaltungssoftware, für Gewerbe wie Privat. Eine Anlage für ein Gebäude lässt sich damit in Nordhessen planen, ohne dass ein Betrieb von weit her anreisen muss.",
+   "Eigene Seiten haben die Nachbarstädte Bad Wildungen, Bad Arolsen, Rosdorf, Göttingen und Eschwege. Betriebe aus Baunatal, Vellmar, Niestetal, Melsungen und Espenau nennen Kassel als Einsatzgebiet oder sitzen im Umland der Stadt. Die Bewertungen der einzelnen Betriebe stehen auf den Eintragskarten und lassen sich dort direkt vergleichen; sie unterscheiden sich spürbar, und manche Betriebe stützen sich nur auf wenige Stimmen. Wer in Kassel eine Tür öffnen lassen will, fragt am Telefon nach Anfahrt, Tagespreis und Nachtzuschlag und vergleicht mehrere Angebote, sofern die Lage es zulässt. Bei Schuhmachereien und Eisenwarenläden mit Schlüsselservice lohnt vorab die Frage, ob sie überhaupt Türen öffnen oder nur Schlüssel nachmachen."
+  ],
+  "faqs": [
+   {
+    "q": "Welche Kasseler Notdienste fahren bis in den Landkreis und nach Baunatal?",
+    "a": "Adam Haustechnik fährt nach Baunatal, Niestetal und Calden und im weiteren Umland. Kassel Schlüsseldienst fährt nach Baunatal, Vellmar, Hofgeismar, Wolfhagen und Bad Wildungen. Schlüsseldienst Sippel arbeitet im näheren Umkreis von Kassel und im Landkreis."
+   },
+   {
+    "q": "Wer verkauft in der Region Kassel Tresore?",
+    "a": "Eisenbach Tresore in Fuldabrück, Melsmetall Tresor in Edermünde und die Garant-Tresorfabrik in Spangenberg sitzen im Umland. Tresore öffnen außerdem Adam Haustechnik, Kassel Schlüsseldienst und DENO."
+   },
+   {
+    "q": "Wer in Kassel macht Autoschlüssel nach und programmiert sie?",
+    "a": "Die Schlüsselmanufaktur Nordhessen ist ein Werkstattbetrieb für Autoschlüssel und arbeitet nur nach Terminvereinbarung. AC-Tech Services in Melsungen liefert Autoschlüssel samt Wegfahrsperre und Fernbedienung. Kassel Schlüsseldienst und Adam Haustechnik führen Autoschlüssel ebenfalls."
+   },
+   {
+    "q": "Gibt es in Kassel einen Eisenwarenhändler mit Schlüsselnotdienst?",
+    "a": "Ja, DENO verbindet einen Schlüsselnotdienst für Kassel und Vellmar mit einem Fachgeschäft für Eisenwaren und Sicherheitstechnik. Die KOCH KG Eisenwaren + Haushaltswaren führt in der Südstadt ein Ladengeschäft mit Eisenwaren- und Haushaltswarenabteilung."
+   },
+   {
+    "q": "Welche Orte um Kassel haben eine eigene Seite?",
+    "a": "Eigene Seiten haben Bad Wildungen, Bad Arolsen, Rosdorf, Göttingen und Eschwege. Die Betriebe aus Fuldabrück, Edermünde, Vellmar, Melsungen, Helsa, Espenau, Niestetal und Kaufungen stehen auf der Kasseler Seite."
+   }
+  ]
+ }
 }

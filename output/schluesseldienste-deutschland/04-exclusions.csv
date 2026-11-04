@@ -577,3 +577,7 @@ dr-heindl-tresore-muenchen-muenchen,drop,"breite Kategorie (Safe & vault shop), 
 b-m-sicherheitstechnik-halle-gmbh-dessau,drop,"breite Kategorie (Security system supplier), keine Tueroeffnung laut Text (Textregel 2026-11-04)"
 alertlatch-neuss,drop,"breite Kategorie (Security system supplier), keine Tueroeffnung laut Text (Textregel 2026-11-04)"
 schluesseldienst-leipzig-herrmann-x,drop,"ohne Adresse/PLZ, keiner Stadt zuzuordnen (Betreiber-Entscheidung 2026-11-04)"
+schluesseldienst-herzog-mannheim,drop,verhalten_betreiber
+schluesseldienst-nuernberg-kurt-schluesseldienst-nuernberg,drop,verhalten_betreiber
+schluessel-one-erlangen,drop,verhalten_betreiber
+schluessel-one-fuerth,drop,verhalten_betreiber

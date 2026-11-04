@@ -108,61 +108,6 @@ Einträge, in der Reihenfolge der Seite:
   11. Roland Kmetzsch | 0.0 aus 0 Bewertungen | sitzt in Burkhardtsdorf
      ja: nichts angegeben
 
-### bayern/fuerth
-city: Fürth
-bundesland: Bayern
-listings on this page: 11
-intro band: 500 to 800 words
-Kreise der Einträge (aus den Postleitzahlen): keine zugeordnet
-Google-Bewertungen aller Einträge zusammen: 988; Durchschnitt: 4.9
-wozu das örtliche Gewerbe neigt (Einträge, die es auf ihrer eigenen Website angeben): Schlüsseldienst 8, 24-Stunden-Notdienst 7, Türöffnung 7, Schloss austauschen 6, Schließanlagen 6, Einbruchschutz 5, Autoschlüssel 4, Tresoröffnung 2, Schlüssel nachmachen 5, Elektronische Schließsysteme 1, Ladengeschäft 4, Festpreis genannt 5, Anfahrtspauschale genannt 3, Gewerbe und Objektbetreuung 2
-Orte, die die Websites der Einträge als Arbeitsgebiet nennen (Erwähnungen): Nürnberg 7, Erlangen 6, Herzogenaurach 3, Forchheim 2, Korb 2, Altdorf 1, Ansbach 1, Stelle 1
-Nachbarstädte mit eigener Seite: Nürnberg 30, Stein bei Nürnberg 2, Erlangen 5, Herzogenaurach 4, Schwabach 4
-Einträge, in der Reihenfolge der Seite:
-  1. Schlüssel One | 4.9 aus 419 Bewertungen
-     ja: Schlüsseldienst, 24-Stunden-Notdienst, Türöffnung, Schloss austauschen, Schließanlagen, Einbruchschutz, Autoschlüssel, Tresoröffnung, Schlüssel nachmachen, Ladengeschäft, Festpreis genannt, Anfahrtspauschale genannt
-     Notiz: Schlüssel One in Fürth arbeitet als Notdienst und als Ladengeschäft zugleich. Der Einsatz reicht auch an Sonn- und Feiertagen rund um die Uhr, die Türöffnung erfolgt meist ohne Zerstörung, bei verschlossenen Türen wird in der Regel nur der Zylinder ersetzt. Der Betrieb öffnet außerdem
-       Fahrzeuge und Tresore und tauscht Schließzylinder und Einsteckschlösser.
-  2. Tayfun 2.0 GmbH | 4.8 aus 254 Bewertungen
-     ja: Autoschlüssel, Schlüssel nachmachen
-     Notiz: Tayfun 2.0 in Fürth versteht sich als Schlüsseldienst des Vertrauens und eröffnet nach eigener Angabe nach rund 30 Jahren in der Stadt eine zweite Stelle. Angeboten werden Schlüssel für Haustüren und Zimmertüren sowie Codierung und Reparatur von Kfz-Schlüsseln, Kfz-Öffnungen und ein ECU-
-       Service für Fahrzeuge, also Arbeiten am Steuergerät. Der Betrieb will Kunden das Gefühl von Zuhause geben und arbeitet nach eigener
-  3. Tayfun Schuh- u. Schlüsseldienst | 4.7 aus 97 Bewertungen
-     ja: Schlüsseldienst, 24-Stunden-Notdienst, Türöffnung, Schloss austauschen, Autoschlüssel, Schlüssel nachmachen
-     Notiz: Aus der Reparatur von Stiefeln für die amerikanischen Truppen in Fürth ist ein Familienbetrieb aus Vater und Stiefsohn geworden, der nach eigener Angabe seit 1990 besteht. Neben Schuhreparaturen, Stempeln und Gravuren aller Art arbeitet er als Schlüsseldienst: Er öffnet zugefallene
-       Wohnungs-, Haus- und Bürotüren schonend und in den meisten Fällen ohne Beschädigung, hilft bei verlorenen Schlüsseln, tauscht und reparie
-  4. ASL Schlüsseldienst Scheiderer Manfred | 5.0 aus 70 Bewertungen
-     ja: Schlüsseldienst, Türöffnung, Schließanlagen, Einbruchschutz, Gewerbe und Objektbetreuung
-     Notiz: Manfred Scheiderer führt in Fürth die Firma ASL Sicherheitstechnik und ist nach eigener Angabe seit 1993 im Türöffnungs-, Not- und Schlüsseldienst tätig. Im Mittelpunkt stehen Türnotöffnungen: Der Betrieb öffnet zugefallene und verschlossene Türen fachmännisch und kommt in der Regel ohne
-       Beschädigung des Schlosses aus. Für Notöffnungen steht er zu seinen Öffnungszeiten bereit, Mobilnummer und Festnetz sind getrennt h
-  5. Schlüsseldienst Korb | 4.8 aus 71 Bewertungen
-     ja: Schlüsseldienst, 24-Stunden-Notdienst, Schließanlagen, Schlüssel nachmachen, Ladengeschäft, Festpreis genannt
-     Notiz: Im Ladengeschäft des Schlüsseldienstes Korb in Fürth entstehen Schlüssel aller Art. Das Angebot reicht von Schließzylindern und Schließanlagen über Beschläge und Schlösser für Schränke bis zu Tresoren und Schlüsselschränken. Außerdem stellt der Betrieb Türen und Fenster neu ein und
-       repariert sie.
-  6. Herrmann Sicherheitstechnik e.K. | 4.9 aus 40 Bewertungen
-     ja: Schlüsseldienst, 24-Stunden-Notdienst, Türöffnung, Schloss austauschen, Schließanlagen, Einbruchschutz, Elektronische Schließsysteme, Ladengeschäft, Gewerbe und Objektbetreuung
-     Notiz: Herrmann Sicherheitstechnik e.K. führt in Fürth ein Fachgeschäft für Schlüssel und Sicherheit und arbeitet auch in Nürnberg. Im Ladengeschäft gibt es Schließzylinder, Schlösser, Fenstersicherungen und Tresore.
-  7. Gleggmire's Futterlucke | 5.0 aus 12 Bewertungen
-     ja: Schlüsseldienst, 24-Stunden-Notdienst, Türöffnung, Schloss austauschen, Einbruchschutz, Autoschlüssel, Tresoröffnung, Festpreis genannt, Anfahrtspauschale genannt
-     Notiz: Als Xpress Schlüsseldienst tritt dieser Betrieb in Fürth, Nürnberg und Erlangen auf. Die Nummer ist an sieben Tagen in der Woche rund um die Uhr besetzt. Der Betrieb öffnet Wohnungs-, Haus-, Zimmer- und Fahrzeugtüren sowie Tresore, wenn jemand ausgesperrt ist, der Schlüssel abgebrochen
-       steckt oder verloren ging.
-  8. TürFix Schlüsseldienst | 5.0 aus 9 Bewertungen
-     ja: Schlüsseldienst, 24-Stunden-Notdienst, Türöffnung, Schloss austauschen, Schließanlagen, Einbruchschutz, Festpreis genannt
-     Notiz: TürFix arbeitet als Schlüsseldienst in Fürth und im Umland, unter anderem in Herzogenaurach, Nürnberg, Erlangen, Forchheim, Heroldsberg und Dechsendorf. Der Betrieb öffnet zugefallene und abgeschlossene Haus-, Wohnungs- und Bürotüren und versucht dabei, jede Tür möglichst
-       beschädigungsfrei zu öffnen, damit keine unnötigen Kosten entstehen. Er tauscht und repariert Schlösser und Schließzylinder, baut moderne Sicherhei
-  9. JAWA Sicherheitsstudio & Schlosserei | 5.0 aus 8 Bewertungen
-     ja: nichts angegeben
-     Notiz: Seit mehr als 30 Jahren bieten wir im Raum Fürth und Umgebung in Sachen Sicherheit ein Höchstmaß an Qualität und Service. „Mit Sicherheit auf Nummer sicher“ ist nicht nur unser Firmenslogan, sondern Garant für erstklassige Beratungen, zielgerichtete Planungen und sorgfältige Umsetzungen.
-       Seit 1984 ist die Firma JAWA in den Bereichen, Schlosserei und Sicherheitstechnik Aktiv.
-  10. Master Key Fürth | 4.4 aus 7 Bewertungen
-     ja: Schlüssel nachmachen, Ladengeschäft
-     Notiz: Master Key in Fürth verbindet Schuhservice und Schlüsseldienst unter einem Dach. Im Ladengeschäft werden Schlüssel kopiert, Schuhe repariert, Näharbeiten ausgeführt und Gravuren angefertigt, auch Zubehör ist im Angebot. Im Sortiment stehen Schließzylinder in vielen Bauformen, vom
-       Knaufzylinder über Doppel- und Halbzylinder bis zum Kurzzylinder, dazu Zweiradschlösser, Kettenschlösser, Bügelschlösser und Spiralschlösse
-  11. Schlüsseldienst Schlossboss | 5.0 aus 1 Bewertungen
-     ja: Schlüsseldienst, 24-Stunden-Notdienst, Türöffnung, Schloss austauschen, Schließanlagen, Festpreis genannt, Anfahrtspauschale genannt
-     Notiz: Schlossboss ist ein Schlüsseldienst für Fürth, Nürnberg und Erlangen. Er öffnet zugefallene, zugezogene und nicht abgesperrte Türen und ist rund um die Uhr für Nottüröffnungen da. Weitere Arbeiten sind Zylinderwechsel und Zylindermontage, die Montage von Drückergarnituren und Beschlägen,
-       das Entfernen abgebrochener Schlüssel und der Einbau von Schließsystemen.
-
 ### nordrhein-westfalen/hamm
 city: Hamm
 bundesland: Nordrhein-Westfalen

@@ -45,9 +45,9 @@
     },
     "payment": {
       "name": "Stripe",
-      "company": "OFFEN_ANSCHRIFT_ZAHLUNGSDIENST",
+      "company": "Stripe Payments Europe, Limited, One Wilton Park, Wilton Place, Dublin 2, D02 FX04, Irland",
       "thirdCountry": true,
-      "_hinweis": "Ebenso: Firma und Anschrift aus den Unterlagen des Anbieters übernehmen. Erst ausfüllen, wenn die Zahlungslinks eingerichtet sind."
+      "_hinweis": "Belegt über 05-fact-sheet.md (Stripe Legal Process Guide + irisches Companies Registration Office, Reg. 513174, Abruf 04.11.2026). Weiterübermittlung an Stripe Inc. (USA) unter Standardvertragsklauseln."
     }
   },
   "analytics": false,

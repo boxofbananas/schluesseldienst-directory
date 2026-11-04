@@ -94,39 +94,6 @@ Einträge, in der Reihenfolge der Seite:
   5. 030 - Schlüsseldienst Schlüssel u. Schlösser 24 Std. Alarmanlagen Wagner e.K. | 0.0 aus 0 Bewertungen | sitzt in Marienhafe
      ja: nichts angegeben
 
-### bayern/erlangen
-city: Erlangen
-bundesland: Bayern
-listings on this page: 5
-intro band: 380 to 800 words
-Kreise der Einträge (aus den Postleitzahlen): keine zugeordnet
-kleinere Orte, deren Einträge auf dieser Seite stehen: Dormitz 1
-Google-Bewertungen aller Einträge zusammen: 988; Durchschnitt: 4.9
-wozu das örtliche Gewerbe neigt (Einträge, die es auf ihrer eigenen Website angeben): Schlüsseldienst 3, 24-Stunden-Notdienst 3, Türöffnung 2, Schloss austauschen 3, Schließanlagen 3, Einbruchschutz 3, Autoschlüssel 3, Tresoröffnung 1, Schlüssel nachmachen 3, Elektronische Schließsysteme 3, Ladengeschäft 1, Festpreis genannt 1
-Orte, die die Websites der Einträge als Arbeitsgebiet nennen (Erwähnungen): Nürnberg 2, Fürth 2, Lauf an der Pegnitz 1, Herzogenaurach 1, Forchheim 1, Adelsdorf 1, Schwabach 1, Eckental 1, Dormitz 1, Ansbach 1
-Nachbarstädte mit eigener Seite: Herzogenaurach 4, Fürth 11, Forchheim 4, Nürnberg 30, Stein bei Nürnberg 2
-Einträge, in der Reihenfolge der Seite:
-  1. Schlüssel One | 4.9 aus 390 Bewertungen
-     ja: Schlüsseldienst, 24-Stunden-Notdienst, Türöffnung, Schloss austauschen, Schließanlagen, Einbruchschutz, Autoschlüssel, Tresoröffnung, Schlüssel nachmachen, Elektronische Schließsysteme, Ladengeschäft, Festpreis genannt
-     Notiz: Schlüssel One sitzt in Erlangen und betreibt einen Schlüsselnotdienst, der bis in die Nacht sowie an Wochenenden und Feiertagen arbeitet. Zugefallene Wohnungstüren werden nach Betriebsangabe beschädigungsfrei mit Kunststoffkarten oder Drähten geöffnet, bei abgeschlossenen Türen wird der
-       Zylinder aufgefräst und ersetzt. Die Preise für die Türöffnung nennt der Betrieb im Voraus.
-  2. Schlüsseldienst BY24 | 5.0 aus 228 Bewertungen
-     ja: Schlüsseldienst, 24-Stunden-Notdienst, Türöffnung, Schloss austauschen, Autoschlüssel
-     Notiz: Schlüsseldienst BY24 ist ein Notdienst für Erlangen und das Umland, der sieben Tage die Woche rund um die Uhr unterwegs ist. Im Mittelpunkt stehen Notöffnungen, Schlosswechsel und das Öffnen von Schließzylindern, ergänzt durch Autoöffnungen und Hilfe bei verlorenen oder vergessenen
-       Schlüsseln. Der Betrieb berät außerdem zu sicheren Schlössern und betont eine schnelle Reaktionszeit.
-  3. Shoes & Keys by ESki | 4.9 aus 202 Bewertungen
-     ja: Autoschlüssel, Schlüssel nachmachen | nein: Schlüsseldienst
-     Notiz: Bei Shoes & Keys by ESki in Erlangen dreht sich alles um das Fahrzeug und nicht um Haustüren. Der Betrieb fertigt, fräst und programmiert Transponder-, Funk- und Keyless-Schlüssel, auch nach Schlüsselverlust, und lernt Wegfahrsperren an. Weitere Arbeitsfelder sind Codierung,
-       Fahrzeugdiagnose nach einem Unfall, Batterieanlernen, Arbeiten an Motorsteuergeräten einschließlich Klonen, Chiptuning sowie Reparatur von Zünds
-  4. FRANK Schlüssel- und Sicherheitstechnik GmbH & Co. KG | 4.5 aus 149 Bewertungen
-     ja: Schließanlagen, Einbruchschutz, Elektronische Schließsysteme
-     Notiz: FRANK Schlüssel- und Sicherheitstechnik ist ein Fachgeschäft für Sicherheitseinrichtungen in Erlangen, das sich als Schlüsseldienst für die Stadt und Umgebung versteht. Das Angebot gliedert sich in mechanische Schließsysteme, Zutrittskontrolle, Einbruchschutz, Tresore, Briefkastenanlagen
-       und Rauchwarnmelder. Beraten wird umfassend zur Produktpalette, auf Wunsch auch beim Kunden vor Ort, montiert wird fachmännisch, da
-  5. Schlüsseldienst Müller Erlangen | 5.0 aus 19 Bewertungen | sitzt in Dormitz
-     ja: Schlüsseldienst, 24-Stunden-Notdienst, Schloss austauschen, Schließanlagen, Einbruchschutz, Schlüssel nachmachen, Elektronische Schließsysteme
-     Notiz: Schlüsseldienst Müller Erlangen sitzt in Dormitz und deckt Reparaturen und Wartung von Schloss- und Sicherheitssystemen ab. Zu den Leistungen zählen der Austausch und Einbau von Schlössern, Fenstersicherungen, Sicherheitsverriegelungen mit Installation, Öffnung und Reparatur,
-       elektronische Schlösser, Schließanlagen, Videoüberwachung, Schlüsselkopien und ein Schlüsselnotdienst. Der Betrieb berät außerdem zum Einbruchs
-
 ### baden-wuerttemberg/esslingen-am-neckar
 city: Esslingen am Neckar
 bundesland: Baden-Württemberg

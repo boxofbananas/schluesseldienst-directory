@@ -219,7 +219,7 @@ def main():
         # aus der CSV und widersprechen dann der Eintragskarte. Gründungsjahre, Normen (DIN, RC) und
         # Hausnummern bleiben erlaubt. (Regel vom 2026-11-04.)
         DATA_NUM = re.compile(
-            r"\b[0-5][.,]\d\b"                                      # Bewertungsschnitt 4,9 / 5,0
+            r"\b[0-5],\d\b"                                         # Bewertungsschnitt 4,9 / 5,0 (deutsches Komma; Versionsnamen wie „2.0" mit Punkt sind keine Datenzahl)
             r"|\b\d+\s*(?:Bewertung|Rezension|Sterne?|Stimmen)"     # 485 Bewertungen / 12 Sterne
             r"|\b\d+\s*[Mm]al\s+bewert"                             # 36 Mal bewertet
             r"|\b\d+\s*Kunden\b"                                    # 43 Kunden (… bewertet)
