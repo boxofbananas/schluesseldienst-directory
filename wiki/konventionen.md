@@ -150,8 +150,8 @@ Zwei Stufen, beide sichtbar im Eintrag:
 Die sechs Voraussetzungen, die auf `/festpreis-garantie/` veröffentlicht stehen müssen (sonst
 ist die Garantie angreifbar):
 - vollständiges Impressum auf der eigenen Website
-- eine erreichbare **Festnetznummer**, die zum Betrieb gehört und deren Ortsvorwahl zur
-  angegebenen Anschrift passt; eine Mobilnummer als einziger Kontakt genügt nicht
+- eine Telefonnummer, unter der der Betrieb erreichbar ist und bei der Prüfung tatsächlich
+  abgehoben hat; die Nummer wird vor der Erteilung angerufen
 - die drei Standardpreise verbindlich genannt (Türöffnung tagsüber, nachts, Anfahrt)
 - liegen mindestens 5 Google-Bewertungen vor, beträgt der Schnitt mindestens 4,0; liegen weniger
   oder keine vor, entscheiden die übrigen Voraussetzungen (die Garantie sagt etwas über

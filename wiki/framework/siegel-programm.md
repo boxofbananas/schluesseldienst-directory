@@ -64,8 +64,8 @@ Voraussetzungen nicht veröffentlicht sind, ist angreifbar; deshalb ist die Ver�
 Pflicht und nicht Kür. Wortlaut wie in [[konventionen]]:
 
 - vollständiges Impressum auf der eigenen Website
-- eine erreichbare **Festnetznummer**, die zum Betrieb gehört und deren Ortsvorwahl zur
-  angegebenen Anschrift passt; eine Mobilnummer als einziger Kontakt genügt nicht
+- eine Telefonnummer, unter der der Betrieb erreichbar ist und bei der Prüfung tatsächlich
+  abgehoben hat; die Nummer wird vor der Erteilung angerufen
 - die drei Standardpreise verbindlich genannt (Türöffnung tagsüber, nachts, Anfahrt)
 - liegen mindestens 5 Google-Bewertungen vor, beträgt der Schnitt mindestens 4,0; liegen weniger
   oder keine vor, entscheiden die übrigen Voraussetzungen (die Garantie sagt etwas über

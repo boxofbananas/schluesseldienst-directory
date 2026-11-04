@@ -184,8 +184,9 @@ def main():
         sys.exit(f"FEHLER: {a.clean_csv} hat keine Kopfzeile.")
 
     # Was schon da ist, wird nicht noch einmal angelegt.
-    vorhandene_tel = {norm_phone(r.get("phone")) for r in rows} - {""}
     vorhandene_dom = {norm_domain(r.get("domain") or r.get("website")) for r in rows} - {""}
+    def _addrkey(strasse, plz): return re.sub(r"[^a-z0-9]", "", (f"{strasse} {plz}").lower())
+    vorhandene_addr = {_addrkey(r.get("street") or r.get("address") or "", r.get("postal_code") or "") for r in rows} - {""}
     vorhandene_slugs = {r.get("slug") for r in rows}
 
     # Vorhandene Städte je (Bundesland, Grundform) mit Schreibweise, Slug und Koordinate, damit ein
@@ -218,8 +219,12 @@ def main():
             fehler.append(f"Zeile {i} ({e['name']}): Bundesland nicht bestimmbar. "
                           f"Spalte `bundesland` füllen oder die PLZ-Tabelle bereitstellen.")
             continue
-        tel, dom = norm_phone(e.get("telefon")), norm_domain(e.get("website"))
-        if (tel and tel in vorhandene_tel) or (dom and dom in vorhandene_dom):
+        dom = norm_domain(e.get("website"))
+        addr = _addrkey(e.get("strasse", ""), e.get("plz", ""))
+        # Dublette nur bei gleicher Domain ODER gleicher Anschrift. Eine übereinstimmende
+        # Telefonnummer allein genügt nicht: mehrere Betriebe können sich im Google-Export eine
+        # Nummer teilen (Callcenter-Weiterleitung), ohne derselbe Betrieb zu sein.
+        if (dom and dom in vorhandene_dom) or (addr and addr in vorhandene_addr):
             uebersprungen.append(f"{e['name']} ({e['ort']}) steht bereits mit echten Daten in der Liste")
             continue
 

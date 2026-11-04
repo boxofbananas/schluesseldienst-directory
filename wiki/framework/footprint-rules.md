@@ -33,7 +33,14 @@ Sortierung liest `owned`.
   Betreiber in einer Stadt mehrere Betriebe gehören: nur einer bekommt Premium, Stadt-Premium
   oder Top-Platzierung. Zwei oder drei eigene Namen auf den oberen Plätzen derselben Stadt
   sind das Muster, das die ganze Tarnung auffliegen lässt. Gate 4 prüft das gegen die
-  `owned`-Spalte und nennt jeden Verstoß im Plan.
+  `owned`-Spalte und nennt jeden Verstoß im Plan. **Konkret betroffen (Stand 2026-11-04):**
+  in **Mannheim, Heidelberg und Hockenheim** liegen je zwei eigene Betriebe – dort darf höchstens
+  einer einen bezahlten Platz bekommen.
+- **Die Stadtseiten-Sortierung macht keine Ausnahme für eigene Betriebe.** Die Reihenfolge
+  (bezahlte Plätze, dann Festpreis-Garantie, dann Festnetz mit zur PLZ passender Ortsvorwahl,
+  dann der Rest – je Gruppe nach Bewertung, [[konventionen]]) liest **nicht** `owned` und behandelt
+  einen eigenen Betrieb wie jeden anderen. Ein eigener Betrieb steht oben nur, wenn er einen
+  bezahlten Platz oder die Garantie hat – nie, weil er dem Betreiber gehört.
 - **Eigenes Cloudflare-Konto.** Das Verzeichnis liegt auf einem Konto, das keine der
   Schlüsseldienst-Websites hält: eigene Domain, eigenes Konto, eigene Abrechnung. Wo die
   Registrierungsstelle es zulässt, werden die Inhaberangaben variiert.

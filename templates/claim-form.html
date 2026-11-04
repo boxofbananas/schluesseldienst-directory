@@ -99,14 +99,10 @@
     <label>Adresse Ihres Impressums
       <input type="url" name="impressum_url" placeholder="https://..." required>
     </label>
-    <!-- Voraussetzung 2: Festnetznummer, deren Ortsvorwahl zur Anschrift passt; Mobil allein genügt nicht -->
-    <label>Festnetznummer mit Ortsvorwahl Ihres Ortes
-      <input type="tel" name="festnetz" placeholder="+49 621 1234567" required>
-      <small>Pflicht. Die Ortsvorwahl muss zu Ihrer oben genannten Anschrift passen. Eine reine
-      Mobilnummer (015x/016x/017x) genügt für die Festpreis-Garantie nicht.</small>
-    </label>
-    <label>Mobilnummer (zusätzlich, optional)
-      <input type="tel" name="telefon" placeholder="+49 151 1234567">
+    <!-- Voraussetzung 2: erreichbare Nummer; bei der Prüfung wird angerufen -->
+    <label>Telefonnummer, unter der Sie erreichbar sind
+      <input type="tel" name="telefon" placeholder="+49 621 1234567" required>
+      <small>Pflicht. Wir rufen diese Nummer vor der Erteilung der Festpreis-Garantie an.</small>
     </label>
     <!-- Voraussetzung 4: mindestens 10 Google-Bewertungen bei einem Schnitt von mindestens 4,0 -->
     <label>Adresse Ihres Google-Unternehmensprofils (falls vorhanden)
