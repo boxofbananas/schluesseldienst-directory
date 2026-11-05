@@ -517,9 +517,12 @@ export function loadDirectory() {
     console.warn(`[verzeichnis] ${missingCopy.length} Stadtseite(n) ohne Eintrag in city-copy.json, sie nutzen den datengetriebenen Ersatztext: ${missingCopy.join(', ')}`);
   }
 
+  // Das Startseiten-Band ist die nationale Fläche: nur die oberste Stufe (featured=state) speist es.
+  // Stadt- und Umland-Plätze (featured=city/county) stehen im Band ihrer eigenen Seite, nicht national
+  // – sonst bekäme ein Stadtplatz die Startseite gratis dazu, und ein eigener Betrieb stünde im
+  // Startseiten-Band, für das es (noch) keinen veröffentlichten Preis gibt (wiki/framework/footprint-rules).
   const countryFeatured = listings.filter((l) => l.featured === 'state');
-  let homeFeatured = [...countryFeatured, ...listings.filter((l) => l.featured === 'county'), ...listings.filter((l) => l.featured === 'city')]
-    .filter((l, i, arr) => arr.indexOf(l) === i).slice(0, 6);
+  let homeFeatured = [...countryFeatured].filter((l, i, arr) => arr.indexOf(l) === i).slice(0, 6);
   // Gestaltungsvorschau (site.featuredPreview): unverkaufte Plätze zeigen die besten echten Einträge,
   // mit `preview` markiert, damit die Karten data-preview tragen. Beim Start aus.
   if (site.featuredPreview) {

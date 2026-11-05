@@ -82,3 +82,50 @@ Bild: `scratchpad/hero_abc.png` (oberer Seitenbereich, 1440 px, nebeneinander).
 
 Die Bilder liegen im Sitzungs-Scratchpad (nicht im Repo):
 `/tmp/claude-1001/-home-dan-directory-blueprint/72df4dfc-0040-4439-9280-4c25f376c9fe/scratchpad/`.
+
+---
+
+# Nachtrag (nach deiner Entscheidung): Merz ins Mannheim-Band, Startseite sauber
+
+## Merz Sicherheit jetzt `featured=city` (Stadt-Band Mannheim)
+
+- `featured=city` **zusätzlich** gesetzt (`premium=true` bleibt). Merz steht nun als Karte im
+  **Premium-Band der Mannheimer Seite**, Fuß „ab 29 € im Monat". Der veröffentlichte Stadt-Preis
+  steht bereits in `tiers.city.price` = „29 € im Monat" und auf `/premium/` („Premium-Platz Stadt").
+  Nichts am Preis zu ändern. Bild: `scratchpad/band_mannheim.png`.
+- Merz erscheint **nicht** mehr als Rasterkarte (das Band zieht ihn heraus) und trägt im Band die
+  „Premium"-Marke. Auf der Eintragskarte selbst gilt jetzt `featured` vor `premium`, also
+  „Premium-Platz".
+
+## Konflikt gefunden und behoben: `featured=city` speiste auch das Startseiten-Band
+
+- **Fund:** `homeFeatured` (load.mjs) wurde aus **state + county + city** gebildet. Ein
+  `featured=city`-Eintrag wäre damit **auch** im Startseiten-Band erschienen — und da es sonst
+  keine featured-Einträge gibt, hätte Merz dort gestanden. Das Band zeigte zudem den
+  **Stadt-Preis (29 €)** als Label, obwohl keine Stufe die Startseite verkauft.
+- **Behoben:** Das Startseiten-Band wird jetzt **nur von `featured=state`** gespeist (load.mjs);
+  der Preis-Prop des Bandes zeigt auf `tiers.state.price` (DirectoryHub). Stadt-/Umland-Plätze
+  stehen damit nur im Band ihrer eigenen Seite, nicht national. Ergebnis: Startseiten-Band ohne
+  eigenen Betrieb, **ohne Preis-Label** (offener Platz „Dieser Platz ist frei"). Bild:
+  `scratchpad/band_startseite.png`.
+
+## Deine Frage: welche Stufe speist das Startseiten-Band, und wie wird ein Preis eingetragen?
+
+- **Nach der Behebung speist `featured=state` (Stufe „Premium-Platz Bundesland") das
+  Startseiten-Band.** Diese Stufe hat in `tiers.state` **noch keinen Preis** — deshalb steht dort
+  aktuell kein Betrieb, und das Band wirbt ohne Preis.
+- **Preis eintragen, wenn Daniel ihn festgelegt hat:**
+  1. `src/data/site.json` → `tiers.state`: `"price": "… € im Monat"` und `"link":
+     "<Stripe-Zahlungslink>"` setzen (heute beide leer).
+  2. `/premium/` zeigt die Zeile **„Premium-Platz Bundesland"** automatisch, sobald ein Preis
+     gesetzt ist (die Seite filtert Stufen ohne Preis aus).
+  3. Empfehlung: die Beschreibung dieser Stufe in `src/pages/premium.astro` (Zeile „bundesland")
+     um die **Startseiten-Sichtbarkeit** ergänzen — heute nennt sie nur Bundesland- und
+     Stadtseiten. (Textänderung; mache ich auf Zuruf.)
+- Danach kann der Startseiten-Platz regulär besetzt werden — dann gilt auch dort die Regel
+  „höchstens ein bezahlter Platz je eigenem Betrieb", und der Preis ist veröffentlicht.
+- **Hinweis zur Stufen-Semantik:** „Bundesland" und „Startseite" fallen damit zusammen (die
+  oberste Stufe kauft beides). Willst du eine **eigene** nationale Stufe getrennt vom Bundesland,
+  wäre das ein zusätzlicher Wert `featured=country` — sag Bescheid, dann lege ich ihn an.
+
+Neuer Build ausgeliefert: `https://8992ce52.schluesseldienste-deutschland.pages.dev`.

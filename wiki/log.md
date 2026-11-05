@@ -458,3 +458,11 @@ Zahlen, was auf Freigabe wartet.
   sauber. (5) Drei Überschriften A/B/C gebaut und verglichen; A/B mit Branchenzeile über der H1
   gate-fähig, jetzige Fassung wiederhergestellt/live. Neuer Build auf pages.dev ausgeliefert.
   Bericht: `berichte/2026-11-05-domain-merz-ueberuns-josef-ueberschriften.md`.
+
+- 2026-11-05 Nachtrag: Merz zusätzlich `featured=city` → Premium-Band der Mannheimer Seite (ab
+  29 €, Stadt-Preis steht schon in `tiers.city`). Dabei Fund+Behebung: `homeFeatured` zog
+  state+county+city → ein Stadtplatz wäre auch im Startseiten-Band erschienen; jetzt speist **nur
+  `featured=state`** das Startseiten-Band (load.mjs), Preis-Prop → `tiers.state.price`
+  (DirectoryHub). Startseiten-Band damit ohne eigenen Betrieb und ohne Preis-Label. Preis für die
+  Startseiten-/Bundesland-Stufe gehört in `tiers.state` (site.json) + /premium/ (Zeile erscheint
+  bei gesetztem Preis). Ausgeliefert `8992ce52`.
