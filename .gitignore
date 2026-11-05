@@ -4,6 +4,9 @@ dist/
 .astro/
 output/*/site/node_modules/
 output/*/site/dist/
+# init_site.py --force legt den bestehenden Build hierhin beiseite; nie ins Repo
+output/*/site.backup-*/
+site.backup-*/
 output/*/03-cache/sites/
 output/*/03-cache/fetch-progress.log
 .claude/

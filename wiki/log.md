@@ -512,3 +512,16 @@ Zahlen, was auf Freigabe wartet.
   dem Template an und bricht ab, wenn der Ordner existiert (nur `--force`, legt vorher ein Backup
   an); Gate 5 in CLAUDE.md darauf verdrahtet (kein Hand-`cp`). Rückport, Paritätsprüfung und
   geteilter Code bewusst **nicht** gebaut — nach dem Start.
+
+- 2026-11-05 **Domain live (Apex).** Apex-CNAME `die-besten-schluesseldienste.de` →
+  `schluesseldienste-deutschland.pages.dev` (proxied) per DNS:Edit-Token angelegt; Domain springt
+  auf aktiv, HTTP 200, TLS gültig bis 01.02.2027. `check_live.py --expect-urls 2806` **bestanden
+  bis auf die www-Weiterleitung** (2806 Adressen, alle auf die Hauptdomain, pages.dev noindex).
+  **www nicht gebaut:** Token hat kein Rules-Recht (Redirect-Regel), ein www-Eintrag ohne Regel
+  gäbe 404 — www bleibt NXDOMAIN. Daniel: Token um *Zone → Dynamic Redirect* erweitern oder
+  Dashboard-Vorlage. **Ratgeber (5 Seiten) geprüft:** sprachlich gut, aber viele konkrete
+  Preis-/Rechtszahlen stehen **nicht** im `05-fact-sheet.md` (unbelegt); kein Lizenz-/Firmenname;
+  Änderungen vorgelegt, nicht ausgeführt. **Mobil 390 px:** Ratgeber-Quellen-URLs + Startseiten-Band
+  laufen horizontal über, Premium-Kartenrand asymmetrisch, Tippflächen klein — gemeldet, nichts
+  geändert. `.gitignore` um `site.backup-*` ergänzt. Bericht
+  `berichte/2026-11-05-domain-live-ratgeber-pruefung-mobil.md`.
