@@ -3,6 +3,7 @@
 // wiki/framework/page-types.md.
 import Base from '../../../../layouts/Base.astro';
 import Breadcrumbs from '../../../../components/Breadcrumbs.astro';
+import Star from '../../../../components/Star.astro';
 import Card from '../../../../components/Card.astro';
 import Faq from '../../../../components/Faq.astro';
 import ClaimCta from '../../../../components/ClaimCta.astro';
@@ -58,7 +59,7 @@ const schema = [
       <>
         <h3 class="more-head">{rest.length} weitere {site.niche.plural} in {city.name}</h3>
         <p class="meta">Einträge mit den wenigsten Bewertungen.</p>
-        <ul class="more-list">{rest.map((l) => <li><a href={l.path}>{l.name}</a>{l.reviews > 0 && <span class="rt"><i aria-hidden="true">★</i> {fmtRating(l.rating)} <small>({fmtInt(l.reviews)})</small></span>}</li>)}</ul>
+        <ul class="more-list">{rest.map((l) => <li><a href={l.path}>{l.name}</a>{l.reviews > 0 && <span class="rt"><Star /> {fmtRating(l.rating)} <small>({fmtInt(l.reviews)})</small></span>}</li>)}</ul>
       </>
     )}
   </section>

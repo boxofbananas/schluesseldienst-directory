@@ -6,6 +6,7 @@
 // Suchfeld, und ihre Links geben weiter Wert (wiki/framework/site-architecture.md).
 import Base from '../../layouts/Base.astro';
 import SearchForm from '../../components/SearchForm.astro';
+import Star from '../../components/Star.astro';
 import { loadDirectory, fmtInt, fmtRating } from '../../lib/load.mjs';
 const { site, cities, regions, listings, countryPath, attributes } = loadDirectory();
 const byName = [...cities].sort((a, b) => a.name.localeCompare(b.name, 'de'));
@@ -52,7 +53,7 @@ const description = `Blättern Sie durch jeden ${site.niche.singular}, der auf $
       {byName.map((c) => (
         <div class="all-city">
           <h3><a href={c.path}>{c.name}</a> <span class="n">{c.count}</span></h3>
-          <ul>{c.listings.map((l) => <li><a href={l.path}>{l.name}</a>{l.reviews > 0 && <span class="rt"><i aria-hidden="true">★</i> {fmtRating(l.rating)} <small>({fmtInt(l.reviews)})</small></span>}</li>)}</ul>
+          <ul>{c.listings.map((l) => <li><a href={l.path}>{l.name}</a>{l.reviews > 0 && <span class="rt"><Star /> {fmtRating(l.rating)} <small>({fmtInt(l.reviews)})</small></span>}</li>)}</ul>
         </div>
       ))}
     </div>

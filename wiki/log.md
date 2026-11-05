@@ -383,3 +383,13 @@ Zahlen, was auf Freigabe wartet.
   geschrieben (nicht mit der seo-content-engine-Skill, da deren SERP-Basis die Quellenregel
   verletzt), alle durch `lint_copy.py --erlaube-rechtswoerter`; 0 $ externe Kosten. Berichte:
   `berichte/2026-11-04-morgenbericht.md`, `output/schluesseldienste-deutschland/05-build-report.md`.
+
+- **2026-11-05:** Darstellungsfehler behoben. Sterne (★/☆) und Häkchen (✓) waren Schriftzeichen
+  außerhalb des Latin-Auszugs und erschienen als Kästchen → Inline-SVG (`components/Star.astro`,
+  `Check.astro`). `latin-ext` zusätzlich eingebunden, damit europäische Namen (ẞ, Š, İ, ş) rendern;
+  Emoji/fremde Schriften werden in `load.mjs` (`sanitizeGlyphs`) aus Freitext entfernt; neue
+  Build-Prüfung `scripts/check-glyphs.mjs` als `postbuild` scheitert bei jedem Zeichen außerhalb
+  latin+latin-ext. Startseite ohne die 787er-Stadtliste (Verweis „Alle Städte" auf `/verzeichnis/`),
+  Höhe 8.430 px (1440). Suchfeld-Platzhalter gekürzt; U+FEFF in load.mjs (Regex, gewollt) auf Escape
+  umgestellt. Nebenbei: Öffnungszeiten zeigten „[object Object]" (DataForSEO-Array), `normalizeHours`
+  repariert. Bericht: `berichte/2026-11-05-darstellungsfehler-und-startseite.md`.

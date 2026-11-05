@@ -5,6 +5,7 @@ import Base from '../layouts/Base.astro';
 import Faq from '../components/Faq.astro';
 import SearchForm from '../components/SearchForm.astro';
 import DirectoryHub from '../components/DirectoryHub.astro';
+import Check from '../components/Check.astro';
 import { loadDirectory, paragraphs, fmtInt } from '../lib/load.mjs';
 const { site, indexCities: cities, regions, listings, stats, homeFeatured, countryPath, buildDate, attributes } = loadDirectory();
 const vetting = site.vetting && site.vetting.length ? site.vetting : null;
@@ -41,7 +42,7 @@ const schema = [
       <h1>{site.niche.title} in {site.country.name}, <span class="hl">die ihren Preis vorher nennen</span></h1>
       <p class="lede">Wer vor einer verschlossenen Tür steht, ruft die erste Nummer an und erfährt den Preis, wenn die Arbeit längst läuft. Hier sehen Sie vorher, welcher Betrieb sich auf einen Festpreis festlegt und welcher nicht.</p>
       <SearchForm site={site} attributes={attributes} />
-      {heroPoints.length > 0 && <ul class="hero-points">{heroPoints.map((pt) => <li>{pt}</li>)}</ul>}
+      {heroPoints.length > 0 && <ul class="hero-points">{heroPoints.map((pt) => <li><Check />{pt}</li>)}</ul>}
       <p class="hero-link"><a href="#ratgeber">Woran Sie einen guten {site.niche.singular} erkennen</a></p>
     </div>
   </Fragment>

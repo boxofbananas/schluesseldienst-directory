@@ -39,7 +39,7 @@ main.wrap:has(> .after-hero) { padding-top: 0; }
 .more-list a { color: var(--heading); text-decoration: none; }
 .more-list a:hover { color: var(--link); text-decoration: underline; }
 .more-list .rt { color: var(--muted); font-size: .85rem; white-space: nowrap; }
-.more-list .rt i { font-style: normal; color: #b7791f; }
+.more-list .rt .star { font-style: normal; color: #b7791f; }
 @media (max-width: 900px) { .more-list { columns: 2; } }
 @media (max-width: 560px) { .more-list { columns: 1; } }
 /* Browse-everything page: every listing by city in a dense, four-column list. */
@@ -53,7 +53,7 @@ main.wrap:has(> .after-hero) { padding-top: 0; }
 .all-city li a { color: var(--text); text-decoration: none; }
 .all-city li a:hover { color: var(--link); text-decoration: underline; }
 .all-city .rt { color: var(--muted); font-size: .8rem; white-space: nowrap; font-variant-numeric: tabular-nums; }
-.all-city .rt i { font-style: normal; color: #b7791f; }
+.all-city .rt .star { font-style: normal; color: #b7791f; }
 @media (max-width: 1000px) { .all-listings { columns: 3; } }
 @media (max-width: 800px) { .all-listings { columns: 2; } }
 @media (max-width: 560px) { .all-listings { columns: 1; } }
@@ -97,7 +97,7 @@ main.wrap:has(> .after-hero) { padding-top: 0; }
 .suggest b { color: var(--heading); font-weight: 600; }
 .suggest span { color: var(--muted); font-size: .9rem; white-space: nowrap; display: flex; gap: .6rem; align-items: baseline; }
 .suggest .rt { color: var(--heading); font-weight: 600; }
-.suggest .rt i { font-style: normal; color: #b7791f; }
+.suggest .rt .star { font-style: normal; color: #b7791f; }
 .suggest .rt small { color: var(--muted); font-weight: 400; font-size: .9em; }
 .suggest .use-location { color: var(--link); font-weight: 600; }
 /* Service filters under the search bar: checkboxes styled as pills, all visible, no dropdown. */
@@ -118,8 +118,8 @@ main.wrap:has(> .after-hero) { padding-top: 0; }
 .hero-link { margin: 3rem 0 0; font-size: .95rem; }
 .hero-link a { color: rgba(255, 255, 255, .85); text-decoration: underline; }
 .hero-link a:hover { color: #fff; }
-.hero-points li { white-space: nowrap; }
-.hero-points li::before { content: "\2713"; color: var(--action); font-weight: 700; margin-right: .5rem; }
+.hero-points li { white-space: nowrap; display: inline-flex; align-items: center; gap: .45rem; }
+.hero-points li .ico-check { color: var(--action); flex: none; }
 /* The counts sit half on the hero and half on the page. */
 .stat-cards { display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem 3.5rem; margin: 0 calc(50% - 50vw); padding: 4rem calc(50vw - 50%) 2.5rem; position: relative; background: var(--band); color: var(--band-text); }
 .stat-cards div { padding: 0; display: grid; grid-template-columns: auto auto; grid-template-rows: auto auto; column-gap: .5rem; align-items: center; text-align: left; }
@@ -256,7 +256,10 @@ p.garantie::before { content: ""; display: inline-block; width: .7em; height: .7
 fieldset.sr-only { min-inline-size: 0; min-width: 0; max-width: 1px; contain: strict; }
 .rating { font-weight: 600; display: flex; flex-wrap: wrap; align-items: baseline; gap: .45rem; }
 .rating .meta { font-weight: 400; }
-.rating .stars { color: #b7791f; letter-spacing: .05em; }
+.rating .stars { color: #b7791f; display: inline-flex; gap: .08em; }
+/* Bewertungsstern als Inline-SVG (components/Star.astro): an Schriftgröße (1em) und Textfarbe
+   (currentColor) gekoppelt, leicht auf die Grundlinie gezogen. */
+.star { width: 1em; height: 1em; vertical-align: -.125em; flex: none; }
 .disclaimer { color: var(--muted); font-size: .9rem; margin-top: 2rem; }
 /* Social profile icons on a listing. */
 .socials { display: inline-flex; gap: .55rem; align-items: center; vertical-align: middle; }
@@ -297,7 +300,7 @@ fieldset.sr-only { min-inline-size: 0; min-width: 0; max-width: 1px; contain: st
 .biz-cards { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); margin-top: 1.25rem; }
 .biz-card { background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; display: flex; flex-direction: column; }
 .biz-card .top { background: var(--tint); padding: .7rem 1.35rem; display: flex; justify-content: space-between; gap: 1rem; font-size: .9rem; color: var(--heading); font-weight: 500; }
-.biz-card .top .rt i { font-style: normal; color: #b7791f; }
+.biz-card .top .rt .star { font-style: normal; color: #b7791f; }
 .biz-card .body { padding: 1.1rem 1.35rem 1.35rem; display: flex; flex-direction: column; gap: .55rem; flex: 1; }
 .biz-card h3 { margin: 0; font-size: 1.15rem; }
 .biz-card h3 a { color: var(--heading); text-decoration: none; }
@@ -318,7 +321,7 @@ fieldset.sr-only { min-inline-size: 0; min-width: 0; max-width: 1px; contain: st
 /* A sold featured slot: warm frame, badge, its own top band. Pushes nothing around, the grid stays the same. */
 .biz-card.featured { position: relative; overflow: visible; box-shadow: 0 0 0 3px var(--gold), 0 10px 30px rgba(0, 0, 0, .25); }
 .biz-card.featured .top { background: linear-gradient(100deg, var(--gold-deep) 0%, var(--gold) 45%, var(--gold-light) 100%); color: var(--heading); padding: .7rem 1.35rem .7rem 6.6rem; min-height: 2.9rem; align-items: center; border-radius: var(--radius) var(--radius) 0 0; }
-.biz-card.featured .top .rt i { color: var(--heading); }
+.biz-card.featured .top .rt .star { color: var(--heading); }
 /* Wraparound ribbon: one navy tab that overhangs the card's left edge by a few pixels, with a small
    fold tucked under the overhang. Vertically centered on the band, same baseline as the place and rating. */
 .biz-card.featured .badge { position: absolute; top: 50%; transform: translateY(-50%); left: -.55rem; background: var(--heading); color: var(--gold-light); font-size: .64rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; padding: .32rem .85rem .32rem .95rem; border-radius: 0 3px 3px 0; line-height: 1; }
@@ -329,7 +332,7 @@ fieldset.sr-only { min-inline-size: 0; min-width: 0; max-width: 1px; contain: st
 /* The open position: identical anatomy, outlined and dimmed on the navy band. */
 .biz-card.featured.open-slot { display: flex; text-decoration: none; background: transparent; box-shadow: none; border: 2px dashed rgba(255, 255, 255, .45); color: rgba(255, 255, 255, .82); }
 .biz-card.featured.open-slot .top { background: rgba(255, 255, 255, .08); color: rgba(255, 255, 255, .82); border-bottom: 1px dashed rgba(255, 255, 255, .35); }
-.biz-card.featured.open-slot .top .rt i { color: rgba(255, 255, 255, .6); }
+.biz-card.featured.open-slot .top .rt .star { color: rgba(255, 255, 255, .6); }
 .biz-card.featured.open-slot .badge { background: var(--heading); color: rgba(255, 255, 255, .85); border: 1px solid rgba(255, 255, 255, .5); }
 .biz-card.featured.open-slot .badge::after { display: none; }
 .biz-card.featured.open-slot .body { display: flex; flex-direction: column; gap: .55rem; flex: 1; }

@@ -4,6 +4,7 @@
 import Base from '../../../../../layouts/Base.astro';
 import Breadcrumbs from '../../../../../components/Breadcrumbs.astro';
 import Rating from '../../../../../components/Rating.astro';
+import Star from '../../../../../components/Star.astro';
 import Garantie from '../../../../../components/Garantie.astro';
 import AttributeGrid from '../../../../../components/AttributeGrid.astro';
 import SocialLinks from '../../../../../components/SocialLinks.astro';
@@ -109,7 +110,7 @@ const mapSrc = showMap ? `https://www.google.com/maps?q=${l.lat},${l.lng}&output
   {l.related.length > 0 && (
     <section class="related">
       <h2>Weitere {site.niche.plural} in {relatedCity}</h2>
-      <ul class="more-list">{l.related.map((r) => <li><a href={r.path}>{r.name}</a>{r.reviews > 0 && <span class="rt"><i aria-hidden="true">★</i> {fmtRating(r.rating)} <small>({fmtInt(r.reviews)})</small></span>}</li>)}</ul>
+      <ul class="more-list">{l.related.map((r) => <li><a href={r.path}>{r.name}</a>{r.reviews > 0 && <span class="rt"><Star /> {fmtRating(r.rating)} <small>({fmtInt(r.reviews)})</small></span>}</li>)}</ul>
       <p class="meta"><a href={city.path}>Alle {city.count} {site.niche.plural} in {city.name}</a></p>
     </section>
   )}

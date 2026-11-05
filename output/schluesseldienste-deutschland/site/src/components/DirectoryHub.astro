@@ -4,6 +4,7 @@
 // Premium-Band, das Raster der bestbewerteten Betriebe, der Aufruf zum Eintrag und das Städtever­zeichnis A bis Z.
 import ClaimCta from './ClaimCta.astro';
 import FeaturedBand from './FeaturedBand.astro';
+import Star from './Star.astro';
 import { topAttrs, loadDirectory, fmtInt, fmtRating } from '../lib/load.mjs';
 const { site, cities, listings, stats, homeFeatured, countryPath } = Astro.props;
 const { services, regions } = loadDirectory();
@@ -14,10 +15,9 @@ const excerpt = (t, n = 28) => { const w = (t || '').split(/\s+/); return w.leng
 const confirmed = (l) => !site.sortAttribute || l.attrs.some((a) => a.key === site.sortAttribute && a.value === 'true');
 const spotlight = [...listings].filter((l) => !l.thin && !l.featured && !homeFeatured.includes(l) && l.rating >= 4.5 && l.reviews >= 25 && confirmed(l))
   .sort((a, b) => b.score - a.score || b.reviews - a.reviews).slice(0, 6);
-// Die 20 größten Städte als Karten; darunter das vollständige Verzeichnis A bis Z.
+// Die 20 größten Städte als Karten; das vollständige Verzeichnis A bis Z steht auf /verzeichnis/,
+// damit die Startseite nicht auf 787 Stadtlinks aufläuft.
 const biggest = cities.slice(0, 20);
-// Jede Stadtseite, nach Anfangsbuchstaben gruppiert.
-const cityGroups = [...cities].sort((a, b) => a.name.localeCompare(b.name, 'de')).reduce((acc, c) => { const L = c.name[0].toUpperCase(); const g = acc.find((x) => x.letter === L); if (g) g.cities.push(c); else acc.push({ letter: L, cities: [c] }); return acc; }, []);
 ---
   <section class="bleed tinted after-hero">
     <dl class="stat-cards">
@@ -38,7 +38,7 @@ const cityGroups = [...cities].sort((a, b) => a.name.localeCompare(b.name, 'de')
         </a></li>
       ))}
     </ul>
-    {cities.length > biggest.length && <p class="see-all"><a class="btn" href="#staedte">Alle {fmtInt(cities.length)} Städte ansehen</a></p>}
+    {cities.length > biggest.length && <p class="see-all"><a class="btn" href={countryPath}>Alle {fmtInt(cities.length)} Städte ansehen</a></p>}
   </section>
 
   <FeaturedBand site={site} items={homeFeatured} place={site.country.name} price={site.tiers?.city?.price} />
@@ -51,7 +51,7 @@ const cityGroups = [...cities].sort((a, b) => a.name.localeCompare(b.name, 'de')
       <div class="biz-cards">
         {spotlight.map((l) => (
           <article class="biz-card">
-            <div class="top"><span>{l.city}</span><span class="rt"><i aria-hidden="true">★</i> {fmtRating(l.rating)} ({fmtInt(l.reviews)})</span></div>
+            <div class="top"><span>{l.city}</span><span class="rt"><Star /> {fmtRating(l.rating)} ({fmtInt(l.reviews)})</span></div>
             <div class="body">
               <h3><a href={l.path}>{l.name}</a></h3>
               <p>{excerpt(l.description)}</p>
@@ -77,44 +77,7 @@ const cityGroups = [...cities].sort((a, b) => a.name.localeCompare(b.name, 'de')
   )}
 
   <section id="staedte">
-    <div class="section-head">
-      <h2>{site.niche.plural} nach Stadt</h2>
-      {site.cityFilter && (
-        <label class="city-filter">
-          <span class="sr-only">Stadtnamen eingeben</span>
-          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2" /><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" /></svg>
-          <input type="search" id="city-filter" autocomplete="off" placeholder="Stadtnamen eingeben" />
-        </label>
-      )}
-    </div>
-    <p class="meta">Orte mit weniger als {site.cityFloor} eingetragenen Betrieben stehen auf der Seite der nächstgelegenen Stadt.</p>
-    <!-- copy:skip -->
-    <div class="city-groups" id="city-list">
-      {cityGroups.map((g) => (
-        <div class="city-group">
-          <p class="letter" aria-hidden="true">{g.letter}</p>
-          <ul class="city-pills">{g.cities.map((c) => <li><a href={c.path}>{c.name} <span class="n">{c.count}</span></a></li>)}</ul>
-        </div>
-      ))}
-    </div>
-    <!-- /copy:skip -->
-    {site.cityFilter && <p id="city-none" hidden>Keine Stadtseite passt dazu. <a href={countryPath}>Alle Bundesländer und Städte ansehen</a>.</p>}
+    <h2>{site.niche.plural} nach Stadt</h2>
+    <p class="meta">Die größten Städte stehen oben. Das vollständige Verzeichnis aller {fmtInt(cities.length)} Städte von A bis Z steht auf einer eigenen Seite.</p>
+    <p class="see-all"><a class="btn" href={countryPath}>Alle Städte ansehen</a></p>
   </section>
-  {site.cityFilter && (
-    <script is:inline>
-      // Filtert die Stadtlinks oben während der Eingabe. Die Links stehen in jedem Fall in der Seite.
-      (function () {
-        var input = document.getElementById('city-filter'), groups = document.querySelectorAll('#city-list .city-group'), none = document.getElementById('city-none');
-        if (!input) return;
-        input.addEventListener('input', function () {
-          var q = input.value.trim().toLowerCase(), shown = 0;
-          groups.forEach(function (g) {
-            var any = false;
-            g.querySelectorAll('li').forEach(function (li) { var hit = li.textContent.toLowerCase().indexOf(q) !== -1; li.hidden = !hit; if (hit) { any = true; shown++; } });
-            g.hidden = !any;
-          });
-          none.hidden = shown !== 0;
-        });
-      })();
-    </script>
-  )}
