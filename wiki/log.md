@@ -503,3 +503,12 @@ Zahlen, was auf Freigabe wartet.
   Stellen im Wiki angeglichen; Log-Historie unangetastet. Textgate: neue Preistexte sauber (drei
   vorbestehende Treffer der Rechtsseite unberührt). Ausgeliefert `cb47edd7`. Screenshot
   `berichte/screenshots/preisblock-material-5zahlen.png`.
+
+- 2026-11-05 Template-vs-Build gemessen: 25 Dateien auseinander (`templates/astro/src` vs.
+  `output/.../site/src`, ohne data/), **alle Build-voraus, null Template-voraus**. Befund als
+  [[template-build-drift]] festgeschrieben (zwei Sorten: allgemeine Verbesserungen → ins Template
+  beim nächsten Verzeichnis; projekteigener Inhalt bleibt verschieden). Für dieses Verzeichnis ist
+  der Build die Wahrheit. **Sperre gebaut:** `scripts/init_site.py` legt `output/<slug>/site/` aus
+  dem Template an und bricht ab, wenn der Ordner existiert (nur `--force`, legt vorher ein Backup
+  an); Gate 5 in CLAUDE.md darauf verdrahtet (kein Hand-`cp`). Rückport, Paritätsprüfung und
+  geteilter Code bewusst **nicht** gebaut — nach dem Start.

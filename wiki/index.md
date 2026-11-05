@@ -61,6 +61,9 @@ Zeile ergänzen und `log.md` fortschreiben.
   am schwersten; der Referenzbau als englisches Pilotprojekt ist Maßstab für Aufbau und Optik
   und nie für Inhalt; Abschnitt für Abschnitt mit der neuen Bundesland-Ebene, dem
   Garantie-Zeichen und dem Kartenplatzhalter; was eine Optikvorlage ändern darf und was nicht.
+- [template-build-drift](framework/template-build-drift.md): für dieses Verzeichnis ist der Build
+  die Wahrheit, nicht das Template; die 25 Build-voraus-Dateien nach zwei Sorten; die Sperre in
+  `init_site.py`, die ein Überschreiben von `output/<slug>/site/` abbricht.
 - [design-seed](framework/design-seed.md): die Optikfrage in Gate 1, das Ableiten der
   Gestaltungsmarken in Gate 4, Vorgabe und Rückfall, Augenbrauen und Zeichen nur von der
   Vorlage, die wegzugestaltenden Merkmale, selbst gehostete Schriften, und was längere

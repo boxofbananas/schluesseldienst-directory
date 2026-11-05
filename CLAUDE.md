@@ -53,6 +53,7 @@ verzeichnis-blueprint/
 │                      connect_dataforseo.py (läuft im eigenen Terminal des Betreibers, nie bei dir),
 │                      clean_listings.py (2), fetch_sites.py, build_evidence.py, make_batches.py,
 │                      merge_enriched.py (3), apply_exclusions.py, add_socials.py,
+│                      init_site.py (5, legt site/ aus dem Template an, Sperre gegen Überschreiben),
 │                      make_city_packets.py, check_city_copy.py, lint_copy.py (5),
 │                      run_batches.py (Stapelläufer für 3 und 5), check_live.py (6),
 │                      make_local_preview.py (wahlweise). Nach dem Start: mail_worker.py,
@@ -230,8 +231,13 @@ Ergebnis: `04-plan.md` und `04-exclusions.csv`.
 
 ### Gate 5, Bauen
 
-`templates/astro/` nach `output/<slug>/site/` kopieren und füllen, kein Astro-Projekt von
-Hand schreiben. Das Grundgerüst setzt [[site-architecture]], [[page-types]],
+`output/<slug>/site/` mit `python3 scripts/init_site.py --slug <slug>` aus `templates/astro/`
+anlegen und dann füllen, kein Astro-Projekt von Hand schreiben, **kein Hand-`cp`**. Das Skript
+**bricht ab, wenn der Ordner schon existiert** (Sperre gegen Überschreiben): Nach dem ersten
+Anlegen ist der Build die Wahrheit, nicht das Template — ein erneuter Kopierlauf verwürfe die
+seitdem im Build geleistete Arbeit. Nur `--force` setzt fort, und auch dann wird der bestehende
+Ordner nach `site.backup-<Zeitstempel>` beiseitegelegt ([[template-build-drift]]). Das Grundgerüst
+setzt [[site-architecture]], [[page-types]],
 [[on-page-rules]], [[schema]] und den Sitemap-Filter des schlanken Starts schon um. Zu füllen
 sind: `src/data/site.json` (Marke, Domain, Herausgeber, Kontakt, Bundesländer, Preisstufen,
 Gestaltungsmarken aus `04-plan.md`), `src/styles/fonts.css` (selbst gehostete Schriften),
