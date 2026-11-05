@@ -466,3 +466,13 @@ Zahlen, was auf Freigabe wartet.
   (DirectoryHub). Startseiten-Band damit ohne eigenen Betrieb und ohne Preis-Label. Preis für die
   Startseiten-/Bundesland-Stufe gehört in `tiers.state` (site.json) + /premium/ (Zeile erscheint
   bei gesetztem Preis). Ausgeliefert `8992ce52`.
+
+- 2026-11-05 Folgerunde: (1) Hook-Screenshots A/B/C + Band-Bilder ins Repo
+  (`berichte/screenshots/hook-{a,b,c}-1440.png`, `band-mannheim.png`, `band-startseite.png`),
+  Überschriften als Text im Bericht. (2) Entscheidung: Startseiten-Band nicht bepreisen
+  (`tiers.state` ohne Preis, keine `country`-Stufe) bis Zahlen nach der 30-Tage-Prüfung; Begründung
+  + Trennungs-Warnung „Bundesland ≠ Startseite" in [[monetization-slots]] („Das Startseiten-Band"),
+  Stadt-Premium-Zeile dort korrigiert (Startseite raus). (3) `check_live.py` um drei Prüfungen für
+  den Domain-Umzug erweitert: www→Apex-Weiterleitung (301/308), TLS-Zertifikat, Sitemap-Hosts =
+  echte Domain (kein pages.dev); greifen nur gegen die echte Domain. Lauf gegen pages.dev weiter
+  grün (Sitemap 2806).

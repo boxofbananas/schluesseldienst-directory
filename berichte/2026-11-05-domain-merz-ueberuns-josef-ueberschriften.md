@@ -129,3 +129,85 @@ Die Bilder liegen im Sitzungs-Scratchpad (nicht im Repo):
   wäre das ein zusätzlicher Wert `featured=country` — sag Bescheid, dann lege ich ihn an.
 
 Neuer Build ausgeliefert: `https://8992ce52.schluesseldienste-deutschland.pages.dev`.
+
+---
+
+# Nachtrag 2
+
+## 1. Bildschirmfotos im Repo, Überschriften als Text
+
+Committet unter `berichte/screenshots/`: `hook-a-1440.png`, `hook-b-1440.png`, `hook-c-1440.png`
+(oberer Seitenbereich, 1440 px) sowie `band-mannheim.png` und `band-startseite.png`.
+
+Die drei Fassungen vollständig als Text:
+
+**A** — `berichte/screenshots/hook-a-1440.png`
+- Branchenzeile (über der H1): SCHLÜSSELDIENSTE IN DEUTSCHLAND
+- Überschrift: „Ausgesperrt? Der Preis steht, bevor Sie wählen."
+- Unterzeile: „Wer nachts vor einer zugefallenen Tür steht, ruft die erste Nummer an und erfährt
+  den Preis, wenn die Arbeit längst läuft. Hier vergleichen Sie Schlüsseldienste in ganz
+  Deutschland und sehen vorher, welcher Betrieb sich auf einen Festpreis festlegt."
+
+**B** — `berichte/screenshots/hook-b-1440.png`
+- Branchenzeile: SCHLÜSSELDIENSTE IN DEUTSCHLAND
+- Überschrift: „Damit die Rechnung keine Überraschung wird."
+- Unterzeile: „Bei einem Schlüsseldienst erfährt man den Preis oft erst, wenn die Tür schon offen
+  ist. Dieses Verzeichnis zeigt für jede Stadt, welcher Betrieb seinen Festpreis für Türöffnung und
+  Anfahrt vorher nennt und welcher nicht."
+
+**C** — `berichte/screenshots/hook-c-1440.png` (ohne Branchenzeile, die Branche steht in der H1)
+- Überschrift: „Schlüsseldienste, die ihren Preis schriftlich geben."
+- Unterzeile: „Wer vor einer verschlossenen Tür steht, ruft die erste Nummer an und erfährt den
+  Preis, wenn die Arbeit längst läuft. Hier sehen Sie vorher, welcher Betrieb sich auf einen
+  Festpreis festlegt und welcher nicht."
+
+**Jetzige, live stehende Fassung** (zum Vergleich, nicht geändert):
+- Überschrift: „Schlüsseldienste in Deutschland, die ihren Preis vorher nennen"
+- Unterzeile: „Wer vor einer verschlossenen Tür steht, ruft die erste Nummer an und erfährt den
+  Preis, wenn die Arbeit längst läuft. Hier sehen Sie vorher, welcher Betrieb sich auf einen
+  Festpreis festlegt und welcher nicht."
+
+**Band-Bilder als Text:**
+- `band-mannheim.png`: Band „Premium-Plätze: Schlüsseldienste in Mannheim". Erste Karte **Merz
+  Sicherheit** (Marke PREMIUM, 5,0 bei 355 Bewertungen, Merkmale Schlüsseldienst /
+  24-Stunden-Notdienst / Türöffnung, „Eintrag ansehen"). Zweite Karte offen: „Dieser Platz ist
+  frei · Ab 29 € im Monat". Fuß: „Was ein Premium-Platz kostet · ab 29 € im Monat".
+- `band-startseite.png`: Band „Premium-Plätze: Schlüsseldienste in Deutschland". Nur **ein offener
+  Platz** („Dieser Platz ist frei … Ein Betrieb je Stufe und Stadt."), **ohne Preis**. Fuß: „Was
+  ein Premium-Platz kostet" (ohne Preis). **Kein eigener Betrieb.**
+
+## 2. Startseiten-Platz: nicht bepreisen (wie entschieden)
+
+`tiers.state` bleibt **ohne Preis**, es wird **keine `country`-Stufe** angelegt. Begründung und die
+Warnung, dass „Bundesland" und „Startseite" derzeit **dieselbe** Stufe sind und beim Bepreisen
+getrennt werden müssen (sonst bekommt ein Bundesland-Käufer die bundesweite Startseite gratis
+dazu), stehen jetzt im Wiki: [[monetization-slots]], Abschnitt „Das Startseiten-Band". **Stadt-
+Premium zu 29 € bleibt vorerst die einzige laufende Stufe.** Neu bepreist wird erst, wenn nach der
+30-Tage-Prüfung Zugriffszahlen vorliegen.
+
+## 3. Domain — woran ich nach dem DNS-Klick erkenne, dass alles greift
+
+Sobald Daniel im Dashboard den Apex-CNAME gesetzt hat (Pages → Custom domains → *Set up DNS*) und
+für www einen proxied DNS-Eintrag plus die Redirect-Regel angelegt hat, prüfe ich:
+
+- **Pages-Domain aktiv:** der Status der Domain im Pages-Projekt springt von `pending` auf
+  `active`; die Meldung „CNAME record not set" verschwindet.
+- **`check_live.py` gegen die echte Domain.** Ich habe es um genau die drei genannten Prüfungen
+  erweitert (laufen nur gegen die echte Domain, gegen pages.dev übersprungen):
+  1. **www-Weiterleitung:** `https://www.die-besten-schluesseldienste.de/` antwortet mit **301/308**
+     und Location-Host = Hauptdomain — www liefert also keinen eigenen Inhalt aus (kein zweiter
+     indexierbarer Host).
+  2. **TLS-Zertifikat:** verifizierte TLS-Verbindung zur Hauptdomain (passt zum Hostnamen, von
+     anerkannter Stelle, nicht abgelaufen), inklusive Ablaufdatum.
+  3. **Sitemap zeigt auf die echte Domain:** alle `<loc>`-Hosts der Sitemap-Teile **und** der
+     Adressen sind die Hauptdomain, **kein `pages.dev`** (sonst Doppelinhalt). Bis zum
+     Domain-Anschluss zeigte die Sitemap bereits korrekt auf die echte Domain — diese Prüfung
+     bestätigt es nach dem Umzug.
+- Dazu die bestehenden Prüfungen (Startseite 200/H1/`lang`/canonical/kein `noindex`/keine
+  Vorschaukarten, 404 für Unbekanntes, `robots.txt` + Sitemap, Stichproben indexierbar,
+  `/verzeichnis/` noindex+follow, Impressum/Datenschutz mit Inhalt und ohne Google-Karte,
+  `/premium/` und `/eintrag-beanspruchen/` noindex, pages.dev sendet `X-Robots-Tag: noindex`).
+- Aufruf: `python3 scripts/check_live.py https://die-besten-schluesseldienste.de --pages-dev
+  https://schluesseldienste-deutschland.pages.dev --expect-urls 2806`.
+- Erst nach „Alle Prüfungen bestanden" beginnt die gestaffelte Indexierung. Sitemap einreichen und
+  Suchmaschine anmelden bleiben bis dahin bewusst aus.

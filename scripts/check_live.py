@@ -15,7 +15,8 @@ Die geprüften Pfade sind die der deutschen Fassung (wiki/konventionen.md):
 Aufruf:
   python3 scripts/check_live.py https://die-besten-schluesseldienste.de [--pages-dev https://projekt.pages.dev] [--expect-urls 1076]
 """
-import argparse, re, sys, urllib.request, urllib.error
+import argparse, re, sys, ssl, socket, urllib.request, urllib.error
+from urllib.parse import urlparse
 
 UA = {"User-Agent": "verzeichnis-blueprint-check/1.0"}
 
@@ -30,6 +31,34 @@ def get(url):
         return 0, {}, str(e), url
 
 
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, *a, **k):
+        return None   # die Weiterleitung nicht folgen, sondern die 3xx-Antwort zeigen
+
+
+def redirect_of(url):
+    """Status und Location einer Adresse, ohne der Weiterleitung zu folgen – für die www-Prüfung."""
+    try:
+        r = urllib.request.build_opener(_NoRedirect).open(urllib.request.Request(url, headers=UA), timeout=20)
+        return getattr(r, "status", r.getcode()), r.headers.get("location", "")
+    except urllib.error.HTTPError as e:
+        return e.code, e.headers.get("location", "")
+    except Exception:
+        return 0, ""
+
+
+def tls_notafter(host):
+    """(True, Ablaufdatum) wenn das TLS-Zertifikat der Domain gültig verifiziert; sonst (False, Grund).
+    Eine erfolgreiche verifizierte TLS-Verbindung heißt: das Zertifikat passt zum Hostnamen und ist von
+    einer anerkannten Stelle, nicht abgelaufen."""
+    try:
+        with socket.create_connection((host, 443), timeout=20) as sock:
+            with ssl.create_default_context().wrap_socket(sock, server_hostname=host) as ss:
+                return True, ss.getpeercert().get("notAfter", "")
+    except Exception as e:
+        return False, str(e)[:70]
+
+
 def main():
     ap = argparse.ArgumentParser(description="Gate 6: ein veröffentlichtes Verzeichnis von außen prüfen.")
     ap.add_argument("base", help="die echte Domain, z. B. https://die-besten-schluesseldienste.de")
@@ -37,6 +66,8 @@ def main():
     ap.add_argument("--expect-urls", type=int, default=0, help="erwartete Zahl der Adressen in der Sitemap")
     a = ap.parse_args()
     base = a.base.rstrip("/"); ok = True
+    host = urlparse(base).netloc; scheme = urlparse(base).scheme or "https"
+    real_domain = "pages.dev" not in host   # www, Zertifikat und Sitemap-Host nur gegen die echte Domain prüfen
 
     def line(passed, text):
         nonlocal ok
@@ -71,6 +102,12 @@ def main():
         p = base + "/" + p.rsplit("/", 1)[-1]
         _, _, b, _ = get(p); urls += re.findall(r"<loc>(.*?)</loc>", b)
     line(bool(urls), f"Sitemap führt {len(urls)} Adressen")
+    if real_domain:
+        # Die Sitemap muss auf die echte Domain zeigen, nie auf pages.dev – sonst indexiert Google die
+        # pages.dev-Adresse mit (Doppelinhalt). Geprüft an den rohen <loc>-Hosts, Index-Teile und Adressen.
+        foreign = sorted({urlparse(u).netloc for u in (parts + urls) if urlparse(u).netloc and urlparse(u).netloc != host})
+        line(not foreign, f"alle Sitemap-Adressen zeigen auf {host}, nicht auf pages.dev"
+                          + (f" – fremde Hosts gefunden: {foreign[:3]}" if foreign else ""))
     if a.expect_urls:
         line(len(urls) == a.expect_urls, f"Zahl der Adressen stimmt mit dem Startplan überein ({a.expect_urls})")
 
@@ -109,6 +146,18 @@ def main():
     for path in ("/eintrag-beanspruchen/", "/premium/"):
         s, _, b, _ = get(base + path)
         line(s == 200 and 'content="noindex' in b, f"{path} wird ausgeliefert und ist noindex")
+
+    if real_domain:
+        # www muss dauerhaft (301/308) auf die Hauptdomain umleiten, nicht selbst Inhalt ausliefern
+        # (sonst zwei indexierbare Hosts). Geprüft, ohne der Weiterleitung zu folgen.
+        st, loc = redirect_of(f"{scheme}://www.{host}/")
+        loc_host = urlparse(loc).netloc if loc else ""
+        line(st in (301, 308) and loc_host == host,
+             f"www leitet dauerhaft auf die Hauptdomain um (Status {st or 'keine Antwort'} -> {loc or 'keine Location'})")
+        # Gültiges, zum Hostnamen passendes TLS-Zertifikat (verifizierte Verbindung).
+        tls_ok, info = tls_notafter(host)
+        line(tls_ok, f"TLS-Zertifikat der Hauptdomain gültig und passend (gültig bis {info})" if tls_ok
+                     else f"TLS-Zertifikat der Hauptdomain nicht verifizierbar: {info}")
 
     if a.pages_dev:
         s, h, _, _ = get(a.pages_dev.rstrip("/") + "/")

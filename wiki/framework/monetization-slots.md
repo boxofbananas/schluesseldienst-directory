@@ -2,7 +2,7 @@
 title: Bezahlte Plätze
 type: framework
 status: current
-updated: 2026-11-03
+updated: 2026-11-05
 ---
 
 # Bezahlte Plätze
@@ -14,7 +14,7 @@ Zahlungslinks stehen in `templates/featured-tiers.md`.
 |---|---|---|
 | Werbebanner | Nein (Vermarkter wollen etwa 250.000 Besucher im Monat) | nichts |
 | **Premium-Eintrag, 97 € im Jahr** (der leichteste Verkauf) | **Ja** | der ausgebaute Eintragszustand (Fotos, alle Links gefolgt, Karte nach Klick), eine Spalte `premium`; der Garantie-Nachweis gehört zu keiner Stufe |
-| **Stadt-Premium, 29 € im Monat** | **Ja** | Premium-Plätze auf jeder Stadtseite und der Startseite, die Seite `/premium/` mit Stufen und Zahlungslinks, eine Spalte `featured`, die Gate 5 liest |
+| **Stadt-Premium, 29 € im Monat** | **Ja** | das Premium-Band auf jeder Stadtseite (`featured=city`), die Seite `/premium/` mit Stufen und Zahlungslinks, eine Spalte `featured`, die Gate 5 liest. Das **Startseiten-Band** speist eigens die Bundesland-Stufe (`featured=state`), nicht der Stadt-Platz (siehe „Das Startseiten-Band") |
 | **Top-Platzierung, 250 € einmalig** | **Ja** | die Stadtseite **ist** die Liste „Die besten Schlüsseldienste in [Stadt]"; eine Spalte `best_of_rank` heftet den bezahlten Platz fest |
 | Landkreis-Stufe, Bundesland-Stufe | Später zu aktivieren | die Felder stehen im Template, werden aber erst verkauft, wenn ein Stadt-Platz verkauft ist |
 | Eigene Dienstleistungen (SEO, Profilpflege, Website) | **Ja, für den Betreiber der wichtigste Punkt** | nichts auf der Site; der Eintrag ist der Anlass für den Anruf |
@@ -88,6 +88,28 @@ Wert wie `stadt` erzeugt einen bezahlten Platz, der auf keiner Seite erscheint.
 **Je Stadt und Stufe ein Betrieb.** Verkauft wird von Hand: Zahlungslink senden, Spalte
 setzen, neu bauen. Kündigung heißt Spalte leeren und neu bauen. **Und je Stadt höchstens ein
 eigener Betrieb auf einem bezahlten Platz** ([[footprint-rules]]).
+
+## Das Startseiten-Band
+
+Das Premium-Band der Startseite ist die bundesweite Fläche. Es wird **nur von `featured=state`**
+gespeist (`load.mjs`, `homeFeatured`); Stadt- und Umland-Plätze (`city`/`county`) stehen im Band
+ihrer eigenen Seite, nicht national. So bekommt ein 29-€-Stadtplatz die Startseite nicht gratis
+dazu, und ein eigener Betrieb steht nur dort, wo ein Preis veröffentlicht ist ([[footprint-rules]]).
+
+**Entscheidung 2026-11-05: Das Startseiten-Band wird zum Start nicht bepreist.** `tiers.state`
+bleibt ohne Preis, es wird keine `country`-Stufe angelegt. Begründung: Die Seite hat zum Start
+keine Zugriffe; eine bundesweite Platzierung lässt sich erst verkaufen und begründen, wenn nach
+der 30-Tage-Prüfung Zahlen vorliegen. **Stadt-Premium zu 29 € bleibt vorerst die einzige laufende
+Stufe.** Solange `tiers.state` keinen Preis hat, zeigt das Startseiten-Band nur den offenen Platz,
+ohne Preis, und kein eigener Betrieb darf dort stehen.
+
+**Beim Bepreisen trennen — Warnung.** „Bundesland" und „Startseite" sind derzeit **dieselbe**
+Stufe: `featured=state` speist die Bundesland-Seite, jede Stadtseite des Landes **und** das
+Startseiten-Band. Wer die Startseite bepreist, muss sie vorher von der Bundesland-Stufe trennen —
+sonst bekommt ein Bundesland-Käufer die bundesweite Startseite gratis dazu. Trennung: einen eigenen
+Wert `featured=country` für das Startseiten-Band einführen (dann liest `homeFeatured` `country`
+statt `state`), oder die Bundesland-Stufe auf Bundesland- und Stadtseiten beschränken und der
+Startseite eine eigene Stufe mit eigenem Preis geben.
 
 ## Der Garantie-Nachweis ist ein Link, deshalb HTML
 
