@@ -16,9 +16,9 @@ img { max-width: 100%; height: auto; display: block; }
 .wrap { max-width: 1140px; margin: 0 auto; padding: 0 1.5rem; }
 .site-header { background: var(--header-bg); color: var(--header-text); }
 .site-header .wrap { display: flex; align-items: center; justify-content: space-between; gap: .75rem 1.5rem; min-height: 76px; padding-top: .75rem; padding-bottom: .75rem; flex-wrap: wrap; }
-.logo { font-family: var(--heading-font); font-size: 1.3rem; font-weight: var(--heading-weight); color: var(--header-text); text-decoration: none; }
+.logo { font-family: var(--heading-font); font-size: 1.3rem; font-weight: var(--heading-weight); color: var(--header-text); text-decoration: none; display: inline-flex; align-items: center; min-height: 44px; }
 .nav { display: flex; gap: .4rem 1.4rem; flex-wrap: wrap; align-items: center; }
-.nav a { color: var(--header-text); text-decoration: none; font-weight: 500; }
+.nav a { color: var(--header-text); text-decoration: none; font-weight: 500; display: inline-flex; align-items: center; min-height: 44px; }
 .nav a.nav-cta { background: var(--action); color: var(--action-text); padding: .5rem 1rem; border-radius: var(--button-radius); font-weight: 800; font-size: 1.02rem; }
 .nav a:hover { text-decoration: underline; }
 /* main is also .wrap, so the vertical padding has to be set with the same weight or .wrap wins. */
@@ -120,8 +120,8 @@ main.wrap:has(> .after-hero) { padding-top: 0; }
 .hero-link { margin: 3rem 0 0; font-size: .95rem; }
 .hero-link a { color: rgba(255, 255, 255, .85); text-decoration: underline; }
 .hero-link a:hover { color: #fff; }
-.hero-points li { white-space: nowrap; display: inline-flex; align-items: center; gap: .45rem; }
-.hero-points li .ico-check { color: var(--action); flex: none; }
+.hero-points li { display: inline-flex; align-items: flex-start; gap: .45rem; max-width: 100%; text-align: left; }
+.hero-points li .ico-check { color: var(--action); flex: none; margin-top: .15em; }
 /* The counts sit half on the hero and half on the page. */
 .stat-cards { display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem 3.5rem; margin: 0 calc(50% - 50vw); padding: 4rem calc(50vw - 50%) 2.5rem; position: relative; background: var(--band); color: var(--band-text); }
 .stat-cards div { padding: 0; display: grid; grid-template-columns: auto auto; grid-template-rows: auto auto; column-gap: .5rem; align-items: center; text-align: left; }
@@ -170,7 +170,7 @@ main.wrap:has(> .after-hero) { padding-top: 0; }
 .crumbs li { display: inline-flex; align-items: center; }
 /* A small chevron between crumbs, drawn in CSS so it matches the text color and weight. */
 .crumbs li + li::before { content: ""; display: inline-block; width: .38em; height: .38em; margin: 0 .55em 0 .4em; border-right: 1.5px solid var(--muted); border-top: 1.5px solid var(--muted); transform: rotate(45deg); opacity: .8; position: relative; top: -.02em; }
-.crumbs a { color: var(--link); }
+.crumbs a { color: var(--link); display: inline-flex; align-items: center; min-height: 44px; }
 .grid { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); }
 .card { background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow); padding: 1.35rem 1.45rem; display: flex; flex-direction: column; gap: .45rem; }
 .card h3 { margin: 0; }
@@ -345,6 +345,8 @@ fieldset.sr-only { min-inline-size: 0; min-width: 0; max-width: 1px; contain: st
 .biz-card.featured.open-slot:hover { border-color: var(--gold); }
 .byline { color: var(--muted); font-size: .9rem; margin: -.5rem 0 1.5rem; }
 .prose { max-width: 70ch; }
+/* Nackte Quell-URLs (Ratgeber, Abschnitt „Quellen") dürfen umbrechen, statt die Seite zu dehnen. */
+.prose a { overflow-wrap: anywhere; }
 /* Stadtseite: Einleitung links, Sprungliste der Betriebe rechts (füllt die sonst leere Fläche). */
 .city-intro-row { display: grid; grid-template-columns: minmax(0, 70ch) 1fr; gap: 2.5rem; align-items: start; }
 .city-intro-row .prose { max-width: none; }
@@ -370,7 +372,7 @@ fieldset.sr-only { min-inline-size: 0; min-width: 0; max-width: 1px; contain: st
 .tiers .tier > p, .tiers .tier > a { margin-left: 1.5rem; margin-right: 1.5rem; }
 .tiers .tier h3 { margin: 0 0 .3rem; }
 .tiers .tier .price { font-size: 1.7rem; font-family: var(--heading-font); font-weight: var(--heading-weight); color: var(--accent); margin: 0; }
-.tiers .tier > .btn { margin-top: auto; text-align: center; }
+.tiers .tier > .btn { margin-top: auto; text-align: center; max-width: calc(100% - 3rem); }
 .tiers .tier.top { box-shadow: 0 0 0 2px var(--gold), var(--shadow); }
 .tiers .tier.top .tier-head { background: linear-gradient(100deg, var(--gold-deep) 0%, var(--gold) 45%, var(--gold-light) 100%); }
 .tiers .tier.top .tier-head h3, .tiers .tier.top .price { color: var(--heading); }
@@ -388,8 +390,8 @@ main.wrap > .tiers:first-child { margin-top: -3.5rem; }
 form.claim-form { display: grid; gap: .9rem; max-width: 560px; }
 form.claim-form label { display: grid; gap: .3rem; font-weight: 500; }
 form.claim-form input, form.claim-form textarea { font: inherit; padding: .6rem .7rem; border: 1px solid #c9c6bf; border-radius: var(--radius); background: var(--surface); color: var(--text); width: 100%; }
-form.claim-form .check { grid-template-columns: auto 1fr; align-items: center; gap: .6rem; font-weight: 400; }
-form.claim-form .check input { width: auto; }
+form.claim-form .check { grid-template-columns: auto 1fr; align-items: center; gap: .6rem; font-weight: 400; min-height: 44px; padding: .3rem 0; cursor: pointer; }
+form.claim-form .check input { width: 1.4rem; height: 1.4rem; }
 pre.snippet { background: var(--surface); box-shadow: var(--shadow); border-radius: var(--radius); padding: 1rem; overflow: auto; font-size: .85rem; }
 .photos { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: .75rem; margin: 1rem 0; }
 .photos img { border-radius: var(--radius); aspect-ratio: 4/3; object-fit: cover; width: 100%; }
@@ -400,8 +402,11 @@ pre.snippet { background: var(--surface); box-shadow: var(--shadow); border-radi
 .site-footer h2 { color: var(--band-text); font-size: 1.1rem; margin: 0 0 .9rem; }
 .site-footer h2 + ul, .site-footer p { margin-top: 0; }
 .site-footer li { margin: .35rem 0; }
+/* Tippfläche mindestens 44px: Listenlinks als Zeilenhöhe, Rechtslinks über Innenabstand. */
+.site-footer li a { display: inline-flex; align-items: center; min-height: 44px; }
 .site-footer .about p { color: var(--band-soft); max-width: 42ch; }
 .site-footer .about a, .site-footer .legal a { color: var(--band-text); text-decoration: underline; }
+.site-footer .legal a { display: inline-block; padding: .8rem .5rem; }
 .social { display: flex; gap: .9rem; margin: 0; padding: 0; list-style: none; }
 .social a { display: inline-flex; width: 38px; height: 38px; align-items: center; justify-content: center; border-radius: 50%; background: rgba(255, 255, 255, .12); color: var(--band-text); }
 .social a:hover { background: var(--action); color: var(--action-text); }

@@ -525,3 +525,13 @@ Zahlen, was auf Freigabe wartet.
   laufen horizontal über, Premium-Kartenrand asymmetrisch, Tippflächen klein — gemeldet, nichts
   geändert. `.gitignore` um `site.backup-*` ergänzt. Bericht
   `berichte/2026-11-05-domain-live-ratgeber-pruefung-mobil.md`.
+- **2026-11-05** — Ratgeber-Zahlen bereinigt: jede unbelegte Geldzahl, jedes Aktenzeichen und
+  die Innungs-/Verbandswerte raus, nur VZ (~100/~180 €) und Warentest (65–415 €) bleiben;
+  der Widerspruch „167,60–209,50" vs „167,60/177,00" als erfundene, nach `konventionen`
+  unzulässige Innungs-Preisliste aufgeklärt und gestrichen. **Zahlenprüfung** gebaut
+  (`lint_copy.py --facts`, Gate `zahlen_im_faktenblatt`): Euro/Prozent/Jahr/Aktenzeichen einer
+  Ratgeberseite müssen im `05-fact-sheet.md` stehen, Normen/mm/112/110/KfW ausgenommen; alle 5
+  Seiten bestehen. **Mobil 390 px** vier Befunde behoben (Tippflächen ≥44 px, Ratgeber-URL-Umbruch,
+  Startseiten-Band, Premium-Kartenrand), kein Überlauf mehr, gebaut aber nicht ausgeliefert.
+  www weiter blockiert (Token ohne Dynamic-Redirect-Recht). Bericht
+  `berichte/2026-11-05-ratgeber-zahlen-mobil-fixes.md`.
