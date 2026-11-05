@@ -2,7 +2,7 @@
 title: Abschnittsfolgen
 type: component
 status: current
-updated: 2026-11-03
+updated: 2026-11-05
 ---
 
 # Abschnittsfolgen
@@ -14,9 +14,10 @@ Die Folge ist das [[master-template]] und ändert sich nicht. Die Optik ändert 
 Festpreis-Garantie (auf `/festpreis-garantie/`) · Über uns · Kontakt · Schaltfläche „Eintrag beanspruchen" (auf
 `/eintrag-beanspruchen/`).
 
-**Startseite:** Kopfbereich (H1 mit „Deutschland" in der Aktionsfarbe, eine Zeile, die
-Suchpille, drei Versprechen, der Ratgeberlink, die ruhige Zahlenreihe mit Zeichen:
-Einträge, Städte, geprüfte Betriebe, Google-Bewertungen) · **„Schlüsseldienste in Ihrem
+**Startseite:** Kopfbereich (Augenbraue „Schlüsseldienste in Deutschland"; H1 „Damit die
+Rechnung keine Überraschung wird." mit allein „keine Überraschung" in der Aktionsfarbe; die
+Unterzeile; die Suchpille, drei Versprechen, der Ratgeberlink, die ruhige Zahlenreihe mit
+Zeichen: Einträge, Städte, geprüfte Betriebe, Google-Bewertungen) · **„Schlüsseldienste in Ihrem
 Bundesland" als Karten der 16 Bundesländer** · „Schlüsseldienste in Ihrer Stadt" als Karten
 der 20 größten Städte mit der Schaltfläche „Alle N Städte ansehen" · Premium-Block ·
 Raster der bestbewerteten Betriebe · Hinweis aufs Beanspruchen **mit zwei Schaltflächen
@@ -24,6 +25,16 @@ Raster der bestbewerteten Betriebe · Hinweis aufs Beanspruchen **mit zwei Schal
 Leistungsseiten existieren · „Schlüsseldienste nach Stadt" von A bis Z, nach Bundesland
 gruppiert · Prüfblock mit vier Schritten und dem Link auf `/festpreis-garantie/` · Ratgeberartikel ohne
 Verfasserzeile · Fragenkarten.
+
+**Warum die Startseiten-Überschrift eine Haltung trägt, keinen Notfall-Aufhänger
+(entschieden 2026-11-05).** Die Startseite ist nicht der Einstieg für den Notfall: Wer
+ausgesperrt ist, sucht „Schlüsseldienst <Stadt>" und landet auf der Stadtseite, nicht hier.
+Die Startseite sehen vor allem Besucher über die Marke und die Betriebe, denen Premium-Plätze
+und die Festpreis-Garantie verkauft werden. Für dieses Publikum wirkt eine Haltung besser als
+ein Notfall-Aufhänger, und „Damit die Rechnung keine Überraschung wird." schließt Vermieter,
+Hausverwaltungen und Schließanlagen-Kunden nicht aus. Die Augenbraue „Schlüsseldienste in
+Deutschland" trägt die Branche in den ersten Absatz (Textgate) und ist als einzige konkrete
+Augenbraue in `design.eyebrows` festgehalten ([[design-seed]]).
 
 **Blättern (`/verzeichnis/`):** Kopfbereich mit Suche · Bundesländer · Städte von A bis Z ·
 alle Einträge nach Stadt.

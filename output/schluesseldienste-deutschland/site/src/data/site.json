@@ -69,6 +69,7 @@
   },
   "design": {
     "inspiredBy": "Die Gestaltungsmarken sind unverändert die der Vorlage (wiki/framework/master-template.md, festgelegt am 30.09.2026): Navy, Bernstein als Handlungsfarbe, Roboto Slab und Roboto.",
+    "eyebrows": "Genau eine Augenbraue, nur im Kopfbereich der Startseite über der H1: „Schlüsseldienste in Deutschland\" (Branche + Land, aus niche.title + country.name), Versalien, Bernstein (--action), ~0,8rem, Laufweite 0,14em. Menschlich entschieden am 2026-11-05 zur B-Überschrift („Damit die Rechnung keine Überraschung wird.\"); konkret (nennt Branche und Land), sonst trägt keine Seite eine Augenbraue (wiki/framework/design-seed.md).",
     "bg": "#FFFFFF",
     "surface": "#F5F6F8",
     "text": "#325C68",

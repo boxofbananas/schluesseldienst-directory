@@ -39,8 +39,9 @@ const schema = [
 <Base title={title} description={description} path="/" schema={schema} headTone={site.design.band ? 'band' : 'tint'} headImage={site.design.heroImage || ''}>
   <Fragment slot="head">
     <div class="hero">
-      <h1>{site.niche.title} in {site.country.name}, <span class="hl">die ihren Preis vorher nennen</span></h1>
-      <p class="lede">Wer vor einer verschlossenen Tür steht, ruft die erste Nummer an und erfährt den Preis, wenn die Arbeit längst läuft. Hier sehen Sie vorher, welcher Betrieb sich auf einen Festpreis festlegt und welcher nicht.</p>
+      <p class="eyebrow">{site.niche.title} in {site.country.name}</p>
+      <h1>Damit die Rechnung <span class="hl">keine Überraschung</span> wird.</h1>
+      <p class="lede">Bei einem Schlüsseldienst erfährt man den Preis oft erst, wenn die Tür schon offen ist. Dieses Verzeichnis zeigt für jede Stadt, welcher Betrieb seinen Preis für Türöffnung und Anfahrt vorher nennt und welcher nicht.</p>
       <SearchForm site={site} attributes={attributes} />
       {heroPoints.length > 0 && <ul class="hero-points">{heroPoints.map((pt) => <li><Check />{pt}</li>)}</ul>}
       <p class="hero-link"><a href="#ratgeber">Woran Sie einen guten {site.niche.singular} erkennen</a></p>

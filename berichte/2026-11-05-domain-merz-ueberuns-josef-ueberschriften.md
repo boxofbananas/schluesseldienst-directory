@@ -211,3 +211,44 @@ für www einen proxied DNS-Eintrag plus die Redirect-Regel angelegt hat, prüfe 
   https://schluesseldienste-deutschland.pages.dev --expect-urls 2806`.
 - Erst nach „Alle Prüfungen bestanden" beginnt die gestaffelte Indexierung. Sitemap einreichen und
   Suchmaschine anmelden bleiben bis dahin bewusst aus.
+
+---
+
+# Nachtrag 3: Startseiten-Überschrift festgelegt (Fassung B)
+
+A und C entfallen. **Live gesetzt und ausgeliefert** (`6c99409f`):
+- Augenbraue „SCHLÜSSELDIENSTE IN DEUTSCHLAND" (Versalien, Bernstein) über der H1.
+- H1: „Damit die Rechnung **keine Überraschung** wird." — allein „keine Überraschung" in Bernstein,
+  der Rest weiß (bei A war zu viel Fläche farbig).
+- Unterzeile in deiner Formulierung: „Bei einem Schlüsseldienst erfährt man den Preis oft erst,
+  wenn die Tür schon offen ist. Dieses Verzeichnis zeigt für jede Stadt, welcher Betrieb seinen
+  **Preis** (nicht „Festpreis") für Türöffnung und Anfahrt vorher nennt und welcher nicht."
+
+Sauber umgesetzt, nicht als Experiment:
+- Augenbraue als CSS-Klasse `.eyebrow` (nicht inline), Farbe `--action`.
+- Behandlung in `site.json` → `design.eyebrows` festgehalten, wie es [[design-seed]] verlangt;
+  der Kommentar in `global.css` entsprechend aktualisiert. „Schlüsseldienste in Deutschland" ist
+  **konkret** (besteht den „stünde das unverändert auf jedem Verzeichnis?"-Test) und trägt zugleich
+  die Branche in den ersten Absatz fürs Textgate.
+- Begründung im Wiki: [[page-sections]], „Warum die Startseiten-Überschrift eine Haltung trägt":
+  die Startseite ist nicht der Notfall-Einstieg (der Notfall sucht „Schlüsseldienst <Stadt>" →
+  Stadtseite); ihr Publikum sind Marke-Besucher und die Betriebe, denen Plätze und die
+  Festpreis-Garantie verkauft werden; für die wirkt eine Haltung besser als ein Notfall-Aufhänger,
+  und B schließt Vermieter, Hausverwaltungen und Schließanlagen-Kunden nicht aus.
+- Textgate bestanden.
+- Seitenkopf-Bilder: `berichte/screenshots/startseite-kopf-1440.png` und `…-390.png` (die
+  gewählte, live stehende Fassung). Die früheren `hook-a/-c-1440.png` zeigen die verworfenen
+  Fassungen und bleiben als Entscheidungsbeleg liegen.
+
+# Offen / später (bewusst nicht von mir vorbereitet)
+
+- **Domain:** wartet auf Daniels DNS-Klicks im Cloudflare-Dashboard. Auf sein Signal:
+  `python3 scripts/check_live.py https://die-besten-schluesseldienste.de --pages-dev
+  https://schluesseldienste-deutschland.pages.dev --expect-urls 2806`, dann Ergebnis melden.
+  Gestaffelte Indexierung erst nach bestandener Prüfung; Sitemap/Suchmaschine bis dahin aus.
+- **Festpreis-Garantie der eigenen Betriebe:** wartet auf Daniels drei Preise (Türöffnung tagsüber,
+  nachts/Wochenende, Anfahrt). Danach regulär über `geprueft`, `geprueft_jahr` und die drei
+  Preisspalten, nach demselben Ablauf wie bei jedem fremden Betrieb. **Nichts davon vorbereitet.**
+
+Unverändert: die Sortierung liest `owned` nicht, kein eigener Betrieb wird manuell nach oben
+gesetzt, kein eigener Betrieb steht in einem Fließtext als Empfehlung.

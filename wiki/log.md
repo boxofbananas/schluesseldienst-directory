@@ -476,3 +476,13 @@ Zahlen, was auf Freigabe wartet.
   den Domain-Umzug erweitert: www→Apex-Weiterleitung (301/308), TLS-Zertifikat, Sitemap-Hosts =
   echte Domain (kein pages.dev); greifen nur gegen die echte Domain. Lauf gegen pages.dev weiter
   grün (Sitemap 2806).
+
+- 2026-11-05 Startseiten-Überschrift festgelegt: Fassung B. Augenbraue „Schlüsseldienste in
+  Deutschland" (CSS `.eyebrow`, `--action`) über H1 „Damit die Rechnung keine Überraschung
+  wird." (allein „keine Überraschung" in Bernstein); Unterzeile „… seinen Preis für Türöffnung
+  und Anfahrt vorher nennt …". A/C entfallen. Augenbraue in `design.eyebrows` festgehalten
+  (konkret, einzige der Site), global.css-Kommentar + [[page-sections]] (Begründung: Startseite
+  ist kein Notfall-Einstieg, Publikum = Marke + Verkauf) aktualisiert. Textgate bestanden,
+  ausgeliefert `6c99409f`. Seitenkopf-Bilder `berichte/screenshots/startseite-kopf-{1440,390}.png`.
+  Offen (nicht vorbereitet): Domain (Daniels DNS, dann check_live), Festpreis-Garantie eigener
+  Betriebe (Daniels drei Preise, dann geprueft/geprueft_jahr + Preisspalten).
