@@ -250,6 +250,8 @@ p.garantie::before { content: ""; display: inline-block; width: .7em; height: .7
 .garantie-preise div { display: contents; }
 .garantie-preise dt { color: var(--text); }
 .garantie-preise dd { margin: 0; font-weight: 700; color: var(--heading); text-align: right; white-space: nowrap; }
+.garantie.voll .garantie-gruppe { margin: .2rem 0 .3rem; font-size: .8rem; font-weight: 700; letter-spacing: .02em; color: var(--heading); }
+.garantie.voll .garantie-fuss { margin: 0 0 .5rem; font-size: .85rem; color: var(--muted); }
 .garantie.voll .meta { margin: 0; font-size: .85rem; color: var(--muted); }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); clip-path: inset(50%); white-space: nowrap; border: 0; }
 /* A fieldset's default min-inline-size is min-content, so the hidden services fieldset in the search form

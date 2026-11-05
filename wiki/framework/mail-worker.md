@@ -43,7 +43,7 @@ ausgeliefert, damit seine Zuordnungsliste aktuell ist.
 Zusätzlich zu den Arten der englischen Fassung kommt eine hinzu: **Anfrage zur
 Festpreis-Garantie** (Kategorie `garantie_request`). Sie wird nicht wie eine Premium-Anfrage
 behandelt, weil die Garantie kostenlos ist. Der Entwurf verweist in diesem Fall auf
-`/festpreis-garantie/antrag/`, sagt, dass der Betrieb dort seine drei Standardpreise nennt,
+`/festpreis-garantie/antrag/`, sagt, dass der Betrieb dort seine Preise (Dienstleistung und Material) nennt,
 nennt selbst keine Preise und verspricht keine Garantie, sondern sagt, dass die Angaben geprüft
 werden ([[siegel-programm]]). Dasselbe gilt, wenn ein Betrieb fragt, warum bei ihm „Noch keine
 Festpreis-Garantie" steht: das ist eine Garantie-Anfrage und keine Beschwerde. Meldet dagegen

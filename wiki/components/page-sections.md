@@ -50,7 +50,7 @@ Hälfte des Textes · Premium-Block · „Die besten Schlüsseldienste in [Stadt
 [Stadt]" als Karten · Hinweis aufs Beanspruchen.
 
 **Eintragsseite:** Brotkrumen · Zeichen · H1 · Bewertungszeile · **Garantie-Zeichen („Festpreis-Garantie
-[Jahr]" mit den drei Preisen Türöffnung tagsüber, nachts, Anfahrt und dem Weg zur Meldung einer
+[Jahr]" mit den drei Dienstleistungspreisen Türöffnung tagsüber, nachts, Anfahrt, dem Materialblock bei abgeschlossener Tür und dem Weg zur Meldung einer
 Rechnung, oder „Noch keine Festpreis-Garantie")** · „Schlüsseldienst in [Stadt]" · (Quellreihenfolge) Über
 den Betrieb · Leistungen und Angaben (mit Links auf die Leistungsseiten) · Kontakt und
 Öffnungszeiten · „Weitere Schlüsseldienste in [Stadt]" · Hinweiszeile; Seitenspalte:
@@ -69,11 +69,11 @@ Geltungsdauer, Erneuerung, Entzug · der Weg zur Meldung einer Rechnung · der S
 Nichtkäuflichkeit · Schaltfläche auf `/festpreis-garantie/antrag/`.
 
 **Garantie-Antrag (`/festpreis-garantie/antrag/`):** Bandkopf · kurzer Begleittext · Fragebogen
-zu den sechs Voraussetzungen mit den drei Preisen als Pflichtfeldern · Serviceversprechen zum
+zu den sechs Voraussetzungen mit den Preisen (Dienstleistung und Material) als Pflichtfeldern · Serviceversprechen zum
 Unterschreiben · Absenden · Hinweis, dass ein Mensch prüft
 und es nichts kostet.
 
-**Garantie-Nachweis (`/auszeichnung/[slug]/`, `noindex`):** Betrieb, Jahr, die drei Preise,
+**Garantie-Nachweis (`/auszeichnung/[slug]/`, `noindex`):** Betrieb, Jahr, die Preise,
 erfüllte Voraussetzungen · Link auf `/festpreis-garantie/` und auf die Eintragsseite · das
 HTML-Schnipsel zum Kopieren.
 

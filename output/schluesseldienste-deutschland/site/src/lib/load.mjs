@@ -396,9 +396,13 @@ export function loadDirectory() {
     const garantieTag = euro(r.garantie_tag);
     const garantieNacht = euro(r.garantie_nacht);
     const garantieAnfahrt = euro(r.garantie_anfahrt);
+    // Material bei abgeschlossener Tuer: Standardzylinder + Aufschlag je 5 mm Mehrlaenge
+    // (wiki/konventionen.md). Die drei Preise oben sind die Dienstleistung, nicht der Gesamtbetrag.
+    const garantieZylinder = euro(r.garantie_zylinder);
+    const garantieZylinder5mm = euro(r.garantie_zylinder_5mm);
     const geprueft = truthy(r.geprueft) && garantieTag != null;
     const geprueftJahr = (r.geprueft_jahr || '').trim();
-    const garantie = geprueft ? { jahr: geprueftJahr, tag: garantieTag, nacht: garantieNacht, anfahrt: garantieAnfahrt } : null;
+    const garantie = geprueft ? { jahr: geprueftJahr, tag: garantieTag, nacht: garantieNacht, anfahrt: garantieAnfahrt, zylinder: garantieZylinder, zylinder5mm: garantieZylinder5mm } : null;
     return {
       name: sanitizeGlyphs(r.name), slug, city, citySlug, regionName: region.name, regionSlug: region.slug,
       regionCode: region.code, stateCode: region.code, postalCode: r.postal_code,

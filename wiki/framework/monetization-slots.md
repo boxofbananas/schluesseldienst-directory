@@ -39,7 +39,7 @@ Der Ablauf hat damit zwei Türen, und das ist Absicht:
 | Tür | Adresse | Was sie auslöst |
 |---|---|---|
 | **Eintrag beanspruchen** | `/eintrag-beanspruchen/` | Daten ändern, Fotos nachliefern, kostenlos; danach das Gespräch über Sichtbarkeit |
-| **Festpreis-Garantie beantragen** | `/festpreis-garantie/antrag/` | der Garantie-Antrag mit den drei Preisen, geprüft gegen die sechs Voraussetzungen, kostenlos; danach dasselbe Gespräch |
+| **Festpreis-Garantie beantragen** | `/festpreis-garantie/antrag/` | der Garantie-Antrag mit den Preisen, geprüft gegen die sechs Voraussetzungen, kostenlos; danach dasselbe Gespräch |
 
 Beide Formulare fragen am Ende, ob über Premium gesprochen werden soll. Beide Anfragen sind
 warme Kontakte und werden am selben Tag beantwortet.
@@ -65,7 +65,7 @@ E-Mail-Domain passt zur Website; die Telefonnummer passt zur Google-Zeile. Dann 
   Fotos, keine Profillinks. Dazu „Noch keine Festpreis-Garantie", solange keine Garantie vorliegt.
 - **Ausgebaut (beansprucht mit Premium oder bezahlter Stufe):** Fotos vom Inhaber, alle Links
   gefolgt (Website und Profile), die Karte nach Klick, Öffnungszeiten. Die Garantie mit
-  ihren drei Preisen zeigt jeder Eintrag, der sie hat, in beiden Zuständen. Diese Lücke ist das Verkaufsargument: „Sie haben einen Eintrag, und er ist nicht
+  ihren Preisen zeigt jeder Eintrag, der sie hat, in beiden Zuständen. Diese Lücke ist das Verkaufsargument: „Sie haben einen Eintrag, und er ist nicht
   ausgebaut."
 
 ## Die Stufen

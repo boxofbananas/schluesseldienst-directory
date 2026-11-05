@@ -18,7 +18,7 @@ geprüfter Garantie-Antrag oder eine Korrektur sie ändert, nicht nach Kalender.
   Spam-Anmeldungen die echten, und die Betreiber haben alle Zugänge wieder abgeschaltet.
 - Hinein führen genau zwei Formulare:
   - `/eintrag-beanspruchen/` – Daten ändern, Fotos nachliefern
-  - `/festpreis-garantie/antrag/` – der Garantie-Antrag mit den drei Preisen, geprüft gegen die
+  - `/festpreis-garantie/antrag/` – der Garantie-Antrag mit den Preisen, geprüft gegen die
     sechs Voraussetzungen ([[siegel-programm]])
 - **Jede Einsendung wird von Hand geprüft**, bevor sich etwas ändert: ein echter örtlicher
   Betrieb (kein Anfragenvermittler, kein Verzeichnis, kein Callcenter), die E-Mail-Domain
@@ -41,8 +41,9 @@ Die Festpreis-Garantie trägt die Jahreszahl und gilt ein Jahr ([[siegel-program
 folgt der einzige Termin im Kalender dieses Verzeichnisses, und er ist ein Anrufgrund:
 
 1. Einmal im Jahr alle Zeilen mit `geprueft_jahr` aus dem Vorjahr durchsehen.
-2. Jeden dieser Betriebe anrufen: Gelten die drei Preise (`garantie_tag`, `garantie_nacht`,
-   `garantie_anfahrt`) noch, oder haben sie sich geändert? Die sechs Voraussetzungen erneut
+2. Jeden dieser Betriebe anrufen: Gelten die Preise (`garantie_tag`, `garantie_nacht`,
+   `garantie_anfahrt` für die Dienstleistung, `garantie_zylinder` und `garantie_zylinder_5mm`
+   für das Material) noch, oder haben sie sich geändert? Die sechs Voraussetzungen erneut
    bestätigen, das Serviceversprechen erneut unterschreiben. Beim selben Anruf geht es um
    Sichtbarkeit.
 3. Wer bestätigt, bekommt `geprueft_jahr` auf das neue Jahr und gegebenenfalls die neuen

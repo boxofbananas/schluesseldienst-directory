@@ -67,7 +67,7 @@ Vier Punkte, die jede Seite dieses Wikis berühren:
 2. **Überhöhte Rechnungen sind das Thema der Branche.** Verbraucherzentralen und die
    polizeiliche Kriminalprävention warnen seit Jahren vor Abzockern mit ortsfremden Nummern.
    Das ist der Grund, warum die Festpreis-Garantie existiert und warum keine Seite einen
-   Preis nennt, der nicht belegt ist: im Eintrag stehen nur die drei Preise, die ein Betrieb
+   Preis nennt, der nicht belegt ist: im Eintrag stehen nur die Preise, die ein Betrieb
    verbindlich garantiert hat ([[siegel-programm]], [[page-types]]).
 3. **Die Kategorie fängt fremde Gewerbe ein.** `locksmith` trifft in Deutschland auch
    Schuhmacher, Gravurbetriebe, Metallbauer und Baumärkte, dazu Kettenbetriebe und Callcenter

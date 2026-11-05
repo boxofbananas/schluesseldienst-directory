@@ -125,12 +125,20 @@ halten.
 Die Garantie hat drei Teile. Ohne einen davon ist sie nur ein Etikett:
 
 1. **Der Preis steht im Eintrag, bevor der Kunde anruft.** Jeder Betrieb mit Garantie
-   veröffentlicht seine drei Standardpreise: Türöffnung tagsüber, Türöffnung nachts (nachts,
-   Wochenende, Feiertag) und Anfahrt. Sie stehen im Eintrag, auf der Stadtkarte und im
-   Nachweis auf der Website des Betriebs. Spalten: `garantie_tag`, `garantie_nacht`,
-   `garantie_anfahrt` – Euro-Beträge als ganze Zahl ohne Einheit; `garantie_anfahrt` = `0`
-   heißt „im Preis enthalten“. Spalte `geprueft` = `true` heißt „Garantie aktiv“,
-   `geprueft_jahr` = Jahr der Prüfung. Die Spaltennamen bleiben aus Rücksicht auf den Code.
+   veröffentlicht seine Preise, und zwar getrennt nach Dienstleistung und Material. Die drei
+   Standardpreise sind die **Dienstleistung** – die Türöffnung, nicht der Gesamtbetrag:
+   Türöffnung tagsüber, Türöffnung nachts (nachts, Wochenende, Feiertag) und Anfahrt. Sie
+   gelten für die zugefallene wie die abgeschlossene Tür; die Arbeit ist dieselbe. Bei einer
+   **abgeschlossenen Tür** kommt das **Material** dazu, nach fester Regel: ein Standardzylinder
+   zu festem Betrag, je 5 mm Mehrlänge ein fester Aufschlag. Eine **defekte Tür** (verzogen,
+   beschädigt, Einbruchschaden) hat keinen Festpreis, sondern einen **Ab-Preis**, der vor
+   Arbeitsbeginn beziffert wird. Alle veröffentlichten Zahlen stehen im Eintrag, auf der
+   Stadtkarte und im Nachweis auf der Website des Betriebs. Spalten: `garantie_tag`,
+   `garantie_nacht`, `garantie_anfahrt` (Dienstleistung) und `garantie_zylinder`,
+   `garantie_zylinder_5mm` (Material) – Euro-Beträge als ganze Zahl ohne Einheit;
+   `garantie_anfahrt` = `0` heißt „im Preis enthalten“. Spalte `geprueft` = `true` heißt
+   „Garantie aktiv“, `geprueft_jahr` = Jahr der Prüfung. Die Spaltennamen bleiben aus Rücksicht
+   auf den Code.
 2. **Der Betrieb garantiert: Der genannte Preis ist der Rechnungspreis.** Das ist das
    unterschriebene Serviceversprechen. Die Garantie gibt der Betrieb, nicht der Herausgeber;
    der Herausgeber prüft die Voraussetzungen und überwacht die Einhaltung. Das steht so auf
@@ -142,7 +150,7 @@ Die Garantie hat drei Teile. Ohne einen davon ist sie nur ein Etikett:
 Zwei Stufen, beide sichtbar im Eintrag:
 
 1. **Festpreis-Garantie** – kostenlos. Der Betrieb füllt den Antrag auf
-   `/festpreis-garantie/antrag/` aus, nennt seine drei Preise verbindlich und gibt das
+   `/festpreis-garantie/antrag/` aus, nennt seine Preise verbindlich (Dienstleistung und Material) und gibt das
    Serviceversprechen ab; der Herausgeber prüft die sechs Voraussetzungen an Unterlagen und
    Website.
 2. **Premium / Top-Platzierung** – kostenpflichtig, siehe `templates/featured-tiers.md`.
@@ -152,7 +160,9 @@ ist die Garantie angreifbar):
 - vollständiges Impressum auf der eigenen Website
 - eine Telefonnummer, unter der der Betrieb erreichbar ist und bei der Prüfung tatsächlich
   abgehoben hat; die Nummer wird vor der Erteilung angerufen
-- die drei Standardpreise verbindlich genannt (Türöffnung tagsüber, nachts, Anfahrt)
+- die Preise verbindlich genannt: die drei Preise der Dienstleistung (Türöffnung tagsüber,
+  nachts, Anfahrt) und – für die abgeschlossene Tür – die beiden Materialpreise
+  (Standardzylinder, Aufschlag je 5 mm Mehrlänge)
 - liegen mindestens 5 Google-Bewertungen vor, beträgt der Schnitt mindestens 4,0; liegen weniger
   oder keine vor, entscheiden die übrigen Voraussetzungen (die Garantie sagt etwas über
   Preissicherheit, nicht über Bekanntheit – eine Mindestzahl an Bewertungen schlösse neue und

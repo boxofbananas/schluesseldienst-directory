@@ -48,7 +48,7 @@ KEEP = ["name","phone","website","address","street","city","state","state_code",
 # angelegt; gefüllt werden sie erst, wenn der Herausgeber den Garantie-Antrag eines Betriebs
 # geprüft hat. preisschutz ist die reservierte Stufe „Preisschutz": angelegt, von keinem Skript
 # und keiner Seite ausgewertet, bis der Betreiber sie freigibt.
-GARANTIE = ["geprueft","geprueft_jahr","garantie_tag","garantie_nacht","garantie_anfahrt","preisschutz"]
+GARANTIE = ["geprueft","geprueft_jahr","garantie_tag","garantie_nacht","garantie_anfahrt","garantie_zylinder","garantie_zylinder_5mm","preisschutz"]
 ADDED = ["slug","city_slug","owned","thin","featured","featured_cities","claimed","geo_precision","population"] + GARANTIE
 POP_TABELLE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "de-city-population.tsv")
 
@@ -634,7 +634,8 @@ def main():
               f"**Als Dublette verworfen:** {fmt(dropped_dupes)} (gleiche Telefonnummer oder gleiche Adresse; behalten wurde die "
               "Zeile mit mehr Bewertungen)",
               f"**Neue, leere Spalten:** `geprueft`, `geprueft_jahr`, `garantie_tag`, `garantie_nacht`, `garantie_anfahrt` "
-              "(Festpreis-Garantie, wiki/konventionen.md) und `preisschutz` (reservierte Stufe, nicht ausgewertet)",
+              "(Dienstleistungspreise der Festpreis-Garantie), `garantie_zylinder`, `garantie_zylinder_5mm` "
+              "(Materialpreis bei abgeschlossener Tür, wiki/konventionen.md) und `preisschutz` (reservierte Stufe, nicht ausgewertet)",
               f"**Website-Domains in 02-domains.txt:** {fmt(len(domains))}"]
     if notes:
         lines += ["", "## Hinweise zum Lauf", ""] + [f"- {x}" for x in notes]

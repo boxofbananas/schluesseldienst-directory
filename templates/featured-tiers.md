@@ -62,7 +62,7 @@ geraten.
 Festpreis-Garantie zu, ob er eine Stufe bezahlt hat oder nicht, und keine Stufe bringt ihn mit.
 Gate 5 erzeugt das Bild `/auszeichnung/[slug].svg` und die Nachweisseite
 `/auszeichnung/[slug]/`, auf der dieses Schnipsel zum Kopieren steht. **Nur für Betriebe mit
-Garantie** (`geprueft` = `true` und die drei Preise gesetzt).
+Garantie** (`geprueft` = `true` und die Preise gesetzt).
 
 ```html
 <a href="https://{{DOMAIN}}/firma/{{BUNDESLAND}}/{{STADT}}/{{SLUG}}/" rel="noopener">
@@ -86,7 +86,7 @@ Beispiel mit eingesetzten Werten:
 große Zeile, darunter `Die besten Schlüsseldienste` als kleine. Die Jahreszahl ist das Jahr aus
 der Spalte `geprueft_jahr`, der Betrag ist die Spalte `garantie_tag`; beides steht immer
 darauf: die Garantie gilt ein Jahr und wird jährlich erneuert, und der Preis ist der Kern der
-Garantie. Der Link führt auf die Eintragsseite, wo alle drei Preise stehen.
+Garantie. Der Link führt auf die Eintragsseite, wo alle Preise stehen.
 
 **Was nicht auf dem Bild und nicht im Alternativtext steht:** „lizenziert", „zugelassen",
 „zertifiziert", „Meisterbetrieb", „Innung", „Verband", „Kammer", „amtlich",

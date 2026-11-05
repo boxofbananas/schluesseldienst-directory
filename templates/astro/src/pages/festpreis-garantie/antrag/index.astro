@@ -7,7 +7,7 @@ import Base from '../../../layouts/Base.astro';
 import { loadDirectory } from '../../../lib/load.mjs';
 const { site } = loadDirectory();
 const title = `Festpreis-Garantie beantragen | ${site.brand}`;
-const description = `Die Festpreis-Garantie auf ${site.brand} beantragen: drei Preise nennen, Serviceversprechen abgeben, kostenlose Prüfung in wenigen Tagen.`;
+const description = `Die Festpreis-Garantie auf ${site.brand} beantragen: die Preise nennen, Serviceversprechen abgeben, kostenlose Prüfung in wenigen Tagen.`;
 ---
 <Base title={title} description={description} path="/festpreis-garantie/antrag/" noindex={true}>
   <Fragment slot="head">
@@ -21,7 +21,7 @@ const description = `Die Festpreis-Garantie auf ${site.brand} beantragen: drei P
       Ihnen welche.
     </p>
     <p>
-      Die drei Preise, die Sie hier nennen, stehen nach der Prüfung öffentlich in Ihrem Eintrag und auf
+      Die Preise, die Sie hier nennen, stehen nach der Prüfung öffentlich in Ihrem Eintrag und auf
       Ihrer Stadtseite. Nennen Sie deshalb die Preise, die Sie Ihren Kunden tatsächlich in Rechnung
       stellen. Ändern können Sie sie jederzeit per E-Mail; die Änderung gilt, sobald sie im Eintrag steht.
     </p>
@@ -87,10 +87,15 @@ const description = `Die Festpreis-Garantie auf ${site.brand} beantragen: drei P
     <h2>Ihre garantierten Preise</h2>
     <p class="meta">
       Voraussetzung 3. Ganze Euro-Beträge, Endpreise einschließlich Umsatzsteuer, so wie sie auf der
-      Rechnung stehen. Diese drei Zahlen werden veröffentlicht.
+      Rechnung stehen. Diese Zahlen werden veröffentlicht.
+    </p>
+    <h3>Dienstleistung (Festpreis)</h3>
+    <p class="meta">
+      Der Festpreis gilt für die Arbeit – die Türöffnung. Er ist bei der zugefallenen wie der
+      abgeschlossenen Tür derselbe; das Material kommt getrennt dazu (unten).
     </p>
     <label>
-      Türöffnung tagsüber (zugefallene oder abgeschlossene Tür ohne Schaden, werktags)
+      Türöffnung tagsüber (werktags zu üblichen Zeiten)
       <input type="number" name="garantie_tag" min="1" max="2000" step="1" inputmode="numeric" placeholder="z. B. 89" required />
     </label>
     <label>
@@ -101,15 +106,31 @@ const description = `Die Festpreis-Garantie auf ${site.brand} beantragen: drei P
       Anfahrt (0 eintragen, wenn im Preis enthalten)
       <input type="number" name="garantie_anfahrt" min="0" max="500" step="1" inputmode="numeric" placeholder="z. B. 0" required />
     </label>
+    <h3>Material bei abgeschlossener Tür</h3>
+    <p class="meta">
+      Nur bei einer abgeschlossenen Tür, wenn der Zylinder getauscht wird. Zwei Zahlen: der Preis eines
+      Standardzylinders und der Aufschlag je 5 mm Mehrlänge (dickere Tür). Aus beiden errechnet sich der
+      Materialpreis für jede Türstärke. Bringen Sie Ihre Staffel bitte in dieses Format – nur so lassen
+      sich die Betriebe vergleichen.
+    </p>
+    <label>
+      Standardzylinder
+      <input type="number" name="garantie_zylinder" min="1" max="2000" step="1" inputmode="numeric" placeholder="z. B. 39" required />
+    </label>
+    <label>
+      Aufschlag je 5 mm Mehrlänge
+      <input type="number" name="garantie_zylinder_5mm" min="0" max="500" step="1" inputmode="numeric" placeholder="z. B. 4" required />
+    </label>
     <label>
       Weitere Zuschläge, die Sie vorab nennen (optional)
-      <input name="zuschlaege_sonstige" placeholder="z. B. Schlossersatz ab 60 €, sonst keine" />
+      <input name="zuschlaege_sonstige" placeholder="z. B. Zusatzleistung auf Wunsch, sonst keine" />
     </label>
 
     <h2>Serviceversprechen</h2>
-    <p class="meta">Voraussetzung 6. Alle vier Zusagen sind Bedingung für die Garantie.</p>
-    <label class="check"><input type="checkbox" name="versprechen_rechnungspreis" value="ja" required /> Der genannte Preis ist der Preis auf der Rechnung. Wir bestätigen ihn vor Arbeitsbeginn, und er gilt.</label>
-    <label class="check"><input type="checkbox" name="versprechen_zuschlaege" value="ja" required /> Wir erheben keine Zuschläge, die nicht vorher ausdrücklich beziffert wurden.</label>
+    <p class="meta">Voraussetzung 6. Alle fünf Zusagen sind Bedingung für die Garantie.</p>
+    <label class="check"><input type="checkbox" name="versprechen_rechnungspreis" value="ja" required /> Der genannte Festpreis ist der Preis für die Dienstleistung (Türöffnung) und steht auf der Rechnung. Er gilt für die zugefallene wie die abgeschlossene Tür und wird vor Arbeitsbeginn bestätigt.</label>
+    <label class="check"><input type="checkbox" name="versprechen_material" value="ja" required /> Bei einer abgeschlossenen Tür kommt nur das Material dazu, zu den im Eintrag genannten Beträgen (Standardzylinder, Aufschlag je 5 mm Mehrlänge).</label>
+    <label class="check"><input type="checkbox" name="versprechen_zuschlaege" value="ja" required /> Defekte Türen und Sonderfälle beziffern wir vor Arbeitsbeginn; gearbeitet wird erst nach Zustimmung. Weitere Zuschläge, die nicht vorher beziffert wurden, gibt es nicht.</label>
     <label class="check"><input type="checkbox" name="versprechen_rechnung" value="ja" required /> Jeder Auftrag wird mit einer Rechnung abgerechnet, die die vollständige Firmenanschrift trägt.</label>
     <label class="check"><input type="checkbox" name="versprechen_zerstoerungsfrei" value="ja" required /> Wir öffnen zerstörungsfrei, soweit es technisch möglich ist, und erklären vorher, wenn ein Schloss ersetzt werden muss.</label>
     <label>
@@ -140,10 +161,18 @@ const description = `Die Festpreis-Garantie auf ${site.brand} beantragen: drei P
     </label>
     <label>Anmerkungen <textarea name="anmerkungen" rows="4"></textarea></label>
 
+    <p class="meta" style="font-size:.85rem;line-height:1.5">
+      <b>Hinweis nach Art. 13 DSGVO.</b> Verantwortlich ist die {site.publisher.legalName} ({site.publisher.managingDirector}).
+      Wir verarbeiten Ihre Angaben allein, um diesen Garantie-Antrag zu prüfen (Rechtsgrundlage
+      Art. 6 Abs. 1 lit. b DSGVO, vorvertragliche Maßnahme auf Ihre Anfrage). Die Daten liegen bei
+      unserem Hoster Cloudflare; unbeantwortete oder abgelehnte Anträge werden nach 90 Tagen gelöscht.
+      Die genannten Preise werden nach der Prüfung in Ihrem Eintrag veröffentlicht. Einzelheiten in der
+      <a href="/datenschutz/">Datenschutzerklärung</a>.
+    </p>
     <label class="check">
       <input type="checkbox" name="datenschutz" value="ja" required />
       Ich habe die <a href="/datenschutz/">Datenschutzerklärung</a> gelesen und weiß, wie die hier
-      gemachten Angaben zur Bearbeitung dieses Antrags verarbeitet werden und dass die drei Preise
+      gemachten Angaben zur Bearbeitung dieses Antrags verarbeitet werden und dass die Preise
       veröffentlicht werden.
     </label>
 

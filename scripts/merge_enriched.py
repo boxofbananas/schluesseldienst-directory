@@ -106,7 +106,8 @@ TEXT_CHECKS = [(PRICE, "names a price in euros or a percentage"),
 # geprueft bis preisschutz: die Spalten der Festpreis-Garantie (wiki/konventionen.md), von Hand
 # gesetzt, hier nur unveraendert durchgereicht.
 EXTRA = ["premium", "best_of_rank", "photos", "geprueft", "geprueft_jahr",
-         "garantie_tag", "garantie_nacht", "garantie_anfahrt", "preisschutz"]
+         "garantie_tag", "garantie_nacht", "garantie_anfahrt",
+         "garantie_zylinder", "garantie_zylinder_5mm", "preisschutz"]
 
 
 def load_patterns(path):

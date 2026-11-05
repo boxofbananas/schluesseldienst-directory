@@ -147,7 +147,7 @@ Ortsregel aus [[page-types]].
 ## Eintragsseite
 
 Kopf: Brotkrumen, Zeichen, H1, Bewertungszeile (Sterne, Wert mit Komma, Zahl), **das
-Garantie-Zeichen** („Festpreis-Garantie 2026" mit den drei Preisen und Link auf
+Garantie-Zeichen** („Festpreis-Garantie 2026" mit den Dienstleistungspreisen, falls hinterlegt dem Materialblock, und Link auf
 `/festpreis-garantie/`, oder „Noch keine Festpreis-Garantie" mit Link auf
 `/festpreis-garantie/antrag/`; [[siegel-programm]], nicht abschaltbar), „Schlüsseldienst in [Stadt]".
 Quellreihenfolge darunter: Über den Betrieb, Leistungen und Angaben (bestätigte Leistungen als

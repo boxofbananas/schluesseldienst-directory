@@ -485,4 +485,21 @@ Zahlen, was auf Freigabe wartet.
   ist kein Notfall-Einstieg, Publikum = Marke + Verkauf) aktualisiert. Textgate bestanden,
   ausgeliefert `6c99409f`. Seitenkopf-Bilder `berichte/screenshots/startseite-kopf-{1440,390}.png`.
   Offen (nicht vorbereitet): Domain (Daniels DNS, dann check_live), Festpreis-Garantie eigener
-  Betriebe (Daniels drei Preise, dann geprueft/geprueft_jahr + Preisspalten).
+  Betriebe (Daniels Preise, dann geprueft/geprueft_jahr + Preisspalten).
+
+- 2026-11-05 Voraussetzung 2 der Festpreis-Garantie: zwei im `output/`-Build verbliebene
+  Alt-Fassungen (öffentliche Seite + Antragsformular) auf den Wiki-Wortlaut korrigiert; Ursache war
+  Template-vs-Build-Drift (2026-11-04-Edit traf Wiki + `templates/`, nicht den `output/`-Baum).
+  Maschinenprüfung vorgeschlagen (Stale-/Required-Phrase-Wächter übers ganze Repo, Single-Source der
+  Listen in site.json, Template↔Build-Parität) — nicht gebaut. Bericht
+  `berichte/2026-11-05-voraussetzung2-fix-material-preis.md`.
+- 2026-11-05 Festpreis-Garantie um das Material präzisiert: Dienstleistung (drei Preise) vs. Material
+  bei abgeschlossener Tür (neue Spalten `garantie_zylinder`, `garantie_zylinder_5mm`, Standardzylinder
+  + Aufschlag je 5 mm; Variante A, zwei feste Spalten) vs. defekte Tür (Ab-Preis, vor Arbeitsbeginn
+  beziffert, keine Spalte). Preissemantik in **`konventionen.md` Z. 128–155** geändert (alter Wortlaut
+  im Bericht zitiert): „drei Standardpreise" → Dienstleistung + Material. Serviceversprechen auf fünf
+  Punkte, Preisblock der Eintragsseite in zwei beschriftete Gruppen + Fußnote (Karte/Nachweis
+  unverändert). Alle drei Antragsformulare, `load.mjs`, die Pipeline-Skripte und ~20 „drei Preise"-
+  Stellen im Wiki angeglichen; Log-Historie unangetastet. Textgate: neue Preistexte sauber (drei
+  vorbestehende Treffer der Rechtsseite unberührt). Ausgeliefert `cb47edd7`. Screenshot
+  `berichte/screenshots/preisblock-material-5zahlen.png`.

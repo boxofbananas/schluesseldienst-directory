@@ -135,8 +135,9 @@ als Name des Programms und als Werbeversprechen eines Betriebs. Die Regel:
   `/festpreis-garantie/` (die Seite erklärt, was der Betrieb garantiert), auf `/premium/` (der
   Satz zur Nichtkäuflichkeit) und in den AGB.
 - **Im Eintrag** steht das Wort nur in dem Block, den die Seite aus den Spalten `geprueft`,
-  `geprueft_jahr`, `garantie_tag`, `garantie_nacht` und `garantie_anfahrt` baut: „Festpreis-
-  Garantie 2026", die drei Preise, der Satz, dass der Betrieb den genannten Preis als
+  `geprueft_jahr`, `garantie_tag`, `garantie_nacht`, `garantie_anfahrt`, `garantie_zylinder` und
+  `garantie_zylinder_5mm` baut: „Festpreis-
+  Garantie 2026", die Preise, der Satz, dass der Betrieb den genannten Preis als
   Rechnungspreis garantiert. Dieser Block kommt aus dem Template und wird nicht gelintet.
 - **Ein Betrieb ohne Garantie darf in seiner Beschreibung nicht „garantiert" sagen**, und ein
   Betrieb mit Garantie auch nicht: die Garantie zeigt die Seite, nicht sein Text. Die

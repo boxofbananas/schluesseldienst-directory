@@ -273,7 +273,8 @@ def main():
             "owned": "true", "thin": "true",
             "featured": "", "featured_cities": "", "claimed": "",
             "geprueft": "", "geprueft_jahr": "",
-            "garantie_tag": "", "garantie_nacht": "", "garantie_anfahrt": "", "preisschutz": "",
+            "garantie_tag": "", "garantie_nacht": "", "garantie_anfahrt": "",
+            "garantie_zylinder": "", "garantie_zylinder_5mm": "", "preisschutz": "",
         })
         neu.append({k: r.get(k, "") for k in spalten})
 

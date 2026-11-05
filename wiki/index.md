@@ -115,7 +115,7 @@ Zeile ergänzen und `log.md` fortschreiben.
 
 ## Vorlagen (außerhalb des Wikis)
 - [claim-form.html](../templates/claim-form.html): die beiden Formulare ohne eigenen Server –
-  Eintrag beanspruchen und der Garantie-Antrag mit den drei Preisen als Pflichtfeldern.
+  Eintrag beanspruchen und der Garantie-Antrag mit den Preisen (Dienstleistung und Material) als Pflichtfeldern.
 - [featured-tiers.md](../templates/featured-tiers.md): die Stufen mit Europreisen, die später
   zu aktivierenden Stufen, wohin die Stripe-Zahlungslinks gehören, und der Garantie-Nachweis als
   HTML, der kostenlos ist und zu keiner Stufe gehört. Die Spaltenwerte sind englisch (`featured` = `city`, `county`, `state`), weil der Code

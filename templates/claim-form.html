@@ -69,8 +69,9 @@
      2. Garantie-Antrag (Festpreis-Garantie)
      Die Felder sind die sechs veröffentlichten Voraussetzungen von /festpreis-garantie/
      (wiki/konventionen.md). Sie werden hier abgefragt und anschließend an Unterlagen und
-     Website geprüft; die drei Preise sind Pflicht und werden nach der Prüfung in die Spalten
-     garantie_tag, garantie_nacht und garantie_anfahrt übernommen.
+     Website geprüft; die Preise sind Pflicht und werden nach der Prüfung in die Spalten
+     garantie_tag, garantie_nacht, garantie_anfahrt (Dienstleistung) sowie garantie_zylinder
+     und garantie_zylinder_5mm (Material) übernommen.
      ============================================================ -->
 <form action="{{FORM_ENDPOINT}}" method="POST" class="garantie-form" lang="de">
   <input type="hidden" name="_subject" value="Garantie-Antrag: {{FIRMENNAME}}">
@@ -128,11 +129,13 @@
 
   <!-- Voraussetzung 3: die drei Standardpreise verbindlich genannt -->
   <fieldset>
-    <legend>Ihre drei Standardpreise</legend>
+    <legend>Ihre Preise</legend>
     <p>
-      Diese drei Preise stehen nach der Prüfung in Ihrem Eintrag, bevor ein Kunde anruft. Sie
-      sind der Preis auf der Rechnung. Ganze Euro-Beträge, ohne Komma, ohne Einheit.
+      Diese Preise stehen nach der Prüfung in Ihrem Eintrag, bevor ein Kunde anruft. Ganze
+      Euro-Beträge, ohne Komma, ohne Einheit.
     </p>
+    <p><strong>Dienstleistung (Festpreis).</strong> Gilt für die Arbeit – die Türöffnung –, bei
+      der zugefallenen wie der abgeschlossenen Tür. Das Material kommt getrennt dazu (unten).</p>
     <label>Türöffnung tagsüber (Euro)
       <input type="number" name="garantie_tag" min="1" step="1" inputmode="numeric" required>
     </label>
@@ -141,6 +144,15 @@
     </label>
     <label>Anfahrt (Euro; 0 bedeutet: im Preis enthalten)
       <input type="number" name="garantie_anfahrt" min="0" step="1" inputmode="numeric" required>
+    </label>
+    <p><strong>Material bei abgeschlossener Tür.</strong> Nur wenn der Zylinder getauscht wird:
+      der Preis eines Standardzylinders und der Aufschlag je 5 mm Mehrlänge. Bringen Sie Ihre
+      Staffel bitte in dieses Format – nur so lassen sich die Betriebe vergleichen.</p>
+    <label>Standardzylinder (Euro)
+      <input type="number" name="garantie_zylinder" min="1" step="1" inputmode="numeric" required>
+    </label>
+    <label>Aufschlag je 5 mm Mehrlänge (Euro)
+      <input type="number" name="garantie_zylinder_5mm" min="0" step="1" inputmode="numeric" required>
     </label>
     <label>Weitere Zuschläge, die vorab beziffert sind (zum Beispiel für Sondertüren), sonst leer
       <textarea name="zuschlaege_sonstige" rows="2"></textarea>
@@ -166,11 +178,15 @@
     <legend>Serviceversprechen</legend>
     <label>
       <input type="checkbox" name="versprechen_rechnungspreis" value="ja" required>
-      Der oben genannte Preis ist der Rechnungspreis.
+      Der oben genannte Festpreis ist der Preis der Dienstleistung und steht auf der Rechnung – bei der zugefallenen wie der abgeschlossenen Tür.
+    </label>
+    <label>
+      <input type="checkbox" name="versprechen_material" value="ja" required>
+      Bei einer abgeschlossenen Tür kommt nur das genannte Material dazu (Standardzylinder, Aufschlag je 5 mm Mehrlänge).
     </label>
     <label>
       <input type="checkbox" name="versprechen_zuschlaege" value="ja" required>
-      Ich berechne keine Zuschläge, die nicht vorher beziffert wurden.
+      Defekte Türen und Sonderfälle beziffere ich vor Arbeitsbeginn; sonst berechne ich keine Zuschläge, die nicht vorher beziffert wurden.
     </label>
     <label>
       <input type="checkbox" name="versprechen_rechnung" value="ja" required>
@@ -213,7 +229,7 @@
   <p class="form-hinweis">
     Die Prüfung ist <strong>kostenlos</strong>. Die Garantie ist nicht kaufbar; bezahlt wird nur
     Sichtbarkeit. Die Garantie geben Sie als Betrieb; der Herausgeber prüft Ihre Angaben an
-    Unterlagen und Website und veröffentlicht Ihre drei Preise. Es findet <strong>kein Test vor
+    Unterlagen und Website und veröffentlicht Ihre Preise. Es findet <strong>kein Test vor
     Ort</strong> statt. Die Garantie trägt die Jahreszahl, gilt ein Jahr und wird entzogen,
     wenn ein Kunde eine Rechnung über dem garantierten Preis vorlegt; dann werden Ihre Preise aus
     dem Eintrag entfernt. Die vollständigen Voraussetzungen stehen auf
