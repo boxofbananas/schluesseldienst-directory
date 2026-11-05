@@ -10,13 +10,16 @@ pages_build_output_dir = "dist"
 # Dann die ausgegebene id hier eintragen (oder im Dashboard als KV-Binding "EINSENDUNGEN" binden).
 [[kv_namespaces]]
 binding = "EINSENDUNGEN"
-id = "OFFEN_KV_NAMESPACE_ID"
+id = "31cfe34f7c08485c8708c642f0fc7781"
 
-# send_email-Binding (Cloudflare Email Routing). Die Zieladresse muss in Email Routing als
-# "Destination address" verifiziert sein; Versand ist nur an diese verifizierte Adresse erlaubt.
-[[send_email]]
-name = "SEB"
-destination_address = "info@die-besten-schluesseldienste.de"
+# send_email-Binding (Cloudflare Email Routing). WICHTIG: Pages unterstützt "send_email" NICHT in
+# dieser Konfigurationsdatei (wrangler lehnt den Deploy sonst ab). Dieses Binding muss im Dashboard
+# gesetzt werden: Pages-Projekt → Settings → Functions → Bindings → "Email" → Name "SEB",
+# Zieladresse info@die-besten-schluesseldienste.de (in Email Routing als Destination verifiziert).
+# Erst für den Mail-Worker nach dem Start nötig, nicht für Gate 6.
+# [[send_email]]
+# name = "SEB"
+# destination_address = "info@die-besten-schluesseldienste.de"
 
 # Verifizierte Absende-/Zieladresse; können im Dashboard als Variablen überschrieben werden.
 [vars]

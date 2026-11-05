@@ -425,3 +425,13 @@ Zahlen, was auf Freigabe wartet.
   (1.261→1.321), Stichprobe 10 alle korrekt; Türöffnung 1.572 unverändert. Stadtseiten:
   Sprungliste „Betriebe in <Stadt>" (Anker `#b-<slug>`) ab 8 Betrieben, sonst aus; Mannheim 20,
   Tuttlingen/Emden ohne. Bericht: `berichte/2026-11-05-subtypes-merkmale-angewandt-sprungliste.md`.
+
+- **2026-11-05 (Gate 6, Teil 1 – Deploy):** Auf Cloudflare Pages ausgeliefert, Projekt
+  `schluesseldienste-deutschland`, Produktionszweig `main`, Adresse
+  https://schluesseldienste-deutschland.pages.dev/. whoami ok (Konto Domholdinggmbh, keine
+  IP-/Rechtefehler, IPv4-first). KV-Namespace `EINSENDUNGEN` angelegt (id in wrangler.toml) und
+  **über wrangler gebunden** — kein Dashboard nötig. `send_email` wird von Pages in der Konfig NICHT
+  unterstützt (auskommentiert); gehört ins Dashboard und ist erst für den Mail-Worker nötig.
+  `check_live.py` gegen pages.dev: alle 22 Prüfungen bestanden, Sitemap 2.807 Adressen. pages.dev
+  sendet `X-Robots-Tag: noindex` (live bestätigt) → kein Doppelinhalt, kein Problem. Domain/Sitemap/
+  Suchmaschinen bewusst noch nicht. Bericht: `berichte/2026-11-05-gate6-deploy-pages-dev.md`.
