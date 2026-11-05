@@ -413,3 +413,15 @@ Zahlen, was auf Freigabe wartet.
   Emergency locksmith→kern, Burglar alarm→einbruchschutz); rettet 125 der 204, global +503/+315/+60.
   Dazu Empfehlung zur leeren rechten Hälfte der Stadtseiten (Sprungliste statt Karte). Entscheidung
   offen. `berichte/2026-11-05-merkmalserkennung-subtypes-vorlage.md`.
+
+- **2026-11-05 (subtypes angewandt + Sprungliste):** Geprüft: kein Skript/Build liest
+  `core`/`schluesseldienst_kern` für Aufnahme/Ausschluss/Sichtbarkeit; `apply_exclusions.py`
+  droppt nur per `slug` aus dem eingefrorenen `04-exclusions.csv`. Änderung daher in der
+  angereicherten CSV, `listings.csv` reproduziert (4.387→587 drop→3.800). 04-exclusions 587 → 587,
+  Build 3.800 → 3.800, kein ausgeschlossener Eintrag zurück. Eindeutige subtypes → Merkmal
+  angewandt, konservativ (nur keine-Angabe→wahr, `falsch` bewahrt: 9 kern, 2 nachmachen). Neu wahr:
+  +496 kern, +313 nachmachen, +60 einbruchschutz; 809 Einträge mit ≥1 neuem Merkmal, 125 der 204
+  gerettet. Herkunftssatz im Hinweiskasten ergänzt. Leistungsseiten: nur Einbruchschutz ändert sich
+  (1.261→1.321), Stichprobe 10 alle korrekt; Türöffnung 1.572 unverändert. Stadtseiten:
+  Sprungliste „Betriebe in <Stadt>" (Anker `#b-<slug>`) ab 8 Betrieben, sonst aus; Mannheim 20,
+  Tuttlingen/Emden ohne. Bericht: `berichte/2026-11-05-subtypes-merkmale-angewandt-sprungliste.md`.

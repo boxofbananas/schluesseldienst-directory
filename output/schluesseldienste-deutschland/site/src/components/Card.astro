@@ -3,12 +3,12 @@
 import Rating from './Rating.astro';
 import Garantie from './Garantie.astro';
 import { topAttrs, formatPhone, telHref, isFeaturedIn } from '../lib/load.mjs';
-const { l, citySlug } = Astro.props;
+const { l, citySlug, id } = Astro.props;
 const featured = isFeaturedIn(l, citySlug || l.citySlug);
 const mark = featured ? 'Premium-Platz' : l.bestOfRank ? `Top-Platzierung in ${l.city}, Platz ${l.bestOfRank}` : l.premium ? 'Premium-Eintrag' : '';
 const chips = topAttrs(l);
 ---
-<article class="card">
+<article class="card" id={id}>
   {mark && <span class="mark">{mark}</span>}
   <h3><a href={l.path}>{l.name}</a></h3>
   <Rating rating={l.rating} reviews={l.reviews} />

@@ -27,6 +27,8 @@ const rest = city.listings.slice(cards.length);
 const intro = city.copy?.intro || [
   `In ${city.name} (${city.regionName}) sind ${city.count} ${site.niche.plural} eingetragen, zusammen mit ${fmtInt(city.totalReviews)} Google-Bewertungen${city.avgRating ? ` und einem Durchschnitt von ${fmtRating(city.avgRating)}` : ''}. Die Liste darunter führt zuerst die Premium-Plätze, dann die bezahlten Top-Platzierungen und danach alle übrigen nach Bewertung und Anzahl der Bewertungen.`,
 ];
+const gridCards = cards.filter((l) => !city.featured.includes(l));
+const showJump = gridCards.length >= 8;
 const faqs = city.copy?.faqs || attributeFaqs(city, site, attributes);
 const schema = [
   { '@context': 'https://schema.org', '@type': 'CollectionPage', '@id': base + city.path, url: base + city.path, name: title, inLanguage: 'de-DE', datePublished: site.launchDate, dateModified: buildDate },
@@ -48,13 +50,25 @@ const schema = [
       <li>Stand {buildDateDe}</li>
     </ul>
   </Fragment>
-  <div class="prose" set:html={linkedParagraphs(intro.slice(0, Math.ceil(intro.length / 2)), city.listings)}></div>
+  <div class={showJump ? 'city-intro-row' : undefined}>
+    <div class="prose" set:html={linkedParagraphs(intro.slice(0, Math.ceil(intro.length / 2)), city.listings)}></div>
+    {showJump && (
+      <aside class="jump-list" aria-label={`Betriebe in ${city.name}`}>
+        <h2>Betriebe in {city.name}</h2>
+        <ol>
+          {gridCards.map((l) => (
+            <li><a href={`#b-${l.slug}`}><span class="jn">{l.name}</span>{l.reviews > 0 && <span class="jr"><Star /> {fmtRating(l.rating)}</span>}</a></li>
+          ))}
+        </ol>
+      </aside>
+    )}
+  </div>
 
   <FeaturedBand site={site} items={city.featured} place={city.name} price={site.tiers?.city?.price} />
 
   <section>
     <h2>Die besten {site.niche.plural} in {city.name}</h2>
-    <div class="grid">{cards.filter((l) => !city.featured.includes(l)).map((l) => <Card l={l} citySlug={city.slug} />)}</div>
+    <div class="grid">{gridCards.map((l) => <Card l={l} citySlug={city.slug} id={`b-${l.slug}`} />)}</div>
     {rest.length > 0 && (
       <>
         <h3 class="more-head">{rest.length} weitere {site.niche.plural} in {city.name}</h3>
