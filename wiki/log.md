@@ -405,3 +405,11 @@ Zahlen, was auf Freigabe wartet.
   Städtezahl: 577 = indexierte Städte (≥2 Einträge), 787 = inkl. 210 kleinerer Orte; Verweise sagen
   jetzt „Alle Städte" (ohne Zahl). Bericht:
   `berichte/2026-11-05-eintragsseite-merkmale-schlagwoerter.md`.
+
+- **2026-11-05 (Vorlage, zur Entscheidung):** Von den 1.453 Einträgen ohne bestätigtes Merkmal sind
+  **204** indexiert (= thin=false) und **1.249** noindex (= thin=true) — exakte Überdeckung, also
+  kein Startproblem. 204 liegt auf Daniels „unter-200"-Grenze. Vorgelegt (nicht umgesetzt): Zuordnung
+  Google-`subtypes` → Merkmale, nur eindeutige (Locksmith→kern, Key duplication→schluessel_nachmachen,
+  Emergency locksmith→kern, Burglar alarm→einbruchschutz); rettet 125 der 204, global +503/+315/+60.
+  Dazu Empfehlung zur leeren rechten Hälfte der Stadtseiten (Sprungliste statt Karte). Entscheidung
+  offen. `berichte/2026-11-05-merkmalserkennung-subtypes-vorlage.md`.
