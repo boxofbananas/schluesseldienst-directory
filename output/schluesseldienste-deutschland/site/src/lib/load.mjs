@@ -244,8 +244,11 @@ export function normalizeHours(v) {
     if (parts.length === 1 && /^00:00–(24:00|00:00)$/.test(parts[0])) return 'Durchgehend geöffnet';
     return parts.join(', ');
   }
+  // normalizeHours wird nur je vorhandenem Tagesschlüssel aufgerufen (parseHours). Ein Tag, der im
+  // working_hours-Objekt steht, aber null oder leer ist, bedeutet geschlossen (DataForSEO schreibt
+  // einen Ruhetag als "sunday": null). Sonst bliebe die Zeile leer statt "Geschlossen".
   const s = String(v ?? '').trim();
-  if (!s) return '';
+  if (!s) return 'Geschlossen';
   if (RX_CLOSED.test(s)) return 'Geschlossen';
   if (RX_ALLDAY.test(s)) return 'Durchgehend geöffnet';
   const spec = hoursToSpec(s);

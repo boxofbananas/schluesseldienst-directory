@@ -393,3 +393,15 @@ Zahlen, was auf Freigabe wartet.
   Höhe 8.430 px (1440). Suchfeld-Platzhalter gekürzt; U+FEFF in load.mjs (Regex, gewollt) auf Escape
   umgestellt. Nebenbei: Öffnungszeiten zeigten „[object Object]" (DataForSEO-Array), `normalizeHours`
   repariert. Bericht: `berichte/2026-11-05-darstellungsfehler-und-startseite.md`.
+
+- **2026-11-05 (Eintragsseite):** „Leistungen und Angaben" zeigt nur noch bestätigte Merkmale
+  (Wert true); nicht bestätigte werden weggelassen, „Keine Angaben zu …"-Zeile raus; ohne
+  bestätigtes Merkmal entfällt der ganze Abschnitt. **2.394** Einträge zeigten bisher die Fehlanzeigen-
+  Liste; **1.453** (38 %) haben nach der Änderung keinen Merkmals-Abschnitt (1.403 ohne jedes bekannte
+  Merkmal = fehlende Website-Beleggrundlage) → Frage an Daniel, ob Gate-3-Erkennung/Abdeckung
+  nachgebessert wird (offen, nicht angefasst). Bewertungsschlagwörter (`reviews_tags`, u. a.
+  „damage (45)") ersatzlos entfernt; nirgends sonst gerendert, bleibt in den Daten. `normalizeHours`:
+  vorhandener leerer/`null`-Tag → „Geschlossen" (DataForSEO schreibt Ruhetag als `"sunday": null`).
+  Städtezahl: 577 = indexierte Städte (≥2 Einträge), 787 = inkl. 210 kleinerer Orte; Verweise sagen
+  jetzt „Alle Städte" (ohne Zahl). Bericht:
+  `berichte/2026-11-05-eintragsseite-merkmale-schlagwoerter.md`.

@@ -73,19 +73,20 @@ const mapSrc = showMap ? `https://www.google.com/maps?q=${l.lat},${l.lng}&output
   <section class="prose about">
     <h2>Über {l.name}</h2>
     {l.description ? <div set:html={paragraphs(l.description.split(/\n+/))}></div> : <p>Noch keine Beschreibung. Wenn das Ihr Betrieb ist, beanspruchen Sie den Eintrag und sagen Sie Ihren Kunden, was Sie anbieten.</p>}
-    {l.reviewsTags && <p class="meta">Was Kunden hervorheben: {l.reviewsTags}</p>}
   </section>
 
-  <section class="services">
-    <h2>Leistungen und Angaben</h2>
-    <AttributeGrid attrs={l.attrs} />
-    {servicePages.length > 0 && (
-      <>
-        <p class="meta svc-lead">In {site.country.name} vergleichen:</p>
-        <ul class="chips svc-links">{servicePages.map((s) => <li><a href={s.path}>{s.title}</a></li>)}</ul>
-      </>
-    )}
-  </section>
+  {services.length > 0 && (
+    <section class="services">
+      <h2>Leistungen und Angaben</h2>
+      <AttributeGrid attrs={l.attrs} />
+      {servicePages.length > 0 && (
+        <>
+          <p class="meta svc-lead">In {site.country.name} vergleichen:</p>
+          <ul class="chips svc-links">{servicePages.map((s) => <li><a href={s.path}>{s.title}</a></li>)}</ul>
+        </>
+      )}
+    </section>
+  )}
 
   <div class="facts">
     <div>

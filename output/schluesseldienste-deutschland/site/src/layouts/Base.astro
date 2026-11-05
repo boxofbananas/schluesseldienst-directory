@@ -119,7 +119,7 @@ const siteSchema = path === '/' ? [
             <h2>Bundesländer</h2>
             <ul>
               {regions.map((r) => <li><a href={r.path}>{site.niche.title} in {r.name}</a></li>)}
-              {topCities.length > 0 && <li><a href={countryPath}>Alle {cities.length} Städte</a></li>}
+              {topCities.length > 0 && <li><a href={countryPath}>Alle Städte</a></li>}
             </ul>
           </div>
           <div>

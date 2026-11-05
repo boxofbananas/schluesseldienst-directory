@@ -1,26 +1,19 @@
 ---
-// wahr / falsch / nichts bekannt, ehrlich dargestellt (wiki/framework/enrichment.md).
-// Bestätigte Leistungen sind Felder mit Haken und je einer H3. Ein "nein" ist auch ein Feld, denn die
-// Website hat es gesagt. Die unbekannten Merkmale fallen in eine gedämpfte Zeile zusammen, damit das
-// Raster nur trägt, was bekannt ist. Das Wort "Ja" bleibt in der Seite, nur unsichtbar, damit
-// Vorleseprogramm und Suchmaschine weiter "<Leistung>: Ja" lesen.
+// Nur bestätigte Leistungen (wiki/framework/enrichment.md). Ein Merkmal erscheint genau dann, wenn
+// die Website des Betriebs es belegt (Wert "true"). Nicht bestätigte Merkmale werden weggelassen,
+// nicht benannt: weder ein "nein" noch eine "Keine Angaben"-Zeile. Ist nichts bestätigt, gibt die
+// Komponente nichts aus, und die Eintragsseite lässt den ganzen Abschnitt weg. Das Wort "Ja" bleibt
+// unsichtbar für Vorleseprogramm und Suchmaschine erhalten.
 const { attrs } = Astro.props;
-const known = attrs.filter((a) => a.value !== 'not enough info');
-const unknown = attrs.filter((a) => a.value === 'not enough info');
+const yes = attrs.filter((a) => a.value === 'true');
 ---
-{known.length > 0 && (
+{yes.length > 0 && (
   <ul class="attr-grid">
-    {known.map((a) => (
-      <li class={a.value === 'true' ? 'yes' : 'no'}>
-        {a.value === 'true' ? <h3>{a.label}</h3> : <span>{a.label}</span>}
-        {a.value === 'true'
-          ? <span class="v true"><svg class="check" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="currentColor" /><path d="M6.8 12.6l3.4 3.4 7-7.6" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" /></svg><span class="sr-only">Ja</span></span>
-          : <span class="v false"><svg class="cross" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="currentColor" /><path d="M8.2 8.2l7.6 7.6M15.8 8.2l-7.6 7.6" fill="none" stroke-width="2.6" stroke-linecap="round" /></svg><span class="sr-only">Nein</span></span>}
+    {yes.map((a) => (
+      <li class="yes">
+        <h3>{a.label}</h3>
+        <span class="v true"><svg class="check" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="currentColor" /><path d="M6.8 12.6l3.4 3.4 7-7.6" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" /></svg><span class="sr-only">Ja</span></span>
       </li>
     ))}
   </ul>
-)}
-{known.length === 0 && <p class="meta">Bisher ist keine Leistung bestätigt. Die Website des Betriebs nennt nicht, was er anbietet; fragen Sie telefonisch nach.</p>}
-{unknown.length > 0 && known.length > 0 && (
-  <p class="attr-unknown">Keine Angaben zu {unknown.map((a) => a.label).join(', ')}. Die Website sagt dazu nichts; fragen Sie telefonisch nach.</p>
 )}
