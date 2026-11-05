@@ -198,6 +198,18 @@ Notruf- und Förderprogrammnummern (112, 110, KfW 159). Sie sind Namen, keine be
 Angaben. Eine Zahl kommt also nur auf eine Ratgeberseite, wenn sie zuvor mit Quelle und Abrufdatum
 ins Faktenblatt eingetragen wurde — nie umgekehrt. Belegt oder raus; keine vage Ersatzformulierung,
 die dieselbe Behauptung nur unscharf macht.
+
+**Eine Zahl aus einer nicht zugelassenen Quelle ist auch dann unzulässig, wenn sie stimmt.** Das
+Gate prüft, ob eine Zahl im Faktenblatt steht; der Mensch prüft davor, ob sie überhaupt hineindurfte.
+Ins Faktenblatt kommt nur, was aus den Quellen von [[konventionen]] belegt ist (Handwerkskammer,
+Stadt-/Gemeindeportale, Verbraucherzentrale, Polizeiliche Kriminalprävention, Stiftung Warentest).
+Innungs- und Verbandspreislisten, Branchenbücher, Presseportale und andere
+Schlüsseldienst-Websites zählen nicht dazu — eine von dort übernommene Zahl bleibt draußen, auch
+wenn sie zufällig korrekt wäre. Beispiel aus dem Lauf vom 2026-11-05: die Sonntagspreise
+„167,60–209,50 €" bzw. „167,60/177,00 €" waren Innungsempfehlungen (unzulässige Quelle) **und** in
+sich widersprüchlich (zwei Werte für denselben Posten beweisen die Erfindung). Entscheidend war
+aber schon das Erste: die Quelle war nicht zugelassen. Die Richtigkeit einer Zahl ersetzt den Beleg
+nicht.
 - **Werbefloskeln** aus `forbidden_words.txt`: „schnell und günstig", „rund um die Uhr für
   Sie da", „unschlagbar", „führend", „Nummer 1", „seriös und zuverlässig" als Behauptung über
   einen Betrieb, den das Verzeichnis nicht geprüft hat.
