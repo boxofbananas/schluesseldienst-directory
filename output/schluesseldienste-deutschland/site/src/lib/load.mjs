@@ -547,7 +547,7 @@ export function loadDirectory() {
   // freigeschaltet (Betreiber-Regel, output/<slug>/06-launch.md). Sie bleiben gebaut und verlinkt.
   for (const c of cities) if (c.count <= 1) noindexPaths.add(c.path);
   for (const p of ['/eintrag-beanspruchen/', '/premium/', '/datenschutz/', '/agb/', '/impressum/',
-    '/kontakt/', '/suche/', '/verzeichnis/', '/festpreis-garantie/antrag/', '/404/']) noindexPaths.add(p);
+    '/kontakt/', '/suche/', '/verzeichnis/', '/festpreis-garantie/antrag/', '/danke/', '/404/']) noindexPaths.add(p);
 
   const stats = {
     listings: listings.length, cities: indexCities.length, regions: regions.length,

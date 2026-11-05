@@ -7,6 +7,7 @@
 import { topAttrs, fmtInt, fmtRating } from '../lib/load.mjs';
 import Star from './Star.astro';
 const { site, items = [], place, price = '', slots = 3, title } = Astro.props;
+const vatNote = site.tiers?.vatNote;
 const heading = title || `Premium-Plätze: ${site.niche.plural} in ${place}`;
 const excerpt = (t, n = 28) => { const w = (t || '').split(/\s+/); return w.length > n ? w.slice(0, n).join(' ') + '…' : w.join(' '); };
 const shown = items.slice(0, slots);
@@ -32,11 +33,12 @@ const shown = items.slice(0, slots);
         <span class="body">
           <strong>Dieser Platz ist frei</strong>
           <span>Ihr Betrieb steht hier oben, über der nach Bewertung sortierten Liste{place !== site.country.name ? ` für ${place}` : ''}. Ein Betrieb je Stufe und Stadt. {price ? `Ab ${price}.` : ''}</span>
+          {price && vatNote && <span class="slot-vat">{vatNote}</span>}
           <span class="more">Premium-Platz buchen</span>
         </span>
       </a>
     )}
   </div>
-  <p class="band-foot"><a href="/premium/">Was ein Premium-Platz kostet</a>{price ? ` · ab ${price}` : ''}</p>
+  <p class="band-foot"><a href="/premium/">Was ein Premium-Platz kostet</a>{price ? ` · ab ${price}` : ''}{price && vatNote ? ` · ${vatNote}` : ''}</p>
   <!-- /copy:skip -->
 </section>

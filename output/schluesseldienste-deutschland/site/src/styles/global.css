@@ -341,6 +341,7 @@ fieldset.sr-only { min-inline-size: 0; min-width: 0; max-width: 1px; contain: st
 .biz-card.featured.open-slot .badge::after { display: none; }
 .biz-card.featured.open-slot .body { display: flex; flex-direction: column; gap: .55rem; flex: 1; }
 .biz-card.featured.open-slot strong { font-family: var(--heading-font); font-size: 1.15rem; color: #fff; }
+.biz-card.featured.open-slot .slot-vat { font-size: .8rem; opacity: .72; margin-top: -.3rem; }
 .biz-card.featured.open-slot .more { color: var(--gold); margin-top: auto; font-weight: 600; }
 .biz-card.featured.open-slot:hover { border-color: var(--gold); }
 .byline { color: var(--muted); font-size: .9rem; margin: -.5rem 0 1.5rem; }
@@ -372,6 +373,7 @@ fieldset.sr-only { min-inline-size: 0; min-width: 0; max-width: 1px; contain: st
 .tiers .tier > p, .tiers .tier > a { margin-left: 1.5rem; margin-right: 1.5rem; }
 .tiers .tier h3 { margin: 0 0 .3rem; }
 .tiers .tier .price { font-size: 1.7rem; font-family: var(--heading-font); font-weight: var(--heading-weight); color: var(--accent); margin: 0; }
+.tiers .tier .price-vat { font-size: .8rem; color: var(--text); opacity: .62; margin: .15rem 0 0; }
 .tiers .tier > .btn { margin-top: auto; text-align: center; max-width: calc(100% - 3rem); }
 .tiers .tier.top { box-shadow: 0 0 0 2px var(--gold), var(--shadow); }
 .tiers .tier.top .tier-head { background: linear-gradient(100deg, var(--gold-deep) 0%, var(--gold) 45%, var(--gold-light) 100%); }

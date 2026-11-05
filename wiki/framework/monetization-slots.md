@@ -89,6 +89,24 @@ Wert wie `stadt` erzeugt einen bezahlten Platz, der auf keiner Seite erscheint.
 setzen, neu bauen. Kündigung heißt Spalte leeren und neu bauen. **Und je Stadt höchstens ein
 eigener Betrieb auf einem bezahlten Platz** ([[footprint-rules]]).
 
+## Preise stehen nur auf /premium/ (und als Daten in site.json)
+
+**Entscheidung 2026-11-05: eine einzige Preisquelle.** Ein Stufenpreis erscheint auf `/premium/`,
+im Premium-Band (freie Karte und Fußzeile) und als Daten in `site.json` (`tiers`, dazu `vatNote`).
+**Die Eintragsseiten nennen bewusst keinen Stufenpreis** – nur das Abzeichen und den Kasten „Ist das
+Ihr Betrieb?" mit Link auf `/premium/`. Gründe: Die Eintragsseite wendet sich an jemanden, der einen
+Schlüsseldienst **sucht**, nicht an einen Betrieb, der einen Platz **kauft**; der Verkaufsweg läuft
+über diesen Kasten und den Link. Und je weniger Stellen einen Preis nennen, desto weniger können
+veralten (die Garantie-Preise auf der Eintragsseite sind die Türöffnungs-Preise des Betriebs, kein
+Stufenpreis).
+
+**Die Preise sind Bruttopreise (inkl. 19 % USt.).** Überall, wo ein Stufenpreis steht, steht
+„inkl. 19 % USt." dabei – als Datenfeld `tiers.vatNote` in `site.json` (eine Quelle), als gedämpfte
+Unterzeile unter dem Preis auf `/premium/` und in der freien Karte des Premium-Bands; die
+Band-Fußzeile darf auf dem Handy umbrechen. `/premium/` (Abschnitt „Preise und Vertragspartner") und
+die AGB (B3) weisen die Preise ausdrücklich als Brutto aus. Verkauft wird ausschließlich an
+Unternehmer im Sinne des § 14 BGB (AGB Teil B).
+
 ## Das Startseiten-Band
 
 Das Premium-Band der Startseite ist die bundesweite Fläche. Es wird **nur von `featured=state`**

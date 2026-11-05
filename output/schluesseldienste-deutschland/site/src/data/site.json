@@ -65,7 +65,8 @@
     "state": {
       "price": "",
       "link": ""
-    }
+    },
+    "vatNote": "inkl. 19 % USt."
   },
   "design": {
     "inspiredBy": "Die Gestaltungsmarken sind unverändert die der Vorlage (wiki/framework/master-template.md, festgelegt am 30.09.2026): Navy, Bernstein als Handlungsfarbe, Roboto Slab und Roboto.",

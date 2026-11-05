@@ -6,6 +6,7 @@ import Base from '../layouts/Base.astro';
 import { loadDirectory, payLink } from '../lib/load.mjs';
 const { site } = loadDirectory();
 const t = site.tiers;
+const vatNote = t.vatNote;
 const title = `Premium-Plätze für ${site.niche.plural} | ${site.brand}`;
 const description = `Bringen Sie Ihren ${site.niche.singular} an die Spitze seiner Stadtseite auf ${site.brand}. Ein Betrieb je Stufe und Stadt.`;
 const tiers = [
@@ -29,6 +30,7 @@ const tiers = [
         <div class="tier-head">
           <h3>{x.name}</h3>
           <p class="price">{x.price}</p>
+          {vatNote && <p class="price-vat">{vatNote}</p>}
         </div>
         <p>{x.what}</p>
         {x.link
@@ -52,7 +54,7 @@ const tiers = [
   </section>
   <section class="prose">
     <h2>Preise und Vertragspartner</h2>
-    <p>Alle Preise verstehen sich zuzüglich der gesetzlichen Umsatzsteuer. Das Angebot auf dieser Seite richtet sich ausschließlich an Unternehmer im Sinne des § 14 BGB; es gelten die <a href="/agb/">Allgemeinen Geschäftsbedingungen</a>, Teil B.</p>
+    <p>Alle Preise sind Bruttopreise und enthalten die gesetzliche Umsatzsteuer von 19 %. Das Angebot auf dieser Seite richtet sich ausschließlich an Unternehmer im Sinne des § 14 BGB; es gelten die <a href="/agb/">Allgemeinen Geschäftsbedingungen</a>, Teil B.</p>
   </section>
   <aside class="cta-band">
     <div><h2>Unsicher, welcher Platz passt?</h2><p>Nennen Sie uns Ihre Stadt, dann sagen wir Ihnen, was frei ist.</p></div>

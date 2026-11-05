@@ -1,0 +1,18 @@
+---
+// Dankeseite nach der Stripe-Zahlung: bestaetigt den Eingang, kuendigt die Umstellung an.
+// noindex, bewusst nicht im Fussbereich verlinkt (Base.astro verlinkt sie nicht). Spaeteres
+// Ziel der Stripe-Weiterleitung (success_url).
+import Base from '../layouts/Base.astro';
+import { loadDirectory } from '../lib/load.mjs';
+const { site } = loadDirectory();
+---
+<Base title={`Vielen Dank | ${site.brand}`} description={`Ihre Buchung auf ${site.brand} ist eingegangen. Wir melden uns innerhalb eines Werktags, um Ihren Eintrag umzustellen.`} path="/danke/" noindex={true}>
+  <Fragment slot="head">
+    <h1>Vielen Dank – Ihre Zahlung ist eingegangen</h1>
+  </Fragment>
+  <div class="prose">
+    <p>Ihre Buchung ist bei uns angekommen. Sie müssen jetzt nichts weiter tun.</p>
+    <p>{site.publisher.name} meldet sich innerhalb eines Werktags per E-Mail bei Ihnen, um den gebuchten Platz freizuschalten und Ihren Eintrag umzustellen. Halten Sie dafür bitte Firmenname und Stadt bereit – damit geht es schneller.</p>
+    <p>Haben Sie vorab eine Frage, schreiben Sie an <a href={`mailto:${site.contact.email}`}>{site.contact.email}</a>.</p>
+  </div>
+</Base>

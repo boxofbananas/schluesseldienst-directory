@@ -535,3 +535,12 @@ Zahlen, was auf Freigabe wartet.
   Startseiten-Band, Premium-Kartenrand), kein Überlauf mehr, gebaut aber nicht ausgeliefert.
   www weiter blockiert (Token ohne Dynamic-Redirect-Recht). Bericht
   `berichte/2026-11-05-ratgeber-zahlen-mobil-fixes.md`.
+- **2026-11-05** — Stripe-Vorbereitung. **/danke/** gebaut (noindex, nicht in Sitemap, nicht im
+  Fuß; `/danke/` zu `noindexPaths` in `load.mjs`), bereit als Weiterleitungsziel. **Brutto-Preise:**
+  `tiers.vatNote` „inkl. 19 % USt." in `site.json` als eine Quelle, gedämpfte Unterzeile auf
+  /premium/ (3 Stufen) und im Premium-Band (freie Karte + Fußzeile). Zwei Netto-Sätze auf Brutto
+  gedreht (/premium/ „Preise und Vertragspartner", AGB B3: „Alle Preise sind Bruttopreise …19 %"),
+  B2B-Verkaufsbeschränkung in AGB Teil B ausdrücklich. **Eintragsseiten: kein Preis** (Entscheidung,
+  Begründung in `monetization-slots.md`). Gebaut, ausgeliefert, live bei 1440/390 px geprüft.
+  Stripe-Links kommen später von Daniel, nicht vorbereitet. Bericht
+  `berichte/2026-11-05-stripe-vorbereitung-danke-brutto.md`.
