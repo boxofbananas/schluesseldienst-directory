@@ -296,7 +296,9 @@ python3 scripts/check_city_copy.py --copy output/<slug>/05-cache/city-copy \
 Wortuntergrenzen je Stadtgröße in [[page-types]]. Danach das **Textgate** ([[copy-gate]]):
 `scripts/lint_copy.py` auf `city-copy.json`, auf die gebauten Seiten Startseite, Bundesland und
 „Über uns" in `dist/` und auf jede Ratgeberseite; nachbessern und erneut prüfen, bis jeder Block
-besteht. `/festpreis-garantie/`, `/premium/`, `/agb/` und Ratgeberseiten über die Rechtslage
+besteht. **Ratgeberseiten zusätzlich mit `--facts output/<slug>/05-fact-sheet.md`:** jede Zahl
+(Euro, Prozent, Jahre, Gerichts-/Aktenzeichen) muss in der Faktensammlung belegt sein, sonst
+scheitert die Prüfung — das Textgate prüft sonst nur Wörter, nicht Tatsachen ([[copy-gate]], 2b). `/festpreis-garantie/`, `/premium/`, `/agb/` und Ratgeberseiten über die Rechtslage
 werden mit `--erlaube-rechtswoerter` geprüft, sonst scheitern sie an den Wörtern, die sie
 bestreiten müssen; für Stadttexte, Eintragsbeschreibungen und die Startseite gilt der Schalter
 **nie** ([[copy-gate]]). „Garantie" und „garantiert" gehören zu diesen Wörtern; frei ist allein

@@ -23,11 +23,11 @@ Viele teure Fälle beginnen mit einer Anzeige oder einem Eintrag, der örtlich w
 
 ## Rechnungen weit über den üblichen Spannen
 
-Der sicherste Hinweis auf Abzocke ist die Höhe der Forderung. Eine Umfrage der Verbraucherzentralen bei bundesweit 600 Schlüsseldiensten ergab, dass eine Türnotöffnung je nach Bundesland im Schnitt zwischen 59,40 Euro und 83,61 Euro kostet. Auch nachts oder am Wochenende stellt ein seriöser Betrieb laut Verbraucherzentrale nicht mehr als 75 bis 100 Euro inklusive Anfahrt in Rechnung, wenn die Tür nur ins Schloss gefallen ist. Die Verbraucherzentrale dokumentiert dagegen Praxisfälle, in denen knapp 800 Euro für eine einfache Türöffnung verlangt wurden.
+Der sicherste Hinweis auf Abzocke ist die Höhe der Forderung. Die Verbraucherzentrale nennt für eine einfache Türöffnung einen angemessenen Rahmen von rund 100 Euro tagsüber und rund 180 Euro nachts, am Wochenende und an Feiertagen, jeweils einschließlich Anfahrt und für das reine Öffnen ohne Schlosstausch. Wer für eine bloß zugefallene Tür ein Vielfaches davon verlangt, nutzt die Notlage aus.
 
 ### Was eine Türöffnung üblicherweise kostet
 
-Stiftung Warentest nennt als Orientierung die Empfehlung der Innungen: werktags zwischen 8 und 18 Uhr rund 83,30 Euro auf dem Land und etwa 88,50 Euro in größeren Städten, sonntags ganztags rund 167,60 Euro beziehungsweise 177,00 Euro. In der Untersuchung reichte die Spanne allerdings weit auseinander: Der niedrigste geprüfte Anbieter öffnete die Tür für 89 bis 119 Euro, der teuerste bewegte sich zwischen 235 und 415 Euro. Als rechtlichen Maßstab führt Stiftung Warentest an, dass ein Preis als Wucher gilt, wenn er etwa das Doppelte der üblichen Vergütung überschreitet; Gerichte haben Betrug teils schon bei deutlich geringeren Aufschlägen angenommen. Liegt Ihre Rechnung in dieser Größenordnung, ist das ein ernstes Warnzeichen.
+In der Untersuchung von Stiftung Warentest reichten die verlangten Preise für eine einfache Türöffnung weit auseinander, von 65 bis 415 Euro; das Ergebnis überschrieben die Tester mit „Pfusch, Abzocke". Die höchsten Preise fielen bei überregional vermittelten Einsätzen an, nicht bei Betrieben, die ohne Vermittler direkt vor Ort tätig waren. Liegt Ihre Rechnung weit über dem genannten Rahmen, ist das ein ernstes Warnzeichen.
 
 ## Unnötiger Austausch des Schließzylinders
 
@@ -35,7 +35,7 @@ Eine nur zugefallene, nicht abgeschlossene Tür lässt sich in aller Regel zerst
 
 ## Unzulässige Zuschläge und Doppelberechnungen
 
-Ein weiteres Muster sind getrennt ausgewiesene Sonderposten. Nach einem Urteil des Amtsgerichts Essen, auf das sich die Verbraucherzentrale beruft, sind „Sofortzuschläge" und „24-Stunden-Notdienstzuschläge" nicht erlaubt; auch die Kosten für „Spezialwerkzeug" dürfen nicht gesondert berechnet werden. Zuschläge auf die Arbeitszeit außerhalb der üblichen Öffnungszeiten sind zwar branchenüblich, dürfen sich aber nicht auf Material und Fahrtkosten beziehen und die übliche Vergütung nicht um mehr als 100 Prozent übersteigen. Als unzulässige Doppelberechnung gilt es laut Handwerkskammer außerdem, wenn neben einer Öffnungspauschale zusätzlich die Arbeitszeit nach Dauer abgerechnet wird. Prüfen Sie die Rechnung Posten für Posten auf solche Positionen.
+Ein weiteres Muster sind getrennt ausgewiesene Sonderposten, über die am Telefon niemand gesprochen hat. Die Verbraucherzentrale rät, vorab einen Festpreis einschließlich Anfahrt und möglicher Zuschläge zu vereinbaren; tauchen auf der Rechnung dann zusätzliche Posten für Anfahrt, Bereitstellung oder Spezialwerkzeug auf, ist das ein Warnzeichen. Als unzulässige Doppelberechnung gilt es laut Handwerkskammer außerdem, wenn neben einer Öffnungspauschale zusätzlich die Arbeitszeit nach Dauer abgerechnet wird. Prüfen Sie die Rechnung Posten für Posten auf solche Positionen.
 
 ## Drängen auf Barzahlung
 

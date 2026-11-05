@@ -34,7 +34,7 @@ nachbessern, erneut laufen lassen.
 | Garantie-Seite (gebaut) | `python3 scripts/lint_copy.py output/<slug>/site/dist/festpreis-garantie/index.html --min-words 700 --max-words 1200 --erlaube-rechtswoerter` | Seitenband, Floskelverbote. Die Rechtswörter und „Garantie"/„garantiert" sind hier zugelassen (siehe unten). **Zusätzlich von Hand prüfen:** alle sechs Voraussetzungen stehen da, die drei Teile der Garantie stehen da, der Satz „kein Test vor Ort" steht da, der Satz „die Garantie gibt der Betrieb" steht da, der Satz zur Nichtkäuflichkeit steht da, der Weg zur Meldung einer Rechnung steht da ([[siegel-programm]]) |
 | Premium-Seite (gebaut) | `python3 scripts/lint_copy.py output/<slug>/site/dist/premium/index.html --max-words 400 --erlaube-rechtswoerter` | Floskelverbote, Gedankenstriche. Der Schalter nur wegen des Satzes „Die Garantie ist nicht kaufbar. Bezahlt wird nur Sichtbarkeit." ([[page-types]]) |
 | AGB (gebaut) | `python3 scripts/lint_copy.py output/<slug>/site/dist/agb/index.html --erlaube-rechtswoerter` | Floskelverbote, Gedankenstriche; kein Wortband (eine Rechtsseite wird nicht auf Länge geschrieben) |
-| Ratgeberseite | `python3 scripts/lint_copy.py output/<slug>/site/src/pages/ratgeber/<slug>.md --min-words 1200 --niche "<thema>"` | 1.200 Wörter oder mehr, Thema früh, Verbote, Gedankenstriche. Klärt die Seite über die Rechtslage auf, dann mit `--erlaube-rechtswoerter` |
+| Ratgeberseite | `python3 scripts/lint_copy.py output/<slug>/site/src/pages/ratgeber/<slug>.md --min-words 1200 --niche "<thema>" --facts output/<slug>/05-fact-sheet.md` | 1.200 Wörter oder mehr, Thema früh, Verbote, Gedankenstriche. **`--facts` ist bei Ratgeberseiten Pflicht:** jede Zahl (Euro, Prozent, Jahre, Gerichts-/Aktenzeichen) muss in der Faktensammlung belegt sein, sonst scheitert die Prüfung (Abschnitt 2b). Klärt die Seite über die Rechtslage auf, dann zusätzlich `--erlaube-rechtswoerter` |
 
 **Die Datei `05-city-sizes.json`** erzeugt kein Gate von sich aus; sie ist die Größentabelle für
 den Lauf auf `city-copy.json` und wird in Gate 5 **unmittelbar nach `node dump-cities.mjs`** aus
@@ -181,8 +181,23 @@ bestreiten):
   frei, alles andere nur mit Schalter auf den dort genannten Seiten.
 - **Jeder Preis und jede Preisspanne in Euro** in Stadt-, Bundesland- und Eintragstexten.
   Erlaubt sind Preise nur auf `/premium/` und in den AGB (die eigenen Stufen) und in einer
-  Ratgeberseite, wenn eine amtliche Quelle sie belegt und als deren Angabe genannt wird
-  ([[page-types]]).
+  Ratgeberseite, wenn die Zahl in der Faktensammlung belegt ist (siehe 2b) ([[page-types]]).
+
+## 2b. Zahlen einer Ratgeberseite gegen die Faktensammlung
+
+Die Lehre aus dem Nachtlauf vom 2026-11-04: Das Textgate prüft **Wörter, nicht Tatsachen**. Fünf
+Ratgeberseiten entstanden über Nacht mit dutzenden konkreten Euro-Beträgen, Gerichtsurteilen und
+Innungssätzen, die in `05-fact-sheet.md` **nicht** standen — sprachlich sauber, aber unbelegt.
+Deshalb trägt `lint_copy.py` jetzt `--facts <pfad>`: Für eine Ratgeberseite muss **jede Zahl der
+vier Kategorien — Euro-Beträge, Prozente, Jahreszahlen, Gerichts-/Aktenzeichen — als eigenständiges
+Token in der Faktensammlung vorkommen**, sonst scheitert das Gate (`zahlen_im_faktenblatt`) und nennt
+die Fundstellen. Spannen wie „65 bis 415 Euro" werden ganz geprüft, beide Zahlen.
+
+Nicht geprüft werden **Bezeichner**, keine Tatsachenzahlen: Normkennungen (DIN, EN, RC), Maße (mm),
+Notruf- und Förderprogrammnummern (112, 110, KfW 159). Sie sind Namen, keine belegpflichtigen
+Angaben. Eine Zahl kommt also nur auf eine Ratgeberseite, wenn sie zuvor mit Quelle und Abrufdatum
+ins Faktenblatt eingetragen wurde — nie umgekehrt. Belegt oder raus; keine vage Ersatzformulierung,
+die dieselbe Behauptung nur unscharf macht.
 - **Werbefloskeln** aus `forbidden_words.txt`: „schnell und günstig", „rund um die Uhr für
   Sie da", „unschlagbar", „führend", „Nummer 1", „seriös und zuverlässig" als Behauptung über
   einen Betrieb, den das Verzeichnis nicht geprüft hat.

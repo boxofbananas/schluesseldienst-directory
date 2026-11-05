@@ -61,9 +61,9 @@ Wenn die Lage es zulässt, also kein Kind und kein Tier in der Wohnung ist und S
 
 ## Was eine Türöffnung kosten darf
 
-Feste Tarife gibt es in diesem Gewerbe nicht, aber es gibt Anhaltspunkte. Die Verbraucherzentrale nennt als Richtwert, dass das Öffnen einer Tür an einem Werktag 150 Euro nicht überschreiten sollte. Zuschläge außerhalb der normalen Arbeitszeit dürfen die übliche Vergütung um höchstens 100 Prozent erhöhen. Posten wie Sofortzuschläge, Bereitstellungszuschläge oder Kosten für Spezialwerkzeug sind nach Einschätzung der Verbraucherzentrale unzulässig.
+Feste Tarife gibt es in diesem Gewerbe nicht, aber es gibt belegte Anhaltspunkte. Die Verbraucherzentrale nennt als angemessenen Rahmen für eine einfache Türöffnung rund 100 Euro tagsüber und rund 180 Euro nachts, am Wochenende und an Feiertagen. Diese Werte gelten für das reine Öffnen ohne Austausch des Schlosses.
 
-Auch die Gerichte geben einen Rahmen vor. Stiftung Warentest verweist auf ein Urteil des Amtsgerichts Lingen, das rund 112 Euro für eine einfache Türöffnung als angemessen ansah (76 Euro Pauschale und 36 Euro Fahrtkosten). Als Wucher gilt nach der Rechtsprechung etwa das Doppelte des üblichen Preises: Sind 100 Euro üblich, ist eine Forderung über 200 Euro nichtig.
+Wie weit die tatsächlich verlangten Preise auseinandergehen, zeigt eine Untersuchung von Stiftung Warentest: Die Rechnungen für eine einfache Türöffnung reichten von 65 bis 415 Euro. Liegt die Forderung deutlich über dem genannten Rahmen, ist das ein ernstes Warnzeichen.
 
 ## Die Rechnung und die Bezahlung
 

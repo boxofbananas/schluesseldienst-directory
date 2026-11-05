@@ -54,15 +54,15 @@ Beim Schlosstausch entstehen Materialkosten für den Zylinder und, wenn eine Fac
 
 ### Materialkosten
 
-Ein zuverlässiger Standardzylinder ist nicht teuer. Die Stiftung Warentest prüfte Schließzylinder und bewertete bereits ein Modell für rund 30 Euro als sehr zuverlässigen Schutz gegen Aufbohren und Herausziehen, der Testsieger kostete rund 77 Euro. Beauftragt man einen Schlüsseldienst mit dem Einbau, darf die Rechnung für das Material höher ausfallen. Nach der von der Stiftung Warentest genannten Verbandsempfehlung ist dafür ein Zuschlag von 36 Euro vorgesehen.
+Ein zuverlässiger Standardzylinder ist im Handel nicht teuer. Beauftragt man einen Schlüsseldienst mit dem Einbau, kommen zum Material noch Arbeits- und Anfahrtskosten hinzu. Vereinbaren Sie auch dafür vorab einen festen Preis, der Material und Einbau zusammen nennt.
 
 ### Warnung vor überhöhten Materialpreisen
 
-Gerade beim Material setzen unseriöse Anbieter an. Die Stiftung Warentest dokumentierte Fälle, in denen für einen einfachen Zylinder mehrere Hundert Euro berechnet wurden. In einem Berliner Beispiel verlangte ein Monteur allein für das Material rund 500 Euro. Da ein guter Zylinder im Handel ab etwa 30 Euro zu haben ist, sind solche Beträge ein deutliches Warnzeichen.
+Gerade beim Material setzen unseriöse Anbieter an: Stiftung Warentest kritisiert ausdrücklich den Verkauf unnötig teurer Zylinder. Lassen Sie sich den Preis für Material und Einbau vor Arbeitsbeginn nennen und das ausgebaute Teil zeigen; ein Vielfaches des üblichen Handelspreises ist ein deutliches Warnzeichen.
 
 ### Festpreis vorab vereinbaren
 
-Die Verbraucherzentrale rät, vor der Auftragsvergabe einen verbindlichen Komplettpreis zu vereinbaren, der Anfahrt und Zuschläge bereits enthält. Als Orientierung nennt sie, dass das Öffnen einer Tür an einem Werktag 150 Euro nicht überschreiten sollte. Außerdem sollten Auftraggeber genau festlegen, was gemacht werden soll, damit nicht ungefragt das ganze Schloss gewechselt wird.
+Die Verbraucherzentrale rät, vor der Auftragsvergabe einen verbindlichen Komplettpreis zu vereinbaren, der Anfahrt und Zuschläge bereits enthält. Als angemessenen Rahmen für eine einfache Türöffnung nennt sie rund 100 Euro tagsüber und rund 180 Euro nachts, am Wochenende und an Feiertagen. Außerdem sollten Auftraggeber genau festlegen, was gemacht werden soll, damit nicht ungefragt das ganze Schloss gewechselt wird.
 
 ## Mehr Sicherheit beim Nachrüsten
 

@@ -296,6 +296,64 @@ def md_to_text(raw):
     return la.strip_markdown(raw)
 
 
+# --- Zahlenprüfung gegen die Faktensammlung (05-fact-sheet.md) -------------------------------
+# Die Lehre aus dem Nachtlauf: Das Textgate prüft Wörter, nicht Tatsachen. Eine Ratgeberseite,
+# die aus einer Faktensammlung entsteht, darf keine Zahl tragen, die dort nicht mit Quelle und
+# Abrufdatum steht. Geprüft werden die vier Kategorien des Auftrags: Euro-Beträge, Prozente,
+# Jahreszahlen und Gerichts-/Aktenzeichen. Normkennungen (DIN, EN, RC), Maße (mm), Notruf- und
+# Programmnummern sind Bezeichner, keine belegpflichtigen Tatsachenzahlen, und bleiben außen vor.
+_URL_RE = re.compile(r"https?://\S+")
+_NUM = r"\d{1,3}(?:\.\d{3})*(?:,\d+)?"
+_CONN = r"(?:\s*(?:bis|und|oder|beziehungsweise|bzw\.?|je|–|-|/|,)\s*" + _NUM + r")*"
+# Eine Geldkette ist eine oder mehrere durch „bis/und/oder …" verbundene Zahlen vor Euro/%,
+# damit „60 bis 150 Euro" beide Zahlen prüft, nicht nur die letzte.
+_EURO_RE = re.compile(r"(" + _NUM + _CONN + r")\s*(?:€|Euro|EUR)\b", re.I)
+_PERCENT_RE = re.compile(r"(" + _NUM + _CONN + r")\s*(?:%|Prozent)\b", re.I)
+_NUM_RE = re.compile(_NUM)
+_YEAR_RE = re.compile(r"(?<!\d)(?:19|20)\d{2}(?!\d)")
+_COURT_RE = re.compile(
+    r"(?:Amts|Land|Ober(?:landes)?|Verwaltungs|Sozial|Arbeits|Bundes)gericht[a-zäöüß]*\s+"
+    r"[A-ZÄÖÜ][a-zäöüß.\-]+"
+    r"|Aktenzeichen\s*:?[\s\w./-]{2,30}"
+    r"|(?<!\d)\d{1,3}\s?[A-Za-z]{1,3}\s?\d{1,5}/\d{2,4}\b")
+
+
+def _num_token_in_facts(num, facts):
+    """Steht die Zahl als eigenständiges Token im Faktenblatt (nicht Teil einer längeren Zahl
+    oder einer URL-Ziffernfolge)?"""
+    return bool(re.search(r"(?<![\d.,])" + re.escape(num) + r"(?![\d.,])", facts))
+
+
+def numbers_not_in_facts(prose, facts):
+    """Zahlen der vier Auftragskategorien, die nicht in der Faktensammlung belegt sind.
+    Rückgabe: Liste lesbarer Fundstellen (ohne Dopplungen)."""
+    text = _URL_RE.sub(" ", prose)
+    missing, seen = [], set()
+
+    def add(disp, key):
+        if key not in seen:
+            seen.add(key)
+            missing.append(disp)
+
+    for m in _EURO_RE.finditer(text):
+        for n in _NUM_RE.findall(m.group(1)):
+            if not _num_token_in_facts(n, facts):
+                add(f"{n} Euro", ("e", n))
+    for m in _PERCENT_RE.finditer(text):
+        for n in _NUM_RE.findall(m.group(1)):
+            if not _num_token_in_facts(n, facts):
+                add(f"{n} Prozent", ("p", n))
+    for m in _YEAR_RE.finditer(text):
+        n = m.group(0)
+        if not _num_token_in_facts(n, facts):
+            add(f"Jahr {n}", ("y", n))
+    for m in _COURT_RE.finditer(text):
+        ref = re.sub(r"\s+", " ", m.group(0)).strip().rstrip(".,;")[:40]
+        if fold_text(ref) not in fold_text(facts):
+            add(f"Gericht/Az.: {ref}", ("c", ref.lower()))
+    return missing
+
+
 def check_prose(prose, words, phrases, niche=None, band=None, label=""):
     """Gemeinsame Prüfungen für einen Textblock. Rückgabe (gates, report)."""
     wc = count_words(prose)
@@ -376,7 +434,7 @@ def lint_city_copy(path, niche, words, phrases, sizes=None):
     return reports
 
 
-def lint_file(path, niche, band, words, phrases):
+def lint_file(path, niche, band, words, phrases, facts=None):
     with open(path, encoding="utf-8") as f:
         raw = f.read()
     if path.endswith(".astro"):
@@ -387,7 +445,11 @@ def lint_file(path, niche, band, words, phrases):
         raise SystemExit("Für city-copy.json geben Sie --niche an und keine Wortspanne; die Stadtspanne steht fest.")
     else:
         prose = md_to_text(raw)
-    _, rep = check_prose(prose, words, phrases, niche=niche, band=band, label=os.path.basename(path))
+    gates, rep = check_prose(prose, words, phrases, niche=niche, band=band, label=os.path.basename(path))
+    if facts is not None:
+        missing = numbers_not_in_facts(prose, facts)
+        gates["zahlen_im_faktenblatt"] = not missing
+        rep["zahlen_ohne_beleg"] = missing
     return [rep]
 
 
@@ -409,6 +471,9 @@ def print_report(reports):
             print(f"       verbotene Wendungen: {r['forbidden_phrases']}")
         if r["em_dashes"]:
             print(f"       Gedankenstriche: {r['em_dashes']}")
+        if r.get("zahlen_ohne_beleg"):
+            print(f"       Zahlen ohne Beleg im Faktenblatt ({len(r['zahlen_ohne_beleg'])}): "
+                  f"{', '.join(r['zahlen_ohne_beleg'])}")
         for p in r.get("faq_problems", []):
             print(f"       {p}")
         if failed:
@@ -432,8 +497,20 @@ def main():
                          "Rechtslage aufklären und diese Wörter bestreiten müssen (wiki/seo/copy-gate.md). NIE für "
                          "Stadttexte, Eintragsbeschreibungen oder die Startseite. Der Programmname „Festpreis-Garantie“ "
                          "ist überall erlaubt. Die Werbefloskeln bleiben verboten")
+    ap.add_argument("--facts", help="Pfad zu 05-fact-sheet.md. Dann muss jede Zahl der Seite (Euro, "
+                                    "Prozent, Jahre, Gerichts-/Aktenzeichen) in der Faktensammlung belegt "
+                                    "sein, sonst scheitert die Prüfung. Für Ratgeberseiten, die aus der "
+                                    "Faktensammlung entstehen (wiki/seo/copy-gate.md)")
     ap.add_argument("--json", action="store_true", help="maschinenlesbare Ausgabe")
     args = ap.parse_args()
+
+    facts_text = None
+    if args.facts:
+        if not os.path.exists(args.facts):
+            print(f"FEHLER: Faktensammlung nicht gefunden: {args.facts}")
+            sys.exit(1)
+        with open(args.facts, encoding="utf-8") as f:
+            facts_text = f.read()
 
     if not os.path.exists(args.file):
         print(f"FEHLER: Datei nicht gefunden: {args.file}")
@@ -450,7 +527,7 @@ def main():
         band = None
         if args.min_words is not None or args.max_words is not None:
             band = (args.min_words or 0, args.max_words or 10**9)
-        reports = lint_file(args.file, args.niche, band, words, phrases)
+        reports = lint_file(args.file, args.niche, band, words, phrases, facts=facts_text)
 
     for r in reports:
         r["rechtswoerter_zugelassen"] = bool(args.erlaube_rechtswoerter)
