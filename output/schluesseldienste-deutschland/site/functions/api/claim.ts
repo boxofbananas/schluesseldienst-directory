@@ -7,7 +7,11 @@
 //   - KV-Namespace  EINSENDUNGEN
 //   - Email-Routing send_email-Binding  SEB  (Versand nur an die verifizierte Betreiberadresse)
 //   - optionale Variablen NOTIFY_FROM / NOTIFY_TO (verifizierte Absende-/Zieladresse)
-import { EmailMessage } from "cloudflare:email";
+// Nur als Typ importiert (zur Laufzeit gelöscht): Cloudflare Pages Functions unterstützen das
+// send_email-Binding nicht und stellen das Modul "cloudflare:email" nicht bereit. Ein statischer
+// Wert-Import ließe die Function bei jedem Aufruf scheitern. Der Versand lädt das Modul deshalb
+// nur dynamisch und nur, wenn ein SEB-Binding vorhanden ist (auf Pages nie).
+import type { EmailMessage } from "cloudflare:email";
 
 interface Env {
   EINSENDUNGEN: KVNamespace;
@@ -51,7 +55,9 @@ function zufall(): string {
 function seite(pfad: string): Response {
   // Erfolg wird als Seitenanzeige gelöst: zurück zum Formular mit ?gesendet=1 (das Skript dort
   // blendet die Dankesmeldung ein). Keine Bestätigungsmail an den Absender.
-  return Response.redirect(pfad + "?gesendet=1", 303);
+  // Relativer Location-Header statt Response.redirect(): Letzteres verlangt eine absolute URL und
+  // wirft sonst "Unable to parse URL". Der Browser löst den relativen Pfad gegen die Anfrage auf.
+  return new Response(null, { status: 303, headers: { Location: pfad + "?gesendet=1" } });
 }
 
 export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
@@ -115,7 +121,10 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
       `Date: ${new Date(now).toUTCString()}\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset="UTF-8"\r\n` +
       `Content-Transfer-Encoding: base64\r\n\r\n` +
       btoa(unescape(encodeURIComponent(body))).replace(/(.{76})/g, "$1\r\n");
-    if (env.SEB) await env.SEB.send(new EmailMessage(from, to, raw));
+    if (env.SEB) {
+      const { EmailMessage } = await import("cloudflare:email");
+      await env.SEB.send(new EmailMessage(from, to, raw));
+    }
   } catch { /* Mail darf die Annahme nicht blockieren; KV hält die Einsendung ohnehin */ }
 
   return seite(art === "garantie" ? "/festpreis-garantie/antrag/" : "/eintrag-beanspruchen/");

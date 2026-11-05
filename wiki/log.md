@@ -435,3 +435,14 @@ Zahlen, was auf Freigabe wartet.
   `check_live.py` gegen pages.dev: alle 22 Prüfungen bestanden, Sitemap 2.807 Adressen. pages.dev
   sendet `X-Robots-Tag: noindex` (live bestätigt) → kein Doppelinhalt, kein Problem. Domain/Sitemap/
   Suchmaschinen bewusst noch nicht. Bericht: `berichte/2026-11-05-gate6-deploy-pages-dev.md`.
+
+- **2026-11-05 (Gate 6, Teil 1 korrigiert):** KV-Namespace `EINSENDUNGEN` zuerst angelegt, echte id in
+  wrangler.toml, dann Build/Deploy. `send_email` recherchiert: Pages Functions unterstützen es NICHT
+  (Doku listet 12 Binding-Typen ohne E-Mail; wrangler lehnt es ab) → Binding auskommentiert, ohne
+  ausgeliefert; Einsendungen gehen in KV, Daniel liest im Dashboard. KV zur Laufzeit als gebunden
+  bestätigt. **Bug gefunden+gefixt:** `functions/api/claim.ts` `seite()` nutzte `Response.redirect`
+  mit relativem Pfad → 1101 bei jedem Formular-POST; jetzt relativer `Location`-Header (live: 303
+  bestätigt). `cloudflare:email` nur noch Typ-Import + dynamisch. Benachrichtigungswege im Bericht
+  (KV+Dashboard jetzt; Mail-Dienst oder eigener Worker + Email Routing später; Ziel = Daniels
+  verifiziertes Postfach, nicht info@). check_live alle bestanden, Sitemap 2.807. pages.dev noindex
+  live bestätigt. Bericht: `berichte/2026-11-05-gate6-deploy-korrigiert-sendemail-kv.md`.
