@@ -26,32 +26,18 @@ if (p.managingDirector) {
 }
 // Der Abschnitt "Warum es dieses Verzeichnis gibt". In site.json unter "aboutWhy" pflegen.
 const why = site.aboutWhy && site.aboutWhy.length ? site.aboutWhy : [
-  `Wer einen ${site.niche.singular} braucht, sucht ihn unter Druck und greift zur ersten Nummer, die oben steht. Genau daran verdienen überregionale Vermittler, die den Auftrag an irgendeinen Monteur weitergeben und am Ende eine Summe verlangen, über die vorher niemand gesprochen hat.`,
-  `Dieses Verzeichnis sortiert die ${site.niche.plural} nach Bundesland und Stadt und zeigt zu jedem Betrieb das, worauf es vor dem Anruf ankommt: Anschrift, Telefonnummer, Bewertung bei Google und die Leistungen, die der Betrieb auf seiner eigenen Website nennt. Was nicht belegt ist, steht als „keine Angabe“ da und nicht als Vermutung.`,
-  `Wir sind keine Behörde und keine berufsständische Vertretung. Wir sind ein Herausgeber, der öffentliche Daten ordnet und auf Antrag die Angaben einzelner Betriebe an Unterlagen und Website prüft. Was dabei geprüft wird und was nicht, steht vollständig auf der Seite <a href="/festpreis-garantie/">Festpreis-Garantie</a>.`,
+  `Wer ausgesperrt ist, sucht einen ${site.niche.singular} unter Druck und wählt die erste Nummer, die oben steht. Genau das nutzen überregionale Vermittler, die den Auftrag an irgendeinen Monteur weitergeben und am Ende eine Summe verlangen, über die vorher niemand gesprochen hat. Die <a href="https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/abzocke/schluesseldienste-so-schuetzen-sie-sich-vor-ueberzogen-hohen-rechnungen-6687" rel="noopener">Verbraucherzentrale</a> warnt vor solchen überhöhten Rechnungen und rät, schon am Telefon einen festen Preis für Türöffnung und Anfahrt zu vereinbaren, bevor man jemanden kommen lässt.`,
+  `Dieses Verzeichnis macht sichtbar, wer seinen Preis vorher nennt und sich darauf festlegt. Es ordnet die ${site.niche.plural} nach Bundesland und Stadt und zeigt zu jedem Betrieb, worauf es vor dem Anruf ankommt: Anschrift, Telefonnummer, Bewertung bei Google und die Leistungen, die der Betrieb auf seiner eigenen Website nennt. Was nicht belegt ist, steht als „keine Angabe“ da und nicht als Vermutung.`,
+  `Betriebe, die ihren Preis vorab nennen wollen, können sich damit abheben: Wer die Preise für Türöffnung, Nacht und Anfahrt offenlegt und ein unterschriebenes Serviceversprechen abgibt, erhält die Festpreis-Garantie, sichtbar am Eintrag, damit die Kundschaft den Preis schon vor dem Anruf kennt. Was dafür geprüft wird und was nicht, steht vollständig auf der Seite <a href="/festpreis-garantie/">Festpreis-Garantie</a>.`,
 ];
 ---
 <Base title={title} description={description} path="/ueber-uns/" schema={schema}>
   <Fragment slot="head">
     <h1>Über {site.brand}</h1>
   </Fragment>
-  <div class="publisher">
-    {p.image && <img src={p.image} alt={p.name} width="160" height="160" />}
-    <div class="prose">
-      <h2 style="margin-top:0">Herausgegeben von {p.name}</h2>
-      <p>{p.bio}</p>
-      {p.url && <p><a href={p.url} rel="me noopener">{p.url.replace(/^https?:\/\//, '')}</a></p>}
-      {p.managingDirector && (
-        <p>Verantwortlich ist {p.managingDirector}, Geschäftsführer der {p.legalName || p.name}
-          {p.city ? ` in ${p.city}` : ''}. Fragen zu einem Eintrag, zu einer Korrektur oder zur Festpreis-Garantie
-          beantworten wir unter <a href={`mailto:${site.contact.email}`}>{site.contact.email}</a>.</p>
-      )}
-      <p class="meta">Vollständige Angaben zum Herausgeber: <a href="/impressum/">Impressum</a>.</p>
-    </div>
-  </div>
   {p.videoEmbed && <div class="prose" set:html={p.videoEmbed}></div>}
   <section class="prose">
-    <h2>Warum es dieses Verzeichnis gibt</h2>
+    <h2 style="margin-top:0">Warum es dieses Verzeichnis gibt</h2>
     <div set:html={why.map((t) => `<p>${t}</p>`).join('\n')}></div>
     <h2>Wie die Einträge entstehen</h2>
     {vetting
@@ -61,5 +47,7 @@ const why = site.aboutWhy && site.aboutWhy.length ? site.aboutWhy : [
     <p>Inhaber können ihren Eintrag kostenlos beanspruchen. Jede Beanspruchung wird von einem Menschen geprüft: ein echter örtlicher Betrieb, eine E-Mail-Adresse auf der eigenen Domain oder ein Anruf auf der Nummer aus dem Google-Eintrag. Bezahlte Platzierungen sind überall als Premium-Eintrag, Premium-Platz oder Top-Platzierung gekennzeichnet. Die Festpreis-Garantie ist nicht kaufbar; bezahlt wird nur Sichtbarkeit.</p>
     <h2>Korrekturen und Löschungen</h2>
     <p>Wenn ein Eintrag falsch ist oder Sie Ihren Betrieb entfernt haben möchten, <a href="/kontakt/">schreiben Sie uns</a>. Wir antworten innerhalb einer Woche und bauen das Verzeichnis mit der Änderung neu.</p>
+    <h2>Herausgeber</h2>
+    <p>Herausgegeben wird {site.brand} von der {p.name}, Geschäftsführer {p.managingDirector}; die vollständigen Angaben stehen im <a href="/impressum/">Impressum</a>.</p>
   </section>
 </Base>

@@ -446,3 +446,15 @@ Zahlen, was auf Freigabe wartet.
   (KV+Dashboard jetzt; Mail-Dienst oder eigener Worker + Email Routing später; Ziel = Daniels
   verifiziertes Postfach, nicht info@). check_live alle bestanden, Sitemap 2.807. pages.dev noindex
   live bestätigt. Bericht: `berichte/2026-11-05-gate6-deploy-korrigiert-sendemail-kv.md`.
+
+- 2026-11-05 WO-5: (1) Apex-Domain ans Pages-Projekt angehängt – Status pending, „CNAME record
+  not set"; Token ist Pages-beschränkt, kann DNS nicht setzen → Daniel setzt den CNAME (Dashboard,
+  ein Klick) oder gibt DNS/Rules-Token; www→Apex + check_live gegen echte Domain stehen aus.
+  (2) Merz `premium=true` (Mannheim) → Kennzeichen „Premium-Eintrag", AES ohne Platz; kein Band
+  (Band liest nur `featured`); Platz 1 durch Score 5,0/355, nicht manuell. (3) „Über uns" neu:
+  Mission zuerst, Serviceversprechen + Verbraucherzentrale-Quelle, DOM Holding ein Satz + Schema,
+  Startseite ohne Holding, Fuß behält sie; Gate bestanden. (4) `schluesseldienst-josef-mannheim`
+  ausgeschlossen (verhalten_betreiber); Mannheim-Text per Pipeline neu, ohne Lücke; Nachbarn
+  sauber. (5) Drei Überschriften A/B/C gebaut und verglichen; A/B mit Branchenzeile über der H1
+  gate-fähig, jetzige Fassung wiederhergestellt/live. Neuer Build auf pages.dev ausgeliefert.
+  Bericht: `berichte/2026-11-05-domain-merz-ueberuns-josef-ueberschriften.md`.
