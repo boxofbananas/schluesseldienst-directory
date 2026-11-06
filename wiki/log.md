@@ -644,3 +644,9 @@ Zahlen, was auf Freigabe wartet.
   Vier Beschreibungen in beide CSVs übertragen (Merkmale/Garantie unberührt), neu gebaut und
   ausgeliefert, Sitemap unverändert 2823, `check_live` grün, die vier live mit neuem Text.
   Bericht `berichte/2026-11-06-garantie18-aehnlichkeitspruefung.md`.
+- **2026-11-06** **Starttag der Staffel auf heute gesetzt.** `site.json` `launchDate`
+  2026-11-09 → **2026-11-06** (vom Schema als `datePublished` genutzt). Neu gebaut (4647 Seiten),
+  ausgeliefert; `datePublished` im gebauten **und** im Live-Schema = 2026-11-06. `check_live.py`
+  mit 2823 alle bestanden. `06-launch.md` angeglichen: Starttag 2026-11-06, erste 30-Tage-Prüfung
+  **2026-12-06**, Punkt „Staffel auslösen" als erledigt markiert (offen beim Betreiber nur noch
+  der IndexNow-Ping). Bericht `berichte/2026-11-06-staffelstart-heute.md`.

@@ -2,7 +2,7 @@
 
 **Verzeichnis:** Die besten Schlüsseldienste · `die-besten-schluesseldienste.de`
 **Stand:** 2026-11-06 · Build 4646 Seiten, Sitemap **2814** Adressen (Garantie-Ausnahme umgesetzt)
-· Domain und www-Umleitung live · Start der Staffel 2026-11-09
+· Domain und www-Umleitung live · Start der Staffel 2026-11-06 (ausgelöst)
 **Grundlage:** [[launch-lean]], [[footprint-rules]], [[siegel-programm]]
 
 Die Domain ist bereits ausgeliefert und erreichbar; was aussteht, ist die **gestaffelte
@@ -31,7 +31,7 @@ Einreichung** (der Dripfeed). Dieses Dokument legt sie fest.
 - `dist/404.html` vorhanden (sonst behandelt Cloudflare die Site als Einzelseitenanwendung).
 - `dist/_headers` setzt `X-Robots-Tag: noindex` auf `:project.pages.dev` und Vorschauadressen.
 - www-Umleitung live (301, Pfad und Query erhalten).
-- Stellschrauben: `cityFloor=2`, `foldMaxKm=30`, `cityMinPopulation=20000`, `launchDate=2026-11-03`.
+- Stellschrauben: `cityFloor=2`, `foldMaxKm=30`, `cityMinPopulation=20000`, `launchDate=2026-11-06`.
 
 ---
 
@@ -155,15 +155,17 @@ jede Beanspruchung hebt eine Seite sofort in den indexierten Bestand (neu bauen,
       Klick **keine** externe Anfrage und **nichts** von Google; erst nach Klick auf „Karte von
       Google Maps laden" lädt die Karte (`maps.googleapis.com` u. a.). Schriften selbst gehostet.
 - [x] Verzeichnis auf **eigenem Cloudflare-Konto**, getrennt von den Schlüsseldienst-Websites.
-- [x] `datePublished` auf den Staffel-Starttag **2026-11-09** gesetzt (`site.json` `launchDate`),
-      im gebauten Schema bestätigt.
+- [x] `datePublished` auf den Staffel-Starttag **2026-11-06** gesetzt (`site.json` `launchDate`),
+      im gebauten und im Live-Schema bestätigt.
+- [x] **Staffel ausgelöst** am **2026-11-06**: Build und Auslieferung mit dem Starttag als
+      `datePublished` live, `check_live.py` mit 2823 Adressen grün.
 
 ---
 
 ## 7. Termin der 30-Tage-Prüfung
 
-**Starttag der Staffel + 30 Tage.** Die Staffel startet am **2026-11-09** (= `datePublished`); die
-erste Prüfung fällt auf den **2026-12-09**. Zu lesen ([[launch-lean]]):
+**Starttag der Staffel + 30 Tage.** Die Staffel ist am **2026-11-06** gestartet (= `datePublished`);
+die erste Prüfung fällt auf den **2026-12-06**. Zu lesen ([[launch-lean]]):
 
 - indexierte Seiten (Cloudflare-Auswertung, `site:`-Stichprobe) — wächst der Bestand?
 - Klicks / Crawler-Zugriffe aus der Cloudflare-Auswertung;
@@ -178,9 +180,9 @@ Wachsen die indexierten Seiten, Stufe 2 freischalten. Stagnieren sie, erst die U
 
 - Den IndexNow-Schalter (Crawler Hints) im eigenen Cloudflare-Konto aktivieren oder je Stufe den
   IndexNow-Ping auslösen.
-- Die Staffel am festgelegten Starttag **2026-11-09** auslösen (IndexNow-Ping der ersten Stufe).
-  `datePublished` ist bereits auf diesen Tag gesetzt; verschiebt sich der Start, den Wert in
-  `site.json` (`launchDate`) anpassen, neu bauen, ausliefern.
+- [x] Die Staffel ist am Starttag **2026-11-06** ausgelöst (Build und Auslieferung mit diesem Tag
+  als `datePublished`). Noch offen beim Betreiber: den IndexNow-Ping der ersten Stufe im eigenen
+  Cloudflare-Konto absetzen.
 - Die Cloudflare-Auswertung alle 30 Tage lesen.
 
 Claude legt kein Konto an, meldet sich nirgends an und reicht nichts ohne Freigabe ein.
