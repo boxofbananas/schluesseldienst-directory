@@ -2,4 +2,4 @@
 import { fmtDate } from '../lib/load.mjs';
 const { site, published, modified } = Astro.props;
 ---
-<p class="byline">Von <a href="/ueber-uns/">{site.publisher.name}</a>{published ? ` · Veröffentlicht am ${fmtDate(published)}` : ''}{modified ? ` · Aktualisiert am ${fmtDate(modified)}` : ''}</p>
+<p class="byline">Von <a href="/ueber-uns/">{site.brand}</a>{published ? ` · Veröffentlicht am ${fmtDate(published)}` : ''}{modified ? ` · Aktualisiert am ${fmtDate(modified)}` : ''}</p>

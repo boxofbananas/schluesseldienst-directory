@@ -673,3 +673,12 @@ Zahlen, was auf Freigabe wartet.
   ohne Exception — Email Routing hat beide Nachrichten zur Zustellung angenommen (Nachweis aus den
   Worker-Logs, nicht vermutet). Beide Testeinträge aus KV gelöscht. Bericht
   `berichte/2026-11-06-mailtest-live.md`.
+- **2026-11-06** **Herausgeber aus dem Seitentext genommen, bis auf die Pflichtstellen.** „DOM
+  Holding GmbH" und „Daniel Merz" aus Fuß (Fließtext + „Herausgegeben von"-Zeile, Behörde-Satz
+  bleibt), Ratgeber-Byline (→ Marke), Über-uns-Fließtext (Daniel raus, Firma bleibt) und den zwei
+  Art.-13-Hinweisen („(Daniel Merz)" raus, Firma bleibt) entfernt. Zusätzlich Kontakt- und
+  Danke-Seite (Firmenname raus); AGB bleibt (Rechtsseite). Impressum, Datenschutz sowie
+  Organization- und Person-Schema unverändert — Daniel Merz nur noch als Geschäftsführer im
+  Person-Schema. JSON-LD geprüft (0 kaputte Blöcke, publisher/herausgeber/Person lösen auf),
+  gebaut, ausgeliefert, check_live.py mit 2823 bestanden, live gegengeprüft. Bericht
+  `berichte/2026-11-06-herausgeber-aus-seitentext.md`.
