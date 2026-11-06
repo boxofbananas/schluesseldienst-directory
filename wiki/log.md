@@ -573,3 +573,14 @@ Zahlen, was auf Freigabe wartet.
   Reihenfolge belegt die Regel: Merz oben allein über den bezahlten Platz, AES (owned +
   geprueft, score 0) ganz unten (#18). Gebaut, ausgeliefert, live geprüft außer www-Umleitung.
   Bericht `berichte/2026-11-06-stripe-links-und-erste-garantie-mannheim.md`.
+- **2026-11-06** **Festpreis-Garantie für 16 weitere eigene Betriebe** (Heidelberg, Hockenheim je
+  2; Ludwigshafen, Schwetzingen, Worms, Weinheim, Speyer, Wiesloch, Waghäusel, Frankenthal,
+  Bensheim, Sinsheim, Neustadt, Landau). Überall `geprueft=true`, 2026, Zuschläge +30/+40,
+  Anfahrt 0, Zylinder 39/+3; Grundpreis gestaffelt: 89 € (6), 99 € (7), 119 € (3). Zuordnung
+  über Name **und** Ort (zwei Orte mit je zwei eigenen Betrieben), jede Zeile eindeutig. Geprüfte
+  Betriebe gesamt jetzt 18. **Nicht eingetragen** (Voraussetzung 2, keine Telefonnummer): Ried
+  Schlüsseldienst Viernheim, Türklar Schlüsseldienst Leimen, Lampertheimer Schlüsseldienst. Vor
+  Auslieferung alle 16 Grundpreise im Build gegen die Vorgabe geprüft (0 Fehler, 119-€-Orte
+  stimmen), nach Auslieferung je Stadt live die „Türöffnung ab … €"-Zeile mit richtigem Betrag,
+  Preisblock-Stichprobe Sinsheim (119 €). `check_live.py` grün außer www-Umleitung. Bericht
+  `berichte/2026-11-06-garantie-16-eigene-betriebe.md`.
