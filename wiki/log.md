@@ -595,3 +595,16 @@ Zahlen, was auf Freigabe wartet.
   negativen Cache; Prüfung über die echten Cloudflare-Anycast-IPs geführt, öffentliches DNS löst
   www bereits auf — reine Propagationsfrage, kein Konfigurationsmangel.) Konfiguration liegt in
   Cloudflare, keine Repo-Code-Änderung. Bericht `berichte/2026-11-06-www-weiterleitung.md`.
+- **2026-11-06** **Gate 6 begonnen — Ist-Stand und `06-launch.md`** (noch nichts an der Sitemap
+  geändert). Build 4646 Seiten, Sitemap 2806 (Startseite 1, Vertrauensseiten 2, Bundesländer 16,
+  Stadtseiten 577 von 787, Leistungsseiten 7, Ratgeber 6, Eintragsseiten 2197 von 3799); noindex
+  1840 (1602 dünne Einträge, 210 Einzeleintrag-Stadtseiten, 18 `/auszeichnung/`, ~11
+  Formular-/Pflichtseiten). `featuredPreview` im ausgelieferten Build nachweislich **false** (0
+  Vorschau-Karten, 804 „Dieser Platz ist frei"); 404.html und _headers (pages.dev-noindex)
+  vorhanden. **Befund:** 17 der 18 Garantie-Betriebe stehen auf noindex (thin & !claimed &
+  !optimized in `load.mjs:550`); nur Merz Sicherheit Mannheim in der Sitemap. Plan schreibt die
+  `geprueft`-Ausnahme (`&& !l.geprueft`) als den Start sperrende Vorbedingung fest (Sitemap dann
+  2806 → 2823), noch nicht umgesetzt. Indexierungsplan ohne Search Console/Analytics (Sitemap via
+  robots.txt, IndexNow/Crawler Hints, Cloudflare-Auswertung), geordnete Adressliste (18
+  Garantie-Seiten vorgezogen), vier Erweiterungsstufen, 30-Tage-Prüfung Starttag+30. Bericht
+  `berichte/2026-11-06-gate6-schlanker-start.md`.
