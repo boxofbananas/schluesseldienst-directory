@@ -584,3 +584,14 @@ Zahlen, was auf Freigabe wartet.
   stimmen), nach Auslieferung je Stadt live die „Türöffnung ab … €"-Zeile mit richtigem Betrag,
   Preisblock-Stichprobe Sinsheim (119 €). `check_live.py` grün außer www-Umleitung. Bericht
   `berichte/2026-11-06-garantie-16-eigene-betriebe.md`.
+- **2026-11-06** **www-Weiterleitung eingerichtet** (301, Pfad und Query erhalten). Token hat jetzt
+  „Dynamic URL Redirect · Edit". Über die Cloudflare-API: www hatte keinen DNS-Eintrag → proxied
+  CNAME `www` → `schluesseldienste-deutschland.pages.dev` angelegt; Redirect-Regel in der Phase
+  `http_request_dynamic_redirect` (Ausdruck `http.host eq "www.…"`, 301, Ziel
+  `concat("https://die-besten-schluesseldienste.de", http.request.uri.path)`,
+  `preserve_query_string: true`). Live mit `curl -I` geprüft: nackte www-Startseite, `/mannheim/`,
+  tiefe Stadtseite und Adresse mit Abfrageparameter — je 301 mit erhaltenem Pfad/Query.
+  `check_live.py`: alle Prüfungen bestanden, www-Zeile grün. (Lokaler Resolver hielt noch 30 min
+  negativen Cache; Prüfung über die echten Cloudflare-Anycast-IPs geführt, öffentliches DNS löst
+  www bereits auf — reine Propagationsfrage, kein Konfigurationsmangel.) Konfiguration liegt in
+  Cloudflare, keine Repo-Code-Änderung. Bericht `berichte/2026-11-06-www-weiterleitung.md`.
