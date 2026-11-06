@@ -632,3 +632,15 @@ Zahlen, was auf Freigabe wartet.
   **Sitemap 2814 → 2823** (genau die neun), `check_live.py` mit 2823 grün, jede Seite live
   `index, follow`. Alle 18 Garantie-Betriebe tragen jetzt Inhalt. Bericht
   `berichte/2026-11-06-garantie9-anreicherung.md`.
+- **2026-11-06** **Ähnlichkeitsprüfung der 18 Garantie-Beschreibungen gegeneinander** (die
+  Zusammenführung hielt die neun neuen nur gegen die 2.197, nicht untereinander). Methode von
+  `check_city_copy.py`: Sätze ab neun Wörtern, Name/Stadt entfernt, Jaccard der Wortmengen,
+  Schwelle 0,75. **Genau ein Muster über der Schwelle**: der Schlusssatz „ein Monteur ist … in
+  etwa einer halben Stunde vor Ort" (Frankenthal, Ludwigshafen, Worms wörtlich, Speyer als
+  Variante) – die einzigen Paare ≥0,75, nächsthöchstes 0,67. Nur diese vier neu geschrieben, je
+  mit einer Anfahrts-Tatsache aus dem eigenen Paket; dabei auch „Anfahrtskosten … nach Ort
+  gestaffelt" (3×) auf 1× gesenkt. Generische Fachausdrücke (24h, Zylinder ziehen) unverändert,
+  keine über 0,75. Nachkontrolle: **kein Paar mehr ≥0,75** (Max 0,67), `merge_enriched.py` 9/9.
+  Vier Beschreibungen in beide CSVs übertragen (Merkmale/Garantie unberührt), neu gebaut und
+  ausgeliefert, Sitemap unverändert 2823, `check_live` grün, die vier live mit neuem Text.
+  Bericht `berichte/2026-11-06-garantie18-aehnlichkeitspruefung.md`.
