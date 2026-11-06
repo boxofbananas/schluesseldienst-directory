@@ -43,10 +43,14 @@ export default {
     }
     try {
       await env.EMAIL.send(new EmailMessage(p.from, p.to, p.raw));
+      // Erfolg = Cloudflare Email Routing hat die Nachricht zur Zustellung angenommen. Ohne die
+      // Empfängeradresse zu loggen, nur den Ausgang, damit `wrangler tail` den Nachweis zeigt.
+      console.log("notify: EMAIL.send ok");
       return new Response("gesendet", { status: 200 });
     } catch (e) {
-      // Der Aufrufer wertet den Fehlschlag nicht aus (KV hält die Einsendung ohnehin); der Text
-      // hilft nur bei `wrangler tail` während eines Testlaufs.
+      // Der Aufrufer wertet den Fehlschlag nicht aus (KV hält die Einsendung ohnehin); Log + Text
+      // helfen bei `wrangler tail` während eines Testlaufs.
+      console.error("notify: EMAIL.send failed: " + (e as Error).message);
       return new Response("Versand fehlgeschlagen: " + (e as Error).message, { status: 502 });
     }
   },

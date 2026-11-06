@@ -663,3 +663,13 @@ Zahlen, was auf Freigabe wartet.
   nicht von mir ausführbar): Email Routing aktivieren, gewöhnliche Adresse als Destination
   verifizieren, `NOTIFY_TO`-Secret setzen; „Mail angekommen" danach. Bericht
   `berichte/2026-11-06-formular-benachrichtigung.md`.
+- **2026-11-06** **Live-Mailtest beider Formularpfade bestanden.** Daniel hat Email Routing
+  aktiviert, seine Adresse als Destination verifiziert, `NOTIFY_TO` als Pages-Secret gesetzt.
+  Worker (mit Erfolgs-/Fehler-Logzeile, ohne Empfängeradresse) und Pages neu ausgeliefert (Secret
+  greift erst mit Deploy). Je eine echte Absendung an `/api/claim` mit mitlaufendem
+  `wrangler tail`. **Beanspruchung:** 303, `?gesendet=1`, KV `beansprucht:…12-15-31:go1t`, Tail
+  `EMAIL.send ok` / Status 200. **Garantie-Antrag:** 303, `/festpreis-garantie/antrag/?gesendet=1`,
+  KV `garantie:…12-15-31:tasj`, Tail `EMAIL.send ok` / Status 200. Genau zwei Tail-Ereignisse, beide
+  ohne Exception — Email Routing hat beide Nachrichten zur Zustellung angenommen (Nachweis aus den
+  Worker-Logs, nicht vermutet). Beide Testeinträge aus KV gelöscht. Bericht
+  `berichte/2026-11-06-mailtest-live.md`.
