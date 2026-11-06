@@ -48,15 +48,15 @@
   "tiers": {
     "premium": {
       "price": "97 € im Jahr",
-      "link": "STRIPE_LINK_PREMIUM"
+      "link": "https://buy.stripe.com/aFa5kE2lg1k85Nw7fm1VK02"
     },
     "bestOf": {
       "price": "250 € einmalig",
-      "link": "STRIPE_LINK_BESTOF"
+      "link": "https://buy.stripe.com/00w5kEaRM8MA0tcary1VK00"
     },
     "city": {
       "price": "29 € im Monat",
-      "link": "STRIPE_LINK_CITY"
+      "link": "https://buy.stripe.com/4gM8wQbVQe6U7VE6bi1VK01"
     },
     "county": {
       "price": "",

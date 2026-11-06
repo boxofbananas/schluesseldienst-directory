@@ -559,3 +559,17 @@ Zahlen, was auf Freigabe wartet.
   zurückgesetzt), `check_live.py` bestanden außer bekannter www-Umleitung. Noch kein Preis
   eingetragen. Stripe-Links ohne Zuordnung, nicht vorbereitet. Bericht
   `berichte/2026-11-06-garantie-grundpreis-zuschlaege.md`.
+- **2026-11-06** **Stripe-Links eingetragen, erste Festpreis-Garantie (Mannheim).** Die drei
+  Zahlungslinks in `site.json` zugeordnet (premium 97 € → …1VK02, bestOf 250 € → …1VK00,
+  city 29 € → …1VK01); auf `/premium/` Preis für Preis geprüft, kein vertauschter Link. Die
+  `/danke/`-Weiterleitung setzt Daniel je Link in Stripe selbst (Payment Link → After payment →
+  Redirect → `/danke/`). **Garantie** für Merz Sicherheit (5,0/355) und AES Schlüsseldienst
+  Mannheim (keine Bewertungen, Voraussetzung 4: übrige entscheiden): `geprueft=true`,
+  `geprueft_jahr=2026`, `garantie_tag=89`, Zuschläge +30/+40, Anfahrt 0, Zylinder 39/+3. Beide
+  Eintragsseiten mit vollem Preisblock, beide Stadtkarten mit „Türöffnung ab 89 €". Nebenbefund
+  behoben: `FeaturedBand` zeigte keine Garantie-Zeile (Merz erster Betrieb mit Premium-Platz +
+  Garantie) → `<Garantie mode="card">` eingefügt; dabei Template-Drift des `FeaturedBand`
+  (fehlende `vatNote`/`Star` aus Aufgabe B) auf die Build-Fassung geglättet. Mannheimer
+  Reihenfolge belegt die Regel: Merz oben allein über den bezahlten Platz, AES (owned +
+  geprueft, score 0) ganz unten (#18). Gebaut, ausgeliefert, live geprüft außer www-Umleitung.
+  Bericht `berichte/2026-11-06-stripe-links-und-erste-garantie-mannheim.md`.

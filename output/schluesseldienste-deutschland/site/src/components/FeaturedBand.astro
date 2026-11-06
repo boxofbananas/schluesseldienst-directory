@@ -6,6 +6,7 @@
 // Eigenschaften: site, items (Einträge), place (Stadt-, Bundesland- oder Ländername), price, slots (3), title.
 import { topAttrs, fmtInt, fmtRating } from '../lib/load.mjs';
 import Star from './Star.astro';
+import Garantie from './Garantie.astro';
 const { site, items = [], place, price = '', slots = 3, title } = Astro.props;
 const vatNote = site.tiers?.vatNote;
 const heading = title || `Premium-Plätze: ${site.niche.plural} in ${place}`;
@@ -21,6 +22,7 @@ const shown = items.slice(0, slots);
         <div class="top"><span><b class="badge">Premium</b>{l.city}</span><span class="rt"><Star /> {fmtRating(l.rating)} ({fmtInt(l.reviews)})</span></div>
         <div class="body">
           <h3><a href={l.path}>{l.name}</a></h3>
+          <Garantie listing={l} mode="card" />
           <p>{excerpt(l.description)}</p>
           {topAttrs(l).length > 0 && <ul class="chips">{topAttrs(l).map((a) => <li>{a.label}</li>)}</ul>}
           <a class="more" href={l.path}>Eintrag ansehen</a>
