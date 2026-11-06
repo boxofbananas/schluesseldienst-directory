@@ -70,7 +70,7 @@ Stadt nur ein eigener Betrieb einen bezahlten Platz bekommt, ist mit Merz Sicher
 in Mannheim belegt.
 
 Die Festpreis-Garantie bekommt Merz Sicherheit nur, wenn der Betrieb die sechs Voraussetzungen
-erfüllt, seine drei Preise nennt und den Garantie-Antrag stellt wie jeder andere
+erfüllt, seine Preise nennt und den Garantie-Antrag stellt wie jeder andere
 ([[siegel-programm]]). Sie ist nicht kaufbar, sie wird auch dem eigenen Betrieb nicht
 geschenkt, und seine Preise stehen so öffentlich wie die jedes anderen.
 

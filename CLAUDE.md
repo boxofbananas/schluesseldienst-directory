@@ -130,7 +130,8 @@ Branchenwort oder Zeilen mit der Kategorie behalten, auf Telefonnummer plus Adre
 entdoppeln, eigene Betriebe und dünne Einträge kennzeichnen. Das Skript schreibt außerdem
 `02-domains.txt`, die Domains der behaltenen Zeilen, und entfernt Googles Tracking-Parameter
 aus `website`. Es legt die leeren Spalten der Festpreis-Garantie an (`geprueft`,
-`geprueft_jahr`, `garantie_tag`, `garantie_nacht`, `garantie_anfahrt` für die Dienstleistung,
+`geprueft_jahr`, `garantie_tag` (Grundpreis werktags), `garantie_zuschlag_abend`,
+`garantie_zuschlag_nacht`, `garantie_anfahrt` für die Dienstleistung,
 `garantie_zylinder` und `garantie_zylinder_5mm` für das Material) und die reservierte
 Spalte `preisschutz`; kein Skript füllt sie ([[outscraper-columns]]). `slugify` schreibt Umlaute um, bevor es Sonderzeichen entfernt
 ([[konventionen]]).
@@ -318,8 +319,9 @@ Dann die gebauten Seiten prüfen: je Seite ein H1 und ein Titel, `lang="de"`, JS
 sich einlesen lässt und kein `aggregateRating` trägt, kein gebrochener interner Link, keine
 `noindex`-Seite in der Sitemap, kein Platzhaltertext, Impressum und Datenschutz vollständig
 und im Fußbereich verlinkt, Telefonnummern im deutschen Format ([[konventionen]]),
-„Festpreis-Garantie 2026" mit den Dienstleistungspreisen (Türöffnung tagsüber, nachts, Anfahrt)
-und, falls gesetzt, dem Materialblock (Standardzylinder, Aufschlag je 5 mm)
+„Festpreis-Garantie 2026" mit den Dienstleistungspreisen (Türöffnung – Grundpreis werktags,
+Zuschläge abends/Wochenende/Feiertag und nachts, Anfahrt) und, falls gesetzt, der Zuschläge-Gruppe
+mit der Zeile „Zuschläge werden nicht addiert" und dem Materialblock (Standardzylinder, Aufschlag je 5 mm)
 beziehungsweise „Noch keine Festpreis-Garantie" auf jedem Eintrag, die Zeile
 „Festpreis-Garantie · Türöffnung ab <garantie_tag> €" auf jeder Stadtkarte eines Betriebs mit
 Garantie ([[siegel-programm]]). `featuredPreview` muss im ausgelieferten Build `false` sein.
@@ -349,8 +351,8 @@ Erweiterungsstufen und dem Termin der 30-Tage-Prüfung.
 ### Neu bauen bei Änderung
 
 Verkaufter Platz, bestätigter Eintrag, neu erteilte oder entzogene Festpreis-Garantie
-(`geprueft`, `geprueft_jahr` und die fünf Preisspalten – drei Dienstleistung, zwei Material –
-setzen oder leeren), geänderte
+(`geprueft`, `geprueft_jahr` und die sechs Preisspalten – vier Dienstleistung: Grundpreis, zwei
+Zuschläge, Anfahrt; zwei Material – setzen oder leeren), geänderte
 Garantiepreise, neue Stadt: CSV ändern, Gate 5 erneut laufen lassen, erneut ausliefern. **Nie eine erzeugte Seite von Hand bearbeiten.**
 
 ### Nach dem Start: der Mail-Worker

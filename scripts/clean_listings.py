@@ -43,12 +43,14 @@ KEEP = ["name","phone","website","address","street","city","state","state_code",
         "reviews_tags","about","description","posts","working_hours","business_status","verified",
         "photo","logo","place_id","google_id","cid","location_link","area_service",
         "domain","email_1","email_2","email_3","phone_1","phone_2","phone_3","last_updated_time","source"]
-# geprueft, geprueft_jahr, garantie_tag, garantie_nacht und garantie_anfahrt gehören zur
-# Festpreis-Garantie (wiki/konventionen.md, Abschnitt „Festpreis-Garantie") und werden hier leer
-# angelegt; gefüllt werden sie erst, wenn der Herausgeber den Garantie-Antrag eines Betriebs
-# geprüft hat. preisschutz ist die reservierte Stufe „Preisschutz": angelegt, von keinem Skript
-# und keiner Seite ausgewertet, bis der Betreiber sie freigibt.
-GARANTIE = ["geprueft","geprueft_jahr","garantie_tag","garantie_nacht","garantie_anfahrt","garantie_zylinder","garantie_zylinder_5mm","preisschutz"]
+# geprueft, geprueft_jahr, garantie_tag (Grundpreis werktags), garantie_zuschlag_abend,
+# garantie_zuschlag_nacht und garantie_anfahrt gehören zur Festpreis-Garantie (wiki/konventionen.md,
+# Abschnitt „Festpreis-Garantie") und werden hier leer angelegt; gefüllt werden sie erst, wenn der
+# Herausgeber den Garantie-Antrag eines Betriebs geprüft hat. Das alte Feld garantie_nacht ist
+# stillgelegt und wird nicht mehr angelegt (load.mjs bricht bei gefüllter garantie_nacht ab).
+# preisschutz ist die reservierte Stufe „Preisschutz": angelegt, von keinem Skript und keiner Seite
+# ausgewertet, bis der Betreiber sie freigibt.
+GARANTIE = ["geprueft","geprueft_jahr","garantie_tag","garantie_zuschlag_abend","garantie_zuschlag_nacht","garantie_anfahrt","garantie_zylinder","garantie_zylinder_5mm","preisschutz"]
 ADDED = ["slug","city_slug","owned","thin","featured","featured_cities","claimed","geo_precision","population"] + GARANTIE
 POP_TABELLE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "de-city-population.tsv")
 
@@ -633,7 +635,8 @@ def main():
               "Bewertungen oder ohne Beschreibungstext; Attribut-JSON in `about` gilt nicht als Text)",
               f"**Als Dublette verworfen:** {fmt(dropped_dupes)} (gleiche Telefonnummer oder gleiche Adresse; behalten wurde die "
               "Zeile mit mehr Bewertungen)",
-              f"**Neue, leere Spalten:** `geprueft`, `geprueft_jahr`, `garantie_tag`, `garantie_nacht`, `garantie_anfahrt` "
+              f"**Neue, leere Spalten:** `geprueft`, `geprueft_jahr`, `garantie_tag` (Grundpreis werktags), "
+              "`garantie_zuschlag_abend`, `garantie_zuschlag_nacht`, `garantie_anfahrt` "
               "(Dienstleistungspreise der Festpreis-Garantie), `garantie_zylinder`, `garantie_zylinder_5mm` "
               "(Materialpreis bei abgeschlossener Tür, wiki/konventionen.md) und `preisschutz` (reservierte Stufe, nicht ausgewertet)",
               f"**Website-Domains in 02-domains.txt:** {fmt(len(domains))}"]

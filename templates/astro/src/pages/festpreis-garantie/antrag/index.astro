@@ -91,20 +91,29 @@ const description = `Die Festpreis-Garantie auf ${site.brand} beantragen: die Pr
     </p>
     <h3>Dienstleistung (Festpreis)</h3>
     <p class="meta">
-      Der Festpreis gilt für die Arbeit – die Türöffnung. Er ist bei der zugefallenen wie der
-      abgeschlossenen Tür derselbe; das Material kommt getrennt dazu (unten).
+      Der Grundpreis gilt für die Arbeit – die Türöffnung – werktags von 7 bis 20 Uhr. Er ist bei der
+      zugefallenen wie der abgeschlossenen Tür derselbe; das Material kommt getrennt dazu (unten).
     </p>
     <label>
-      Türöffnung tagsüber (werktags zu üblichen Zeiten)
+      Türöffnung – Grundpreis (werktags 7–20 Uhr)
       <input type="number" name="garantie_tag" min="1" max="2000" step="1" inputmode="numeric" placeholder="z. B. 89" required />
-    </label>
-    <label>
-      Türöffnung nachts, am Wochenende und an Feiertagen
-      <input type="number" name="garantie_nacht" min="1" max="2000" step="1" inputmode="numeric" placeholder="z. B. 129" required />
     </label>
     <label>
       Anfahrt (0 eintragen, wenn im Preis enthalten)
       <input type="number" name="garantie_anfahrt" min="0" max="500" step="1" inputmode="numeric" placeholder="z. B. 0" required />
+    </label>
+    <h3>Zuschläge</h3>
+    <p class="meta">
+      Zuschläge kommen auf den Grundpreis, höchstens einer je Einsatz – sie werden nicht addiert. Lassen Sie
+      ein Feld leer, wenn zu dieser Zeit der Grundpreis gilt.
+    </p>
+    <label>
+      Zuschlag abends, Wochenende, Feiertag (Mo–Fr 20–24 Uhr; Sa, So, Feiertag 7–24 Uhr)
+      <input type="number" name="garantie_zuschlag_abend" min="0" max="500" step="1" inputmode="numeric" placeholder="z. B. 30" />
+    </label>
+    <label>
+      Zuschlag nachts (täglich 0–7 Uhr)
+      <input type="number" name="garantie_zuschlag_nacht" min="0" max="500" step="1" inputmode="numeric" placeholder="z. B. 40" />
     </label>
     <h3>Material bei abgeschlossener Tür</h3>
     <p class="meta">
@@ -128,9 +137,9 @@ const description = `Die Festpreis-Garantie auf ${site.brand} beantragen: die Pr
 
     <h2>Serviceversprechen</h2>
     <p class="meta">Voraussetzung 6. Alle fünf Zusagen sind Bedingung für die Garantie.</p>
-    <label class="check"><input type="checkbox" name="versprechen_rechnungspreis" value="ja" required /> Der genannte Festpreis ist der Preis für die Dienstleistung (Türöffnung) und steht auf der Rechnung. Er gilt für die zugefallene wie die abgeschlossene Tür und wird vor Arbeitsbeginn bestätigt.</label>
+    <label class="check"><input type="checkbox" name="versprechen_rechnungspreis" value="ja" required /> Der Grundpreis der Türöffnung und die genannten Zuschläge sind verbindlich und stehen auf der Rechnung. Es wird höchstens ein Zuschlag berechnet; Zuschläge werden nicht addiert. Der Preis gilt für die zugefallene wie die abgeschlossene Tür und wird vor Arbeitsbeginn bestätigt.</label>
     <label class="check"><input type="checkbox" name="versprechen_material" value="ja" required /> Bei einer abgeschlossenen Tür kommt nur das Material dazu, zu den im Eintrag genannten Beträgen (Standardzylinder, Aufschlag je 5 mm Mehrlänge).</label>
-    <label class="check"><input type="checkbox" name="versprechen_zuschlaege" value="ja" required /> Defekte Türen und Sonderfälle beziffern wir vor Arbeitsbeginn; gearbeitet wird erst nach Zustimmung. Weitere Zuschläge, die nicht vorher beziffert wurden, gibt es nicht.</label>
+    <label class="check"><input type="checkbox" name="versprechen_zuschlaege" value="ja" required /> Außer den genannten Zuschlägen berechnen wir keine weiteren. Defekte Türen und Sonderfälle beziffern wir vor Arbeitsbeginn; gearbeitet wird erst nach Zustimmung.</label>
     <label class="check"><input type="checkbox" name="versprechen_rechnung" value="ja" required /> Jeder Auftrag wird mit einer Rechnung abgerechnet, die die vollständige Firmenanschrift trägt.</label>
     <label class="check"><input type="checkbox" name="versprechen_zerstoerungsfrei" value="ja" required /> Wir öffnen zerstörungsfrei, soweit es technisch möglich ist, und erklären vorher, wenn ein Schloss ersetzt werden muss.</label>
     <label>

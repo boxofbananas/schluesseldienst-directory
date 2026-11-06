@@ -125,20 +125,25 @@ halten.
 Die Garantie hat drei Teile. Ohne einen davon ist sie nur ein Etikett:
 
 1. **Der Preis steht im Eintrag, bevor der Kunde anruft.** Jeder Betrieb mit Garantie
-   veröffentlicht seine Preise, und zwar getrennt nach Dienstleistung und Material. Die drei
-   Standardpreise sind die **Dienstleistung** – die Türöffnung, nicht der Gesamtbetrag:
-   Türöffnung tagsüber, Türöffnung nachts (nachts, Wochenende, Feiertag) und Anfahrt. Sie
-   gelten für die zugefallene wie die abgeschlossene Tür; die Arbeit ist dieselbe. Bei einer
-   **abgeschlossenen Tür** kommt das **Material** dazu, nach fester Regel: ein Standardzylinder
-   zu festem Betrag, je 5 mm Mehrlänge ein fester Aufschlag. Eine **defekte Tür** (verzogen,
-   beschädigt, Einbruchschaden) hat keinen Festpreis, sondern einen **Ab-Preis**, der vor
-   Arbeitsbeginn beziffert wird. Alle veröffentlichten Zahlen stehen im Eintrag, auf der
-   Stadtkarte und im Nachweis auf der Website des Betriebs. Spalten: `garantie_tag`,
-   `garantie_nacht`, `garantie_anfahrt` (Dienstleistung) und `garantie_zylinder`,
-   `garantie_zylinder_5mm` (Material) – Euro-Beträge als ganze Zahl ohne Einheit;
-   `garantie_anfahrt` = `0` heißt „im Preis enthalten“. Spalte `geprueft` = `true` heißt
-   „Garantie aktiv“, `geprueft_jahr` = Jahr der Prüfung. Die Spaltennamen bleiben aus Rücksicht
-   auf den Code.
+   veröffentlicht seine Preise, und zwar getrennt nach Dienstleistung und Material. Die
+   **Dienstleistung** ist die Türöffnung, nicht der Gesamtbetrag: ein **Grundpreis** und zwei
+   benannte **Zuschläge**, dazu die Anfahrt. Der Grundpreis gilt werktags 7–20 Uhr. Der erste
+   Zuschlag (abends/Wochenende/Feiertag) gilt werktags 20–24 Uhr sowie an Wochenenden und
+   Feiertagen 7–24 Uhr; der zweite (nachts) gilt täglich 0–7 Uhr. Die Fenster überschneiden sich
+   nicht, es gilt also immer genau ein Satz: **Grundpreis plus höchstens ein Zuschlag, Zuschläge
+   werden nicht addiert.** Die Preise gelten für die zugefallene wie die abgeschlossene Tür; die
+   Arbeit ist dieselbe. Bei einer **abgeschlossenen Tür** kommt das **Material** dazu, nach fester
+   Regel: ein Standardzylinder zu festem Betrag, je 5 mm Mehrlänge ein fester Aufschlag. Eine
+   **defekte Tür** (verzogen, beschädigt, Einbruchschaden) hat keinen Festpreis, sondern einen
+   **Ab-Preis**, der vor Arbeitsbeginn beziffert wird. Alle veröffentlichten Zahlen stehen im
+   Eintrag, auf der Stadtkarte und im Nachweis auf der Website des Betriebs. Spalten:
+   `garantie_tag` (Grundpreis werktags), `garantie_zuschlag_abend`, `garantie_zuschlag_nacht`,
+   `garantie_anfahrt` (Dienstleistung) und `garantie_zylinder`, `garantie_zylinder_5mm`
+   (Material) – Euro-Beträge als ganze Zahl ohne Einheit; `garantie_anfahrt` = `0` heißt „im
+   Preis enthalten“. Das alte Feld `garantie_nacht` ist **stillgelegt**: der Build bricht ab,
+   wenn eine Zeile es noch gefüllt trägt (ein Absolutpreis würde sonst als Zuschlag fehlgedeutet).
+   Spalte `geprueft` = `true` heißt „Garantie aktiv“, `geprueft_jahr` = Jahr der Prüfung. Die
+   beibehaltenen Spaltennamen bleiben aus Rücksicht auf den Code.
 2. **Der Betrieb garantiert: Der genannte Preis ist der Rechnungspreis.** Das ist das
    unterschriebene Serviceversprechen. Die Garantie gibt der Betrieb, nicht der Herausgeber;
    der Herausgeber prüft die Voraussetzungen und überwacht die Einhaltung. Das steht so auf
@@ -160,18 +165,20 @@ ist die Garantie angreifbar):
 - vollständiges Impressum auf der eigenen Website
 - eine Telefonnummer, unter der der Betrieb erreichbar ist und bei der Prüfung tatsächlich
   abgehoben hat; die Nummer wird vor der Erteilung angerufen
-- die Preise verbindlich genannt: die drei Preise der Dienstleistung (Türöffnung tagsüber,
-  nachts, Anfahrt) und – für die abgeschlossene Tür – die beiden Materialpreise
-  (Standardzylinder, Aufschlag je 5 mm Mehrlänge)
+- die Preise verbindlich genannt: der Grundpreis der Türöffnung (werktags 7–20 Uhr), die beiden
+  benannten Zuschläge (abends/Wochenende/Feiertag sowie nachts 0–7 Uhr, nicht kumulativ) und die
+  Anfahrt; und – für die abgeschlossene Tür – die beiden Materialpreise (Standardzylinder,
+  Aufschlag je 5 mm Mehrlänge)
 - liegen mindestens 5 Google-Bewertungen vor, beträgt der Schnitt mindestens 4,0; liegen weniger
   oder keine vor, entscheiden die übrigen Voraussetzungen (die Garantie sagt etwas über
   Preissicherheit, nicht über Bekanntheit – eine Mindestzahl an Bewertungen schlösse neue und
   profillose Betriebe aus, obwohl sie alle inhaltlichen Voraussetzungen erfüllen; der Riegel nach
   unten bleibt)
 - keine Weiterleitung an ein Callcenter ohne Ortsbezug
-- unterschriebenes Serviceversprechen: der genannte Preis ist der Rechnungspreis, keine
-  Zuschläge, die nicht vorher beziffert wurden, Rechnung mit vollständiger Firmenanschrift,
-  zerstörungsfreie Öffnung als Standard
+- unterschriebenes Serviceversprechen: Grundpreis und die genannten Zuschläge sind der
+  Rechnungspreis, höchstens ein Zuschlag je Einsatz und nie addiert, keine weiteren Zuschläge
+  als die genannten, Rechnung mit vollständiger Firmenanschrift, zerstörungsfreie Öffnung als
+  Standard
 
 Auf `/festpreis-garantie/` steht außerdem ausdrücklich: Grundlage sind Selbstauskunft und
 Prüfung von Unterlagen und Website, **kein** Test vor Ort; die Garantie gibt der Betrieb. Sie
@@ -180,8 +187,8 @@ trägt die Jahreszahl, gilt ein Jahr und wird bei belegten Verstößen entzogen.
 Die Garantie ist nicht kaufbar. Bezahlt wird nur Sichtbarkeit. Dieser Satz steht wörtlich auf
 `/festpreis-garantie/` und auf `/premium/`.
 
-Darstellung im Eintrag: Betriebe mit Garantie tragen „Festpreis-Garantie 2026“ mit den drei
-Preisen und Link auf `/festpreis-garantie/`. Betriebe ohne Garantie tragen „Noch keine
+Darstellung im Eintrag: Betriebe mit Garantie tragen „Festpreis-Garantie 2026“ mit ihren Preisen
+(Grundpreis, Zuschläge, Material) und Link auf `/festpreis-garantie/`. Betriebe ohne Garantie tragen „Noch keine
 Festpreis-Garantie“ mit Link auf `/festpreis-garantie/antrag/` – das ist der Verkaufsanlass
 und darf nicht abgeschaltet werden. Keine Formulierung, die dem Betrieb ohne Garantie etwas
 unterstellt.
@@ -201,7 +208,7 @@ die Reihenfolge (anders als zuvor): sie hebt einen Eintrag über die ortsgebunde
 übrigen.
 
 Nachweis auf der Website des Betriebs: HTML-Schnipsel mit Bild `/auszeichnung/<slug>.svg`,
-Text „Festpreis-Garantie 2026“ mit dem Tagespreis, verlinkt auf die Eintragsseite.
+Text „Festpreis-Garantie 2026“ mit dem Grundpreis („Türöffnung ab <garantie_tag> €“), verlinkt auf die Eintragsseite.
 
 **Reserviert, nicht gebaut: Stufe „Preisschutz“.** Erstattung der Differenz bis 100 € durch
 den Herausgeber, Rückgriff auf den Betrieb. Spalte `preisschutz` ist vorgesehen, aber kein

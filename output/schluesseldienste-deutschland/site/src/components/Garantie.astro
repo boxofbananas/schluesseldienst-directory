@@ -15,10 +15,19 @@ const jahr = g && g.jahr ? ` ${g.jahr}` : '';
         <h2 class="garantie-kopf"><a href="/festpreis-garantie/">Festpreis-Garantie{jahr}</a></h2>
         <p class="garantie-gruppe">Dienstleistung (Festpreis)</p>
         <dl class="garantie-preise">
-          <div><dt>Türöffnung tagsüber</dt><dd>{fmtEuro(g.tag)}</dd></div>
-          {g.nacht != null && <div><dt>Türöffnung nachts, am Wochenende</dt><dd>{fmtEuro(g.nacht)}</dd></div>}
+          <div><dt>Türöffnung (werktags 7–20 Uhr)</dt><dd>{fmtEuro(g.tag)}</dd></div>
           {g.anfahrt != null && <div><dt>Anfahrt</dt><dd>{fmtEuro(g.anfahrt, { anfahrt: true })}</dd></div>}
         </dl>
+        {(g.zuschlagAbend != null || g.zuschlagNacht != null) && (
+          <Fragment>
+            <p class="garantie-gruppe">Zuschläge (statt des Grundpreises, nicht kumulativ)</p>
+            <dl class="garantie-preise">
+              {g.zuschlagAbend != null && <div><dt>abends, Wochenende, Feiertag</dt><dd>+ {fmtEuro(g.zuschlagAbend)}</dd></div>}
+              {g.zuschlagNacht != null && <div><dt>nachts (0–7 Uhr)</dt><dd>+ {fmtEuro(g.zuschlagNacht)}</dd></div>}
+            </dl>
+            <p class="garantie-hinweis">Zuschläge werden nicht addiert: Grundpreis plus höchstens ein Zuschlag.</p>
+          </Fragment>
+        )}
         {g.zylinder != null && (
           <Fragment>
             <p class="garantie-gruppe">Material bei abgeschlossener Tür</p>

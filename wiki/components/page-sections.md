@@ -50,7 +50,7 @@ Hälfte des Textes · Premium-Block · „Die besten Schlüsseldienste in [Stadt
 [Stadt]" als Karten · Hinweis aufs Beanspruchen.
 
 **Eintragsseite:** Brotkrumen · Zeichen · H1 · Bewertungszeile · **Garantie-Zeichen („Festpreis-Garantie
-[Jahr]" mit den drei Dienstleistungspreisen Türöffnung tagsüber, nachts, Anfahrt, dem Materialblock bei abgeschlossener Tür und dem Weg zur Meldung einer
+[Jahr]" mit den Dienstleistungspreisen (Grundpreis werktags, Zuschläge abends/Wochenende/Feiertag und nachts, Anfahrt), der Zuschläge-Gruppe mit „Zuschläge werden nicht addiert“, dem Materialblock bei abgeschlossener Tür und dem Weg zur Meldung einer
 Rechnung, oder „Noch keine Festpreis-Garantie")** · „Schlüsseldienst in [Stadt]" · (Quellreihenfolge) Über
 den Betrieb · Leistungen und Angaben (mit Links auf die Leistungsseiten) · Kontakt und
 Öffnungszeiten · „Weitere Schlüsseldienste in [Stadt]" · Hinweiszeile; Seitenspalte:

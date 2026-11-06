@@ -91,8 +91,8 @@ Was die Gates tun, je eine Zeile:
 
 ## Die Festpreis-Garantie: der Grund, warum Betriebe anrufen
 
-Jeder Eintrag trägt sichtbar eines von zwei Zeichen: **„Festpreis-Garantie [Jahr]"** mit drei
-Preisen (Türöffnung tagsüber, Türöffnung nachts, Anfahrt) oder **„Noch keine
+Jeder Eintrag trägt sichtbar eines von zwei Zeichen: **„Festpreis-Garantie [Jahr]"** mit seinen
+Preisen (Grundpreis, Zuschläge, Anfahrt, Material) oder **„Noch keine
 Festpreis-Garantie"**. Das zweite verlinkt auf `/festpreis-garantie/antrag/`, und genau das
 ist der Gesprächsanlass: die Prüfung ist **kostenlos**, und beim selben Anruf geht es um
 Sichtbarkeit.
@@ -169,10 +169,10 @@ Nutzungsvolumen. Claude nennt die Schätzung und wartet vor jedem Schritt auf Ih
   ausliefern. **Nie eine erzeugte Seite von Hand bearbeiten.**
 - Von Hand verkaufen: Zahlungslink senden, Spalte setzen (`premium`, `featured`,
   `best_of_rank`, `claimed`), neu bauen. Die Garantie wird nicht verkauft: nach geprüftem
-  Garantie-Antrag `geprueft`, `geprueft_jahr`, `garantie_tag`, `garantie_nacht` und
+  Garantie-Antrag `geprueft`, `geprueft_jahr`, `garantie_tag`, `garantie_zuschlag_abend`, `garantie_zuschlag_nacht` und
   `garantie_anfahrt` setzen, neu bauen. Stufen und der Garantie-Nachweis zum Einbinden stehen
   in `templates/featured-tiers.md`.
-- Einmal im Jahr jede Festpreis-Garantie erneuern, mit Anruf, ob die drei Preise noch gelten
+- Einmal im Jahr jede Festpreis-Garantie erneuern, mit Anruf, ob die Preise noch gelten
   (`wiki/framework/refresh-and-upkeep.md`).
 - Wie das Verzeichnis nach dem Start Links und Kunden bekommt:
   `wiki/framework/authority-and-links.md`.

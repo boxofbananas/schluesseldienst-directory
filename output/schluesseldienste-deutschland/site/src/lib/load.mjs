@@ -390,19 +390,26 @@ export function loadDirectory() {
     const photos = optimized && r.photos ? r.photos.split(/[|,]/).map((s) => s.trim()).filter(Boolean) : [];
     const hours = parseHours(r.working_hours);
     // Festpreis-Garantie (wiki/konventionen.md): `geprueft` = Garantie aktiv, `geprueft_jahr` =
-    // Jahr der Pruefung, dazu die drei verbindlichen Preise als ganze Euro-Betraege.
-    // garantie_anfahrt = 0 heisst "im Preis enthalten". Ohne Tagespreis gilt die Garantie als
-    // nicht aktiv, auch wenn geprueft=true steht: eine Garantie ohne Zahl ist keine.
+    // Jahr der Pruefung. Dienstleistung = Grundpreis der Tueroeffnung (werktags 7-20 Uhr), zwei
+    // benannte Zuschlaege (abends/Wochenende/Feiertag; nachts 0-7 Uhr, nicht kumulativ) und die
+    // Anfahrt; garantie_anfahrt = 0 heisst "im Preis enthalten". Ohne Grundpreis gilt die Garantie
+    // als nicht aktiv, auch wenn geprueft=true steht: eine Garantie ohne Zahl ist keine.
+    // Migrations-Riegel: Die Spalte `garantie_nacht` ist stillgelegt (frueher ein Absolutpreis).
+    // Eine nicht-leere Zelle wuerde als Zuschlag fehlgedeutet -> Build mit klarer Meldung abbrechen.
+    if ((r.garantie_nacht || '').trim() !== '') {
+      throw new Error(`Stillgelegte Spalte garantie_nacht ist gefuellt (${r.garantie_nacht}) bei "${r.name || r.slug || '?'}". Auf garantie_zuschlag_abend und garantie_zuschlag_nacht umstellen (wiki/konventionen.md).`);
+    }
     const garantieTag = euro(r.garantie_tag);
-    const garantieNacht = euro(r.garantie_nacht);
+    const garantieZuschlagAbend = euro(r.garantie_zuschlag_abend);
+    const garantieZuschlagNacht = euro(r.garantie_zuschlag_nacht);
     const garantieAnfahrt = euro(r.garantie_anfahrt);
     // Material bei abgeschlossener Tuer: Standardzylinder + Aufschlag je 5 mm Mehrlaenge
-    // (wiki/konventionen.md). Die drei Preise oben sind die Dienstleistung, nicht der Gesamtbetrag.
+    // (wiki/konventionen.md). Die Preise oben sind die Dienstleistung, nicht der Gesamtbetrag.
     const garantieZylinder = euro(r.garantie_zylinder);
     const garantieZylinder5mm = euro(r.garantie_zylinder_5mm);
     const geprueft = truthy(r.geprueft) && garantieTag != null;
     const geprueftJahr = (r.geprueft_jahr || '').trim();
-    const garantie = geprueft ? { jahr: geprueftJahr, tag: garantieTag, nacht: garantieNacht, anfahrt: garantieAnfahrt, zylinder: garantieZylinder, zylinder5mm: garantieZylinder5mm } : null;
+    const garantie = geprueft ? { jahr: geprueftJahr, tag: garantieTag, zuschlagAbend: garantieZuschlagAbend, zuschlagNacht: garantieZuschlagNacht, anfahrt: garantieAnfahrt, zylinder: garantieZylinder, zylinder5mm: garantieZylinder5mm } : null;
     return {
       name: sanitizeGlyphs(r.name), slug, city, citySlug, regionName: region.name, regionSlug: region.slug,
       regionCode: region.code, stateCode: region.code, postalCode: r.postal_code,

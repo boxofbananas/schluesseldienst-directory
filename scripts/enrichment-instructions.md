@@ -21,7 +21,7 @@ Handwerksordnung). Es gibt **keine Lizenz, keine Zulassung, keine Meisterpflicht
   Handelsregister, Mitgliedschaften, Qualifikationen, Ausbildung, Jahre im Geschäft.
 - Nichts davon wird vom Verzeichnis geprüft, und kein Text tut so, als wäre es geprüft. Kein
   „nachgewiesen", „bestätigt", „verifiziert", „offiziell".
-- Die Festpreis-Garantie des Verzeichnisses („Festpreis-Garantie 2026" mit drei Preisen) trägt
+- Die Festpreis-Garantie des Verzeichnisses („Festpreis-Garantie 2026" mit Grundpreis, Zuschlägen und Material) trägt
   allein die Seite aus ihren eigenen Spalten, nicht Ihr Text. Schreiben Sie nie, ein Betrieb sei
   geprüft, und nie „Garantie" oder „garantiert", auch nicht als Programmname.
 

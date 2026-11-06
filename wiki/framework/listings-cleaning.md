@@ -45,7 +45,7 @@ Größenordnungen, keine Zielwerte für Deutschland.
    sich als JSON einlesen lässt, ist Googles Merkmalsdaten und kein Text
    ([[outscraper-columns]]). Die Kennzeichnung ist vorläufig: Gate 3 nimmt sie einem Eintrag
    mit fünf oder mehr Bewertungen ab, sobald dessen eigene Website echten Text geliefert hat.
-9. **Garantiespalten anlegen.** `geprueft`, `geprueft_jahr`, `garantie_tag`, `garantie_nacht`
+9. **Garantiespalten anlegen.** `geprueft`, `geprueft_jahr`, `garantie_tag`, `garantie_zuschlag_abend`, `garantie_zuschlag_nacht`
    und `garantie_anfahrt`, alle leer, dazu `preisschutz` (leer, reservierte Stufe, von nichts
    ausgewertet). Gate 2 setzt sie nie; nur der Herausgeber setzt sie von Hand nach der Prüfung
    eines Garantie-Antrags ([[siegel-programm]], [[outscraper-columns]]). Leer bedeutet „Noch

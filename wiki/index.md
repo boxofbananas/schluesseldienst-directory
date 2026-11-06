@@ -30,7 +30,7 @@ Zeile ergänzen und `log.md` fortschreiben.
   kein Prüfzeichen, die drei Teile (Preis vor dem Anruf, der Preis ist der Rechnungspreis,
   Verstoß hat Folgen), die zwei Stufen (Garantie kostenlos, Sichtbarkeit kostenpflichtig), die
   sechs Voraussetzungen, die Spalten `geprueft`, `geprueft_jahr`, `garantie_tag`,
-  `garantie_nacht`, `garantie_anfahrt`, der Arbeitsablauf von `/festpreis-garantie/antrag/` bis
+  `garantie_zuschlag_abend`, `garantie_zuschlag_nacht`, `garantie_anfahrt`, der Arbeitsablauf von `/festpreis-garantie/antrag/` bis
   zum Neubau, der Entzug nach Rechnung, die jährliche Erneuerung als Anrufgrund, „Noch keine
   Festpreis-Garantie" als Verkaufsanlass und die reservierte Stufe Preisschutz.
 - [listings-cleaning](framework/listings-cleaning.md): die Regeln von Gate 2, die Zuordnung

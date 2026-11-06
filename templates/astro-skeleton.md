@@ -15,7 +15,7 @@ templates/astro/
 │   │                         indexierte Seiten), Nachbarstädte über Landesgrenzen, Reihenfolge,
 │   │                         noindex-Menge, Öffnungszeiten mit deutschen Tagesnamen,
 │   │                         Telefonnummern nach E.164, Garantiezustand aus geprueft/geprueft_jahr
-│   │                         und den drei Preisen garantie_tag/garantie_nacht/garantie_anfahrt
+│   │                         und den Preisen garantie_tag/garantie_zuschlag_abend/garantie_zuschlag_nacht/garantie_anfahrt
 │   ├── styles/global.css     nur Aufbau; die Marken kommen aus site.json
 │   ├── styles/fonts.css      selbst gehostete Schriften, nie von Google geladen
 │   ├── layouts/Base.astro    head, lang="de", robots, canonical, OG, Marken, Site-Schema,
@@ -24,7 +24,7 @@ templates/astro/
 │   ├── components/           JsonLd · Breadcrumbs (fünf Ebenen) · Card · Rating · Faq ·
 │   │                         AttributeGrid · ClaimCta · FeaturedBand · DirectoryHub ·
 │   │                         SearchForm · SocialLinks · Byline · Garantie (Festpreis-Garantie mit
-│   │                         drei Preisen / Noch keine Festpreis-Garantie) · MapPlaceholder (Karte erst nach Klick)
+│   │                         Preisen / Noch keine Festpreis-Garantie) · MapPlaceholder (Karte erst nach Klick)
 │   └── pages/
 │       ├── index.astro                       Startseite: Kopfbereich, Bundeslandkarten,
 │       │                                     Städtekarten, Premium-Block, Ratgeber, Fragen

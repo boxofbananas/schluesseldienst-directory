@@ -32,16 +32,20 @@ Betriebs und nicht nur ein Etikett des Verzeichnisses.
 Ohne einen davon ist die Garantie nur ein Etikett:
 
 1. **Der Preis steht im Eintrag, bevor der Kunde anruft.** Jeder Betrieb mit Garantie
-   veröffentlicht seine Preise, getrennt nach Dienstleistung und Material. Die drei
-   Standardpreise sind die **Dienstleistung** – die Türöffnung, nicht der Gesamtbetrag:
-   Türöffnung tagsüber, Türöffnung nachts (nachts, Wochenende, Feiertag) und Anfahrt. Sie gelten
+   veröffentlicht seine Preise, getrennt nach Dienstleistung und Material. Die **Dienstleistung**
+   ist die Türöffnung, nicht der Gesamtbetrag: ein **Grundpreis** (werktags 7–20 Uhr) und zwei
+   benannte **Zuschläge** – abends/Wochenende/Feiertag (werktags 20–24 Uhr sowie Sa/So/Feiertag
+   7–24 Uhr) und nachts (täglich 0–7 Uhr) – dazu die Anfahrt. Die Fenster überschneiden sich
+   nicht: **Grundpreis plus höchstens ein Zuschlag, Zuschläge werden nicht addiert.** Sie gelten
    für die zugefallene wie die abgeschlossene Tür. Bei der **abgeschlossenen Tür** kommt das
    **Material** dazu, nach fester Regel: Standardzylinder zu festem Betrag, je 5 mm Mehrlänge ein
    fester Aufschlag. Eine **defekte Tür** hat keinen Festpreis, sondern einen Ab-Preis, der vor
    Arbeitsbeginn beziffert wird. Alle Zahlen stehen im Eintrag, auf der Stadtkarte (nur der
-   Dienstleistungs-Ab-Preis) und im Garantie-Nachweis. Spalten: `garantie_tag`, `garantie_nacht`,
-   `garantie_anfahrt` (Dienstleistung) und `garantie_zylinder`, `garantie_zylinder_5mm` (Material)
-   als Euro-Beträge, ganze Zahl ohne Einheit; `garantie_anfahrt` = `0` heißt „im Preis enthalten".
+   Grundpreis als Ab-Preis) und im Garantie-Nachweis. Spalten: `garantie_tag` (Grundpreis),
+   `garantie_zuschlag_abend`, `garantie_zuschlag_nacht`, `garantie_anfahrt` (Dienstleistung) und
+   `garantie_zylinder`, `garantie_zylinder_5mm` (Material) als Euro-Beträge, ganze Zahl ohne
+   Einheit; `garantie_anfahrt` = `0` heißt „im Preis enthalten". Das alte `garantie_nacht` ist
+   stillgelegt (der Build bricht bei gefüllter Zelle ab).
    Spalte `geprueft` = `true` heißt „Garantie aktiv", `geprueft_jahr` = Jahr der Prüfung. Die
    Spaltennamen bleiben aus Rücksicht auf den Code.
 2. **Der Betrieb garantiert: Der genannte Preis ist der Rechnungspreis.** Das ist das
@@ -67,7 +71,7 @@ Festpreis, sondern der „vor Arbeitsbeginn beziffert"-Fall des Serviceversprech
 
 | Stufe | Preis | Was sie bedeutet | Spalten in der CSV |
 |---|---|---|---|
-| **Festpreis-Garantie** | kostenlos | Der Betrieb hat die sechs Voraussetzungen erfüllt, seine Preise verbindlich genannt (drei Dienstleistung, zwei Material) und das Serviceversprechen unterschrieben | `geprueft` = `true`, `geprueft_jahr` = Jahr, `garantie_tag`, `garantie_nacht`, `garantie_anfahrt`, `garantie_zylinder`, `garantie_zylinder_5mm` |
+| **Festpreis-Garantie** | kostenlos | Der Betrieb hat die sechs Voraussetzungen erfüllt, seine Preise verbindlich genannt (Grundpreis, zwei Zuschläge, Anfahrt, zwei Material) und das Serviceversprechen unterschrieben | `geprueft` = `true`, `geprueft_jahr` = Jahr, `garantie_tag`, `garantie_zuschlag_abend`, `garantie_zuschlag_nacht`, `garantie_anfahrt`, `garantie_zylinder`, `garantie_zylinder_5mm` |
 | **Premium / Top-Platzierung** (Premium-Eintrag, Stadt-Premium, Top-Platzierung) | kostenpflichtig, siehe `templates/featured-tiers.md` | bessere Platzierung, Fotos, gefolgte Links | `premium`, `featured`, `best_of_rank` |
 
 **Die Garantie ist nicht kaufbar. Bezahlt wird nur Sichtbarkeit.** Dieser Satz steht wörtlich
@@ -83,17 +87,19 @@ Pflicht und nicht Kür. Wortlaut wie in [[konventionen]]:
 - vollständiges Impressum auf der eigenen Website
 - eine Telefonnummer, unter der der Betrieb erreichbar ist und bei der Prüfung tatsächlich
   abgehoben hat; die Nummer wird vor der Erteilung angerufen
-- die Preise verbindlich genannt: die drei Preise der Dienstleistung (Türöffnung tagsüber,
-  nachts, Anfahrt) und – für die abgeschlossene Tür – die beiden Materialpreise
-  (Standardzylinder, Aufschlag je 5 mm Mehrlänge)
+- die Preise verbindlich genannt: der Grundpreis der Türöffnung (werktags 7–20 Uhr), die beiden
+  benannten Zuschläge (abends/Wochenende/Feiertag sowie nachts 0–7 Uhr, nicht kumulativ) und die
+  Anfahrt; und – für die abgeschlossene Tür – die beiden Materialpreise (Standardzylinder,
+  Aufschlag je 5 mm Mehrlänge)
 - liegen mindestens 5 Google-Bewertungen vor, beträgt der Schnitt mindestens 4,0; liegen weniger
   oder keine vor, entscheiden die übrigen Voraussetzungen (die Garantie sagt etwas über
   Preissicherheit, nicht über Bekanntheit; eine Mindestzahl schlösse neue und profillose Betriebe
   aus, der Riegel nach unten bleibt)
 - keine Weiterleitung an ein Callcenter ohne Ortsbezug
-- unterschriebenes Serviceversprechen (fünf Zusagen): der genannte Festpreis ist der Preis der
-  Dienstleistung und steht auf der Rechnung (zugefallene wie abgeschlossene Tür); bei der
-  abgeschlossenen Tür kommt nur das genannte Material dazu; defekte Türen werden vor
+- unterschriebenes Serviceversprechen (fünf Zusagen): der Grundpreis und die genannten Zuschläge
+  sind der Preis auf der Rechnung, höchstens ein Zuschlag je Einsatz und nie addiert (zugefallene
+  wie abgeschlossene Tür); außer den genannten Zuschlägen keine weiteren; bei der abgeschlossenen
+  Tür kommt nur das genannte Material dazu; defekte Türen werden vor
   Arbeitsbeginn beziffert; Rechnung mit vollständiger Firmenanschrift; zerstörungsfreie Öffnung
   als Standard
 
@@ -124,17 +130,18 @@ Auf `/festpreis-garantie/` steht in eigenen Sätzen:
 
 1. **Antrag.** Der Betrieb füllt den Garantie-Antrag auf `/festpreis-garantie/antrag/` aus
    (`templates/claim-form.html`): Firmendaten, Website, Impressum, Telefonnummer,
-   Google-Profil, **die Preise** – drei für die Dienstleistung (Türöffnung tagsüber, Türöffnung
-   nachts, Anfahrt mit `0` = enthalten) und zwei für das Material (Standardzylinder, Aufschlag
-   je 5 mm Mehrlänge) – sonstige Zuschläge, das Serviceversprechen zum Unterschreiben.
+   Google-Profil, **die Preise** – für die Dienstleistung der Grundpreis (werktags 7–20 Uhr), die
+   beiden Zuschläge (abends/Wochenende/Feiertag; nachts 0–7 Uhr) und die Anfahrt (`0` = enthalten),
+   und zwei für das Material (Standardzylinder, Aufschlag je 5 mm Mehrlänge) – sonstige Zuschläge,
+   das Serviceversprechen zum Unterschreiben.
 2. **Prüfung.** Der Herausgeber prüft **von Hand** gegen die sechs Voraussetzungen: Impressum
    der Website, Telefonnummer anrufen, Bewertungen zählen, Callcenter-Weiterleitung
    ausschließen, Preise auf Vollständigkeit und Plausibilität lesen, Serviceversprechen
    entgegennehmen. Keine Automatik, kein Skript entscheidet das.
 3. **Eintragen.** Bei Erfolg: in `site/src/data/listings.csv` die Spalten `geprueft` = `true`,
-   `geprueft_jahr` = Jahr der Prüfung, `garantie_tag`, `garantie_nacht`, `garantie_anfahrt`
-   (Dienstleistung) sowie `garantie_zylinder` und `garantie_zylinder_5mm` (Material) = die
-   genannten Beträge setzen. Bei Misserfolg: nichts setzen und dem Betrieb schreiben, welche
+   `geprueft_jahr` = Jahr der Prüfung, `garantie_tag`, `garantie_zuschlag_abend`,
+   `garantie_zuschlag_nacht`, `garantie_anfahrt` (Dienstleistung) sowie `garantie_zylinder` und
+   `garantie_zylinder_5mm` (Material) = die genannten Beträge setzen. Bei Misserfolg: nichts setzen und dem Betrieb schreiben, welche
    Voraussetzung fehlt.
 4. **Neu bauen.** Gate 5 erneut laufen lassen ([[master-template]]: nie eine erzeugte Seite
    von Hand bearbeiten).
@@ -146,8 +153,8 @@ Auf `/festpreis-garantie/` steht in eigenen Sätzen:
    Rechnung bei. Ohne Rechnung gibt es keinen Entzug; eine Behauptung allein reicht nicht.
 2. **Konfrontation.** Der Herausgeber legt dem Betrieb die Rechnung vor und hört ihn an.
 3. **Entzug.** Bleibt der Verstoß belegt, wird die Garantie entzogen: `geprueft`,
-   `geprueft_jahr`, `garantie_tag`, `garantie_nacht`, `garantie_anfahrt`, `garantie_zylinder`
-   und `garantie_zylinder_5mm` werden geleert.
+   `geprueft_jahr`, `garantie_tag`, `garantie_zuschlag_abend`, `garantie_zuschlag_nacht`,
+   `garantie_anfahrt`, `garantie_zylinder` und `garantie_zylinder_5mm` werden geleert.
 4. **Preise raus.** Gate 5 erneut laufen lassen und ausliefern. Der Eintrag trägt wieder „Noch
    keine Festpreis-Garantie".
 
@@ -160,15 +167,16 @@ Die Garantie trägt die Jahreszahl und gilt ein Jahr. Einmal im Jahr werden alle
 Preise noch, gilt das Serviceversprechen noch? Das ist ein Anrufgrund mit einem echten Anlass,
 und im selben Gespräch geht es um Sichtbarkeit. Wer erneuert, bekommt das neue Jahr und
 gegebenenfalls neue Preise eingetragen; wer nicht erneuert, verliert die Garantie, die sieben
-Garantiespalten (`geprueft`, `geprueft_jahr`, die drei Dienstleistungs- und die zwei
-Materialspalten) werden geleert und das Verzeichnis neu gebaut ([[refresh-and-upkeep]]).
+Garantiespalten (`geprueft`, `geprueft_jahr`, die vier Dienstleistungsspalten – Grundpreis, zwei
+Zuschläge, Anfahrt – und die zwei Materialspalten) werden geleert und das Verzeichnis neu gebaut
+([[refresh-and-upkeep]]).
 
 ## Der Verkaufsanlass
 
 Jeder Eintrag zeigt eines von zwei Zeichen, immer, auf jeder Eintragsseite und auf jeder Karte
 in der Stadtliste:
 
-- mit Garantie: **„Festpreis-Garantie 2026"** mit den drei Preisen, verlinkt auf
+- mit Garantie: **„Festpreis-Garantie 2026"** mit ihren Preisen (Grundpreis, Zuschläge, Material), verlinkt auf
   `/festpreis-garantie/`; auf der Stadtkarte als Zeile „Festpreis-Garantie · Türöffnung ab
   <garantie_tag> €"
 - ohne Garantie: **„Noch keine Festpreis-Garantie"**, verlinkt auf

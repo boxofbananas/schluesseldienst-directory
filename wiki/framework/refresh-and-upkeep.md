@@ -41,7 +41,7 @@ Die Festpreis-Garantie trägt die Jahreszahl und gilt ein Jahr ([[siegel-program
 folgt der einzige Termin im Kalender dieses Verzeichnisses, und er ist ein Anrufgrund:
 
 1. Einmal im Jahr alle Zeilen mit `geprueft_jahr` aus dem Vorjahr durchsehen.
-2. Jeden dieser Betriebe anrufen: Gelten die Preise (`garantie_tag`, `garantie_nacht`,
+2. Jeden dieser Betriebe anrufen: Gelten die Preise (`garantie_tag`, `garantie_zuschlag_abend`, `garantie_zuschlag_nacht`,
    `garantie_anfahrt` für die Dienstleistung, `garantie_zylinder` und `garantie_zylinder_5mm`
    für das Material) noch, oder haben sie sich geändert? Die sechs Voraussetzungen erneut
    bestätigen, das Serviceversprechen erneut unterschreiben. Beim selben Anruf geht es um
@@ -53,7 +53,7 @@ folgt der einzige Termin im Kalender dieses Verzeichnisses, und er ist ein Anruf
 
 **Entzug zwischendurch:** Meldet ein Kunde eine Rechnung über dem garantierten Preis und legt
 die Rechnung vor, konfrontiert der Herausgeber den Betrieb damit. Bleibt der Verstoß belegt,
-werden `geprueft`, `geprueft_jahr`, `garantie_tag`, `garantie_nacht` und `garantie_anfahrt`
+werden `geprueft`, `geprueft_jahr`, `garantie_tag`, `garantie_zuschlag_abend`, `garantie_zuschlag_nacht` und `garantie_anfahrt`
 sofort geleert, neu gebaut und die Nachweisseite `/auszeichnung/[slug]/` entfernt: die Preise
 sind aus dem Eintrag heraus. Belegt heißt: eine Rechnung, nicht eine anonyme Zuschrift. Was
 geprüft wurde und wie entschieden wurde, wird notiert, damit der Entzug begründbar bleibt.

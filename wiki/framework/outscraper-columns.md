@@ -70,14 +70,14 @@ Datenbank kein Merkmal für Geschäftsaufgabe trägt.
 | `premium`, `best_of_rank` | von Hand nach Zahlung | bezahlte Sichtbarkeit. Gate 2 legt diese beiden Spalten **nicht** an; beim ersten Verkauf werden sie der CSV hinzugefügt (`premium` = `true`, `best_of_rank` = `1` bis `3`). Fehlen sie, liest der Build sie als leer |
 | `geprueft` | von Hand nach der Prüfung des Garantie-Antrags | `true` heißt „Festpreis-Garantie [Jahr]" mit den veröffentlichten Preisen (Dienstleistung und Material). Leer heißt „Noch keine Festpreis-Garantie" ([[siegel-programm]]). Der Spaltenname bleibt aus Rücksicht auf den Code |
 | `geprueft_jahr` | von Hand | Jahr der Prüfung, steht auf dem Garantie-Nachweis und löst die jährliche Erneuerung aus |
-| `garantie_tag`, `garantie_nacht`, `garantie_anfahrt` | von Gate 2 leer angelegt, von Hand nach der Prüfung | die drei Preise der **Dienstleistung** (Türöffnung, nicht Gesamtbetrag): Türöffnung tagsüber, Türöffnung nachts (nachts, Wochenende, Feiertag), Anfahrt. Euro-Beträge als ganze Zahl ohne Einheit; `garantie_anfahrt` = `0` heißt „im Preis enthalten". Stehen im Eintrag, auf der Stadtkarte und auf dem Garantie-Nachweis; werden beim Entzug geleert ([[siegel-programm]]) |
+| `garantie_tag`, `garantie_zuschlag_abend`, `garantie_zuschlag_nacht`, `garantie_anfahrt` | von Gate 2 leer angelegt, von Hand nach der Prüfung | die Preise der **Dienstleistung** (Türöffnung, nicht Gesamtbetrag): Grundpreis (werktags 7–20 Uhr), Zuschlag abends/Wochenende/Feiertag, Zuschlag nachts (0–7 Uhr, nicht kumulativ), Anfahrt. Euro-Beträge als ganze Zahl ohne Einheit; `garantie_anfahrt` = `0` heißt „im Preis enthalten". Stehen im Eintrag, auf der Stadtkarte und auf dem Garantie-Nachweis; werden beim Entzug geleert ([[siegel-programm]]) |
 | `garantie_zylinder`, `garantie_zylinder_5mm` | von Gate 2 leer angelegt, von Hand nach der Prüfung | der **Materialpreis** bei abgeschlossener Tür: Standardzylinder (`garantie_zylinder`) und fester Aufschlag je 5 mm Mehrlänge (`garantie_zylinder_5mm`). Euro-Beträge als ganze Zahl ohne Einheit. Erscheinen nur im vollen Preisblock der Eintragsseite, nicht auf der Stadtkarte; werden beim Entzug mit geleert ([[siegel-programm]]) |
 | `preisschutz` | von Gate 2 leer angelegt | **reserviert, nicht gebaut:** die Stufe „Preisschutz" (Erstattung der Differenz bis 100 €). Kein Skript und keine Seite wertet sie aus, bis der Betreiber die Stufe freigibt ([[konventionen]]) |
 | `socials` | Gate 5, `add_socials.py` | Profillinks von der eigenen Website ([[enrichment]]) |
 | `description_enriched` | Gate 3 | die angereicherte Beschreibung; die rohe `description` bleibt unberührt |
 | je Merkmal eine Spalte | Gate 3 | benannt nach dem `key` in `attributes.json`, Wert `wahr` / `falsch` / `keine Angabe` |
 
-**`geprueft`, `geprueft_jahr`, `garantie_tag`, `garantie_nacht`, `garantie_anfahrt`,
+**`geprueft`, `geprueft_jahr`, `garantie_tag`, `garantie_zuschlag_abend`, `garantie_zuschlag_nacht`, `garantie_anfahrt`,
 `garantie_zylinder` und `garantie_zylinder_5mm` werden von keinem Skript gesetzt.** Nur der
 Herausgeber setzt sie nach der Prüfung eines Garantie-Antrags
 von Hand. Ein Skript, das sie setzt, wäre eine Garantie ohne Prüfung; `merge_enriched.py` reicht

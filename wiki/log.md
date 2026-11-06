@@ -2,7 +2,7 @@
 title: Protokoll
 type: log
 status: current
-updated: 2026-11-03
+updated: 2026-11-06
 ---
 
 # Protokoll
@@ -544,3 +544,18 @@ Zahlen, was auf Freigabe wartet.
   Begründung in `monetization-slots.md`). Gebaut, ausgeliefert, live bei 1440/390 px geprüft.
   Stripe-Links kommen später von Daniel, nicht vorbereitet. Bericht
   `berichte/2026-11-05-stripe-vorbereitung-danke-brutto.md`.
+- **2026-11-06** **Festpreis-Garantie: Grundpreis + Zuschläge statt zwei Pauschalpreisen.**
+  `garantie_tag` = Grundpreis werktags (Bedeutung bleibt), `garantie_nacht` **stillgelegt**
+  (nicht umbenannt; Migrations-Riegel in beiden `load.mjs` bricht bei gefüllter Zelle ab), zwei
+  neue sprechende Spalten `garantie_zuschlag_abend` und `garantie_zuschlag_nacht`. Zeitfenster
+  lückenlos: Grundpreis Mo–Fr 7–20, Zuschlag abend Mo–Fr 20–24 + Sa/So/Feiertag 7–24, Zuschlag
+  nacht täglich 0–7 — höchstens ein Zuschlag, nicht addiert. Preisblock jetzt drei Gruppen
+  (Dienstleistung · Zuschläge mit Zeile „Zuschläge werden nicht addiert" · Material). Stadtkarte
+  und Nachweis unverändert („Türöffnung ab `<garantie_tag>` €"). Angeglichen: beide `load.mjs`,
+  beide `Garantie.astro`, `global.css`, `listings.csv` (migriert), beide Antragsformulare,
+  `claim.ts`, `clean_listings.py`/`add_own_listings.py`/`merge_enriched.py`, `konventionen.md`,
+  `siegel-programm.md` und die übrigen Wiki-/Doku-Seiten. Gebaut (4629 Seiten, Riegel grün),
+  ausgeliefert, Preisblock bei 390/1440 px mit geflaggtem Fremdeintrag geprüft (danach
+  zurückgesetzt), `check_live.py` bestanden außer bekannter www-Umleitung. Noch kein Preis
+  eingetragen. Stripe-Links ohne Zuordnung, nicht vorbereitet. Bericht
+  `berichte/2026-11-06-garantie-grundpreis-zuschlaege.md`.

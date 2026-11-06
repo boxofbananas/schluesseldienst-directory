@@ -16,9 +16,9 @@ const description = `Betriebe mit Festpreis-Garantie nennen ihren Preis für Tü
   </Fragment>
   <div class="prose">
     <p>
-      Kurzfassung: Ein {site.niche.singular} mit Festpreis-Garantie nennt in seinem Eintrag drei
-      Preise – Türöffnung tagsüber, Türöffnung nachts und Anfahrt – und garantiert, dass der genannte
-      Preis der Preis auf der Rechnung ist. Wir prüfen die Voraussetzungen, veröffentlichen die
+      Kurzfassung: Ein {site.niche.singular} mit Festpreis-Garantie nennt in seinem Eintrag seine
+      Preise – einen Grundpreis für die Türöffnung, zwei benannte Zuschläge und die Anfahrt – und
+      garantiert, dass der genannte Preis der Preis auf der Rechnung ist. Wir prüfen die Voraussetzungen, veröffentlichen die
       Preise und entziehen die Garantie, wenn ein Betrieb sie bricht. <strong>Die Garantie ist für den
       Betrieb kostenlos und nicht kaufbar. Bezahlt wird bei uns nur Sichtbarkeit.</strong>
     </p>
@@ -40,15 +40,16 @@ const description = `Betriebe mit Festpreis-Garantie nennen ihren Preis für Tü
     <h2>Die drei Teile der Garantie</h2>
     <ol>
       <li>
-        <strong>Der Preis steht im Eintrag.</strong> Jeder Betrieb mit Garantie veröffentlicht seine
-        drei Standardpreise: Türöffnung tagsüber, Türöffnung nachts (nachts, am Wochenende, an
-        Feiertagen) und die Anfahrt. Sie stehen in seinem Eintrag und auf der Stadtseite. Sie wissen also,
-        was es kostet, bevor Sie zum Telefon greifen.
+        <strong>Der Preis steht im Eintrag.</strong> Jeder Betrieb mit Garantie veröffentlicht seinen
+        Grundpreis für die Türöffnung (werktags 7–20 Uhr), zwei benannte Zuschläge (abends, am
+        Wochenende und an Feiertagen sowie nachts von 0–7 Uhr) und die Anfahrt. Zuschläge werden nicht
+        addiert: Es gilt der Grundpreis plus höchstens ein Zuschlag. Alle Zahlen stehen in seinem Eintrag
+        und auf der Stadtseite. Sie wissen also, was es kostet, bevor Sie zum Telefon greifen.
       </li>
       <li>
         <strong>Der Betrieb garantiert den Preis.</strong> Der genannte Preis ist der Preis auf der
-        Rechnung. Das ist eine Zusage des Betriebs an Sie, unterschrieben gegenüber uns. Zuschläge, die
-        nicht vorher ausdrücklich beziffert wurden, gibt es nicht.
+        Rechnung. Das ist eine Zusage des Betriebs an Sie, unterschrieben gegenüber uns. Außer den im
+        Eintrag genannten Zuschlägen gibt es keine weiteren.
       </li>
       <li>
         <strong>Ein Verstoß hat Folgen.</strong> Zahlen Sie mehr als garantiert, melden Sie es uns mit
@@ -81,8 +82,8 @@ const description = `Betriebe mit Festpreis-Garantie nennen ihren Preis für Tü
       </li>
     </ul>
     <p>
-      Die drei Preise im Eintrag, Türöffnung tagsüber, Türöffnung nachts (nachts, am Wochenende, an
-      Feiertagen) und die Anfahrt, sind die Preise der <strong>Dienstleistung</strong>. „Im Preis
+      Der Grundpreis, die beiden Zuschläge (abends/Wochenende/Feiertag sowie nachts 0–7 Uhr) und die
+      Anfahrt sind die Preise der <strong>Dienstleistung</strong>. „Im Preis
       enthalten“ bei der Anfahrt heißt, es kommt nichts dazu. Der Betrieb legt diese Preise selbst fest.
       Wir machen keine Preisvorgabe und vergleichen die Betriebe nicht nach dem Preis. Die Garantie sagt
       nicht, dass ein Betrieb günstig ist, sondern dass der genannte Preis gilt.
@@ -100,9 +101,10 @@ const description = `Betriebe mit Festpreis-Garantie nennen ihren Preis für Tü
         tatsächlich abgehoben hat. Wir rufen die Nummer vor der Erteilung an.
       </li>
       <li>
-        <strong>Die Preise verbindlich genannt</strong>: die drei Preise der Dienstleistung (Türöffnung
-        tagsüber, Türöffnung nachts, Anfahrt) und, für die abgeschlossene Tür, die beiden Materialpreise
-        (Standardzylinder, Aufschlag je 5 mm Mehrlänge).
+        <strong>Die Preise verbindlich genannt</strong>: der Grundpreis der Türöffnung (werktags 7–20 Uhr),
+        die beiden benannten Zuschläge (abends/Wochenende/Feiertag sowie nachts 0–7 Uhr, nicht kumulativ)
+        und die Anfahrt; und, für die abgeschlossene Tür, die beiden Materialpreise (Standardzylinder,
+        Aufschlag je 5 mm Mehrlänge).
       </li>
       <li><strong>Liegen mindestens fünf Google-Bewertungen vor, beträgt der Durchschnitt mindestens 4,0.</strong> Liegen weniger oder keine vor, entscheiden die übrigen Voraussetzungen.</li>
       <li>
@@ -117,14 +119,15 @@ const description = `Betriebe mit Festpreis-Garantie nennen ihren Preis für Tü
     <p>Wer die Garantie führt, sagt seinen Kunden fünf Dinge zu:</p>
     <ul>
       <li>
-        <strong>Der genannte Festpreis ist der Preis für die Dienstleistung (die Türöffnung) und steht
-        auf der Rechnung.</strong> Er gilt für die zugefallene wie die abgeschlossene Tür; die Arbeit ist
+        <strong>Der Grundpreis der Türöffnung und die genannten Zuschläge sind verbindlich und stehen
+        auf der Rechnung.</strong> Es wird höchstens ein Zuschlag berechnet; Zuschläge werden nicht
+        addiert. Der Preis gilt für die zugefallene wie die abgeschlossene Tür; die Arbeit ist
         dieselbe. Er wird vor Arbeitsbeginn bestätigt.
       </li>
       <li>
         <strong>Bei einer abgeschlossenen Tür kommt nur das Material dazu</strong>, zu den im Eintrag
-        genannten Beträgen: Standardzylinder und Aufschlag je 5 mm Mehrlänge. Weitere Zuschläge, die nicht
-        vorher beziffert wurden, gibt es nicht.
+        genannten Beträgen: Standardzylinder und Aufschlag je 5 mm Mehrlänge. Außer den genannten
+        Zuschlägen berechnen wir keine weiteren.
       </li>
       <li>
         <strong>Defekte Türen und Sonderfälle werden vor Arbeitsbeginn beziffert.</strong> Gearbeitet wird
@@ -212,7 +215,7 @@ const description = `Betriebe mit Festpreis-Garantie nennen ihren Preis für Tü
 
     <h2>Für Betriebe: Garantie beantragen</h2>
     <p>
-      Sie nennen Ihre drei Preise, geben das Serviceversprechen ab, und wir prüfen die sechs
+      Sie nennen Ihre Preise, geben das Serviceversprechen ab, und wir prüfen die sechs
       Voraussetzungen – kostenlos, in wenigen Tagen. Danach stehen Ihre Preise in Ihrem Eintrag und auf
       Ihrer Stadtseite, und Sie erhalten den Nachweis zum Einbinden auf Ihrer Website. Das ist der
       Unterschied, den ein einzelner Betrieb nicht nachbauen kann: Ihr Preis steht öffentlich, vor dem

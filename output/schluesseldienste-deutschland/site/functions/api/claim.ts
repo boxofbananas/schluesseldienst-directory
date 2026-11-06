@@ -25,7 +25,7 @@ const FELDER: Record<string, string[]> = {
   "garantie": [
     "formular", "eintrag", "firma", "strasse", "plz", "ort", "website", "impressum_url",
     "telefon", "google_profil", "ansprechperson", "rolle", "email", "garantie_tag",
-    "garantie_nacht", "garantie_anfahrt", "zuschlaege_sonstige", "versprechen_rechnungspreis",
+    "garantie_zuschlag_abend", "garantie_zuschlag_nacht", "garantie_anfahrt", "zuschlaege_sonstige", "versprechen_rechnungspreis",
     "versprechen_zuschlaege", "versprechen_rechnung", "versprechen_zerstoerungsfrei",
     "unterschrift", "gewerbeanmeldung", "handelsregister", "anrufannahme", "anmerkungen",
   ],
