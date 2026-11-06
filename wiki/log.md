@@ -620,3 +620,15 @@ Zahlen, was auf Freigabe wartet.
   Startseite, Stadtseite, Eintragsseite laden ohne Klick **keine** externe/Google-Anfrage; Karte
   erst nach Klick (`maps.googleapis.com`), Schriften selbst gehostet. Startsperren in `06-launch.md`
   abgehakt. Bericht `berichte/2026-11-06-garantie-ausnahme-und-start-checks.md`.
+- **2026-11-06** Die **neun leeren Garantie-Seiten** über den Gate-3-Weg angereichert (sie kamen
+  über `eigene-betriebe.csv` nach, nie durch Gate 3). Belege allein aus den eigenen Websites
+  (kein Export-Text): `fetch_sites`, `build_evidence`, `make_batches` (1 Stapel, 9 Einträge,
+  ~14.800 Token), inline beantwortet (kein Extra-API-Aufwand statt ~36 Cent über Sonnet).
+  Dieselben Gate-3-Regeln ohne Ausnahme, **kein werblicher Ton** für die eigenen Betriebe; alle
+  neun Satzanfänge 0-mal bei den bestehenden 2.197. `merge_enriched.py`: nach einer Nachbesserung
+  (Wortspanne, „am Telefon"/„nach eigener Darstellung" raus, Sperber-Anfahrt mit Trace,
+  Ludwigshafen-Gewerbe auf „keine Angabe") **9/9 bestanden**. Felder in Site-CSV und
+  `03-listings-enriched.csv` übertragen, Garantie-Spalten unberührt, neu gebaut und ausgeliefert.
+  **Sitemap 2814 → 2823** (genau die neun), `check_live.py` mit 2823 grün, jede Seite live
+  `index, follow`. Alle 18 Garantie-Betriebe tragen jetzt Inhalt. Bericht
+  `berichte/2026-11-06-garantie9-anreicherung.md`.
