@@ -506,7 +506,10 @@ export function loadDirectory() {
 
   // Launch lean: was aus der Sitemap bleibt und noindex bekommt.
   const noindexPaths = new Set();
-  for (const l of listings) if (l.thin && !l.claimed && !l.optimized) noindexPaths.add(l.path);
+  // Festpreis-Garantie hebt eine dünne Eintragsseite in die erste Stufe – aber nur, wenn sie
+  // eigenen Inhalt trägt. Eine geprüfte Seite ohne Beschreibung (nur Stammdaten und Garantie-Block)
+  // bleibt noindex; dort misst `thin` das Richtige (output/<slug>/06-launch.md, wiki/launch-lean.md).
+  for (const l of listings) if (l.thin && !l.claimed && !l.optimized && !(l.geprueft && l.description)) noindexPaths.add(l.path);
   for (const l of listings) if (l.geprueft) noindexPaths.add(`/auszeichnung/${l.slug}/`);
   // Stadtseiten mit nur einem Eintrag (eigenständige Orte jenseits foldMaxKm und Mittelstädte mit
   // einem Eintrag) starten außerhalb der Sitemap und werden nach der 30-Tage-Prüfung in Tranchen

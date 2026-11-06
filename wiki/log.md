@@ -608,3 +608,15 @@ Zahlen, was auf Freigabe wartet.
   robots.txt, IndexNow/Crawler Hints, Cloudflare-Auswertung), geordnete Adressliste (18
   Garantie-Seiten vorgezogen), vier Erweiterungsstufen, 30-Tage-Prüfung Starttag+30. Bericht
   `berichte/2026-11-06-gate6-schlanker-start.md`.
+- **2026-11-06** **Garantie-Ausnahme mit Inhaltsschranke umgesetzt + Start-Checks.** Inhaltsprüfung
+  der 18 Garantie-Seiten: 9 praktisch leer (0 Wörter, 0 Merkmale — AES Mannheim, I-S-E Hockenheim,
+  Mein Weinheim, Merz Ludwigshafen/Speyer/Worms, Rheinpfalz Frankenthal, Riegelklar Schwetzingen,
+  Sperber Heidelberg), 9 mit Inhalt (120–134 Wörter). `load.mjs` (Build + Template):
+  `thin && !claimed && !optimized && !(geprueft && description)` — eine geprüfte Seite entgeht der
+  Sperre nur mit Beschreibung. Sitemap 2806 → **2814** (+8; Merz Sicherheit war schon drin); 9
+  Garantie-Seiten indexiert, 9 leere bleiben noindex. Live bestätigt (robots-Meta + Sitemap),
+  `check_live.py` mit 2814 alle bestanden. `launchDate`/`datePublished` auf Staffel-Starttag
+  **2026-11-09** gesetzt (30-Tage-Prüfung 2026-12-09). Einwilligungs-Check mit leerem Browserprofil:
+  Startseite, Stadtseite, Eintragsseite laden ohne Klick **keine** externe/Google-Anfrage; Karte
+  erst nach Klick (`maps.googleapis.com`), Schriften selbst gehostet. Startsperren in `06-launch.md`
+  abgehakt. Bericht `berichte/2026-11-06-garantie-ausnahme-und-start-checks.md`.

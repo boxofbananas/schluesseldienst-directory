@@ -1,7 +1,8 @@
 # Gate 6 — Schlanker Start
 
 **Verzeichnis:** Die besten Schlüsseldienste · `die-besten-schluesseldienste.de`
-**Stand:** 2026-11-06 · Build 4646 Seiten, Sitemap 2806 Adressen · Domain und www-Umleitung live
+**Stand:** 2026-11-06 · Build 4646 Seiten, Sitemap **2814** Adressen (Garantie-Ausnahme umgesetzt)
+· Domain und www-Umleitung live · Start der Staffel 2026-11-09
 **Grundlage:** [[launch-lean]], [[footprint-rules]], [[siegel-programm]]
 
 Die Domain ist bereits ausgeliefert und erreichbar; was aussteht, ist die **gestaffelte
@@ -34,24 +35,34 @@ Einreichung** (der Dripfeed). Dieses Dokument legt sie fest.
 
 ---
 
-## 2. Startsperre: die 18 Garantie-Seiten müssen in die erste Stufe
+## 2. Die Garantie-Ausnahme — umgesetzt, mit Inhaltsschranke
 
-**Problem.** `load.mjs:550` setzt `thin && !claimed && !optimized` auf `noindex`. 17 der 18
-Betriebe mit Festpreis-Garantie sind `thin` (unter 5 Bewertungen) und weder beansprucht noch
-bezahlt platziert — sie stehen damit **aktuell auf `noindex`** und fehlen in der Sitemap. Nur Merz
-Sicherheit Mannheim (355 Bewertungen, Premium-Platz) ist drin. Die Garantie-Seiten sind aber die
-stärksten Seiten des Verzeichnisses und gehören in die erste Stufe.
+**Ausgangslage.** `load.mjs` setzte `thin && !claimed && !optimized` auf `noindex`. 17 der 18
+Betriebe mit Festpreis-Garantie waren `thin` (unter 5 Bewertungen) und fielen damit aus der
+Sitemap; nur Merz Sicherheit Mannheim war drin.
 
-**Lösung (vor der ersten Einreichung umzusetzen).** Eine geprüfte Seite wird nie wegen `thin` aus
-der Sitemap genommen. In `load.mjs` (Build **und** `templates/astro/`):
+**Inhaltsprüfung (vor der Umsetzung).** Nicht jede geprüfte Seite trägt eigenen Inhalt. Von den 18
+sind **9 praktisch leer** (0 Wörter Beschreibung, 0 belegte Merkmale — nur Stammdaten und
+Garantie-Block): AES Schlüsseldienst Mannheim, I-S-E Schlüsseldienst (Hockenheim), Mein
+Schlüsseldienst Weinheim, Merz Schlüsseldienst Ludwigshafen, Merz Schlüsseldienst Speyer, Merz
+Schlüsseldienst Worms, Rheinpfalz Schlüsseldienst Frankenthal, Riegelklar Schlüsseldienst
+Schwetzingen, Sperber Schlüsseldienst (Heidelberg). Die übrigen **9 tragen Inhalt** (120–134
+Wörter, 7–14 Merkmale). Eine leere Seite gehört trotz `geprueft` nicht in die erste Stufe — dort
+misst `thin` das Richtige.
+
+**Umgesetzt.** Eine geprüfte Seite wird nur dann nicht wegen `thin` ausgenommen, wenn sie eine
+Beschreibung trägt. In `load.mjs` (Build **und** `templates/astro/`):
 
 ```
-for (const l of listings) if (l.thin && !l.claimed && !l.optimized && !l.geprueft) noindexPaths.add(l.path);
+for (const l of listings) if (l.thin && !l.claimed && !l.optimized && !(l.geprueft && l.description)) noindexPaths.add(l.path);
 ```
 
-Danach neu bauen und ausliefern. Die Sitemap wächst um die 17 Seiten: **2806 → 2823**. Die
-`/auszeichnung/`-Nachweisseiten bleiben `noindex` (sie sind Beleg, kein Inhalt). Diese Änderung
-ist **noch nicht vorgenommen** — sie wartet auf die Freigabe des Ist-Stands.
+Gebaut und ausgeliefert. Sitemap **2806 → 2814** (+8; Merz Sicherheit war schon drin). Jetzt sind
+**9 Garantie-Seiten indexiert** (mit Inhalt), **9 bleiben `noindex`** (leer) und werden erst
+indexiert, wenn sie eine Beschreibung bekommen — über eine Beanspruchung oder eine Anreicherung.
+Die `/auszeichnung/`-Nachweisseiten bleiben `noindex` (Beleg, kein Inhalt). Live bestätigt: die 9
+inhaltsstarken Seiten senden `index, follow` und stehen in der Sitemap, die 9 leeren senden
+`noindex, follow` und fehlen in ihr.
 
 ---
 
@@ -89,10 +100,11 @@ Die Sitemap ist die maschinenlesbare Eingabe. Eingereicht wird in dieser Reihenf
 ([[launch-lean]]), die **18 Garantie-Seiten vorgezogen**:
 
 1. **Startseite.**
-2. **Die 18 Garantie-Eintragsseiten** — die stärksten Seiten, zuerst (nach Umsetzung von
-   Abschnitt 2). Mannheim (Merz Sicherheit, AES), dann Heidelberg, Ludwigshafen, Hockenheim,
-   Schwetzingen, Worms, Weinheim, Speyer, Wiesloch, Waghäusel, Frankenthal, Bensheim, Sinsheim,
-   Neustadt, Landau.
+2. **Die 9 indexierten Garantie-Eintragsseiten** — die stärksten Seiten, zuerst: Merz Sicherheit
+   Mannheim, Heidelberg Schlüsseldienst, Mein Schlüsseldienst Hockenheim, Kraichgau Sinsheim,
+   Pälzer Neustadt, Hardt Waghäusel, Südpfalz Landau, Odenwald Bensheim, Kurpfalz Wiesloch. Die 9
+   leeren Garantie-Seiten (Abschnitt 2) bleiben vorerst `noindex` und ziehen nach, sobald sie eine
+   Beschreibung bekommen.
 3. **Die 16 Bundesland-Seiten.**
 4. **`/ueber-uns/` und `/festpreis-garantie/`** — die beiden Vertrauensseiten.
 5. **Die 6 Leistungsseiten und ihr Index**, die 5 Ratgeberseiten und ihr Index.
@@ -110,9 +122,9 @@ Die Sitemap ist die maschinenlesbare Eingabe. Eingereicht wird in dieser Reihenf
 
 ## 5. Erweiterungsstufen
 
-**Stufe 1 (Start, nach Abschnitt 2):** der gesamte Sitemap-Bestand (2823 Adressen) —
-Startseite, 18 Garantie-Seiten, 16 Bundesländer, 2 Vertrauensseiten, 7 Leistungsseiten, 6
-Ratgeberseiten, 577 Stadtseiten (≥ 2 Einträge), die `thin=false`-Eintragsseiten.
+**Stufe 1 (Start):** der gesamte Sitemap-Bestand (2814 Adressen) — Startseite, 9 indexierte
+Garantie-Seiten, 16 Bundesländer, 2 Vertrauensseiten, 7 Leistungsseiten, 6 Ratgeberseiten, 577
+Stadtseiten (≥ 2 Einträge), die `thin=false`-Eintragsseiten.
 
 **Alle 30 Tage** (Auswertung aus Cloudflare und `site:`-Stichprobe, **keine Search Console**):
 wachsen die indexierten Seiten, die nächste Tranche freischalten, neu bauen, neu einreichen.
@@ -132,23 +144,26 @@ jede Beanspruchung hebt eine Seite sofort in den indexierten Bestand (neu bauen,
 
 ## 6. Vor der ersten Einreichung zu prüfen (aus [[launch-lean]])
 
-- [ ] **Abschnitt 2 umgesetzt** — die 18 Garantie-Seiten sind in der Sitemap (`geprueft`-Ausnahme).
+- [x] **Abschnitt 2 umgesetzt** — die 9 inhaltsstarken Garantie-Seiten sind in der Sitemap, die 9
+      leeren bleiben `noindex` (`geprueft && description`-Ausnahme), live bestätigt.
 - [x] `featuredPreview = false` im ausgelieferten Build.
 - [x] `404.html` und `_headers` (pages.dev-noindex) im Build.
 - [x] www-Umleitung live (301, Pfad/Query erhalten).
 - [x] Impressum und Datenschutz vollständig, ohne Platzhalter, aus dem Fußbereich jeder Seite
       verlinkt (Gate-5-Bericht, von außen bestätigt).
-- [ ] **Mit leerem Browserprofil prüfen**, dass ohne Klick auf „Karte von Google Maps laden" keine
-      Anfrage an Google geht (Karten, Schriften selbst gehostet).
+- [x] **Mit leerem Browserprofil geprüft**: Startseite, Stadtseite und Eintragsseite laden ohne
+      Klick **keine** externe Anfrage und **nichts** von Google; erst nach Klick auf „Karte von
+      Google Maps laden" lädt die Karte (`maps.googleapis.com` u. a.). Schriften selbst gehostet.
 - [x] Verzeichnis auf **eigenem Cloudflare-Konto**, getrennt von den Schlüsseldienst-Websites.
-- [ ] `datePublished` am Tag des Starts der Staffel setzen (derzeit `launchDate=2026-11-03`).
+- [x] `datePublished` auf den Staffel-Starttag **2026-11-09** gesetzt (`site.json` `launchDate`),
+      im gebauten Schema bestätigt.
 
 ---
 
 ## 7. Termin der 30-Tage-Prüfung
 
-**Starttag der Staffel + 30 Tage.** Beginnt die Einreichung am **2026-11-07**, fällt die erste
-Prüfung auf den **2026-12-07**. Zu lesen ([[launch-lean]]):
+**Starttag der Staffel + 30 Tage.** Die Staffel startet am **2026-11-09** (= `datePublished`); die
+erste Prüfung fällt auf den **2026-12-09**. Zu lesen ([[launch-lean]]):
 
 - indexierte Seiten (Cloudflare-Auswertung, `site:`-Stichprobe) — wächst der Bestand?
 - Klicks / Crawler-Zugriffe aus der Cloudflare-Auswertung;
@@ -163,7 +178,9 @@ Wachsen die indexierten Seiten, Stufe 2 freischalten. Stagnieren sie, erst die U
 
 - Den IndexNow-Schalter (Crawler Hints) im eigenen Cloudflare-Konto aktivieren oder je Stufe den
   IndexNow-Ping auslösen.
-- Den Starttag der Staffel festlegen; danach `datePublished` setzen, neu bauen, ausliefern.
+- Die Staffel am festgelegten Starttag **2026-11-09** auslösen (IndexNow-Ping der ersten Stufe).
+  `datePublished` ist bereits auf diesen Tag gesetzt; verschiebt sich der Start, den Wert in
+  `site.json` (`launchDate`) anpassen, neu bauen, ausliefern.
 - Die Cloudflare-Auswertung alle 30 Tage lesen.
 
 Claude legt kein Konto an, meldet sich nirgends an und reicht nichts ohne Freigabe ein.
