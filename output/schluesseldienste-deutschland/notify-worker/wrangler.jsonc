@@ -1,0 +1,21 @@
+{
+  // Schlanker Benachrichtigungs-Worker: sendet die Formular-Einsendungen per Cloudflare Email
+  // Routing an den Betreiber. Die Pages-Function functions/api/claim.ts ruft ihn über ein
+  // Service-Binding (MAILER) auf; dieser Worker hat kein öffentliches Route und keine Secrets.
+  //
+  // Voraussetzungen im Cloudflare-Konto des Verzeichnisses (NICHT dem der Schlüsseldienst-Websites):
+  //   1. Email Routing auf die-besten-schluesseldienste.de aktiv (legt die MX/DNS automatisch an).
+  //   2. Daniels GEWÖHNLICHE Adresse einmalig als Destination verifiziert (Bestätigungsklick).
+  //   3. Im Pages-Projekt: Settings -> Functions -> Service bindings -> Name "MAILER" -> dieser Worker.
+  //   4. Im Pages-Projekt: Variable NOTIFY_TO = Daniels gewöhnliche Adresse (nicht im Repo).
+  // Absender ist NOTIFY_FROM (formular@die-besten-schluesseldienste.de), gesetzt in der Pages-Config.
+  "name": "schluesseldienste-claim-notify",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-11-06",
+  // Kein öffentliches Ziel: der Worker ist nur über das Service-Binding MAILER erreichbar, nicht
+  // über workers.dev und keine Route. So ist der Sende-Endpunkt von außen nicht aufrufbar.
+  "workers_dev": false,
+  // send_email ohne destination_address: Email Routing lässt den Versand ohnehin nur an
+  // verifizierte Zieladressen des Kontos zu. Empfänger reicht die Pages-Function mit.
+  "send_email": [{ "name": "EMAIL" }]
+}

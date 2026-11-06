@@ -650,3 +650,16 @@ Zahlen, was auf Freigabe wartet.
   mit 2823 alle bestanden. `06-launch.md` angeglichen: Starttag 2026-11-06, erste 30-Tage-Prüfung
   **2026-12-06**, Punkt „Staffel auslösen" als erledigt markiert (offen beim Betreiber nur noch
   der IndexNow-Ping). Bericht `berichte/2026-11-06-staffelstart-heute.md`.
+- **2026-11-06** **Benachrichtigung bei Formulareingang gebaut.** `functions/api/claim.ts` schrieb
+  bisher nur in KV; Pages kann kein `send_email`. Weg: schlanker Worker `notify-worker/` mit
+  `send_email`-Binding, den die Function per Service-Binding `MAILER` aufruft — **kein
+  Drittanbieter, kein API-Schlüssel** (deckt sich mit Datenschutz Ziffer 5, „ohne weiteren
+  Dienstleister"). KV-Schreiben bleibt zuerst, Versand über `waitUntil(env.MAILER.fetch(...))` im
+  Hintergrund, Function antwortet immer 303 → `?gesendet=1`. Absender Verzeichnis-Domain, Empfänger
+  Daniels gewöhnliche Adresse als Pages-**Secret** `NOTIFY_TO` (nie im Repo, überdauert Deploys).
+  Worker ausgeliefert (kein öffentliches Ziel), `MAILER`-Binding an der Produktion per API
+  bestätigt. **Live geprüft:** echte Absendung an `/api/claim` → 303, `?gesendet=1`, KV-Eintrag
+  `beansprucht:2026-11-06T11-00-52:s2c8` (gelesen, dann gelöscht). **Offen beim Betreiber** (Konto,
+  nicht von mir ausführbar): Email Routing aktivieren, gewöhnliche Adresse als Destination
+  verifizieren, `NOTIFY_TO`-Secret setzen; „Mail angekommen" danach. Bericht
+  `berichte/2026-11-06-formular-benachrichtigung.md`.

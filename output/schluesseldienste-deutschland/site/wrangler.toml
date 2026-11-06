@@ -12,16 +12,26 @@ pages_build_output_dir = "dist"
 binding = "EINSENDUNGEN"
 id = "31cfe34f7c08485c8708c642f0fc7781"
 
-# send_email-Binding (Cloudflare Email Routing). WICHTIG: Pages unterstützt "send_email" NICHT in
-# dieser Konfigurationsdatei (wrangler lehnt den Deploy sonst ab). Dieses Binding muss im Dashboard
-# gesetzt werden: Pages-Projekt → Settings → Functions → Bindings → "Email" → Name "SEB",
-# Zieladresse info@die-besten-schluesseldienste.de (in Email Routing als Destination verifiziert).
-# Erst für den Mail-Worker nach dem Start nötig, nicht für Gate 6.
-# [[send_email]]
-# name = "SEB"
-# destination_address = "info@die-besten-schluesseldienste.de"
+# Benachrichtigung bei Formulareingang. Pages unterstützt das send_email-Binding NICHT, kann also
+# nicht selbst mailen. Der Versand läuft über den Worker notify-worker/ (send_email-Binding), den
+# die Function per Service-Binding MAILER aufruft. Das Service-Binding setzt der Betreiber im
+# Dashboard: Pages-Projekt → Settings → Functions → Service bindings → Name "MAILER" → Worker
+# "schluesseldienste-claim-notify". (Service-Bindings stehen nicht in dieser Datei, damit der
+# Pages-Deploy wie bei send_email nicht abgelehnt wird.)
 
-# Verifizierte Absende-/Zieladresse; können im Dashboard als Variablen überschrieben werden.
+# Absender läuft über die Verzeichnis-Domain und darf in der Config stehen.
 [vars]
 NOTIFY_FROM = "formular@die-besten-schluesseldienste.de"
-NOTIFY_TO = "info@die-besten-schluesseldienste.de"
+
+# Empfänger (NOTIFY_TO) ist Daniels gewöhnliche Adresse und steht NICHT hier: Variablen aus dieser
+# Datei überschreiben bei jedem Deploy den Dashboard-Wert, ein Secret dagegen überdauert Deploys und
+# erscheint nie im Repo. Der Betreiber setzt es einmalig im eigenen Terminal:
+#   npx wrangler pages secret put NOTIFY_TO --project-name=schluesseldienste-deutschland
+# Wert: seine gewöhnliche Adresse, die zugleich in Email Routing als Destination verifiziert ist.
+# Fehlt das Secret, wird nicht gemailt und die Einsendung steht allein in KV (functions/api/claim.ts).
+
+# Service-Binding auf den Benachrichtigungs-Worker. Versuch, es aus der Config zu setzen statt
+# im Dashboard (anders als send_email, das Pages hier ablehnt).
+[[services]]
+binding = "MAILER"
+service = "schluesseldienste-claim-notify"

@@ -5,19 +5,18 @@
 //
 // Bindungen, die Daniels Cloudflare-Konto bereitstellt (siehe 05-build-report.md):
 //   - KV-Namespace  EINSENDUNGEN
-//   - Email-Routing send_email-Binding  SEB  (Versand nur an die verifizierte Betreiberadresse)
-//   - optionale Variablen NOTIFY_FROM / NOTIFY_TO (verifizierte Absende-/Zieladresse)
-// Nur als Typ importiert (zur Laufzeit gelöscht): Cloudflare Pages Functions unterstützen das
-// send_email-Binding nicht und stellen das Modul "cloudflare:email" nicht bereit. Ein statischer
-// Wert-Import ließe die Function bei jedem Aufruf scheitern. Der Versand lädt das Modul deshalb
-// nur dynamisch und nur, wenn ein SEB-Binding vorhanden ist (auf Pages nie).
-import type { EmailMessage } from "cloudflare:email";
+//   - Service-Binding  MAILER  auf den Benachrichtigungs-Worker (notify-worker/), der per
+//     Cloudflare Email Routing sendet. Pages Functions unterstützen das send_email-Binding NICHT
+//     (in diesem Projekt bestätigt), können also nicht selbst mailen; der Worker schließt die
+//     Lücke. Diese Function ruft ihn nur auf.
+//   - Variablen NOTIFY_FROM (Absender, Verzeichnis-Domain) und NOTIFY_TO (Empfänger, Daniels
+//     gewöhnliche Adresse; als Pages-Variable gesetzt, nie im Repo).
 
 interface Env {
   EINSENDUNGEN: KVNamespace;
-  SEB?: { send: (m: EmailMessage) => Promise<void> };
-  NOTIFY_FROM?: string;
-  NOTIFY_TO?: string;
+  MAILER?: Fetcher;        // Service-Binding auf den Benachrichtigungs-Worker
+  NOTIFY_FROM?: string;    // Absender, Verzeichnis-Domain
+  NOTIFY_TO?: string;      // Empfänger, Daniels gewöhnliche Adresse (nicht im Repo)
 }
 
 // Nur bekannte Felder landen in KV und Mail. Alles andere wird verworfen (keine Mülldeponie).
@@ -60,7 +59,7 @@ function seite(pfad: string): Response {
   return new Response(null, { status: 303, headers: { Location: pfad + "?gesendet=1" } });
 }
 
-export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
+export const onRequestPost: PagesFunction<Env> = async ({ request, env, waitUntil }) => {
   const ip = request.headers.get("CF-Connecting-IP") || "0.0.0.0";
   const referer = request.headers.get("Referer") || "";
 
@@ -105,11 +104,15 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
     return new Response("Die Einsendung konnte nicht gespeichert werden. Bitte später erneut.", { status: 500 });
   }
 
-  // Vollständige Mail an die verifizierte Betreiberadresse (Sicherung von KV + persönlicher
-  // Verkaufsanlass; Versand nur an die eigene verifizierte Adresse, daher kein dritter Verarbeiter).
-  try {
-    const from = env.NOTIFY_FROM || "formular@die-besten-schluesseldienste.de";
-    const to = env.NOTIFY_TO || "info@die-besten-schluesseldienste.de";
+  // Benachrichtigung an den Betreiber. KV ist bereits geschrieben; der Versand läuft im
+  // Hintergrund (waitUntil) über den Benachrichtigungs-Worker (Service-Binding MAILER), der per
+  // Cloudflare Email Routing sendet. Scheitert er, bleibt die Einsendung in KV, und das Formular
+  // zeigt dem Absender trotzdem "gesendet" (der 303 unten läuft unabhängig). Absender ist die
+  // Verzeichnis-Domain, Empfänger Daniels gewöhnliche Adresse (NOTIFY_TO). Fehlt MAILER oder
+  // NOTIFY_TO, wird nichts gesendet; die Einsendung steht dann allein in KV.
+  const from = env.NOTIFY_FROM || "formular@die-besten-schluesseldienste.de";
+  const to = env.NOTIFY_TO || "";
+  if (env.MAILER && to) {
     const betreff = art === "garantie"
       ? `Garantie-Antrag: ${daten.firma || "ohne Firmenname"}`
       : `Eintrag beanspruchen: ${daten.business || "ohne Firmenname"}`;
@@ -121,11 +124,14 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
       `Date: ${new Date(now).toUTCString()}\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset="UTF-8"\r\n` +
       `Content-Transfer-Encoding: base64\r\n\r\n` +
       btoa(unescape(encodeURIComponent(body))).replace(/(.{76})/g, "$1\r\n");
-    if (env.SEB) {
-      const { EmailMessage } = await import("cloudflare:email");
-      await env.SEB.send(new EmailMessage(from, to, raw));
-    }
-  } catch { /* Mail darf die Annahme nicht blockieren; KV hält die Einsendung ohnehin */ }
+    const req = new Request("https://mailer.internal/send", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ from, to, raw }),
+    });
+    // Versand darf die Antwort weder verzögern noch blockieren; Fehler werden geschluckt.
+    waitUntil(env.MAILER.fetch(req).catch(() => {}));
+  }
 
   return seite(art === "garantie" ? "/festpreis-garantie/antrag/" : "/eintrag-beanspruchen/");
 };

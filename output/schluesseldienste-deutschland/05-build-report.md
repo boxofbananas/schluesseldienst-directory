@@ -95,22 +95,28 @@ führt **587** Zeilen (Gate-4-Ausschlüsse, breite Kategorien, Grenzorte, Verhal
   platzhalterfrei, aber das Wiki ist keine Rechtsberatung; die Endfassung sollte ein Anwalt prüfen.
 - **Welle 2 / Cloudflare-Auslieferung.** Nicht Teil dieses Laufs (Gate 6).
 
-## Was du in Cloudflare tun musst (für die Formularannahme, vor Gate 6)
+## Was du in Cloudflare tun musst (für die Benachrichtigung bei Formulareingang)
 
-Die Pages Function ist gebaut; sie braucht Konto-seitig drei Klicks von dir im **eigenen**
-Cloudflare-Konto des Verzeichnisses (getrennt von den Schlüsseldienst-Websites):
+KV-Namespace `EINSENDUNGEN` ist angelegt und gebunden; die Formulare nehmen live an und schreiben
+nach KV (bestätigt durch eine echte Live-Absendung). Pages Functions können aber **nicht selbst
+mailen** (kein `send_email`-Binding). Der Versand läuft deshalb über den Worker `notify-worker/`
+(`send_email`-Binding), den die Function per Service-Binding `MAILER` aufruft. Worker und
+Service-Binding sind ausgeliefert (`MAILER` an der Produktion bestätigt). Es fehlen noch **drei
+einmalige Schritte in deinem eigenen** Cloudflare-Konto des Verzeichnisses (getrennt von den
+Schlüsseldienst-Websites) — nur diese drei, danach kommt die Mail:
 
-1. **KV-Namespace `EINSENDUNGEN` anlegen** und im Pages-Projekt als Binding `EINSENDUNGEN`
-   verknüpfen. Die Platzhalter-ID `OFFEN_KV_NAMESPACE_ID` in `site/wrangler.toml` durch die echte
-   Namespace-ID ersetzen.
-2. **Email Routing aktivieren** und die Zieladresse **info@die-besten-schluesseldienste.de**
-   verifizieren; die **`send_email`-Bindung `SEB`** mit dieser Zieladresse im Pages-Projekt
-   einrichten (steht in `wrangler.toml` vorbereitet).
-3. **`NOTIFY_FROM` / `NOTIFY_TO`** in `wrangler.toml` prüfen (Benachrichtigungsadressen für
-   eingehende Formulare).
+1. **Email Routing** auf `die-besten-schluesseldienste.de` aktivieren (legt die MX/DNS selbst an).
+2. Deine **gewöhnliche Adresse** (nicht die Verzeichnis-Domain, nicht eine Schlüsseldienst-Domain)
+   als **Destination** in Email Routing hinzufügen und den **Bestätigungsklick** in der Mail an
+   diese Adresse ausführen.
+3. Im eigenen Terminal:
+   `npx wrangler pages secret put NOTIFY_TO --project-name=schluesseldienste-deutschland`,
+   Wert = dieselbe gewöhnliche Adresse. Als **Secret** (nicht als Variable), damit es Deploys
+   überdauert und nie im Repo steht. Absender `NOTIFY_FROM` steht schon in `wrangler.toml`.
 
-Erst danach nehmen die beiden Formulare live Einsendungen an. Bis dahin baut und läuft alles, aber
-ein echter Formular-Eingang braucht diese Bindungen.
+Erst danach geht bei jedem Formulareingang innerhalb einer Minute eine Mail mit dem Inhalt der
+Einsendung an deine Adresse. Scheitert der Versand, bleibt die Einsendung in KV und das Formular
+zeigt dem Absender trotzdem „gesendet". Siehe `berichte/2026-11-06-formular-benachrichtigung.md`.
 
 ## Ansehen
 `preview-site.command` (Mac) / `preview-site.bat` (Windows) in `site/`, nie direkt
