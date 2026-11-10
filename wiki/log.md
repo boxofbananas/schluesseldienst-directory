@@ -682,3 +682,13 @@ Zahlen, was auf Freigabe wartet.
   Person-Schema. JSON-LD geprüft (0 kaputte Blöcke, publisher/herausgeber/Person lösen auf),
   gebaut, ausgeliefert, check_live.py mit 2823 bestanden, live gegengeprüft. Bericht
   `berichte/2026-11-06-herausgeber-aus-seitentext.md`.
+- **2026-11-10** **scripts/verkauf.py — ein Befehl für verkaufte Plätze.** Setzt die Spalte je
+  Stufe (premium→`premium=true`, stadt→`featured=city`, top→`best_of_rank=1–3`, aus dem
+  Datenlayer, nie die Garantie-Spalten), hält Verkauf/Ende im Hauptbuch
+  `output/<slug>/verkauf-hauptbuch.csv` fest, baut, liefert aus, prüft mit check_live.py.
+  `--liste` zeigt den Ist-Zustand mit „seit". Zwei Prüfungen brechen ab: Stadt-Premium je Stadt
+  nur einmal; höchstens ein eigener Betrieb je Stadt auf bezahltem Platz ([[footprint-rules]]).
+  Slug auf keine/mehrere Zeilen → Abbruch mit Treffern, nie geraten. Probelauf (--liste,
+  Abbrüche, --entfernen auf Testwert mit Scratch-Hauptbuch, danach CSV zurückgesetzt) ohne
+  Live-Änderung. Aufruf in CLAUDE.md eingetragen. Bericht
+  `berichte/2026-11-10-verkauf-skript.md`.

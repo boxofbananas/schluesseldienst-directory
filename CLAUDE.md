@@ -355,6 +355,21 @@ Verkaufter Platz, bestätigter Eintrag, neu erteilte oder entzogene Festpreis-Ga
 Zuschläge, Anfahrt; zwei Material – setzen oder leeren), geänderte
 Garantiepreise, neue Stadt: CSV ändern, Gate 5 erneut laufen lassen, erneut ausliefern. **Nie eine erzeugte Seite von Hand bearbeiten.**
 
+Für einen **verkauften oder gekündigten Platz** ist das ein Befehl, nicht Handarbeit an der CSV.
+`scripts/verkauf.py` setzt die Spalte (`premium`/`featured=city`/`best_of_rank` je Stufe, aus dem
+Datenlayer, nie die Garantie-Spalten), hält den Verkauf im Hauptbuch
+`output/<slug>/verkauf-hauptbuch.csv` fest, baut, liefert aus und prüft mit `check_live.py`:
+
+```
+python3 scripts/verkauf.py --slug <eintrag-slug> --stufe premium|stadt|top
+python3 scripts/verkauf.py --slug <eintrag-slug> --entfernen
+python3 scripts/verkauf.py --liste
+```
+
+Es bricht ab (nicht nur Warnung), wenn das Stadt-Premium der Stadt schon vergeben ist oder ein
+zweiter eigener Betrieb in der Stadt einen bezahlten Platz bekäme ([[footprint-rules]]), und wenn
+der Slug auf keine oder mehrere Zeilen passt. `--help` ist maßgeblich.
+
 ### Nach dem Start: der Mail-Worker
 
 [[mail-worker]], wahlweise, auf Wunsch des Betreibers, nie Teil eines Gates. Ein Cloudflare
