@@ -8,11 +8,11 @@ const { site } = loadDirectory();
 const t = site.tiers;
 const vatNote = t.vatNote;
 const title = `Premium-Plätze für ${site.niche.plural} | ${site.brand}`;
-const description = `Bringen Sie Ihren ${site.niche.singular} an die Spitze seiner Stadtseite auf ${site.brand}. Ein Betrieb je Stufe und Stadt.`;
+const description = `Zeigen Sie Ihren ${site.niche.singular} im Premium-Band oben auf seiner Stadtseite auf ${site.brand}. Das Stadt-Premium gibt es bis zu dreimal je Stadt, in der Reihenfolge der Buchung.`;
 const tiers = [
   { key: 'premium', name: 'Premium-Eintrag', price: t.premium?.price, link: payLink(t.premium?.link), what: 'Ihre Bilder, alle Links ohne nofollow, Karte und Öffnungszeiten im Eintrag.' },
   { key: 'top-platzierung', name: 'Top-Platzierung', price: t.bestOf?.price, link: payLink(t.bestOf?.link), what: `Ein festgesetzter Platz in der Liste „Die besten ${site.niche.plural} in Ihrer Stadt“, dazu eine Pressemitteilung über Ihren Betrieb.` },
-  { key: 'stadt', name: 'Premium-Platz Stadt', price: t.city?.price, link: payLink(t.city?.link), what: 'Die oberste Karte auf Ihrer Stadtseite, ein Link ohne nofollow und ein Bild. Ein Betrieb je Stadt.' },
+  { key: 'stadt', name: 'Stadt-Premium', price: t.city?.price, link: payLink(t.city?.link), what: 'Einer von bis zu drei Plätzen im Premium-Band oben auf Ihrer Stadtseite, über der nach Bewertung sortierten Liste. Die Reihenfolge der drei richtet sich nach dem Zeitpunkt der Buchung, die frühere oben. Dazu ein Link ohne nofollow und ein Bild.' },
   { key: 'region', name: 'Premium-Platz Umland', price: t.county?.price, link: payLink(t.county?.link), what: 'Die oberste Karte auf mehreren benachbarten Stadtseiten, dazu die Premium-Marke an Ihrem Eintrag.' },
   { key: 'bundesland', name: 'Premium-Platz Bundesland', price: t.state?.price, link: payLink(t.state?.link), what: 'Ein Block auf der Bundesland-Seite und auf jeder Stadtseite des Landes, eine neu geschriebene Beschreibung und ein Anfrageformular in Ihrem Eintrag.' },
 ].filter((x) => x.price);
@@ -20,8 +20,8 @@ const tiers = [
 <Base title={title} description={description} path="/premium/" noindex={true} headTone="band">
   <Fragment slot="head">
     <div class="hero compact">
-      <h1>Oben auf der <span class="hl">Stadtseite</span> stehen</h1>
-      <p class="lede">Die Stadtseiten ordnen die {site.niche.plural} nach Bewertung und Anzahl der Bewertungen. Premium-Plätze und Top-Platzierungen stehen über dieser Liste. Je Stufe und Stadt ein Betrieb, ein Platz ist also frei oder vergeben.</p>
+      <h1><span class="hl">{site.niche.plural}</span> oben auf der Stadtseite</h1>
+      <p class="lede">Die Stadtseiten ordnen die {site.niche.plural} nach Bewertung und Anzahl der Bewertungen. Premium-Plätze und Top-Platzierungen stehen über dieser Liste. Das Stadt-Premium ist einer von bis zu drei Plätzen oben auf der Stadtseite; die Reihenfolge der drei richtet sich nach dem Zeitpunkt der Buchung, nicht nach Bewertung.</p>
     </div>
   </Fragment>
   <div class="tiers">
@@ -44,7 +44,7 @@ const tiers = [
     <ol class="steps">
       <li><b>1</b><h3>Anfragen oder buchen</h3><p>Platz auswählen und anfragen oder bezahlen. Kein Konto, keine Vertragsbindung.</p></li>
       <li><b>2</b><h3>Stadt nennen</h3><p>Antworten Sie mit Firmenname und Stadt. Wir prüfen, ob der Platz frei ist.</p></li>
-      <li><b>3</b><h3>Freischalten</h3><p>Wir aktualisieren das Verzeichnis. Ist die Stufe in Ihrer Stadt vergeben, erstatten wir am selben Tag und setzen Sie auf die Warteliste.</p></li>
+      <li><b>3</b><h3>Freischalten</h3><p>Wir aktualisieren das Verzeichnis. Ist in Ihrer Stadt kein Platz dieser Stufe mehr frei, erstatten wir am selben Tag und setzen Sie auf die Warteliste.</p></li>
     </ol>
   </section>
   <section class="prose">

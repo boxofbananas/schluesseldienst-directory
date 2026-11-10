@@ -36,6 +36,12 @@ Sortierung liest `owned`.
   `owned`-Spalte und nennt jeden Verstoß im Plan. **Konkret betroffen (Stand 2026-11-04):**
   in **Mannheim, Heidelberg und Hockenheim** liegen je zwei eigene Betriebe – dort darf höchstens
   einer einen bezahlten Platz bekommen.
+- **Stadt-Premium, geschärft (Stand 2026-11-10):** Das Stadt-Premium (`featured = city`) gibt es
+  seit dem 2026-11-10 bis zu **dreimal** je Stadt, in der Reihenfolge der Buchung. **Von den drei
+  Plätzen einer Stadt geht höchstens einer an einen owned-Betrieb.** `scripts/verkauf.py` bricht
+  ab, wenn ein zweiter eigener Betrieb einen Stadt-Platz bekäme. Diese Regel ist nicht auslegbar:
+  ein zweiter eigener Name auf den drei oberen Karten einer Stadt ist ausgeschlossen, gleich wie
+  gut bewertet oder wie alt die Buchung wäre.
 - **Die Stadtseiten-Sortierung macht keine Ausnahme für eigene Betriebe.** Die Reihenfolge
   (bezahlte Plätze, dann Festpreis-Garantie, dann Festnetz mit zur PLZ passender Ortsvorwahl,
   dann der Rest – je Gruppe nach Bewertung, [[konventionen]]) liest **nicht** `owned` und behandelt

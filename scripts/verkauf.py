@@ -212,19 +212,46 @@ def pruefe_live(verzeichnis, domain, erwartet):
         fehler("check_live.py meldet einen Fehler an der Live-Seite")
 
 
+_BANNER = "═" * 70
+
+
+def banner_nicht_ausgeliefert(grund):
+    print("\n" + _BANNER)
+    print("  ⚠  NICHT AUSGELIEFERT — die Live-Seite ist UNVERÄNDERT.")
+    print(f"     {grund}")
+    print("     Die CSV und das Hauptbuch wurden lokal geändert; es ging NICHTS zu")
+    print("     Cloudflare, und check_live.py lief nicht. Ohne diese Schalter läuft")
+    print("     die ganze Kette (bauen, ausliefern, prüfen).")
+    print(_BANNER)
+
+
 def neu_bauen_ausliefern(a, verzeichnis, domain, projekt):
     if a.kein_bauen:
-        print("  (--kein-bauen: Build übersprungen)")
+        banner_nicht_ausgeliefert("--kein-bauen gesetzt: weder gebaut noch ausgeliefert.")
         return
     baue(verzeichnis)
     if a.kein_deploy:
-        print("  (--kein-deploy: Ausliefern und check_live.py übersprungen)")
+        banner_nicht_ausgeliefert("--kein-deploy gesetzt: lokal gebaut, aber nicht ausgeliefert.")
         return
     liefere_aus(verzeichnis, projekt)
     pruefe_live(verzeichnis, domain, sitemap_zahl(verzeichnis))
 
 
 # ---------- Unterbefehle ----------
+def melde_fehlende_buchungsdaten(rows):
+    """Meldet jedes Stadt-Premium ohne featured_seit — nicht stillschweigend ans Ende sortieren."""
+    ohne = [r for r in rows if (r.get("featured") or "").strip().lower() == "city"
+            and not (r.get("featured_seit") or "").strip()]
+    if ohne:
+        print("\nMELDUNG: Stadt-Premium ohne Buchungsdatum (featured_seit). Die Reihenfolge im "
+              "Band ist für diese Einträge nicht bestimmbar:", file=sys.stderr)
+        for r in ohne:
+            print(f"  {r['slug']}  ({r['name']}, {r.get('city') or r['city_slug']})", file=sys.stderr)
+        print("Das Datum setzt `--slug <...> --stufe stadt` (neue Buchung) oder ein Eintrag von "
+              "Hand in die Spalte featured_seit (JJJJ-MM-TT).", file=sys.stderr)
+    return ohne
+
+
 def cmd_liste(rows, hb):
     aktiv = []
     for r in rows:
@@ -235,7 +262,7 @@ def cmd_liste(rows, hb):
     if not aktiv:
         print("Kein bezahlter Platz gesetzt.")
         return
-    aktiv.sort(key=lambda x: (x[0].lower(), x[1], x[3]))
+    aktiv.sort(key=lambda x: (x[0].lower(), x[1], x[5] or "9999-99-99", x[3]))
     print(f"Bezahlte Plätze ({len(aktiv)}):\n")
     print(f"  {'Stadt':<18} {'Stufe':<20} {'Betrieb':<40} {'seit':<11} Eintrag")
     print("  " + "-" * 110)
@@ -245,6 +272,7 @@ def cmd_liste(rows, hb):
         wert_s = f" [rang {wert}]" if name == "Top-Platzierung" else ""
         betrieb_disp = (betrieb[:30] + ("…" if len(betrieb) > 30 else "") + marke)
         print(f"  {stadt:<18} {(name+wert_s):<20} {betrieb_disp:<42} {seit_s:<11} {slug}")
+    melde_fehlende_buchungsdaten(rows)
 
 
 def cmd_verkauf(a, rows, felder, csv_pfad, hb, hb_pfad, tiers, verzeichnis, domain, projekt):
@@ -264,14 +292,16 @@ def cmd_verkauf(a, rows, felder, csv_pfad, hb, hb_pfad, tiers, verzeichnis, doma
                   + (f" (seit {seit})" if seit else "") + ". Nichts zu tun.")
             return
 
-    # Prüfung 1: Stadt-Premium je Stadt nur einmal.
+    # Prüfung 1: Stadt-Premium gibt es bis zu dreimal je Stadt. Die Sperre greift erst ab dem
+    # vierten und nennt dann die drei Halter.
     if stufe == "stadt":
         halter = [r for r in rows if r["city_slug"] == stadt and r["slug"] != ziel["slug"]
                   and (r.get("featured") or "").strip().lower() == "city"]
-        if halter:
-            h = halter[0]
-            fehler(f"Stadt-Premium in {stadt_anzeige} ist bereits vergeben an {h['name']} ({h['slug']}). "
-                   f"Erst dort entfernen, dann hier verkaufen.")
+        if len(halter) >= 3:
+            wer = "; ".join(f"{h['name']} ({h['slug']}, seit {h.get('featured_seit') or '?'})"
+                            for h in halter)
+            fehler(f"Alle drei Stadt-Premium-Plätze in {stadt_anzeige} sind vergeben an: {wer}. "
+                   f"Erst einen entfernen, dann hier verkaufen.")
 
     # Prüfung 2: höchstens ein eigener Betrieb je Stadt auf bezahltem Platz.
     if truthy(ziel.get("owned")):
@@ -295,6 +325,10 @@ def cmd_verkauf(a, rows, felder, csv_pfad, hb, hb_pfad, tiers, verzeichnis, doma
         setzwert = str(frei[0])
 
     ziel[spalte] = setzwert
+    if stufe == "stadt":
+        # Buchungsdatum für die Reihenfolge im Band (load.mjs ordnet danach). Es ist derselbe Tag,
+        # der ins Hauptbuch geht.
+        ziel["featured_seit"] = heute()
     schreibe_csv(csv_pfad, felder, rows)
     preis = (tiers.get(STUFEN[stufe][3], {}) or {}).get("price", "")
     haenge_hauptbuch(hb_pfad, [{"datum": heute(), "aktion": "verkauf", "eintrag_slug": ziel["slug"],
@@ -302,6 +336,7 @@ def cmd_verkauf(a, rows, felder, csv_pfad, hb, hb_pfad, tiers, verzeichnis, doma
     zusatz = f" (Rang {setzwert})" if stufe == "top" else ""
     print(f"Verkauft: {name}{zusatz} an {ziel['name']} in {stadt_anzeige}. Spalte {spalte}={setzwert}, "
           f"im Hauptbuch festgehalten.")
+    melde_fehlende_buchungsdaten(rows)
     neu_bauen_ausliefern(a, verzeichnis, domain, projekt)
 
 
@@ -331,6 +366,8 @@ def cmd_entfernen(a, rows, felder, csv_pfad, hb, hb_pfad, verzeichnis, domain, p
         else:
             spalte = STUFEN[schluessel][0]
         ziel[spalte] = ""
+        if spalte == "featured":
+            ziel["featured_seit"] = ""
         entfernt.append(name)
         hb_neu.append({"datum": heute(), "aktion": "ende", "eintrag_slug": ziel["slug"],
                        "stufe": schluessel or "featured", "stadt": stadt, "preis": ""})
@@ -338,6 +375,7 @@ def cmd_entfernen(a, rows, felder, csv_pfad, hb, hb_pfad, verzeichnis, domain, p
     haenge_hauptbuch(hb_pfad, hb_neu)
     print(f"Entfernt: {', '.join(entfernt)} bei {ziel['name']} in {stadt_anzeige}. "
           f"Ende im Hauptbuch festgehalten.")
+    melde_fehlende_buchungsdaten(rows)
     neu_bauen_ausliefern(a, verzeichnis, domain, projekt)
 
 
@@ -387,6 +425,10 @@ def main():
     projekt = a.projekt or os.path.basename(verzeichnis)
 
     felder, rows = lade_csv(csv_pfad)
+    if "featured_seit" not in felder:
+        felder = felder + ["featured_seit"]
+        for r in rows:
+            r.setdefault("featured_seit", "")
     hb = lade_hauptbuch(hb_pfad)
 
     if a.liste:

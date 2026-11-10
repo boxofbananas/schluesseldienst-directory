@@ -692,3 +692,13 @@ Zahlen, was auf Freigabe wartet.
   Abbrüche, --entfernen auf Testwert mit Scratch-Hauptbuch, danach CSV zurückgesetzt) ohne
   Live-Änderung. Aufruf in CLAUDE.md eingetragen. Bericht
   `berichte/2026-11-10-verkauf-skript.md`.
+- **2026-11-10** **Stadt-Premium: drei Plätze je Stadt, Reihenfolge nach Buchung.** `featured=city`
+  bis zu dreimal je Stadt; neue CSV-Spalte `featured_seit` (Buchungsdatum), `load.mjs`
+  (`orderFeaturedBand`) ordnet das Band danach (früheste oben, fehlendes Datum wird gemeldet),
+  `FeaturedBand.astro` zeigt je freiem Platz eine Frei-Karte. `scripts/verkauf.py`: Sperre erst ab
+  dem vierten Stadt-Platz (nennt die drei Halter), setzt/leert `featured_seit`, Footprint streng
+  (zweiter eigener Betrieb bricht ab, [[footprint-rules]] geschärft), meldet fehlende Daten, laute
+  „NICHT AUSGELIEFERT"-Meldung bei `--kein-deploy`/`--kein-bauen`. Merz Mannheim im Hauptbuch auf
+  2026-11-06 datiert. `/premium/` umgeschrieben (bis zu drei, nach Buchung; Textgate bestanden).
+  Live geprüft: Mannheim Merz oben + 2 frei, Leipzig 3 frei, check_live 2823 bestanden. Bericht
+  `berichte/2026-11-10-stadt-premium-drei-plaetze.md`.
