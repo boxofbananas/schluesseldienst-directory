@@ -29,17 +29,17 @@ const shown = items.slice(0, slots);
         </div>
       </article>
     ))}
-    {Array.from({ length: Math.max(0, slots - shown.length) }).map(() => (
+    {shown.length < slots && (
       <a class="biz-card featured open-slot" href="/premium/">
         <span class="top"><span><b class="badge">Premium</b>{place}</span><span class="rt"><Star /> Ihre Bewertung</span></span>
         <span class="body">
           <strong>Dieser Platz ist frei</strong>
-          <span>Ihr Betrieb steht hier im Premium-Band über der nach Bewertung sortierten Liste{place !== site.country.name ? ` für ${place}` : ''}. Die Plätze werden in der Reihenfolge der Buchung vergeben. {price ? `Ab ${price}.` : ''}</span>
+          <span>Bis zu drei Betriebe stehen hier im Premium-Band über der nach Bewertung sortierten Liste{place !== site.country.name ? ` für ${place}` : ''}, in der Reihenfolge der Buchung. {price ? `Ab ${price}.` : ''}</span>
           {price && vatNote && <span class="slot-vat">{vatNote}</span>}
           <span class="more">Premium-Platz buchen</span>
         </span>
       </a>
-    ))}
+    )}
   </div>
   <p class="band-foot"><a href="/premium/">Was ein Premium-Platz kostet</a>{price ? ` · ab ${price}` : ''}{price && vatNote ? ` · ${vatNote}` : ''}</p>
   <!-- /copy:skip -->

@@ -2,7 +2,7 @@
 title: Template und Build driften
 type: framework
 status: current
-updated: 2026-11-05
+updated: 2026-11-10
 ---
 
 # Template und Build driften
@@ -15,6 +15,20 @@ Moment, in dem nach dem Kopieren weiterentwickelt wird.
 **Für dieses Verzeichnis ist der Build die Wahrheit, nicht das Template.** Wer hier etwas ändert,
 ändert es im Build (`output/schluesseldienste-deutschland/site/`). Das Template wird erst wieder
 angefasst, **wenn ein zweites Verzeichnis entsteht** — dann wird nach der Liste unten zurückportiert.
+
+**Ausnahme, bereits zurückportiert (2026-11-10).** Auf Anweisung vorgezogen, nach den Regeln
+dieser Seite (gemischte Dateien hunkweise, branchenspezifisches bleibt im Build):
+
+- `components/FeaturedBand.astro` — nur eine Frei-Karte je Stadt (nicht eine je offenem Platz),
+  Frei-Kartentext auf „bis zu drei … in der Reihenfolge der Buchung". **Template == Build.**
+- `lib/load.mjs` — neues A-Thema `orderFeaturedBand` samt `featuredSince`-Einlesen und dem Aufruf
+  an `city.featured` (hunkweise übernommen; die übrigen Template-Rückstände bleiben offen).
+- `pages/premium.astro` — die aktuelle /premium/-Fassung (Stadt-Premium = einer von bis zu drei
+  Plätzen nach Buchung, Brutto-/USt-Zeile). Rein generisch, ganz übernommen. **Template == Build.**
+
+Die neue CSV-Spalte `featured_seit` liest `load.mjs` tolerant (`r.featured_seit || ''`); ein
+künftiges Verzeichnis braucht sie erst beim ersten Stadt-Premium, und `scripts/verkauf.py` legt
+sie dann selbst an.
 
 Gegenstück dazu ist die Sperre in `scripts/init_site.py`: Existiert `output/<slug>/site/` schon,
 bricht der Kopierschritt ab und nennt, was verloren ginge (nur mit `--force`, und auch dann wird der
@@ -46,6 +60,7 @@ Aufsetzen eines zweiten Verzeichnisses hierher zurückportieren.
 | **Startseite ohne volle Städteliste** (A–Z ausgelagert auf `/verzeichnis/`) | `components/DirectoryHub.astro`, `layouts/Base.astro` (Fußzeile „Alle Städte") |
 | **Suchfeld-Platzhalter** (kürzer) | `components/SearchForm.astro` |
 | **KV-Formularannahme** (Cloudflare KV + Email Routing, kein externer Formulardienst) | `functions/api/` (ganzer Ordner, nur im Build), gespiegelt in den Datenschutztexten (Sorte B) |
+| **Stadt-Premium: bis zu drei Plätze, Buchungsreihenfolge** (✓ zurückportiert 2026-11-10) | `components/FeaturedBand.astro`, `lib/load.mjs` (`orderFeaturedBand`, `featuredSince`), `pages/premium.astro`, CSV-Spalte `featured_seit` (von `scripts/verkauf.py` gepflegt) |
 
 ## Sorte B — Projekteigener Inhalt: darf verschieden bleiben
 

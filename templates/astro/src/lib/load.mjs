@@ -381,6 +381,7 @@ export function loadDirectory() {
       type: r.type, subtypes: r.subtypes, description, hours, verifiedOnGoogle: truthy(r.verified),
       mapLink: r.location_link || '', areaService: truthy(r.area_service), placeId: r.place_id,
       featured, featuredCities: (r.featured_cities || '').split(/[|,]/).map((s) => s.trim()).filter(Boolean),
+      featuredSince: (r.featured_seit || '').trim(),
       premium, claimed, bestOfRank, thin, optimized, photos, attrs, geprueft, geprueftJahr, garantie,
       path: `/firma/${region.slug}/${citySlug}/${slug}/`,
       cityPath: `/verzeichnis/${region.slug}/${citySlug}/`,
@@ -430,7 +431,7 @@ export function loadDirectory() {
     return {
       ...c, listings: sorted, path, copy, underFloor: Boolean(c.underFloor),
       count: sorted.length,
-      featured: sorted.filter((l) => isFeaturedIn(l, c.slug)),
+      featured: orderFeaturedBand(sorted.filter((l) => isFeaturedIn(l, c.slug)), c.slug),
       bestOf: sorted.filter((l) => l.bestOfRank > 0),
       title: `${site.niche.title} in ${c.name}`,
       avgRating: avg(sorted.filter((l) => l.reviews > 0).map((l) => l.rating)),
@@ -557,6 +558,24 @@ export function isFeaturedIn(l, citySlug) {
 export function sortListings(list, citySlug, sortAttr = '') {
   const rank = (l) => (isFeaturedIn(l, citySlug) ? 0 : l.bestOfRank ? 1 : sortAttr && attrValue(l, sortAttr) === 'true' ? 2 : 3);
   return [...list].sort((a, b) => rank(a) - rank(b) || (a.bestOfRank || 99) - (b.bestOfRank || 99) || b.score - a.score || a.name.localeCompare(b.name, 'de'));
+}
+// Reihenfolge der Premium-Plätze im Band einer Stadtseite: nach Buchungsdatum (featured_seit,
+// gepflegt von scripts/verkauf.py aus dem Hauptbuch), der früheste oben. Ein Stadt-Premium ohne
+// Datum wird gemeldet (nicht stillschweigend ans Ende); es landet hinter den datierten, die
+// verbindliche Reihenfolge stellt das Skript beim nächsten Lauf her.
+export function orderFeaturedBand(items, citySlug) {
+  const far = '9999-99-99';
+  for (const l of items) {
+    if (l.featured === 'city' && l.citySlug === citySlug && !l.featuredSince) {
+      console.warn(`[premium-band] Stadt-Premium ohne Buchungsdatum (featured_seit) in ${citySlug}: ${l.slug}. Reihenfolge nicht bestimmbar — scripts/verkauf.py melden lassen.`);
+    }
+  }
+  return [...items].sort((a, b) => {
+    const da = a.featuredSince || far;
+    const db = b.featuredSince || far;
+    if (da !== db) return da < db ? -1 : 1;
+    return b.score - a.score || a.name.localeCompare(b.name, 'de');
+  });
 }
 // Platzhalter in den FAQ-Vorlagen aus attributes.json: {plural}, {singular}, {city}, {bundesland}, {land}.
 export function fillFaq(template, site, cityName, regionName = '') {

@@ -34,7 +34,7 @@ const shown = items.slice(0, slots);
         <span class="top"><span><b class="badge">Premium</b>{place}</span><span class="rt"><Star /> Ihre Bewertung</span></span>
         <span class="body">
           <strong>Dieser Platz ist frei</strong>
-          <span>Ihr Betrieb steht hier oben, über der nach Bewertung sortierten Liste{place !== site.country.name ? ` für ${place}` : ''}. Ein Betrieb je Stufe und Stadt. {price ? `Ab ${price}.` : ''}</span>
+          <span>Bis zu drei Betriebe stehen hier im Premium-Band über der nach Bewertung sortierten Liste{place !== site.country.name ? ` für ${place}` : ''}, in der Reihenfolge der Buchung. {price ? `Ab ${price}.` : ''}</span>
           {price && vatNote && <span class="slot-vat">{vatNote}</span>}
           <span class="more">Premium-Platz buchen</span>
         </span>

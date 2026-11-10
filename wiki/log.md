@@ -702,3 +702,12 @@ Zahlen, was auf Freigabe wartet.
   2026-11-06 datiert. `/premium/` umgeschrieben (bis zu drei, nach Buchung; Textgate bestanden).
   Live geprüft: Mannheim Merz oben + 2 frei, Leipzig 3 frei, check_live 2823 bestanden. Bericht
   `berichte/2026-11-10-stadt-premium-drei-plaetze.md`.
+- **2026-11-10** **Premium-Band: eine Frei-Karte je Stadt, und Rückport ins Template.** (1) Hinter
+  den verkauften Plätzen steht wieder höchstens **eine** „Dieser Platz ist frei"-Karte, nicht eine
+  je offenem Platz (`FeaturedBand.astro`) — sonst würden 787 Stadtseiten zu Anzeigenseiten. Live
+  geprüft: Mannheim Merz + 1 Frei, Leipzig 1 Frei, lokal drei verkauft → 0 Frei; check_live 2823
+  bestanden, ausgeliefert. (2) Rückport nach [[template-build-drift]]: `FeaturedBand.astro`
+  (Textzeile) und `premium.astro` (ganz, generisch) → Template == Build; `load.mjs` hunkweise
+  (`orderFeaturedBand`, `featuredSince`). `featured_seit` liest das Template tolerant.
+  template-build-drift.md fortgeschrieben (Abschnitt + Sorte-A-Zeile, 2026-11-10). Bericht
+  `berichte/2026-11-10-premium-band-eine-freikarte-und-template-rueckport.md`.
