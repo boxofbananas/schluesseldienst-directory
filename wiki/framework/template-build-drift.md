@@ -25,10 +25,23 @@ dieser Seite (gemischte Dateien hunkweise, branchenspezifisches bleibt im Build)
   an `city.featured` (hunkweise übernommen; die übrigen Template-Rückstände bleiben offen).
 - `pages/premium.astro` — die aktuelle /premium/-Fassung (Stadt-Premium = einer von bis zu drei
   Plätzen nach Buchung, Brutto-/USt-Zeile). Rein generisch, ganz übernommen. **Template == Build.**
+- `lib/load.mjs` — die beiden **Fehlerbehebungen** hunkweise: `sanitizeGlyphs` + `GLYPH_OK`
+  (Emoji/Fremdschrift aus Freitext, angewandt auf `name`, `address`, `street`, `description`) und
+  die Öffnungszeiten-Behandlung in `normalizeHours` (DataForSEO-Array → Text, behebt
+  „[object Object]"; ein leerer Tag ergibt „Geschlossen"). Die `fonts.css`-latin-ext-Importe aus
+  demselben Glyph-Thema sind **noch offen**.
 
 Die neue CSV-Spalte `featured_seit` liest `load.mjs` tolerant (`r.featured_seit || ''`); ein
 künftiges Verzeichnis braucht sie erst beim ersten Stadt-Premium, und `scripts/verkauf.py` legt
 sie dann selbst an.
+
+**Bewusst nicht portiert (2026-11-10):** das Startseiten-Band **nur aus `featured=state`**
+(`homeFeatured` in `lib/load.mjs`). Das ist keine Fehlerbehebung, sondern eine **Entscheidung
+dieses Verzeichnisses** ([[footprint-rules]]): national speist nur die oberste Stufe das Band,
+damit kein Stadt-/Umland-Platz die Startseite gratis dazubekommt und kein eigener Betrieb ohne
+veröffentlichten Preis national oben steht. Ein künftiges Verzeichnis trifft diese Wahl neu;
+deshalb bleibt der Template-Stand (alle Stufen speisen das Band) absichtlich erhalten. Ebenfalls
+offen und hier nicht angefasst: die BOM-Regex in `parseCsv` und `/danke/` in den `noindexPaths`.
 
 Gegenstück dazu ist die Sperre in `scripts/init_site.py`: Existiert `output/<slug>/site/` schon,
 bricht der Kopierschritt ab und nennt, was verloren ginge (nur mit `--force`, und auch dann wird der
@@ -52,11 +65,11 @@ Aufsetzen eines zweiten Verzeichnisses hierher zurückportieren.
 |---|---|
 | **Bewertungsstern als SVG** (statt `★`-Textzeichen) | `components/Star.astro` (neu), `components/Rating.astro`, `components/FeaturedBand.astro`, `components/DirectoryHub.astro`, `pages/firma/[bundesland]/[stadt]/[slug]/index.astro`, `pages/verzeichnis/index.astro`, `pages/verzeichnis/[bundesland]/[stadt]/index.astro`, `styles/global.css` (`.star`) |
 | **Häkchen als SVG** (hero-points) | `components/Check.astro` (neu), `pages/index.astro`, `styles/global.css` (hero-points-Icon) |
-| **Glyph-Bereinigung + latin-ext** (Emoji/Fremdschrift raus, europäische Namen rein) | `lib/load.mjs` (`sanitizeGlyphs`, `GLYPH_OK`), `styles/fonts.css` (latin-ext-Importe) |
-| **Öffnungszeiten-Fix** (DataForSEO-Array → Text, behebt „[object Object]") | `lib/load.mjs` (`normalizeHours`, Array-Zweig) |
+| **Glyph-Bereinigung + latin-ext** (Emoji/Fremdschrift raus, europäische Namen rein) | `lib/load.mjs` (`sanitizeGlyphs`, `GLYPH_OK`) **✓ zurückportiert 2026-11-10**; `styles/fonts.css` (latin-ext-Importe) **noch offen** |
+| **Öffnungszeiten-Fix** (DataForSEO-Array → Text, behebt „[object Object]") | `lib/load.mjs` (`normalizeHours`, Array-Zweig) **✓ zurückportiert 2026-11-10** |
 | **Merkmalsanzeige: nur bestätigt** (kein „nein", keine „keine-Angabe"-Zeile) | `components/AttributeGrid.astro`, `pages/firma/[bundesland]/[stadt]/[slug]/index.astro` (Abschnitt nur bei vorhandenen Merkmalen) |
 | **Sprungliste** auf Stadtseiten | `pages/verzeichnis/[bundesland]/[stadt]/index.astro`, `styles/global.css` (`.jump-list`), `components/Card.astro` (`id`-Prop für Anker) |
-| **Startseiten-Band nur aus `featured=state`** | `lib/load.mjs` (`homeFeatured`), `components/DirectoryHub.astro` (Preis-Prop) |
+| **Startseiten-Band nur aus `featured=state`** | `lib/load.mjs` (`homeFeatured`), `components/DirectoryHub.astro` (Preis-Prop) — **bewusst NICHT portiert (2026-11-10):** Entscheidung dieses Verzeichnisses, keine Korrektur (siehe oben, [[footprint-rules]]) |
 | **Startseite ohne volle Städteliste** (A–Z ausgelagert auf `/verzeichnis/`) | `components/DirectoryHub.astro`, `layouts/Base.astro` (Fußzeile „Alle Städte") |
 | **Suchfeld-Platzhalter** (kürzer) | `components/SearchForm.astro` |
 | **KV-Formularannahme** (Cloudflare KV + Email Routing, kein externer Formulardienst) | `functions/api/` (ganzer Ordner, nur im Build), gespiegelt in den Datenschutztexten (Sorte B) |

@@ -711,3 +711,13 @@ Zahlen, was auf Freigabe wartet.
   (`orderFeaturedBand`, `featuredSince`). `featured_seit` liest das Template tolerant.
   template-build-drift.md fortgeschrieben (Abschnitt + Sorte-A-Zeile, 2026-11-10). Bericht
   `berichte/2026-11-10-premium-band-eine-freikarte-und-template-rueckport.md`.
+- **2026-11-10** **Rückport ins Template: sanitizeGlyphs und normalizeHours.** Die zwei
+  Fehlerbehebungen hunkweise nach `templates/astro/src/lib/load.mjs` ([[template-build-drift]]):
+  `sanitizeGlyphs`+`GLYPH_OK` (auf name/address/street/description) und die
+  Öffnungszeiten-Behandlung in `normalizeHours` (DataForSEO-Array → Text, leerer Tag →
+  „Geschlossen"). `featured=state`-Band **bewusst draußen** — Entscheidung dieses Verzeichnisses,
+  keine Korrektur; ebenso unangetastet BOM-Regex und `/danke/`-noindex, offen bleibt
+  fonts.css-latin-ext. Verbleibender Diff = nur die drei ausgelassenen Hunks; node --check grün;
+  normalizeHours funktional getestet. template-build-drift.md fortgeschrieben (zwei als ✓
+  zurückportiert, featured=state als bewusst nicht portiert mit Grund). Build unverändert, kein
+  Deploy. Bericht `berichte/2026-11-10-template-rueckport-glyph-oeffnungszeiten.md`.

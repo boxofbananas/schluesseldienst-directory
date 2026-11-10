@@ -120,6 +120,29 @@ export const slugify = (s) => String(s || '')
   .replace(/[óòôõ]/g, 'o').replace(/[úùû]/g, 'u').replace(/ç/g, 'c').replace(/ñ/g, 'n')
   .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'x';
 
+// Zeichen, die der selbst gehostete Schrift-Auszug (latin + latin-ext) nicht abdeckt, aus Freitext
+// entfernen: Emoji, Dingbats und fremde Schriften aus Google-Maps-Beschreibungen erscheinen sonst
+// im Browser als leeres Kästchen. Die Bereiche sind gleichlautend zu scripts/check-glyphs.mjs; der
+// Build-Check scheitert, falls doch eines durchrutscht. Danach doppelte Leerzeichen zusammenziehen.
+const GLYPH_OK = [
+  [0x0000, 0x00ff], [0x0131, 0x0131], [0x0152, 0x0153], [0x02bb, 0x02bc], [0x02c6, 0x02c6],
+  [0x02da, 0x02da], [0x02dc, 0x02dc], [0x0304, 0x0304], [0x0308, 0x0308], [0x0329, 0x0329],
+  [0x2000, 0x206f], [0x20ac, 0x20ac], [0x2122, 0x2122], [0x2191, 0x2191], [0x2193, 0x2193],
+  [0x2212, 0x2212], [0x2215, 0x2215], [0xfeff, 0xfeff], [0xfffd, 0xfffd],
+  [0x0100, 0x02ba], [0x02bd, 0x02c5], [0x02c7, 0x02cc], [0x02ce, 0x02d7], [0x02dd, 0x02ff],
+  [0x1d00, 0x1dbf], [0x1e00, 0x1e9f], [0x1ef2, 0x1eff], [0x2020, 0x2020], [0x20a0, 0x20c0],
+  [0x2113, 0x2113], [0x2c60, 0x2c7f], [0xa720, 0xa7ff],
+];
+function sanitizeGlyphs(s) {
+  if (!s) return s;
+  let out = '';
+  for (const ch of s) {
+    const cp = ch.codePointAt(0);
+    if (GLYPH_OK.some(([lo, hi]) => cp >= lo && cp <= hi)) out += ch;
+  }
+  return out.replace(/[^\S\n]{2,}/g, ' ').replace(/[^\S\n]+([.,;:!?])/g, '$1').replace(/[^\S\n]+\n/g, '\n').trim();
+}
+
 const truthy = (v) => /^(true|wahr|ja|yes|1|y|j)$/i.test(String(v || '').trim());
 const num = (v) => { const n = parseFloat(String(v || '').replace(',', '.')); return Number.isFinite(n) ? n : 0; };
 const int = (v) => Math.round(num(v));
@@ -209,8 +232,23 @@ const RX_ALLDAY = /(durchgehend|rund um die uhr|24\s*stunden|24\s*std|open\s*24|
 
 // "08:00–17:00" bleibt, "8AM-5PM" wird umgeschrieben, "Closed" wird "Geschlossen".
 export function normalizeHours(v) {
+  // DataForSEO liefert je Tag ein Array von Intervallen:
+  // [{ open: { hour, minute }, close: { hour, minute } }, ...]. Ein leeres Array heißt geschlossen,
+  // ein einzelnes 00:00–24:00 durchgehend geöffnet. Ohne diese Behandlung würde String(Array) zu
+  // "[object Object]" (der Fehler, der auf jeder Eintragsseite sichtbar war).
+  if (Array.isArray(v)) {
+    const fmt = (t) => (t && typeof t.hour === 'number')
+      ? `${String(t.hour).padStart(2, '0')}:${String(t.minute || 0).padStart(2, '0')}` : null;
+    const parts = v.map((iv) => { const o = fmt(iv && iv.open), c = fmt(iv && iv.close); return (o && c) ? `${o}–${c}` : null; }).filter(Boolean);
+    if (!parts.length) return 'Geschlossen';
+    if (parts.length === 1 && /^00:00–(24:00|00:00)$/.test(parts[0])) return 'Durchgehend geöffnet';
+    return parts.join(', ');
+  }
+  // normalizeHours wird nur je vorhandenem Tagesschlüssel aufgerufen (parseHours). Ein Tag, der im
+  // working_hours-Objekt steht, aber null oder leer ist, bedeutet geschlossen (DataForSEO schreibt
+  // einen Ruhetag als "sunday": null). Sonst bliebe die Zeile leer statt "Geschlossen".
   const s = String(v ?? '').trim();
-  if (!s) return '';
+  if (!s) return 'Geschlossen';
   if (RX_CLOSED.test(s)) return 'Geschlossen';
   if (RX_ALLDAY.test(s)) return 'Durchgehend geöffnet';
   const spec = hoursToSpec(s);
@@ -346,7 +384,7 @@ export function loadDirectory() {
     const bestOfRank = int(r.best_of_rank) || 0;
     const reviews = int(r.reviews);
     const rating = num(r.rating);
-    const description = r.description_enriched || r.description || '';
+    const description = sanitizeGlyphs(r.description_enriched || r.description || '');
     const thin = r.thin ? truthy(r.thin) : reviews < 5 || !description;
     const optimized = Boolean(featured) || (claimed && premium);
     const photos = optimized && r.photos ? r.photos.split(/[|,]/).map((s) => s.trim()).filter(Boolean) : [];
@@ -373,9 +411,9 @@ export function loadDirectory() {
     const geprueftJahr = (r.geprueft_jahr || '').trim();
     const garantie = geprueft ? { jahr: geprueftJahr, tag: garantieTag, zuschlagAbend: garantieZuschlagAbend, zuschlagNacht: garantieZuschlagNacht, anfahrt: garantieAnfahrt, zylinder: garantieZylinder, zylinder5mm: garantieZylinder5mm } : null;
     return {
-      name: r.name, slug, city, citySlug, regionName: region.name, regionSlug: region.slug,
+      name: sanitizeGlyphs(r.name), slug, city, citySlug, regionName: region.name, regionSlug: region.slug,
       regionCode: region.code, stateCode: region.code, postalCode: r.postal_code,
-      county: r.county, address: r.address, street: r.street, phone: r.phone, website: r.website,
+      county: r.county, address: sanitizeGlyphs(r.address), street: sanitizeGlyphs(r.street), phone: r.phone, website: r.website,
       lat: num(r.latitude), lng: num(r.longitude), population: int(r.population), geoPrecision: (r.geo_precision || '').trim(), rating, reviews, reviewsTags: r.reviews_tags,
       socials: (r.socials || '').split('|').map((s) => s.trim()).filter(Boolean).map((s) => { const i = s.indexOf('='); return i > 0 ? { network: s.slice(0, i), url: s.slice(i + 1) } : null; }).filter(Boolean),
       type: r.type, subtypes: r.subtypes, description, hours, verifiedOnGoogle: truthy(r.verified),
