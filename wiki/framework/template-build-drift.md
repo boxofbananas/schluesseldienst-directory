@@ -28,8 +28,10 @@ dieser Seite (gemischte Dateien hunkweise, branchenspezifisches bleibt im Build)
 - `lib/load.mjs` — die beiden **Fehlerbehebungen** hunkweise: `sanitizeGlyphs` + `GLYPH_OK`
   (Emoji/Fremdschrift aus Freitext, angewandt auf `name`, `address`, `street`, `description`) und
   die Öffnungszeiten-Behandlung in `normalizeHours` (DataForSEO-Array → Text, behebt
-  „[object Object]"; ein leerer Tag ergibt „Geschlossen"). Die `fonts.css`-latin-ext-Importe aus
-  demselben Glyph-Thema sind **noch offen**.
+  „[object Object]"; ein leerer Tag ergibt „Geschlossen").
+- `styles/fonts.css` — die latin-ext-Importe aus demselben Glyph-Thema (europäische Namen wie ẞ,
+  Š/š, İ, ş, ů, die der reine Latin-Auszug nicht abdeckt). Damit ist das Glyph-Thema **vollständig**
+  zurückportiert. **Template == Build.**
 
 Die neue CSV-Spalte `featured_seit` liest `load.mjs` tolerant (`r.featured_seit || ''`); ein
 künftiges Verzeichnis braucht sie erst beim ersten Stadt-Premium, und `scripts/verkauf.py` legt
@@ -65,7 +67,7 @@ Aufsetzen eines zweiten Verzeichnisses hierher zurückportieren.
 |---|---|
 | **Bewertungsstern als SVG** (statt `★`-Textzeichen) | `components/Star.astro` (neu), `components/Rating.astro`, `components/FeaturedBand.astro`, `components/DirectoryHub.astro`, `pages/firma/[bundesland]/[stadt]/[slug]/index.astro`, `pages/verzeichnis/index.astro`, `pages/verzeichnis/[bundesland]/[stadt]/index.astro`, `styles/global.css` (`.star`) |
 | **Häkchen als SVG** (hero-points) | `components/Check.astro` (neu), `pages/index.astro`, `styles/global.css` (hero-points-Icon) |
-| **Glyph-Bereinigung + latin-ext** (Emoji/Fremdschrift raus, europäische Namen rein) | `lib/load.mjs` (`sanitizeGlyphs`, `GLYPH_OK`) **✓ zurückportiert 2026-11-10**; `styles/fonts.css` (latin-ext-Importe) **noch offen** |
+| **Glyph-Bereinigung + latin-ext** (Emoji/Fremdschrift raus, europäische Namen rein) **✓ vollständig zurückportiert 2026-11-10** | `lib/load.mjs` (`sanitizeGlyphs`, `GLYPH_OK`) und `styles/fonts.css` (latin-ext-Importe) — **Template == Build** |
 | **Öffnungszeiten-Fix** (DataForSEO-Array → Text, behebt „[object Object]") | `lib/load.mjs` (`normalizeHours`, Array-Zweig) **✓ zurückportiert 2026-11-10** |
 | **Merkmalsanzeige: nur bestätigt** (kein „nein", keine „keine-Angabe"-Zeile) | `components/AttributeGrid.astro`, `pages/firma/[bundesland]/[stadt]/[slug]/index.astro` (Abschnitt nur bei vorhandenen Merkmalen) |
 | **Sprungliste** auf Stadtseiten | `pages/verzeichnis/[bundesland]/[stadt]/index.astro`, `styles/global.css` (`.jump-list`), `components/Card.astro` (`id`-Prop für Anker) |

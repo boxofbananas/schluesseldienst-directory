@@ -8,3 +8,10 @@
 @import "@fontsource/roboto/latin-500.css";
 @import "@fontsource/roboto/latin-700.css";
 @import "@fontsource/roboto-slab/latin-800.css";
+/* latin-ext deckt europäische Namen ab, die im reinen Latin-Auszug fehlen (ẞ, Š/š, İ, ş, ů …) und
+   sonst als leeres Kästchen erscheinen. Emoji und fremde Schriften gehören nicht hierher; die werden
+   in load.mjs (sanitizeGlyphs) aus dem Freitext entfernt. */
+@import "@fontsource/roboto/latin-ext-400.css";
+@import "@fontsource/roboto/latin-ext-500.css";
+@import "@fontsource/roboto/latin-ext-700.css";
+@import "@fontsource/roboto-slab/latin-ext-800.css";

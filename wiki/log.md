@@ -721,3 +721,8 @@ Zahlen, was auf Freigabe wartet.
   normalizeHours funktional getestet. template-build-drift.md fortgeschrieben (zwei als ✓
   zurückportiert, featured=state als bewusst nicht portiert mit Grund). Build unverändert, kein
   Deploy. Bericht `berichte/2026-11-10-template-rueckport-glyph-oeffnungszeiten.md`.
+- **2026-11-10** **fonts.css im Template auf Build-Stand (latin-ext).** Die vier
+  latin-ext-Importe (@fontsource/roboto + roboto-slab) nach `templates/astro/src/styles/fonts.css`
+  zurückportiert; `fonts.css` ist Template == Build. Damit ist das Glyph-Thema vollständig
+  zurückportiert. template-build-drift.md: Sorte-A-Zeile „Glyph-Bereinigung + latin-ext" als ✓
+  vollständig markiert, Prosa ergänzt.
