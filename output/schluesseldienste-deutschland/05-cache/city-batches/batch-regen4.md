@@ -112,33 +112,33 @@ Einträge, in der Reihenfolge der Seite:
 ### baden-wuerttemberg/mannheim
 city: Mannheim
 bundesland: Baden-Württemberg
-listings on this page: 20
+listings on this page: 17
 intro band: 500 to 800 words
 Kreise der Einträge (aus den Postleitzahlen): keine zugeordnet
-Google-Bewertungen aller Einträge zusammen: 1757; Durchschnitt: 4.8
-wozu das örtliche Gewerbe neigt (Einträge, die es auf ihrer eigenen Website angeben): Schlüsseldienst 10, 24-Stunden-Notdienst 8, Türöffnung 9, Schloss austauschen 8, Schließanlagen 4, Einbruchschutz 6, Autoschlüssel 6, Tresoröffnung 3, Schlüssel nachmachen 7, Elektronische Schließsysteme 2, Ladengeschäft 7, Festpreis genannt 6, Anfahrtspauschale genannt 3, Gewerbe und Objektbetreuung 2
+Google-Bewertungen aller Einträge zusammen: 1593; Durchschnitt: 4.8
+wozu das örtliche Gewerbe neigt (Einträge, die es auf ihrer eigenen Website angeben): Schlüsseldienst 12, 24-Stunden-Notdienst 6, Türöffnung 7, Schloss austauschen 6, Schließanlagen 5, Einbruchschutz 5, Autoschlüssel 4, Tresoröffnung 2, Schlüssel nachmachen 7, Elektronische Schließsysteme 3, Ladengeschäft 7, Festpreis genannt 6, Anfahrtspauschale genannt 3, Gewerbe und Objektbetreuung 2
 Nachbarstädte mit eigener Seite: Ludwigshafen am Rhein 6, Viernheim 5, Mutterstadt 4, Frankenthal (Pfalz) 6, Weinheim 5
 Einträge, in der Reihenfolge der Seite:
   1. Merz Sicherheit • Einbruchschutz, Schließanlagen & Schlüsseldienst | 5.0 aus 355 Bewertungen
      ja: Schlüsseldienst, 24-Stunden-Notdienst, Türöffnung, Schloss austauschen, Schließanlagen, Einbruchschutz, Autoschlüssel, Tresoröffnung, Schlüssel nachmachen, Elektronische Schließsysteme, Ladengeschäft, Festpreis genannt, Anfahrtspauschale genannt, Gewerbe und Objektbetreuung
      Notiz: Aus einem Ladengeschäft in Mannheim-Neckarau versorgt Merz Sicherheit die Rhein-Neckar-Region, darunter Brühl, Viernheim, Ilvesheim, Ladenburg und Ketsch. Der Schlüsselnotdienst kommt nach eigener Angabe meist in 20 bis 40 Minuten und öffnet zugefallene Türen, Garagen, Briefkästen und
        einfache Möbeltresore, dazu Autos. Der Gesamtpreis wird vor der Ausführung genannt, die Anfahrt ist nach Ort gestaffelt.
-  2. Key Walter Mannheim | 4.9 aus 274 Bewertungen
-     ja: Ladengeschäft
+  2. AES Schlüsseldienst Mannheim | 0.0 aus 0 Bewertungen
+     ja: Schlüsseldienst, 24-Stunden-Notdienst, Türöffnung, Schloss austauschen, Schließanlagen, Einbruchschutz, Elektronische Schließsysteme, Festpreis genannt
+     Notiz: AES Schlüsseldienst ist in Mannheim tätig und öffnet Türen in Stadtteilen wie Neckarstadt, Innenstadt und Neckarau. Nach eigener Angabe ist der Betrieb Mitglied der Industrie- und Handelskammer Rhein-Neckar. Zum Angebot gehören das Öffnen zugefallener und abgeschlossener Türen, der
+       Austausch von Schließzylindern und Schlössern, Schließanlagen sowie Einbruchschutz mit passender Sicherheitstechnik.
+  3. Key Walter Mannheim | 4.9 aus 274 Bewertungen
+     ja: Schlüsseldienst, Ladengeschäft
      Notiz: Schlüssel Walter ist ein Schlüsseldienst in Mannheim, der Notdienst, Sicherheitsanlagen und Überwachungskameras unter einem Dach führt. Zum Umfeld des Betriebs zählen Videoüberwachung und Brandmeldetechnik neben den klassischen Schlüsselarbeiten. Kunden werden im Hauptgeschäft zu festen
        Öffnungszeiten bedient, das mit eigenem Parkplatz erreichbar ist.
-  3. Schlüsseldienst-ATILLA | 4.9 aus 266 Bewertungen
+  4. Schlüsseldienst-ATILLA | 4.9 aus 266 Bewertungen
      ja: Schlüsseldienst, 24-Stunden-Notdienst, Türöffnung, Schloss austauschen, Autoschlüssel, Schlüssel nachmachen, Ladengeschäft, Festpreis genannt
      Notiz: Schlüsseldienst-ATILLA verbindet in Mannheim einen Schlüsselnotdienst mit einem Ladengeschäft, in dem auch Stempel, Schilder und Gravuren entstehen. Der Notdienst ist rund um die Uhr erreichbar und öffnet Türen bei Schlüsselverlust zum Festpreis in Mannheim und Umgebung. Beim
        Autoschlüssel bietet der Betrieb Ersatz, Nachfertigung und Reparatur an; über einen Konfigurator lassen sich Marke, Modell und Baujahr wählen,
-  4. Autoschlüssel Nachmachen in Mannheim | 5.0 aus 229 Bewertungen
+  5. Autoschlüssel Nachmachen in Mannheim | 5.0 aus 229 Bewertungen
      ja: Schlüsseldienst, 24-Stunden-Notdienst, Türöffnung, Autoschlüssel, Tresoröffnung, Schlüssel nachmachen, Ladengeschäft, Festpreis genannt
      Notiz: Fahrzeugschlüssel stehen bei diesem Mannheimer Betrieb im Mittelpunkt. In einem Fachgeschäft fertigt er Zweitschlüssel für Marken wie BMW, Mercedes, Opel, Ford und VW an und repariert defekte Autoschlüssel; als Ausrüstung nennt er Geräte von Huf und Silca. Zum Angebot zählen außerdem die
        Türnotöffnung und die Tresornotöffnung.
-  5. Schlüsseldienst Josef | 5.0 aus 143 Bewertungen
-     ja: Schlüsseldienst, 24-Stunden-Notdienst, Türöffnung, Schloss austauschen, Einbruchschutz, Autoschlüssel, Schlüssel nachmachen
-     Notiz: Schlüsseldienst Josef sitzt in Mannheim und beschreibt sich als Betrieb in den Mannheimer Quadraten. Die Leistungen umfassen Türöffnung, den Austausch von Schloss oder Schließzylinder, die Prüfung und Verbesserung von Schutzbeschlag, Schließblech sowie Tür- und Fenstersicherungen, die
-       Öffnung von Fenster- und Terrassentüren und Nachschlüssel oder Ersatzschlüssel nach Vorlage. Fahrzeuge öffnet der Betrieb nach Prüfung
   6. Schuh u. Schlüsseldienst Neseli | 4.9 aus 93 Bewertungen
      ja: nichts angegeben
      Notiz: Schuh u. Schlüsseldienst Neseli in Mannheim ist ein Schuhmacher, der zugleich als Schlüsseldienst auftritt. Neben Schuhreparatur und dem klassischen Schusterhandwerk gehören Schlüsselarbeiten zum Alltag des Betriebs.
@@ -166,31 +166,21 @@ Einträge, in der Reihenfolge der Seite:
      Notiz: Ilhami Cücü führt in der Mannheimer Neckarstadt seit 1992 einen Schlüsseldienst, den er als Betrieb aus der Nachbarschaft versteht. Er öffnet Türen, hilft bei Schlüsselnotfällen und richtet Schließanlagen ein, und für Türöffnungen ist er nach eigener Angabe rund um die Uhr erreichbar. Im
        Geschäft fertigt er Schlüssel an, vom Standardschlüssel über den Briefkastenschlüssel bis zum Schlüssel mit Sonderprofil.
   13. Schlüsseldienst Arnold | 4.5 aus 24 Bewertungen
-     ja: nichts angegeben
-  14. Türengel Schlüsseldienst Mannheim | 4.9 aus 13 Bewertungen
-     ja: Schlüsseldienst, 24-Stunden-Notdienst, Türöffnung, Schloss austauschen, Einbruchschutz, Autoschlüssel, Tresoröffnung, Festpreis genannt
-     Notiz: Türengel Schlüsseldienst Mannheim ist nach eigener Angabe an sieben Tagen in der Woche rund um die Uhr besetzt, auch nachts, an Wochenenden und an Feiertagen. Die Monteure sind meist innerhalb von 20 bis 45 Minuten vor Ort, mehrere Servicefahrzeuge decken das Stadtgebiet mit Stadtteilen
-       wie Lindenhof und Sandhofen ab. Das Angebot umfasst die Türöffnung, die Autoöffnung, die Tresoröffnung sowie Einbruchschutz und Sich
-  15. Schuh & Schlüsseldienst | 5.0 aus 11 Bewertungen
-     ja: Schlüsseldienst, 24-Stunden-Notdienst, Türöffnung, Schloss austauschen, Ladengeschäft
+     ja: Schlüsseldienst
+  14. Schuh & Schlüsseldienst | 5.0 aus 11 Bewertungen
+     ja: Schlüsseldienst, 24-Stunden-Notdienst, Türöffnung, Schloss austauschen, Schlüssel nachmachen, Ladengeschäft
      Notiz: Ein Ladenlokal in zentraler Lage in Mannheim verbindet hier die Schuhreparatur mit einem Schlüsselnotdienst. Der Notdienst ist rund um die Uhr erreichbar und übernimmt Türöffnungen, möglichst ohne Beschädigung, den Schlosswechsel und die Reparatur von Schlössern. Der Betrieb arbeitet im
        gesamten Stadtgebiet mit seinen Stadtteilen und in Nachbarstädten wie Ludwigshafen, Viernheim, Schwetzingen, Hockenheim, Speyer, Fra
-  16. Eisen- und Haushaltswaren Rath | 4.7 aus 12 Bewertungen
-     ja: nichts angegeben
-  17. Schlüsseldienst Vetter Schließ und Sicherheitstechnik | 5.0 aus 8 Bewertungen
-     ja: Schlüsseldienst, 24-Stunden-Notdienst, Türöffnung, Schloss austauschen, Einbruchschutz
-     Notiz: Schlüsseldienst Vetter Schließ und Sicherheitstechnik arbeitet von Mannheim aus und versorgt auch Ludwigshafen, Neckarau, Limburgerhof und Mutterstadt. Der Betrieb ist rund um die Uhr erreichbar und öffnet Türen in den meisten Fällen beschädigungsfrei, mit speziell geschulten
-       Außendienstmitarbeitern, modernem Werkzeug und viel Fingerspitzengefühl. Wechsel und Reparaturen von Schlössern, Schließzylindern und Türbeschl
-  18. Großmann und Hahl GbR | 4.4 aus 7 Bewertungen
-     ja: nichts angegeben
+  15. Eisen- und Haushaltswaren Rath | 4.7 aus 12 Bewertungen
+     ja: Schlüsseldienst
+  16. Großmann und Hahl GbR | 4.4 aus 7 Bewertungen
+     ja: Schlüsseldienst, Einbruchschutz
      Notiz: Großmann und Hahl GbR in Mannheim tritt als Anbieter für Sicherheitstechnik auf und lädt zur Beratung ein; Entwicklung und Betreuung gehören zum Auftritt. Das Umfeld des Betriebs reicht von Alarmanlagen über Türen, Briefkästen, Tresore und Sicherheitssysteme bis zu Elektrotechnik,
        Maschinenwerkstatt und Metallbedarf. Auch Schlosserarbeiten zählen zu den Bereichen, in denen die Gesellschaft tätig ist, und der Betrieb
-  19. HiFa GmbH | 4.7 aus 6 Bewertungen
+  17. HiFa GmbH | 4.7 aus 6 Bewertungen
      ja: nichts angegeben
      Notiz: Die HiFa GmbH wurde im März 2002 gegründet und ist in Mannheim im Schlosserhandwerk und im Schweißen verankert. Beide Geschäftsführer bringen nach eigener Angabe mehr als 25 Jahre Berufserfahrung im Schlosserhandwerk mit. Zuvor waren sie in der Instandhaltung von Maschinen und Apparaten
        bei einem namhaften Energieunternehmen tätig.
-  20. AES Schlüsseldienst Mannheim | 0.0 aus 0 Bewertungen
-     ja: nichts angegeben
 
 ### bayern/fuerth
 city: Fürth

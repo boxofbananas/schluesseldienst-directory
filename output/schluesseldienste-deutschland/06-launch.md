@@ -158,7 +158,8 @@ jede Beanspruchung hebt eine Seite sofort in den indexierten Bestand (neu bauen,
 - [x] `datePublished` auf den Staffel-Starttag **2026-11-06** gesetzt (`site.json` `launchDate`),
       im gebauten und im Live-Schema bestätigt.
 - [x] **Staffel ausgelöst** am **2026-11-06**: Build und Auslieferung mit dem Starttag als
-      `datePublished` live, `check_live.py` mit 2823 Adressen grün.
+      `datePublished` live, `check_live.py` grün. Sitemap am Start 2823 Adressen; seit der
+      Entfernung zweier Einträge am **2026-11-12** **2821** (laufender Sollwert für `check_live.py`).
 
 ---
 

@@ -805,3 +805,15 @@ Zahlen, was auf Freigabe wartet.
   gemeldet, nicht geändert (nur „nicht kaufbar", kein Widerspruch); antrag:190, ueber-uns:47, site.json-FAQ
   geprüft und korrekt. Build und Template; Textgate beider Seiten mit Flag BESTANDEN; check_live.py 2823
   grün. Bericht berichte/2026-11-12-widerspruch-platzierung.md.
+- **2026-11-12** **Zwei Mannheimer Einträge entfernt (Betreiberentscheidung, main, live, 9f0ec5a5).**
+  Ausschluss nach [[conduct-exclusions]] mit dem Code verhalten_betreiber in 04-exclusions.csv (beide
+  Slugs trafen genau eine Zeile), danach die zwei Zeilen CSV-sicher aus listings.csv entfernt (Garantie-
+  und Verkaufsdaten intakt). Fundstellen: nur der Mannheim-Stadttext in city-copy.json nannte die beiden
+  (Intro + zwei FAQ); alles andere (Eintragsseiten, Kartenliste, Suchindex, Sitemap, Kennzahlen) erzeugt
+  sich aus listings.csv neu. Ein gleichnamiger, eigener Betrieb in Essen (tuerengel-schluesseldienst-24-7-
+  essen) bleibt samt Essen-Stadttext unberührt. Mannheim-Stadttext auf dem vorgesehenen Weg neu (frisches
+  17er-Paket, check_city_copy --only bestanden, --write, Textgate Mannheim BESTANDEN); nur Mannheim
+  geändert, 786 Städte identisch. Neu gebaut: Mannheim 17 Einträge (2 geprüft, 4,8 aus 1.593), Spitze
+  Merz/AES/Key Walter, beide Eintragsseiten weg, kein interner Link mehr, Sitemap 2823 -> 2821.
+  Ausgeliefert, check_live.py 2821 grün, beide Adressen 404, Suche findet die beiden nicht mehr.
+  06-launch.md auf 2821 nachgezogen. Bericht berichte/2026-11-12-mannheim-zwei-ausschluesse.md.
