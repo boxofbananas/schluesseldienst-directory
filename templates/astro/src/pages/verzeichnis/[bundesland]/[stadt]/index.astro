@@ -53,7 +53,9 @@ const schema = [
 
   <section>
     <h2>Die besten {site.niche.plural} in {city.name}</h2>
-    <div class="grid">{cards.filter((l) => !city.featured.includes(l)).map((l) => <Card l={l} citySlug={city.slug} />)}</div>
+    {/* A2 (04-plan.md): Band-Einträge stehen zusätzlich in der Liste, durch die Sortierung an
+        erster Stelle; das Band bleibt als Hervorhebung. Nicht mehr aus der Liste herausgefiltert. */}
+    <div class="grid">{cards.map((l) => <Card l={l} citySlug={city.slug} />)}</div>
     {rest.length > 0 && (
       <>
         <h3 class="more-head">{rest.length} weitere {site.niche.plural} in {city.name}</h3>
