@@ -736,3 +736,12 @@ Zahlen, was auf Freigabe wartet.
   robots/H1/JSON-LD über alle 4647 Seiten, Linkziele erhalten, Sitemap 2823; kein Überlauf 320–1440;
   Textgate bestanden. Kein Deploy, kein Merge nach main, kein Rückport. Bericht
   `berichte/2026-11-12-design-pilot1.md`, Rückgabe `design-pilot1/rueckgabe-henry.md`.
+- **2026-11-12** **Teil A (main, live):** Stadtseiten-Liste richtig sortiert und vollständig.
+  `sortListings` setzt jetzt die volle Konventions-Reihenfolge um (bezahlt → Festpreis-Garantie
+  `geprueft` → [Ortsbezug, nicht umgesetzt: keine Vorwahl↔PLZ-Referenz] → Rest); Git-Verlauf zeigt,
+  die Gruppen 2/3 waren nie im Code. Band-Einträge stehen zusätzlich in der Liste und Sprungliste
+  (A2), Sprunganker nur auf der Listenkarte (keine doppelten id), `maxCardsPerCity` zählt sie mit.
+  Bundesland-Seiten (nur Städte-Liste) und Startseite (nationales Band leer) unverändert. Mannheim
+  live: Merz, AES, Key Walter. Gebaut, mit wrangler ausgeliefert, `check_live.py` 2823 grün.
+  Rückport ins Template, 04-plan (Entscheidung A2). Bericht
+  `berichte/2026-11-12-stadtseiten-sortierung-und-band.md`.

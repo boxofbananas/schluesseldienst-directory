@@ -89,6 +89,31 @@ Je Stadt höchstens ein eigener Betrieb auf einem bezahlten Platz ([[footprint-r
 öffentlichen Preis **erst nach dem Start** und erst nach bestandener Festpreis-Garantie, wie
 jeder andere ([[konventionen]]). Keine Garantie ist zum Start gesetzt (`geprueft` überall leer).
 
+### Entscheidung A2 (2026-11-12): Band-Einträge stehen zusätzlich in der Liste
+
+Ein Betrieb mit Premium-Platz wurde bis dahin aus der nach Bewertung sortierten Liste
+„Die besten …" **herausgenommen** und stand nur im Premium-Band. Dadurch fehlte z. B. Merz
+Sicherheit (5,0 aus 355) in der Mannheimer Liste, obwohl er auch ohne bezahlten Platz vorn
+stünde. **Künftig:** Das Band bleibt unverändert als Hervorhebung, und die Einträge daraus
+stehen **zusätzlich** in der Liste — durch die Sortierung ([[konventionen]], „Sortierung der
+Einträge") an erster Stelle. Dasselbe für die Sprungliste „Betriebe in …". Der Sprunganker
+(`b-<slug>`) sitzt nur auf der Listenkarte; das Band setzt keine `id`, also keine doppelten
+`id`-Attribute. `maxCardsPerCity` zählt die Band-Einträge mit.
+
+- **Bundesland-Seiten:** unverändert — sie zeigen eine **Städte**-Liste, keine Betriebsliste;
+  das Band ist dort die einzige Betriebsanzeige, es gibt nichts, aus dem Einträge genommen
+  würden.
+- **Startseite:** unverändert — das nationale Band (`featured=state`) ist leer (kein
+  nationaler Platz verkauft), es gibt keine Band-Einträge, die in die „Bestbewertete"-Liste
+  gehörten. Die Liste schließt bezahlte Einträge bewusst aus (Trennung von Redaktion und
+  bezahlter Platzierung); das bleibt so, bis ein nationaler Platz verkauft wird und neu
+  entschieden wird.
+
+Dazu: `sortListings` setzt jetzt die vollständige Reihenfolge der Konvention um (bezahlt →
+Festpreis-Garantie → [Ortsbezug, noch nicht umgesetzt] → Rest). **Gruppe 3** (Festnetznummer
+mit zur PLZ passender Ortsvorwahl) ist **ausgelassen**: Es fehlt eine Vorwahl↔PLZ-Referenz, die
+die aus der Nummer lesbare Ortsvorwahl einer PLZ-Region zuordnet. Nicht geraten.
+
 ## Gestaltungsmarken
 
 Optik des Templates unverändert (Gate 1). Keine Optikvorlage, keine abweichenden Marken

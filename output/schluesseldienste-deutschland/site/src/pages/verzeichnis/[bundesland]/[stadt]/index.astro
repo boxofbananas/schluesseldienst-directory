@@ -28,7 +28,10 @@ const rest = city.listings.slice(cards.length);
 const intro = city.copy?.intro || [
   `In ${city.name} (${city.regionName}) sind ${city.count} ${site.niche.plural} eingetragen, zusammen mit ${fmtInt(city.totalReviews)} Google-Bewertungen${city.avgRating ? ` und einem Durchschnitt von ${fmtRating(city.avgRating)}` : ''}. Die Liste darunter führt zuerst die Premium-Plätze, dann die bezahlten Top-Platzierungen und danach alle übrigen nach Bewertung und Anzahl der Bewertungen.`,
 ];
-const gridCards = cards.filter((l) => !city.featured.includes(l));
+// A2 (04-plan.md): Band-Einträge stehen zusätzlich in der Liste (nicht mehr herausgefiltert),
+// durch die Sortierung an erster Stelle. Das Band bleibt als Hervorhebung. Der Sprunganker
+// `b-<slug>` sitzt nur auf der Listenkarte (FeaturedBand setzt keine id) — keine doppelten ids.
+const gridCards = cards;
 const showJump = gridCards.length >= 8;
 const faqs = city.copy?.faqs || attributeFaqs(city, site, attributes);
 const schema = [

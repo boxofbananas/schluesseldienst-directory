@@ -594,7 +594,16 @@ export function isFeaturedIn(l, citySlug) {
 // Einträge, bei denen site.sortAttribute wahr ist, dann alle übrigen. Innerhalb einer Gruppe:
 // Bewertung x log(Anzahl Bewertungen).
 export function sortListings(list, citySlug, sortAttr = '') {
-  const rank = (l) => (isFeaturedIn(l, citySlug) ? 0 : l.bestOfRank ? 1 : sortAttr && attrValue(l, sortAttr) === 'true' ? 2 : 3);
+  // Reihenfolge nach wiki/konventionen.md ("Sortierung der Einträge auf einer Stadtseite"):
+  //   0  bezahlte Plätze (Premium-Band, Top-Platzierung bestOfRank, Premium-Eintrag premium)
+  //   1  Festpreis-Garantie (geprueft = true) — hebt einen Eintrag über die übrigen, auch bei
+  //      schwächerer Bewertung
+  //   2  Festnetznummer mit zur PLZ passender Ortsvorwahl — nicht umgesetzt, solange keine
+  //      Vorwahl↔PLZ-Referenz vorliegt (nationalDe/areaLength liefern nur die Vorwahl). Nicht raten.
+  //   3  alle übrigen
+  // Innerhalb jeder Gruppe nach Bewertung (score), dann Name. owned wird nicht gelesen. sortAttr
+  // fließt nicht in die Gruppierung ein (in diesem Verzeichnis leer).
+  const rank = (l) => (isFeaturedIn(l, citySlug) || l.bestOfRank > 0 || l.premium ? 0 : l.geprueft ? 1 : 3);
   return [...list].sort((a, b) => rank(a) - rank(b) || (a.bestOfRank || 99) - (b.bestOfRank || 99) || b.score - a.score || a.name.localeCompare(b.name, 'de'));
 }
 // Reihenfolge der Premium-Plätze im Band einer Stadtseite: nach Buchungsdatum (featured_seit,
