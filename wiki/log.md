@@ -726,3 +726,13 @@ Zahlen, was auf Freigabe wartet.
   zurückportiert; `fonts.css` ist Template == Build. Damit ist das Glyph-Thema vollständig
   zurückportiert. template-build-drift.md: Sorte-A-Zeile „Glyph-Bereinigung + latin-ext" als ✓
   vollständig markiert, Prosa ergänzt.
+- **2026-11-12** **Design-Pilot 1 (Branch `design/pilot1`, nicht freigegeben).** Sichtbarer
+  Gestaltungs-Pilot für Startseite und Mannheimer Stadtseite, Desktop und mobil, auf den bestehenden
+  Marken (Farben/Schriften unverändert) plus vier aus den PNG-Referenzen abgeleitete Marken
+  (`--card-radius`, `--card-shadow`, `--space-section`, `buttonRadius`=Pille). Zweispaltiger Hero mit
+  Übersichtskarte aus echten Daten; zweigeteilter Stadt-Ergebnisbereich mit Orientierungsspalte und
+  Zeilenkarten; Suche als Pille mit Lupe und sichtbarer Beschriftung; Fokusring; zugängliches mobiles
+  Menü (Checkbox). Vergleich gegen den Ausgangsstand: 0 Abweichungen bei Titel/Description/Canonical/
+  robots/H1/JSON-LD über alle 4647 Seiten, Linkziele erhalten, Sitemap 2823; kein Überlauf 320–1440;
+  Textgate bestanden. Kein Deploy, kein Merge nach main, kein Rückport. Bericht
+  `berichte/2026-11-12-design-pilot1.md`, Rückgabe `design-pilot1/rueckgabe-henry.md`.

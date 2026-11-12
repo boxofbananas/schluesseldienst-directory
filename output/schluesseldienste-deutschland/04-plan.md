@@ -94,6 +94,24 @@ jeder andere ([[konventionen]]). Keine Garantie ist zum Start gesetzt (`geprueft
 Optik des Templates unverändert (Gate 1). Keine Optikvorlage, keine abweichenden Marken
 ([[design-seed]]).
 
+### Nachtrag — Design-Pilot 1 (Branch `design/pilot1`, 2026-11-12, NICHT freigegeben)
+
+Layout- und Komponentenarbeit auf den bestehenden Marken; Farben und Schriften unverändert
+(Navy, Bernstein, Petrol, Tönung; Roboto Slab / Roboto). Nur diese Marken sind **neu bzw.
+geändert**, alle **aus den PNG-Referenzen abgeleitet, Pilot 1** (`design-pilot1/`), gesetzt in
+`site.json` → `design` und über `Base.astro` als CSS-Variablen:
+
+| Marke (`site.json.design`) | CSS-Variable | Wert | Herkunft |
+|---|---|---|---|
+| `cardRadius` | `--card-radius` | `22px` | aus PNG abgeleitet, Pilot 1 (große Kartenradien) |
+| `cardShadow` | `--card-shadow` | `0 18px 44px -26px rgba(11,37,69,0.30), 0 4px 12px -8px rgba(11,37,69,0.14)` | aus PNG abgeleitet, Pilot 1 (weicher Kartenschatten) |
+| `spaceSection` | `--space-section` | `clamp(3.25rem, 6vw, 5.5rem)` | aus PNG abgeleitet, Pilot 1 (großzügige Abschnittsabstände) |
+| `buttonRadius` (geändert) | `--button-radius` | `8px` → `999px` | aus PNG abgeleitet, Pilot 1 (Schaltflächen und Suchfeld in Pillenform) |
+
+Farbmarken, Schriften, `radius` (8px, Kleinflächen), `tint`, `gold`, `band` usw. bleiben
+unverändert. Der Pilot ist nicht freigegeben und nicht ins Template zurückportiert
+([[template-build-drift]]).
+
 ## `niche.schemaType`
 
 `Locksmith` ([[schema]]).

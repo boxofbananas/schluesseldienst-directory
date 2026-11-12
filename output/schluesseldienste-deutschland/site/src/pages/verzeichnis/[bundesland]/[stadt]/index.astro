@@ -8,6 +8,7 @@ import Card from '../../../../components/Card.astro';
 import Faq from '../../../../components/Faq.astro';
 import ClaimCta from '../../../../components/ClaimCta.astro';
 import FeaturedBand from '../../../../components/FeaturedBand.astro';
+import SearchForm from '../../../../components/SearchForm.astro';
 import { loadDirectory, attributeFaqs, linkedParagraphs, linkNames, e164, businessType, fmtInt, fmtRating } from '../../../../lib/load.mjs';
 export function getStaticPaths() {
   const { cities } = loadDirectory();
@@ -66,16 +67,26 @@ const schema = [
 
   <FeaturedBand site={site} items={city.featured} place={city.name} price={site.tiers?.city?.price} />
 
-  <section>
-    <h2>Die besten {site.niche.plural} in {city.name}</h2>
-    <div class="grid">{gridCards.map((l) => <Card l={l} citySlug={city.slug} id={`b-${l.slug}`} />)}</div>
-    {rest.length > 0 && (
-      <>
-        <h3 class="more-head">{rest.length} weitere {site.niche.plural} in {city.name}</h3>
-        <p class="meta">Einträge mit den wenigsten Bewertungen.</p>
-        <ul class="more-list">{rest.map((l) => <li><a href={l.path}>{l.name}</a>{l.reviews > 0 && <span class="rt"><Star /> {fmtRating(l.rating)} <small>({fmtInt(l.reviews)})</small></span>}</li>)}</ul>
-      </>
-    )}
+  <section class="city-results">
+    <aside class="city-orient" aria-label={`Orientierung in ${city.name}`}>
+      <h2 class="orient-head">Orientierung</h2>
+      <SearchForm site={site} attributes={attributes} label="Anderen Ort suchen" />
+      <nav class="orient-links" aria-label="Weitere Orte">
+        <a href={regionPath}>Alle Städte in {city.regionName}</a>
+        {city.nearby.slice(0, 4).map((c) => <a href={c.path}>{c.name}</a>)}
+      </nav>
+    </aside>
+    <div class="city-results-main">
+      <h2>Die besten {site.niche.plural} in {city.name}</h2>
+      <div class="grid">{gridCards.map((l) => <Card l={l} citySlug={city.slug} id={`b-${l.slug}`} />)}</div>
+      {rest.length > 0 && (
+        <>
+          <h3 class="more-head">{rest.length} weitere {site.niche.plural} in {city.name}</h3>
+          <p class="meta">Einträge mit den wenigsten Bewertungen.</p>
+          <ul class="more-list">{rest.map((l) => <li><a href={l.path}>{l.name}</a>{l.reviews > 0 && <span class="rt"><Star /> {fmtRating(l.rating)} <small>({fmtInt(l.reviews)})</small></span>}</li>)}</ul>
+        </>
+      )}
+    </div>
   </section>
 
   <div class="prose city-more" set:html={linkedParagraphs(intro.slice(Math.ceil(intro.length / 2)), city.listings)}></div>

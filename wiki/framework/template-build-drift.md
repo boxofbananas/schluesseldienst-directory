@@ -45,6 +45,25 @@ veröffentlichten Preis national oben steht. Ein künftiges Verzeichnis trifft d
 deshalb bleibt der Template-Stand (alle Stufen speisen das Band) absichtlich erhalten. Ebenfalls
 offen und hier nicht angefasst: die BOM-Regex in `parseCsv` und `/danke/` in den `noindexPaths`.
 
+**Design-Pilot 1 — nicht freigegeben, nicht portiert (Branch `design/pilot1`, 2026-11-12).**
+Ein sichtbarer Gestaltungs-Pilot für Startseite und Stadtseite (Auftrag
+`output/schluesseldienste-deutschland/design-pilot1/`). Layout- und Komponentenarbeit auf den
+bestehenden Marken (Farben/Schriften unverändert), plus vier neue/geänderte Marken (`--card-radius`,
+`--card-shadow`, `--space-section`, `buttonRadius`=Pille; siehe `04-plan.md`). **Bleibt im Build
+des Branches, wird nicht nach `main` gemergt und nicht ins Template zurückportiert**, bis Daniel ihn
+freigibt. Betroffene Dateien (nur im Branch):
+
+- `output/schluesseldienste-deutschland/site/src/data/site.json` (vier Marken in `design`)
+- `output/.../site/src/layouts/Base.astro` (neue CSS-Variablen; Kopfzeilen-Navigation als
+  zugängliches Checkbox-Menü)
+- `output/.../site/src/styles/global.css` (Pilot-1-Block: Karten, Fokusring, Suche, Hero-Zweispalt,
+  Stadt-Ergebnisbereich/Zeilenkarten, mobiles Menü)
+- `output/.../site/src/pages/index.astro` (Hero zweispaltig + Übersichtskarte)
+- `output/.../site/src/pages/verzeichnis/[bundesland]/[stadt]/index.astro` (zweigeteilter
+  Ergebnisbereich mit Orientierungsspalte)
+- `output/.../site/src/components/SearchForm.astro` (Lupe als SVG, optionale sichtbare Beschriftung)
+- `output/.../site/src/components/Card.astro` (Kartenfußzeile mit „Eintrag ansehen")
+
 Gegenstück dazu ist die Sperre in `scripts/init_site.py`: Existiert `output/<slug>/site/` schon,
 bricht der Kopierschritt ab und nennt, was verloren ginge (nur mit `--force`, und auch dann wird der
 bestehende Ordner nach `site.backup-<Zeitstempel>` beiseitegelegt, nie gelöscht). Gate 5 ruft dieses
