@@ -26,7 +26,7 @@ const description = `${city.count} ${site.niche.plural} in ${city.name}, ${city.
 const cards = city.listings.slice(0, site.maxCardsPerCity || 60);
 const rest = city.listings.slice(cards.length);
 const intro = city.copy?.intro || [
-  `In ${city.name} (${city.regionName}) sind ${city.count} ${site.niche.plural} eingetragen, zusammen mit ${fmtInt(city.totalReviews)} Google-Bewertungen${city.avgRating ? ` und einem Durchschnitt von ${fmtRating(city.avgRating)}` : ''}. Die Liste darunter führt zuerst die Premium-Plätze, dann die bezahlten Top-Platzierungen und danach alle übrigen nach Bewertung und Anzahl der Bewertungen.`,
+  `In ${city.name} (${city.regionName}) sind ${city.count} ${site.niche.plural} eingetragen, zusammen mit ${fmtInt(city.totalReviews)} Google-Bewertungen${city.avgRating ? ` und einem Durchschnitt von ${fmtRating(city.avgRating)}` : ''}. Die Liste darunter führt zuerst die Premium-Plätze und bezahlten Top-Platzierungen, dann die Betriebe mit Festpreis-Garantie und danach alle übrigen nach Bewertung und Anzahl der Bewertungen.`,
 ];
 // A2 (04-plan.md): Band-Einträge stehen zusätzlich in der Liste (nicht mehr herausgefiltert),
 // durch die Sortierung an erster Stelle. Das Band bleibt als Hervorhebung. Der Sprunganker
@@ -73,6 +73,7 @@ const schema = [
   <section class="city-results">
     <div class="city-results-main">
       <h2>Die besten {site.niche.plural} in {city.name}</h2>
+      <p class="sort-note meta">Zuerst die Premium-Plätze und bezahlten Top-Platzierungen, dann Betriebe mit Festpreis-Garantie, danach alle übrigen nach Bewertung und Anzahl der Bewertungen.</p>
       <div class="grid">{gridCards.map((l) => <Card l={l} citySlug={city.slug} id={`b-${l.slug}`} />)}</div>
       {rest.length > 0 && (
         <>

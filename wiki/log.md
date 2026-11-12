@@ -759,3 +759,15 @@ Zahlen, was auf Freigabe wartet.
   mitportierte `Star.astro` — jetzt mit dabei). `template-build-drift.md`-Eintrag „Design-Pilot 1"
   auf freigegeben/portiert gesetzt. Worktree `blueprint-pilot1` entfernt, Branch steht. Berichte
   `berichte/2026-11-12-design-pilot1-freigabe.md`.
+- **2026-11-12** **Sortierung offengelegt, Premium aus Stufe 0, /suche/-Sterne (main, live).**
+  (1) Die neue Reihenfolge (bezahlte Plätze → Festpreis-Garantie → Rest) wird jetzt genannt:
+  sichtbare Zeile unter „Die besten …" auf der Stadtseite (Textgate ohne --erlaube-rechtswoerter
+  bestanden), Ersatz-Vorspann berichtigt, Absatz auf /festpreis-garantie/, lede auf /premium/
+  berichtigt. Weitere Fundstellen genannt, nicht geändert (Bundesland-lede, FeaturedBand,
+  Stadtseiten-Meta-Description); Über uns, Startseiten-Liste, Leistungsseiten, FAQ, Ratgeber geprüft
+  und korrekt. (2) `l.premium` aus `sortListings` Stufe 0 entfernt (Stufe 0 = Stadt-Premium +
+  Top-Platzierung); Build und Template. Mannheim unverändert (Merz hält Stadt-Premium über
+  `featured='city'`), kein reiner Premium-Eintrag in der CSV. (3) `public/search.js` zeichnet die
+  Sterne jetzt als Inline-SVG wie Star.astro (beide Render-Pfade), Build und Template; live geprüft
+  (SVG-Sterne, kein Tofu). Gebaut, ausgeliefert, check_live.py 2823 grün. Bericht
+  `berichte/2026-11-12-sortierung-offenlegen.md`.

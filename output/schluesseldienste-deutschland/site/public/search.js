@@ -27,7 +27,16 @@
   }
   function words(s) { return norm(s).split(/[^a-z0-9]+/).filter(Boolean); }
   function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
-  function stars(r) { var f = Math.round(r); return '\u2605'.repeat(f) + '\u2606'.repeat(5 - f); }
+  // Bewertungsstern als Inline-SVG (wie components/Star.astro): der selbst gehostete Schrift-Auszug
+  // enth\u00e4lt \u2605/\u2606 nicht, als Schriftzeichen erschienen sie als leeres K\u00e4stchen. Gr\u00f6\u00dfe \u00fcber 1em, Farbe
+  // \u00fcber die umgebende CSS-Regel (.rating .stars, .suggest .rt .star). Dekorativ, also aria-hidden.
+  var STAR_PATH = 'M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z';
+  function starSvg(filled) {
+    return filled
+      ? '<svg class="star" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false"><path d="' + STAR_PATH + '"/></svg>'
+      : '<svg class="star star-empty" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="' + STAR_PATH + '"/></svg>';
+  }
+  function stars(r) { var f = Math.round(r); var s = ''; for (var i = 0; i < 5; i++) s += starSvg(i < f); return s; }
   function score(l) { return l.r * Math.log10(l.v + 1); }
   function hide(list) { list.hidden = true; list.innerHTML = ''; }
   function hideAll() { hide(listWhat); hide(listNear); }
@@ -67,7 +76,7 @@
   }
   function nf(n) { return Number(n || 0).toLocaleString('de-DE'); }
   function rf(n) { return Number(n || 0).toFixed(1).replace('.', ','); }
-  function ratingHtml(l) { return l.v ? '<span class="rt"><i aria-hidden="true">\u2605</i> ' + rf(l.r) + ' <small>(' + nf(l.v) + ')</small></span>' : ''; }
+  function ratingHtml(l) { return l.v ? '<span class="rt">' + starSvg(true) + ' ' + rf(l.r) + ' <small>(' + nf(l.v) + ')</small></span>' : ''; }
 
   function showWhat() {
     var q = what.value.trim();
