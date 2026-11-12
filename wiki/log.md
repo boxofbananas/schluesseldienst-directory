@@ -796,3 +796,12 @@ Zahlen, was auf Freigabe wartet.
   Template, beide BESTANDEN. (3) wiki/seo/on-page-rules.md:85 (nicht framework/) auf die Reihenfolge
   gebracht: Kartenabschneidung „bezahlter Platz, dann Festpreis-Garantie, dann Bewertung". check_live.py
   2823 grün, Live-Stichprobe bestätigt. Bericht berichte/2026-11-12-meta-und-festpreis-textgate.md.
+- **2026-11-12** **Widerspruch zur Platzierung auf /festpreis-garantie/ aufgelöst (main, live, 68d052dc).**
+  Der Abschnitt über bezahlte Sichtbarkeit sagte „wer eine Garantie hat, bekommt dadurch keinen besseren
+  Platz", der Reihenfolge-Absatz sagt das Gegenteil. Neu an beiden Stellen (festpreis und premium): Wer
+  zahlt, bekommt keine Garantie; wer die Garantie hat, bekommt keinen der bezahlten Plätze; die Garantie
+  hebt einen Betrieb vor die ohne Garantie, aber nie über einen bezahlten Platz, und ist nicht käuflich.
+  Site-weite Suche: zwei echte Treffer (festpreis, premium.astro:52) berichtigt; agb.astro:37 nur
+  gemeldet, nicht geändert (nur „nicht kaufbar", kein Widerspruch); antrag:190, ueber-uns:47, site.json-FAQ
+  geprüft und korrekt. Build und Template; Textgate beider Seiten mit Flag BESTANDEN; check_live.py 2823
+  grün. Bericht berichte/2026-11-12-widerspruch-platzierung.md.
