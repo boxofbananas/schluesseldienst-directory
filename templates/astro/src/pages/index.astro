@@ -37,12 +37,31 @@ const schema = [
 ---
 <Base title={title} description={description} path="/" schema={schema} headTone={site.design.band ? 'band' : 'tint'} headImage={site.design.heroImage || ''}>
   <Fragment slot="head">
-    <div class="hero">
-      <h1>{site.niche.title} in {site.country.name}, <span class="hl">die ihren Preis vorher nennen</span></h1>
-      <p class="lede">Wer vor einer verschlossenen Tür steht, ruft die erste Nummer an und erfährt den Preis, wenn die Arbeit längst läuft. Hier sehen Sie vorher, welcher Betrieb sich auf einen Festpreis festlegt — und welcher nicht.</p>
-      <SearchForm site={site} attributes={attributes} />
-      {heroPoints.length > 0 && <ul class="hero-points">{heroPoints.map((pt) => <li>{pt}</li>)}</ul>}
-      <p class="hero-link"><a href="#ratgeber">Woran Sie einen guten {site.niche.singular} erkennen</a></p>
+    <div class="hero hero-split">
+      <div class="hero-main">
+        <h1>{site.niche.title} in {site.country.name}, <span class="hl">die ihren Preis vorher nennen</span></h1>
+        <p class="lede">Wer vor einer verschlossenen Tür steht, ruft die erste Nummer an und erfährt den Preis, wenn die Arbeit längst läuft. Hier sehen Sie vorher, welcher Betrieb sich auf einen Festpreis festlegt — und welcher nicht.</p>
+        <SearchForm site={site} attributes={attributes} label={`${site.niche.singular} oder Ort suchen`} />
+        {heroPoints.length > 0 && <ul class="hero-points">{heroPoints.map((pt) => <li>{pt}</li>)}</ul>}
+        <p class="hero-link"><a href="#ratgeber">Woran Sie einen guten {site.niche.singular} erkennen</a></p>
+      </div>
+      <aside class="hero-aside" aria-label="Verzeichnisübersicht">
+        <div class="overview-card">
+          <a class="ov-locate" href={countryPath}>
+            <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M12 21s7-6.2 7-11a7 7 0 0 0-14 0c0 4.8 7 11 7 11z" fill="currentColor"/><circle cx="12" cy="10" r="2.6" fill="var(--bg)"/></svg>
+            <span class="ov-locate-t"><strong>Standort wählen</strong><span>Stadt oder Bundesland</span></span>
+          </a>
+          <p class="ov-head">Verzeichnisübersicht</p>
+          <ul class="ov-list">
+            {regions.slice(0, 3).map((r) => (
+              <li><a href={r.path}>
+                <span class="ov-name">{r.name}</span>
+                <span class="ov-n">{fmtInt(r.indexCityCount)} Städte · {fmtInt(r.count)} {site.niche.plural}</span>
+              </a></li>
+            ))}
+          </ul>
+        </div>
+      </aside>
     </div>
   </Fragment>
 

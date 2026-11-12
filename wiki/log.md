@@ -745,3 +745,17 @@ Zahlen, was auf Freigabe wartet.
   live: Merz, AES, Key Walter. Gebaut, mit wrangler ausgeliefert, `check_live.py` 2823 grün.
   Rückport ins Template, 04-plan (Entscheidung A2). Bericht
   `berichte/2026-11-12-stadtseiten-sortierung-und-band.md`.
+- **2026-11-12** **Design-Pilot 1 freigegeben (Teil B, main, live).** `main` (Teil A) in
+  `design/pilot1` geholt (Stadtseite auto-gemergt: A2 + Pilot-Layout beide; `04-plan.md` doppelte
+  Überschrift von Hand zusammengeführt). Screenshot-Prüfung von acht Seitentypen (Desktop 1440 +
+  mobil 390): keine Pilot-Brüche, kein Überlauf 320–1440, Menü klappt überall. Ein vorbestehender
+  Befund (nicht Pilot): `public/search.js` zeichnet die Sterne der Suchergebnisse als Textzeichen
+  `★`/`☆` (Tofu, auf `main` zeichengleich) — Merge nicht blockiert, als eigener Fix offen.
+  `design/pilot1` → `main` (Fast-Forward), gebaut, mit wrangler ausgeliefert, `check_live.py` 2823
+  grün; live geprüft (Startseite, Mannheim = Merz/AES/Key Walter, Merz-Eintrag ohne Fremd-Host vor
+  Karten-Klick, beide Formulare, Suche 1 Treffer). Gestaltung hunkweise ins Template zurückportiert
+  (pilot-eigene Hunks Fork `11f8445`→`2c1e118`; aufgeschobene Vor-Pilot-Drift außen vor); dabei den
+  vorbestehenden, nicht mehr baubaren Template-Zustand behoben (`FeaturedBand` brauchte das nie
+  mitportierte `Star.astro` — jetzt mit dabei). `template-build-drift.md`-Eintrag „Design-Pilot 1"
+  auf freigegeben/portiert gesetzt. Worktree `blueprint-pilot1` entfernt, Branch steht. Berichte
+  `berichte/2026-11-12-design-pilot1-freigabe.md`.

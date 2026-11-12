@@ -45,24 +45,45 @@ veröffentlichten Preis national oben steht. Ein künftiges Verzeichnis trifft d
 deshalb bleibt der Template-Stand (alle Stufen speisen das Band) absichtlich erhalten. Ebenfalls
 offen und hier nicht angefasst: die BOM-Regex in `parseCsv` und `/danke/` in den `noindexPaths`.
 
-**Design-Pilot 1 — nicht freigegeben, nicht portiert (Branch `design/pilot1`, 2026-11-12).**
+**Design-Pilot 1 — freigegeben, nach `main` gemergt und ins Template zurückportiert (2026-11-12).**
 Ein sichtbarer Gestaltungs-Pilot für Startseite und Stadtseite (Auftrag
 `output/schluesseldienste-deutschland/design-pilot1/`). Layout- und Komponentenarbeit auf den
 bestehenden Marken (Farben/Schriften unverändert), plus vier neue/geänderte Marken (`--card-radius`,
-`--card-shadow`, `--space-section`, `buttonRadius`=Pille; siehe `04-plan.md`). **Bleibt im Build
-des Branches, wird nicht nach `main` gemergt und nicht ins Template zurückportiert**, bis Daniel ihn
-freigibt. Betroffene Dateien (nur im Branch):
+`--card-shadow`, `--space-section`, `buttonRadius`=Pille; siehe `04-plan.md`). Daniel hat den Pilot
+freigegeben; `design/pilot1` ist nach `main` gemergt, gebaut, ausgeliefert und live geprüft
+(`check_live.py` 2823 grün). Der Branch bleibt stehen.
 
-- `output/schluesseldienste-deutschland/site/src/data/site.json` (vier Marken in `design`)
-- `output/.../site/src/layouts/Base.astro` (neue CSS-Variablen; Kopfzeilen-Navigation als
-  zugängliches Checkbox-Menü)
-- `output/.../site/src/styles/global.css` (Pilot-1-Block: Karten, Fokusring, Suche, Hero-Zweispalt,
-  Stadt-Ergebnisbereich/Zeilenkarten, mobiles Menü)
-- `output/.../site/src/pages/index.astro` (Hero zweispaltig + Übersichtskarte)
-- `output/.../site/src/pages/verzeichnis/[bundesland]/[stadt]/index.astro` (zweigeteilter
-  Ergebnisbereich mit Orientierungsspalte)
-- `output/.../site/src/components/SearchForm.astro` (Lupe als SVG, optionale sichtbare Beschriftung)
-- `output/.../site/src/components/Card.astro` (Kartenfußzeile mit „Eintrag ansehen")
+Die **Gestaltung** ist nach den Regeln dieser Seite **hunkweise** ins Template zurückportiert — nur
+die pilot-eigenen Hunks (Fork `11f8445` → `2c1e118`), die aufgeschobene Vor-Pilot-Drift (Star-SVG an
+den Text-Stern-Stellen, Sprungliste, `Check.astro`, Augenbraue, Überschrift-B, kürzerer
+Such-Platzhalter, „Alle Städte", entfernte Herausgeber-Zeile) blieb außen vor. **Template == Build**
+für die Pilot-Gestaltung. Portierte Dateien:
+
+- `templates/astro/src/data/site.json` (vier Marken in `design`: `buttonRadius`=999px, `cardRadius`,
+  `cardShadow`, `spaceSection`)
+- `templates/astro/src/layouts/Base.astro` (die drei neuen CSS-Variablen; Kopfzeilen-Navigation als
+  zugängliches Checkbox-Menü). Die aufgeschobene Drift derselben Datei (Herausgeber-Zeile, „Alle
+  Städte") blieb unangetastet.
+- `templates/astro/src/styles/global.css` (Pilot-1-Block angehängt: Karten, Fokusring, Suche,
+  Hero-Zweispalt, Stadt-Ergebnisbereich/Zeilenkarten, mobiles Menü; dazu `select` in der
+  Formularregel)
+- `templates/astro/src/pages/index.astro` (Hero zweispaltig + Übersichtskarte; **Template-Überschrift
+  A bleibt**, keine Augenbraue, kein `Check`)
+- `templates/astro/src/pages/verzeichnis/[bundesland]/[stadt]/index.astro` (zweigeteilter
+  Ergebnisbereich mit Orientierungsspalte; **Template behält** `cards.map` ohne `id` und den
+  Text-Stern der „weiteren"-Liste)
+- `templates/astro/src/components/SearchForm.astro` (Lupe als SVG, optionale sichtbare Beschriftung;
+  **Template behält** den längeren Platzhalter)
+- `templates/astro/src/components/Card.astro` (Kartenfußzeile mit „Eintrag ansehen")
+
+**Nebenbefund, dabei behoben:** Das Template war seit dem FeaturedBand-Rückport (2026-11-10)
+**nicht mehr baubar** — `components/FeaturedBand.astro` importiert `./Star.astro`, das nie mitportiert
+wurde (Sorte A, „Bewertungsstern als SVG", bis dahin aufgeschoben). Da `FeaturedBand` die Komponente
+bereits voraussetzt, ist `components/Star.astro` jetzt mitportiert (die `.star`-CSS steckt im
+Pilot-Block). Der breitere Stern-Umbau (`.rt i` → `.rt .star` an den übrigen Stellen, `Rating.astro`
+usw.) bleibt weiter aufgeschoben; jene Stellen tragen bis dahin den Text-Stern. Danach baut
+`templates/astro` wieder eigenständig durch (`npm run build`, „[build] Complete!"; die
+„Pflichtangaben"-Zeile zum fehlenden `formEndpoint` ist die erwartete Platzhalter-Warnung).
 
 Gegenstück dazu ist die Sperre in `scripts/init_site.py`: Existiert `output/<slug>/site/` schon,
 bricht der Kopierschritt ab und nennt, was verloren ginge (nur mit `--force`, und auch dann wird der

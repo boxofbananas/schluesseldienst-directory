@@ -367,7 +367,7 @@ main.wrap > .tiers:first-child { margin-top: -3.5rem; }
 .steps li p { margin: 0; }
 form.claim-form { display: grid; gap: .9rem; max-width: 560px; }
 form.claim-form label { display: grid; gap: .3rem; font-weight: 500; }
-form.claim-form input, form.claim-form textarea { font: inherit; padding: .6rem .7rem; border: 1px solid #c9c6bf; border-radius: var(--radius); background: var(--surface); color: var(--text); width: 100%; }
+form.claim-form input, form.claim-form textarea, form.claim-form select { font: inherit; padding: .6rem .7rem; border: 1px solid #c9c6bf; border-radius: var(--radius); background: var(--surface); color: var(--text); width: 100%; }
 form.claim-form .check { grid-template-columns: auto 1fr; align-items: center; gap: .6rem; font-weight: 400; }
 form.claim-form .check input { width: auto; }
 pre.snippet { background: var(--surface); box-shadow: var(--shadow); border-radius: var(--radius); padding: 1rem; overflow: auto; font-size: .85rem; }
@@ -406,3 +406,203 @@ pre.snippet { background: var(--surface); box-shadow: var(--shadow); border-radi
 .claim-sent { background: var(--tint); border-radius: var(--radius); padding: 1.4rem 1.6rem; max-width: 560px; }
 .claim-sent h2 { margin-top: 0; }
 form.claim-form[hidden] { display: none; }
+
+/* ======================================================================
+   Design-Pilot 1 (freigegeben 2026-11-12, aus output/schluesseldienste-deutschland/
+   zurückportiert; wiki/framework/template-build-drift.md).
+   Layout- und Komponentenarbeit auf den bestehenden Marken; neue Marken
+   (--card-radius, --card-shadow, --space-section, buttonRadius=Pille) aus den
+   PNG-Referenzen abgeleitet. Siehe 04-plan.md und design-pilot1/.
+   ====================================================================== */
+
+/* Karten: weiße Fläche, großer Radius, weicher Schatten (Trennung über Fläche/
+   Schatten/Abstand, keine farbigen Ränder; wiki/framework/design-seed.md). */
+.card { background: var(--bg); border-radius: var(--card-radius); box-shadow: var(--card-shadow); }
+.biz-card { background: var(--bg); border-radius: var(--card-radius); box-shadow: var(--card-shadow); }
+.city-cards a { border-radius: var(--card-radius); box-shadow: var(--card-shadow); }
+.faq .qa { border-radius: var(--card-radius); }
+.steps li { border-radius: var(--card-radius); box-shadow: var(--card-shadow); }
+.facts { border-radius: var(--card-radius); box-shadow: var(--card-shadow); }
+
+/* Kopfzeile: etwas mehr Luft. */
+.site-header .wrap { min-height: 84px; }
+
+/* Sichtbarer Fokusring auf jedem Link, Feld und Knopf. Navy auf hellen Flächen
+   (hoher Kontrast gegen Weiß/Tint), Bernstein auf den dunklen Navy-Flächen
+   (Kopfzeile, Hero-Band, Premium-Band, Fußbereich). Beide >= 3:1 gegen die
+   angrenzende Farbe (Nicht-Text-Kontrast, AA). */
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible,
+textarea:focus-visible, summary:focus-visible, [tabindex]:focus-visible {
+  outline: 3px solid var(--heading); outline-offset: 2px; border-radius: 3px;
+}
+.site-header a:focus-visible,
+.page-head.band .hero-link a:focus-visible,
+.featured-band a:focus-visible,
+.site-footer a:focus-visible { outline-color: var(--action); }
+
+/* Suche: Pille, Lupe als SVG, sichtbare Beschriftung. Ziel/Feldnamen/Verhalten
+   bleiben (SearchForm.astro). */
+.search-label { font-weight: 600; margin: 0 0 .55rem; font-size: 1rem; }
+.dir-search .search-ico { color: var(--muted); flex: none; align-self: center; margin: 0 .1rem 0 .4rem; }
+
+/* Startseite, Kopfbereich: links Navy-Inhalt linksbündig, rechts eine helle
+   Übersichtskarte (Richtung 02-hero-horizontal.png). Grundzustand einspaltig. */
+.hero-split { text-align: left; max-width: none; margin: 0; }
+.hero-split .hero-points { justify-content: flex-start; }
+.hero-split .hero-link { text-align: left; }
+/* Vorspann linksbündig zu H1 und Suche (Basis .page-head.band .lede zentriert
+   ihn über margin-inline:auto; hier mit höherer Spezifität zurückgesetzt). */
+.page-head.band .hero-split .lede { margin-inline: 0; }
+.hero-split .dir-search { margin-left: 0; margin-right: 0; }
+.hero-split h1 { font-size: clamp(2.2rem, 5.2vw, 3.5rem); }
+.hero-aside { margin-top: 2.25rem; }
+.overview-card { background: var(--bg); color: var(--text); border-radius: var(--card-radius); box-shadow: 0 30px 70px -28px rgba(3, 12, 28, .6), 0 8px 22px -14px rgba(3, 12, 28, .45); padding: 1.4rem; max-width: 420px; margin: 0 auto; position: relative; }
+.ov-locate { display: flex; align-items: center; gap: .85rem; background: var(--tint); border-radius: calc(var(--card-radius) - 8px); padding: .9rem 1.1rem; text-decoration: none; color: var(--heading); }
+.ov-locate svg { color: var(--action); flex: none; }
+.ov-locate:hover .ov-locate-t strong { text-decoration: underline; }
+.ov-locate-t { display: flex; flex-direction: column; line-height: 1.3; }
+.ov-locate-t strong { font-family: var(--heading-font); font-weight: var(--heading-weight); font-size: 1.05rem; }
+.ov-locate-t span { color: var(--muted); font-size: .9rem; }
+.ov-head { font-family: var(--heading-font); font-weight: var(--heading-weight); color: var(--heading); margin: 1.25rem 0 .7rem; font-size: 1.1rem; }
+.ov-list { list-style: none; margin: 0; padding: 0; display: grid; gap: .55rem; }
+.ov-list a { display: flex; flex-direction: column; gap: .15rem; background: var(--surface); border-radius: 14px; padding: .75rem .95rem; text-decoration: none; color: var(--heading); }
+.ov-list a:hover { background: var(--tint); }
+.ov-list a:hover .ov-name { text-decoration: underline; }
+.ov-name { font-weight: 700; }
+.ov-n { color: var(--muted); font-size: .85rem; font-variant-numeric: tabular-nums; }
+
+/* Zweispaltiger Hero erst ab 1160px: bei 1024 einspaltig, damit die Suche die
+   volle Breite hat und der Platzhalter „Firmenname oder Leistung" hineinpasst. */
+@media (min-width: 1160px) {
+  .page-head.band:has(.hero-split) { position: relative; overflow: hidden; }
+  /* Helle Fläche rechts mit gerader, leicht schräger Kante zum Navy-Bereich. */
+  .page-head.band:has(.hero-split)::before {
+    content: ""; position: absolute; top: 0; bottom: 0; right: 0; width: 40%;
+    background: var(--surface); clip-path: polygon(16% 0, 100% 0, 100% 100%, 0 100%); z-index: 0;
+  }
+  /* Ein weicher Zierkreis, dezent. */
+  .page-head.band:has(.hero-split)::after {
+    content: ""; position: absolute; top: -140px; right: 24%; width: 440px; height: 440px;
+    border-radius: 50%; background: rgba(255, 255, 255, .045); z-index: 0; pointer-events: none;
+  }
+  .page-head.band:has(.hero-split) > .wrap { position: relative; z-index: 1; }
+  .hero-split { display: grid; grid-template-columns: minmax(0, 1.08fr) minmax(0, .92fr); gap: clamp(2.5rem, 4vw, 4.5rem); align-items: center; }
+  .hero-aside { margin-top: 0; }
+  .overview-card { margin: 0 0 0 auto; }
+  /* Erstem Feld mehr Breite, damit der Platzhalter „Firmenname oder Leistung"
+     nicht abschneidet. */
+  .hero-split .dir-search { max-width: 660px; grid-template-columns: minmax(0, 2.9fr) minmax(0, 1fr) auto; }
+}
+
+/* Stadtseite, Ergebnisbereich: links schmale Orientierungsspalte auf getönter
+   Fläche (Suche + Verweise auf Bundesland und Nachbarorte), rechts die Einträge
+   als Zeilenkarten (Richtung 03-verzeichnis-ansicht.png). Die Sprungliste bleibt
+   an ihrem Dokumentplatz oben; die Abschnittsfolge ist unverändert. */
+.city-results { margin-top: var(--space-section); }
+.city-results-main { min-width: 0; }
+.city-results-main > h2:first-child { margin-top: 0; }
+.city-orient { background: var(--tint); border-radius: var(--card-radius); padding: 1.25rem 1.3rem 1.4rem; margin-bottom: 1.75rem; }
+.city-orient .orient-head { margin: 0 0 .75rem; font-size: 1.1rem; }
+.city-orient .search-label { font-size: .92rem; margin-bottom: .45rem; }
+.city-orient .dir-search { grid-template-columns: 1fr; gap: .5rem; margin: 0; max-width: none; background: transparent; padding: 0; }
+.city-orient .dir-search .field { background: var(--bg); border-radius: 999px; }
+.city-orient .dir-search .field.what { padding-left: .9rem; }
+.city-orient .dir-search .field + .field::before { display: none; }
+/* Schmale Spalte: Schrift bleibt bei 16px+ (iOS-Zoom). Statt die Schrift zu
+   verkleinern, entfällt hier die Lupe, damit der volle Platzhalter hineinpasst. */
+.city-orient .dir-search .search-ico { display: none; }
+.city-orient .dir-search input { background: transparent; }
+.city-orient .dir-search .btn.action { width: 100%; justify-content: center; }
+.orient-links { display: flex; flex-direction: column; margin-top: 1.1rem; }
+.orient-links a { padding: .6rem 0; border-top: 1px solid rgba(11, 37, 69, .12); color: var(--heading); text-decoration: none; font-weight: 500; font-size: .95rem; min-height: 44px; display: flex; align-items: center; }
+.orient-links a:first-child { border-top: 0; }
+.orient-links a:hover { color: var(--link); text-decoration: underline; }
+
+/* Kartenfußzeile: Telefon als tel:-Link, ruhige "Eintrag ansehen"-Pille. */
+.card-foot { margin-top: auto; padding-top: .7rem; display: flex; flex-wrap: wrap; align-items: center; gap: .55rem .9rem; }
+.card .phone { margin-top: 0; padding-top: 0; min-height: 44px; white-space: nowrap; }
+.card-cta { display: inline-flex; align-items: center; justify-content: center; min-height: 40px; background: var(--tint); color: var(--heading); padding: .5rem 1.15rem; border-radius: var(--button-radius); font-weight: 600; font-size: .95rem; text-decoration: none; white-space: nowrap; }
+.card-cta:hover { background: var(--heading); color: #fff; }
+
+@media (min-width: 1024px) {
+  /* Orientierung links, Einträge rechts — über Grid-Platzierung, unabhängig von
+     der Dokumentreihenfolge (die Einträge stehen jetzt zuerst, damit sie mobil
+     vor der Orientierung erscheinen; die Tab-Reihenfolge bleibt sinnvoll). */
+  .city-results { display: grid; grid-template-columns: minmax(278px, 310px) minmax(0, 1fr); gap: 2.5rem; align-items: start; }
+  .city-results > .city-orient { grid-column: 1; grid-row: 1; position: sticky; top: 1rem; margin-bottom: 0; }
+  .city-results > .city-results-main { grid-column: 2; grid-row: 1; }
+  .city-results-main .grid { grid-template-columns: 1fr; gap: .5rem; }
+  /* Zeilenkarte: Angaben links im normalen Fluss (Höhe genau aus dem Inhalt,
+     keine Phantomzeilen), Telefon und Pille rechts als absolut zentrierter Fuß.
+     Straffer Innenabstand, rechts Platz für den Fuß freigehalten. Die großen
+     Eigen-Margins von Bewertung und Adresse weichen dem flexiblen gap. */
+  .city-results .card { position: relative; gap: .3rem; padding: .85rem 1.6rem; padding-right: 230px; min-height: 120px; justify-content: center; }
+  .city-results .card > .rating, .city-results .card > .meta, .city-results .card > .chips { margin: 0; }
+  /* Fuß rechts: Breite richtet sich nach der längsten Nummer (width: max-content),
+     die Pille zieht gleich; die Nummer bricht nie um (.card .phone nowrap). */
+  .city-results .card > .card-foot { position: absolute; top: 50%; right: 1.6rem; transform: translateY(-50%); width: max-content; min-width: 150px; max-width: 198px; margin: 0; padding: 0; border: 0; flex-direction: column; align-items: stretch; gap: .5rem; }
+  .city-results .card > .card-foot .card-cta { width: 100%; }
+}
+
+/* Mobil (unter 1024): Orientierung unter den Einträgen (ergibt sich aus der
+   Dokumentreihenfolge: Einträge zuerst), etwas Abstand nach oben. */
+@media (max-width: 1023px) {
+  .city-results > .city-orient { margin-top: 1.75rem; }
+}
+
+/* Kopfzeile mobil: Navigation als zugängliches CSS-only Menü (Checkbox-Muster).
+   Die Navigation bleibt immer im DOM und in der Tab-Reihenfolge; mobil per
+   Checkbox eingeklappt, ab 1024px wieder inline wie bisher, gleiche Ziele.
+   (Checkbox statt <details>: ein geschlossenes <details> nähme seinen Inhalt
+   aus dem Tab-Fluss, die Links wären auf dem Desktop nicht tastaturerreichbar.) */
+.site-nav { position: relative; }
+.nav-toggle { display: inline-flex; align-items: center; gap: .55rem; min-height: 44px; padding: .55rem .8rem; border-radius: var(--button-radius); background: rgba(255, 255, 255, .12); color: var(--header-text); font-weight: 600; cursor: pointer; }
+.nav-toggle:hover { background: rgba(255, 255, 255, .2); }
+.nav-checkbox:focus-visible + .nav-toggle { outline: 3px solid var(--action); outline-offset: 2px; }
+.nav-toggle-bars, .nav-toggle-bars::before, .nav-toggle-bars::after { display: block; width: 18px; height: 2px; background: currentColor; border-radius: 2px; }
+.nav-toggle-bars { position: relative; }
+.nav-toggle-bars::before, .nav-toggle-bars::after { content: ""; position: absolute; left: 0; }
+.nav-toggle-bars::before { top: -5px; }
+.nav-toggle-bars::after { top: 5px; }
+.site-nav .nav { display: none; position: absolute; right: 0; top: calc(100% + .55rem); z-index: 40; flex-direction: column; align-items: stretch; gap: 0; background: var(--header-bg); border-radius: var(--card-radius); box-shadow: 0 22px 54px -22px rgba(0, 0, 0, .65); padding: .5rem; min-width: 236px; }
+.nav-checkbox:checked ~ .nav { display: flex; }
+.site-nav .nav a { padding: .7rem .9rem; border-radius: 10px; min-height: 44px; }
+.site-nav .nav a:hover { background: rgba(255, 255, 255, .1); text-decoration: none; }
+.site-nav .nav a.nav-cta { margin-top: .4rem; justify-content: center; }
+
+@media (min-width: 1024px) {
+  .nav-toggle { display: none; }
+  .nav-checkbox { display: none; }
+  /* Abstände wie vorher (gap aus der Basis-.nav), umbruchfähig; der mobile
+     gap:0 der Grundregel wird hier zurückgesetzt. */
+  .site-nav .nav { display: flex; position: static; flex-direction: row; flex-wrap: wrap; gap: .4rem 1.4rem; background: none; box-shadow: none; padding: 0; min-width: 0; }
+  .site-nav .nav a { padding: 0; border-radius: 0; }
+  .site-nav .nav a:hover { background: none; text-decoration: underline; }
+  /* CTA in der Pillenform der übrigen Knöpfe (die mobile border-radius:0-Regel
+     oben überschreibt sonst die Basis-Pille). */
+  .site-nav .nav a.nav-cta { padding: .5rem 1rem; margin-top: 0; border-radius: var(--button-radius); }
+  .site-nav .nav a.nav-cta:hover { text-decoration: none; }
+}
+
+/* Abstand der Suchbeschriftung zum Vorspann; in der kompakten Orientierungsspalte eng. */
+.search-label { margin: 1.4rem 0 .6rem; }
+.city-orient .search-label { margin: 0 0 .45rem; }
+
+/* Kopf mobil: eine Zeile erzwingen, Umschalter icon-only, Markenname passt daneben. */
+@media (max-width: 1023px) {
+  .site-header .wrap { flex-wrap: nowrap; gap: .6rem; }
+  .logo { font-size: clamp(1rem, 3.2vw, 1.3rem); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; display: block; }
+  .nav-toggle { flex: none; }
+  .site-nav { flex: none; }
+}
+
+/* Premium-Band sehr schmal (<=440px): das überhängende Abzeichen braucht 6,6rem
+   linken Innenabstand; der drückt auf kleinen Stadtseiten die Bewertungszeile über
+   den Rand. Dort das Abzeichen inline über die Kopfzeile setzen (Markup/Logik
+   unverändert, nur Positionierung). */
+@media (max-width: 440px) {
+  .featured-band .biz-card.featured .top { flex-wrap: wrap; padding-left: 1.35rem; row-gap: .2rem; }
+  .featured-band .biz-card.featured .badge { position: static; transform: none; align-self: flex-start; margin-bottom: .15rem; border-radius: 3px; }
+  .featured-band .biz-card.featured .badge::after { display: none; }
+  .featured-band .biz-card.featured .top > span:first-child { flex: 1 1 100%; }
+}

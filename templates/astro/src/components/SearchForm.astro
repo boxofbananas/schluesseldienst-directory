@@ -3,13 +3,17 @@
 // Schaltfläche. Unter dem ersten Feld stehen zuerst die passenden Leistungen (eine Wahl wird zu einem
 // Schildchen im Feld), danach die Betriebe (eine Wahl führt direkt zum Eintrag). Gesucht wird erst
 // beim Klick auf Suchen; die Treffer stehen auf /suche/ (public/search.js).
-const { site, attributes } = Astro.props;
+const { site, attributes, label = '' } = Astro.props;
 // Das Beispiel im Platzhalter ist die Bezeichnung des ersten Merkmals aus attributes.json, also ein
 // Wort dieser Branche, nie eines aus einem anderen Handwerk.
 const example = (attributes && attributes[0] && attributes[0].label) ? attributes[0].label : 'Türöffnung';
+// Eine sichtbare Beschriftung wird nur gezeigt, wo die Gestaltung sie braucht (Startseite, Stadtseite);
+// Ziel, Feldnamen und Verhalten des Formulars bleiben unverändert.
 ---
-<form class="dir-search" id="dir-search" action="/suche/" method="get" data-index="/search-index.json" role="search" autocomplete="off">
+{label && <p class="search-label" id="dir-search-label">{label}</p>}
+<form class="dir-search" id="dir-search" action="/suche/" method="get" data-index="/search-index.json" role="search" autocomplete="off" aria-labelledby={label ? 'dir-search-label' : undefined}>
   <div class="field what">
+    <svg class="search-ico" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-3.6-3.6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
     <ul class="picked" id="filter-picked" aria-live="polite"></ul>
     <label class="sr-only" for="search-what">Firmenname oder Leistung</label>
     <input id="search-what" name="s" type="search" placeholder={`Firmenname oder Leistung, zum Beispiel „${example}“`} />

@@ -17,7 +17,8 @@ const d = site.design;
 const tokens = `--bg:${d.bg};--surface:${d.surface};--text:${d.text};--muted:${d.muted};--accent:${d.accent};--accent-text:${d.accentText};--heading-font:${d.headingFont};--body-font:${d.bodyFont};--radius:${d.radius};--shadow:${d.shadow};`
   + `--heading:${d.heading || d.text};--heading-weight:${d.headingWeight || 700};--link:${d.link || d.accent};--button-radius:${d.buttonRadius || d.radius};`
   + `--band:${d.band || d.surface};--band-text:${d.bandText || d.text};--action:${d.action || d.accent};--action-text:${d.actionText || d.accentText};`
-  + `--header-bg:${d.headerBg || d.surface};--header-text:${d.headerText || d.heading || d.text};--tint:${d.tint || d.surface};--accent2:${d.accent2 || d.accent};--band-soft:${d.bandSoft || d.bandText || d.text};--band-overlay:${d.bandOverlay || 'rgba(0,0,0,0.6)'};--gold:${d.gold || '#F5B940'};--gold-light:${d.goldLight || '#FFD86B'};--gold-deep:${d.goldDeep || '#D9950F'};`;
+  + `--header-bg:${d.headerBg || d.surface};--header-text:${d.headerText || d.heading || d.text};--tint:${d.tint || d.surface};--accent2:${d.accent2 || d.accent};--band-soft:${d.bandSoft || d.bandText || d.text};--band-overlay:${d.bandOverlay || 'rgba(0,0,0,0.6)'};--gold:${d.gold || '#F5B940'};--gold-light:${d.goldLight || '#FFD86B'};--gold-deep:${d.goldDeep || '#D9950F'};`
+  + `--card-radius:${d.cardRadius || d.radius};--card-shadow:${d.cardShadow || d.shadow};--space-section:${d.spaceSection || '4rem'};`;
 const topCities = cities.slice(0, 8);
 // Profillinks kommen aus der sameAs-Liste des Herausgebers. Nur Netzwerke mit Zeichen hier werden gezeigt.
 const SOCIAL = {
@@ -75,14 +76,18 @@ const siteSchema = path === '/' ? [
     <header class="site-header">
       <div class="wrap">
         <a class="logo" href="/">{d.logoText || site.brand}</a>
-        <nav class="nav" aria-label="Hauptnavigation">
-          <a href={countryPath}>{site.niche.title}</a>
-          {hasResources && <a href="/ratgeber/">Ratgeber</a>}
-          <a href="/festpreis-garantie/">Festpreis-Garantie</a>
-          <a href="/ueber-uns/">Über uns</a>
-          <a href="/kontakt/">Kontakt</a>
-          <a class="nav-cta" href="/eintrag-beanspruchen/">Eintrag beanspruchen</a>
-        </nav>
+        <div class="site-nav">
+          <input type="checkbox" id="nav-toggle-cb" class="nav-checkbox sr-only" />
+          <label for="nav-toggle-cb" class="nav-toggle"><span class="nav-toggle-bars" aria-hidden="true"></span><span class="sr-only">Menü öffnen und schließen</span></label>
+          <nav class="nav" aria-label="Hauptnavigation">
+            <a href={countryPath}>{site.niche.title}</a>
+            {hasResources && <a href="/ratgeber/">Ratgeber</a>}
+            <a href="/festpreis-garantie/">Festpreis-Garantie</a>
+            <a href="/ueber-uns/">Über uns</a>
+            <a href="/kontakt/">Kontakt</a>
+            <a class="nav-cta" href="/eintrag-beanspruchen/">Eintrag beanspruchen</a>
+          </nav>
+        </div>
       </div>
     </header>
     {hasHead && (

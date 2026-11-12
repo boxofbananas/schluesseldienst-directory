@@ -1,0 +1,12 @@
+---
+// Bewertungsstern als Inline-SVG statt Schriftzeichen (★/☆). Der selbst gehostete Schrift-Auszug
+// enthält diese Zeichen nicht; als Schriftzeichen erscheinen sie dort als leeres Kästchen, wo die
+// Systemschrift sie nicht hat. Das SVG hängt über currentColor an der Textfarbe und über 1em an der
+// Schriftgröße. Dekorativ, also aria-hidden.
+const { filled = true } = Astro.props;
+---
+{filled ? (
+  <svg class="star" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+) : (
+  <svg class="star star-empty" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+)}
