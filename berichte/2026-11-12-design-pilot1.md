@@ -137,7 +137,43 @@ npm run preview        # astro preview, Standard http://localhost:4321/
 Dann im Browser `http://localhost:4321/` und `http://localhost:4321/verzeichnis/baden-wuerttemberg/mannheim/`.
 Alternativ `preview-site.command` (Mac) bzw. `preview-site.bat` (Windows) im Ordner `site/`.
 
+## Korrekturrunde 1 (2026-11-12)
+
+Fünf Punkte aus deiner Durchsicht der Nachher-Screenshots, weiter im Branch `design/pilot1`,
+alle Sperren gelten:
+
+1. **Desktop-Navigation.** Ursache: Meine mobile Grundregel `.site-nav .nav { gap: 0 }` wirkte auf
+   dem Desktop weiter (fehlende Abstände), und `.site-nav .nav a { border-radius: 0 }` überschrieb
+   die Pille der CTA (eckige Ecken). Im Desktop-Zweig jetzt `gap: .4rem 1.4rem` wie in der Basis-
+   `.nav` und `border-radius: var(--button-radius)` auf der CTA. Gemessen: Abstände **22 px**, CTA-
+   Radius **999 px** — auch auf einer dritten Seite (`/ueber-uns/`, `/festpreis-garantie/`), nicht
+   nur Start- und Stadtseite.
+2. **Suchfeld.** Hero: erstem Feld mehr Breite (`grid-template-columns: minmax(0,1.95fr)…`,
+   `max-width: 640px`) — Platzhalter „Firmenname oder Leistung" nicht mehr abgeschnitten (Feld
+   274 px, kein Überlauf). Orientierungsspalte: Lupe kleiner (18 px) und Schrift kompakter
+   (.85rem), Platzhalter vollständig lesbar.
+3. **Vorspann der Startseite.** Ursache: `.page-head.band .lede { margin-inline: auto }` zentrierte
+   ihn. Mit höherer Spezifität (`.page-head.band .hero-split .lede { margin-inline: 0 }`) linksbündig.
+   Gemessen: linke Kante H1 = Vorspann = Suche = **174 px**.
+4. **Zeilenkarten dichter.** Ursache: `grid-row: 1 / span 12` erzeugte elf leere Zeilen samt
+   Zeilen-Lücken (~50 px Leerraum), und `align-items: center` drückte die H3 nach unten. Jetzt
+   stehen die Angaben im normalen Fluss (Höhe genau aus dem Inhalt), der Fuß (Telefon + „Eintrag
+   ansehen") ist absolut zentriert rechts; die großen Eigen-Margins von Bewertung und Adresse
+   weichen dem flexiblen Abstand. Kartenhöhe **213 → 175 px**, Rest-Leerraum unten **3 px**. Auf
+   1440 × 900 jetzt **fünf Einträge vollständig** im Bildschirm (sechster teilweise). Keine Angabe
+   fällt weg (H3, Sterne, Garantie-Zeile, Adresse, drei Merkmale, Telefon, Pille alle erhalten).
+5. **Mobil Orientierung hinter die Einträge.** Dokumentreihenfolge umgestellt (Einträge zuerst,
+   Orientierung danach); auf dem Desktop steht die Orientierung weiter links über Grid-Platzierung
+   (`grid-column`), unabhängig von der Dokumentreihenfolge. Mobil folgt die Orientierung damit nach
+   der Liste; die Tab-Reihenfolge (Einträge → „Anderen Ort suchen") bleibt sinnvoll.
+
+Erneut geprüft: vier Nachher-Screenshots neu; Basisvergleich über alle **4647 Seiten** weiterhin
+**0 Abweichungen** (Titel/Description/Canonical/robots/H1/JSON-LD), Linkziele erhalten, Sitemap
+**2823**; kein horizontaler Überlauf bei 320/390/768/1024/1440 auf Startseite, Mannheim, Leipzig
+und Neunkirchen. Geänderte Dateien: `global.css` (die fünf Korrekturen) und die Stadtseite
+`verzeichnis/[bundesland]/[stadt]/index.astro` (Reihenfolge von Orientierung und Einträgen).
+
 ## Abschluss
 
 Zusammenführen nach `main` und Ausliefern geschehen erst nach deiner Freigabe in einem eigenen
-Auftrag. Höchstens zwei gezielte Korrekturrunden sind noch offen.
+Auftrag. Eine gezielte Korrekturrunde ist noch offen (von zwei).
