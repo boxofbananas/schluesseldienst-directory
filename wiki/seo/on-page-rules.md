@@ -83,7 +83,7 @@ Kanonische absolute Adresse, `robots` nach [[launch-lean]] (indexiert oder `noin
 
 Keiner in Fassung 1. Eine Stadt mit mehr als 60 Einträgen teilt nur dann nach Stadtteilen,
 wenn die Daten es tragen; sonst die Karten bei 60 abschneiden (geordnet nach bezahltem Platz,
-dann Bewertung × Zahl der Bewertungen) und den Rest über einen Block
+dann Festpreis-Garantie, dann Bewertung × Zahl der Bewertungen) und den Rest über einen Block
 „Alle [N] Schlüsseldienste in [Stadt]" erreichbar halten. Große deutsche Städte erreichen
 diese Zahl leicht, also wird der Block gebaut und nicht als Ausnahme behandelt.
 

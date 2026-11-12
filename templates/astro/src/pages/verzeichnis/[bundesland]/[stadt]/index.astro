@@ -20,9 +20,10 @@ const city = dir.cityBySlug[key];
 const regionPath = `/verzeichnis/${city.regionSlug}/`;
 const base = `https://${site.domain}`;
 const title = `${site.niche.title} in ${city.name} (${city.count} eingetragen) | ${site.brand}`;
-// Meta-Description: dieselbe Reihenfolge wie die sichtbare Sortierzeile (bezahlte Plätze →
-// Festpreis-Garantie → Rest nach Bewertung), knapp gehalten.
-const description = `${city.count} ${site.niche.plural} in ${city.name}, ${city.regionName}: bezahlte Plätze, dann Festpreis-Garantie, dann nach Bewertung. Mit Telefonnummer und Leistungen.`;
+// Meta-Description: aus den Daten (Zahl + Stadt, ohne Bundesland, ohne Spitzenbetrieb). Die
+// Reihenfolge-Formel steht sichtbar auf der Seite, nicht im Suchtreffer. Gilt auf jeder
+// Stadtseite, auch wo kein Betrieb eine Festpreis-Garantie hat. Länge im längsten Fall < 160.
+const description = `${city.count} ${site.niche.plural} in ${city.name} mit Bewertungen, Telefonnummern und Leistungen. Wer nennt vorab seinen Preis für die Türöffnung, wer nicht?`;
 const cards = city.listings.slice(0, site.maxCardsPerCity || 60);
 const rest = city.listings.slice(cards.length);
 const intro = city.copy?.intro || [

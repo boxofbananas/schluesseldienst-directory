@@ -783,3 +783,16 @@ Zahlen, was auf Freigabe wartet.
   Ersatz-Vorspann, Meta, Festpreis-Absatz, /premium/-Sätze) und wurden mit den drei Stellen
   nachgetragen; Template baut grün, Build und Template gleicher Stand. check_live.py 2823 grün,
   Live-Stichprobe bestätigt. Bericht berichte/2026-11-12-offenlegung-abschluss.md.
+- **2026-11-12** **Neue Stadtseiten-Meta, /festpreis-garantie/ durchs Textgate, Wiki-Zeile (main, live, 5eaf0d86).**
+  (1) Stadtseiten-Meta neu gefasst: die Reihenfolge-Formel raus aus dem Suchtreffer, stattdessen Zahl +
+  Stadt (ohne Bundesland, ohne Spitzenbetrieb) plus „Wer nennt vorab seinen Preis für die Türöffnung, wer
+  nicht?". Gilt auf jeder Stadtseite. Über alle 787 gemessen: kürzeste 133 (Hof), längste 156 (Neustadt
+  a.d.W.), 0 über 160. Textgate Mannheim ohne --erlaube-rechtswoerter BESTANDEN. Frageform statt Aussage,
+  weil die Aussageform bei den längsten Namen die 160 riss. Build und Template. (2) /festpreis-garantie/
+  durchs Textgate (mit Flag): 11 Gedankenstriche durch Satzbau ersetzt (5 Zeitbereiche 7–20/0–7 → „bis",
+  6 frei stehende → Komma/Satzteilung); Branchenwort ins H1 (der Linter prüft den ersten Block = H1) und
+  in den ersten Absatz; Zitat „ab 49 Euro" (verbotene Lockangebot-Floskel, forbidden_words.txt:122)
+  sinnerhaltend zu „niedriger Lockpreis am Telefon" umformuliert. Tatsachen unverändert. Build und
+  Template, beide BESTANDEN. (3) wiki/seo/on-page-rules.md:85 (nicht framework/) auf die Reihenfolge
+  gebracht: Kartenabschneidung „bezahlter Platz, dann Festpreis-Garantie, dann Bewertung". check_live.py
+  2823 grün, Live-Stichprobe bestätigt. Bericht berichte/2026-11-12-meta-und-festpreis-textgate.md.
