@@ -21,8 +21,9 @@ const city = dir.cityBySlug[key];
 const regionPath = `/verzeichnis/${city.regionSlug}/`;
 const base = `https://${site.domain}`;
 const title = `${site.niche.title} in ${city.name} (${city.count} eingetragen) | ${site.brand}`;
-const top = city.listings.find((l) => l.reviews > 0);
-const description = `${city.count} ${site.niche.plural} in ${city.name}, ${city.regionName}, geordnet nach Bewertung und Anzahl der Bewertungen.${top ? ` Am besten bewertet: ${top.name} (${fmtRating(top.rating)} aus ${fmtInt(top.reviews)} Bewertungen).` : ''} Telefonnummern und Leistungen zu jedem Eintrag.`;
+// Meta-Description: dieselbe Reihenfolge wie die sichtbare Sortierzeile (bezahlte Plätze →
+// Festpreis-Garantie → Rest nach Bewertung), knapp gehalten (Mannheim 148 Zeichen).
+const description = `${city.count} ${site.niche.plural} in ${city.name}, ${city.regionName}: bezahlte Plätze, dann Festpreis-Garantie, dann nach Bewertung. Mit Telefonnummer und Leistungen.`;
 const cards = city.listings.slice(0, site.maxCardsPerCity || 60);
 const rest = city.listings.slice(cards.length);
 const intro = city.copy?.intro || [

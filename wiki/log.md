@@ -771,3 +771,15 @@ Zahlen, was auf Freigabe wartet.
   Sterne jetzt als Inline-SVG wie Star.astro (beide Render-Pfade), Build und Template; live geprüft
   (SVG-Sterne, kein Tofu). Gebaut, ausgeliefert, check_live.py 2823 grün. Bericht
   `berichte/2026-11-12-sortierung-offenlegen.md`.
+- **2026-11-12** **Offenlegung abgeschlossen: drei Reststellen + Template-Nachtrag (main, live, cfbc517b).**
+  Die drei genannten Stellen berichtigt, überall die Reihenfolge der Sortierzeile (bezahlte Plätze →
+  Festpreis-Garantie → Rest nach Bewertung): Bundesland-lede, FeaturedBand-Frei-Karte und die
+  Stadtseiten-Meta-Description. Meta-Description Mannheim 265 → 148 Zeichen (unter Googles ~160;
+  on-page-rules gibt keine Description-Länge vor, nur Titel ≤ 60); der bestbewertete Betrieb entfällt,
+  um unter 160 zu bleiben. Textgate an den gebauten dist-Seiten: Stadt (Mannheim) und Bundesland (BW)
+  BESTANDEN ohne --erlaube-rechtswoerter; /premium/ BESTANDEN mit Flag; /festpreis-garantie/
+  DURCHGEFALLEN nur an vorbestehenden Punkten (Build-Datei == HEAD, mein Absatz fügt 0 Gedankenstriche
+  hinzu). Template-Nachtrag: alle Copy-Änderungen der vorigen Runde fehlten im Template (Sortierzeile,
+  Ersatz-Vorspann, Meta, Festpreis-Absatz, /premium/-Sätze) und wurden mit den drei Stellen
+  nachgetragen; Template baut grün, Build und Template gleicher Stand. check_live.py 2823 grün,
+  Live-Stichprobe bestätigt. Bericht berichte/2026-11-12-offenlegung-abschluss.md.

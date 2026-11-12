@@ -47,7 +47,7 @@ const faqs = [
   <Fragment slot="head">
     <Breadcrumbs site={site} items={[{ name: 'Startseite', href: '/' }, { name: site.niche.title, href: countryPath }, { name: region.name, href: region.path }]} />
     <h1>{site.niche.title} in {region.name}, nach Stadt</h1>
-    <p class="lede">{fmtInt(region.count)} {site.niche.plural} in {fmtInt(region.cities.length)} {region.cities.length === 1 ? 'Stadt' : 'Städten'}. Jede Stadtseite ordnet die Betriebe nach Bewertung und Anzahl der Bewertungen; bezahlte Platzierungen sind gekennzeichnet.</p>
+    <p class="lede">{fmtInt(region.count)} {site.niche.plural} in {fmtInt(region.cities.length)} {region.cities.length === 1 ? 'Stadt' : 'Städten'}. Jede Stadtseite führt zuerst die bezahlten Plätze, dann die Betriebe mit Festpreis-Garantie und danach alle übrigen nach Bewertung und Anzahl der Bewertungen.</p>
     <ul class="keyfacts">
       <li><b>{fmtInt(region.count)}</b>eingetragen</li>
       <li><b>{fmtInt(region.cities.length)}</b>{region.cities.length === 1 ? 'Stadtseite' : 'Stadtseiten'}</li>
