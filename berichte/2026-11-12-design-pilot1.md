@@ -173,7 +173,36 @@ Erneut geprüft: vier Nachher-Screenshots neu; Basisvergleich über alle **4647 
 und Neunkirchen. Geänderte Dateien: `global.css` (die fünf Korrekturen) und die Stadtseite
 `verzeichnis/[bundesland]/[stadt]/index.astro` (Reihenfolge von Orientierung und Einträgen).
 
+## Korrekturrunde 2 (2026-11-12)
+
+Drei Punkte, Branch `design/pilot1`, Sperren wie gehabt. **Damit sind die zwei Korrekturrunden
+aufgebraucht.**
+
+1. **Hero-Suche, Platzhalter.** Richtig gemessen: die `scrollWidth`-gegen-`clientWidth`-Prüfung
+   kappt bei Passung und verdeckte den Überlauf. Per Werteinsetzung und Canvas-Textbreite gemessen,
+   war der Platzhalter „Firmenname oder Leistung" bei **1024 um 31 px abgeschnitten** und bei
+   1280/1440 ohne Luft. Behoben: der zweispaltige Hero greift erst **ab 1160 px** (bei 1024
+   einspaltig, Suche über die volle Breite), und das erste Feld ist breiter (`2.9fr`, `max-width
+   660px`). Echter Rand jetzt **148 px @1024, 43 @1160, 42 @1280, 39 @1440** — voll lesbar.
+2. **Telefon in der Zeilenkarte.** `white-space: nowrap` auf `.card .phone` (Nummer bricht nie um),
+   und der Fuß richtet seine Breite nach der längsten Nummer (`width: max-content`, Pille zieht
+   gleich). Gemessen: **0 von 18** Nummern umgebrochen, längste „+49 621 86176242" (170 px), keine
+   Überlappung mit dem Inhalt (Karte hält rechts 230 px frei).
+3. **Schriftgröße in Eingabefeldern ≥ 16 px.** Der Orient-Platzhalter stand vorher über
+   verkleinerte Schrift (13,6 px) — iOS zoomt beim Fokus. Zurück auf 16 px (geerbt, 16,8 px); statt
+   die Schrift zu verkleinern, entfällt in der Orientierungsspalte die Lupe und die Spalte ist etwas
+   breiter (`minmax(278px, 310px)`) — Platzhalter passt mit **27 px** Rand. Alle Eingabefelder der
+   Seite geprüft: auch das Antragsformular lag bei **13,3 px**, weil die `font: inherit`-Regel das
+   `<select>` nicht erfasste; `select` ergänzt → jetzt 17 px (Desktop) / 16 px (mobil). Minimum über
+   Startseite, Verzeichnis, Stadtseite, Beanspruchungs- und Antragsformular bei 1440 und 390 px:
+   **≥ 16 px**.
+
+Erneut geprüft: vier Nachher-Screenshots neu; Basisvergleich über alle **4647 Seiten** weiterhin
+**0 Abweichungen**, Linkziele erhalten, Sitemap **2823**; kein Überlauf 320–1440 (Startseite,
+Mannheim, Leipzig, Neunkirchen); fünf Einträge auf 1440 × 900 bleiben im Bild. Geänderte Datei:
+`global.css` (nur die drei Korrekturen, keine Astro-Änderung in dieser Runde).
+
 ## Abschluss
 
 Zusammenführen nach `main` und Ausliefern geschehen erst nach deiner Freigabe in einem eigenen
-Auftrag. Eine gezielte Korrekturrunde ist noch offen (von zwei).
+Auftrag. Die beiden Korrekturrunden sind aufgebraucht.

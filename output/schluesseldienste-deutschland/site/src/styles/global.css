@@ -392,7 +392,7 @@ main.wrap > .tiers:first-child { margin-top: -3.5rem; }
 .steps li p { margin: 0; }
 form.claim-form { display: grid; gap: .9rem; max-width: 560px; }
 form.claim-form label { display: grid; gap: .3rem; font-weight: 500; }
-form.claim-form input, form.claim-form textarea { font: inherit; padding: .6rem .7rem; border: 1px solid #c9c6bf; border-radius: var(--radius); background: var(--surface); color: var(--text); width: 100%; }
+form.claim-form input, form.claim-form textarea, form.claim-form select { font: inherit; padding: .6rem .7rem; border: 1px solid #c9c6bf; border-radius: var(--radius); background: var(--surface); color: var(--text); width: 100%; }
 form.claim-form .check { grid-template-columns: auto 1fr; align-items: center; gap: .6rem; font-weight: 400; min-height: 44px; padding: .3rem 0; cursor: pointer; }
 form.claim-form .check input { width: 1.4rem; height: 1.4rem; }
 pre.snippet { background: var(--surface); box-shadow: var(--shadow); border-radius: var(--radius); padding: 1rem; overflow: auto; font-size: .85rem; }
@@ -498,7 +498,9 @@ textarea:focus-visible, summary:focus-visible, [tabindex]:focus-visible {
 .ov-name { font-weight: 700; }
 .ov-n { color: var(--muted); font-size: .85rem; font-variant-numeric: tabular-nums; }
 
-@media (min-width: 1024px) {
+/* Zweispaltiger Hero erst ab 1160px: bei 1024 einspaltig, damit die Suche die
+   volle Breite hat und der Platzhalter „Firmenname oder Leistung" hineinpasst. */
+@media (min-width: 1160px) {
   .page-head.band:has(.hero-split) { position: relative; overflow: hidden; }
   /* Helle Fläche rechts mit gerader, leicht schräger Kante zum Navy-Bereich. */
   .page-head.band:has(.hero-split)::before {
@@ -516,7 +518,7 @@ textarea:focus-visible, summary:focus-visible, [tabindex]:focus-visible {
   .overview-card { margin: 0 0 0 auto; }
   /* Erstem Feld mehr Breite, damit der Platzhalter „Firmenname oder Leistung"
      nicht abschneidet. */
-  .hero-split .dir-search { max-width: 640px; grid-template-columns: minmax(0, 1.95fr) minmax(0, 1fr) auto; }
+  .hero-split .dir-search { max-width: 660px; grid-template-columns: minmax(0, 2.9fr) minmax(0, 1fr) auto; }
 }
 
 /* Stadtseite, Ergebnisbereich: links schmale Orientierungsspalte auf getönter
@@ -531,11 +533,12 @@ textarea:focus-visible, summary:focus-visible, [tabindex]:focus-visible {
 .city-orient .search-label { font-size: .92rem; margin-bottom: .45rem; }
 .city-orient .dir-search { grid-template-columns: 1fr; gap: .5rem; margin: 0; max-width: none; background: transparent; padding: 0; }
 .city-orient .dir-search .field { background: var(--bg); border-radius: 999px; }
-.city-orient .dir-search .field.what { padding-left: .35rem; }
+.city-orient .dir-search .field.what { padding-left: .9rem; }
 .city-orient .dir-search .field + .field::before { display: none; }
-/* Schmale Spalte: Platzhalter vollständig lesbar — Lupe kleiner, Schrift kompakter. */
-.city-orient .dir-search .search-ico { width: 18px; height: 18px; margin: 0 .05rem 0 .3rem; }
-.city-orient .dir-search input { background: transparent; font-size: .85rem; }
+/* Schmale Spalte: Schrift bleibt bei 16px+ (iOS-Zoom). Statt die Schrift zu
+   verkleinern, entfällt hier die Lupe, damit der volle Platzhalter hineinpasst. */
+.city-orient .dir-search .search-ico { display: none; }
+.city-orient .dir-search input { background: transparent; }
 .city-orient .dir-search .btn.action { width: 100%; justify-content: center; }
 .orient-links { display: flex; flex-direction: column; margin-top: 1.1rem; }
 .orient-links a { padding: .6rem 0; border-top: 1px solid rgba(11, 37, 69, .12); color: var(--heading); text-decoration: none; font-weight: 500; font-size: .95rem; min-height: 44px; display: flex; align-items: center; }
@@ -544,7 +547,7 @@ textarea:focus-visible, summary:focus-visible, [tabindex]:focus-visible {
 
 /* Kartenfußzeile: Telefon als tel:-Link, ruhige "Eintrag ansehen"-Pille. */
 .card-foot { margin-top: auto; padding-top: .7rem; display: flex; flex-wrap: wrap; align-items: center; gap: .55rem .9rem; }
-.card .phone { margin-top: 0; padding-top: 0; min-height: 44px; }
+.card .phone { margin-top: 0; padding-top: 0; min-height: 44px; white-space: nowrap; }
 .card-cta { display: inline-flex; align-items: center; justify-content: center; min-height: 40px; background: var(--tint); color: var(--heading); padding: .5rem 1.15rem; border-radius: var(--button-radius); font-weight: 600; font-size: .95rem; text-decoration: none; white-space: nowrap; }
 .card-cta:hover { background: var(--heading); color: #fff; }
 
@@ -552,7 +555,7 @@ textarea:focus-visible, summary:focus-visible, [tabindex]:focus-visible {
   /* Orientierung links, Einträge rechts — über Grid-Platzierung, unabhängig von
      der Dokumentreihenfolge (die Einträge stehen jetzt zuerst, damit sie mobil
      vor der Orientierung erscheinen; die Tab-Reihenfolge bleibt sinnvoll). */
-  .city-results { display: grid; grid-template-columns: minmax(230px, 280px) minmax(0, 1fr); gap: 2.5rem; align-items: start; }
+  .city-results { display: grid; grid-template-columns: minmax(278px, 310px) minmax(0, 1fr); gap: 2.5rem; align-items: start; }
   .city-results > .city-orient { grid-column: 1; grid-row: 1; position: sticky; top: 1rem; margin-bottom: 0; }
   .city-results > .city-results-main { grid-column: 2; grid-row: 1; }
   .city-results-main .grid { grid-template-columns: 1fr; gap: .5rem; }
@@ -560,9 +563,11 @@ textarea:focus-visible, summary:focus-visible, [tabindex]:focus-visible {
      keine Phantomzeilen), Telefon und Pille rechts als absolut zentrierter Fuß.
      Straffer Innenabstand, rechts Platz für den Fuß freigehalten. Die großen
      Eigen-Margins von Bewertung und Adresse weichen dem flexiblen gap. */
-  .city-results .card { position: relative; gap: .3rem; padding: .85rem 1.6rem; padding-right: 204px; min-height: 120px; justify-content: center; }
+  .city-results .card { position: relative; gap: .3rem; padding: .85rem 1.6rem; padding-right: 230px; min-height: 120px; justify-content: center; }
   .city-results .card > .rating, .city-results .card > .meta, .city-results .card > .chips { margin: 0; }
-  .city-results .card > .card-foot { position: absolute; top: 50%; right: 1.6rem; transform: translateY(-50%); width: 168px; margin: 0; padding: 0; border: 0; flex-direction: column; align-items: stretch; gap: .5rem; }
+  /* Fuß rechts: Breite richtet sich nach der längsten Nummer (width: max-content),
+     die Pille zieht gleich; die Nummer bricht nie um (.card .phone nowrap). */
+  .city-results .card > .card-foot { position: absolute; top: 50%; right: 1.6rem; transform: translateY(-50%); width: max-content; min-width: 150px; max-width: 198px; margin: 0; padding: 0; border: 0; flex-direction: column; align-items: stretch; gap: .5rem; }
   .city-results .card > .card-foot .card-cta { width: 100%; }
 }
 
