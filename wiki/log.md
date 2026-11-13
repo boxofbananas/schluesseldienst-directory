@@ -843,3 +843,23 @@ Zahlen, was auf Freigabe wartet.
   und page-types auf --cities umgestellt. Voller Textgate-Lauf über city-copy.json: 787 bestanden,
   0 durchgefallen (die 725 waren Fehlalarme; keine echten Befunde), deckungsgleich mit
   check_city_copy.py. Kein Deploy. Bericht berichte/2026-11-13-textgate-city-sizes-fest.md.
+
+- 2026-11-13 — Zwei Änderungen (Build + Template, Deploy ff729a59, check_live 2821 grün).
+  (1) Mannheim fest auf die Startseite: neue Liste site.json pinnedCities (Stadtschlüssel
+  regionSlug/slug), DirectoryHub garantiert diese Städte in der 20er-Auswahl, Gesamtzahl bleibt 20,
+  Rest nach Eintragszahl. Mannheim lag mit 17 auf Rang 21 (Bonn hält Rang 20, alphabetisch davor);
+  nach dem Pin steht Mannheim an Stelle 20, Bonn weicht (live geprüft). (2) Der gefolgte Link folgt
+  der Festpreis-Garantie, nicht der Bezahlung: auf der Eintragsseite und in SocialLinks jetzt
+  linkRel — geprueft -> rel="noopener" (Website + Profile ohne nofollow), bezahlter Platz ohne
+  Garantie -> rel="sponsored", sonst nofollow; owned wird nicht gelesen. Build: Website-Links ohne
+  nofollow 2 -> 36 (= 18 Einträge x 2, alle geprüft), sponsored 0 (Merz ist geprüft), Rest nofollow.
+  Texte: /premium/ „alle Links ohne nofollow" gestrichen (sponsored statt nofollow; ohne nofollow
+  nur mit Garantie), /festpreis-garantie/ Satz ergänzt (Garantie -> Link ohne nofollow). Textgate
+  gebaut: /premium/ BESTANDEN (auf 396 Wörter gekürzt), /festpreis-garantie/ Inhalt BESTANDEN,
+  einzig die weiche Obergrenze 1200 überschritten (1512, vorbestehend, +24 durch den Satz) — nicht
+  umgeschrieben, Empfehlung den copy-gate-Richtwert dieser Seite anheben. Weitere Fundstellen der
+  alten Regel: featured-tiers.md und monetization-slots.md geändert; AGB nur gemeldet (kein
+  Follow-Versprechen, A3 deckt sich mit sponsored); die rulebeschreibenden Wiki-Seiten (on-page-rules,
+  site-architecture, page-types, siegel-programm, authority-and-links, footprint-rules, README)
+  genannt, nicht geändert (Quelle ist konventionen). Regel nicht in konventionen eingetragen, Wortlaut
+  vorgeschlagen (Daniel ändert die Datei frei). Bericht berichte/2026-11-13-mannheim-pin-und-follow-garantie.md.

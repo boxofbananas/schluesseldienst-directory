@@ -130,6 +130,7 @@
     }
   ],
   "sortAttribute": "",
+  "pinnedCities": [],
   "foldMaxKm": 30,
   "cityMinPopulation": 20000,
   "cityFilter": false,

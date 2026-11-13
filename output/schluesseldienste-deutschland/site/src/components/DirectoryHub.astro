@@ -16,8 +16,14 @@ const confirmed = (l) => !site.sortAttribute || l.attrs.some((a) => a.key === si
 const spotlight = [...listings].filter((l) => !l.thin && !l.featured && !homeFeatured.includes(l) && l.rating >= 4.5 && l.reviews >= 25 && confirmed(l))
   .sort((a, b) => b.score - a.score || b.reviews - a.reviews).slice(0, 6);
 // Die 20 größten Städte als Karten; das vollständige Verzeichnis A bis Z steht auf /verzeichnis/,
-// damit die Startseite nicht auf 787 Stadtlinks aufläuft.
-const biggest = cities.slice(0, 20);
+// damit die Startseite nicht auf 787 Stadtlinks aufläuft. Städte in site.pinnedCities
+// (Stadtschlüssel regionSlug/slug) stehen immer in dieser Auswahl, auch wenn ihre Eintragszahl
+// sie sonst herausfallen ließe; die Gesamtzahl bleibt 20, die übrigen nach Eintragszahl
+// (cities ist schon so sortiert).
+const pinned = new Set(site.pinnedCities || []);
+const biggest = [...cities.filter((c) => pinned.has(c.key)), ...cities.filter((c) => !pinned.has(c.key))]
+  .slice(0, 20)
+  .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, 'de'));
 ---
   <section class="bleed tinted after-hero">
     <dl class="stat-cards">

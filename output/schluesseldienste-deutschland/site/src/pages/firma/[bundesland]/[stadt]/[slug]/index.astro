@@ -27,7 +27,10 @@ const noindex = dir.noindexPaths.has(l.path);
 // Die Leistungen, die der Betrieb auf seiner eigenen Website bestätigt: H3 unter "Leistungen und
 // Angaben" und Offers im Schema.
 const services = l.attrs.filter((a) => a.value === 'true');
-const followed = l.optimized;
+// Der Link ohne nofollow folgt der Festpreis-Garantie, nicht der Bezahlung ([[konventionen]],
+// [[footprint-rules]]): geprüft -> Website- und Profil-Links ohne nofollow; bezahlter Platz ohne
+// Garantie -> rel="sponsored"; alle übrigen -> nofollow. `owned` wird nicht gelesen.
+const linkRel = l.geprueft ? 'noopener' : (l.optimized ? 'sponsored noopener' : 'nofollow noopener');
 // Die Leistungsseiten, auf denen dieser Betrieb steht, und die verwandten Einträge aus load.mjs.
 const servicePages = dir.services.filter((s) => services.some((a) => a.key === s.key));
 const relatedCity = l.related.length && l.related[0].citySlug !== l.citySlug ? l.related[0].city : l.city;
@@ -94,10 +97,10 @@ const mapSrc = showMap ? `https://www.google.com/maps?q=${l.lat},${l.lng}&output
       <ul>
         {l.phone && <li><a href={telHref(l.phone)}>{formatPhone(l.phone)}</a></li>}
         <li>{l.areaService ? `Betrieb ohne Ladengeschäft, im Einsatz in ${l.city}, ${l.regionName}` : l.address}</li>
-        {l.website && <li><a href={l.website} rel={followed ? 'noopener' : 'nofollow noopener'} target="_blank">Website</a></li>}
+        {l.website && <li><a href={l.website} rel={linkRel} target="_blank">Website</a></li>}
         {l.mapLink && <li><a href={l.mapLink} rel="nofollow noopener" target="_blank">Bei Google Maps ansehen</a></li>}
         {l.verifiedOnGoogle && <li class="meta">Eintrag bei Google bestätigt</li>}
-        {l.socials.length > 0 && <li><SocialLinks socials={l.socials} name={l.name} followed={followed} /></li>}
+        {l.socials.length > 0 && <li><SocialLinks socials={l.socials} name={l.name} rel={linkRel} /></li>}
       </ul>
     </div>
     {l.hours.length > 0 && (
@@ -135,7 +138,7 @@ const mapSrc = showMap ? `https://www.google.com/maps?q=${l.lat},${l.lng}&output
       {directions && <a class="btn side-btn" href={directions} rel="nofollow noopener" target="_blank">Route planen</a>}
       <ul class="side-links">
         {l.phone && <li><a href={telHref(l.phone)}>{formatPhone(l.phone)}</a></li>}
-        {l.website && <li><a href={l.website} rel={followed ? 'noopener' : 'nofollow noopener'} target="_blank">Website</a></li>}
+        {l.website && <li><a href={l.website} rel={linkRel} target="_blank">Website</a></li>}
         {l.mapLink && <li><a href={l.mapLink} rel="nofollow noopener" target="_blank">Bei Google Maps ansehen</a></li>}
       </ul>
     </div>

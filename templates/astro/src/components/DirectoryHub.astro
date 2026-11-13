@@ -14,8 +14,14 @@ const excerpt = (t, n = 28) => { const w = (t || '').split(/\s+/); return w.leng
 const confirmed = (l) => !site.sortAttribute || l.attrs.some((a) => a.key === site.sortAttribute && a.value === 'true');
 const spotlight = [...listings].filter((l) => !l.thin && !l.featured && !homeFeatured.includes(l) && l.rating >= 4.5 && l.reviews >= 25 && confirmed(l))
   .sort((a, b) => b.score - a.score || b.reviews - a.reviews).slice(0, 6);
-// Die 20 größten Städte als Karten; darunter das vollständige Verzeichnis A bis Z.
-const biggest = cities.slice(0, 20);
+// Die 20 größten Städte als Karten; darunter das vollständige Verzeichnis A bis Z. Städte in
+// site.pinnedCities (Stadtschlüssel regionSlug/slug) stehen immer in dieser Auswahl, auch wenn
+// ihre Eintragszahl sie sonst herausfallen ließe; die Gesamtzahl bleibt 20, die übrigen nach
+// Eintragszahl (cities ist schon so sortiert).
+const pinned = new Set(site.pinnedCities || []);
+const biggest = [...cities.filter((c) => pinned.has(c.key)), ...cities.filter((c) => !pinned.has(c.key))]
+  .slice(0, 20)
+  .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, 'de'));
 // Jede Stadtseite, nach Anfangsbuchstaben gruppiert.
 const cityGroups = [...cities].sort((a, b) => a.name.localeCompare(b.name, 'de')).reduce((acc, c) => { const L = c.name[0].toUpperCase(); const g = acc.find((x) => x.letter === L); if (g) g.cities.push(c); else acc.push({ letter: L, cities: [c] }); return acc; }, []);
 ---

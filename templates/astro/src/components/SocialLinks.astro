@@ -1,8 +1,9 @@
 ---
 // Eine Reihe von Profilzeichen zu einem Eintrag. Die Profile stammen von der Website des Betriebs
-// (scripts/fetch_sites.py --socials, dann scripts/add_socials.py). nofollow, solange der Eintrag
-// kein Premium-Eintrag und kein Premium-Platz ist.
-const { socials, name, followed = false } = Astro.props;
+// (scripts/fetch_sites.py --socials, dann scripts/add_socials.py). Das `rel` kommt von der
+// Eintragsseite und folgt der Festpreis-Garantie: ohne nofollow bei geprüftem Betrieb,
+// rel="sponsored" bei bezahltem Platz ohne Garantie, sonst nofollow.
+const { socials, name, rel = 'nofollow noopener' } = Astro.props;
 const ICON = {
   facebook: ['Facebook', 'M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7A10 10 0 0 0 22 12z'],
   instagram: ['Instagram', 'M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM21.9 8.1c-.1-1.7-.5-3.2-1.7-4.4S17.6 2.2 15.9 2.1C14.6 2 9.4 2 8.1 2.1 6.4 2.2 4.9 2.6 3.7 3.8S2.2 6.4 2.1 8.1C2 9.4 2 14.6 2.1 15.9c.1 1.7.5 3.2 1.7 4.4s2.7 1.6 4.4 1.7c1.3.1 6.5.1 7.8 0 1.7-.1 3.2-.5 4.4-1.7s1.6-2.7 1.7-4.4c.1-1.3.1-6.5-.2-7.8zM19.8 18a3.2 3.2 0 0 1-1.8 1.8c-1.3.5-4.3.4-5.7.4s-4.4.1-5.7-.4A3.2 3.2 0 0 1 4.8 18c-.5-1.3-.4-4.3-.4-5.7s-.1-4.4.4-5.7A3.2 3.2 0 0 1 6.6 4.8c1.3-.5 4.3-.4 5.7-.4s4.4-.1 5.7.4a3.2 3.2 0 0 1 1.8 1.8c.5 1.3.4 4.3.4 5.7s.1 4.4-.4 5.7z'],
@@ -17,7 +18,7 @@ const items = socials.filter((s) => ICON[s.network]);
 {items.length > 0 && (
   <span class="socials">
     {items.map((s) => (
-      <a href={s.url} rel={followed ? 'noopener' : 'nofollow noopener'} target="_blank" title={`${name} auf ${ICON[s.network][0]}`}>
+      <a href={s.url} rel={rel} target="_blank" title={`${name} auf ${ICON[s.network][0]}`}>
         <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d={ICON[s.network][1]} fill="currentColor" /></svg>
         <span class="sr-only">{ICON[s.network][0]}</span>
       </a>

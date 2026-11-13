@@ -13,7 +13,7 @@ Zahlungslinks stehen in `templates/featured-tiers.md`.
 | Stufe | In Fassung 1? | Was die Site braucht |
 |---|---|---|
 | Werbebanner | Nein (Vermarkter wollen etwa 250.000 Besucher im Monat) | nichts |
-| **Premium-Eintrag, 97 € im Jahr** (der leichteste Verkauf) | **Ja** | der ausgebaute Eintragszustand (Fotos, alle Links gefolgt, Karte nach Klick), eine Spalte `premium`; der Garantie-Nachweis gehört zu keiner Stufe |
+| **Premium-Eintrag, 97 € im Jahr** (der leichteste Verkauf) | **Ja** | der ausgebaute Eintragszustand (Fotos, Karte nach Klick, Website- und Profil-Links mit `rel="sponsored"` statt nofollow), eine Spalte `premium`; der gefolgte Link ohne nofollow und der Garantie-Nachweis gehören zur Festpreis-Garantie, nicht zu einer Stufe |
 | **Stadt-Premium, 29 € im Monat** | **Ja** | das Premium-Band auf jeder Stadtseite (`featured=city`), die Seite `/premium/` mit Stufen und Zahlungslinks, eine Spalte `featured`, die Gate 5 liest. Das **Startseiten-Band** speist eigens die Bundesland-Stufe (`featured=state`), nicht der Stadt-Platz (siehe „Das Startseiten-Band") |
 | **Top-Platzierung, 250 € einmalig** | **Ja** | die Stadtseite **ist** die Liste „Die besten Schlüsseldienste in [Stadt]"; eine Spalte `best_of_rank` heftet den bezahlten Platz fest |
 | Landkreis-Stufe, Bundesland-Stufe | Später zu aktivieren | die Felder stehen im Template, werden aber erst verkauft, wenn ein Stadt-Platz verkauft ist |
@@ -61,10 +61,11 @@ E-Mail-Domain passt zur Website; die Telefonnummer passt zur Google-Zeile. Dann 
 ## Die beiden Eintragszustände
 
 - **Einfach (nicht beansprucht):** Name, Anschrift, Telefonnummer, Bewertung, Zahl der
-  Bewertungen, Merkmale, Beschreibung, Kartenplatzhalter, Website-Link mit `nofollow`. Keine
+  Bewertungen, Merkmale, Beschreibung, Kartenplatzhalter, Website-Link mit `nofollow` (ohne
+  nofollow nur mit Festpreis-Garantie). Keine
   Fotos, keine Profillinks. Dazu „Noch keine Festpreis-Garantie", solange keine Garantie vorliegt.
-- **Ausgebaut (beansprucht mit Premium oder bezahlter Stufe):** Fotos vom Inhaber, alle Links
-  gefolgt (Website und Profile), die Karte nach Klick, Öffnungszeiten. Die Garantie mit
+- **Ausgebaut (beansprucht mit Premium oder bezahlter Stufe):** Fotos vom Inhaber, die Website-
+  und Profil-Links mit `rel="sponsored"` statt nofollow (ohne nofollow nur mit Garantie), die Karte nach Klick, Öffnungszeiten. Die Garantie mit
   ihren Preisen zeigt jeder Eintrag, der sie hat, in beiden Zuständen. Diese Lücke ist das Verkaufsargument: „Sie haben einen Eintrag, und er ist nicht
   ausgebaut."
 
@@ -74,8 +75,8 @@ Preise, Zahlungslinks und der Garantie-Nachweis stehen in `templates/featured-ti
 Kurzfassung:
 
 - **Premium-Eintrag, 97 € im Jahr:** der ausgebaute Zustand.
-- **Stadt-Premium, 29 € im Monat:** oberste Karte auf einer Stadtseite, gefolgter Link, Foto
-  (`featured` = `city`).
+- **Stadt-Premium, 29 € im Monat:** oberste Karte auf einer Stadtseite, Link mit `rel="sponsored"`
+  statt nofollow, Foto (`featured` = `city`).
 - **Top-Platzierung, 250 € einmalig:** fester Platz in der Liste „Die besten Schlüsseldienste
   in [Stadt]" (`best_of_rank` 1 bis 3), dazu eine Pressemitteilung über den Betrieb.
 - Landkreis- und Bundesland-Stufe: **später zu aktivieren**, nicht verkaufen, bevor ein

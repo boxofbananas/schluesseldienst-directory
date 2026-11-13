@@ -20,8 +20,8 @@ so steht sie auch auf den Schaltflächen der Site.
 
 | Stufe | Preis | Platzierung | Spalte | Zahlungslink |
 |---|---|---|---|---|
-| **Premium-Eintrag** | **97 € im Jahr** | der ausgebaute Eintragszustand: Fotos vom Inhaber, alle Links gefolgt, Karte nach Klick, Öffnungszeiten, dazu nichts aus dem Garantie-Programm: der Garantie-Nachweis gehört zu keiner Stufe | `premium` = `true` | {{STRIPE_LINK_PREMIUM}} |
-| **Stadt-Premium** | **29 € im Monat** | oberste Karte auf einer Stadtseite, gefolgter Link, Foto | `featured` = `city` | {{STRIPE_LINK_CITY}} |
+| **Premium-Eintrag** | **97 € im Jahr** | der ausgebaute Eintragszustand: Fotos vom Inhaber, Karte nach Klick, Öffnungszeiten; die Website- und Profil-Links tragen als bezahlter Platz `rel="sponsored"` statt `nofollow`. Der gefolgte Link ohne nofollow gehört zur Festpreis-Garantie, nicht zu einer Stufe (wie der Garantie-Nachweis) | `premium` = `true` | {{STRIPE_LINK_PREMIUM}} |
+| **Stadt-Premium** | **29 € im Monat** | oberste Karte auf einer Stadtseite, Link mit `rel="sponsored"` statt nofollow, Foto | `featured` = `city` | {{STRIPE_LINK_CITY}} |
 | **Top-Platzierung** | **250 € einmalig** | fester Platz in der Liste „Die besten Schlüsseldienste in [Stadt]", dazu eine Pressemitteilung über den Betrieb, deren drei Links auf seine Website, seine Eintragsseite und die Stadtseite gehen | `best_of_rank` = `1` bis `3` | {{STRIPE_LINK_BESTOF}} |
 
 ## Stufen, die später zu aktivieren sind

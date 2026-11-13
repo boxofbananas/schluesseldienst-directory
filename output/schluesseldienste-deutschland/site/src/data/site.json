@@ -126,6 +126,7 @@
     }
   ],
   "sortAttribute": "",
+  "pinnedCities": ["baden-wuerttemberg/mannheim"],
   "foldMaxKm": 30,
   "cityMinPopulation": 20000,
   "cityFilter": false,
