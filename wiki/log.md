@@ -892,3 +892,12 @@ Zahlen, was auf Freigabe wartet.
   trifft einen bezahlten Platz ohne Garantie/`link_follow` nicht, der jetzt `rel="sponsored"` (also
   gekennzeichnet) trägt; A3, B5, B7, Teil-B-Einleitung bleiben stimmig. (3) Ab jetzt wird `main` nach
   jedem Commit gepusht, ohne Aufforderung. Kein Deploy (reine Text-/Regelarbeit).
+- **2026-11-13** **AGB B1 (Premium-Eintrag) an die Link-Regel angepasst (main, live, ee8524e7).**
+  Betreiberfreigabe für genau diese Stelle. „Verlinkung … ohne Suchmaschinen-Einschränkung" →
+  „… als bezahlte Platzierung gekennzeichnet", plus Satz, dass ein Link ohne diese Kennzeichnung
+  allein mit der Festpreis-Garantie verbunden und nicht Gegenstand dieser Bedingungen ist (Build und
+  Template). Standdatum im Build fest auf 13.11.2026 (Template behält `{buildDateDe}`). /premium/,
+  featured-tiers.md und AGB beschreiben den Premium-Eintrag jetzt deckungsgleich. Textgate /agb/ mit
+  `--erlaube-rechtswoerter`: Wörter/Floskeln/Rechtswörter bestanden; einziger Befund 2 Gedankenstriche
+  in den vorbestehenden Überschriften „Teil A —"/„Teil B —", nicht angefasst (nur gemeldet). check_live
+  2821 bestanden. Bericht berichte/2026-11-13-agb-b1-premium-link-berichtigt.md.
