@@ -55,8 +55,11 @@ Bundesland-Seiten tragen die Zeile mit `dateModified`, keine Verfasserzeile.
   größten Städte, Bundesland auf jede seiner Städte, Stadt auf jeden Eintrag und die fünf
   nächsten Städte, Eintrag auf vier weitere seiner Stadt.
 - **Brotkrumen auf jeder Seite**, fünf Ebenen auf einer Eintragsseite ([[schema]]).
-- Links auf die Website eines Betriebs tragen `rel="nofollow"`, außer bei bezahlter Stufe
-  ([[monetization-slots]]).
+- Einen Link auf die Website und die Profile eines Betriebs trägt ein Eintrag nur bei
+  Festpreis-Garantie (`geprueft`) oder Freischaltung über `link_follow` (dann ohne nofollow und
+  ohne sponsored) oder bei bezahltem Platz (dann `rel="sponsored"`, als bezahlt gekennzeichnet);
+  alle übrigen Einträge tragen gar keinen Website- und keinen Profil-Link, auch nicht die Adresse
+  als Text ([[monetization-slots]], [[footprint-rules]]).
 - Im Fußbereich jeder Seite: **Impressum, Datenschutz, AGB** ([[konventionen]]).
 - Jeder Eintrag verlinkt `/festpreis-garantie/` oder `/festpreis-garantie/antrag/` über sein
   Garantie-Zeichen

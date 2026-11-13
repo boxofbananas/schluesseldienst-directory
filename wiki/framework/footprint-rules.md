@@ -13,10 +13,18 @@ Hand gehören. Diese Seite sagt, wie beides zusammengeht.
 
 ## Die Grundregel
 
-**Eigene Betriebe werden wie jeder andere Betrieb gelistet.** Dieselbe Karte, dieselbe
-Eintragsvorlage, dieselbe `nofollow`-Regel auf dem Link zur Website, solange der Betrieb keine
-bezahlte Stufe zum **öffentlichen Preis** gebucht hat. Keine seitenweiten Links, kein
+**Eigene Betriebe werden gelistet und sortiert wie jeder andere Betrieb.** Dieselbe Karte,
+dieselbe Eintragsvorlage, dieselbe Behandlung in der Reihenfolge. Keine seitenweiten Links, kein
 Zeichen „empfohlen", keine Sonderplatzierung, keine Festpreis-Garantie ohne erfüllte Voraussetzungen.
+
+**Die einzige Ausnahme (Betreiberentscheidung vom 2026-11-13):** der Website-Link. Website- und
+Profil-Links gibt es auf der ganzen Site nur bei Festpreis-Garantie, über die Freischaltung
+`link_follow` (dann ohne nofollow und ohne sponsored) oder bei bezahltem Platz (dann
+`rel="sponsored"`); alle übrigen Einträge tragen gar keinen solchen Link. Eigene Betriebe tragen
+`link_follow=true` (einmalig aus `owned` geseedet) und bekommen dadurch einen gefolgten Link auf
+ihre Website, ohne eine Stufe zu kaufen. Das ist die eine offen gelegte Bevorzugung; sie läuft
+über die eigene Spalte `link_follow`, nicht über `owned`, das weiterhin nichts an der Darstellung
+ändert.
 
 Die Bevorzugung ist echt, aber nicht sichtbar: das Verzeichnis enthält alle Schlüsseldienste
 in Deutschland, und ein paar davon zu besitzen, fällt darin nicht auf. Die Stärkung kommt

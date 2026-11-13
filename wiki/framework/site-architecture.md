@@ -98,9 +98,11 @@ hergibt, weil Deutschland eine Ebene mehr und ein anderes Städtebild hat.
   Mannheim nach Ludwigshafen schaut und nicht auf das Bundesland achtet – und hinauf zur
   Bundesland-Seite.
 - **Eintragsseite** verlinkt ihre Stadtseite, die Seite zum Beanspruchen und, je nach Garantie,
-  `/festpreis-garantie/` oder `/festpreis-garantie/antrag/` ([[siegel-programm]]). Links auf die Website des Betriebs
-  tragen **`rel="nofollow"`**; bezahlte Stufen bekommen einen gefolgten Link (das ist Teil
-  dessen, was die Stufe kauft, [[monetization-slots]]).
+  `/festpreis-garantie/` oder `/festpreis-garantie/antrag/` ([[siegel-programm]]). Einen Link auf die
+  Website und die Profile des Betriebs trägt sie nur bei Festpreis-Garantie (`geprueft`) oder
+  Freischaltung über `link_follow` (dann **ohne nofollow und ohne sponsored**) oder bei bezahltem
+  Platz (dann **`rel="sponsored"`**, als bezahlt gekennzeichnet); alle übrigen Einträge tragen gar
+  keinen Website- und keinen Profil-Link ([[monetization-slots]], [[footprint-rules]]).
 - **Brotkrumen auf jeder Seite**, fünf Ebenen auf einer Eintragsseite, auch als
   `BreadcrumbList` ([[schema]]).
 - Ratgeberseiten verlinken die Stadtseiten, um die es geht, und werden von dort und aus dem

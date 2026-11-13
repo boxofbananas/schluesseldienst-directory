@@ -31,7 +31,7 @@ nachbessern, erneut laufen lassen.
 | Bundesland-Seite (gebaut) | `python3 scripts/lint_copy.py output/<slug>/site/dist/verzeichnis/<bundesland>/index.html --min-words 300 --max-words 500` | Seitenband, Verbote, Gedankenstriche. **Das Band greift erst, wenn Gate 5 den Einleitungstext geschrieben hat** (siehe unten) |
 | „Über uns" (gebaut) | `python3 scripts/lint_copy.py output/<slug>/site/dist/ueber-uns/index.html --min-words 300 --max-words 500` | Seitenband, Verbote, Gedankenstriche |
 | Startseite (gebaut) | `python3 scripts/lint_copy.py output/<slug>/site/dist/index.html --min-words 800 --max-words 1500 --niche "schlüsseldienste"` | Seitenband, Branchenwort früh, Verbote, Gedankenstriche. Der Ratgeberblock darin bleibt bei 400 bis 600 Wörtern und die Fragen bei 5 bis 8 |
-| Garantie-Seite (gebaut) | `python3 scripts/lint_copy.py output/<slug>/site/dist/festpreis-garantie/index.html --min-words 700 --max-words 1200 --erlaube-rechtswoerter` | Seitenband, Floskelverbote. Die Rechtswörter und „Garantie"/„garantiert" sind hier zugelassen (siehe unten). **Zusätzlich von Hand prüfen:** alle sechs Voraussetzungen stehen da, die drei Teile der Garantie stehen da, der Satz „kein Test vor Ort" steht da, der Satz „die Garantie gibt der Betrieb" steht da, der Satz zur Nichtkäuflichkeit steht da, der Weg zur Meldung einer Rechnung steht da ([[siegel-programm]]) |
+| Garantie-Seite (gebaut) | `python3 scripts/lint_copy.py output/<slug>/site/dist/festpreis-garantie/index.html --min-words 700 --max-words 1600 --erlaube-rechtswoerter` | Seitenband, Floskelverbote. Die Rechtswörter und „Garantie"/„garantiert" sind hier zugelassen (siehe unten). **Zusätzlich von Hand prüfen:** alle sechs Voraussetzungen stehen da, die drei Teile der Garantie stehen da, der Satz „kein Test vor Ort" steht da, der Satz „die Garantie gibt der Betrieb" steht da, der Satz zur Nichtkäuflichkeit steht da, der Weg zur Meldung einer Rechnung steht da ([[siegel-programm]]) |
 | Premium-Seite (gebaut) | `python3 scripts/lint_copy.py output/<slug>/site/dist/premium/index.html --max-words 400 --erlaube-rechtswoerter` | Floskelverbote, Gedankenstriche. Der Schalter nur wegen des Satzes „Die Garantie ist nicht kaufbar. Bezahlt wird nur Sichtbarkeit." ([[page-types]]) |
 | AGB (gebaut) | `python3 scripts/lint_copy.py output/<slug>/site/dist/agb/index.html --erlaube-rechtswoerter` | Floskelverbote, Gedankenstriche; kein Wortband (eine Rechtsseite wird nicht auf Länge geschrieben) |
 | Ratgeberseite | `python3 scripts/lint_copy.py output/<slug>/site/src/pages/ratgeber/<slug>.md --min-words 1200 --niche "<thema>" --facts output/<slug>/05-fact-sheet.md` | 1.200 Wörter oder mehr, Thema früh, Verbote, Gedankenstriche. **`--facts` ist bei Ratgeberseiten Pflicht:** jede Zahl (Euro, Prozent, Jahre, Gerichts-/Aktenzeichen) muss in der Faktensammlung belegt sein, sonst scheitert die Prüfung (Abschnitt 2b). Klärt die Seite über die Rechtslage auf, dann zusätzlich `--erlaube-rechtswoerter` |
@@ -71,12 +71,14 @@ deutsche Beschriftungen länger sind. Mit dem Ratgeber bei 400 bis 600 und den F
 8 muss die Obergrenze 1.500 sein, damit beide Bänder zugleich halten. Der geschriebene Text
 sind etwa 800 bis 1.200 Wörter.
 
-**Warum das Band der Garantie-Seite 700 bis 1.200 ist.** `/festpreis-garantie/` muss die drei
+**Warum das Band der Garantie-Seite 700 bis 1.600 ist.** `/festpreis-garantie/` muss die drei
 Teile der Garantie, alle sechs Voraussetzungen, das vollständige Serviceversprechen **und** die
 Aufklärung über die Rechtslage tragen ([[siegel-programm]], [[konventionen]]); das sind
 Pflichtteile, die zusammen unter 700 Wörtern nicht ohne Auslassung hineinpassen (der Probebau
 der Vorgängerseite vom 03.11.2026 kam auf 784 Wörter und war vollständig, fiel aber am alten
-Band 400 bis 700 durch).
+Band 400 bis 700 durch). Die obere Grenze liegt bei 1.600, weil die gebaute Seite mit allen
+Pflichtteilen und dem Hinweis zum Website-Link (Stand 2026-11-13) auf rund 1.510 Wörter kommt;
+das alte Maß 1.200 war darunter und hätte die vollständige Seite fälschlich durchfallen lassen.
 
 **Warum das Band der Bundesland-Seite erst später greift.** Die Vorlage
 (`templates/astro/src/pages/verzeichnis/[bundesland]/index.astro`) setzt den Einleitungstext aus

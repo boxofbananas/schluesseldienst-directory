@@ -38,7 +38,7 @@ PROTECTED = [
     "garantie_tag", "garantie_zuschlag_abend", "garantie_zuschlag_nacht",
     "garantie_anfahrt", "garantie_zylinder", "garantie_zylinder_5mm",
     "featured", "featured_cities", "featured_seit", "premium", "best_of_rank",
-    "preisschutz",
+    "preisschutz", "link_follow",
 ]
 
 

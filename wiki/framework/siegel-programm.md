@@ -72,7 +72,7 @@ Festpreis, sondern der „vor Arbeitsbeginn beziffert"-Fall des Serviceversprech
 | Stufe | Preis | Was sie bedeutet | Spalten in der CSV |
 |---|---|---|---|
 | **Festpreis-Garantie** | kostenlos | Der Betrieb hat die sechs Voraussetzungen erfüllt, seine Preise verbindlich genannt (Grundpreis, zwei Zuschläge, Anfahrt, zwei Material) und das Serviceversprechen unterschrieben | `geprueft` = `true`, `geprueft_jahr` = Jahr, `garantie_tag`, `garantie_zuschlag_abend`, `garantie_zuschlag_nacht`, `garantie_anfahrt`, `garantie_zylinder`, `garantie_zylinder_5mm` |
-| **Premium / Top-Platzierung** (Premium-Eintrag, Stadt-Premium, Top-Platzierung) | kostenpflichtig, siehe `templates/featured-tiers.md` | bessere Platzierung, Fotos, gefolgte Links | `premium`, `featured`, `best_of_rank` |
+| **Premium / Top-Platzierung** (Premium-Eintrag, Stadt-Premium, Top-Platzierung) | kostenpflichtig, siehe `templates/featured-tiers.md` | bessere Platzierung, Fotos, Website- und Profil-Link als bezahlt gekennzeichnet (`rel="sponsored"`) | `premium`, `featured`, `best_of_rank` |
 
 **Die Garantie ist nicht kaufbar. Bezahlt wird nur Sichtbarkeit.** Dieser Satz steht wörtlich
 auf `/festpreis-garantie/` und auf `/premium/`. Ein zahlender Betrieb ohne erfüllte

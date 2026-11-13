@@ -10,9 +10,9 @@ const vatNote = t.vatNote;
 const title = `Premium-Plätze für ${site.niche.plural} | ${site.brand}`;
 const description = `Zeigen Sie Ihren ${site.niche.singular} im Premium-Band oben auf seiner Stadtseite auf ${site.brand}. Das Stadt-Premium gibt es bis zu dreimal je Stadt, in der Reihenfolge der Buchung.`;
 const tiers = [
-  { key: 'premium', name: 'Premium-Eintrag', price: t.premium?.price, link: payLink(t.premium?.link), what: 'Ihre Bilder, Karte und Öffnungszeiten im Eintrag. Links als bezahlter Platz mit rel="sponsored" statt nofollow; ohne nofollow nur mit der Festpreis-Garantie.' },
+  { key: 'premium', name: 'Premium-Eintrag', price: t.premium?.price, link: payLink(t.premium?.link), what: 'Ihre Bilder, Karte und Öffnungszeiten im Eintrag; dazu der als bezahlt gekennzeichnete Link auf Ihre Website.' },
   { key: 'top-platzierung', name: 'Top-Platzierung', price: t.bestOf?.price, link: payLink(t.bestOf?.link), what: `Ein festgesetzter Platz in der Liste „Die besten ${site.niche.plural} in Ihrer Stadt“, dazu eine Pressemitteilung über Ihren Betrieb.` },
-  { key: 'stadt', name: 'Stadt-Premium', price: t.city?.price, link: payLink(t.city?.link), what: 'Einer von bis zu drei Plätzen im Premium-Band oben auf Ihrer Stadtseite, über der übrigen Liste (Betriebe mit Festpreis-Garantie, dann nach Bewertung). Die Reihenfolge der drei richtet sich nach dem Zeitpunkt der Buchung, die frühere oben. Dazu ein Bild und ein als bezahlt gekennzeichneter Link (rel="sponsored") statt nofollow.' },
+  { key: 'stadt', name: 'Stadt-Premium', price: t.city?.price, link: payLink(t.city?.link), what: 'Einer von bis zu drei Plätzen im Premium-Band oben auf Ihrer Stadtseite, über der übrigen Liste (Betriebe mit Festpreis-Garantie, dann nach Bewertung). Die Reihenfolge der drei richtet sich nach dem Zeitpunkt der Buchung, die frühere oben. Dazu ein Bild und der als bezahlt gekennzeichnete Link auf die Website.' },
   { key: 'region', name: 'Premium-Platz Umland', price: t.county?.price, link: payLink(t.county?.link), what: 'Die oberste Karte auf mehreren benachbarten Stadtseiten, dazu die Premium-Marke an Ihrem Eintrag.' },
   { key: 'bundesland', name: 'Premium-Platz Bundesland', price: t.state?.price, link: payLink(t.state?.link), what: 'Ein Block auf der Bundesland-Seite und auf jeder Stadtseite des Landes, eine neu geschriebene Beschreibung und ein Anfrageformular in Ihrem Eintrag.' },
 ].filter((x) => x.price);
@@ -21,7 +21,7 @@ const tiers = [
   <Fragment slot="head">
     <div class="hero compact">
       <h1><span class="hl">{site.niche.plural}</span> oben auf der Stadtseite</h1>
-      <p class="lede">Die Stadtseiten führen zuerst die bezahlten Plätze (Stadt-Premium und Top-Platzierung), dann die Betriebe mit Festpreis-Garantie und danach alle übrigen nach Bewertung und Anzahl der Bewertungen. Das Stadt-Premium ist einer von bis zu drei Plätzen oben auf der Stadtseite; die Reihenfolge der drei richtet sich nach dem Zeitpunkt der Buchung, nicht nach Bewertung.</p>
+      <p class="lede">Die Stadtseiten führen zuerst die bezahlten Plätze (Stadt-Premium und Top-Platzierung), dann die Betriebe mit Festpreis-Garantie und danach alle übrigen nach Bewertung und Anzahl der Bewertungen. Das Stadt-Premium ist einer von bis zu drei Plätzen oben auf der Stadtseite.</p>
     </div>
   </Fragment>
   <div class="tiers">
@@ -50,6 +50,7 @@ const tiers = [
   <section class="prose">
     <h2>Die Festpreis-Garantie ist nicht kaufbar. Bezahlt wird nur Sichtbarkeit.</h2>
     <p>Die Festpreis-Garantie bekommt nur, wer die sechs Voraussetzungen erfüllt und seine Preise verbindlich nennt, und sie kostet nichts. Eine Buchung auf dieser Seite führt nicht zur Garantie, und die Garantie führt nicht zu einem bezahlten Platz: Sie hebt einen Betrieb vor die Betriebe ohne Garantie, aber nie über einen bezahlten Platz, und ist nicht käuflich. Was geprüft wird, steht auf der Seite <a href="/festpreis-garantie/">Festpreis-Garantie</a>; beantragt wird sie unter <a href="/festpreis-garantie/antrag/">Garantie beantragen</a>.</p>
+    <p>Der Website-Link gehört zu jeder bezahlten Stufe (als bezahlt gekennzeichnet) oder zur <a href="/festpreis-garantie/">Festpreis-Garantie</a> (ohne nofollow); ohne beides fehlt er.</p>
     <p>Den Garantie-Nachweis für die eigene Website gibt es ebenfalls nur für Betriebe mit Garantie, und auch er kostet nichts. Er gehört zu keiner der Stufen auf dieser Seite.</p>
   </section>
   <section class="prose">

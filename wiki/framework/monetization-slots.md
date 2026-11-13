@@ -61,11 +61,12 @@ E-Mail-Domain passt zur Website; die Telefonnummer passt zur Google-Zeile. Dann 
 ## Die beiden Eintragszustände
 
 - **Einfach (nicht beansprucht):** Name, Anschrift, Telefonnummer, Bewertung, Zahl der
-  Bewertungen, Merkmale, Beschreibung, Kartenplatzhalter, Website-Link mit `nofollow` (ohne
-  nofollow nur mit Festpreis-Garantie). Keine
-  Fotos, keine Profillinks. Dazu „Noch keine Festpreis-Garantie", solange keine Garantie vorliegt.
-- **Ausgebaut (beansprucht mit Premium oder bezahlter Stufe):** Fotos vom Inhaber, die Website-
-  und Profil-Links mit `rel="sponsored"` statt nofollow (ohne nofollow nur mit Garantie), die Karte nach Klick, Öffnungszeiten. Die Garantie mit
+  Bewertungen, Merkmale, Beschreibung, Kartenplatzhalter. **Kein** Website- und kein Profil-Link
+  (auch nicht die Adresse als Text), außer der Betrieb hat die Festpreis-Garantie oder ist über
+  `link_follow` freigeschaltet; dann steht der Link ohne nofollow. Keine Fotos. Dazu „Noch keine
+  Festpreis-Garantie", solange keine Garantie vorliegt.
+- **Ausgebaut (beansprucht mit Premium oder bezahlter Stufe):** Fotos vom Inhaber, der Website-
+  und Profil-Link als bezahlt gekennzeichnet (`rel="sponsored"`; ohne diese Kennzeichnung nur mit Garantie oder `link_follow`), die Karte nach Klick, Öffnungszeiten. Die Garantie mit
   ihren Preisen zeigt jeder Eintrag, der sie hat, in beiden Zuständen. Diese Lücke ist das Verkaufsargument: „Sie haben einen Eintrag, und er ist nicht
   ausgebaut."
 

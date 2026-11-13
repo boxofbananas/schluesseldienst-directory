@@ -55,9 +55,10 @@ Kopieren steht. Nicht: ein Bild per E-Mail. Ein Bild erzeugt keinen Link.
 - Ansprache ist eine echte E-Mail an einen echten Menschen. Keine Serienmails; das
   Verzeichnis ist auch das Kundenwerkzeug des Betreibers, und sein Ruf ist dessen Ruf.
 - **Keine Linkgeschäfte zwischen den eigenen Websites und dem Verzeichnis**
-  ([[footprint-rules]] gilt weiter). Eigene Betriebe werden wie jeder andere gelistet und
-  kaufen Stufen zum öffentlichen Preis, wenn sie einen gefolgten Link wollen; je Stadt
-  höchstens einer.
+  ([[footprint-rules]] gilt weiter). Eigene Betriebe werden wie jeder andere gelistet; ihr
+  Website-Link ist über die Spalte `link_follow` freigeschaltet (Betreiberentscheidung vom
+  2026-11-13, [[footprint-rules]]), nicht über eine gekaufte Stufe. Je Stadt höchstens ein
+  eigener Betrieb auf einem bezahlten Platz.
 - Nie einen Link versprechen, auch nicht im Gespräch über eine bezahlte Stufe.
 - Festhalten, was wo platziert wurde (`links.md` in `output/<slug>/`), damit ein Neubau keine
   verlinkte Seite verliert. **Eine Adresse mit eingehendem Link wird nie geändert.**

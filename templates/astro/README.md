@@ -67,9 +67,11 @@ Spalten, die der Betreiber von Hand setzt: `featured` (`city` / `county` / `stat
   Daten als `TT.MM.JJJJ`. Zwei Städte gleichen Namens im selben Bundesland bekommen die
   Postleitzahl an den Stadt-Slug; erkannt wird das über die Lage (Einfachverkettung bei 25 km),
   nicht über die Postleitzahl, weil eine große Stadt mehrere Leitregionen abdeckt.
-- Zwei Zustände je Eintrag: Grundeintrag (keine Bilder, Website-Link mit `nofollow`) und
-  ausgebauter Eintrag (beanspruchter Premium-Eintrag oder ein Premium-Platz: Bilder, Links ohne
-  nofollow, Karte, Öffnungszeiten, Siegel-Baustein).
+- Zwei Zustände je Eintrag: Grundeintrag (keine Bilder; **kein** Website- oder Profil-Link, außer
+  der Betrieb hat die Festpreis-Garantie oder ist über `link_follow` freigeschaltet) und
+  ausgebauter Eintrag (beanspruchter Premium-Eintrag oder ein Premium-Platz: Bilder, Karte,
+  Öffnungszeiten, Siegel-Baustein; der Website-Link kommt mit einem bezahlten Platz als bezahlt
+  gekennzeichnet (`rel="sponsored"`) oder mit der Garantie ohne nofollow).
 - **Siegel.** Jeder Eintrag trägt eine Siegel-Zeile: „Geprüft <Jahr>“ mit Link auf `/siegel/`, oder
   „Noch nicht geprüft“ mit Link auf `/siegel/antrag/`. Die zweite Zeile ist der Verkaufsanlass und
   darf nicht abgeschaltet werden. `/auszeichnung/<slug>.svg` trägt „Geprüfter Schlüsseldienst

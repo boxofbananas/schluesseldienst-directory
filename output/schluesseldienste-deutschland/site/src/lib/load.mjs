@@ -382,6 +382,10 @@ export function loadDirectory() {
     const premium = truthy(r.premium);
     const claimed = truthy(r.claimed);
     const bestOfRank = int(r.best_of_rank) || 0;
+    // link_follow schaltet den Website-Link frei, ohne dass `owned` gelesen wird. Einmalig
+    // (2026-11-13) aus owned=true geseedet, danach eine eigene, von owned unabhaengige Spalte
+    // (wiki/framework/footprint-rules.md).
+    const linkFollow = truthy(r.link_follow);
     const reviews = int(r.reviews);
     const rating = num(r.rating);
     const description = sanitizeGlyphs(r.description_enriched || r.description || '');
@@ -410,6 +414,13 @@ export function loadDirectory() {
     const geprueft = truthy(r.geprueft) && garantieTag != null;
     const geprueftJahr = (r.geprueft_jahr || '').trim();
     const garantie = geprueft ? { jahr: geprueftJahr, tag: garantieTag, zuschlagAbend: garantieZuschlagAbend, zuschlagNacht: garantieZuschlagNacht, anfahrt: garantieAnfahrt, zylinder: garantieZylinder, zylinder5mm: garantieZylinder5mm } : null;
+    // Website- und Profil-Links auf der ganzen Site (wiki/konventionen.md, footprint-rules.md):
+    // geprueft ODER link_follow -> gefolgter Link ohne nofollow und ohne sponsored; bezahlter Platz
+    // (premium/featured/best_of_rank) ohne beides -> rel="sponsored noopener"; alle uebrigen -> gar
+    // kein Link (leerer websiteRel, die Seite zeigt dann weder Website- noch Profil-Link). owned
+    // wird nicht gelesen.
+    const paidPlace = premium || Boolean(featured) || bestOfRank > 0;
+    const websiteRel = (geprueft || linkFollow) ? 'noopener' : (paidPlace ? 'sponsored noopener' : '');
     return {
       name: sanitizeGlyphs(r.name), slug, city, citySlug, regionName: region.name, regionSlug: region.slug,
       regionCode: region.code, stateCode: region.code, postalCode: r.postal_code,
@@ -420,11 +431,14 @@ export function loadDirectory() {
       mapLink: r.location_link || '', areaService: truthy(r.area_service), placeId: r.place_id,
       featured, featuredCities: (r.featured_cities || '').split(/[|,]/).map((s) => s.trim()).filter(Boolean),
       featuredSince: (r.featured_seit || '').trim(),
-      premium, claimed, bestOfRank, thin, optimized, photos, attrs, geprueft, geprueftJahr, garantie,
+      premium, claimed, bestOfRank, thin, optimized, photos, attrs, geprueft, geprueftJahr, garantie, linkFollow, websiteRel,
       path: `/firma/${region.slug}/${citySlug}/${slug}/`,
       cityPath: `/verzeichnis/${region.slug}/${citySlug}/`,
       score: rating * Math.log10(reviews + 1),
-      // `owned` wird hier absichtlich nicht gelesen. Es darf die Darstellung nie verändern (footprint-rules.md).
+      // `owned` wird hier absichtlich nicht gelesen. Eigene Betriebe werden gelistet und sortiert wie
+      // jeder andere; die einzige Ausnahme ist die Freischaltung des Website-Links über die Spalte
+      // `link_follow` (Betreiberentscheidung vom 2026-11-13, einmalig aus owned geseedet), nicht über
+      // owned selbst (footprint-rules.md).
     };
   });
 

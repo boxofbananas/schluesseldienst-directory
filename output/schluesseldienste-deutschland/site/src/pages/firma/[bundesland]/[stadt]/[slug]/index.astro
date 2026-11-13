@@ -27,16 +27,17 @@ const noindex = dir.noindexPaths.has(l.path);
 // Die Leistungen, die der Betrieb auf seiner eigenen Website bestätigt: H3 unter "Leistungen und
 // Angaben" und Offers im Schema.
 const services = l.attrs.filter((a) => a.value === 'true');
-// Der Link ohne nofollow folgt der Festpreis-Garantie, nicht der Bezahlung ([[konventionen]],
-// [[footprint-rules]]): geprüft -> Website- und Profil-Links ohne nofollow; bezahlter Platz ohne
-// Garantie -> rel="sponsored"; alle übrigen -> nofollow. `owned` wird nicht gelesen.
-const linkRel = l.geprueft ? 'noopener' : (l.optimized ? 'sponsored noopener' : 'nofollow noopener');
+// Website- und Profil-Links folgen `l.websiteRel` aus load.mjs ([[konventionen]], [[footprint-rules]]):
+// geprüft oder link_follow -> '' + ohne nofollow/sponsored; bezahlter Platz ohne beides -> 'sponsored
+// noopener'; alle übrigen -> leer, dann wird WEDER Website- NOCH Profil-Link gezeigt. owned wird nicht
+// gelesen. hasWebLink steuert zusätzlich den Verkaufshinweis im Beanspruchen-Kasten.
+const hasWebLink = Boolean(l.websiteRel);
 // Die Leistungsseiten, auf denen dieser Betrieb steht, und die verwandten Einträge aus load.mjs.
 const servicePages = dir.services.filter((s) => services.some((a) => a.key === s.key));
 const relatedCity = l.related.length && l.related[0].citySlug !== l.citySlug ? l.related[0].city : l.city;
 const hoursSpec = l.hours.map((h) => { const s = hoursToSpec(h.hours); return s ? { '@type': 'OpeningHoursSpecification', dayOfWeek: `https://schema.org/${h.schemaDay}`, opens: s.opens, closes: s.closes } : null; }).filter(Boolean);
 const schema = [{
-  '@context': 'https://schema.org', '@type': businessType(site), '@id': base + l.path + '#business', name: l.name, url: l.website || base + l.path,
+  '@context': 'https://schema.org', '@type': businessType(site), '@id': base + l.path + '#business', name: l.name, url: l.websiteRel ? (l.website || base + l.path) : base + l.path,
   telephone: e164(l.phone),
   address: { '@type': 'PostalAddress', streetAddress: l.areaService ? undefined : (l.street || undefined), addressLocality: l.city, addressRegion: l.regionName, postalCode: l.postalCode || undefined, addressCountry: 'DE' },
   ...(l.lat && l.lng ? { geo: { '@type': 'GeoCoordinates', latitude: l.lat, longitude: l.lng } } : {}),
@@ -46,7 +47,7 @@ const schema = [{
   // (wiki/seo/schema.md).
   ...(l.photos.length ? { image: l.photos.map((pp) => base + pp) } : {}),
   description: l.description || undefined,
-  ...(l.socials.length ? { sameAs: l.socials.map((s) => s.url) } : {}),
+  ...(l.websiteRel && l.socials.length ? { sameAs: l.socials.map((s) => s.url) } : {}),
   ...(services.length ? { makesOffer: services.map((a) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name: a.label, areaServed: { '@type': 'City', name: l.city } } })) } : {}),
 }, { '@context': 'https://schema.org', '@type': 'WebPage', '@id': base + l.path, url: base + l.path, name: title, inLanguage: 'de-DE', datePublished: site.launchDate, dateModified: buildDate, about: { '@id': base + l.path + '#business' } }];
 // Route über das Adressschema von Google Maps, ohne Schlüssel. Das ist ein gewöhnlicher Link und
@@ -97,10 +98,10 @@ const mapSrc = showMap ? `https://www.google.com/maps?q=${l.lat},${l.lng}&output
       <ul>
         {l.phone && <li><a href={telHref(l.phone)}>{formatPhone(l.phone)}</a></li>}
         <li>{l.areaService ? `Betrieb ohne Ladengeschäft, im Einsatz in ${l.city}, ${l.regionName}` : l.address}</li>
-        {l.website && <li><a href={l.website} rel={linkRel} target="_blank">Website</a></li>}
+        {l.website && l.websiteRel && <li><a href={l.website} rel={l.websiteRel} target="_blank">Website</a></li>}
         {l.mapLink && <li><a href={l.mapLink} rel="nofollow noopener" target="_blank">Bei Google Maps ansehen</a></li>}
         {l.verifiedOnGoogle && <li class="meta">Eintrag bei Google bestätigt</li>}
-        {l.socials.length > 0 && <li><SocialLinks socials={l.socials} name={l.name} rel={linkRel} /></li>}
+        {l.socials.length > 0 && l.websiteRel && <li><SocialLinks socials={l.socials} name={l.name} rel={l.websiteRel} /></li>}
       </ul>
     </div>
     {l.hours.length > 0 && (
@@ -138,7 +139,7 @@ const mapSrc = showMap ? `https://www.google.com/maps?q=${l.lat},${l.lng}&output
       {directions && <a class="btn side-btn" href={directions} rel="nofollow noopener" target="_blank">Route planen</a>}
       <ul class="side-links">
         {l.phone && <li><a href={telHref(l.phone)}>{formatPhone(l.phone)}</a></li>}
-        {l.website && <li><a href={l.website} rel={linkRel} target="_blank">Website</a></li>}
+        {l.website && l.websiteRel && <li><a href={l.website} rel={l.websiteRel} target="_blank">Website</a></li>}
         {l.mapLink && <li><a href={l.mapLink} rel="nofollow noopener" target="_blank">Bei Google Maps ansehen</a></li>}
       </ul>
     </div>
@@ -158,6 +159,7 @@ const mapSrc = showMap ? `https://www.google.com/maps?q=${l.lat},${l.lng}&output
     <div class="side-card claim">
       <h2>Ist das Ihr Betrieb?</h2>
       <p>Das Beanspruchen ist kostenlos. Angaben berichtigen, Bilder ergänzen und erfahren, welche Premium-Plätze in {l.city} frei sind.</p>
+      {!hasWebLink && <p>Ein Link von diesem Eintrag auf Ihre Website kommt mit der <a href="/festpreis-garantie/">Festpreis-Garantie</a> (ohne nofollow) oder einem <a href="/premium/">Premium-Platz</a> (als bezahlt gekennzeichnet).</p>}
       <a class="btn action side-btn" href={claimHref}>Diesen Eintrag beanspruchen</a>
       <p class="meta"><a href="/premium/">Premium-Platz</a> oben auf der Seite {l.city}.</p>
     </div>

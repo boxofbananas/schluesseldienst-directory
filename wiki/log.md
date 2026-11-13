@@ -863,3 +863,24 @@ Zahlen, was auf Freigabe wartet.
   site-architecture, page-types, siegel-programm, authority-and-links, footprint-rules, README)
   genannt, nicht geändert (Quelle ist konventionen). Regel nicht in konventionen eingetragen, Wortlaut
   vorgeschlagen (Daniel ändert die Datei frei). Bericht berichte/2026-11-13-mannheim-pin-und-follow-garantie.md.
+- **2026-11-13** **Website-Links nur für geprüfte, freigeschaltete und zahlende Einträge (main, live, 0c5579bc).**
+  Betreiberentscheidung. Neue Spalte `link_follow` (wahr/leer) in `site/src/data/listings.csv`, in
+  `PROTECTED` von `_listings_guard.py` aufgenommen, einmalig aus `owned=true` geseedet → 21 Einträge
+  auf `true`. Regel in `load.mjs` (`websiteRel`): geprüft oder `link_follow` → gefolgter Link ohne
+  nofollow/sponsored; bezahlter Platz ohne beides → `rel="sponsored noopener"`; alle übrigen → **kein**
+  Website- und kein Profil-Link (leerer `websiteRel`), `owned` wird nicht gelesen. Eintragsseite:
+  Website-Link (2×) und `SocialLinks` an `websiteRel` gekoppelt; Verkaufshinweis im Beanspruchen-Kasten
+  bei Einträgen ohne Link (Verweis auf /festpreis-garantie/ und /premium/). JSON-LD an Regel 2
+  angeglichen (Betreiberwahl, erst Option 2, dann korrigiert auf Option 1): `url` = Website nur bei
+  `websiteRel`, sonst eigene Eintragsseite; `sameAs` nur bei `websiteRel`. Nachher im Build: 42
+  sichtbare Website-Links (21×2) `noopener`, 0 sponsored, 0 nofollow, 3776 Einträge ohne Link; JSON-LD
+  21 extern / 3776 intern, `sameAs` nirgends (qualifizierte Einträge ohne Socials). Texte: /premium/
+  (Link gehört zu jeder bezahlten Stufe, als bezahlt gekennzeichnet; auf 394 Wörter getrimmt, Textgate
+  bestanden), /festpreis-garantie/ (unverändert, bestanden), /eintrag-beanspruchen/ (Link kommt mit
+  Garantie/Premium), FAQ „Kostet ein Eintrag Geld?" in site.json, Startseite bestanden. Wiki: on-page-rules,
+  site-architecture, page-types, siegel-programm, authority-and-links, monetization-slots, README,
+  featured-tiers.md geändert; footprint-rules: Ausnahme offen eingetragen (einzige Ausnahme = Link-
+  Freischaltung über `link_follow`, 2026-11-13); copy-gate Garantie-Band auf 700–1.600 angehoben. AGB
+  nur gemeldet. konventionen nicht eingetragen, Wortlaut vorgeschlagen. Live-Stichprobe (Merz, AES, Ried
+  Viernheim ohne Garantie, Key Walter + Atilla Mannheim fremd, AOS Hamburg fremd) bestätigt die Regel.
+  check_live 2821 bestanden. Bericht berichte/2026-11-13-website-links-geprueft-freigeschaltet-zahlend.md.
