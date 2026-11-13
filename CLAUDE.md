@@ -56,7 +56,9 @@ verzeichnis-blueprint/
 │                      init_site.py (5, legt site/ aus dem Template an, Sperre gegen Überschreiben),
 │                      make_city_packets.py, check_city_copy.py, lint_copy.py (5),
 │                      run_batches.py (Stapelläufer für 3 und 5), check_live.py (6),
-│                      make_local_preview.py (wahlweise). Nach dem Start: mail_worker.py,
+│                      make_local_preview.py (wahlweise). Rückweg für Anträge: verkauf.py,
+│                      garantie.py (erteilen/ändern/entziehen), kontakt.py (Kontaktbuch).
+│                      Nach dem Start: mail_worker.py,
 │                      mail_inbox.py, make_worker_listings.py. Die Anweisungsdateien sind
 │                      allgemein; die Regeln dieser Branche stehen in output/<slug>/03-attributes.json.
 │                      clean_descriptions.py (3) und clean_city_copy.py (5) räumen interne
@@ -380,11 +382,30 @@ Es bricht ab (nicht nur Warnung), wenn das Stadt-Premium der Stadt schon vergebe
 zweiter eigener Betrieb in der Stadt einen bezahlten Platz bekäme ([[footprint-rules]]), und wenn
 der Slug auf keine oder mehrere Zeilen passt. `--help` ist maßgeblich.
 
+Für die **Festpreis-Garantie** gilt dasselbe: `scripts/garantie.py` (nach dem Muster von
+`verkauf.py`) erteilt, ändert und entzieht sie als Befehl, schreibt **nur** die Garantie-Spalten,
+nutzt die Sperre aus `_listings_guard.py`, führt `output/<slug>/garantie-hauptbuch.csv`, baut,
+liefert aus und prüft live. Vor dem Erteilen prüft es die sechs Voraussetzungen, soweit lesbar
+(Telefon vorhanden → sonst Abbruch; ab 5 Bewertungen Schnitt ≥ 4,0 → sonst Abbruch, bei weniger
+Bewertungen kein Riegel), und verlangt mit `--bestaetigt` die von Hand geprüften (Impressum, kein
+Callcenter, Serviceversprechen):
+
+```
+python3 scripts/garantie.py --slug <eintrag-slug> --erteilen \
+    --tag 89 --abend 30 --nacht 40 --anfahrt 0 --zylinder 39 --zylinder5mm 3 [--jahr 2026] --bestaetigt
+python3 scripts/garantie.py --slug <eintrag-slug> --aendern --tag 95 --nacht 45
+python3 scripts/garantie.py --slug <eintrag-slug> --entziehen
+python3 scripts/garantie.py --liste
+```
+
+Dieselben Testschalter `--kein-deploy`/`--kein-bauen` wie bei `verkauf.py`, mit derselben lauten
+Schlussmeldung. `--help` ist maßgeblich.
+
 **Eine Quelle für die operativen Spalten.** Die Build-`site/src/data/listings.csv` ist die
 **alleinige Wahrheit** für die operativen Spalten: `geprueft`, `geprueft_jahr`, die sechs
 `garantie_*`-Preisspalten, `featured`, `featured_cities`, `featured_seit`, `premium`,
 `best_of_rank` und das reservierte `preisschutz`. Dorthin — und nur dorthin — schreiben
-`verkauf.py` und die Garantie-Vergabe von Hand. `03-listings-enriched.csv` bleibt die Wahrheit
+`verkauf.py` (Plätze) und `garantie.py` (Festpreis-Garantie). `03-listings-enriched.csv` bleibt die Wahrheit
 für die **beschreibenden** Spalten (Beschreibung, Merkmale, Bewertungen, Scrape-Felder) und
 trägt die operativen Spalten **nie**. Muss `listings.csv` neu aus enriched gebaut werden (ein
 voller Neulauf oder `apply_exclusions.py`), **folgt** sie der bestehenden `listings.csv`:
@@ -394,7 +415,7 @@ die enriched-CSV **nie von Hand in den Build kopiert**; der Weg führt immer üb
 `apply_exclusions.py`.
 
 **Die Sperre.** Jedes Skript, das `listings.csv` überschreibt (`apply_exclusions.py`,
-`verkauf.py`, `add_socials.py`), ruft vor dem Schreiben `pruefe_kein_verlust` aus
+`verkauf.py`, `garantie.py`, `add_socials.py`), ruft vor dem Schreiben `pruefe_kein_verlust` aus
 `scripts/_listings_guard.py`. Würde eine **bleibende** Zeile einen gefüllten operativen Wert
 verlieren (gefüllt → leer), **bricht der Lauf ab** und nennt die betroffenen Einträge und
 Spalten; es wird nichts geschrieben. Ein geänderter, aber nicht geleerter Wert (neuer
@@ -411,6 +432,22 @@ nie einen Eintrag und sendet nie von sich aus. Anfragen zur Festpreis-Garantie (
 `garantie_request`) verweist er auf `/festpreis-garantie/antrag/`, nennt nie Preise eines
 Betriebs, die nicht in der CSV stehen, und verspricht nie eine Garantie. Die Texte stehen in
 `output/<slug>/worker/src/templates.ts`.
+
+### Nach dem Start: das Kontaktbuch
+
+`scripts/kontakt.py` hält die Ansprache der Betriebe fest, ohne einen Eintrag zu ändern (es
+liest `listings.csv` nur, baut und liefert nichts aus). Zwei **anhängende** Bücher neben der
+Build-CSV: `output/<slug>/kontakt-hauptbuch.csv` (Datum, Slug, Weg, Ergebnis, Notiz) und
+`output/<slug>/kontakt-sperrliste.csv`. Ein gesperrter Eintrag erscheint in keiner
+„noch zu kontaktieren"-Liste; `--offen` lässt auch die eigenen Betriebe und die schon
+kontaktierten weg.
+
+```
+python3 scripts/kontakt.py eintragen --slug <slug> --weg telefon|email|formular --ergebnis "…" [--notiz "…"]
+python3 scripts/kontakt.py sperren --slug <slug> [--grund "…"]
+python3 scripts/kontakt.py --offen [--bundesland "…"] [--stadt "…"] [--alle]
+python3 scripts/kontakt.py --stand
+```
 
 ### Pflege
 

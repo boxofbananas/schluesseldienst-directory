@@ -901,3 +901,18 @@ Zahlen, was auf Freigabe wartet.
   `--erlaube-rechtswoerter`: Wörter/Floskeln/Rechtswörter bestanden; einziger Befund 2 Gedankenstriche
   in den vorbestehenden Überschriften „Teil A —"/„Teil B —", nicht angefasst (nur gemeldet). check_live
   2821 bestanden. Bericht berichte/2026-11-13-agb-b1-premium-link-berichtigt.md.
+- **2026-11-13** **Rückweg für Anträge: garantie.py, kontakt.py (main, kein Deploy).** (1)
+  `scripts/garantie.py` nach dem Muster von `verkauf.py`: erteilen/ändern/entziehen/--liste,
+  schreibt nur die Garantie-Spalten, nutzt `_listings_guard.py`, führt
+  `garantie-hauptbuch.csv`, baut/liefert/prüft; Vorprüfung der sechs Voraussetzungen, soweit
+  lesbar (Telefon, Bewertungsschnitt), `--bestaetigt` für die von Hand zu prüfenden; Testschalter
+  und laute Schlussmeldung wie verkauf.py. (2) `scripts/kontakt.py` + anhängendes
+  `kontakt-hauptbuch.csv` und `kontakt-sperrliste.csv`: eintragen/sperren/--offen/--stand; `--offen`
+  ohne eigene, ohne gesperrte, ohne kontaktierte, filterbar nach Bundesland/Stadt. (3)
+  Bestandsaufnahme (nur Zahlen, keine Adressen): 3797 Einträge, 97 % Telefon, 30 % E-Mail, 968
+  Sammelpostfächer, 114 Mehrfach-Adressen; je Bundesland im Bericht. (4) Antwortwege von info@
+  (Empfehlung: eigenes mailbox.org-Postfach ~3 €/Monat, getrennt von Websites und LeadHawk; Worker
+  mit Resend/Cloudflare Email Sending als zweiter Weg) — nichts eingerichtet. Probeläufe für
+  garantie.py und kontakt.py auf einer Kopie (`--kein-bauen`, nichts ausgeliefert); die 18
+  bestehenden Garantien überlebten. Aufrufe in CLAUDE.md festgehalten. Bericht
+  berichte/2026-11-13-rueckweg-fuer-antraege.md.
