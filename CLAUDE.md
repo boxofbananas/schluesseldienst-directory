@@ -297,7 +297,17 @@ python3 scripts/check_city_copy.py --copy output/<slug>/05-cache/city-copy \
 Wortuntergrenzen je Stadtgröße in [[page-types]]. Danach das **Textgate** ([[copy-gate]]):
 `scripts/lint_copy.py` auf `city-copy.json`, auf die gebauten Seiten Startseite, Bundesland und
 „Über uns" in `dist/` und auf jede Ratgeberseite; nachbessern und erneut prüfen, bis jeder Block
-besteht. **Ratgeberseiten zusätzlich mit `--facts output/<slug>/05-fact-sheet.md`:** jede Zahl
+besteht. Der Lauf auf `city-copy.json` **braucht `--cities output/<slug>/05-cities.json`**:
+daraus baut `lint_copy.py` die Größenkarte je Stadt (`regionSlug/slug → count`) bei jedem Lauf
+frisch und wendet das Wortband der Stadtgröße an. Fehlt die Quelle oder darin eine Stadt aus
+`city-copy.json`, **bricht der Lauf ab und nennt sie** — es gibt keinen stillen Rückfall auf die
+generische Wortspanne, der echte Befunde verschlucken würde ([[copy-gate]]):
+
+```
+python3 scripts/lint_copy.py output/<slug>/site/src/data/city-copy.json \
+    --niche "Schlüsseldienste" --cities output/<slug>/05-cities.json
+```
+ **Ratgeberseiten zusätzlich mit `--facts output/<slug>/05-fact-sheet.md`:** jede Zahl
 (Euro, Prozent, Jahre, Gerichts-/Aktenzeichen) muss in der Faktensammlung belegt sein, sonst
 scheitert die Prüfung — das Textgate prüft sonst nur Wörter, nicht Tatsachen ([[copy-gate]], 2b). `/festpreis-garantie/`, `/premium/`, `/agb/` und Ratgeberseiten über die Rechtslage
 werden mit `--erlaube-rechtswoerter` geprüft, sonst scheitern sie an den Wörtern, die sie

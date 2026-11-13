@@ -27,7 +27,7 @@ nachbessern, erneut laufen lassen.
 
 | Text | Befehl | Was geprüft wird |
 |---|---|---|
-| Stadtblöcke und Fragen | `python3 scripts/lint_copy.py output/<slug>/site/src/data/city-copy.json --niche "schlüsseldienste" --city-sizes output/<slug>/05-city-sizes.json` | Wort- und Fragenband der Größenklasse ([[page-types]]), jede Antwort 20 bis 120 Wörter, Branchenwort im ersten Absatz, keine verbotenen Wörter, keine Gedankenstriche |
+| Stadtblöcke und Fragen | `python3 scripts/lint_copy.py output/<slug>/site/src/data/city-copy.json --niche "Schlüsseldienste" --cities output/<slug>/05-cities.json` | Wort- und Fragenband der Größenklasse ([[page-types]]), jede Antwort 20 bis 120 Wörter, Branchenwort im ersten Absatz, keine verbotenen Wörter, keine Gedankenstriche. **`--cities` ist Pflicht** (siehe unten): ohne es bricht der Lauf ab, statt still auf die generische Wortspanne zurückzufallen |
 | Bundesland-Seite (gebaut) | `python3 scripts/lint_copy.py output/<slug>/site/dist/verzeichnis/<bundesland>/index.html --min-words 300 --max-words 500` | Seitenband, Verbote, Gedankenstriche. **Das Band greift erst, wenn Gate 5 den Einleitungstext geschrieben hat** (siehe unten) |
 | „Über uns" (gebaut) | `python3 scripts/lint_copy.py output/<slug>/site/dist/ueber-uns/index.html --min-words 300 --max-words 500` | Seitenband, Verbote, Gedankenstriche |
 | Startseite (gebaut) | `python3 scripts/lint_copy.py output/<slug>/site/dist/index.html --min-words 800 --max-words 1500 --niche "schlüsseldienste"` | Seitenband, Branchenwort früh, Verbote, Gedankenstriche. Der Ratgeberblock darin bleibt bei 400 bis 600 Wörtern und die Fragen bei 5 bis 8 |
@@ -36,17 +36,22 @@ nachbessern, erneut laufen lassen.
 | AGB (gebaut) | `python3 scripts/lint_copy.py output/<slug>/site/dist/agb/index.html --erlaube-rechtswoerter` | Floskelverbote, Gedankenstriche; kein Wortband (eine Rechtsseite wird nicht auf Länge geschrieben) |
 | Ratgeberseite | `python3 scripts/lint_copy.py output/<slug>/site/src/pages/ratgeber/<slug>.md --min-words 1200 --niche "<thema>" --facts output/<slug>/05-fact-sheet.md` | 1.200 Wörter oder mehr, Thema früh, Verbote, Gedankenstriche. **`--facts` ist bei Ratgeberseiten Pflicht:** jede Zahl (Euro, Prozent, Jahre, Gerichts-/Aktenzeichen) muss in der Faktensammlung belegt sein, sonst scheitert die Prüfung (Abschnitt 2b). Klärt die Seite über die Rechtslage auf, dann zusätzlich `--erlaube-rechtswoerter` |
 
-**Die Datei `05-city-sizes.json`** erzeugt kein Gate von sich aus; sie ist die Größentabelle für
-den Lauf auf `city-copy.json` und wird in Gate 5 **unmittelbar nach `node dump-cities.mjs`** aus
-`05-cities.json` geschrieben, in einer Zeile:
+**Die Größenkarte baut `lint_copy.py` bei jedem Lauf frisch** aus `05-cities.json` (`--cities`),
+als `regionSlug/slug -> count`. Es gibt **keine zu pflegende `05-city-sizes.json`** mehr: eine
+gepflegte Datei veraltet, sobald sich die Zahl der Einträge einer Stadt ändert, und ihre erste
+Fassung war zudem nach dem bloßen `slug` verschlüsselt statt nach dem city-copy-Schlüssel
+`bundesland/stadt` — darum traf sie nichts und jede kleine Stadt fiel zu Unrecht durch
+(bemerkt am 2026-11-13). Darum:
 
-```
-python3 -c "import json;print(json.dumps({c['slug']:c['count'] for c in json.load(open('output/<slug>/05-cities.json'))}))" > output/<slug>/05-city-sizes.json
-```
+- **`--cities output/<slug>/05-cities.json` ist beim Lauf auf `city-copy.json` Pflicht.** Ohne
+  eine Größenquelle **bricht `lint_copy.py` ab** (es fällt nicht mehr still auf 500 Wörter / 4
+  Fragen zurück).
+- **Fehlt eine Stadt aus `city-copy.json` in der Karte, bricht der Lauf ab und nennt sie.** Ein
+  stiller Rückfall auf die generische Wortspanne würde echte Befunde verschlucken.
 
-Ohne diese Datei gilt für jede Stadt 500 Wörter und 4 Fragen, also fällt jede kleine Stadt zu
-Unrecht durch. Maßgeblich für die Größenklassen bleibt ohnehin `scripts/check_city_copy.py`: es
-liest die Spanne jeder Stadt aus der Zeile `intro band:` ihres Pakets.
+Maßgeblich für die Größenklassen bleibt ohnehin `scripts/check_city_copy.py`: es liest die
+Spanne jeder Stadt aus der Zeile `intro band:` ihres Pakets. `lint_copy.py --cities` ist die
+zweite, von der Skill getragene Prüfung derselben Bänder.
 
 Die Lesbarkeitsstufe wird berichtet, nicht erzwungen. Für deutsche Texte über ein
 Handwerksthema taugt eine Stufe, die ein Laie im Notfall am Telefon versteht; sehr lange

@@ -399,6 +399,19 @@ def faq_band(band):
     return TOWN_FAQ_COUNT if band[0] < 250 else FAQ_COUNT
 
 
+def build_city_sizes(cities_path, city_sizes_path):
+    """Die Größenkarte Stadtschlüssel -> Zahl der Einträge. Aus 05-cities.json wird sie bei
+    jedem Lauf FRISCH gebaut (regionSlug/slug -> count), damit keine zu pflegende Datei
+    veraltet. --city-sizes bleibt als vorgefertigte Datei für Sonderfälle. Gibt None, wenn
+    keine Quelle genannt ist."""
+    if cities_path:
+        data = json.load(open(cities_path, encoding="utf-8"))
+        return {f"{c['regionSlug']}/{c['slug']}": c.get("count") for c in data}
+    if city_sizes_path:
+        return json.load(open(city_sizes_path, encoding="utf-8"))
+    return None
+
+
 def lint_city_copy(path, niche, words, phrases, sizes=None):
     with open(path, encoding="utf-8") as f:
         data = json.load(f)
@@ -486,9 +499,15 @@ def main():
     ap.add_argument("--niche", help='die Branchenbezeichnung, die früh im Text stehen muss, z. B. "Schlüsseldienste"')
     ap.add_argument("--min-words", type=int)
     ap.add_argument("--max-words", type=int)
-    ap.add_argument("--city-sizes", help="JSON-Datei, die city_slug auf die Zahl der Einträge abbildet; Städte unter 10 "
-                                        "Einträgen bekommen eine niedrigere Untergrenze (380 bei 5 bis 9, 250 bei 3 oder 4, "
-                                        "120 und 2 bis 6 FAQs auf einer Kleinstadtseite mit 1 oder 2)")
+    ap.add_argument("--cities", help="Pfad zu 05-cities.json. Daraus baut der Lauf die Größenkarte "
+                                     "regionSlug/slug -> count bei JEDEM Aufruf frisch (keine zu pflegende, "
+                                     "veraltende Datei). Der vorgesehene Weg für city-copy.json (wiki/seo/copy-gate.md): "
+                                     "fehlt ein Stadtschlüssel darin, BRICHT der Lauf ab, statt still auf die generische "
+                                     "Wortspanne zurückzufallen.")
+    ap.add_argument("--city-sizes", help="Vorgefertigte JSON-Datei, die den Stadtschlüssel (bundesland/stadt) auf die "
+                                        "Zahl der Einträge abbildet; Städte unter 10 Einträgen bekommen eine niedrigere "
+                                        "Untergrenze (380 bei 5 bis 9, 250 bei 3 oder 4, 120 und 2 bis 6 FAQs bei 1 oder 2). "
+                                        "Für city-copy.json ist --cities vorzuziehen (frisch statt gepflegt).")
     ap.add_argument("--erlaube-rechtswoerter", "--allow-legal-words", action="store_true",
                     dest="erlaube_rechtswoerter",
                     help="den Block der Rechtswörter ([RECHTSWOERTER], [RECHTSWENDUNGEN]) für diese eine Seite "
@@ -521,7 +540,24 @@ def main():
         if not args.niche:
             print("FEHLER: --niche wird für city-copy.json gebraucht")
             sys.exit(1)
-        sizes = json.load(open(args.city_sizes, encoding="utf-8")) if args.city_sizes else None
+        sizes = build_city_sizes(args.cities, args.city_sizes)
+        if sizes is None:
+            print("FEHLER: city-copy.json braucht die Größen je Stadt. --cities <05-cities.json> angeben "
+                  "(frische Karte regionSlug/slug -> count). Ohne Größen fiele die Prüfung auf die "
+                  "generische Wortspanne zurück und verschluckte echte Befunde (wiki/seo/copy-gate.md).")
+            sys.exit(1)
+        # Volle Abdeckung erzwingen: jeder Stadtschlüssel aus city-copy.json muss in der Karte
+        # stehen. Ein fehlender Schlüssel würde sonst still auf die generische Wortspanne
+        # zurückfallen — genau der Fehler, den die Karte verhindern soll.
+        cc = json.load(open(args.file, encoding="utf-8"))
+        fehlen = sorted(s for s in cc if not s.startswith("_") and s not in sizes)
+        if fehlen:
+            quelle = args.cities or args.city_sizes
+            print(f"ABBRUCH: {len(fehlen)} Stadt(e) aus city-copy.json fehlen in der Größenkarte "
+                  f"(aus {quelle}). Kein stiller Rückfall auf die generische Wortspanne. Betroffen:")
+            for s in fehlen:
+                print(f"  {s}")
+            sys.exit(1)
         reports = lint_city_copy(args.file, args.niche, words, phrases, sizes)
     else:
         band = None

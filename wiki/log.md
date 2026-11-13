@@ -832,3 +832,14 @@ Zahlen, was auf Freigabe wartet.
   city-copy.json — die 725 Durchfaller behebt --city-sizes mit einer nach <bundesland>/<stadt>
   verschlüsselten Größenkarte (725 -> 0), nichts geändert, Vorschlag zur Aufnahme in copy-gate offen.
   Kein Deploy. Bericht berichte/2026-11-13-listings-quelle-und-sperre.md.
+
+- 2026-11-13 — --city-sizes fest ins Textgate für city-copy.json aufgenommen. lint_copy.py bekam
+  --cities <05-cities.json>: baut die Größenkarte regionSlug/slug -> count bei jedem Lauf frisch
+  (keine zu pflegende, veraltende 05-city-sizes.json mehr) und erzwingt beim Lauf auf city-copy.json
+  eine Größenquelle — fehlt sie, FEHLER/Abbruch; fehlt eine Stadt aus city-copy.json in der Karte,
+  ABBRUCH, der sie nennt (kein stiller Rückfall auf die generische Wortspanne). Der eigentliche
+  Fehler hinter den 725 Durchfallern: die bisher vorgeschriebene 05-city-sizes.json war nach dem
+  bloßen slug verschlüsselt statt bundesland/stadt und traf nichts. copy-gate, CLAUDE.md (Gate 5)
+  und page-types auf --cities umgestellt. Voller Textgate-Lauf über city-copy.json: 787 bestanden,
+  0 durchgefallen (die 725 waren Fehlalarme; keine echten Befunde), deckungsgleich mit
+  check_city_copy.py. Kein Deploy. Bericht berichte/2026-11-13-textgate-city-sizes-fest.md.

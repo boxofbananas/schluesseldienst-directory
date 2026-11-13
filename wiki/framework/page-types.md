@@ -34,9 +34,9 @@ Endfassung von Impressum, Datenschutzerklärung und AGB sollte ein Anwalt prüfe
 ## Wortuntergrenze der Stadtseite nach Größe
 
 Eine Seite mit drei Einträgen trägt keine 500 ehrlichen Wörter. Die Klassen (aus dem
-englischen Pilotprojekt übernommen, von beiden Prüfern angewandt: `lint_copy.py --city-sizes`
-aus den Eintragszahlen, `check_city_copy.py` aus der Bandzeile des Pakets, beide über
-`lint_copy.faq_band`):
+englischen Pilotprojekt übernommen, von beiden Prüfern angewandt: `lint_copy.py --cities`
+(Eintragszahlen frisch aus `05-cities.json`), `check_city_copy.py` aus der Bandzeile des Pakets,
+beide über `lint_copy.faq_band`):
 
 | Einträge auf der Seite | Wörter | Fragen |
 |---|---|---|
