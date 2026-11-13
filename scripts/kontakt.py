@@ -43,6 +43,35 @@ csv.field_size_limit(10**9)
 HB_FELDER = ["datum", "eintrag_slug", "weg", "ergebnis", "notiz"]
 SP_FELDER = ["datum", "eintrag_slug", "grund"]
 WEGE = ["telefon", "email", "formular"]
+# Spalten der Export-Datei (gitignoriert; enthält Adressen, nur zum Anschreiben).
+EXPORT_FELDER = ["eintrag_slug", "name", "state", "city", "phone", "email_1",
+                 "vorname", "nachname", "anrede"]
+# Nur Einträge mit bestätigter Kernarbeit kommen in den Versand — fremde Gewerbe (Schreiner,
+# Schuhmacher, Metallbauer), die nur über die Kategorie hereinkamen, nicht.
+KERN_SPALTEN = ["schluesseldienst_kern", "tueroeffnung"]
+
+
+def ist_kernbetrieb(r):
+    """Ist „Schlüsseldienst" oder „Türöffnung" als Merkmal bestätigt (wahr/true)?"""
+    return any(truthy(r.get(c)) for c in KERN_SPALTEN)
+
+
+def lade_ansprechpartner(pfad):
+    """slug -> (vorname, nachname) aus kontakt-ansprechpartner.csv (von impressum.py). Leer, wenn fehlt."""
+    if not os.path.isfile(pfad):
+        return {}
+    out = {}
+    with open(pfad, newline="", encoding="utf-8") as f:
+        for z in csv.DictReader(f):
+            out[z.get("eintrag_slug")] = ((z.get("vorname") or "").strip(), (z.get("nachname") or "").strip())
+    return out
+
+
+def baue_anrede(vorname, nachname):
+    """Mit Namen „Hallo Vorname Nachname," — ohne eindeutigen Namen „Guten Tag,". Nie geraten."""
+    if vorname and nachname:
+        return f"Hallo {vorname} {nachname},"
+    return "Guten Tag,"
 
 
 def lade(pfad, felder):
@@ -96,7 +125,7 @@ def cmd_sperren(a, rows, sp_pfad, sperr):
           + ". Erscheint in keiner Liste 'noch zu kontaktieren' mehr.")
 
 
-def cmd_offen(a, rows, kontaktiert, sperr):
+def cmd_offen(a, rows, kontaktiert, sperr, ansprech):
     offen = []
     for r in rows:
         if truthy(r.get("owned")):
@@ -111,6 +140,23 @@ def cmd_offen(a, rows, kontaktiert, sperr):
             continue
         offen.append(r)
     offen.sort(key=lambda r: ((r.get("state") or "").lower(), (r.get("city") or "").lower(), r["slug"]))
+
+    if a.export:
+        pfad = a.export if os.path.isabs(a.export) else os.path.join(WURZEL, a.export)
+        versand = [r for r in offen if ist_kernbetrieb(r)]
+        ausgeschlossen = len(offen) - len(versand)
+        with open(pfad, "w", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=EXPORT_FELDER)
+            w.writeheader()
+            for r in versand:
+                vn, nn = ansprech.get(r["slug"], ("", ""))
+                w.writerow({"eintrag_slug": r["slug"], "name": r.get("name", ""),
+                            "state": r.get("state", ""), "city": r.get("city", ""),
+                            "phone": r.get("phone", ""), "email_1": r.get("email_1", ""),
+                            "vorname": vn, "nachname": nn, "anrede": baue_anrede(vn, nn)})
+        mit_name = sum(1 for r in versand if all(ansprech.get(r["slug"], ("", ""))))
+        print(f"Export: {len(versand)} Zeilen nach {pfad} ({mit_name} mit persönlicher Anrede; "
+              f"{ausgeschlossen} ohne bestätigtes Merkmal Schlüsseldienst/Türöffnung ausgeschlossen).\n")
 
     filterhinweis = ""
     if a.bundesland:
@@ -181,6 +227,8 @@ def main():
     ap.add_argument("--bundesland", help="--offen auf ein Bundesland einschränken (Spalte state)")
     ap.add_argument("--stadt", help="--offen auf eine Stadt einschränken")
     ap.add_argument("--alle", action="store_true", help="--offen vollständig auflisten, auch bei vielen")
+    ap.add_argument("--export", help="--offen zusätzlich als CSV schreiben (mit Anrede aus dem Impressum)")
+    ap.add_argument("--ansprechpartner", help="Pfad der Ansprechpartner-Datei (Vorgabe: <verzeichnis>/kontakt-ansprechpartner.csv)")
     ap.add_argument("--verzeichnis", help="Build-Verzeichnis (Vorgabe: einziges unter output/*/site/)")
     ap.add_argument("--hauptbuch", help="Pfad des Kontaktbuchs (Vorgabe: <verzeichnis>/kontakt-hauptbuch.csv)")
     ap.add_argument("--sperrliste", help="Pfad der Sperrliste (Vorgabe: <verzeichnis>/kontakt-sperrliste.csv)")
@@ -204,6 +252,10 @@ def main():
     sp = lade(sp_pfad, SP_FELDER)
     kontaktiert = {z.get("eintrag_slug") for z in hb}
     sperr = {z.get("eintrag_slug") for z in sp}
+    ap_pfad = a.ansprechpartner or os.path.join(verzeichnis, "kontakt-ansprechpartner.csv")
+    if a.ansprechpartner and not os.path.isabs(ap_pfad):
+        ap_pfad = os.path.join(WURZEL, ap_pfad)
+    ansprech = lade_ansprechpartner(ap_pfad)
 
     if a.aktion == "eintragen":
         if not a.slug:
@@ -214,7 +266,7 @@ def main():
             ap.error("sperren braucht --slug")
         cmd_sperren(a, rows, sp_pfad, sperr)
     elif a.offen:
-        cmd_offen(a, rows, kontaktiert, sperr)
+        cmd_offen(a, rows, kontaktiert, sperr, ansprech)
     elif a.stand:
         cmd_stand(rows, hb, kontaktiert, sperr)
 

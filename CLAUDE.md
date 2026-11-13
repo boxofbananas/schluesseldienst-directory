@@ -57,7 +57,8 @@ verzeichnis-blueprint/
 │                      make_city_packets.py, check_city_copy.py, lint_copy.py (5),
 │                      run_batches.py (Stapelläufer für 3 und 5), check_live.py (6),
 │                      make_local_preview.py (wahlweise). Rückweg für Anträge: verkauf.py,
-│                      garantie.py (erteilen/ändern/entziehen), kontakt.py (Kontaktbuch).
+│                      garantie.py (erteilen/ändern/entziehen), kontakt.py (Kontaktbuch),
+│                      impressum.py (Ansprechpartner aus dem Impressum).
 │                      Nach dem Start: mail_worker.py,
 │                      mail_inbox.py, make_worker_listings.py. Die Anweisungsdateien sind
 │                      allgemein; die Regeln dieser Branche stehen in output/<slug>/03-attributes.json.
@@ -445,9 +446,38 @@ kontaktierten weg.
 ```
 python3 scripts/kontakt.py eintragen --slug <slug> --weg telefon|email|formular --ergebnis "…" [--notiz "…"]
 python3 scripts/kontakt.py sperren --slug <slug> [--grund "…"]
-python3 scripts/kontakt.py --offen [--bundesland "…"] [--stadt "…"] [--alle]
+python3 scripts/kontakt.py --offen [--bundesland "…"] [--stadt "…"] [--alle] [--export <pfad>]
 python3 scripts/kontakt.py --stand
 ```
+
+### Nach dem Start: Ansprechpartner aus dem Impressum
+
+`scripts/impressum.py` liest je Domain **einmal** das Impressum (üblich `/impressum`, sonst über
+den Link im Fußbereich) und zieht den Namen der verantwortlichen natürlichen Person heraus
+(Inhaber, Geschäftsführer, „vertreten durch"). Es **sendet nichts**, **baut/liefert nichts** und
+rührt `listings.csv` nicht an. Universum: Einträge mit Website, nicht owned **und E-Mail**
+(ohne E-Mail kein Zweck). Es **rät nie** — kein Name aus E-Mail, Firmenname oder Bewertung; ohne
+eindeutigen Fund bleibt das Feld leer. Fremde Impressen (Agentur/Portal/anderer Firmenname) und
+**geteilte Domains** (mehrere Einträge auf einer Domain) bekommen keinen Namen. Einzelbuchstaben
+im Namen fallen weg („Klaus D Mapara" → „Klaus Mapara").
+
+Ergebnis (personenbezogen, **gitignoriert**): `output/<slug>/kontakt-ansprechpartner.csv`
+(Slug, Vorname, Nachname, Fundstelle, Abrufdatum); Zwischenspeicher `impressum-cache.json`
+(ebenfalls gitignoriert, erlaubt Fortsetzen und erneutes Auslesen ohne neuen Abruf).
+
+```
+python3 scripts/impressum.py --limit 30 --zeige 10   # Probelauf, zehn Treffer zeigen
+python3 scripts/impressum.py                         # Rest nachholen (nutzt den Zwischenspeicher)
+python3 scripts/impressum.py --neu-lesen             # Namen aus dem Text neu lesen, ohne Abruf
+python3 scripts/impressum.py --stand                 # nur Zahlen
+```
+
+`scripts/kontakt.py --offen --export <pfad>` schreibt daraus eine Mailmerge-CSV je offenem
+Eintrag mit `vorname`, `nachname` und fertiger `anrede` („Hallo Vorname Nachname," bzw. ohne
+Namen „Guten Tag,"). **Nur Kernbetriebe** kommen in den Export: ein Eintrag braucht das Merkmal
+`schluesseldienst_kern` **oder** `tueroeffnung` als bestätigt (`ist_kernbetrieb`); fremde Gewerbe
+(Schreiner, Schuhmacher, Metallbauer), die nur über die Kategorie `locksmith` hereinkamen, fallen
+aus dem Versand. Die Export-Datei (`kontakt-export*.csv`) enthält Adressen und ist gitignoriert.
 
 ### Pflege
 

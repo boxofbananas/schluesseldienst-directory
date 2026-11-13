@@ -916,3 +916,18 @@ Zahlen, was auf Freigabe wartet.
   garantie.py und kontakt.py auf einer Kopie (`--kein-bauen`, nichts ausgeliefert); die 18
   bestehenden Garantien überlebten. Aufrufe in CLAUDE.md festgehalten. Bericht
   berichte/2026-11-13-rueckweg-fuer-antraege.md.
+- **2026-11-13** **Ansprechpartner aus dem Impressum (main, kein Versand, kein Deploy).**
+  `scripts/impressum.py`: liest je Domain einmal das Impressum (üblich `/impressum`, sonst
+  Startseite + Fußlink), zieht die verantwortliche natürliche Person heraus (Inhaber,
+  Geschäftsführer, „vertreten durch"), rät nie (kein Name aus E-Mail/Firmenname/Bewertung).
+  Universum: Website, nicht owned und E-Mail = 1.144 Einträge auf 1.073 Domains; 60 geteilte
+  Domains nicht abgerufen. Ergebnis: gefunden 558, nicht gefunden 554 (fremdes Impressum 23,
+  geteilte Domain 131, keine Person lesbar 400), nicht abrufbar 32. Ergebnis und Cache
+  personenbezogen und gitignoriert (`kontakt-ansprechpartner.csv`, `impressum-cache.json`).
+  Drei Regeln: fremde Impressen/geteilte Domains aussperren (Besitzprüfung über Domain/Firmenname/
+  Nachname, Ort ausgenommen); Einzelbuchstaben weg („Klaus D Mapara" → „Klaus Mapara"); Anrede
+  „Hallo Vorname Nachname," bzw. „Guten Tag,". Export in `kontakt.py` (`--offen --export`) bekommt
+  `vorname`/`nachname`/`anrede` und **nur Kernbetriebe** (`schluesseldienst_kern` oder
+  `tueroeffnung` bestätigt): von 1.144 anschreibbaren bleiben 728, 416 fallen weg (Haupt-Kategorien
+  im Bericht); 348 der 728 mit persönlichem Namen. `listings.csv` und Verzeichnis unverändert.
+  Bericht berichte/2026-11-13-ansprechpartner-impressum.md.

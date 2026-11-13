@@ -38,3 +38,8 @@ output/*/wiedervorlage.csv
 
 # Wrangler lokaler Cache/State
 .wrangler/
+
+# Ansprechpartner aus dem Impressum (personenbezogen) und Kontakt-Export — nie ins Repo
+output/*/kontakt-ansprechpartner.csv
+output/*/impressum-cache.json
+output/*/kontakt-export*.csv
