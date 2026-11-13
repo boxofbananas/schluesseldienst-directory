@@ -40,6 +40,8 @@ import re
 import subprocess
 import sys
 
+from _listings_guard import pruefe_kein_verlust
+
 csv.field_size_limit(10**9)
 
 HIER = os.path.dirname(os.path.abspath(__file__))
@@ -329,6 +331,9 @@ def cmd_verkauf(a, rows, felder, csv_pfad, hb, hb_pfad, tiers, verzeichnis, doma
         # Buchungsdatum für die Reihenfolge im Band (load.mjs ordnet danach). Es ist derselbe Tag,
         # der ins Hauptbuch geht.
         ziel["featured_seit"] = heute()
+    # Sperre: nur die eine gesetzte Buchungsspalte dieses Eintrags darf sich ändern; keine
+    # Garantie und kein anderer Platz darf dabei leer werden (_listings_guard.py).
+    pruefe_kein_verlust(rows, csv_pfad, erlaubt={ziel["slug"]: {spalte, "featured_seit"}}, etikett=csv_pfad)
     schreibe_csv(csv_pfad, felder, rows)
     preis = (tiers.get(STUFEN[stufe][3], {}) or {}).get("price", "")
     haenge_hauptbuch(hb_pfad, [{"datum": heute(), "aktion": "verkauf", "eintrag_slug": ziel["slug"],
@@ -371,6 +376,11 @@ def cmd_entfernen(a, rows, felder, csv_pfad, hb, hb_pfad, verzeichnis, domain, p
         entfernt.append(name)
         hb_neu.append({"datum": heute(), "aktion": "ende", "eintrag_slug": ziel["slug"],
                        "stufe": schluessel or "featured", "stadt": stadt, "preis": ""})
+    # Sperre: --entfernen leert absichtlich die Buchungs-/Premium-Spalten DIESES Eintrags;
+    # alles andere (jede Garantie, jeder fremde Platz) muss unverändert bleiben.
+    pruefe_kein_verlust(rows, csv_pfad,
+                        erlaubt={ziel["slug"]: {"featured", "featured_seit", "premium", "best_of_rank"}},
+                        etikett=csv_pfad)
     schreibe_csv(csv_pfad, felder, rows)
     haenge_hauptbuch(hb_pfad, hb_neu)
     print(f"Entfernt: {', '.join(entfernt)} bei {ziel['name']} in {stadt_anzeige}. "

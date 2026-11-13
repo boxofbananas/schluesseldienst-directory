@@ -10,6 +10,8 @@ A row whose cache file has no socials gets an empty cell. Rerunning overwrites t
 """
 import argparse, csv, json, os
 
+from _listings_guard import pruefe_kein_verlust
+
 csv.field_size_limit(10**9)
 
 
@@ -29,6 +31,9 @@ def main():
         r["socials"] = "|".join(f"{k}={v}" for k, v in soc.items())
         if soc: found += 1
         for k in soc: by_net[k] = by_net.get(k, 0) + 1
+    # Sperre: nur die socials-Spalte wird gesetzt; keine Garantie-/Premium-/Buchungsspalte
+    # darf durch das Zurueckschreiben leer werden (_listings_guard.py).
+    pruefe_kein_verlust(rows, a.csv, etikett=a.csv)
     with open(a.csv, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=cols); w.writeheader(); w.writerows(rows)
     print(f"{found} of {len(rows)} listings have at least one profile link; by network: {dict(sorted(by_net.items(), key=lambda x: -x[1]))}")

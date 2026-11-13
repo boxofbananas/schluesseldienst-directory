@@ -817,3 +817,18 @@ Zahlen, was auf Freigabe wartet.
   Merz/AES/Key Walter, beide Eintragsseiten weg, kein interner Link mehr, Sitemap 2823 -> 2821.
   Ausgeliefert, check_live.py 2821 grün, beide Adressen 404, Suche findet die beiden nicht mehr.
   06-launch.md auf 2821 nachgezogen. Bericht berichte/2026-11-12-mannheim-zwei-ausschluesse.md.
+
+- 2026-11-13 — listings.csv als alleinige Quelle der operativen Spalten festgelegt und gegen
+  Überschreiben gesichert. Ausmaß: enriched (4387×80) vs Build-listings.csv (3797×82) — 18
+  Garantien (geprueft + 6 Preisspalten) und Merz' Mannheimer Platz (featured=city, premium=true,
+  featured_seit) stehen nur im Build, enriched hat sie leer; Schema-Divergenz (abend/nacht-Zuschlag
+  vs garantie_nacht, featured_seit). Neues Modul scripts/_listings_guard.py: merge_protected()
+  trägt die operativen Spalten beim Neulauf per Slug aus der bestehenden CSV zurück,
+  pruefe_kein_verlust() bricht ab, wenn eine bleibende Zeile einen gefüllten Wert verlöre, und
+  nennt die Einträge. Verdrahtet in apply_exclusions.py (Rücktrag + Sperre + Warnung bei Ausschluss
+  mit Garantie), verkauf.py und add_socials.py. Probe: Vollneulauf in eine Kopie — 3797 Zeilen, alle
+  18 Garantien identisch, Merz-Platz erhalten; Gegenbeweis: ohne Rücktrag bricht die Sperre ab und
+  nennt 18 Einträge. Quelle+Sperre in CLAUDE.md festgehalten. Nebenbefund: lint_copy.py auf
+  city-copy.json — die 725 Durchfaller behebt --city-sizes mit einer nach <bundesland>/<stadt>
+  verschlüsselten Größenkarte (725 -> 0), nichts geändert, Vorschlag zur Aufnahme in copy-gate offen.
+  Kein Deploy. Bericht berichte/2026-11-13-listings-quelle-und-sperre.md.

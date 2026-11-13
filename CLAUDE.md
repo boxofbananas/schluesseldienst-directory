@@ -370,6 +370,28 @@ Es bricht ab (nicht nur Warnung), wenn das Stadt-Premium der Stadt schon vergebe
 zweiter eigener Betrieb in der Stadt einen bezahlten Platz bekäme ([[footprint-rules]]), und wenn
 der Slug auf keine oder mehrere Zeilen passt. `--help` ist maßgeblich.
 
+**Eine Quelle für die operativen Spalten.** Die Build-`site/src/data/listings.csv` ist die
+**alleinige Wahrheit** für die operativen Spalten: `geprueft`, `geprueft_jahr`, die sechs
+`garantie_*`-Preisspalten, `featured`, `featured_cities`, `featured_seit`, `premium`,
+`best_of_rank` und das reservierte `preisschutz`. Dorthin — und nur dorthin — schreiben
+`verkauf.py` und die Garantie-Vergabe von Hand. `03-listings-enriched.csv` bleibt die Wahrheit
+für die **beschreibenden** Spalten (Beschreibung, Merkmale, Bewertungen, Scrape-Felder) und
+trägt die operativen Spalten **nie**. Muss `listings.csv` neu aus enriched gebaut werden (ein
+voller Neulauf oder `apply_exclusions.py`), **folgt** sie der bestehenden `listings.csv`:
+`apply_exclusions.py` trägt die operativen Spalten per Slug aus ihr zurück (`merge_protected` in
+`scripts/_listings_guard.py`) und ergänzt fehlende Spaltennamen, bevor es schreibt. Darum wird
+die enriched-CSV **nie von Hand in den Build kopiert**; der Weg führt immer über
+`apply_exclusions.py`.
+
+**Die Sperre.** Jedes Skript, das `listings.csv` überschreibt (`apply_exclusions.py`,
+`verkauf.py`, `add_socials.py`), ruft vor dem Schreiben `pruefe_kein_verlust` aus
+`scripts/_listings_guard.py`. Würde eine **bleibende** Zeile einen gefüllten operativen Wert
+verlieren (gefüllt → leer), **bricht der Lauf ab** und nennt die betroffenen Einträge und
+Spalten; es wird nichts geschrieben. Ein geänderter, aber nicht geleerter Wert (neuer
+Garantiepreis) und ein per [[conduct-exclusions]] ganz entfernter Eintrag lösen die Sperre
+nicht aus; ein Ausschluss, der eine Garantie oder Buchung trug, wird als Warnung gemeldet. Neue
+operative Spalten in die Liste `PROTECTED` in `scripts/_listings_guard.py` eintragen.
+
 ### Nach dem Start: der Mail-Worker
 
 [[mail-worker]], wahlweise, auf Wunsch des Betreibers, nie Teil eines Gates. Ein Cloudflare

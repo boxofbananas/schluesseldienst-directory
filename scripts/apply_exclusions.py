@@ -15,6 +15,8 @@ Usage:
 import argparse, csv, sys
 from collections import Counter
 
+from _listings_guard import merge_protected, pruefe_kein_verlust, _lade_geschuetzt
+
 csv.field_size_limit(10**9)
 
 
@@ -40,6 +42,23 @@ def main():
         if r["slug"] in drop: done["dropped"] += 1; continue
         if r["slug"] in blank: r["website"] = ""; done["website blanked"] += 1
         out.append(r)
+    # Die operativen Spalten (Festpreis-Garantie, Premium, Buchung) stehen NUR in der
+    # bestehenden Build-listings.csv, nie in enriched. Vor dem Ueberschreiben per Slug
+    # zuruecktragen, sonst loescht dieser Lauf jede Garantie und jeden verkauften Platz
+    # (_listings_guard.py). So folgt die neu gebaute CSV der alten.
+    cols = merge_protected(out, cols, a.out)
+    # Ein per Ausschluss ganz entfernter Eintrag, der eine Garantie/Buchung trug, ist ein
+    # echter Verlust: melden (kein Abbruch, der Ausschluss ist eine bewusste Entscheidung).
+    bestand = _lade_geschuetzt(a.out)
+    verloren = [(s, bestand[s]) for s in sorted(drop) if s in bestand]
+    if verloren:
+        print("WARNUNG: diese ausgeschlossenen Eintraege trugen gefuellte operative Spalten "
+              "(gehen mit dem Ausschluss verloren):")
+        for s, g in verloren:
+            print(f"  {s}: " + ", ".join(f"{k}={v}" for k, v in g.items()))
+    # Die Sperre: nichts schreiben, wenn eine BLEIBENDE Zeile einen gefuellten operativen
+    # Wert verloere. Nach dem Ruecktrag darf das nicht mehr vorkommen.
+    pruefe_kein_verlust(out, a.out, etikett=a.out)
     with open(a.out, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=cols); w.writeheader(); w.writerows(out)
     print(f"listings in: {len(rows)}, written: {len(out)}")
