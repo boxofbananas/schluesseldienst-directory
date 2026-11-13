@@ -884,3 +884,11 @@ Zahlen, was auf Freigabe wartet.
   nur gemeldet. konventionen nicht eingetragen, Wortlaut vorgeschlagen. Live-Stichprobe (Merz, AES, Ried
   Viernheim ohne Garantie, Key Walter + Atilla Mannheim fremd, AOS Hamburg fremd) bestätigt die Regel.
   check_live 2821 bestanden. Bericht berichte/2026-11-13-website-links-geprueft-freigeschaltet-zahlend.md.
+- **2026-11-13** **Link-Regel: drei Abschlüsse (main).** (1) Absatz „Website- und Profil-Links auf
+  Eintragsseiten" auf ausdrückliche Betreiberfreigabe in `wiki/konventionen.md` eingetragen (nach
+  „Darstellung im Eintrag", vor „Stadtkarte"), mit Datum 2026-11-13; sonst nichts an der Datei. (2) AGB
+  auf Umfang eines Eintrags / einer bezahlten Stufe durchgesehen (nichts geändert): nur **B1,
+  Premium-Eintrag** passt nicht mehr vollständig — „Verlinkung … **ohne Suchmaschinen-Einschränkung**"
+  trifft einen bezahlten Platz ohne Garantie/`link_follow` nicht, der jetzt `rel="sponsored"` (also
+  gekennzeichnet) trägt; A3, B5, B7, Teil-B-Einleitung bleiben stimmig. (3) Ab jetzt wird `main` nach
+  jedem Commit gepusht, ohne Aufforderung. Kein Deploy (reine Text-/Regelarbeit).

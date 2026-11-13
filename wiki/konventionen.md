@@ -193,6 +193,16 @@ Festpreis-Garantie“ mit Link auf `/festpreis-garantie/antrag/` – das ist der
 und darf nicht abgeschaltet werden. Keine Formulierung, die dem Betrieb ohne Garantie etwas
 unterstellt.
 
+**Website- und Profil-Links auf Eintragsseiten** (Betreiberentscheidung vom 2026-11-13). Einen
+Link auf die Website und die Profile eines Betriebs trägt ein Eintrag nur, wenn der Betrieb die
+Festpreis-Garantie hat (`geprueft`) oder über die Spalte `link_follow` freigeschaltet ist — dann
+als **gefolgter** Link ohne `nofollow` und ohne `sponsored` — oder wenn er einen bezahlten Platz
+hat (`premium`, `featured`, `best_of_rank`) — dann als **bezahlt gekennzeichneter** Link mit
+`rel="sponsored"`. Alle übrigen Einträge tragen **keinen** Website- und keinen Profil-Link, auch
+nicht die Adresse als Text. Google-Maps-Link, Routenplanung und Telefonnummer bleiben bei allen.
+`owned` wird für die Darstellung nicht gelesen; die Freischaltung eigener Betriebe läuft allein
+über `link_follow` ([[footprint-rules]]).
+
 Stadtkarte: Betriebe mit Garantie zeigen eine Zeile „Festpreis-Garantie · Türöffnung ab
 <garantie_tag> €“.
 
