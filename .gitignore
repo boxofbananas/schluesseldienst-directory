@@ -43,3 +43,5 @@ output/*/wiedervorlage.csv
 output/*/kontakt-ansprechpartner.csv
 output/*/impressum-cache.json
 output/*/kontakt-export*.csv
+# Regenerierbarer MX-Zwischenspeicher des Versand-Exports (Domain -> Mail-Server ja/nein)
+output/*/versand-mx-cache.json

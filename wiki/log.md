@@ -931,3 +931,15 @@ Zahlen, was auf Freigabe wartet.
   `tueroeffnung` bestätigt): von 1.144 anschreibbaren bleiben 728, 416 fallen weg (Haupt-Kategorien
   im Bericht); 348 der 728 mit persönlichem Namen. `listings.csv` und Verzeichnis unverändert.
   Bericht berichte/2026-11-13-ansprechpartner-impressum.md.
+
+- **2026-11-14 — Den Export versandfertig gemacht.** `kontakt.py` um `exportieren`, `pruefen`,
+  `importieren` und `--stand --kampagne` erweitert; neuer Datenschicht-Helfer
+  `site/dump-versand.mjs` liefert platz/anzahl/eintrag_url/Bewertung/Telefon genau so, wie die
+  Seite sie zeigt (geprüft an Stichproben gegen `dist/`, 0 Abweichungen). Adressen gesäubert
+  (Hauptadresse je Eintrag, MX-Prüfung, Portal-/Zentral- und Mehrfachadressen raus, Freemailer
+  drin), nur Kernbetriebe, nur Städte ohne Garantie/bezahlten Platz. National von 3.797 Einträgen
+  640 versandfertig, davon 331 mit persönlicher Anrede. Kampagnen mit Name und Obergrenze
+  (vorgesehen → nicht zweimal exportiert); Plattform-Ergebnisse zurücklesen (abgemeldet/unzustellbar
+  → Sperrliste, Unbekanntes gemeldet, nie geraten). Platzhalter-Namen aus Muster-Impressen
+  („Max Mustermann") am Rand abgefangen. `listings.csv` und Verzeichnis unverändert, nichts
+  versendet/ausgeliefert. Bericht berichte/2026-11-14-versand-export.md.

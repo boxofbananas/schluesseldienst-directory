@@ -57,7 +57,7 @@ verzeichnis-blueprint/
 │                      make_city_packets.py, check_city_copy.py, lint_copy.py (5),
 │                      run_batches.py (Stapelläufer für 3 und 5), check_live.py (6),
 │                      make_local_preview.py (wahlweise). Rückweg für Anträge: verkauf.py,
-│                      garantie.py (erteilen/ändern/entziehen), kontakt.py (Kontaktbuch),
+│                      garantie.py (erteilen/ändern/entziehen), kontakt.py (Kontaktbuch & Versand-Export),
 │                      impressum.py (Ansprechpartner aus dem Impressum).
 │                      Nach dem Start: mail_worker.py,
 │                      mail_inbox.py, make_worker_listings.py. Die Anweisungsdateien sind
@@ -436,19 +436,54 @@ Betriebs, die nicht in der CSV stehen, und verspricht nie eine Garantie. Die Tex
 
 ### Nach dem Start: das Kontaktbuch
 
-`scripts/kontakt.py` hält die Ansprache der Betriebe fest, ohne einen Eintrag zu ändern (es
-liest `listings.csv` nur, baut und liefert nichts aus). Zwei **anhängende** Bücher neben der
-Build-CSV: `output/<slug>/kontakt-hauptbuch.csv` (Datum, Slug, Weg, Ergebnis, Notiz) und
-`output/<slug>/kontakt-sperrliste.csv`. Ein gesperrter Eintrag erscheint in keiner
-„noch zu kontaktieren"-Liste; `--offen` lässt auch die eigenen Betriebe und die schon
-kontaktierten weg.
+`scripts/kontakt.py` hält die Ansprache der Betriebe fest, macht aus den offenen Einträgen eine
+versandfertige CSV je Kampagne und liest die Ergebnisse einer Versandplattform zurück — ohne
+einen Eintrag zu ändern (es liest `listings.csv` nur, **versendet nichts**, baut und liefert
+nichts aus). Vier **anhängende** Bücher neben der Build-CSV: `kontakt-hauptbuch.csv` (Datum, Slug,
+Weg, Ergebnis, Notiz), `kontakt-sperrliste.csv`, `kontakt-kampagnen.csv` (Datum, Kampagne, Slug,
+Status) und die gitignorierte `kontakt-ansprechpartner.csv` (von `impressum.py`). Ein gesperrter
+Eintrag erscheint in keiner „noch zu kontaktieren"-Liste und in keinem Export; `--offen` lässt
+auch die eigenen Betriebe und die schon kontaktierten weg.
 
 ```
 python3 scripts/kontakt.py eintragen --slug <slug> --weg telefon|email|formular --ergebnis "…" [--notiz "…"]
 python3 scripts/kontakt.py sperren --slug <slug> [--grund "…"]
-python3 scripts/kontakt.py --offen [--bundesland "…"] [--stadt "…"] [--alle] [--export <pfad>]
-python3 scripts/kontakt.py --stand
+python3 scripts/kontakt.py --offen [--bundesland "…"] [--stadt "…"] [--alle]
+python3 scripts/kontakt.py --stand [--kampagne <name>]
 ```
+
+**Versandfertige CSV je Kampagne.** `exportieren` säubert die Adressen (eine Hauptadresse je
+Eintrag; formal ungültige, Domains ohne Mail-Server per MX-Prüfung, Portal-/Zentraladressen und
+Mehrfachadressen fallen weg — bei einer Adresse an mehreren Einträgen bleibt nur der bestbewertete
+Bezug; Freemailer bleiben drin), nimmt **nur Kernbetriebe** (`schluesseldienst_kern` **oder**
+`tueroeffnung` bestätigt) und **nur Städte ohne Festpreis-Garantie und ohne bezahlten Platz**
+(für den Pilot-Satz „noch kein Betrieb hat die Garantie"). Jede Zeile trägt `eintrag_url`, `platz`
+und `anzahl` auf der Stadtseite, `bewertung`/`bewertungen`/`hat_bewertung` und `telefon` im Format
+der Website sowie `vorname`/`nachname`/`anrede` aus dem Impressum. Die Werte (platz, anzahl, …)
+kommen aus derselben Datenschicht wie der Build (`site/dump-versand.mjs`) und stimmen mit `dist/`
+überein; `pruefen` belegt das an Stichproben. Jeder Export trägt einen **Kampagnennamen** und eine
+**Obergrenze** (`--limit`); exportierte Einträge werden als „vorgesehen" vermerkt und nicht ein
+zweites Mal exportiert.
+
+```
+python3 scripts/kontakt.py exportieren --kampagne <name> [--limit N] [--bundesland "…"] [--stadt "…"] [--out <pfad>] [--probe]
+python3 scripts/kontakt.py pruefen [--anzahl 20] [--seed 0]     # Export gegen dist/ prüfen
+python3 scripts/kontakt.py importieren --kampagne <name> --datei <ergebnisse.csv> \
+    [--spalte-slug …] [--spalte-email …] [--spalte-status …] [--spalte-datum …]
+```
+
+Die **Import-Datei** (Ergebnis-CSV der Versandplattform) hat eine Zeile je Empfänger; `--datei`
+erwartet Slug **oder** E-Mail (muss genau einen Eintrag treffen, sonst wird die Zeile als unklar
+gemeldet, nicht geraten), einen Status (gesendet/geantwortet/unzustellbar/abgemeldet, Synonyme
+werden abgebildet) und optional ein Datum. Jede Zeile wird ein Hauptbuch-Eintrag; „abgemeldet" und
+„unzustellbar" kommen zusätzlich auf die Sperrliste. Unbekannte Spalten mit `--spalte-…` setzen;
+das volle Format steht in `kontakt.py --help`. `--stand --kampagne <name>` zeigt je Kampagne:
+exportiert, gesendet, geantwortet, abgemeldet, unzustellbar und die daraus entstandenen Anträge
+(Hauptbuch) und Festpreis-Garantien (`garantie-hauptbuch.csv`).
+
+Gitignoriert (Adressen bzw. regenerierbar): `kontakt-export*.csv` und `versand-mx-cache.json`.
+Platzhalter-Namen aus Muster-Impressen („Max Mustermann") werden am Rand abgefangen und nie zu
+einer persönlichen Anrede.
 
 ### Nach dem Start: Ansprechpartner aus dem Impressum
 
@@ -472,12 +507,9 @@ python3 scripts/impressum.py --neu-lesen             # Namen aus dem Text neu le
 python3 scripts/impressum.py --stand                 # nur Zahlen
 ```
 
-`scripts/kontakt.py --offen --export <pfad>` schreibt daraus eine Mailmerge-CSV je offenem
-Eintrag mit `vorname`, `nachname` und fertiger `anrede` („Hallo Vorname Nachname," bzw. ohne
-Namen „Guten Tag,"). **Nur Kernbetriebe** kommen in den Export: ein Eintrag braucht das Merkmal
-`schluesseldienst_kern` **oder** `tueroeffnung` als bestätigt (`ist_kernbetrieb`); fremde Gewerbe
-(Schreiner, Schuhmacher, Metallbauer), die nur über die Kategorie `locksmith` hereinkamen, fallen
-aus dem Versand. Die Export-Datei (`kontakt-export*.csv`) enthält Adressen und ist gitignoriert.
+`scripts/kontakt.py exportieren` nimmt daraus `vorname`, `nachname` und die fertige `anrede`
+(„Hallo Vorname Nachname," bzw. ohne eindeutigen Namen „Guten Tag,") in die versandfertige CSV
+(siehe „Nach dem Start: das Kontaktbuch").
 
 ### Pflege
 
