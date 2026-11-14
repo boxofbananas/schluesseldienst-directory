@@ -461,9 +461,20 @@ Bezug; Freemailer bleiben drin), nimmt **nur Kernbetriebe** (`schluesseldienst_k
 und `anzahl` auf der Stadtseite, `bewertung`/`bewertungen`/`hat_bewertung` und `telefon` im Format
 der Website sowie `vorname`/`nachname`/`anrede` aus dem Impressum. Die Werte (platz, anzahl, …)
 kommen aus derselben Datenschicht wie der Build (`site/dump-versand.mjs`) und stimmen mit `dist/`
-überein; `pruefen` belegt das an Stichproben. Jeder Export trägt einen **Kampagnennamen** und eine
-**Obergrenze** (`--limit`); exportierte Einträge werden als „vorgesehen" vermerkt und nicht ein
-zweites Mal exportiert.
+überein; `pruefen` belegt das an Stichproben. Zusätzlich trägt jede Zeile `variante` (welcher
+Mailtext passt) und `stand` (der Exporttag JJJJ-MM-TT):
+
+- `variante` ist `platz`, wenn der Eintrag eine Bewertung hat **und** die Stadtseite mindestens
+  `PLATZ_HOOK_MIN_ANZAHL` (= 5) Einträge führt — dann trägt der Mailtext den Platz-Aufhänger.
+  Sonst `telefon`; fehlt dann das Telefon, fällt der Eintrag mit dem Trichter-Grund
+  `keine_variante` aus dem Export. `exportieren` nennt am Ende, wie viele Zeilen je Variante.
+- `stand` hält den Exporttag fest. Die Plätze gelten nur bis zum nächsten Neubau; `exportieren`
+  weist darauf hin, nach einem Neubau neu zu exportieren und die alte Datei nicht zu versenden.
+
+Jeder Export trägt einen **Kampagnennamen** und eine **Obergrenze** (`--limit`); exportierte
+Einträge werden als „vorgesehen" vermerkt und nicht ein zweites Mal exportiert. Die Obergrenze
+schneidet **nach Score** ab (die bestbewerteten über alle Städte zuerst, damit späte Städte nicht
+ganz wegfallen) und sortiert die Datei danach wie gehabt nach Bundesland, Stadt, Score.
 
 ```
 python3 scripts/kontakt.py exportieren --kampagne <name> [--limit N] [--bundesland "…"] [--stadt "…"] [--out <pfad>] [--probe]

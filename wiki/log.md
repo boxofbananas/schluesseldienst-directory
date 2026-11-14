@@ -943,3 +943,13 @@ Zahlen, was auf Freigabe wartet.
   → Sperrliste, Unbekanntes gemeldet, nie geraten). Platzhalter-Namen aus Muster-Impressen
   („Max Mustermann") am Rand abgefangen. `listings.csv` und Verzeichnis unverändert, nichts
   versendet/ausgeliefert. Bericht berichte/2026-11-14-versand-export.md.
+
+- **2026-11-14 — Versand-Export um die Mail-Variante ergänzt.** Neue Spalten `variante`
+  (`platz`/`telefon`: Platz-Aufhänger nur mit Bewertung und ab `PLATZ_HOOK_MIN_ANZAHL`=5 Einträgen
+  der Stadtseite, sonst Telefon; ohne Telefon neuer Trichter-Grund `keine_variante`) und `stand`
+  (Exporttag) in der Export-CSV; `exportieren` nennt die Stückzahl je Variante und weist darauf hin,
+  nach einem Neubau neu zu exportieren. `--limit` schneidet jetzt nach Score ab (beste über alle
+  Städte zuerst, dann Datei-Reihenfolge nach Bundesland/Stadt/Score). National 639 versandfertig
+  (330 mit Namen; platz 460, telefon 179, 1 keine_variante), Bayern 91 (50 mit Namen; platz 79,
+  telefon 12). `pruefen` grün (Seeds 0/1/2, 0 Abweichungen). Kein Versand, kein Deploy,
+  `listings.csv` unverändert, Live-Bücher leer. Bericht berichte/2026-11-14-versand-variante.md.

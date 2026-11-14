@@ -84,9 +84,16 @@ KAMP_FELDER = ["datum", "kampagne", "eintrag_slug", "status"]
 WEGE = ["telefon", "email", "formular"]
 
 # Spalten der versandfertigen Export-Datei (gitignoriert; enthält Adressen, nur zum Anschreiben).
+# `variante` wählt den Mailtext (platz-Aufhänger oder telefon-Aufhänger), `stand` hält den
+# Exporttag fest (die Plätze gelten nur bis zum nächsten Neubau).
 EXPORT_FELDER = ["eintrag_slug", "kampagne", "name", "state", "city", "eintrag_url",
                  "platz", "anzahl", "bewertung", "bewertungen", "hat_bewertung", "telefon",
-                 "email", "vorname", "nachname", "anrede"]
+                 "email", "vorname", "nachname", "anrede", "variante", "stand"]
+
+# Welche Mail-Variante ein Eintrag bekommt: den Platz-Aufhänger („Platz N von M") nur, wenn der
+# Eintrag eine Bewertung hat UND die Stadtseite mindestens so viele Einträge führt — sonst wirkt
+# die Reihung nicht. Darunter der Telefon-Aufhänger. Fehlt dann das Telefon, fällt der Eintrag weg.
+PLATZ_HOOK_MIN_ANZAHL = 5
 
 # Nur Einträge mit bestätigter Kernarbeit kommen in den Versand — fremde Gewerbe (Schreiner,
 # Schuhmacher, Metallbauer), die nur über die Kategorie hereinkamen, nicht.
@@ -428,7 +435,7 @@ def _export_kandidaten(rows, dump, kontaktiert, sperr, vorgesehen, ansprech, mx_
     stat = {k: 0 for k in ("gesamt", "owned", "gesperrt", "kontaktiert", "vorgesehen",
                             "ohne_email", "formal_ungueltig", "kein_mailserver", "portal_zentrale",
                             "mehrfach", "kein_kernbetrieb", "stadt_hat_garantie_oder_platz",
-                            "nicht_im_dump", "bleiben")}
+                            "nicht_im_dump", "keine_variante", "bleiben")}
     # Adressen säubern GLOBAL (Dedup/Portal über alle Einträge), ohne MX (MX erst für die, die alle
     # anderen Filter bestehen — spart Lookups). Der Trichter unten zählt je Reihe im Kampagnen-Umfang.
     behalten, drop = saeubere_adressen(rows)
@@ -467,6 +474,15 @@ def _export_kandidaten(rows, dump, kontaktiert, sperr, vorgesehen, ansprech, mx_
         # Nur Städte ohne Garantie und ohne bezahlten Platz (Punkt 3).
         if not d.get("cityEligible"):
             stat["stadt_hat_garantie_oder_platz"] += 1; continue
+        telefon = (d.get("telefon") or "").strip()
+        # Mail-Variante: Platz-Aufhänger nur mit Bewertung und genug Einträgen auf der Stadtseite,
+        # sonst Telefon-Aufhänger. Ohne Telefon trägt der Eintrag keinen Aufhänger → fällt weg.
+        if d.get("hatBewertung") and (d.get("anzahl") or 0) >= PLATZ_HOOK_MIN_ANZAHL:
+            variante = "platz"
+        else:
+            variante = "telefon"
+            if not telefon:
+                stat["keine_variante"] += 1; continue
         vn, nn = ansprech.get(slug, ("", ""))
         if ist_platzhalter(vn, nn):
             vn = nn = ""
@@ -476,18 +492,24 @@ def _export_kandidaten(rows, dump, kontaktiert, sperr, vorgesehen, ansprech, mx_
             "eintrag_url": d.get("eintragUrl", ""), "platz": d.get("platz", ""), "anzahl": d.get("anzahl", ""),
             "bewertung": d.get("bewertung", ""), "bewertungen": d.get("bewertungen", ""),
             "hat_bewertung": "wahr" if d.get("hatBewertung") else "falsch",
-            "telefon": d.get("telefon", ""), "email": mail,
+            "telefon": telefon, "email": mail,
             "vorname": vn, "nachname": nn, "anrede": baue_anrede(vn, nn),
+            "variante": variante, "stand": heute(),
             "_score": score(r),
         })
-    # Reihenfolge: Bundesland, Stadt, beste Bewertung zuerst, Slug. Die Obergrenze schneidet unten ab.
-    zeilen.sort(key=lambda z: (z["state"].lower(), z["city"].lower(), -z["_score"], z["eintrag_slug"]))
+    # Obergrenze gerecht schneiden: die besten (Score absteigend) über alle Städte zuerst, damit
+    # späte Städte nicht ganz wegfallen. Danach erst die Datei-Reihenfolge herstellen.
     stat["ueber_limit"] = 0
     if a.limit and len(zeilen) > a.limit:
         stat["ueber_limit"] = len(zeilen) - a.limit
+        zeilen.sort(key=lambda z: (-z["_score"], z["eintrag_slug"]))
         zeilen = zeilen[:a.limit]
+    # Datei-Reihenfolge: Bundesland, Stadt, beste Bewertung zuerst, Slug.
+    zeilen.sort(key=lambda z: (z["state"].lower(), z["city"].lower(), -z["_score"], z["eintrag_slug"]))
     stat["bleiben"] = len(zeilen)
     stat["mit_name"] = sum(1 for z in zeilen if z["vorname"] and z["nachname"])
+    stat["variante_platz"] = sum(1 for z in zeilen if z["variante"] == "platz")
+    stat["variante_telefon"] = sum(1 for z in zeilen if z["variante"] == "telefon")
     return zeilen, stat
 
 
@@ -511,13 +533,19 @@ def cmd_exportieren(a, rows, dump, kontaktiert, sperr, vorgesehen, ansprech, mx_
     print(f"  Portal-/Zentraladresse              {stat['portal_zentrale']:>6}")
     print(f"  Mehrfachadresse (nur bester Bezug)  {stat['mehrfach']:>6}")
     print(f"  Stadt hat Garantie/bezahlten Platz  {stat['stadt_hat_garantie_oder_platz']:>6}")
+    print(f"  keine Variante (telefon, kein Tel.) {stat['keine_variante']:>6}")
     if stat.get("ueber_limit"):
         print(f"  über der Obergrenze abgeschnitten   {stat['ueber_limit']:>6}")
     print(f"  --------------------------------------------")
-    print(f"  versandfertig                       {stat['bleiben']:>6}  ({stat['mit_name']} mit persönlicher Anrede)\n")
+    print(f"  versandfertig                       {stat['bleiben']:>6}  ({stat['mit_name']} mit persönlicher Anrede)")
+    print(f"    davon Variante platz              {stat['variante_platz']:>6}")
+    print(f"    davon Variante telefon            {stat['variante_telefon']:>6}\n")
 
+    hinweis = ("Plätze gelten für den Stand von heute. Nach einem Neubau neu exportieren, "
+               "nicht diese Datei versenden.")
     if a.probe:
         print("PROBE (--probe): nichts geschrieben, keine Kampagne vermerkt.")
+        print(hinweis)
         return
     if not zeilen:
         print("Nichts zu exportieren — keine Datei geschrieben, keine Kampagne vermerkt.")
@@ -533,6 +561,7 @@ def cmd_exportieren(a, rows, dump, kontaktiert, sperr, vorgesehen, ansprech, mx_
     print(f"Export: {len(zeilen)} Zeilen nach {out_pfad}")
     print(f"Kampagne „{a.kampagne}“: {len(zeilen)} Einträge als „vorgesehen“ vermerkt "
           f"(nicht erneut exportiert). Es wurde nichts versendet.")
+    print(hinweis)
 
 
 def cmd_importieren(a, rows, hb_pfad, sp_pfad, sperr, kamp_pfad, datei):
