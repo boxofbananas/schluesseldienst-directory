@@ -964,3 +964,14 @@ Zahlen, was auf Freigabe wartet.
   nichts bricht; Variante B (nackte Wurzel) bräche info@ und Worker. Exakte DNS-Liste (SPF/DKIM-
   CNAMEs/DMARC p=none) und Klick-Schritte (mailbox.org, LeadHawk) im Bericht, noch nicht gesetzt.
   Belegt mit Cloudflare- und mailbox.org-Doku. Bericht berichte/2026-11-16-sende-postfach-plan.md.
+
+- **2026-11-16 — Günstigere Postfächer geprüft (nur Recherche, nichts gekauft).** Spacemail
+  (Spaceship) und lima-city „Mini" gegen mailbox.org verglichen, je Anbieter mit Doku-Beleg
+  (Subdomain/externe DNS, MX/Nachweis-TXT, IMAP/SMTP, DKIM, Versandgrenze, AGB, Preis). Alle drei
+  erfüllen technisch 1–3 (externe Domain mit DNS bei Cloudflare, Wurzel unberührt). Günstigster, der
+  1–3 erfüllt: **Spacemail** (~11–14 €/Jahr vs. lima-city ~34–42 €, mailbox.org ~36 €) — Empfehlung,
+  aber mit zwei Vorbehalten: Spacemails AUP ist bei unaufgefordertem Versand die strengste (Punkt 5,
+  $500/Spam-Mail), und die Subdomain-Nutzung ist vor Kauf zu bestätigen; bei strengerer Gewichtung
+  von Punkt 5 ist lima-city Mini (AGB schweigt, inkl. MwSt) die ruhigere Wahl, braucht aber eine
+  Support-Rückfrage zur reinen Mail-Subdomain. Nichts gekauft, keine DNS-Änderung. Bericht
+  berichte/2026-11-16-postfach-vergleich.md.
