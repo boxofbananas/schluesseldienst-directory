@@ -953,3 +953,14 @@ Zahlen, was auf Freigabe wartet.
   (330 mit Namen; platz 460, telefon 179, 1 keine_variante), Bayern 91 (50 mit Namen; platz 79,
   telefon 12). `pruefen` grün (Seeds 0/1/2, 0 Abweichungen). Kein Versand, kein Deploy,
   `listings.csv` unverändert, Live-Bücher leer. Bericht berichte/2026-11-14-versand-variante.md.
+
+- **2026-11-16 — Sende-Postfach für die Outreach-Mails geplant (nur Prüfung, nichts gesetzt).**
+  DNS der Zone nur gelesen (Cloudflare-API, Token mit DNS-Leserecht; Token nicht ausgegeben).
+  Stand: Wurzel-MX/SPF/DKIM = Cloudflare Email Routing (trägt `info@`→Gmail und den legacy-Weg des
+  Worker-Versands), **kein DMARC**, **keine cf-bounce-Records**. Kernbefund: Wurzel-MX kann nur auf
+  einen Anbieter zeigen — Email Routing (info@ + Worker) braucht ihn auf Cloudflare, mailbox.org-
+  Empfang bräuchte ihn auf mailbox.org. Empfehlung **Variante A: Sende-Postfach auf eine Subdomain**
+  (`vorname@send.die-besten-schluesseldienste.de`, MX→mxext1–4.mailbox.org), Wurzel unangetastet →
+  nichts bricht; Variante B (nackte Wurzel) bräche info@ und Worker. Exakte DNS-Liste (SPF/DKIM-
+  CNAMEs/DMARC p=none) und Klick-Schritte (mailbox.org, LeadHawk) im Bericht, noch nicht gesetzt.
+  Belegt mit Cloudflare- und mailbox.org-Doku. Bericht berichte/2026-11-16-sende-postfach-plan.md.
