@@ -975,3 +975,12 @@ Zahlen, was auf Freigabe wartet.
   von Punkt 5 ist lima-city Mini (AGB schweigt, inkl. MwSt) die ruhigere Wahl, braucht aber eine
   Support-Rückfrage zur reinen Mail-Subdomain. Nichts gekauft, keine DNS-Änderung. Bericht
   berichte/2026-11-16-postfach-vergleich.md.
+- **2026-11-16 — Sende-Postfach gesetzt, Schritt 1–2 (Variante A, Subdomain `post`, mailbox.org).**
+  Freigabe des Betreibers umgesetzt. (1) Token darf DNS schreiben: `/user/tokens/verify` meldet zwar
+  Code 1000 (zonen-gebundener Token ohne `/user/*`-Zugriff — kein Fehler), aber DNS-Read und der
+  Nachweis-Write laufen mit `success`. (2) Nur den mailbox.org-Nachweis-TXT auf
+  `378adbc96caa4222432e51447fec7706b0c5cdd1.post…` gesetzt (DNS-only, TTL Auto); löst von außen auf
+  1.1.1.1 und 8.8.8.8 auf. Wurzel (MX→Cloudflare, SPF, DKIM cf2024) unberührt, Vorher-Zustand im
+  Bericht festgehalten. Schritt 3–5 (MX/SPF/DKIM/DMARC der Subdomain, dig-Kontrolle, Formular-Test)
+  warten auf „verifiziert". Randnotiz: Platte war 100 % voll, nur den npm-Download-Cache geleert.
+  Bericht berichte/2026-11-16-sende-postfach-setzen.md.
