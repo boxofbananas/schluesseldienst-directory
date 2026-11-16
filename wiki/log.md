@@ -984,3 +984,13 @@ Zahlen, was auf Freigabe wartet.
   Bericht festgehalten. Schritt 3–5 (MX/SPF/DKIM/DMARC der Subdomain, dig-Kontrolle, Formular-Test)
   warten auf „verifiziert". Randnotiz: Platte war 100 % voll, nur den npm-Download-Cache geleert.
   Bericht berichte/2026-11-16-sende-postfach-setzen.md.
+- **2026-11-16 — Sende-Postfach Schritt 3–5 gesetzt (nach „verifiziert").** (3) Für `post.` vier MX
+  `mxext1–4.mailbox.org` Prio 10, SPF `include:mailbox.org`, vier DKIM-CNAMEs `MBO0001–4._domainkey`,
+  DMARC `p=none` mit rua auf `dmarc@post.…` — alle DNS-only, je `success` (Prioritäten/Ziele vorher
+  gegen kb.mailbox.org geprüft). (4) dig auf 1.1.1.1 und 8.8.8.8: alle `post.`-Einträge lösen auf,
+  DKIM-CNAMEs folgen bis zum echten mailbox-Schlüssel; Wurzel (MX route1–3, SPF `_spf.mx.cloudflare`,
+  DKIM cf2024, kein `_dmarc`) Vorher = Nachher, unberührt. (5) Formular-Test an `…/api/claim`: 303
+  `?gesendet=1`, Worker-Tail `schluesseldienste-claim-notify` zeigt `mailer.internal/send Ok` +
+  `notify: EMAIL.send ok` — Benachrichtigung kommt weiter durch, Absender Verzeichnis-Domain,
+  Empfänger NOTIFY_TO, Test-KV-Einträge wieder gelöscht. Offen nur beim Betreiber: Postfach in der
+  mailbox Suite freischalten, IMAP/SMTP in LeadHawk. Bericht berichte/2026-11-16-sende-postfach-setzen.md.
