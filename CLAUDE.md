@@ -467,19 +467,24 @@ Zusätzlich trägt jede Zeile `variante` (welcher Mailtext passt) und `stand` (d
 JJJJ-MM-TT).
 
 **Anrede und Geschlecht** (`scripts/_geschlecht.py`, von `impressum.py` und `kontakt.py` geteilt):
-`anrede` ist `Guten Tag Herr <Nachname>,` bzw. `Guten Tag Frau <Nachname>,`; ohne sicheren Namen
-**oder** ohne sicheres Geschlecht neutral `Guten Tag,`. **Nie raten.** Das Geschlecht wird in dieser
-Reihenfolge bestimmt: (1) aus dem Impressum-Text im Zwischenspeicher (`impressum-cache.json`, kein
-neuer Abruf), nur von einer Zeile, die den Nachnamen trägt — „Herr"/„Frau" oder die Form der Funktion
-(Inhaber/Inhaberin, Geschäftsführer/Geschäftsführerin); (2) sonst über den Vornamen gegen feste Listen
-eindeutig männlicher/weiblicher Vornamen (deutsch und in Deutschland häufige türkische, polnische,
-russische, italienische, arabische); (3) sonst unsicher → `Guten Tag,`. Mehrdeutige (Kim, Sascha,
-Toni, Nicola, Andrea, Luca, Deniz, Robin, Simone, Gabriele …), unbekannte und abgekürzte Vornamen
-gelten als unsicher. Titel (Dr., Dipl.-Ing.) stehen nicht in der Anrede; Nachnamen mit Zusatz (von,
-van, de) werden vollständig übernommen; Platzhalter-Namen (Mustermann) bleiben neutral. `exportieren`
-nennt am Ende, wie viele Zeilen Anrede Herr/Frau/neutral tragen, und listet die als unsicher
-eingestuften Vornamen mit Anzahl (nur Vornamen), damit eindeutige in `_geschlecht.py` nachgetragen
-werden können:
+`anrede` ist `Hallo Herr <Nachname>,` bzw. `Hallo Frau <Nachname>,`; ohne sicheren Namen **oder** ohne
+sicheres Geschlecht neutral `Hallo zusammen,`. **Nie raten.** Das Geschlecht wird in dieser Reihenfolge
+bestimmt: (1) aus dem Impressum-Text im Zwischenspeicher (`impressum-cache.json`, kein neuer Abruf),
+nur verankert an der vollen Namensnennung „Vorname … Nachname" und nur, wenn unmittelbar davor ein
+**zuverlässiges** Signal steht — „Herr"/„Frau" oder eine weibliche „…in"-Rollenform
+(Inhaberin, Geschäftsführerin …). Die **männliche Grundform** (Geschäftsführer, Inhaber …) ist das
+generische Maskulinum und zählt **nicht** als Signal (sie steht in deutschen Impressen auch für
+Frauen); (2) sonst über den Vornamen gegen feste Listen eindeutig männlicher/weiblicher Vornamen
+(deutsch und in Deutschland häufige türkische, polnische, russische, italienische, arabische); (3)
+sonst unsicher → `Hallo zusammen,`. **Zwei Sicherungen:** widersprechen Impressum und Vornamen-Liste,
+bleibt es neutral; ein Vor- oder Nachname, der ein Impressum-/Gewerbe-/Rechtsform-/Adresswort oder
+kürzer als drei Buchstaben ist (`ist_echter_name`), gilt als kein Name → neutral. Mehrdeutige (Kim,
+Sascha, Toni, Nicola, Andrea, Luca, Deniz, Robin, Simone, Gabriele, Nico …), unbekannte und abgekürzte
+Vornamen gelten als unsicher. Titel (Dr., Dipl.-Ing.) stehen nicht in der Anrede; Nachnamen mit Zusatz
+(von, van, de) werden vollständig übernommen; Platzhalter-Namen (Mustermann) bleiben neutral.
+`exportieren` nennt am Ende, wie viele Zeilen Anrede Herr/Frau/neutral tragen, und listet die als
+unsicher eingestuften Vornamen mit Anzahl (nur Vornamen), damit eindeutige in `_geschlecht.py`
+nachgetragen werden können:
 
 - `variante` ist `platz`, wenn der Eintrag eine Bewertung hat, die Stadtseite mindestens
   `PLATZ_HOOK_MIN_ANZAHL` (= 5) Einträge führt **und** die Bewertung mindestens
@@ -551,7 +556,7 @@ python3 scripts/impressum.py --stand                 # nur Zahlen
 ```
 
 `scripts/kontakt.py exportieren` nimmt daraus `vorname`, `nachname` und die fertige `anrede`
-(„Guten Tag Herr/Frau Nachname," bzw. ohne sicheren Namen oder sicheres Geschlecht „Guten Tag,") in
+(„Hallo Herr/Frau Nachname," bzw. ohne sicheren Namen oder sicheres Geschlecht „Hallo zusammen,") in
 die versandfertige CSV; das Geschlecht berechnet der Export selbst aus `impressum-cache.json` und den
 Vornamen-Listen in `_geschlecht.py` (siehe „Nach dem Start: das Kontaktbuch", Abschnitt Anrede).
 

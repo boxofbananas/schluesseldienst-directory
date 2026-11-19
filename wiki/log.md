@@ -1029,3 +1029,17 @@ Zahlen, was auf Freigabe wartet.
   25 Frau, 359 neutral (Quelle über alle Namen: 266 Impressum, 182 Vornamen-Liste, 109 unsicher);
   Bayern 88 → 35 Herr, 6 Frau, 47 neutral. Liste der unsicheren Vornamen ausgegeben (zum Nachtragen).
   CLAUDE.md ergänzt.
+- **2026-11-19 — Anrede nachgeschärft (Nachtrag-Namen, zwei Sicherungen, Wortlaut, nichts geraten).**
+  (1) Vornamen-Listen in `_geschlecht.py` ergänzt: 37 männliche (Abidin … Veli) und 2 weibliche
+  (Margarita, Anita); Nico/Kani/Rasad/Erdjan als mehrdeutig markiert. (2a) Widerspruch Impressum ↔
+  Vornamen-Liste → neutral. (2b) `ist_echter_name`: Vor-/Nachname, der ein Impressum-/Gewerbe-/
+  Rechtsform-/Adresswort oder < 3 Buchstaben ist, gilt als kein Name → neutral; dieselbe Prüfung
+  schärft die Extraktion in `impressum.py` (per `--neu-lesen` offline neu ausgelesen, kein Abruf).
+  Zusätzlich: Impressum-Erkennung an die volle Namensnennung „Vorname … Nachname" verankert (ein
+  Streutreffer des Nachnamens in Werbetext löst nichts mehr aus), und die **männliche Grundform**
+  (Geschäftsführer/Inhaber) zählt nicht mehr als Signal — generisches Maskulinum, stand sonst fälschlich
+  für Frauen (Evelyn, Ina, Nesrin …). Zuverlässig bleiben „Herr"/„Frau" und die weiblichen
+  „…in"-Formen. (3/4) Wortlaut: „Hallo Herr/Frau <Nachname>,", neutral „Hallo zusammen,". Probe
+  (`--probe`, nichts exportiert/vermerkt): national 610 → 217 Herr, 30 Frau, 363 neutral; Bayern 88 →
+  34 Herr, 6 Frau, 48 neutral. Sichtprüfung im Chat: nur noch 9 rein über Impressum aufgelöste Namen
+  (4 Herr, 5 Frau), alle mit „Herr"/„Frau"/„…in". CLAUDE.md ergänzt.

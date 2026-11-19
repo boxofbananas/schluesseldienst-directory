@@ -46,7 +46,7 @@ if HIER not in sys.path:
     sys.path.insert(0, HIER)
 
 from verkauf import WURZEL, truthy, fehler, finde_verzeichnis, lade_csv, heute
-from _geschlecht import bestimme_geschlecht
+from _geschlecht import bestimme_geschlecht, ist_echter_name
 
 csv.field_size_limit(10**9)
 
@@ -252,6 +252,10 @@ def _grund_fuer_name(tokens):
     nachname = " ".join(namen[1:])
     # der Nachname braucht mindestens ein echtes Wort (nicht nur eine Initiale/Partikel)
     if not any(len(t.strip(".")) >= 2 and t.lower() not in PARTIKEL for t in namen[1:]):
+        return None
+    # Sicherung: Impressum-/Gewerbewörter oder zu kurze „Namen" (Bauschlosserei, Verantwortlich,
+    # Widerruf, GmbH …) sind kein Personenname → nicht gefunden.
+    if not ist_echter_name(vorname, nachname):
         return None
     return vorname, nachname
 

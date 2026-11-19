@@ -7,10 +7,13 @@ Reihenfolge (so auch in CLAUDE.md beschrieben):
      Nachnamen der gefundenen Person trägt.
   2. Vorname gegen feste Listen eindeutig männlicher/weiblicher Vornamen (deutsch und in Deutschland
      häufige türkische, polnische, russische, italienische, arabische Namen).
-  3. Unsicher → leer → Anrede „Guten Tag,".
+  3. Unsicher → leer → Anrede „Hallo zusammen,".
 
-Mehrdeutige Vornamen (Kim, Sascha, Toni, Nicola, Andrea, Luca, Deniz, Robin, Simone, Gabriele …),
-unbekannte und abgekürzte Vornamen gelten als unsicher. Lieber neutral als falsch.
+Zwei Sicherungen: widersprechen Impressum und Vornamen-Liste einander, bleibt es neutral; ein Vor-
+oder Nachname, der ein Impressum-/Gewerbewort oder kürzer als drei Buchstaben ist, gilt als kein
+Name (`ist_echter_name`). Mehrdeutige Vornamen (Kim, Sascha, Toni, Nicola, Andrea, Luca, Deniz,
+Robin, Simone, Gabriele, Nico …), unbekannte und abgekürzte Vornamen gelten als unsicher. Lieber
+neutral als falsch.
 
 Keine Titel in der Anrede (Dr., Dipl.-Ing. — die stecken ohnehin nicht im Vor-/Nachnamen).
 Nachnamen mit Zusatz (von, van, de) werden vollständig übernommen (sie stehen so im Nachnamen).
@@ -121,9 +124,58 @@ AMBIG = {
     "daniele", "emanuele", "nikola", "sandy", "kay", "ümit", "derya", "yael", "nuri",
 }
 
+# Nachtrag 2026-11-19 (aus den unsicheren Vornamen der ersten Probe, vom Betreiber bestätigt).
+MAENNLICH |= {
+    "abidin", "artem", "aslambek", "ayub", "bolat", "dimitri", "dominic", "emanuel", "emrah", "erol",
+    "farhad", "ferit", "fred", "friedhelm", "guido", "helmuth", "heribert", "joel", "manuel", "marcus",
+    "menderes", "necati", "nedim", "nevzat", "niko", "piero", "ramazan", "remzi", "rocco", "ruggiero",
+    "sabahattin", "salih", "semih", "siegbert", "tamer", "tom", "veli",
+}
+WEIBLICH |= {"margarita", "anita"}
+AMBIG |= {"nico", "kani", "rasad", "erdjan"}  # robin, deniz, ümit stehen schon als mehrdeutig
+
 _M = {_fold(n) for n in MAENNLICH}
 _F = {_fold(n) for n in WEIBLICH}
 _A = {_fold(n) for n in AMBIG}
+
+# Impressum-/Gewerbe-/Rechtsformwörter: ein Vor- oder Nachname, der so etwas ist (oder kürzer als drei
+# Buchstaben), stammt aus einer Fehl-Extraktion und gilt als KEIN Name → neutrale Anrede.
+NICHTNAME_PRAEFIXE = (
+    "verantwortlich", "inhaltlich", "inhaber", "widerruf", "handwerkskammer", "bauschlosser",
+    "hausservice", "immobilienservice", "meister", "geschaeft", "elektronisch", "technisch",
+    "schluessel", "schliesstechnik", "schliessanlage", "schlosser", "tischler", "schreiner",
+    "metallbau", "sicherheit", "fachbetrieb", "dienstleistung", "notdienst", "aufsperr", "rollladen",
+    "rolladen", "bauelemente", "haftung", "gesamt", "impressum", "datenschutz", "gewerbe", "recht",
+    "dipl", "prof", "google",
+)
+NICHTNAME_EXAKT = {
+    "gmbh", "mbh", "ug", "kg", "ohg", "gbr", "ag", "kgaa", "ek", "ev", "co", "inh", "alle", "beim",
+    "innerer", "telefon", "telefax", "fax", "kontakt", "dieser", "diese", "dieses", "viele", "vielen",
+    "jegliche", "als", "naehere", "massgebliche", "routinemaessige", "firma", "betrieb", "weg",
+    "platz", "allee", "ring", "gasse", "chaussee", "damm", "ufer", "soziale", "alter", "als",
+}
+# Adress-Bestandteile (als Teilwort), die in einem „Nachnamen" eine mitgelesene Anschrift verraten.
+NICHTNAME_ENTHAELT = ("strasse", "straße")
+
+
+def ist_echter_name(vorname, nachname):
+    """Sind Vor- UND Nachname plausibel ein Personenname? Nein, wenn einer fehlt, ein Platzhalter ist,
+    kürzer als drei Buchstaben ist, eine Anschrift oder ein Impressum-/Gewerbe-/Rechtsformwort enthält."""
+    vn = (vorname or "").strip()
+    nn = (nachname or "").strip()
+    if not vn or not nn or ist_platzhalter(vn, nn):
+        return False
+    if len(_fold(vn).replace(" ", "")) < 3 or len(_fold(nn).replace(" ", "")) < 3:
+        return False
+    for t in re.split(r"[\s\-]+", vn) + re.split(r"[\s\-]+", nn):
+        f = _fold(t).strip(".")
+        if not f:
+            continue
+        if f in NICHTNAME_EXAKT or any(f.startswith(p) for p in NICHTNAME_PRAEFIXE):
+            return False
+        if any(s in f for s in NICHTNAME_ENTHAELT):
+            return False
+    return True
 
 
 def ist_abgekuerzt(vorname):
@@ -162,47 +214,55 @@ def geschlecht_aus_vorname(vorname):
     return ""
 
 
-_FRAU_ROLLE = re.compile(r"(?i)\b(inhaberin|gesch[aä]ftsf[uü]hrerin|eigent[uü]merin|betreiberin|"
-                         r"einzelunternehmerin|gesellschafterin|vertretungsberechtigte)\b")
-_HERR_ROLLE = re.compile(r"(?i)\b(inhaber|gesch[aä]ftsf[uü]hrer|eigent[uü]mer|betreiber|"
-                         r"einzelunternehmer|gesellschafter)\b")
-_FRAU_ANREDE = re.compile(r"(?i)\bfrau\b")
-_HERR_ANREDE = re.compile(r"(?i)\bherrn?\b")
+# Nur ZUVERLÄSSIGE Anrede-/Rollensignale unmittelbar vor dem Namen: „Herr"/„Frau" und die weiblichen
+# „…in"-Rollenformen. Die männliche Grundform (Geschäftsführer, Inhaber …) ist das generische
+# Maskulinum und steht in deutschen Impressen auch für Frauen — darum KEIN Geschlechtssignal (nie
+# raten). Solche Männer löst sonst die Vornamen-Liste auf.
+_SIGNAL = re.compile(r"(?i)\b(frau|herrn?|inhaberin|gesch[aä]ftsf[uü]hrerin|eigent[uü]merin|"
+                     r"betreiberin|einzelunternehmerin|gesellschafterin)\b")
 
 
 def geschlecht_aus_impressum(text, vorname, nachname):
-    """„herr"/„frau" aus dem Impressum-Text, nur von einer Zeile, die den Nachnamen der Person trägt
-    (so gehört das Signal eindeutig zu ihr). Weibliche Signale (Frau, …-in-Form) haben Vorrang."""
-    if not text or not nachname:
+    """„herr"/„frau" aus dem Impressum-Text — nur verankert an der vollen Namensnennung „Vorname …
+    Nachname" (so gehört das Signal eindeutig zu dieser Person; ein Streutreffer des Nachnamens in
+    Werbetext löst nichts aus) und nur, wenn ein Anrede-/Rollenwort UNMITTELBAR davor steht (≤ 45
+    Zeichen, gleiche Zeile). Das dem Namen nächste Signal zählt; „…in"-Form/„Frau" → weiblich."""
+    vn = (vorname or "").strip()
+    nn = (nachname or "").strip()
+    if not text or len(vn.strip(".'’")) < 2 or not nn:
         return ""
-    letzter = nachname.split()[-1] if nachname.split() else nachname
+    letzter = nn.split()[-1]
     if len(letzter.strip(".'’")) < 2:
         return ""
-    nn = re.compile(r"(?i)\b" + re.escape(letzter) + r"\b")
+    # „Vorname [Titel/Zweitname/Partikel …] Nachname" zusammen auf einer Zeile.
+    paar = re.compile(r"(?i)\b" + re.escape(vn) + r"\b(?:[\s.,'’-]+[A-Za-zÄÖÜäöüß'’.-]+){0,3}?"
+                      r"[\s.,'’-]+" + re.escape(letzter) + r"\b")
     for zeile in text.splitlines():
-        if not nn.search(zeile):
-            continue
-        if _FRAU_ANREDE.search(zeile) or _FRAU_ROLLE.search(zeile):
-            return "frau"
-        if _HERR_ANREDE.search(zeile) or _HERR_ROLLE.search(zeile):
-            return "herr"
+        for m in paar.finditer(zeile):
+            vor = zeile[max(0, m.start() - 45):m.start()]
+            treffer = list(_SIGNAL.finditer(vor))
+            if treffer:
+                w = treffer[-1].group(1).lower()       # das dem Namen nächste Signal
+                return "frau" if (w == "frau" or w.endswith("in")) else "herr"
     return ""
 
 
 def bestimme_geschlecht(vorname, nachname, impressum_text=""):
     """Gibt (geschlecht, quelle, unsicherer_vorname).
-    geschlecht: „herr"/„frau"/„"; quelle: „impressum"/„vorname"/„"; unsicherer_vorname: True, wenn ein
-    echter (nicht abgekürzter) Vorname da ist, aber weder Impressum noch Liste ihn auflösen."""
-    if not (nachname or "").strip():
+    geschlecht: „herr"/„frau"/„"; quelle: „impressum"/„vorname"/„widerspruch"/„"; unsicherer_vorname:
+    True, wenn ein echter (nicht abgekürzter) Vorname da ist, aber das Geschlecht nicht sicher ist.
+    Reihenfolge: Impressum vor Vornamen-Liste. Widersprechen beide, bleibt es neutral (nie raten)."""
+    if not ist_echter_name(vorname, nachname):
         return ("", "", False)
-    g = geschlecht_aus_impressum(impressum_text, vorname, nachname)
-    if g:
-        return (g, "impressum", False)
-    g = geschlecht_aus_vorname(vorname)
-    if g:
-        return (g, "vorname", False)
-    unsicher = bool((vorname or "").strip()) and not ist_abgekuerzt(vorname)
-    return ("", "", unsicher)
+    gi = geschlecht_aus_impressum(impressum_text, vorname, nachname)
+    gv = geschlecht_aus_vorname(vorname)
+    if gi and gv and gi != gv:
+        return ("", "widerspruch", False)   # Sicherung 2a: Impressum ≠ Vorname → neutral
+    if gi:
+        return (gi, "impressum", False)
+    if gv:
+        return (gv, "vorname", False)
+    return ("", "", not ist_abgekuerzt(vorname))
 
 
 PLATZHALTER_NACHNAMEN = {"mustermann", "musterfrau", "doe", "beispiel", "example"}
@@ -213,13 +273,9 @@ def ist_platzhalter(vorname, nachname):
 
 
 def baue_anrede(vorname, nachname, geschlecht):
-    """„Guten Tag Herr <Nachname>," / „Guten Tag Frau <Nachname>,". Ohne sicheren Namen ODER ohne
-    sicheres Geschlecht: „Guten Tag,". Nachname voll (inkl. von/van/de), ohne Titel."""
+    """„Hallo Herr <Nachname>," / „Hallo Frau <Nachname>,". Ohne sicheren Namen ODER ohne sicheres
+    Geschlecht: „Hallo zusammen,". Nachname voll (inkl. von/van/de), ohne Titel."""
     nn = (nachname or "").strip()
-    if not nn or ist_platzhalter(vorname, nachname):
-        return "Guten Tag,"
-    if geschlecht == "herr":
-        return f"Guten Tag Herr {nn},"
-    if geschlecht == "frau":
-        return f"Guten Tag Frau {nn},"
-    return "Guten Tag,"
+    if geschlecht in ("herr", "frau") and ist_echter_name(vorname, nachname):
+        return f"Hallo Herr {nn}," if geschlecht == "herr" else f"Hallo Frau {nn},"
+    return "Hallo zusammen,"
