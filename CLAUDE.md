@@ -464,7 +464,22 @@ der Website und `telefon_national` (dieselbe Nummer in nationaler Schreibweise, 
 Impressum. Die Werte (platz, anzahl, …) kommen aus derselben Datenschicht wie der Build
 (`site/dump-versand.mjs`) und stimmen mit `dist/` überein; `pruefen` belegt das an Stichproben.
 Zusätzlich trägt jede Zeile `variante` (welcher Mailtext passt) und `stand` (der Exporttag
-JJJJ-MM-TT):
+JJJJ-MM-TT).
+
+**Anrede und Geschlecht** (`scripts/_geschlecht.py`, von `impressum.py` und `kontakt.py` geteilt):
+`anrede` ist `Guten Tag Herr <Nachname>,` bzw. `Guten Tag Frau <Nachname>,`; ohne sicheren Namen
+**oder** ohne sicheres Geschlecht neutral `Guten Tag,`. **Nie raten.** Das Geschlecht wird in dieser
+Reihenfolge bestimmt: (1) aus dem Impressum-Text im Zwischenspeicher (`impressum-cache.json`, kein
+neuer Abruf), nur von einer Zeile, die den Nachnamen trägt — „Herr"/„Frau" oder die Form der Funktion
+(Inhaber/Inhaberin, Geschäftsführer/Geschäftsführerin); (2) sonst über den Vornamen gegen feste Listen
+eindeutig männlicher/weiblicher Vornamen (deutsch und in Deutschland häufige türkische, polnische,
+russische, italienische, arabische); (3) sonst unsicher → `Guten Tag,`. Mehrdeutige (Kim, Sascha,
+Toni, Nicola, Andrea, Luca, Deniz, Robin, Simone, Gabriele …), unbekannte und abgekürzte Vornamen
+gelten als unsicher. Titel (Dr., Dipl.-Ing.) stehen nicht in der Anrede; Nachnamen mit Zusatz (von,
+van, de) werden vollständig übernommen; Platzhalter-Namen (Mustermann) bleiben neutral. `exportieren`
+nennt am Ende, wie viele Zeilen Anrede Herr/Frau/neutral tragen, und listet die als unsicher
+eingestuften Vornamen mit Anzahl (nur Vornamen), damit eindeutige in `_geschlecht.py` nachgetragen
+werden können:
 
 - `variante` ist `platz`, wenn der Eintrag eine Bewertung hat, die Stadtseite mindestens
   `PLATZ_HOOK_MIN_ANZAHL` (= 5) Einträge führt **und** die Bewertung mindestens
@@ -523,8 +538,10 @@ eindeutigen Fund bleibt das Feld leer. Fremde Impressen (Agentur/Portal/anderer 
 im Namen fallen weg („Klaus D Mapara" → „Klaus Mapara").
 
 Ergebnis (personenbezogen, **gitignoriert**): `output/<slug>/kontakt-ansprechpartner.csv`
-(Slug, Vorname, Nachname, Fundstelle, Abrufdatum); Zwischenspeicher `impressum-cache.json`
-(ebenfalls gitignoriert, erlaubt Fortsetzen und erneutes Auslesen ohne neuen Abruf).
+(Slug, Vorname, Nachname, **Geschlecht** (`herr`/`frau`/leer, aus `_geschlecht.py` — Impressum-Text
+vor Vornamen-Liste), Fundstelle, Abrufdatum); Zwischenspeicher `impressum-cache.json` (ebenfalls
+gitignoriert, erlaubt Fortsetzen und erneutes Auslesen ohne neuen Abruf). Das Geschlecht wird aus dem
+Cache-Text berechnet, ohne neuen Abruf; `--neu-lesen` aktualisiert Namen **und** Geschlecht offline.
 
 ```
 python3 scripts/impressum.py --limit 30 --zeige 10   # Probelauf, zehn Treffer zeigen
@@ -534,8 +551,9 @@ python3 scripts/impressum.py --stand                 # nur Zahlen
 ```
 
 `scripts/kontakt.py exportieren` nimmt daraus `vorname`, `nachname` und die fertige `anrede`
-(„Hallo Vorname Nachname," bzw. ohne eindeutigen Namen „Guten Tag,") in die versandfertige CSV
-(siehe „Nach dem Start: das Kontaktbuch").
+(„Guten Tag Herr/Frau Nachname," bzw. ohne sicheren Namen oder sicheres Geschlecht „Guten Tag,") in
+die versandfertige CSV; das Geschlecht berechnet der Export selbst aus `impressum-cache.json` und den
+Vornamen-Listen in `_geschlecht.py` (siehe „Nach dem Start: das Kontaktbuch", Abschnitt Anrede).
 
 ### Pflege
 

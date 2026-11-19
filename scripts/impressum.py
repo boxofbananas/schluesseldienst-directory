@@ -46,10 +46,11 @@ if HIER not in sys.path:
     sys.path.insert(0, HIER)
 
 from verkauf import WURZEL, truthy, fehler, finde_verzeichnis, lade_csv, heute
+from _geschlecht import bestimme_geschlecht
 
 csv.field_size_limit(10**9)
 
-AP_FELDER = ["eintrag_slug", "vorname", "nachname", "fundstelle", "abrufdatum"]
+AP_FELDER = ["eintrag_slug", "vorname", "nachname", "geschlecht", "fundstelle", "abrufdatum"]
 
 # Höflicher, neutraler Client-Name ohne Projekt-/Personenbezug.
 UA = "Mozilla/5.0 (compatible; Impressum-Lesebot/1.0)"
@@ -450,21 +451,22 @@ def main():
             e = cache.get(d)
             for slug in slugs:
                 if d in geteilt:  # Portal/Kette: kein Name, gar nicht erst abgerufen
-                    out[slug] = ("nicht_gefunden", "", "", "", "", "geteilt")
+                    out[slug] = ("nicht_gefunden", "", "", "", "", "geteilt", "")
                     continue
                 if not e:
-                    out[slug] = ("offen", "", "", "", "", "")
+                    out[slug] = ("offen", "", "", "", "", "", "")
                     continue
                 st, vn, nn = extrahiere(e)
                 fund, dat = e.get("fundstelle", ""), e.get("abrufdatum", "")
                 if st != "gefunden":
-                    out[slug] = (st, "", "", fund, dat, "")
+                    out[slug] = (st, "", "", fund, dat, "", "")
                     continue
                 name, stadt, land = slug_info.get(slug, ("", "", ""))
                 if not gehoert_zum_betrieb(name, d, e.get("text", ""), nn, stadt, land):
-                    out[slug] = ("nicht_gefunden", "", "", fund, dat, "fremd")
+                    out[slug] = ("nicht_gefunden", "", "", fund, dat, "fremd", "")
                 else:
-                    out[slug] = ("gefunden", vn, nn, fund, dat, "")
+                    gesch, _q, _u = bestimme_geschlecht(vn, nn, e.get("text", ""))
+                    out[slug] = ("gefunden", vn, nn, fund, dat, "", gesch)
         return out
 
     def zaehle(erg):
@@ -504,7 +506,7 @@ def main():
     schreibe_cache(cache_pfad, cache)
 
     erg = ergebnis_je_slug()
-    rows_by_slug = {s: {"eintrag_slug": s, "vorname": v[1], "nachname": v[2],
+    rows_by_slug = {s: {"eintrag_slug": s, "vorname": v[1], "nachname": v[2], "geschlecht": v[6],
                         "fundstelle": v[3], "abrufdatum": v[4]} for s, v in erg.items()}
     schreibe_ausgabe(aus_pfad, rows_by_slug)
 
@@ -522,8 +524,9 @@ def main():
         print(f"\n{min(a.zeige, len(kand))} Ergebnisse (Treffer zuerst):")
         for s, v in kand[:a.zeige]:
             name = (v[1] + " " + v[2]).strip() or "—"
+            gtag = f" ⟨{v[6]}⟩" if v[6] else ""
             zusatz = f" ({v[5]})" if v[5] else ""
-            print(f"  [{v[0]:<14}] {name:<26} {v[3] or s}{zusatz}")
+            print(f"  [{v[0]:<14}] {name:<26}{gtag} {v[3] or s}{zusatz}")
 
 
 if __name__ == "__main__":

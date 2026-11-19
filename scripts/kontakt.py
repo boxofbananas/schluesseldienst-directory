@@ -75,6 +75,7 @@ if HIER not in sys.path:
     sys.path.insert(0, HIER)
 
 from verkauf import WURZEL, truthy, fehler, finde_verzeichnis, lade_csv, finde_zeile, _zeige_treffer, heute
+from _geschlecht import bestimme_geschlecht, baue_anrede, ist_platzhalter, ist_abgekuerzt
 
 csv.field_size_limit(10**9)
 
@@ -196,21 +197,9 @@ def zu_national(tel):
     return neu
 
 
-# Platzhalter-Namen, die manche Impressen aus einer Vorlage übrig lassen (Muster-Impressum). Sie
-# dürfen nie zu „Hallo Max Mustermann," werden; der Export fängt sie am Rand ab und grüßt neutral.
-PLATZHALTER_NACHNAMEN = {"mustermann", "mustermann", "musterfrau", "doe", "beispiel", "example"}
-
-
-def ist_platzhalter(vorname, nachname):
-    return (nachname or "").strip().lower() in PLATZHALTER_NACHNAMEN
-
-
-def baue_anrede(vorname, nachname):
-    """Mit Namen „Hallo Vorname Nachname," — ohne eindeutigen Namen „Guten Tag,". Nie geraten.
-    Platzhalter-Namen aus Muster-Impressen (Max Mustermann) gelten als kein Name."""
-    if vorname and nachname and not ist_platzhalter(vorname, nachname):
-        return f"Hallo {vorname} {nachname},"
-    return "Guten Tag,"
+# Anrede/Geschlecht liegen in `_geschlecht.py` (von impressum.py und kontakt.py geteilt): Platzhalter,
+# die Vornamen-Listen und die Impressum-Erkennung. Nie raten — ohne sicheren Namen oder ohne sicheres
+# Geschlecht „Guten Tag,".
 
 
 def score(r):
@@ -268,6 +257,33 @@ def lade_ansprechpartner(pfad):
     out = {}
     for z in lade(pfad):
         out[z.get("eintrag_slug")] = ((z.get("vorname") or "").strip(), (z.get("nachname") or "").strip())
+    return out
+
+
+def _domain_von(website):
+    w = (website or "").strip()
+    if not w:
+        return ""
+    w = re.sub(r"^\s*https?://", "", w, flags=re.I)
+    w = w.split("/")[0].split("?")[0].strip().lower()
+    return re.sub(r"^www\.", "", w)
+
+
+def lade_impressum_texte(verzeichnis, rows):
+    """slug -> Impressum-Text aus dem Zwischenspeicher (impressum-cache.json). KEIN Abruf, nur Cache;
+    dient allein der Geschlechts-/Anrede-Bestimmung. Leer, wenn der Cache fehlt."""
+    pfad = os.path.join(verzeichnis, "impressum-cache.json")
+    if not os.path.isfile(pfad):
+        return {}
+    try:
+        cache = json.load(open(pfad, encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {}
+    out = {}
+    for r in rows:
+        d = _domain_von(r.get("website"))
+        if d and d in cache and (cache[d].get("text") or ""):
+            out[r["slug"]] = cache[d]["text"]
     return out
 
 
@@ -482,8 +498,11 @@ def cmd_offen(a, rows, kontaktiert, sperr):
               f"{r['name'][:33]:<34} {tel:<3} {mail:<4} {r['slug']}")
 
 
-def _export_kandidaten(rows, dump, kontaktiert, sperr, vorgesehen, ansprech, mx_cache, a, zaehle=None):
-    """Baut die versandfertige Liste nach allen Filtern. Gibt (zeilen, statistik). Füllt mx_cache."""
+def _export_kandidaten(rows, dump, kontaktiert, sperr, vorgesehen, ansprech, mx_cache, a,
+                       imp_texts=None, zaehle=None):
+    """Baut die versandfertige Liste nach allen Filtern. Gibt (zeilen, statistik). Füllt mx_cache.
+    `imp_texts` (slug → Impressum-Text aus dem Cache) dient nur der Geschlechts-/Anrede-Bestimmung."""
+    imp_texts = imp_texts or {}
     stat = {k: 0 for k in ("gesamt", "owned", "gesperrt", "kontaktiert", "vorgesehen",
                             "ohne_email", "formal_ungueltig", "kein_mailserver", "portal_zentrale",
                             "mehrfach", "kein_kernbetrieb", "stadt_hat_garantie_oder_platz",
@@ -543,6 +562,8 @@ def _export_kandidaten(rows, dump, kontaktiert, sperr, vorgesehen, ansprech, mx_
         vn, nn = ansprech.get(slug, ("", ""))
         if ist_platzhalter(vn, nn):
             vn = nn = ""
+        # Geschlecht: Impressum-Text (Cache) vor Vornamen-Liste; unsicher → neutrale Anrede.
+        geschlecht, _quelle, _unsicher = bestimme_geschlecht(vn, nn, imp_texts.get(slug, ""))
         zeilen.append({
             "eintrag_slug": slug, "kampagne": a.kampagne, "name": r.get("name", ""),
             "state": d.get("regionName") or r.get("state", ""), "city": d.get("city") or r.get("city", ""),
@@ -550,7 +571,8 @@ def _export_kandidaten(rows, dump, kontaktiert, sperr, vorgesehen, ansprech, mx_
             "bewertung": d.get("bewertung", ""), "bewertungen": d.get("bewertungen", ""),
             "hat_bewertung": "wahr" if d.get("hatBewertung") else "falsch",
             "telefon": telefon, "telefon_national": zu_national(telefon), "email": mail,
-            "vorname": vn, "nachname": nn, "anrede": baue_anrede(vn, nn),
+            "vorname": vn, "nachname": nn, "geschlecht": geschlecht,
+            "anrede": baue_anrede(vn, nn, geschlecht),
             "variante": variante, "stand": heute(),
             "_score": score(r), "_fremd": ist_fremdes_gewerbe(r),
         })
@@ -579,12 +601,24 @@ def _export_kandidaten(rows, dump, kontaktiert, sperr, vorgesehen, ansprech, mx_
     # Zeilen erkannten (nur Hinweis).
     stat["fremdes_gewerbe"] = fremd_entfernt if FREMDES_GEWERBE_AUSSCHLIESSEN \
         else sum(1 for z in zeilen if z["_fremd"])
+    # Anrede-Aufschlüsselung (aus den endgültigen Zeilen): Herr / Frau / neutral („Guten Tag,").
+    stat["anrede_herr"] = sum(1 for z in zeilen if z["geschlecht"] == "herr")
+    stat["anrede_frau"] = sum(1 for z in zeilen if z["geschlecht"] == "frau")
+    stat["anrede_neutral"] = len(zeilen) - stat["anrede_herr"] - stat["anrede_frau"]
+    # Unsichere Vornamen: echter (nicht abgekürzter) Vorname vorhanden, Geschlecht aber nicht sicher.
+    unsichere = {}
+    for z in zeilen:
+        vn = z["vorname"]
+        if vn and not z["geschlecht"] and not ist_abgekuerzt(vn):
+            unsichere[vn] = unsichere.get(vn, 0) + 1
+    stat["unsichere_vornamen"] = unsichere
     return zeilen, stat
 
 
 def cmd_exportieren(a, rows, dump, kontaktiert, sperr, vorgesehen, ansprech, mx_cache, mx_pfad,
-                    kamp_pfad, out_pfad):
-    zeilen, stat = _export_kandidaten(rows, dump, kontaktiert, sperr, vorgesehen, ansprech, mx_cache, a)
+                    kamp_pfad, out_pfad, imp_texts=None):
+    zeilen, stat = _export_kandidaten(rows, dump, kontaktiert, sperr, vorgesehen, ansprech, mx_cache, a,
+                                      imp_texts=imp_texts)
     speichere_mx_cache(mx_pfad, mx_cache)
 
     print(f"Kampagne „{a.kampagne}“" + (f", Obergrenze {a.limit}" if a.limit else "")
@@ -608,16 +642,29 @@ def cmd_exportieren(a, rows, dump, kontaktiert, sperr, vorgesehen, ansprech, mx_
     if FREMDES_GEWERBE_AUSSCHLIESSEN:
         print(f"  fremdes Gewerbe (entfernt)          {stat['fremdes_gewerbe']:>6}")
     print(f"  --------------------------------------------")
-    print(f"  versandfertig                       {stat['bleiben']:>6}  ({stat['mit_name']} mit persönlicher Anrede)")
+    persoenlich = stat['anrede_herr'] + stat['anrede_frau']
+    print(f"  versandfertig                       {stat['bleiben']:>6}  ({persoenlich} mit persönlicher Anrede)")
     print(f"    davon Variante platz              {stat['variante_platz']:>6}")
     print(f"    davon Variante telefon            {stat['variante_telefon']:>6}")
     if not FREMDES_GEWERBE_AUSSCHLIESSEN:
         print(f"    darunter mutmaßl. fremdes Gewerbe {stat['fremdes_gewerbe']:>6}  "
               f"(nur erkannt, nicht entfernt — Trichter-Grund fremdes_gewerbe)")
+    print(f"  Anrede Herr                         {stat['anrede_herr']:>6}")
+    print(f"  Anrede Frau                         {stat['anrede_frau']:>6}")
+    print(f"  Anrede neutral (ohne Name/Geschlecht){stat['anrede_neutral']:>5}")
     print()
 
     hinweis = ("Plätze gelten für den Stand von heute. Nach einem Neubau neu exportieren, "
                "nicht diese Datei versenden.")
+    uns = stat.get("unsichere_vornamen") or {}
+    if uns:
+        gesamt = sum(uns.values())
+        print(f"  Unsichere Vornamen (echter Name, Geschlecht nicht sicher): {len(uns)} verschiedene, "
+              f"{gesamt} Zeilen. Zum Nachtragen eindeutiger Namen:")
+        for vn, n in sorted(uns.items(), key=lambda x: (-x[1], x[0].lower())):
+            print(f"    {n:>4}  {vn}")
+        print()
+
     if a.probe:
         print("PROBE (--probe): nichts geschrieben, keine Kampagne vermerkt.")
         print(hinweis)
@@ -972,8 +1019,9 @@ def main():
         dump = lade_versand_dump(verzeichnis)
         vorgesehen = alle_vorgesehenen(kamp)
         mx_cache = lade_mx_cache(mx_pfad)
+        imp_texts = lade_impressum_texte(verzeichnis, rows)
         cmd_exportieren(a, rows, dump, kontaktiert, sperr, vorgesehen, ansprech, mx_cache, mx_pfad,
-                        kamp_pfad, out_pfad)
+                        kamp_pfad, out_pfad, imp_texts=imp_texts)
     elif a.aktion == "importieren":
         if not a.datei:
             ap.error("importieren braucht --datei")

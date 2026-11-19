@@ -1014,3 +1014,18 @@ Zahlen, was auf Freigabe wartet.
   nichts vermerkt): national 638 → 610 versandfertig (28 entfernt; platz 425, telefon 185), Bayern
   91 → 88 (3 entfernt; platz 74, telefon 14). CLAUDE.md auf den scharfen Stand gebracht; eine
   stale Bayern-Zahl im Bericht vom selben Tag (4 → 3) korrigiert.
+- **2026-11-19 — Versand-Anrede nach Geschlecht (nie geraten).** Neues Modul `scripts/_geschlecht.py`
+  (von `impressum.py` und `kontakt.py` geteilt): Anrede jetzt „Guten Tag Herr <Nachname>," / „Guten
+  Tag Frau <Nachname>,", ohne sicheren Namen ODER ohne sicheres Geschlecht „Guten Tag,". Geschlecht
+  in fester Reihenfolge: (1) Impressum-Text aus `impressum-cache.json` (kein neuer Abruf), nur von
+  einer Zeile mit dem Nachnamen — „Herr"/„Frau" oder Funktion (Inhaber/Inhaberin,
+  Geschäftsführer/Geschäftsführerin); (2) Vorname gegen feste Listen eindeutiger m/w-Namen (deutsch +
+  häufige türkische/polnische/russische/italienische/arabische); (3) sonst unsicher → neutral.
+  Mehrdeutige (Kim, Sascha, Andrea, Luca, Deniz, Robin, Simone, Gabriele …), unbekannte und
+  abgekürzte Vornamen bleiben neutral. Titel nicht in der Anrede, Nachname-Zusatz (von/van/de) voll,
+  Platzhalter (Mustermann) neutral. Neue Spalte `geschlecht` in der (gitignorierten)
+  `kontakt-ansprechpartner.csv`; der Export berechnet das Geschlecht aber selbst aus dem Cache, ohne
+  Abruf. Probe (`--probe`, nichts exportiert, nichts vermerkt): national 610 versandfertig → 226 Herr,
+  25 Frau, 359 neutral (Quelle über alle Namen: 266 Impressum, 182 Vornamen-Liste, 109 unsicher);
+  Bayern 88 → 35 Herr, 6 Frau, 47 neutral. Liste der unsicheren Vornamen ausgegeben (zum Nachtragen).
+  CLAUDE.md ergänzt.
