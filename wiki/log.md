@@ -994,3 +994,16 @@ Zahlen, was auf Freigabe wartet.
   `notify: EMAIL.send ok` — Benachrichtigung kommt weiter durch, Absender Verzeichnis-Domain,
   Empfänger NOTIFY_TO, Test-KV-Einträge wieder gelöscht. Offen nur beim Betreiber: Postfach in der
   mailbox Suite freischalten, IMAP/SMTP in LeadHawk. Bericht berichte/2026-11-16-sende-postfach-setzen.md.
+- **2026-11-19 — Versand-Export: drei Anpassungen (nur Code, keine Daten, nichts versendet).**
+  (1) Variante `platz` jetzt nur ab Bewertung ≥ 4,0 — neue Konstante `PLATZ_HOOK_MIN_BEWERTUNG`
+  (= 4,0) neben `PLATZ_HOOK_MIN_ANZAHL`; darunter `telefon`, weil ein hoher Platz bei schlechter
+  Bewertung kein guter Aufhänger ist (Rohwert `ratingRaw` aus `dump-versand.mjs`). (2) Fremde
+  Gewerbe: neue `ist_fremdes_gewerbe` (Name/`type` → Schuhmacher, Gravur, Baumarkt, Kaufhaus,
+  Tischler/Schreiner, Reinigung, Fahrrad; Metallbau/Schlosserei nur ohne Schlüssel-/Kernbezug).
+  Trichter-Grund `fremdes_gewerbe` **vorbereitet, nicht scharf**: `exportieren` zählt die erkannten
+  Zeilen nur aus, `FREMDES_GEWERBE_AUSSCHLIESSEN=True` würde sie entfernen. Bundesweit 638
+  versandfertig, davon 28 mutmaßlich fremd (Liste im Bericht) — Betreiber entscheidet. (3) Neue
+  Spalte `telefon_national` (`+49 177 3977646` → `0177 3977646`, Helfer `zu_national`); `telefon`
+  bleibt. Probe Bayern erneut (`--probe`): versandfertig 91 unverändert, Variante platz 79→76,
+  telefon 12→15 (drei unter 4,0, u. a. „Schuhmacher Lehel" 1,8). CLAUDE.md und Bericht
+  berichte/2026-11-19-versand-export-anpassungen.md ergänzt.

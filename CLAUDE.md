@@ -458,18 +458,32 @@ Mehrfachadressen fallen weg — bei einer Adresse an mehreren Einträgen bleibt 
 Bezug; Freemailer bleiben drin), nimmt **nur Kernbetriebe** (`schluesseldienst_kern` **oder**
 `tueroeffnung` bestätigt) und **nur Städte ohne Festpreis-Garantie und ohne bezahlten Platz**
 (für den Pilot-Satz „noch kein Betrieb hat die Garantie"). Jede Zeile trägt `eintrag_url`, `platz`
-und `anzahl` auf der Stadtseite, `bewertung`/`bewertungen`/`hat_bewertung` und `telefon` im Format
-der Website sowie `vorname`/`nachname`/`anrede` aus dem Impressum. Die Werte (platz, anzahl, …)
-kommen aus derselben Datenschicht wie der Build (`site/dump-versand.mjs`) und stimmen mit `dist/`
-überein; `pruefen` belegt das an Stichproben. Zusätzlich trägt jede Zeile `variante` (welcher
-Mailtext passt) und `stand` (der Exporttag JJJJ-MM-TT):
+und `anzahl` auf der Stadtseite, `bewertung`/`bewertungen`/`hat_bewertung`, `telefon` im Format
+der Website und `telefon_national` (dieselbe Nummer in nationaler Schreibweise, `+49 177 3977646`
+→ `0177 3977646`; `telefon` bleibt unverändert) sowie `vorname`/`nachname`/`anrede` aus dem
+Impressum. Die Werte (platz, anzahl, …) kommen aus derselben Datenschicht wie der Build
+(`site/dump-versand.mjs`) und stimmen mit `dist/` überein; `pruefen` belegt das an Stichproben.
+Zusätzlich trägt jede Zeile `variante` (welcher Mailtext passt) und `stand` (der Exporttag
+JJJJ-MM-TT):
 
-- `variante` ist `platz`, wenn der Eintrag eine Bewertung hat **und** die Stadtseite mindestens
-  `PLATZ_HOOK_MIN_ANZAHL` (= 5) Einträge führt — dann trägt der Mailtext den Platz-Aufhänger.
-  Sonst `telefon`; fehlt dann das Telefon, fällt der Eintrag mit dem Trichter-Grund
-  `keine_variante` aus dem Export. `exportieren` nennt am Ende, wie viele Zeilen je Variante.
+- `variante` ist `platz`, wenn der Eintrag eine Bewertung hat, die Stadtseite mindestens
+  `PLATZ_HOOK_MIN_ANZAHL` (= 5) Einträge führt **und** die Bewertung mindestens
+  `PLATZ_HOOK_MIN_BEWERTUNG` (= 4,0) beträgt — dann trägt der Mailtext den Platz-Aufhänger (ein
+  hoher Platz bei schlechter Bewertung ist kein guter Aufhänger). Sonst `telefon`; fehlt dann das
+  Telefon, fällt der Eintrag mit dem Trichter-Grund `keine_variante` aus dem Export. `exportieren`
+  nennt am Ende, wie viele Zeilen je Variante.
 - `stand` hält den Exporttag fest. Die Plätze gelten nur bis zum nächsten Neubau; `exportieren`
   weist darauf hin, nach einem Neubau neu zu exportieren und die alte Datei nicht zu versenden.
+
+**Fremde Gewerbe (Trichter-Grund `fremdes_gewerbe`).** Die `locksmith`-Kategorie fängt auch
+Schuhmacher, Gravurbetriebe, Baumärkte, Kaufhäuser, Tischlereien und Metallbau/Schlosserei (ohne
+Schlüsseldienst) ein. `exportieren` erkennt solche Zeilen an Name oder Haupt-Kategorie (`type`)
+über `ist_fremdes_gewerbe` und **zählt** sie unter den versandfertigen aus („darunter mutmaßl.
+fremdes Gewerbe"), **entfernt sie aber nicht** — der Betreiber entscheidet je Eintrag (etwa per
+`kontakt.py sperren`). Erst die Konstante `FREMDES_GEWERBE_AUSSCHLIESSEN = True` schaltet
+den Trichter-Schritt scharf und nimmt die erkannten Zeilen (Grund `fremdes_gewerbe`) vor der
+Obergrenze heraus. Metall-Signale (Metallbau/Schlosserei) gelten nur ohne Schlüssel-/Kernbezug als
+fremd, die klaren Signale (Schuh, Gravur, Baumarkt …) unabhängig davon.
 
 Jeder Export trägt einen **Kampagnennamen** und eine **Obergrenze** (`--limit`); exportierte
 Einträge werden als „vorgesehen" vermerkt und nicht ein zweites Mal exportiert. Die Obergrenze

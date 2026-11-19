@@ -87,13 +87,37 @@ WEGE = ["telefon", "email", "formular"]
 # `variante` wählt den Mailtext (platz-Aufhänger oder telefon-Aufhänger), `stand` hält den
 # Exporttag fest (die Plätze gelten nur bis zum nächsten Neubau).
 EXPORT_FELDER = ["eintrag_slug", "kampagne", "name", "state", "city", "eintrag_url",
-                 "platz", "anzahl", "bewertung", "bewertungen", "hat_bewertung", "telefon",
+                 "platz", "anzahl", "bewertung", "bewertungen", "hat_bewertung",
+                 "telefon", "telefon_national",
                  "email", "vorname", "nachname", "anrede", "variante", "stand"]
 
 # Welche Mail-Variante ein Eintrag bekommt: den Platz-Aufhänger („Platz N von M") nur, wenn der
-# Eintrag eine Bewertung hat UND die Stadtseite mindestens so viele Einträge führt — sonst wirkt
-# die Reihung nicht. Darunter der Telefon-Aufhänger. Fehlt dann das Telefon, fällt der Eintrag weg.
+# Eintrag eine Bewertung hat UND die Stadtseite mindestens so viele Einträge führt UND die Bewertung
+# mindestens PLATZ_HOOK_MIN_BEWERTUNG beträgt — sonst wirkt die Reihung nicht (ein hoher Platz bei
+# schlechter Bewertung ist kein guter Aufhänger). Darunter der Telefon-Aufhänger. Fehlt dann das
+# Telefon, fällt der Eintrag weg.
 PLATZ_HOOK_MIN_ANZAHL = 5
+PLATZ_HOOK_MIN_BEWERTUNG = 4.0
+
+# Fremde Gewerbe erkennen (Schuhmacher, Gravur, Baumarkt, Kaufhaus, Metallbau/Schlosserei ohne
+# Schlüsseldienst u. ä.), die nur über die locksmith-Kategorie hereinkamen. Trichter-Grund
+# „fremdes_gewerbe": standardmäßig werden solche Zeilen im Export nur GEZÄHLT, nicht entfernt — der
+# Betreiber entscheidet anhand der Liste. Erst FREMDES_GEWERBE_AUSSCHLIESSEN=True entfernt sie.
+FREMDES_GEWERBE_AUSSCHLIESSEN = False
+# Starke Signale (Name oder englische type-Kategorie) → fremd, außer der Name trägt „Schlüssel".
+FREMDE_GEWERBE_STARK = (
+    "schuhmacher", "schuster", "schuhservice", "schuhreparatur", "shoe repair", "shoe store",
+    "shoe", "cobbler", "gravur", "engrav", "mister minit", "minit", "baumarkt", "bauhaus",
+    "hornbach", "obi ", "toom", "hardware store", "building materials", "home improvement",
+    "home goods", "tool store", "kaufhaus", "department store", "dry clean", "cleaners",
+    "reinigung", "änderungsschneider", "clothing alteration", "bicycle", "fahrrad",
+    "cabinet maker", "joiner", "millwork",
+)
+# Schwächere Metall-Signale → fremd nur ohne Schlüssel-/Kernbezug (echte Schlosser sind oft Kern).
+FREMDE_GEWERBE_METALL = (
+    "metallbau", "metall ", "schlosserei", "schlosser ", "metal construction", "metal workshop",
+    "metal working", "metalwork", "ironware", "iron ware",
+)
 
 # Nur Einträge mit bestätigter Kernarbeit kommen in den Versand — fremde Gewerbe (Schreiner,
 # Schuhmacher, Metallbauer), die nur über die Kategorie hereinkamen, nicht.
@@ -142,6 +166,34 @@ SP_DATUM = {"datum", "date", "timestamp", "zeit", "time"}
 def ist_kernbetrieb(r):
     """Ist „Schlüsseldienst" oder „Türöffnung" als Merkmal bestätigt (wahr/true)?"""
     return any(truthy(r.get(c)) for c in KERN_SPALTEN)
+
+
+def ist_fremdes_gewerbe(r):
+    """Deutet Name oder Haupt-Kategorie (type) auf ein fremdes Gewerbe (Schuhmacher, Gravur,
+    Baumarkt, Kaufhaus, Metallbau/Schlosserei ohne Schlüsseldienst)? Nur ein Hinweis für die
+    Handprüfung (Trichter-Grund „fremdes_gewerbe"), kein automatischer Ausschluss."""
+    name = (r.get("name") or "").lower()
+    typ = (r.get("type") or "").lower()
+    text = name + " " + typ
+    hat_schluessel = ("schlüssel" in name or "schluessel" in name
+                      or "schlüsseldienst" in typ or "locksmith" in typ)
+    if any(w in text for w in FREMDE_GEWERBE_STARK):
+        return not hat_schluessel
+    if any(w in text for w in FREMDE_GEWERBE_METALL):
+        return not (hat_schluessel or ist_kernbetrieb(r))
+    return False
+
+
+def zu_national(tel):
+    """Deutsche Rufnummer in nationaler Schreibweise: +49 177 3977646 → 0177 3977646. Trennzeichen
+    und Reststruktur bleiben; andere (nicht deutsche) Formate bleiben unverändert."""
+    t = (tel or "").strip()
+    if not t:
+        return ""
+    neu = re.sub(r"^\+49[\s\-]*", "0", t)
+    if neu == t:
+        neu = re.sub(r"^0049[\s\-]*", "0", t)
+    return neu
 
 
 # Platzhalter-Namen, die manche Impressen aus einer Vorlage übrig lassen (Muster-Impressum). Sie
@@ -435,7 +487,7 @@ def _export_kandidaten(rows, dump, kontaktiert, sperr, vorgesehen, ansprech, mx_
     stat = {k: 0 for k in ("gesamt", "owned", "gesperrt", "kontaktiert", "vorgesehen",
                             "ohne_email", "formal_ungueltig", "kein_mailserver", "portal_zentrale",
                             "mehrfach", "kein_kernbetrieb", "stadt_hat_garantie_oder_platz",
-                            "nicht_im_dump", "keine_variante", "bleiben")}
+                            "nicht_im_dump", "keine_variante", "fremdes_gewerbe", "bleiben")}
     # Adressen säubern GLOBAL (Dedup/Portal über alle Einträge), ohne MX (MX erst für die, die alle
     # anderen Filter bestehen — spart Lookups). Der Trichter unten zählt je Reihe im Kampagnen-Umfang.
     behalten, drop = saeubere_adressen(rows)
@@ -477,7 +529,12 @@ def _export_kandidaten(rows, dump, kontaktiert, sperr, vorgesehen, ansprech, mx_
         telefon = (d.get("telefon") or "").strip()
         # Mail-Variante: Platz-Aufhänger nur mit Bewertung und genug Einträgen auf der Stadtseite,
         # sonst Telefon-Aufhänger. Ohne Telefon trägt der Eintrag keinen Aufhänger → fällt weg.
-        if d.get("hatBewertung") and (d.get("anzahl") or 0) >= PLATZ_HOOK_MIN_ANZAHL:
+        try:
+            rating_raw = float(d.get("ratingRaw") or 0)
+        except (TypeError, ValueError):
+            rating_raw = 0.0
+        if (d.get("hatBewertung") and (d.get("anzahl") or 0) >= PLATZ_HOOK_MIN_ANZAHL
+                and rating_raw >= PLATZ_HOOK_MIN_BEWERTUNG):
             variante = "platz"
         else:
             variante = "telefon"
@@ -492,12 +549,20 @@ def _export_kandidaten(rows, dump, kontaktiert, sperr, vorgesehen, ansprech, mx_
             "eintrag_url": d.get("eintragUrl", ""), "platz": d.get("platz", ""), "anzahl": d.get("anzahl", ""),
             "bewertung": d.get("bewertung", ""), "bewertungen": d.get("bewertungen", ""),
             "hat_bewertung": "wahr" if d.get("hatBewertung") else "falsch",
-            "telefon": telefon, "email": mail,
+            "telefon": telefon, "telefon_national": zu_national(telefon), "email": mail,
             "vorname": vn, "nachname": nn, "anrede": baue_anrede(vn, nn),
             "variante": variante, "stand": heute(),
-            "_score": score(r),
+            "_score": score(r), "_fremd": ist_fremdes_gewerbe(r),
         })
     # Obergrenze gerecht schneiden: die besten (Score absteigend) über alle Städte zuerst, damit
+    # Fremde Gewerbe: Trichter-Grund „fremdes_gewerbe" vorbereitet. Standardmäßig werden sie NUR
+    # gezählt (der Mensch entscheidet anhand der Liste); erst FREMDES_GEWERBE_AUSSCHLIESSEN entfernt
+    # sie — dann vor der Obergrenze, damit sie keinen Platz verbrauchen.
+    fremd_entfernt = 0
+    if FREMDES_GEWERBE_AUSSCHLIESSEN:
+        vor = len(zeilen)
+        zeilen = [z for z in zeilen if not z["_fremd"]]
+        fremd_entfernt = vor - len(zeilen)
     # späte Städte nicht ganz wegfallen. Danach erst die Datei-Reihenfolge herstellen.
     stat["ueber_limit"] = 0
     if a.limit and len(zeilen) > a.limit:
@@ -510,6 +575,10 @@ def _export_kandidaten(rows, dump, kontaktiert, sperr, vorgesehen, ansprech, mx_
     stat["mit_name"] = sum(1 for z in zeilen if z["vorname"] and z["nachname"])
     stat["variante_platz"] = sum(1 for z in zeilen if z["variante"] == "platz")
     stat["variante_telefon"] = sum(1 for z in zeilen if z["variante"] == "telefon")
+    # „fremdes_gewerbe": bei aktivem Ausschluss die entfernten, sonst die unter den versandfertigen
+    # Zeilen erkannten (nur Hinweis).
+    stat["fremdes_gewerbe"] = fremd_entfernt if FREMDES_GEWERBE_AUSSCHLIESSEN \
+        else sum(1 for z in zeilen if z["_fremd"])
     return zeilen, stat
 
 
@@ -536,10 +605,16 @@ def cmd_exportieren(a, rows, dump, kontaktiert, sperr, vorgesehen, ansprech, mx_
     print(f"  keine Variante (telefon, kein Tel.) {stat['keine_variante']:>6}")
     if stat.get("ueber_limit"):
         print(f"  über der Obergrenze abgeschnitten   {stat['ueber_limit']:>6}")
+    if FREMDES_GEWERBE_AUSSCHLIESSEN:
+        print(f"  fremdes Gewerbe (entfernt)          {stat['fremdes_gewerbe']:>6}")
     print(f"  --------------------------------------------")
     print(f"  versandfertig                       {stat['bleiben']:>6}  ({stat['mit_name']} mit persönlicher Anrede)")
     print(f"    davon Variante platz              {stat['variante_platz']:>6}")
-    print(f"    davon Variante telefon            {stat['variante_telefon']:>6}\n")
+    print(f"    davon Variante telefon            {stat['variante_telefon']:>6}")
+    if not FREMDES_GEWERBE_AUSSCHLIESSEN:
+        print(f"    darunter mutmaßl. fremdes Gewerbe {stat['fremdes_gewerbe']:>6}  "
+              f"(nur erkannt, nicht entfernt — Trichter-Grund fremdes_gewerbe)")
+    print()
 
     hinweis = ("Plätze gelten für den Stand von heute. Nach einem Neubau neu exportieren, "
                "nicht diese Datei versenden.")
