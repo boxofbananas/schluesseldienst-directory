@@ -1007,3 +1007,10 @@ Zahlen, was auf Freigabe wartet.
   bleibt. Probe Bayern erneut (`--probe`): versandfertig 91 unverändert, Variante platz 79→76,
   telefon 12→15 (drei unter 4,0, u. a. „Schuhmacher Lehel" 1,8). CLAUDE.md und Bericht
   berichte/2026-11-19-versand-export-anpassungen.md ergänzt.
+- **2026-11-19 — Fremde Gewerbe scharf geschaltet (`FREMDES_GEWERBE_AUSSCHLIESSEN = True`).**
+  Entscheidung des Betreibers: alle 28 bundesweit erkannten fremden Gewerbe (Schuhmacher, Tischler/
+  Schreiner, Baumärkte, Reinigungen, Fahrradläden …) raus aus dem Versand. Der Trichter-Schritt
+  entfernt sie nun vor der Obergrenze (Grund `fremdes_gewerbe`). Probe (`--probe`, nichts exportiert,
+  nichts vermerkt): national 638 → 610 versandfertig (28 entfernt; platz 425, telefon 185), Bayern
+  91 → 88 (3 entfernt; platz 74, telefon 14). CLAUDE.md auf den scharfen Stand gebracht; eine
+  stale Bayern-Zahl im Bericht vom selben Tag (4 → 3) korrigiert.

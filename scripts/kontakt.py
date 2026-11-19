@@ -103,7 +103,7 @@ PLATZ_HOOK_MIN_BEWERTUNG = 4.0
 # Schlüsseldienst u. ä.), die nur über die locksmith-Kategorie hereinkamen. Trichter-Grund
 # „fremdes_gewerbe": standardmäßig werden solche Zeilen im Export nur GEZÄHLT, nicht entfernt — der
 # Betreiber entscheidet anhand der Liste. Erst FREMDES_GEWERBE_AUSSCHLIESSEN=True entfernt sie.
-FREMDES_GEWERBE_AUSSCHLIESSEN = False
+FREMDES_GEWERBE_AUSSCHLIESSEN = True
 # Starke Signale (Name oder englische type-Kategorie) → fremd, außer der Name trägt „Schlüssel".
 FREMDE_GEWERBE_STARK = (
     "schuhmacher", "schuster", "schuhservice", "schuhreparatur", "shoe repair", "shoe store",

@@ -478,12 +478,13 @@ JJJJ-MM-TT):
 **Fremde Gewerbe (Trichter-Grund `fremdes_gewerbe`).** Die `locksmith`-Kategorie fängt auch
 Schuhmacher, Gravurbetriebe, Baumärkte, Kaufhäuser, Tischlereien und Metallbau/Schlosserei (ohne
 Schlüsseldienst) ein. `exportieren` erkennt solche Zeilen an Name oder Haupt-Kategorie (`type`)
-über `ist_fremdes_gewerbe` und **zählt** sie unter den versandfertigen aus („darunter mutmaßl.
-fremdes Gewerbe"), **entfernt sie aber nicht** — der Betreiber entscheidet je Eintrag (etwa per
-`kontakt.py sperren`). Erst die Konstante `FREMDES_GEWERBE_AUSSCHLIESSEN = True` schaltet
-den Trichter-Schritt scharf und nimmt die erkannten Zeilen (Grund `fremdes_gewerbe`) vor der
-Obergrenze heraus. Metall-Signale (Metallbau/Schlosserei) gelten nur ohne Schlüssel-/Kernbezug als
-fremd, die klaren Signale (Schuh, Gravur, Baumarkt …) unabhängig davon.
+über `ist_fremdes_gewerbe`. Die Konstante `FREMDES_GEWERBE_AUSSCHLIESSEN` steuert, was damit
+geschieht: **`True` (Stand 2026-11-19, scharf)** nimmt die erkannten Zeilen vor der Obergrenze aus
+dem Export heraus und zählt sie als Trichter-Grund `fremdes_gewerbe` („fremdes Gewerbe (entfernt)");
+`False` lässt sie drin und zählt sie nur aus („darunter mutmaßl. fremdes Gewerbe"), damit der
+Betreiber sie prüfen kann. Metall-Signale (Metallbau/Schlosserei) gelten nur ohne Schlüssel-/
+Kernbezug als fremd, die klaren Signale (Schuh, Gravur, Baumarkt …) unabhängig davon. Der Betreiber
+hat am 2026-11-19 entschieden, alle 28 bundesweit erkannten fremden Gewerbe auszuschließen.
 
 Jeder Export trägt einen **Kampagnennamen** und eine **Obergrenze** (`--limit`); exportierte
 Einträge werden als „vorgesehen" vermerkt und nicht ein zweites Mal exportiert. Die Obergrenze

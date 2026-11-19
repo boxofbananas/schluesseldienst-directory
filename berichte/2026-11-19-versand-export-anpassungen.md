@@ -86,7 +86,7 @@ bleiben unangetastet.
 | versandfertig | 91 | 91 |
 | davon Variante `platz` | 79 | **76** |
 | davon Variante `telefon` | 12 | **15** |
-| darunter mutmaßl. fremdes Gewerbe | — | 4 |
+| darunter mutmaßl. fremdes Gewerbe | — | 3 |
 
 Drei Zeilen wechselten von `platz` zu `telefon`, weil ihre Bewertung unter 4,0 liegt (darunter
 „Schuhmacher Lehel", München, 1,8). `versandfertig` bleibt 91 — es wurde nichts entfernt.
